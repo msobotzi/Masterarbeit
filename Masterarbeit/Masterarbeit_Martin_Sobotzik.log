@@ -1,33 +1,31 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.4.3)  1 OCT 2018 15:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.10)  1 OCT 2018 18:53
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**Physik_Vorlage_Bachelorarbeit.tex
-(./Physik_Vorlage_Bachelorarbeit.tex
-LaTeX2e <2017/01/01> patch level 3
-Babel <3.9r> and hyphenation patterns for 10 language(s) loaded.
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbook.cls
-Document Class: scrbook 2016/06/14 v3.21 KOMA-Script document class (book)
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrkbase.sty
-Package: scrkbase 2016/06/14 v3.21 KOMA-Script package (KOMA-Script-dependent b
+**./Masterarbeit_Martin_Sobotzik.tex
+(Masterarbeit_Martin_Sobotzik.tex
+LaTeX2e <2017-04-15>
+Babel <3.9t> and hyphenation patterns for 75 language(s) loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrbook.cls"
+Document Class: scrbook 2017/01/03 v3.22 KOMA-Script document class (book)
+("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrkbase.sty"
+Package: scrkbase 2017/01/03 v3.22 KOMA-Script package (KOMA-Script-dependent b
 asics and keyval usage)
 
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbase.sty
-Package: scrbase 2016/06/14 v3.21 KOMA-Script package (KOMA-Script-independent 
+("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrbase.sty"
+Package: scrbase 2017/01/03 v3.22 KOMA-Script package (KOMA-Script-independent 
 basics and keyval usage)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
-Package: scrlfile 2016/06/14 v3.21 KOMA-Script package (loading files)
+("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrlfile.sty"
+Package: scrlfile 2017/01/03 v3.22 KOMA-Script package (loading files)
 
-Package scrlfile, 2016/06/14 v3.21 KOMA-Script package (loading files)
+Package scrlfile, 2017/01/03 v3.22 KOMA-Script package (loading files)
                   Copyright (C) Markus Kohm
 
-))) (/usr/share/texlive/texmf-dist/tex/latex/koma-script/tocbasic.sty
-Package: tocbasic 2016/06/14 v3.21 KOMA-Script package (handling toc-files)
+))) ("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\tocbasic.sty"
+Package: tocbasic 2017/01/03 v3.22 KOMA-Script package (handling toc-files)
 \scr@dte@tocline@numberwidth=\skip41
 \scr@dte@tocline@numbox=\box26
 )
@@ -41,7 +39,7 @@ Package tocbasic Info: omitting babel extension for `lot'
 (tocbasic)             because of feature `nobabel' available
 (tocbasic)             for `lot' on input line 134.
 Package tocbasic Info: defining new hook before heading of `' on input line 160
-2.
+3.
 Package scrbook Info: You've used standard option `11pt'.
 (scrbook)             This is correct!
 (scrbook)             Internally I'm using `fontsize=11pt'.
@@ -67,16 +65,16 @@ Class scrbook Info: You've used standard option `openbib'.
 (scrbook)           you'd have to use `bibliography=openstyle' there
 (scrbook)           instead of `openbib', too.
 Class scrbook Info: File `scrsize11pt.clo' used to setup font sizes on input li
-ne 2269.
+ne 2270.
 
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
-File: scrsize11pt.clo 2016/06/14 v3.21 KOMA-Script font size class option (11pt
+("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrsize11pt.clo"
+File: scrsize11pt.clo 2017/01/03 v3.22 KOMA-Script font size class option (11pt
 )
 )
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/typearea.sty
-Package: typearea 2016/06/14 v3.21 KOMA-Script package (type area)
+("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\typearea.sty"
+Package: typearea 2017/01/03 v3.22 KOMA-Script package (type area)
 
-Package typearea, 2016/06/14 v3.21 KOMA-Script package (type area)
+Package typearea, 2017/01/03 v3.22 KOMA-Script package (type area)
                   Copyright (C) Frank Neukam, 1992-1994
                   Copyright (C) Markus Kohm, 1994-
 
@@ -120,7 +118,7 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \topskip        = 11.0pt
 (typearea)              \footskip       = 47.6pt
 (typearea)              \baselineskip   = 13.6pt
-(typearea)              on input line 1529.
+(typearea)              on input line 1583.
 )
 \c@part=\count80
 \c@chapter=\count81
@@ -136,38 +134,37 @@ Package typearea Info: These are the values describing the layout:
 \scr@dte@subsubsection@maxnumwidth=\skip51
 \scr@dte@paragraph@maxnumwidth=\skip52
 \scr@dte@subparagraph@maxnumwidth=\skip53
-LaTeX Info: Redefining \textsubscript on input line 4782.
+LaTeX Info: Redefining \textsubscript on input line 4826.
 \abovecaptionskip=\skip54
 \belowcaptionskip=\skip55
 \c@pti@nb@sid@b@x=\box27
 \c@figure=\count87
 \c@table=\count88
-Class scrbook Info: Redefining `\numberline' on input line 5813.
+Class scrbook Info: Redefining `\numberline' on input line 5893.
 \bibindent=\dimen102
-) (/usr/share/texlive/texmf-dist/tex/generic/german/german.sty
+) ("C:\Program Files\MiKTeX 2.9\tex\generic\german\german.sty"
 v2.5e 1998-07-08
 Package: german 1998/07/08 v2.5e Support for writing german texts (br)
 \grmnU@D=\dimen103
-german -- \language number for Austrian undefined, default 6 used.
-german -- \language number for French undefined, default 255 used.
-) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+german -- \language number for Austrian undefined, default 24 used.
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2016/11/05 v2.16a AMS math features
 \@mathmargin=\skip56
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks15
 \ex@=\dimen104
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen105
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count89
@@ -208,29 +205,29 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks20
 \inpenc@posthook=\toks21
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
 File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -471,7 +468,7 @@ File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
 File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -512,7 +509,7 @@ File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
 File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -536,27 +533,27 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2016/10/09 v1.0u Standard LaTeX Graphics (DPC,SPQR)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
 File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count101
@@ -564,19 +561,19 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen113
 \Gin@req@width=\dimen114
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\enumerate.sty"
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \@enLab=\toks22
 )
-(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@colwidth=\skip59
 \multirow@cntb=\count102
 \multirow@dima=\skip60
 \bigstrutjot=\dimen115
 )
-(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.sty
-Package: subfigure 2002/03/15 v2.1.5 subfigure package
+("C:\Program Files\MiKTeX 2.9\tex\latex\subfigure\subfigure.sty"
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigtopskip=\skip61
 \subfigcapskip=\skip62
 \subfigcaptopadj=\dimen116
@@ -591,18 +588,18 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
-(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+("C:\Program Files\MiKTeX 2.9\tex\latex\subfigure\subfigure.cfg")
 \subfig@top=\skip65
 \subfig@bottom=\skip66
 )
-(/usr/share/texlive/texmf-dist/tex/latex/doublestroke/dsfont.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\doublestroke\dsfont.sty"
 Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
 )
-(/usr/share/texlive/texmf-dist/tex/latex/carlisle/slashed.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\carlisle\slashed.sty"
 Package: slashed 1997/01/16 v0.01 Feynman Slashed Character Notation (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
-Package: textcomp 2017/02/22 v2.0g Standard LaTeX package
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\textcomp.sty"
+Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
 (textcomp)               4 = 5 + \texteuro
@@ -616,12 +613,12 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.def"
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.dfu"
 File: ts1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A2 (decimal 162)
    defining Unicode char U+00A3 (decimal 163)
@@ -757,7 +754,7 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -765,8 +762,8 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 LaTeX Warning: Unused global option(s):
     [german].
 
-(./Physik_Vorlage_Bachelorarbeit.aux)
-\openout1 = `Physik_Vorlage_Bachelorarbeit.aux'.
+(Masterarbeit_Martin_Sobotzik.aux)
+\openout1 = `Masterarbeit_Martin_Sobotzik.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
 LaTeX Font Info:    ... okay on input line 75.
@@ -783,12 +780,12 @@ LaTeX Font Info:    ... okay on input line 75.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 75.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 75.
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 75.
 
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count107
 \scratchdimen=\dimen118
@@ -801,38 +798,38 @@ LaTeX Font Info:    ... okay on input line 75.
 \MPnumerator=\count111
 \makeMPintoPDFobject=\count112
 \everyMPtoPDFconversion=\toks24
-) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
+) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
@@ -845,11 +842,7 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
+)
 Underfull \hbox (badness 10000) in paragraph at lines 94--96
 
  []
@@ -858,24 +851,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--96
 
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 Underfull \hbox (badness 10000) in paragraph at lines 107--115
 
  []
 
-[2] (./Physik_Vorlage_Bachelorarbeit.toc
+[2] (Masterarbeit_Martin_Sobotzik.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 3.
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 3.
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
 \tf@toc=\write3
-\openout3 = `Physik_Vorlage_Bachelorarbeit.toc'.
+\openout3 = `Masterarbeit_Martin_Sobotzik.toc'.
 
  [3
 
@@ -894,18 +887,32 @@ chapter 2.
 
 ]
 chapter 3.
+
+Class scrbook Warning: You are using `\begin{appendix}...\end{appendix}'.
+(scrbook)              You should note, that `\appendix' is a mostly globally
+(scrbook)              working command not an enviroment with only local
+(scrbook)              effects. Therefore `\end{appendix}' will neither
+(scrbook)              switch back to normal section numbering nor finish
+(scrbook)              every other effect of `\begin{appendix}'.
+(scrbook)              Nevertheless, some effects may end with
+(scrbook)              `\end{appendix}' and the document may become
+(scrbook)              inconsistent.
+(scrbook)              Because of this, you should remove `\end{appendix}'
+(scrbook)              and replace `\begin{appendix}' by command
+(scrbook)              `\appendix' on input line 214.
+
 [3
 
 
 ]
 chapter A.
-<BA-Abbildung1.pdf, id=27, 521.95pt x 321.2pt>
+<BA-Abbildung1.pdf, id=26, 521.95pt x 321.2pt>
 File: BA-Abbildung1.pdf Graphic file (type pdf)
  <use BA-Abbildung1.pdf>
-Package pdftex.def Info: BA-Abbildung1.pdf used on input line 223.
+Package pdftex.def Info: BA-Abbildung1.pdf used on input line 230.
 (pdftex.def)             Requested size: 417.56056pt x 256.96034pt.
 
-Overfull \hbox (10.68608pt too wide) in paragraph at lines 223--224
+Overfull \hbox (10.68608pt too wide) in paragraph at lines 230--231
  [] 
  []
 
@@ -925,29 +932,28 @@ chapter C.
 [8
 
 
-] (./Physik_Vorlage_Bachelorarbeit.aux) ) 
+] (Masterarbeit_Martin_Sobotzik.aux) ) 
 Here is how much of TeX's memory you used:
- 5836 strings out of 494852
- 90712 string characters out of 6177658
- 233183 words of memory out of 5000000
- 9051 multiletter control sequences out of 15000+600000
- 11874 words of font info for 44 fonts, out of 8000000 for 9000
- 37 hyphenation exceptions out of 8191
- 48i,7n,66p,8870b,318s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl
-10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Physik_Vorlage_Bachelorarbeit.pdf (11 pages, 155119 bytes).
+ 5841 strings out of 493324
+ 90427 string characters out of 3139079
+ 238947 words of memory out of 3000000
+ 9278 multiletter control sequences out of 15000+200000
+ 11874 words of font info for 44 fonts, out of 3000000 for 9000
+ 1142 hyphenation exceptions out of 8191
+ 48i,7n,66p,8871b,322s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmti8.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmtt10.pfb>
+Output written on Masterarbeit_Martin_Sobotzik.pdf (11 pages, 164844 bytes).
 PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
- 58 compressed objects within 1 object stream
+ 81 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
