@@ -1,6 +1,6 @@
 \contentsline {chapter}{\numberline {1}Einleitung}{1}
 \contentsline {chapter}{\numberline {2}Experimental Setup at SuperKEKB}{2}
-\contentsline {section}{\numberline {2.1}KEK}{2}
+\contentsline {section}{\numberline {2.1}KEKB and SuperKEKB}{2}
 \contentsline {section}{\numberline {2.2}Grundlagen}{2}
 \contentsline {section}{\numberline {2.3}Versuchsaufbau}{2}
 \contentsline {section}{\numberline {2.4}Methoden}{2}
