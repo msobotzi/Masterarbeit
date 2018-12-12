@@ -16,7 +16,7 @@
 %_______________________________________________________________________________
 % packages
 %_______________________________________________________________________________
-\usepackage{german}
+\usepackage[english]{babel}
 \usepackage{amsmath, amssymb}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
@@ -28,6 +28,8 @@
 \usepackage{textcomp}
 \usepackage{url}
 \usepackage{amsmath}
+\usepackage{hyperref}
+
 %_______________________________________________________________________________
 % bold fonts for headings
 %_______________________________________________________________________________
@@ -79,21 +81,22 @@
 \begin{titlepage}
   \vspace*{6mm}
   \begin{center}
-     {\afont Titel der Bachelorarbeit}
+     {\afont Systematic Studies on Reconstruction Efficiency at Belle II}
      \\[3.5cm]
      {\large von}
      \\[3.5cm]
-     {\dfont Johanna Musterfrau}
+     {\dfont Martin Sobotzik}
      \\[2cm]
      {\large Bachelorarbeit in Physik \/\\
         vorgelegt dem Fachbereich Physik, Mathematik und Informatik (FB 08) \/\\
         der Johannes Gutenberg-Universit\"at Mainz \/\\
-        am 1. April 2012}
+        am 3. Dezember 2019}
    \end{center}
    \vfill
-   1. Gutachter: Prof. Dr. Lebeim Elfenbeinturm\\	
+   1. Gutachter: Prof. Dr. Wolfgang Gradl\\	
    2. Gutachter: Prof. Dr. Habe D\"unkel \\
    \vfill
+
 \end{titlepage}
 
 \thispagestyle{empty}
@@ -105,18 +108,21 @@ Zitate kenntlich gemacht habe.
 Mainz, den [Datum] [Unterschrift]
 \vfill
 \noindent 
-Johanna Musterfrau\\
-KOMET\\
-Institut f\"ur Physik\\
-Staudingerweg 7\\
+Martin Sobotzik\\
+Institut f\"ur Kernphysik\\
+Johannes-Joachim-Becher-Weg 45\\
 Johannes Gutenberg-Universit\"at
-D-55099 Mainz\\
-%{\tt Johanna.Musterfrau@uni-mainz.de}
+D-55128 Mainz\\
+{\href{msobotzi@students.uni-mainz.de}{msobotzi@students.uni-mainz.de}}
 
 %_______________________________________________________________________________
-\renewcommand\contentsname{Inhaltsverzeichnis}
-\renewcommand\figurename{Abbildung}
-\renewcommand\tablename{Tabelle}
+
+
+
+
+\renewcommand\contentsname{Contents}
+\renewcommand\figurename{Figure}
+\renewcommand\tablename{Table}
 \tableofcontents
 \clearpage
 
@@ -124,7 +130,8 @@ D-55099 Mainz\\
 \sloppy
 
 %_______________________________________________________________________________
-\chapter{Einleitung}
+\chapter{Introduction}
+\label{sec:Introduction}
 
 {\em Dieses Dokument richtet sich an Studierende am Fachbereich 08 im 
 Studiengang Bachelor of Science (Physik). Sie finden hier Beispiele 
@@ -152,16 +159,36 @@ ersten \"Uberblick \"uber den nachfolgenden Text zu geben.
 
 %_______________________________________________________________________________
 \chapter{Experimental Setup at SuperKEKB}
+\label{sec:SetupKEK}
 
-SuperKEKB is an electron positron accelerator, which is located at KEK (\textit{High Energy Accelerator Research Organisation}) in Tsukuba Japan. The two beams have an asymmetric energy. 
-The electron beam has an energy of $7\ \textnormal{GeV}$ 
-and the positron beam have an energy of $4\ \textnormal{GeV}$. These beams collide with a center-of-momentum energy of about $10.58\ \textnormal{GeV}$, which is close to the mass of the $\Upsilon(4\textnormal{S})$ resonance. Therefore SuperKEKB is a so called \textit{B-factory}. The decay products are then detected by the  Belle II detector to study the properties of these B mesons with high precision. In early 2018 Belle II started taking data. One goal of Belle II is to study CP-Violation with respect to new physics.
+SuperKEKB is an two-ring, asymmetric, electron positron accelerator, which is located at KEK (\textit{High Energy Accelerator Research Organization}) in Tsukuba Japan. 
+The electron beam has an energy of $7\,\textnormal{GeV}$ 
+and the positron beam has an energy of $4\,\textnormal{GeV}$. These beams collide with a center-of-momentum energy of about $10.58\,\textnormal{GeV}$, which is close to the mass of the $\Upsilon(4\textnormal{S})$ resonance. Therefore SuperKEKB is a so called \textit{B-factory}. The decay products are then detected by the  Belle II detector to study the properties of these B mesons with high precision. In early 2018 Belle II started taking data. One goal of Belle II is to study CP-Violation with respect to new physics.
 
 \section{KEKB and SuperKEKB}
+\label{sec:KEK}
+This section will only provide a rough overview of the SuperKEKB accelerator since the focus of this work is on the analysis. 
+
+SuperKEKB is an upgrade of the KEKB accelerator. KEKB was also an asymmetric electron positron accelerator in the period from 1998 to 2010, but the energies were different compared to SuperKEKB. At KEKB the electrons were accelerated to an energy of $8\,\textrm{GeV}$ and the positrons to $3.5\,\textrm{GeV}$. KEKB was also a B-factory and the reactions products were then detected in the Belle detector. KEKB was discontinued after more than 10 years.
+
+SuperKEKB uses smaller asymmetry in the beam energies. This allows the usage for higher beam currents and better focusing magnets compared to KEKB. This then results into a higher luminosity.
+
+The detection experiments at SuperKEKB are performed at the collision point of the two beams. This is also called the interaction region (IR).
+%KEKB was a two-ring, asymmetric, particle accelerator in the period from 1998 to 2010 at the Japanese Research Center KEK in Tsukuba. It's main goal was the production of B-mesons. For this the electrons were accelerated to $8\,\textrm{GeV}$ and the positron to $\,3.5\textrm{GeV}$.
+
+\begin{figure}[h!]
+	\begin{center}
+		\includegraphics[width=8cm]{Bilder/SuperKEKB.png}
+		\label{fig:SuperKEKB}
+		\caption{The SuperKEKB collider.}
+	\end{center}
+\end{figure}
+
+In figure \ref{fig:SuperKEKB} you can see the schematic layout of the SuperKEKB accelerator. The electrons are start at the Low emittance gun. They are then accelerated in the \textit{J}-shaped linear particle accelerator (linac). Due to lack of space the linac has to have this special form. After the curve and a second acceleration stage the electrons hit the positron production target.
 
 
-
-
+\section{The Belle II Experiment}
+\label{sec:BelleII}
 
 
 %Die typische Gliederung einer Bachelorarbeit k\"onnte so aussehen, 
@@ -185,6 +212,11 @@ Wenn Sie an einem experimentellen Thema arbeiten, beschreiben Sie
 den Versuchsaufbau, auch wenn Sie an einem bereits vorhandenen 
 Versuch arbeiten, soweit dies f\"ur Ihre spezielle Fragestellung 
 relevant ist. 
+
+
+\chapter{BASF2}
+\label{BASF2}
+
 
 \section{Methoden}
 
@@ -228,12 +260,10 @@ vorhanden sind.
 \begin{figure}[h]
 \begin{center}
 \includegraphics[scale=0.8]{BA-Abbildung1.pdf}
+\label{TestTest}
+\caption{Das ist ein Test}
 \end{center}
-\caption{\label{Abb:1}
-Feynmandiagramm f\"ur eine typische Einschleifen-Korrektur zur 
-Produktion von sieben Jets in der $e^+e^-$-Vernichtung (entnommen 
-aus \cite{thepnews}, mit Zustimmung der Autoren).
-} 
+
 \end{figure}
 
 
@@ -250,7 +280,9 @@ Insbesondere f\"ur zuk\"unftige Arbeiten, die an Ihre Bachelorarbeit
 anschlie{\ss}en, sind dies manchmal hilfreiche Informationen.
 
 %_______________________________________________________________________________
-\chapter{Literaturverzeichnis}
+\listoffigures
+\listoftables
+\chapter{Bibliography}
 
 Machen Sie genaue Angaben, so dass die verwendeten Literaturstellen 
 eindeutig identifiziert und aufgefunden werden k\"onnen.
@@ -272,7 +304,7 @@ enthaltenen Anweisungen als Stilvorlage verwendet. Andere
 M\"oglichkeiten f\"ur die Gestaltung eines Literaturverzeichnisses 
 findet man im Internet: \url{http://janeden.net/bibliographien-mit-latex}.
 
-\renewcommand{\bibname}{\bfont Literaturverzeichnis} 
+\renewcommand{\bibname}{\bfont Bibliography} 
 \bibliographystyle{h-physrev3}
 \begin{thebibliography}{99}
 
