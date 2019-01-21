@@ -11,6 +11,6 @@
 \contentsline {chapter}{\numberline {4}Zusammenfassung und Ausblick}{5}{chapter.4}
 \contentsline {chapter}{\numberline {A}Anhang}{6}{appendix.A}
 \contentsline {section}{\numberline {A.1}Tabellen und Abbildungen}{6}{section.A.1}
-\contentsline {section}{\numberline {A.2}Weiterf\"uhrende Details zur Arbeit}{6}{section.A.2}
-\contentsline {chapter}{\numberline {B}Bibliography}{9}{appendix.B}
-\contentsline {chapter}{\numberline {C}Danksagung}{11}{appendix.C}
+\contentsline {section}{\numberline {A.2}Weiterf\"uhrende Details zur Arbeit}{7}{section.A.2}
+\contentsline {chapter}{\numberline {B}Bibliography}{10}{appendix.B}
+\contentsline {chapter}{\numberline {C}Danksagung}{12}{appendix.C}
