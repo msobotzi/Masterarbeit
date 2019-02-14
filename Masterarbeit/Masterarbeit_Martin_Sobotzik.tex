@@ -29,6 +29,8 @@
 \usepackage{url}
 \usepackage{amsmath}
 \usepackage{hyperref}
+\usepackage{tikz}
+
 
 %_______________________________________________________________________________
 % bold fonts for headings
@@ -157,11 +159,15 @@ warum Aufgabenstellung und Herangehensweise interessant sind. Auch
 die weitere Gliederung kann angesprochen werden, um dem Leser einen 
 ersten \"Uberblick \"uber den nachfolgenden Text zu geben.
 
+\chapter{Bhabha Scattering}
+
+
+
 %_______________________________________________________________________________
 \chapter{Experimental Setup at SuperKEKB}
 \label{sec:SetupKEK}
 
-SuperKEKB is an two-ring, asymmetric, electron positron accelerator, which is located at KEK (\textit{High Energy Accelerator Research Organization}) in Tsukuba Japan. 
+SuperKEKB is an two-ring, asymmetric\footnote{asymmetric means that there is an energy difference between the two colliding beams}, electron positron accelerator, which is located at KEK (\textit{High Energy Accelerator Research Organization}) in Tsukuba Japan. 
 The electron beam has an energy of $7\,\textnormal{GeV}$ 
 and the positron beam has an energy of $4\,\textnormal{GeV}$. These beams collide with a center-of-momentum energy of about $10.58\,\textnormal{GeV}$, which is close to the mass of the $\Upsilon(4\textnormal{S})$ resonance. Therefore SuperKEKB is a so called \textit{B-factory}. The decay products are then detected by the  Belle II detector to study the properties of these B mesons with high precision. In early 2018 Belle II started taking data. One goal of Belle II is to study CP-Violation with respect to new physics.
 
@@ -169,35 +175,55 @@ and the positron beam has an energy of $4\,\textnormal{GeV}$. These beams collid
 \label{sec:KEK}
 This section will only provide a rough overview of the SuperKEKB accelerator since the focus of this work is on the analysis. 
 
-SuperKEKB is an upgrade of the KEKB accelerator. KEKB was also an asymmetric electron positron accelerator in the period from 1998 to 2010, but the energies were different compared to SuperKEKB. At KEKB the electrons were accelerated to an energy of $8\,\textrm{GeV}$ and the positrons to $3.5\,\textrm{GeV}$. KEKB was also a B-factory and the reactions products were then detected in the Belle detector. KEKB was discontinued after more than 10 years.
+SuperKEKB is an upgrade of the KEKB accelerator. KEKB was also an asymmetric electron positron accelerator in the period from 1998 to 2010, but the energies were different compared to SuperKEKB. At KEKB the electrons were accelerated to an energy of $8\,\textrm{GeV}$ and the positrons to an energy of $3.5\,\textrm{GeV}$. KEKB was also a B-factory and the reaction products were then detected in the Belle detector. In 2009 KEKB achieved an instantaneous luminosity of $2 \cdot 10^{34}\,\textrm{cm}^{-1}\textrm{s}^{-1}$. This was the world record at that time. KEKB was discontinued after more than 10 years, to be upgraded to SuperKEKB.
 
-SuperKEKB uses smaller asymmetry in the beam energies. This allows the usage for higher beam currents and better focusing magnets compared to KEKB. This then results into a higher luminosity.
-
-The detection experiments at SuperKEKB are performed at the collision point of the two beams. This is also called the interaction region (IR).
-%KEKB was a two-ring, asymmetric, particle accelerator in the period from 1998 to 2010 at the Japanese Research Center KEK in Tsukuba. It's main goal was the production of B-mesons. For this the electrons were accelerated to $8\,\textrm{GeV}$ and the positron to $\,3.5\textrm{GeV}$.
 
 \begin{figure}[h!]
-	\begin{center}
-		\includegraphics[width=8cm]{Bilder/SuperKEKB.png}
-		\label{fig:SuperKEKB}
-		\caption{The SuperKEKB collider.}
-	\end{center}
+\begin{center}
+	\includegraphics[width=8cm]{Bilder/SuperKEKB.png}
+	\label{fig:SuperKEKB}
+	\caption{The SuperKEKB collider.}
+\end{center}
 \end{figure}
 
-In figure \ref{fig:SuperKEKB} you can see the schematic layout of the SuperKEKB accelerator. The electrons are start at the Low emittance gun. They are then accelerated in the \textit{J}-shaped linear particle accelerator (linac). Due to lack of space the linac has to have this special form. After the curve and a second acceleration stage the electrons hit the positron production target.
+In figure \ref{fig:SuperKEKB} you can see the schematic layout of the SuperKEKB accelerator. The electrons are start at the Low emittance gun. They are then accelerated in the \textit{J}-shaped linear particle accelerator (linac). Due to lack of space, the linac has to have this special form. After the curve and a second acceleration stage the electrons hit the positron production target, where the positrons are created. After this target there are more acceleration stages, before the two beam are then injected into their independent storage rings. The electrons are stored in the high-energy ring (HER) and the positrons are stored in the low-energy ring (LER). Each of these rings has a circumference of about $3\,\textrm{km}$. Both beams collide at the interaction region (IR). The products of the collisions are then detected by the Belle II detector, an upgraded version of the Belle detector. (See chapter \ref{sec:BelleII})
+
+SuperKEKB uses a smaller asymmetry in the beam energies. This allows the usage for higher beam currents and better focusing magnets compared to KEKB. This can then result into a higher luminosity. The goal is to achieve a 40 times higher luminosity with SuperKEKB compared to KEKB.
+An integrated luminosity of $50\,\textrm{ab}^{-1}$ will be achieved by 2025.
+
+The instantaneous luminosity $\mathcal{L}$ specifies the performance of the collider. Knowing $\mathcal{L} $ and the cross section $\sigma$ one can calculate the events per second for a process by the following formula.
+\begin{equation}
+\frac{\textrm{d}N}{\textrm{d}t} = \mathcal{L} \cdot \sigma
+\end{equation} 
+
+To increase the event rate one has to increase the instantaneous luminosity since $\sigma$ is given by the processes. The instantaneous luminosity can be calculate by
+\begin{equation}
+	\mathcal{L} = \frac{N_{e^-}N_{e^+}f_c}{4\pi \sigma_x \sigma_y} \cdot R_L
+	\label{eq:Lumi}
+\end{equation}
+ assuming that both beams have a Gaussian profile of horizontal and vertical size $\sigma_x$ and $\sigma_y$. In equation \ref{eq:Lumi} $N_{e^-}$ is the number of particles in an electron bunch and $N_{e^+}$ is the number of particles in a positron bunch. $f_c$ is the average crossing rate, which can be calculated by $f_c = n \cdot f_r$. Where $n$ is the number of bunches and $f_r$ is the revolution frequency. SuperKEKB increased the luminosity by a factor of two compared to KEKB by increasing the number of bunches and the number of particles per bunch.
+ 
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=14.5cm]{Bilder/bsSKEK}
+	\label{fig:beamsize}
+	\caption{Sketch of the beam crossing at KEKB (left) and SuperKEKB (right). At KEKB the size of the interaction region was about $10\,\textrm{mm}$. At SuperKEKB it is about $0.5\,\textrm{mm}$}
+\end{figure}
+
+Also the size of the interaction region at SuperKEKB is just one twentieth of what it was at KEKB, resulting in a vertical beam size of $\sigma \approx 50\,\textrm{nm} $. This can be seen in figure \ref{fig:beamsize}. This decrease in beam size, along with the increase in the beam currents, results in a 40-fold increase in luminosity. 
+
+
+%The detection experiments at SuperKEKB are performed at the interaction point (IR) of the two beams with the Belle II detector.
+%KEKB was a two-ring, asymmetric, particle accelerator in the period from 1998 to 2010 at the Japanese Research Center KEK in Tsukuba. It's main goal was the production of B-mesons. For this the electrons were accelerated to $8\,\textrm{GeV}$ and the positron to $\,3.5\textrm{GeV}$.
+
+
 
 
 \section{The Belle II Experiment}
 \label{sec:BelleII}
 
 
-%Die typische Gliederung einer Bachelorarbeit k\"onnte so aussehen, 
-%wie im folgenden dargestellt. 
-\medskip
 
-%Verwenden Sie aussagekr\"aftige Kapitel\"uberschriften, also zum 
-Beispiel {\em Aufbau eines Teilchenbeschleunigers} statt 
-{\em Versuchsaufbau}.
 
 
 %_______________________________________________________________________________
