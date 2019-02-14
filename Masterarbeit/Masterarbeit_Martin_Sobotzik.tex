@@ -32,26 +32,28 @@
 \usepackage{tikz}
 
 
-\usepackage[backend=biber,style=numeric,autocite=plain,sorting=none]{biblatex}
+\usepackage[backend=bibtex,sorting=none]{biblatex}
 
 
 
 
-\begin{filecontents*}{refs.bib}
+\begin{filecontents*}{Masterarbeit_Martin_Sobotzik.bib}
 	@BOOK
 	{
-	Belle2Book,
+	B2Book,
 	author = {E. Kou et al.},
 	title = {The Belle II Physics Book},
 	date = {2018},
 	url = {https://arxiv.org/abs/1808.10567},
 
-\nocite{*}
+
 
 }
 \end{filecontents*}
 
-\addbibresource{ref.bib}
+
+\bibliographystyle{alpha}
+\addbibresource{Masterarbeit_Martin_Sobotzik.bib}
 %_______________________________________________________________________________
 % bold fonts for headings
 %_______________________________________________________________________________
@@ -347,7 +349,7 @@ zum Beispiel f\"ur Software \cite{LoopTools} oder zu den Details von
 Ergebnissen gro{\ss}er experimenteller Kollaborationen. Es ist 
 selbstverst\"andlich, dass Sie auch Bachelor- \cite{BA:Freund}, 
 Diplom- oder Doktorarbeiten angeben, wenn Sie diese in Ihrer eigenen 
-Arbeit verwendet haben.
+Arbeit verwendet haben.\cite{B2Book}
 \medskip
 
 Im folgenden Beispiel werden die in der Datei %{\tt h-physrev3.bst} 

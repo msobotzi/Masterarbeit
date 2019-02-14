@@ -44,7 +44,8 @@
   <internal package="biblatex" priority="9" active="1">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>Masterarbeit_Martin_Sobotzik.bcf</file>
+      <file>Masterarbeit_Martin_Sobotzik.aux</file>
+      <file>Masterarbeit_Martin_Sobotzik-blx.bib</file>
     </provides>
     <requires type="dynamic">
       <file>Masterarbeit_Martin_Sobotzik.bbl</file>
@@ -52,9 +53,10 @@
     <requires type="static">
       <file>blx-dm.def</file>
       <file>blx-compat.def</file>
+      <file>blx-bibtex.def</file>
       <file>biblatex.def</file>
-      <file>numeric.bbx</file>
       <file>standard.bbx</file>
+      <file>numeric.bbx</file>
       <file>numeric.cbx</file>
       <file>biblatex.cfg</file>
       <file>english.lbx</file>
@@ -62,13 +64,14 @@
     </requires>
   </internal>
   <external package="biblatex" priority="5" active="1">
-    <generic>biber</generic>
+    <generic>bibtex</generic>
     <cmdline>
-      <binary>biber</binary>
+      <binary>bibtex</binary>
+      <option>-min-crossrefs 2</option>
       <infile>Masterarbeit_Martin_Sobotzik</infile>
     </cmdline>
     <input>
-      <file>Masterarbeit_Martin_Sobotzik.bcf</file>
+      <file>Masterarbeit_Martin_Sobotzik.aux</file>
     </input>
     <output>
       <file>Masterarbeit_Martin_Sobotzik.bbl</file>
@@ -77,10 +80,14 @@
       <file>Masterarbeit_Martin_Sobotzik.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>Masterarbeit_Martin_Sobotzik.bcf</file>
+      <file>Masterarbeit_Martin_Sobotzik.aux</file>
+      <file>Masterarbeit_Martin_Sobotzik-blx.bib</file>
     </requires>
     <requires type="editable">
-      <file>ref.bib</file>
+      <file>Masterarbeit_Martin_Sobotzik.bib</file>
+    </requires>
+    <requires type="static">
+      <file>biblatex.bst</file>
     </requires>
   </external>
 </requests>
