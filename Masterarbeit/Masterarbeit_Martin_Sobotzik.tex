@@ -32,6 +32,26 @@
 \usepackage{tikz}
 
 
+\usepackage[backend=biber,style=numeric,autocite=plain,sorting=none]{biblatex}
+
+
+
+
+\begin{filecontents*}{refs.bib}
+	@BOOK
+	{
+	Belle2Book,
+	author = {E. Kou et al.},
+	title = {The Belle II Physics Book},
+	date = {2018},
+	url = {https://arxiv.org/abs/1808.10567},
+
+\nocite{*}
+
+}
+\end{filecontents*}
+
+\addbibresource{ref.bib}
 %_______________________________________________________________________________
 % bold fonts for headings
 %_______________________________________________________________________________
@@ -189,7 +209,7 @@ SuperKEKB is an upgrade of the KEKB accelerator. KEKB was also an asymmetric ele
 In figure \ref{fig:SuperKEKB} you can see the schematic layout of the SuperKEKB accelerator. The electrons are start at the Low emittance gun. They are then accelerated in the \textit{J}-shaped linear particle accelerator (linac). Due to lack of space, the linac has to have this special form. After the curve and a second acceleration stage the electrons hit the positron production target, where the positrons are created. After this target there are more acceleration stages, before the two beam are then injected into their independent storage rings. The electrons are stored in the high-energy ring (HER) and the positrons are stored in the low-energy ring (LER). Each of these rings has a circumference of about $3\,\textrm{km}$. Both beams collide at the interaction region (IR). The products of the collisions are then detected by the Belle II detector, an upgraded version of the Belle detector. (See chapter \ref{sec:BelleII})
 
 SuperKEKB uses a smaller asymmetry in the beam energies. This allows the usage for higher beam currents and better focusing magnets compared to KEKB. This can then result into a higher luminosity. The goal is to achieve a 40 times higher luminosity with SuperKEKB compared to KEKB.
-An integrated luminosity of $50\,\textrm{ab}^{-1}$ will be achieved by 2025.
+An integrated luminosity of $50\,\textrm{ab}^{-1}$ will be achieved by 2025.\cite{Belle2Book}
 
 The instantaneous luminosity $\mathcal{L}$ specifies the performance of the collider. Knowing $\mathcal{L} $ and the cross section $\sigma$ one can calculate the events per second for a process by the following formula.
 \begin{equation}
@@ -222,7 +242,12 @@ Also the size of the interaction region at SuperKEKB is just one twentieth of wh
 \section{The Belle II Experiment}
 \label{sec:BelleII}
 
-
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=14.5cm]{Bilder/Belle2}
+	\label{fig:Belle2}
+	\caption{Schematic view of the Belle II detector.}
+\end{figure}
 
 
 
@@ -308,7 +333,7 @@ anschlie{\ss}en, sind dies manchmal hilfreiche Informationen.
 %_______________________________________________________________________________
 \listoffigures
 \listoftables
-\chapter{Bibliography}
+%\chapter{Bibliography}
 
 Machen Sie genaue Angaben, so dass die verwendeten Literaturstellen 
 eindeutig identifiziert und aufgefunden werden k\"onnen.
@@ -330,46 +355,19 @@ enthaltenen Anweisungen als Stilvorlage verwendet. Andere
 M\"oglichkeiten f\"ur die Gestaltung eines Literaturverzeichnisses 
 findet man im Internet: \url{http://janeden.net/bibliographien-mit-latex}.
 
-\renewcommand{\bibname}{\bfont Bibliography} 
-\bibliographystyle{h-physrev3}
-\begin{thebibliography}{99}
 
-%\cite{thepnews}
-\bibitem{EbelBliefert}
-H.\ F.\ Ebel, C.\ Bliefert, 
-  ``Bachelor-, Master- und Doktorarbeit: Anleitungen f\"ur den 
-  naturwissenschaftlich-technischen Nachwuchs,''
-  Wiley-VCH, Weinheim (2009). 
-\bibitem{thepnews}
-  S.~Becker, D.~G\"otz, C.~Reuschle, C.~Schwan, S.~Weinzierl,  
-  \url{http://wwwthep.physik.uni-mainz.de/site/news/168/}.
+\nocite{*}
 
-%\cite{Weinberg:1995mt}
-\bibitem{Weinberg:1995mt}
-  S.~Weinberg,
-  ``The Quantum theory of fields. Vol. 1: Foundations,''
-  Cambridge, UK: Univ. Pr. (1995) 609 p.
 
-%\cite{Moch:2001zr}
-\bibitem{Moch:2001zr}
-  S.~Moch, P.~Uwer, S.~Weinzierl,
-  %``Nested sums, expansion of transcendental functions and multiscale 
-  % multiloop integrals,''
-%  J.\ Math.\ Phys.\  {\bf 43 } (2002)  3363-3386.
-  [hep-ph/0110083].
 
-%\cite{LoopTools}
-\bibitem{LoopTools}
-  T.~Hahn, 
-  ``The LoopTools Site,''
-  \url{http://www.feynarts.de/looptools/}.
+%\ren\printbibliographyewcommand{\bibname}{\bfont Bibliography} 
+%\bibliographystyle{h-physrev3}
 
-%\cite{BA:Freund}
-\bibitem{BA:Freund}
-  B.~Freund, 
-  Bachelorarbeit, Johannes Gutenberg-Universit\"at Mainz, 2012.
+%\begin{thebibliography}{99}
 
-\end{thebibliography}
+\printbibliography
+
+%\end{thebibliography}
 
 %_______________________________________________________________________________
 \chapter{Danksagung}
