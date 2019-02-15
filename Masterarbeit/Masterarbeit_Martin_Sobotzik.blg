@@ -1,12 +1,64 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: Masterarbeit_Martin_Sobotzik.aux
+This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: Masterarbeit_Martin_Sobotzik.aux
 The style file: biblatex.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: Masterarbeit_Martin_Sobotzik-blx.bib
 Database file #2: Masterarbeit_Martin_Sobotzik.bib
-Warning--I didn't find a database entry for "EbelBliefert"
-Warning--I didn't find a database entry for "Weinberg:1995mt"
-Warning--I didn't find a database entry for "Moch:2001zr"
-Warning--I didn't find a database entry for "LoopTools"
-Warning--I didn't find a database entry for "BA:Freund"
-Warning--I didn't find a database entry for "B2Book"
-Biblatex version: 3.11
-(There were 6 warnings)
+Biblatex version: 3.3
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 8 entries,
+            6256 wiz_defined-function locations,
+            1225 strings with 10717 characters,
+and the built_in function-call counts, 30976 in all, are:
+= -- 1728
+> -- 734
+< -- 202
++ -- 642
+- -- 256
+* -- 2147
+:= -- 2911
+add.period$ -- 0
+call.type$ -- 8
+change.case$ -- 71
+chr.to.int$ -- 72
+cite$ -- 14
+duplicate$ -- 3479
+empty$ -- 3100
+format.name$ -- 368
+if$ -- 6482
+int.to.chr$ -- 0
+int.to.str$ -- 19
+missing$ -- 0
+newline$ -- 235
+num.names$ -- 306
+pop$ -- 2327
+preamble$ -- 1
+purify$ -- 88
+quote$ -- 0
+skip$ -- 1185
+stack$ -- 0
+substring$ -- 2477
+swap$ -- 1001
+text.length$ -- 198
+text.prefix$ -- 7
+top$ -- 1
+type$ -- 260
+warning$ -- 0
+while$ -- 429
+width$ -- 0
+write$ -- 228

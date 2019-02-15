@@ -32,27 +32,10 @@
 \usepackage{tikz}
 
 
-\usepackage[backend=bibtex,sorting=none]{biblatex}
+\usepackage[backend=bibtex,style=numeric]{biblatex}
 
 
 
-
-\begin{filecontents*}{Masterarbeit_Martin_Sobotzik.bib}
-	@BOOK
-	{
-	B2Book,
-	author = {E. Kou et al.},
-	title = {The Belle II Physics Book},
-	date = {2018},
-	url = {https://arxiv.org/abs/1808.10567},
-
-
-
-}
-\end{filecontents*}
-
-
-\bibliographystyle{alpha}
 \addbibresource{Masterarbeit_Martin_Sobotzik.bib}
 %_______________________________________________________________________________
 % bold fonts for headings
@@ -142,8 +125,6 @@ D-55128 Mainz\\
 %_______________________________________________________________________________
 
 
-
-
 \renewcommand\contentsname{Contents}
 \renewcommand\figurename{Figure}
 \renewcommand\tablename{Table}
@@ -164,7 +145,7 @@ Strukturierung des Inhalts. Selbstverst\"andlich sollen Sie diese
 Gliederung nach den Gegebenheiten Ihrer Bachelorarbeit anpassen. 
 Besprechen Sie rechtzeitig mit Ihrem Betreuer, ob Ihr Entwurf sinnvoll 
 ist. Holen Sie sich auch Anregungen zur Gestaltung von Abschlussarbeiten 
-aus der Literatur (siehe z.\ B.\ \cite{EbelBliefert}).
+aus der Literatur ().
 \medskip
 
 Sofern Sie sich dazu entscheiden, Ihr Dokument in \LaTeX\ zu erstellen, 
@@ -181,6 +162,10 @@ warum Aufgabenstellung und Herangehensweise interessant sind. Auch
 die weitere Gliederung kann angesprochen werden, um dem Leser einen 
 ersten \"Uberblick \"uber den nachfolgenden Text zu geben.
 
+\chapter{Standard Model}
+
+
+
 \chapter{Bhabha Scattering}
 
 
@@ -191,27 +176,28 @@ ersten \"Uberblick \"uber den nachfolgenden Text zu geben.
 
 SuperKEKB is an two-ring, asymmetric\footnote{asymmetric means that there is an energy difference between the two colliding beams}, electron positron accelerator, which is located at KEK (\textit{High Energy Accelerator Research Organization}) in Tsukuba Japan. 
 The electron beam has an energy of $7\,\textnormal{GeV}$ 
-and the positron beam has an energy of $4\,\textnormal{GeV}$. These beams collide with a center-of-momentum energy of about $10.58\,\textnormal{GeV}$, which is close to the mass of the $\Upsilon(4\textnormal{S})$ resonance. Therefore SuperKEKB is a so called \textit{B-factory}. The decay products are then detected by the  Belle II detector to study the properties of these B mesons with high precision. In early 2018 Belle II started taking data. One goal of Belle II is to study CP-Violation with respect to new physics.
+and the positron beam has an energy of $4\,\textnormal{GeV}$. These beams collide with a center-of-momentum energy of about $10.58\,\textnormal{GeV}$, which is close to the mass of the $\Upsilon(4\textnormal{S})$ resonance. Therefore SuperKEKB is a so called \textit{B-factory}. The decay products are then detected by the  Belle II detector to study the properties of these B mesons with high precision. In early 2018 Belle II started taking data. One goal of Belle II is to study CP-Violation with respect to new physics.\cite{B2B}
 
 \section{KEKB and SuperKEKB}
 \label{sec:KEK}
 This section will only provide a rough overview of the SuperKEKB accelerator since the focus of this work is on the analysis. 
 
-SuperKEKB is an upgrade of the KEKB accelerator. KEKB was also an asymmetric electron positron accelerator in the period from 1998 to 2010, but the energies were different compared to SuperKEKB. At KEKB the electrons were accelerated to an energy of $8\,\textrm{GeV}$ and the positrons to an energy of $3.5\,\textrm{GeV}$. KEKB was also a B-factory and the reaction products were then detected in the Belle detector. In 2009 KEKB achieved an instantaneous luminosity of $2 \cdot 10^{34}\,\textrm{cm}^{-1}\textrm{s}^{-1}$. This was the world record at that time. KEKB was discontinued after more than 10 years, to be upgraded to SuperKEKB.
+SuperKEKB is an upgrade of the KEKB accelerator. KEKB was also an asymmetric electron positron accelerator in the period from 1998 to 2010, but the energies were different compared to SuperKEKB. At KEKB the electrons were accelerated to an energy of $8\,\textrm{GeV}$ and the positrons to an energy of $3.5\,\textrm{GeV}$. KEKB was also a B-factory and the reaction products were then detected in the Belle detector. In 2009 KEKB achieved an instantaneous luminosity of $2.11 \cdot 10^{34}\,\textrm{cm}^{-1}\textrm{s}^{-1}$. This was the world record at that time. KEKB was discontinued after more than 10 years, to be upgraded to SuperKEKB.\cite{PTEP}
 
 
 \begin{figure}[h!]
 \begin{center}
 	\includegraphics[width=8cm]{Bilder/SuperKEKB.png}
+	
+	\caption[SuperKEKB Collider]{The SuperKEKB collider.\cite{SKEKAcc}}
 	\label{fig:SuperKEKB}
-	\caption{The SuperKEKB collider.}
 \end{center}
 \end{figure}
 
-In figure \ref{fig:SuperKEKB} you can see the schematic layout of the SuperKEKB accelerator. The electrons are start at the Low emittance gun. They are then accelerated in the \textit{J}-shaped linear particle accelerator (linac). Due to lack of space, the linac has to have this special form. After the curve and a second acceleration stage the electrons hit the positron production target, where the positrons are created. After this target there are more acceleration stages, before the two beam are then injected into their independent storage rings. The electrons are stored in the high-energy ring (HER) and the positrons are stored in the low-energy ring (LER). Each of these rings has a circumference of about $3\,\textrm{km}$. Both beams collide at the interaction region (IR). The products of the collisions are then detected by the Belle II detector, an upgraded version of the Belle detector. (See chapter \ref{sec:BelleII})
+In figure \ref{fig:SuperKEKB} you can see the schematic layout of the SuperKEKB accelerator. The electrons are start at the Low emittance gun. They are then accelerated in the \textit{J}-shaped linear particle accelerator (linac). Due to lack of space, the linac has to have this special form.\cite{KEKBJArc} After the curve and a second acceleration stage the electrons hit the positron production target, where the positrons are created. After this target there are more acceleration stages, before the two beam are then injected into their independent storage rings. The electrons are stored in the high-energy ring (HER) and the positrons are stored in the low-energy ring (LER). Each of these rings has a circumference of about $3\,\textrm{km}$. Both beams collide at the interaction region (IR). The products of the collisions are then detected by the Belle II detector, an upgraded version of the Belle detector.\cite{B2B} (See chapter \ref{sec:BelleII})
 
-SuperKEKB uses a smaller asymmetry in the beam energies. This allows the usage for higher beam currents and better focusing magnets compared to KEKB. This can then result into a higher luminosity. The goal is to achieve a 40 times higher luminosity with SuperKEKB compared to KEKB.
-An integrated luminosity of $50\,\textrm{ab}^{-1}$ will be achieved by 2025.\cite{Belle2Book}
+SuperKEKB uses a smaller asymmetry in the beam energies compared to KEKB. This allows the usage for higher beam currents and better focusing magnets. This can then result into a higher luminosity. The goal is to achieve a 40 times higher luminosity with SuperKEKB compared to KEKB.
+An integrated luminosity of $50\,\textrm{ab}^{-1}$ will be achieved by 2025.\cite{B2B}
 
 The instantaneous luminosity $\mathcal{L}$ specifies the performance of the collider. Knowing $\mathcal{L} $ and the cross section $\sigma$ one can calculate the events per second for a process by the following formula.
 \begin{equation}
@@ -220,37 +206,35 @@ The instantaneous luminosity $\mathcal{L}$ specifies the performance of the coll
 
 To increase the event rate one has to increase the instantaneous luminosity since $\sigma$ is given by the processes. The instantaneous luminosity can be calculate by
 \begin{equation}
-	\mathcal{L} = \frac{N_{e^-}N_{e^+}f_c}{4\pi \sigma_x \sigma_y} \cdot R_L
+	\mathcal{L} = \frac{N_{e^-}N_{e^+}f_c}{4\pi \sigma_x \sigma_y} \cdot S
 	\label{eq:Lumi}
 \end{equation}
- assuming that both beams have a Gaussian profile of horizontal and vertical size $\sigma_x$ and $\sigma_y$. In equation \ref{eq:Lumi} $N_{e^-}$ is the number of particles in an electron bunch and $N_{e^+}$ is the number of particles in a positron bunch. $f_c$ is the average crossing rate, which can be calculated by $f_c = n \cdot f_r$. Where $n$ is the number of bunches and $f_r$ is the revolution frequency. SuperKEKB increased the luminosity by a factor of two compared to KEKB by increasing the number of bunches and the number of particles per bunch.
+ assuming that both beams have a Gaussian profile of horizontal and vertical size $\sigma_x$ and $\sigma_y$. In equation \ref{eq:Lumi} $N_{e^-}$ is the number of particles in an electron bunch and $N_{e^+}$ is the number of particles in a positron bunch. $f_c$ is the average crossing rate, which can be calculated by $f_c = n \cdot f_r$. Where $n$ is the number of bunches and $f_r$ is the revolution frequency. $S$ is a reduction factor which takes geometrical effects linked to the finite cross section and bunch length into account.\cite{herr2006concept} SuperKEKB increased the luminosity by a factor of two compared to KEKB by increasing the number of bunches and the number of particles per bunch.
  
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=14.5cm]{Bilder/bsSKEK}
+	
+	\caption[Sketch of the Beam Crossing for KEKB and SuperKEKB]{Sketch of the beam crossing at KEKB (left) and SuperKEKB (right). At KEKB the size of the interaction region was about $10\,\textrm{mm}$. At SuperKEKB it is about $0.5\,\textrm{mm}$}
 	\label{fig:beamsize}
-	\caption{Sketch of the beam crossing at KEKB (left) and SuperKEKB (right). At KEKB the size of the interaction region was about $10\,\textrm{mm}$. At SuperKEKB it is about $0.5\,\textrm{mm}$}
 \end{figure}
 
-Also the size of the interaction region at SuperKEKB is just one twentieth of what it was at KEKB, resulting in a vertical beam size of $\sigma \approx 50\,\textrm{nm} $. This can be seen in figure \ref{fig:beamsize}. This decrease in beam size, along with the increase in the beam currents, results in a 40-fold increase in luminosity. 
-
-
-%The detection experiments at SuperKEKB are performed at the interaction point (IR) of the two beams with the Belle II detector.
-%KEKB was a two-ring, asymmetric, particle accelerator in the period from 1998 to 2010 at the Japanese Research Center KEK in Tsukuba. It's main goal was the production of B-mesons. For this the electrons were accelerated to $8\,\textrm{GeV}$ and the positron to $\,3.5\textrm{GeV}$.
-
+Also the size of the interaction region at SuperKEKB is just one twentieth of what it was at KEKB, resulting in a vertical beam size of $\sigma \approx 50\,\textrm{nm} $. This can be seen in figure \ref{fig:beamsize}. This decrease in beam size, along with the increase in the beam currents, it results in a overall 40-fold increase in luminosity.  \cite{B2TR} \cite{B2B}
 
 
 
 \section{The Belle II Experiment}
 \label{sec:BelleII}
 
+The Belle II detector
+
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=14.5cm]{Bilder/Belle2}
+	
+	\caption[Belle II Detector]{Schematic view of the Belle II detector. The different detector elements are labeled. Also the beam pipes for the electrons and positrons with their corresponding energies are shown. \cite{OnlineDataReduction}}
 	\label{fig:Belle2}
-	\caption{Schematic view of the Belle II detector.}
 \end{figure}
-
 
 
 %_______________________________________________________________________________
@@ -310,15 +294,6 @@ Information im Text angesprochen wird und selbsterkl\"arende Legenden
 vorhanden sind.
 \medskip
 
-\begin{figure}[h]
-\begin{center}
-%\includegraphics[scale=0.8]{BA-Abbildung1.pdf}
-\label{TestTest}
-\caption{Das ist ein Test}
-\end{center}
-
-\end{figure}
-
 
 %_______________________________________________________________________________
 \section{Weiterf\"uhrende Details zur Arbeit}
@@ -339,17 +314,17 @@ anschlie{\ss}en, sind dies manchmal hilfreiche Informationen.
 
 Machen Sie genaue Angaben, so dass die verwendeten Literaturstellen 
 eindeutig identifiziert und aufgefunden werden k\"onnen.
-Bei Lehrb\"uchern \cite{Weinberg:1995mt} ist es sinnvoll, 
+Bei Lehrb\"uchern ist es sinnvoll, 
 den Titel anzugeben, eventuell auch die Ausgabe. Bei Artikeln in 
-Fachzeitschriften \cite{Moch:2001zr} ist es \"ublich, nur die 
+Fachzeitschriften ist es \"ublich, nur die 
 gebr\"auchlichen Abk\"urzungen f\"ur den Titel der Zeitschrift, Band, 
 Erscheinungsjahr und Seite anzugeben. Unter Umst\"anden kann es auch 
 sinnvoll sein, im Internet aufgefundene Informationsquellen anzugeben, 
-zum Beispiel f\"ur Software \cite{LoopTools} oder zu den Details von 
+zum Beispiel f\"ur Software oder zu den Details von 
 Ergebnissen gro{\ss}er experimenteller Kollaborationen. Es ist 
-selbstverst\"andlich, dass Sie auch Bachelor- \cite{BA:Freund}, 
+selbstverst\"andlich, dass Sie auch Bachelor, 
 Diplom- oder Doktorarbeiten angeben, wenn Sie diese in Ihrer eigenen 
-Arbeit verwendet haben.\cite{B2Book}
+Arbeit verwendet haben.
 \medskip
 
 Im folgenden Beispiel werden die in der Datei %{\tt h-physrev3.bst} 
@@ -359,17 +334,9 @@ findet man im Internet: \url{http://janeden.net/bibliographien-mit-latex}.
 
 
 \nocite{*}
-
-
-
-%\ren\printbibliographyewcommand{\bibname}{\bfont Bibliography} 
-%\bibliographystyle{h-physrev3}
-
-%\begin{thebibliography}{99}
-
 \printbibliography
 
-%\end{thebibliography}
+
 
 %_______________________________________________________________________________
 \chapter{Danksagung}

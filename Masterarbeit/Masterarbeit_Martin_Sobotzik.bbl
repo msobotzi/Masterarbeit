@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.0 $
+% $ biblatex bbl format version 2.8 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -16,8 +16,125 @@
   {}
 \endgroup
 
-\datalist[entry]{none/global//global/global}
-  \entry{Belle2Book}{book}{}
+\sortlist[entry]{nty/global/}
+  \entry{PTEP}{article}{}
+    \name{author}{1}{}{%
+      {{hash=eaA}{%
+         prefix={et},
+         prefixi={e\bibinitperiod},
+         family={al.},
+         familyi={a\bibinitperiod},
+         given={Abe},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{aAe1}
+    \strng{fullhash}{aAe1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{abstract}{%
+    {The machine commissioning of KEKB started in December 1998 and its
+  operation was terminated at the end of June 2010 to upgrade KEKB to
+  SuperKEKB. In this paper, we summarize the history of KEKB and show the
+  achievements made there.}%
+    }
+    \verb{doi}
+    \verb 10.1093/ptep/pts102
+    \endverb
+    \verb{eprint}
+    \verb http://oup.prod.sis.lan/ptep/article-pdf/2013/3/03A001/4440618/pts102
+    \verb .pdf
+    \endverb
+    \field{issn}{2050-3911}
+    \field{number}{3}
+    \field{title}{{Achievements of KEKB}}
+    \verb{url}
+    \verb https://dx.doi.org/10.1093/ptep/pts102
+    \endverb
+    \field{volume}{2013}
+    \field{journaltitle}{Progress of Theoretical and Experimental Physics}
+    \field{month}{03}
+    \field{year}{2013}
+  \endentry
+
+  \entry{B2TR}{article}{}
+    \name{author}{1}{}{%
+      {{hash=eaA}{%
+         prefix={et},
+         prefixi={e\bibinitperiod},
+         family={al.},
+         familyi={a\bibinitperiod},
+         given={Abe},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{aAe1}
+    \strng{fullhash}{aAe1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{title}{Belle II Technical Design Report}
+    \verb{url}
+    \verb arXiv:1011.0352
+    \endverb
+    \field{month}{11}
+    \field{year}{2010}
+  \endentry
+
+  \entry{KEKBJArc}{article}{}
+    \name{author}{1}{}{%
+      {{hash=eaA}{%
+         prefix={et},
+         prefixi={e\bibinitperiod},
+         family={al.},
+         familyi={a\bibinitperiod},
+         given={Akemoto},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{aAe2}
+    \strng{fullhash}{aAe2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{abstract}{%
+    {The KEKB injector linac has been continuously improved to enhance the
+  stability of many devices and the efficiency of beam operation. These
+  improvements include the development of the new C-band accelerating
+  structure, pulse compressor, klystron, rf window, compact modulator, and the
+  new positron production target using crystalline tungsten. We have also
+  achieved two-bunch beam acceleration, the development of an energy spread
+  monitor, a safety system upgrade, and an event-based timing and control
+  system. These developments and practical applications for advanced linac beam
+  handling result in the success of the simultaneous top-up injection among the
+  three independent storage rings. This result greatly improves the integrated
+  luminosity and the operation stability of the KEKB rings. In this paper, we
+  present the progress of the KEKB injector linac in this decade.}%
+    }
+    \verb{doi}
+    \verb 10.1093/ptep/ptt011
+    \endverb
+    \verb{eprint}
+    \verb http://oup.prod.sis.lan/ptep/article-pdf/2013/3/03A002/4441335/ptt011
+    \verb .pdf
+    \endverb
+    \field{issn}{2050-3911}
+    \field{number}{3}
+    \field{title}{{The KEKB injector linac}}
+    \verb{url}
+    \verb https://dx.doi.org/10.1093/ptep/ptt011
+    \endverb
+    \field{volume}{2013}
+    \field{journaltitle}{Progress of Theoretical and Experimental Physics}
+    \field{month}{03}
+    \field{year}{2013}
+  \endentry
+
+  \entry{B2B}{book}{}
     \name{author}{1}{}{%
       {{hash=eaEK}{%
          prefix={et},
@@ -32,11 +149,104 @@
     \strng{fullhash}{aEKe1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
     \field{title}{The Belle II Physics Book}
     \verb{url}
     \verb https://arxiv.org/abs/1808.10567
     \endverb
+    \field{month}{08}
     \field{year}{2018}
   \endentry
-\enddatalist
+
+  \entry{OnlineDataReduction}{article}{}
+    \name{author}{1}{}{%
+      {{hash=eaFB}{%
+         prefix={et},
+         prefixi={e\bibinitperiod},
+         family={al.},
+         familyi={a\bibinitperiod},
+         given={F.\bibnamedelima Bernlochner},
+         giveni={F\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{aFBe1}
+    \strng{fullhash}{aFBe1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \verb{doi}
+    \verb 10.1051/epjconf/201715000014
+    \endverb
+    \field{title}{Online Data Reduction for the Belle II Experiment using
+  DATCON}
+    \verb{url}
+    \verb https://arxiv.org/abs/1709.00612
+    \endverb
+    \field{month}{09}
+    \field{year}{2017}
+  \endentry
+
+  \entry{SKEKAcc}{article}{}
+    \name{author}{1}{}{%
+      {{hash=HdlCI}{%
+         prefix={Heredia de\bibnamedelima la},
+         prefixi={H\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim
+  l\bibinitperiod},
+         family={Cruz},
+         familyi={C\bibinitperiod},
+         given={Ivan},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CIHdl1}
+    \strng{fullhash}{CIHdl1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \verb{doi}
+    \verb 10.1088/1742-6596/761/1/012017
+    \endverb
+    \field{title}{The Belle II experiment: fundamental physics at the flavor
+  frontier}
+    \field{volume}{761}
+    \field{journaltitle}{Journal of Physics: Conference Series}
+    \field{month}{09}
+    \field{year}{2016}
+  \endentry
+
+  \entry{herr2006concept}{article}{}
+    \name{author}{2}{}{%
+      {{hash=HW}{%
+         family={Herr},
+         familyi={H\bibinitperiod},
+         given={Werner},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=MB}{%
+         family={Muratori},
+         familyi={M\bibinitperiod},
+         given={Bruno},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Cern}%
+    }
+    \strng{namehash}{HWMB1}
+    \strng{fullhash}{HWMB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \verb{doi}
+    \verb 10.5170/CERN-2006-002.361
+    \endverb
+    \field{title}{Concept of luminosity}
+    \field{month}{02}
+    \field{year}{2006}
+  \endentry
+\endsortlist
 \endinput
