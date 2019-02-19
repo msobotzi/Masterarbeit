@@ -26,7 +26,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {6}Zusammenfassung und Ausblick}{9}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Anhang}{10}{appendix.A}
+\contentsline {chapter}{\numberline {A}Appendix}{10}{appendix.A}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {A.1}Tabellen und Abbildungen}{10}{section.A.1}
 \defcounter {refsection}{0}\relax 
