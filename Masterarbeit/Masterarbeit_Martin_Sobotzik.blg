@@ -21,44 +21,44 @@ Database file #2: Masterarbeit_Martin_Sobotzik.bib
 Biblatex version: 3.3
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 8 entries,
+You've used 10 entries,
             6256 wiz_defined-function locations,
-            1225 strings with 10717 characters,
-and the built_in function-call counts, 30976 in all, are:
-= -- 1728
-> -- 734
-< -- 202
-+ -- 642
-- -- 256
-* -- 2147
-:= -- 2911
+            1236 strings with 11042 characters,
+and the built_in function-call counts, 38320 in all, are:
+= -- 2149
+> -- 883
+< -- 297
++ -- 743
+- -- 284
+* -- 2521
+:= -- 3330
 add.period$ -- 0
-call.type$ -- 8
-change.case$ -- 71
-chr.to.int$ -- 72
-cite$ -- 14
-duplicate$ -- 3479
-empty$ -- 3100
-format.name$ -- 368
-if$ -- 6482
+call.type$ -- 10
+change.case$ -- 126
+chr.to.int$ -- 84
+cite$ -- 18
+duplicate$ -- 4350
+empty$ -- 3911
+format.name$ -- 416
+if$ -- 8144
 int.to.chr$ -- 0
-int.to.str$ -- 19
+int.to.str$ -- 23
 missing$ -- 0
-newline$ -- 235
-num.names$ -- 306
-pop$ -- 2327
+newline$ -- 271
+num.names$ -- 391
+pop$ -- 2998
 preamble$ -- 1
-purify$ -- 88
+purify$ -- 144
 quote$ -- 0
-skip$ -- 1185
+skip$ -- 1553
 stack$ -- 0
-substring$ -- 2477
-swap$ -- 1001
-text.length$ -- 198
-text.prefix$ -- 7
+substring$ -- 3065
+swap$ -- 1277
+text.length$ -- 247
+text.prefix$ -- 9
 top$ -- 1
-type$ -- 260
+type$ -- 328
 warning$ -- 0
-while$ -- 429
+while$ -- 484
 width$ -- 0
-write$ -- 228
+write$ -- 262

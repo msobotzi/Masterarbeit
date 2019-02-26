@@ -30,10 +30,8 @@
 \usepackage{amsmath}
 \usepackage{hyperref}
 \usepackage{tikz}
-
-
+\usepackage{wrapfig}
 \usepackage[backend=bibtex,style=numeric]{biblatex}
-
 
 
 \addbibresource{Masterarbeit_Martin_Sobotzik.bib}
@@ -166,7 +164,7 @@ ersten \"Uberblick \"uber den nachfolgenden Text zu geben.
 
 
 
-\chapter{Bhabha Scattering}
+
 
 
 
@@ -223,18 +221,60 @@ Also the size of the interaction region at SuperKEKB is just one twentieth of wh
 
 
 
-\section{The Belle II Experiment}
+\section{The Belle II Detector}
 \label{sec:BelleII}
 
-The Belle II detector
-
+The Belle II detector is an upgraded version of the Belle detector which was a solid-angle magnetic spectrometer located at the interaction region of KEK. In figure  \ref{fig:Belle2} a sketch of the Belle II detector is shown. The detector contains of a variety of sub-detectors, each fulfilling a specific purpose.
+ 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=14.5cm]{Bilder/Belle2}
+	\includegraphics[width=14.5cm]{Bilder/Belle2.png}
 	
-	\caption[Belle II Detector]{Schematic view of the Belle II detector. The different detector elements are labeled. Also the beam pipes for the electrons and positrons with their corresponding energies are shown. \cite{OnlineDataReduction}}
+	\caption[Belle II Detector]{Schematic view of the Belle II detector. The different detector elements are labeled. Also the beam pipes for the electrons and positrons with their corresponding energies are shown. \cite{BDetector}}
 	\label{fig:Belle2}
 \end{figure}
+
+ In the innermost of the detector, three tracking sub-detectors are located, surrounding the IR. These sub-detectors are in a axial magnetic field of $1.5\,\textrm{T}$, provided by a solenoid, to be able to reconstruct the tracks of charged particles. 
+ 
+ The vertex detectors, consisting of the silicon vertex detector (SVD), an upgraded version of the SVD used in Belle, and the pixel detector (PXD), a new detector designed for Belle II, are used to measure the momenta of charged particles and to reconstruct decay vertices and particles with a momentum to low to reach the central drift chamber (CDC).
+
+The CDC also already existed in the Belle detector and has been upgraded for Belle II. The CDC scans the trajectories of charged particles. From these trajectories the charge, momentum and energy loss can be determined by ionization. 
+
+These three innermost tracking detectors are surrounded by a barrel. The time-of-propagation (TOP) detector, which also got an upgrade for Belle II, surrounds the inner detectors parallel to the beam-pipes. The TOP detector, as the name suggests, measures the flight-time of charged particles. Knowing the flight-time and the momentum of the charged particles, it is possible to conclude their mass and to identify them. In the forward end-cap of the barrel are closed with an Aerogel Ring-Imaging Cherenkov detector (ARICH) which also identifies charged particles.
+
+The next outer detector is the electromagnetic calorimeter (ECL). It surrounds all the previously mentioned detectors, and was already installed in Belle. With the ECL the energy of electromagnetically interacting particles, especially photons and electrons, can be measured.
+
+The task of the outermost detector the $K_L^0$ and muon detector (KLM) is to identify $K_L^0$ and muons. The KLM also got upgraded for Belle II. \cite{B2B} 
+
+\section{Coordinate System}
+
+For clarification, I want to explain the coordinate system of Belle II, before I describe to the detectors in more detail.
+
+\begin{figure}[h!]
+	\begin{center}
+		\includegraphics[width=4.5cm]{Bilder/coordinate.png}
+	\end{center}
+	\caption[Coordinate System of Belle II]{A sketch of the coordinate system of Belle II}
+	\label{fig:CoordinateSysytem}
+\end{figure}
+
+A sketch of the coordinate system is shown in figure \ref{fig:CoordinateSysytem}. The origin of the coordinate system corresponds to the interaction region. For the Cartesian coordinate system: The $z$-axis points in the direction of the magnetic field. This is also the so called forward direction. The $y$-axis points up to the upper part of the detector. The $x$-axis points along the radial direction of the accelerator. In figure \ref{fig:CoordinateSysytem} also the spherical coordinate system is shown. Here $\theta$ corresponds to the polar angle and $\phi$ to the azimuthal angle.\cite{DevelopVertex}
+
+\section{Vertex detector}
+\label{sec:vertexDet}
+
+The vertex detectors (VXD) is able to make precise measurements of the tracks of particles close to the interaction region. This allows the reconstruction of decay-vertices of long-lived particles. For this it is very important to determine the distance and the spatial resolution of the first measured hit, and the effect of multiple scattering.
+
+
+\begin{figure}[h!]
+	\begin{center}
+		\includegraphics[width=10cm]{Bilder/PXD_SVD}
+	\end{center}
+\caption[Vertex Detector]{Sketch of the vertex detectors. The vertex detector itself consists of two sub-detectors. The PXD is surrounded by the SVD. \cite{OnlineDataReduction} }
+\label{fig:VertexDet}
+\end{figure}
+
+\subsection{Pixel Vertex Detector}
 
 
 %_______________________________________________________________________________

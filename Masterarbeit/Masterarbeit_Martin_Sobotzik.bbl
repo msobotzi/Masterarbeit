@@ -217,6 +217,20 @@
     \field{year}{2016}
   \endentry
 
+  \entry{BDetector}{online}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{addendum}{visited on 25.02.2019}
+    \field{title}{Electrons and Positrons Collide for the first time in the
+  SuperKEKB Accelerator}
+    \verb{url}
+    \verb https://www.kek.jp/en/newsroom/2018/04/26/0700/
+    \endverb
+    \field{month}{04}
+    \field{year}{2018}
+  \endentry
+
   \entry{herr2006concept}{article}{}
     \name{author}{2}{}{%
       {{hash=HW}{%
@@ -247,6 +261,31 @@
     \field{title}{Concept of luminosity}
     \field{month}{02}
     \field{year}{2006}
+  \endentry
+
+  \entry{DevelopVertex}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=SN}{%
+         family={Shimizu},
+         familyi={S\bibinitperiod},
+         given={Nobuhiro},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SN1}
+    \strng{fullhash}{SN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{note}{visited on 25.02.2019}
+    \field{title}{Development of the Silicon Vertex Detector for Belle II
+  experiment}
+    \list{institution}{1}{%
+      {Department of Physics, university of Tokyo}%
+    }
+    \warn{\item Invalid format of field 'date' \item Invalid format of field
+  'date'}
   \endentry
 \endsortlist
 \endinput
