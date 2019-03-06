@@ -20,18 +20,20 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.4.2}Silicon Vertex Detector}{9}{subsection.3.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}BASF2}{11}{chapter.4}
+\contentsline {section}{\numberline {3.5}Central Drift Chamber}{10}{section.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Methoden}{11}{section.4.1}
+\contentsline {chapter}{\numberline {4}BASF2}{12}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Ergebnisse}{11}{section.4.2}
+\contentsline {section}{\numberline {4.1}Methoden}{12}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Zusammenfassung und Ausblick}{12}{chapter.5}
+\contentsline {section}{\numberline {4.2}Ergebnisse}{12}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Appendix}{13}{appendix.A}
+\contentsline {chapter}{\numberline {5}Zusammenfassung und Ausblick}{13}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Tabellen und Abbildungen}{13}{section.A.1}
+\contentsline {chapter}{\numberline {A}Appendix}{14}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Weiterf\"uhrende Details zur Arbeit}{13}{section.A.2}
+\contentsline {section}{\numberline {A.1}Tabellen und Abbildungen}{14}{section.A.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Danksagung}{18}{appendix.B}
+\contentsline {section}{\numberline {A.2}Weiterf\"uhrende Details zur Arbeit}{14}{section.A.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {B}Danksagung}{19}{appendix.B}

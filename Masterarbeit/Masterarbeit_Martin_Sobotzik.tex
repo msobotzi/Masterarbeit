@@ -290,7 +290,7 @@ The PXD is based on Depleted P-channel Field-Effect Transistor (DePFET) technolo
 	\label{fig:pxd}
 \end{figure}
 
-As you can see in figure \ref{fig:pxd}, the PXD consists of two layers of sensors. The inner layer is made out of eight planar sensors (ladder), each has a width of $15\,\textrm{mm}$ and an effective length of $90\,\textrm{mm}$. This layer has a radius of $14\,\textrm{mm}$. The second layer consists of 12 planar sensors. These sensors also have a width of $15\,\textrm{mm}$, but a length of $123\,\textrm{mm}$. The radius for the second layer is $22\,\textrm{mm}$. 
+As you can see in figure \ref{fig:pxd}, the PXD consists of two layers of sensors. The inner layer is made out of eight planar sensors (ladder), each has a width of $15\,\textrm{mm}$ and an effective length of $90\,\textrm{mm}$. This layer has a radius of $14\,\textrm{mm}$. The second layer consists of 12 planar sensors. These sensors also have a width of $15\,\textrm{mm}$, but a length of $123\,\textrm{mm}$. The radius for the second layer is $22\,\textrm{mm}$. The PXD provides a spatial resolution of about $1.2\,\mu\textrm{m}$.\cite{B2TR}
 
 Due to the vicinity of the PXD to the interaction region, the quantum-electrodynamics background is very high, so the sensors  must withstand high radiation. The DePFET technology fulfills this condition. \cite{B2TR}
 
@@ -309,16 +309,36 @@ A cross section of the device is shown in figure \ref{fig:DePFET}. The structure
 \subsection{Silicon Vertex Detector}
 \label{sec:Silicon}
 
-Silicon
+The SVD consists of four layers of double-sided strip detectors. The layers are located at radii of 38, 80, 115 and 140$\,\textrm{mm}$. There are two different shapes of these sensors. The rectangular sensors are used in the barrel part and the trapezoidal sensors are used in the forward region of the SVD. Each sensor has a thickness of $320\,\mu\textrm{m}$ but the sensors have different dimensions depending on the layer they are located. The barrel sensors in the most inner layer of the SVD have a dimension of $38.4 \times 122.8\,\textrm{mm}^2$. The size for the barrel sensors of the other layers is $57.6 \times 122.8\,\textrm{mm}^2$. The trapezoidal sensors have a dimension of $38.4\,\textrm{mm}$ on the small side of the trapez to $57.6\,\textrm{mm}$ on the long side of the trapez times a length of $122.8\,\textrm{mm}$.\cite{B2TR} An illustration of the SVD can be seen in figure \ref{fig:SiliconVertex}. 
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=12.5cm]{Bilder/SiliconVertex}
-	\caption[Silicon Vertex Detector]{Illustration of the silicon vertex detector\cite{B2TR}}
+	\includegraphics[width=12.5cm]{Bilder/SVD.png}
+	\caption[Silicon Vertex Detector]{Cross section of the silicon vertex detector\cite{SVDItalian}}
 	\label{fig:SiliconVertex}
 \end{figure}
 
+In the barrel region the $p$-side of the double-sided-strip sensors is arranged parallel to the beam axis and facing the interaction region. The $n$-side is facing outside the detector and the $n$-strips are perpendicular arranged to the beam axis. 
 
+When a particles travels through the sensors it creates electron-holes pairs along its path by ionization. The electrons then propagate to the $n$-strips and are accumulated there. The wholes propagate to the $p$-strips and are collected there. The sensors then produce a signal from which the coordinate of the particle position can be read out. The $p$-side provides the $z$-direction and the $n$-side provides the $r-\theta$ direction.
+
+
+
+\section{Central Drift Chamber}
+\label{sec:CDC}
+
+The CDC surrounds the SVD. It consists of 14336 wires arranged in 56 layers and has an inner radius of $16\,\textrm{cm}$ and an outer radius of $113\,\textrm{cm}$. The volume is filled with a $50\%\,\textrm{helium}$ and an $50\%\,\textrm{ethane}$ gas mixture. The purpose of the CDC is to reconstruct the momenta and tracks of charged particles, to identify these particles by measuring their specific energy loss within the gas volume. The CDC alone is able to identify low-momentum tracks, which are unable to reach the particle identification device. The CDC also acts as a reliable trigger for charged particles.\cite{B2TR} A small cross section of the CDC is shown in figure \ref{fig:CDC}.
+
+\begin{figure}[h!] 
+	\centering
+	\includegraphics[width=12.5cm]{Bilder/CDC}
+	\caption[Central Drift Chamber]{Cross section and only a small part of the CDC. Each dot represent a wire. Also the area for the different superlayers is shown by the green line. All of these wires are immersed in a helium-ethane mixture.\cite{CDCHauth}}
+	\label{fig:CDC}
+\end{figure}
+
+When a charged particle passes trough the CDC, it losses energy, due to ionization of the gas. This produces electron-ion pairs, which are then separated by the electric field provided by 42240 aluminum field wires, with a diameter of $125\,\mu\textrm{m}$. The signal is then read out by the sense wires. These have a radius of $30\,\mu\textrm{m}$ are made out of gold-plated tungsten.\cite{B2TR} 
+
+As indicated in figure \ref{fig:CDC} there are different superlayers in the CDC. 
 
 \chapter{BASF2}
 \label{BASF2}

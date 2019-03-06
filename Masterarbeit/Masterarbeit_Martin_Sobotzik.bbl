@@ -188,6 +188,33 @@
     \field{year}{2017}
   \endentry
 
+  \entry{SVDItalian}{online}{}
+    \name{author}{1}{}{%
+      {{hash=cBII}{%
+         family={collaboration},
+         familyi={c\bibinitperiod},
+         given={Belle II\bibnamedelima Italian},
+         giveni={B\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim
+  I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{cBII1}
+    \strng{fullhash}{cBII1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{addendum}{visited on 06.03.2019}
+    \field{title}{Silicon Vertex Detector}
+    \verb{url}
+    \verb https://web.infn.it/Belle-II/index.php/detector/svd
+    \endverb
+    \field{month}{03}
+    \field{year}{2019}
+    \warn{\item Invalid format of field 'date' \item Invalid format of field
+  'date'}
+  \endentry
+
   \entry{SKEKAcc}{article}{}
     \name{author}{1}{}{%
       {{hash=HdlCI}{%
@@ -229,6 +256,31 @@
     \endverb
     \field{month}{04}
     \field{year}{2018}
+  \endentry
+
+  \entry{CDCHauth}{online}{}
+    \name{author}{1}{}{%
+      {{hash=HT}{%
+         family={Hauth},
+         familyi={H\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HT1}
+    \strng{fullhash}{HT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{title}{Pattern Recognition at Belle II}
+    \list{institution}{1}{%
+      {Karlsruher Institut f\"ur Technologie}%
+    }
+    \field{month}{12}
+    \field{year}{2016}
+    \warn{\item Invalid format of field 'date' \item Invalid format of field
+  'date'}
   \endentry
 
   \entry{herr2006concept}{article}{}
@@ -282,7 +334,7 @@
     \field{title}{Development of the Silicon Vertex Detector for Belle II
   experiment}
     \list{institution}{1}{%
-      {Department of Physics, university of Tokyo}%
+      {Department of Physics, University of Tokyo}%
     }
     \warn{\item Invalid format of field 'date' \item Invalid format of field
   'date'}
