@@ -188,6 +188,28 @@
     \field{year}{2017}
   \endentry
 
+  \entry{cerenkovAngle}{article}{}
+    \name{author}{1}{}{%
+      {{hash=CP}{%
+         family={Cerenkov},
+         familyi={C\bibinitperiod},
+         given={PA},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CP1}
+    \strng{fullhash}{CP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{pages}{378}
+    \field{title}{PA Cerenkov, Phys. Rev. 52, 378 (1937).}
+    \field{volume}{52}
+    \field{journaltitle}{Phys. Rev.}
+    \field{year}{1937}
+  \endentry
+
   \entry{SVDItalian}{online}{}
     \name{author}{1}{}{%
       {{hash=cBII}{%
