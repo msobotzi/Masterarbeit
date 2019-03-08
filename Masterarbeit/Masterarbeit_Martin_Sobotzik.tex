@@ -31,6 +31,7 @@
 \usepackage{hyperref}
 \usepackage{tikz}
 \usepackage{wrapfig}
+\usepackage{nicefrac}
 \usepackage[backend=bibtex,style=numeric]{biblatex}
 
 
@@ -240,7 +241,7 @@ The Belle II detector is an upgraded version of the Belle detector which was a s
 
 The CDC also already existed in the Belle detector and has been upgraded for Belle II. The CDC scans the trajectories of charged particles. From these trajectories the charge, momentum and energy loss can be determined by ionization. 
 
-These three innermost tracking detectors are surrounded by a barrel. The time-of-propagation (TOP) detector, which also got an upgrade for Belle II, surrounds the inner detectors parallel to the beam-pipes. The TOP detector, as the name suggests, measures the flight-time of charged particles. Knowing the flight-time and the momentum of the charged particles, it is possible to conclude their mass and to identify them. In the forward end-cap of the barrel are closed with an Aerogel Ring-Imaging Cherenkov detector (ARICH) which also identifies charged particles.
+These three innermost tracking detectors are surrounded by a barrel. The time-of-propagation (TOP) detector, which also got an upgrade for Belle II, surrounds the inner detectors parallel to the beam-pipes. The TOP detector, as the name suggests, measures the flight-time of charged particles. Knowing the flight-time and the momentum of the charged particles, it is possible to conclude their mass and to identify them. In the forward end-cap of the barrel are closed with an Aerogel Ring-Imaging Cerenkov detector (ARICH) which also identifies charged particles.
 
 The next outer detector is the electromagnetic calorimeter (ECL). It surrounds all the previously mentioned detectors, and was already installed in Belle. With the ECL the energy of electromagnetically interacting particles, especially photons and electrons, can be measured.
 
@@ -320,7 +321,7 @@ The SVD consists of four layers of double-sided strip detectors. The layers are 
 
 In the barrel region the $p$-side of the double-sided-strip sensors is arranged parallel to the beam axis and facing the interaction region. The $n$-side is facing outside the detector and the $n$-strips are perpendicular arranged to the beam axis. 
 
-When a particles travels through the sensors it creates electron-holes pairs along its path by ionization. The electrons then propagate to the $n$-strips and are accumulated there. The wholes propagate to the $p$-strips and are collected there. The sensors then produce a signal from which the coordinate of the particle position can be read out. The $p$-side provides the $z$-direction and the $n$-side provides the $r-\theta$ direction.
+When a particles travels through the sensors it creates electron-holes pairs along its path by ionization. The electrons then propagate to the $n$-strips and are accumulated there. The wholes propagate to the $p$-strips and are collected there. The sensors then produce a signal from which the coordinate of the particle position can be read out. The $p$-side provides the $z$-direction and the $n$-side provides the $r-\theta$ direction.\cite{B2TR}
 
 
 
@@ -352,7 +353,7 @@ When a charged particle with the velocity $\beta$ is faster than the speed of li
 c_n = \frac{c_0}{n} \leq \beta	
 \end{equation}
 
-The angle is given by:\cite{cerenkovAngle}
+The Cerenkov angle is given by:\cite{cerenkovAngle}
 
 \begin{equation}
 \textrm{cos}(\theta_C)=\frac{1}{n\beta}
@@ -365,8 +366,29 @@ The angle is given by:\cite{cerenkovAngle}
 	\label{fig:TOP}
 \end{figure}
 
-Figure \ref{fig:TOP} shows an illustration of the functionality of a TOP bar. The charged particle emits Cerenkov light when it passes the quartz crystal. These photons then travel inside the crystal due to reflection until they are detected by a photon detector. Measuring the time difference between the emitted photons it is possible to calculate the position of the track of the charged particle. The outgoing photons are then focused by mirrors and are then detected by PMTs. Cerenkov photons with different $\theta_C$ will be detected by different PMTs. Therefore, the TOP reconstruct the Cerenkov ring image using the information of time, $x$ and $y$.
+Figure \ref{fig:TOP} shows an illustration of the functionality of a TOP bar. The charged particle emits Cerenkov light when it passes the quartz crystal. These photons then travel inside the crystal due to reflection until they are detected by a photon detector. Measuring the time difference between the emitted photons it is possible to calculate the position of the track of the charged particle. The outgoing photons are then focused by mirrors and are then detected by PMTs. Cerenkov photons with different $\theta_C$ will be detected by different PMTs. Therefore, the TOP reconstruct the Cerenkov ring image using the information of time, $x$ and $y$.\cite{B2TR} 
 
+The TOP counter consists of 32 quartz bars. They have a length of $1250\,\textrm{mm}$, a width of $45\,\textrm{mm}$ and a depth of $20\,\textrm{mm}$. There are two quartz bars per module. The TOP counter has a $K/\pi$ separation of over $99\,\%$.\cite{B2TR}
+
+The ARICH detector is located in the forward endcap region. It is designed to distinguish between kaons and pions over most of their momentum spectrum. It is also able to identify particles with a momentum below $1\,\textrm{GeV}$.
+
+\begin{figure}[h!]
+	\centering
+\begin{minipage}[b]{0.45\linewidth}
+	\centering
+	\includegraphics[width=\textwidth]{Bilder/ARICH}
+\end{minipage}
+\hspace{0.5cm}
+\begin{minipage}[b]{0.45\linewidth}
+	\centering
+	\includegraphics[width=\textwidth]{Bilder/ARICH2}
+\end{minipage}
+
+	\caption[ARICH]{Left: Illustration of the working principle of the ARICH detector. The yellow Cerenkov ring on the photon detector is produced by a $\pi$, the green ring by a $K$. Right: The radiator is shown in more detail. The radiator consists of two aerogel layers with different reflective index. \cite{TORASSA} }
+\label{fig:ARICH}
+\end{figure}
+
+In figure \ref{fig:ARICH} the working principle of the ARICH detector is shown. A charged particle passes through two layers of an aerogel radiator with different reflective indexes and emits Cerenkov photons under an Cerenkov angle $\theta_C$. Behind the radiator is an extension volume for the Cerenkov rings to form. At a distance of $20\,\textrm{cm}$ behind the radiator is the photon detector.\cite{B2TR} Once the Cerenkov ring is reconstructed, the radius of the ring can be determined and, knowing the distance and the radius, the Cerenkov angle can be calculated.
 
 \section{Electromagnetic Calorimeter}
 \label{sec:ECL}
