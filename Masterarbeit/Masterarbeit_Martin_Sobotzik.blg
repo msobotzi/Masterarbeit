@@ -18,7 +18,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: Masterarbeit_Martin_Sobotzik-blx.bib
 Database file #2: Masterarbeit_Martin_Sobotzik.bib
-I was expecting a `,' or a `}'---line 41 of file Masterarbeit_Martin_Sobotzik.bib
+I was expecting a `,' or a `}'---line 100 of file Masterarbeit_Martin_Sobotzik.bib
  :  
  :  isbn=978-3-540-57280-0,
 (Error may have been on previous line)
@@ -26,45 +26,45 @@ I'm skipping whatever remains of this entry
 Biblatex version: 3.3
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 15 entries,
+You've used 20 entries,
             6256 wiz_defined-function locations,
-            1278 strings with 13389 characters,
-and the built_in function-call counts, 60591 in all, are:
-= -- 3495
-> -- 1379
-< -- 499
-+ -- 1097
-- -- 418
-* -- 3979
-:= -- 5034
+            1319 strings with 15832 characters,
+and the built_in function-call counts, 85018 in all, are:
+= -- 4996
+> -- 1929
+< -- 681
++ -- 1633
+- -- 610
+* -- 5737
+:= -- 7171
 add.period$ -- 0
-call.type$ -- 15
-change.case$ -- 242
-chr.to.int$ -- 97
-cite$ -- 28
-duplicate$ -- 6794
-empty$ -- 6204
-format.name$ -- 653
-if$ -- 13004
+call.type$ -- 20
+change.case$ -- 342
+chr.to.int$ -- 104
+cite$ -- 38
+duplicate$ -- 9553
+empty$ -- 8554
+format.name$ -- 953
+if$ -- 18169
 int.to.chr$ -- 0
-int.to.str$ -- 35
+int.to.str$ -- 48
 missing$ -- 0
-newline$ -- 404
-num.names$ -- 669
-pop$ -- 4651
+newline$ -- 570
+num.names$ -- 933
+pop$ -- 6303
 preamble$ -- 1
-purify$ -- 270
+purify$ -- 389
 quote$ -- 0
-skip$ -- 2535
+skip$ -- 3481
 stack$ -- 0
-substring$ -- 5075
-swap$ -- 2032
-text.length$ -- 383
-text.prefix$ -- 14
+substring$ -- 7246
+swap$ -- 2828
+text.length$ -- 517
+text.prefix$ -- 19
 top$ -- 1
-type$ -- 498
+type$ -- 667
 warning$ -- 0
-while$ -- 695
+while$ -- 974
 width$ -- 0
-write$ -- 390
+write$ -- 551
 (There was 1 error message)

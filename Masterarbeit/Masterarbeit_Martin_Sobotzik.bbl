@@ -188,6 +188,96 @@
     \field{year}{2017}
   \endentry
 
+  \entry{KLMS}{article}{}
+    \name{author}{1}{}{%
+      {{hash=eaTA}{%
+         prefix={et},
+         prefixi={e\bibinitperiod},
+         family={al.},
+         familyi={a\bibinitperiod},
+         given={T.\bibnamedelima Aushev},
+         giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{aTAe1}
+    \strng{fullhash}{aTAe1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \verb{doi}
+    \verb 10.1016/j.nima.2015.03.060
+    \endverb
+    \field{title}{A scintillator based endcap K L and muon detector for the
+  Belle II experiment}
+    \verb{url}
+    \verb https://arxiv.org/abs/1406.3267v3
+    \endverb
+    \field{month}{04}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Belle_ECL_2015}{article}{}
+    \name{author}{1}{}{%
+      {{hash=eaVA}{%
+         prefix={et},
+         prefixi={e\bibinitperiod},
+         family={al.},
+         familyi={a\bibinitperiod},
+         given={V.\bibnamedelima Aulchenko},
+         giveni={V\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{IOP} Publishing}%
+    }
+    \strng{namehash}{aVAe1}
+    \strng{fullhash}{aVAe1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{abstract}{%
+    The electromagnetic calorimeter of the BELLE II detector for experiments at
+  Super B-factory SuperKEKB is briefly described. The project of the
+  calorimeter upgrade to meet severe background conditions expected at the
+  upgraded KEK B factory is presented.%
+    }
+    \verb{doi}
+    \verb 10.1088/1742-6596/587/1/012045
+    \endverb
+    \field{pages}{012045}
+    \field{title}{Electromagnetic calorimeter for Belle {II}}
+    \verb{url}
+    \verb https://doi.org/10.1088%2F1742-6596%2F587%2F1%2F012045
+    \endverb
+    \field{volume}{587}
+    \field{journaltitle}{Journal of Physics: Conference Series}
+    \field{year}{2015}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{bergauer2010silicon}{article}{}
+    \name{author}{1}{}{%
+      {{hash=BT}{%
+         family={Bergauer},
+         familyi={B\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BT1}
+    \strng{fullhash}{BT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{pages}{044}
+    \field{title}{The silicon vertex detector of the Belle II experiment}
+    \field{journaltitle}{PoS}
+    \field{year}{2010}
+  \endentry
+
   \entry{cerenkovAngle}{article}{}
     \name{author}{1}{}{%
       {{hash=CP}{%
@@ -264,6 +354,45 @@
     \field{journaltitle}{Journal of Physics: Conference Series}
     \field{month}{09}
     \field{year}{2016}
+  \endentry
+
+  \entry{Filippo:1097}{thesis}{}
+    \name{author}{3}{}{%
+      {{hash=DF}{%
+         family={Dattola},
+         familyi={D\bibinitperiod},
+         given={Filippo},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=VL}{%
+         family={Vitale},
+         familyi={V\bibinitperiod},
+         given={Lorenzo},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=TD}{%
+         family={Tonelli},
+         familyi={T\bibinitperiod},
+         given={Diego},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DFVLTD1}
+    \strng{fullhash}{DFVLTD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{note}{Presented on 20 07 2018}
+    \field{title}{Tracking studies for the Belle II detector}
+    \list{location}{1}{%
+      {Trieste}%
+    }
+    \list{institution}{1}{%
+      {Trieste, University of Trieste}%
+    }
+    \field{type}{phdthesis}
+    \field{year}{2018}
   \endentry
 
   \entry{BDetector}{online}{}
@@ -361,6 +490,66 @@
     \field{title}{Techniques for nuclear and particle physics experiments: a
   how-to approach}
     \field{year}{2012}
+  \endentry
+
+  \entry{MARINAS201159}{article}{}
+    \name{author}{2}{}{%
+      {{hash=MC}{%
+         family={Marinas},
+         familyi={M\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=VM}{%
+         family={Vos},
+         familyi={V\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \keyw{SuperKEKB, Belle-II, DEPFET, Pixel detector, ASIC, Mechanics,
+  Cooling, Resolution}
+    \strng{namehash}{MCVM1}
+    \strng{fullhash}{MCVM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{abstract}{%
+    An upgrade of the successful asymmetric e+e− collider in KEK (Tsukuba,
+  Japan) is foreseen by the fall of 2013. This new Super Flavor Factory will
+  deliver an increased instantaneous luminosity of up to L=8×1035cm−2s−1,
+  40 times larger than the current KEKB machine. To exploit these new
+  conditions and provide high precision measurements of the decay vertex of the
+  B meson systems, a new silicon vertex detector will be operated in Belle.
+  This new detector will consist of two layers of DEPFET Active Pixel Sensors
+  as close as possible to the interaction point. DEPFET is a field effect
+  transistor, with an additional deep implant underneath the channel's gate,
+  integrated on a completely depleted bulk. This technology offers detection
+  and an in-pixel amplification stage, while keeping low the power consumption.
+  Under these conditions, thin sensors with small pixel size and low intrinsic
+  noise are possible. In this article, an overview of the full system will be
+  described, including the sensor, the front-end electronics and both the
+  mechanical and thermal proposed solutions as well as the expected
+  performance.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.nima.2010.12.116
+    \endverb
+    \field{issn}{0168-9002}
+    \field{note}{International Workshop on Semiconductor Pixel Detectors for
+  Particles and Imaging 2010}
+    \field{number}{1}
+    \field{pages}{59 \bibrangedash  63}
+    \field{title}{The Belle-II DEPFET pixel detector: A step forward in
+  vertexing in the superKEKB flavour factory}
+    \verb{url}
+    \verb http://www.sciencedirect.com/science/article/pii/S0168900210028962
+    \endverb
+    \field{volume}{650}
+    \field{journaltitle}{Nuclear Instruments and Methods in Physics Research
+  Section A: Accelerators, Spectrometers, Detectors and Associated Equipment}
+    \field{year}{2011}
   \endentry
 
   \entry{DevelopVertex}{thesis}{}

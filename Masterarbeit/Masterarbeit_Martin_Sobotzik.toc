@@ -28,18 +28,20 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.8}$K_L^0$ and muon detector}{14}{section.3.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Tools}{15}{chapter.4}
+\contentsline {chapter}{\numberline {4}Trigger and Data Acquisition System}{15}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Root}{15}{section.4.1}
+\contentsline {chapter}{\numberline {5}Tools}{16}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Basf2}{15}{section.4.2}
+\contentsline {section}{\numberline {5.1}Root}{16}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Zusammenfassung und Ausblick}{16}{chapter.5}
+\contentsline {section}{\numberline {5.2}Basf2}{16}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Appendix}{17}{appendix.A}
+\contentsline {chapter}{\numberline {6}Zusammenfassung und Ausblick}{17}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Tabellen und Abbildungen}{17}{section.A.1}
+\contentsline {chapter}{\numberline {A}Appendix}{18}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Weiterf\"uhrende Details zur Arbeit}{17}{section.A.2}
+\contentsline {section}{\numberline {A.1}Tabellen und Abbildungen}{18}{section.A.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Danksagung}{22}{appendix.B}
+\contentsline {section}{\numberline {A.2}Weiterf\"uhrende Details zur Arbeit}{18}{section.A.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {B}Danksagung}{24}{appendix.B}
