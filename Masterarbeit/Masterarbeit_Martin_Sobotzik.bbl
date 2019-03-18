@@ -337,6 +337,32 @@
     \field{year}{2006}
   \endentry
 
+  \entry{leo2012techniques}{book}{}
+    \name{author}{1}{}{%
+      {{hash=LWR}{%
+         family={Leo},
+         familyi={L\bibinitperiod},
+         given={William\bibnamedelima R},
+         giveni={W\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer Science \& Business Media}%
+    }
+    \strng{namehash}{LWR1}
+    \strng{fullhash}{LWR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \verb{doi}
+    \verb 10.1007/978-3-642-57920-2
+    \endverb
+    \field{title}{Techniques for nuclear and particle physics experiments: a
+  how-to approach}
+    \field{year}{2012}
+  \endentry
+
   \entry{DevelopVertex}{thesis}{}
     \name{author}{1}{}{%
       {{hash=SN}{%

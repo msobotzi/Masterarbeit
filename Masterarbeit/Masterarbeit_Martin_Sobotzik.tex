@@ -294,6 +294,7 @@ The PXD is based on Depleted P-channel Field-Effect Transistor (DePFET) technolo
 As you can see in figure \ref{fig:pxd}, the PXD consists of two layers of sensors. The inner layer is made out of eight planar sensors (ladder), each has a width of $15\,\textrm{mm}$ and an effective length of $90\,\textrm{mm}$. This layer has a radius of $14\,\textrm{mm}$. The second layer consists of 12 planar sensors. These sensors also have a width of $15\,\textrm{mm}$, but a length of $123\,\textrm{mm}$. The radius for the second layer is $22\,\textrm{mm}$. The PXD provides a spatial resolution of about $1.2\,\mu\textrm{m}$.\cite{B2TR}
 
 Due to the vicinity of the PXD to the interaction region, the quantum-electrodynamics background is very high, so the sensors  must withstand high radiation. The DePFET technology fulfills this condition. \cite{B2TR}
+\newline 
 
 DePFET is a semiconductor detector concept invented in 1987 by J. Kemmer and G. Lutz of the MPI for Physics. This concepts combines detection and amplification in one single device. 
 
@@ -321,7 +322,7 @@ The SVD consists of four layers of double-sided strip detectors. The layers are 
 
 In the barrel region the $p$-side of the double-sided-strip sensors is arranged parallel to the beam axis and facing the interaction region. The $n$-side is facing outside the detector and the $n$-strips are perpendicular arranged to the beam axis. 
 
-When a particles travels through the sensors it creates electron-holes pairs along its path by ionization. The electrons then propagate to the $n$-strips and are accumulated there. The wholes propagate to the $p$-strips and are collected there. The sensors then produce a signal from which the coordinate of the particle position can be read out. The $p$-side provides the $z$-direction and the $n$-side provides the $r-\theta$ direction.\cite{B2TR}
+When a particles travels through the sensors it creates electron-holes pairs along its path by ionization. The electrons then propagate to the $n$-strips and are accumulated there. The holes propagate to the $p$-strips and are collected there. The sensors then produce a signal from which the coordinate of the particle position can be read out. The $p$-side provides the $z$-direction and the $n$-side provides the $r-\theta$ direction.\cite{B2TR}
 
 
 
@@ -393,13 +394,43 @@ In figure \ref{fig:ARICH} the working principle of the ARICH detector is shown. 
 \section{Electromagnetic Calorimeter}
 \label{sec:ECL}
 
-The ECL
+One of the main tasks of the ECL is the detection of photons with a high efficiency. It also determinants the energy and the angular coordinates of these photons with high precision. It is also used for electron identification and the generation of a proper signal for the trigger. The ECL consists of a $3\,\textrm{m}$ long barrel section with an inner radius of $1.25\,\textrm{m}$. The circular endcaps are located at a distance of $z=1.96\,\textrm{m}$ in the forward direction and $z=-1.02\,\textrm{m}$ in the backward direction from the interaction point. The ECL covers a polar angle region of $12.4^{\circ} < \theta < 155.1^{\circ}$. Due to construction, there are two $ \sim 1^{\circ}$ wide gaps between the barrel and the endcaps. The barrel section of the calorimeter consists of 6624 CsI(Tl)\footnote{Thallium activated Cesium Iodide} crystals with 29 distinct shapes. Each of these crystals is a truncated pyramid with an average size of about $6\times6 \, \textrm{cm}^2$ in cross section and $30\,\textrm{cm}$ in length. The length of these crystals corresponds to around 16.1 radiation lengths $X_0$. The endcaps consist of 2122 CsI crystals of 69 shapes. At the end of each crystal, photo-multiplier are mounted to detect the excitation of the scintillator. The detected number of photons corresponds directly to the energy released by absorbed particles.
+The energy resolution of the calorimeter can be approximated as:\cite{B2TR} 
 
+\begin{equation}
+\frac{\sigma_E}{E} = \sqrt{\bigg(\frac{0.066\%}{E}\bigg)^2 + \bigg(\frac{0.81\%}{\sqrt[4]{E}}\bigg)^2 + (1.34\%)^2}
+\end{equation}
+The energy E is in GeV.
+\newline
+
+Photons and electromagnetic particles are creating electromagnetic cascades when they pass through material.\cite{leo2012techniques} When a high energetic photon passes through a material it creates an electron-positron pair by pair production. For this, the photon must have at least an energy of $2\cdot m_{e^{-}} = 1.022\,\textrm{MeV}$. This energy is evenly distributed between the two particles. Because these two particles are charged and their velocity changes in an the electric field of a nuclei, they generate photons through Bremsstrahlung. These processes are repeated and a electromagnetic shower is created. The energies of the particles continue to decrease until the critical energy $E_c$ is reached. At the critical energy, the energy loss due to Bremsstrahlung is as high as the energy loss due to ionization.
+
+If the average energy of an electron becomes ${E_0}/{e}$ then the distance the electron traveled is called radiation length $X_0$.
+
+Assuming that the electromagnetic particles and photons interact after one radiation length and that they loose half of their energy each time they do, the total number of particles and their energy after $t$ cascades can then be calculated by:\cite{leo2012techniques}
+
+\begin{equation}
+	N \simeq 2^t
+\end{equation}
+
+\begin{equation}
+	E(t) \simeq \frac{E_0}{2^t}
+\end{equation}
+
+This shower both spreads longitudinally and transversely. The transverse propagation can be described by the Moli\`ere radius. It can be calculated by:
+
+\begin{equation}
+	R_M=21\,\textrm{MeV}\cdot \frac{X_0}{E_c}
+\end{equation}
+
+$ 95\,\%$ of all particles of a shower are within two Moli\`ere radii.\cite{leo2012techniques}
 
 \section{$K_L^0$ and muon detector }
 \label{sec:KM}
 
-The $K_L^0$
+The KLM consists of an alternating sandwich structure of a $4.7\,\textrm{cm}$ thick iron plates and resistive plate chambers (RPC) in between.
+
+RPCs consist of two glass sheets, separated by a thin gas volume. These sheets act as high voltage electrodes. When a particle passes through the volume, they create ion-electron pairs which are then accelerated by the strong electric field. They therefore initiate more ionizations, which leads to a streamer between the electrodes. This causes a voltage drop in the nearby electrodes, which is detected by pick-up strips, located on both sides of the chamber. These strips are a few centimeters wide and are placed orthogonal on each side. Therefore, the particle track can be localized in $z/\phi$ for the barrel region and $\phi/\theta$ for the endcaps.
 
 \chapter{Tools}
 \label{sec:Tools}
