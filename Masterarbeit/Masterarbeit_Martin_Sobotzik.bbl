@@ -580,6 +580,20 @@
   'date'}
   \endentry
 
+  \entry{SMFigure}{online}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{addendum}{visited on 19.03.2019}
+    \field{title}{Standard Model}
+    \verb{url}
+    \verb https://www.physik.uzh.ch/en/researcharea/lhcb/outreach/StandardModel
+    \verb .html
+    \endverb
+    \warn{\item Invalid format of field 'date' \item Invalid format of field
+  'date'}
+  \endentry
+
   \entry{TORASSA}{article}{}
     \name{author}{1}{}{%
       {{hash=TE}{%

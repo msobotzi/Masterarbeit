@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.21)  18 MAR 2019 17:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.21)  19 MAR 2019 15:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -48,12 +48,6 @@ Package scrbook Info: You've used standard option `11pt'.
 (scrbook)             If you'd like to set the option with \KOMAoptions,
 (scrbook)             you'd have to use `fontsize=11pt' there
 (scrbook)             instead of `11pt', too.
-Class scrbook Info: You've used standard option `oneside'.
-(scrbook)           This is correct!
-(scrbook)           Internally I'm using `twoside=false'.
-(scrbook)           If you'd like to set the option with \KOMAoptions,
-(scrbook)           you'd have to use `twoside=false' there
-(scrbook)           instead of `oneside', too.
 Class scrbook Info: You've used standard option `final'.
 (scrbook)           This is correct!
 (scrbook)           Internally I'm using `draft=false'.
@@ -88,12 +82,6 @@ Package typearea Info: You've used standard option `a4paper'.
 (typearea)             If you'd like to set the option with \KOMAoptions,
 (typearea)             you'd have to use `paper=a4' there
 (typearea)             instead of `a4paper', too.
-Package typearea Info: You've used standard option `oneside'.
-(typearea)             This is correct!
-(typearea)             Internally I'm using `twoside=false'.
-(typearea)             If you'd like to set the option with \KOMAoptions,
-(typearea)             you'd have to use `twoside=false' there
-(typearea)             instead of `oneside', too.
 Package typearea Info: You've used standard option `pdftex'.
 (typearea)             This is correct!
 (typearea)             Internally I'm using `pagesize=pdftex'.
@@ -110,8 +98,8 @@ Package typearea Info: These are the values describing the layout:
 (typearea)             \paperwidth      = 597.50793pt
 (typearea)              \textwidth      = 418.25555pt
 (typearea)              DIV departure   = -6%
-(typearea)              \evensidemargin = 17.3562pt
-(typearea)              \oddsidemargin  = 17.3562pt
+(typearea)              \evensidemargin = 47.2316pt
+(typearea)              \oddsidemargin  = -12.5192pt
 (typearea)             \paperheight     = 845.04694pt
 (typearea)              \textheight     = 595.80026pt
 (typearea)              \topmargin      = -25.16531pt
@@ -1421,6 +1409,10 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 \@quotelevel=\count324
 \@quotereset=\count325
+
+LaTeX Warning: Unused global option(s):
+    [twosided].
+
 (./Masterarbeit_Martin_Sobotzik.aux)
 \openout1 = `Masterarbeit_Martin_Sobotzik.aux'.
 
@@ -1531,6 +1523,12 @@ Package biblatex Warning: Biber reported the following issues
 (biblatex)                - Invalid format of field 'date' 
 (biblatex)                - Invalid format of field 'date'.
 
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'SMFigure':
+(biblatex)                - Invalid format of field 'date' 
+(biblatex)                - Invalid format of field 'date'.
+
 )
 Package biblatex Info: Reference section=0 on input line 83.
 Package biblatex Info: Reference segment=0 on input line 83.
@@ -1561,179 +1559,189 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
  [3
 
 
+] [4
+
+
+
 ]
 chapter 1.
 [1
 
 
+] [2
 
 
 ]
 chapter 2.
-[2
+<Bilder/SM.png, id=152, 361.35pt x 240.4182pt>
+File: Bilder/SM.png Graphic file (type png)
+ <use Bilder/SM.png>
+Package pdftex.def Info: Bilder/SM.png used on input line 172.
+(pdftex.def)             Requested size: 355.65944pt x 236.63539pt.
+ [3 <./Bilder/SM.png>] [4
 
 
 ]
 chapter 3.
-<Bilder/SuperKEKB.png, id=151, 630.355pt x 659.46375pt>
+<Bilder/SuperKEKB.png, id=167, 630.355pt x 659.46375pt>
 File: Bilder/SuperKEKB.png Graphic file (type png)
 
 <use Bilder/SuperKEKB.png>
-Package pdftex.def Info: Bilder/SuperKEKB.png used on input line 189.
+Package pdftex.def Info: Bilder/SuperKEKB.png used on input line 197.
 (pdftex.def)             Requested size: 227.62204pt x 238.13127pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[3
-
-
-] <Bilder/bsSKEK.png, id=174, 1087.06125pt x 264.99pt>
+[5] <Bilder/bsSKEK.png, id=191, 1087.06125pt x 264.99pt>
 File: Bilder/bsSKEK.png Graphic file (type png)
 
 <use Bilder/bsSKEK.png>
-Package pdftex.def Info: Bilder/bsSKEK.png used on input line 215.
+Package pdftex.def Info: Bilder/bsSKEK.png used on input line 223.
 (pdftex.def)             Requested size: 412.56496pt x 100.5719pt.
 
-Overfull \hbox (5.69048pt too wide) in paragraph at lines 215--216
+Overfull \hbox (5.69048pt too wide) in paragraph at lines 223--224
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[4 <./Bilder/SuperKEKB.png>] <Bilder/Belle2.png, id=193, 1927.2pt x 1084.05pt>
+[6 <./Bilder/SuperKEKB.png>] <Bilder/Belle2.png, id=207, 1927.2pt x 1084.05pt>
 File: Bilder/Belle2.png Graphic file (type png)
 
 <use Bilder/Belle2.png>
-Package pdftex.def Info: Bilder/Belle2.png used on input line 232.
+Package pdftex.def Info: Bilder/Belle2.png used on input line 240.
 (pdftex.def)             Requested size: 355.65944pt x 200.04987pt.
- [5 <./Bilder/bsSKEK.png> <./Bilder/Belle2.png>]
-<Bilder/coordinate.png, id=207, 372.39125pt x 418.56375pt>
+ [7 <./Bilder/bsSKEK.png> <./Bilder/Belle2.png>]
+<Bilder/coordinate.png, id=221, 372.39125pt x 418.56375pt>
 File: Bilder/coordinate.png Graphic file (type png)
 
 <use Bilder/coordinate.png>
-Package pdftex.def Info: Bilder/coordinate.png used on input line 256.
+Package pdftex.def Info: Bilder/coordinate.png used on input line 264.
 (pdftex.def)             Requested size: 128.0374pt x 143.91286pt.
- [6 <./Bilder/coordinate.png>]
-<Bilder/PXD_SVD.png, id=217, 853.1875pt x 848.16875pt>
+ [8 <./Bilder/coordinate.png>]
+<Bilder/PXD_SVD.png, id=231, 853.1875pt x 848.16875pt>
 File: Bilder/PXD_SVD.png Graphic file (type png)
 
 <use Bilder/PXD_SVD.png>
-Package pdftex.def Info: Bilder/PXD_SVD.png used on input line 272.
+Package pdftex.def Info: Bilder/PXD_SVD.png used on input line 280.
 (pdftex.def)             Requested size: 298.75394pt x 297.00586pt.
- [7 <./Bilder/PXD_SVD.png>]
-<Bilder/pixel.png, id=229, 1233.60875pt x 838.13126pt>
+ [9 <./Bilder/PXD_SVD.png>]
+<Bilder/pixel.png, id=244, 1233.60875pt x 838.13126pt>
 File: Bilder/pixel.png Graphic file (type png)
  <use Bilder/pixel.png>
-Package pdftex.def Info: Bilder/pixel.png used on input line 288.
+Package pdftex.def Info: Bilder/pixel.png used on input line 296.
 (pdftex.def)             Requested size: 298.75394pt x 202.97162pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 296--298
+Underfull \hbox (badness 10000) in paragraph at lines 304--306
 
  []
 
-<Bilder/DEPFET.png, id=237, 294.09875pt x 299.1175pt>
+<Bilder/DEPFET.png, id=252, 294.09875pt x 299.1175pt>
 File: Bilder/DEPFET.png Graphic file (type png)
  <use Bilder/DEPFET.png>
-Package pdftex.def Info: Bilder/DEPFET.png used on input line 303.
+Package pdftex.def Info: Bilder/DEPFET.png used on input line 311.
 (pdftex.def)             Requested size: 199.16928pt x 202.56653pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[8 <./Bilder/pixel.png>] <Bilder/SVD.png, id=252, 587.33714pt x 344.71643pt>
+[10 <./Bilder/pixel.png>] <Bilder/SVD.png, id=267, 587.33714pt x 344.71643pt>
 File: Bilder/SVD.png Graphic file (type png)
 
 <use Bilder/SVD.png>
-Package pdftex.def Info: Bilder/SVD.png used on input line 318.
+Package pdftex.def Info: Bilder/SVD.png used on input line 326.
 (pdftex.def)             Requested size: 355.65944pt x 208.74606pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[9 <./Bilder/DEPFET.png>] <Bilder/CDC.png, id=264, 753.81625pt x 284.06125pt>
+[11 <./Bilder/DEPFET.png>] <Bilder/CDC.png, id=279, 753.81625pt x 284.06125pt>
 File: Bilder/CDC.png Graphic file (type png)
 
 <use Bilder/CDC.png>
-Package pdftex.def Info: Bilder/CDC.png used on input line 336.
+Package pdftex.def Info: Bilder/CDC.png used on input line 344.
 (pdftex.def)             Requested size: 355.65944pt x 134.02025pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[10 <./Bilder/SVD.png>] <Bilder/TOP.png, id=281, 437.635pt x 164.615pt>
+[12 <./Bilder/SVD.png>] <Bilder/TOP.png, id=295, 437.635pt x 164.615pt>
 File: Bilder/TOP.png Graphic file (type png)
 
 <use Bilder/TOP.png>
-Package pdftex.def Info: Bilder/TOP.png used on input line 365.
+Package pdftex.def Info: Bilder/TOP.png used on input line 373.
 (pdftex.def)             Requested size: 298.75394pt x 112.37628pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[11 <./Bilder/CDC.png>] <Bilder/ARICH.jpg, id=296, 178.65144pt x 144.10638pt>
+[13 <./Bilder/CDC.png>] <Bilder/ARICH.jpg, id=310, 178.65144pt x 144.10638pt>
 File: Bilder/ARICH.jpg Graphic file (type jpg)
 
 <use Bilder/ARICH.jpg>
-Package pdftex.def Info: Bilder/ARICH.jpg used on input line 380.
+Package pdftex.def Info: Bilder/ARICH.jpg used on input line 388.
 (pdftex.def)             Requested size: 183.09227pt x 147.6968pt.
- <Bilder/ARICH2.jpg, id=297, 177.797pt x 154.77292pt>
+ <Bilder/ARICH2.jpg, id=311, 177.797pt x 154.77292pt>
 File: Bilder/ARICH2.jpg Graphic file (type jpg)
 
 <use Bilder/ARICH2.jpg>
-Package pdftex.def Info: Bilder/ARICH2.jpg used on input line 385.
+Package pdftex.def Info: Bilder/ARICH2.jpg used on input line 393.
 (pdftex.def)             Requested size: 183.09227pt x 159.39424pt.
- [12 <./Bilder/TOP.png> <./Bilder/ARICH.jpg> <./Bilder/ARICH2.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 402--405
+ [14 <./Bilder/TOP.png> <./Bilder/ARICH.jpg> <./Bilder/ARICH2.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 410--413
 
  []
 
-[13]
+[15]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 428.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 428.
+(hyperref)                removing `math shift' on input line 436.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 428.
+(hyperref)                removing `subscript' on input line 436.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 428.
+(hyperref)                removing `superscript' on input line 436.
 
-[14]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 436.
+
+[16]
 chapter 4.
-[15
+[17
+
+
+] [18
 
 
 ]
 chapter 5.
-[16
+[19] [20
 
 
 ]
 chapter 6.
-[17
+[21] [22
 
 
 ]
 chapter A.
 
-LaTeX Warning: Reference `Abb:1' on page 18 undefined on input line 481.
+LaTeX Warning: Reference `Abb:1' on page 23 undefined on input line 489.
 
-[18
+[23] [24
 
 
 ] (./Masterarbeit_Martin_Sobotzik.lof)
 \tf@lof=\write8
 \openout8 = `Masterarbeit_Martin_Sobotzik.lof'.
 
- [19
+ [25] [26
 
 
 ]
@@ -1741,35 +1749,32 @@ LaTeX Warning: Reference `Abb:1' on page 18 undefined on input line 481.
 \tf@lot=\write9
 \openout9 = `Masterarbeit_Martin_Sobotzik.lot'.
 
- [20
+ [27] [28
 
 
-] [21
-
-
-] [22]
-Underfull \hbox (badness 1466) in paragraph at lines 527--527
+] [29] [30]
+Underfull \hbox (badness 1466) in paragraph at lines 535--535
 []\OT1/cmr/m/sc/10.95 url\OT1/cmr/m/n/10.95 : []$\OT1/cmtt/m/n/10.95 http : / /
  www . sciencedirect . com / science / article / pii /
  []
 
 
-Underfull \hbox (badness 1466) in paragraph at lines 527--527
+Underfull \hbox (badness 1466) in paragraph at lines 535--535
 []\OT1/cmr/m/sc/10.95 url\OT1/cmr/m/n/10.95 : []$\OT1/cmtt/m/n/10.95 http : / /
  www . sciencedirect . com / science / article / pii /
  []
 
-[23]
-chapter B.
-[24
+[31] [32
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 538.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 538.
+chapter B.
+[33]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 546.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 546.
  (./Masterarbeit_Martin_Sobotzik.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 538.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 538.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 546.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 546.
 Package rerunfilecheck Info: File `Masterarbeit_Martin_Sobotzik.out' has not ch
 anged.
 (rerunfilecheck)             Checksum: 5AD727BA4CBC024093C54881D7C593F3;1364.
@@ -1781,16 +1786,16 @@ Package logreq Info: Writing requests to 'Masterarbeit_Martin_Sobotzik.run.xml'
 .
 \openout1 = `Masterarbeit_Martin_Sobotzik.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 538.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 546.
  ) 
 Here is how much of TeX's memory you used:
- 26390 strings out of 494852
- 485901 string characters out of 6177656
- 835221 words of memory out of 5000000
- 29164 multiletter control sequences out of 15000+600000
+ 26409 strings out of 494852
+ 486136 string characters out of 6177656
+ 835202 words of memory out of 5000000
+ 29171 multiletter control sequences out of 15000+600000
  17566 words of font info for 67 fonts, out of 8000000 for 9000
  39 hyphenation exceptions out of 8191
- 64i,9n,66p,8869b,2682s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,9n,66p,8869b,2688s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/tex
@@ -1809,10 +1814,10 @@ ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Masterarbeit_Martin_Sobotzik.pdf (27 pages, 3383132 bytes).
+Output written on Masterarbeit_Martin_Sobotzik.pdf (37 pages, 3612017 bytes).
 PDF statistics:
- 508 PDF objects out of 1000 (max. 8388607)
- 427 compressed objects within 5 object streams
- 94 named destinations out of 1000 (max. 500000)
- 249 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 559 PDF objects out of 1000 (max. 8388607)
+ 466 compressed objects within 5 object streams
+ 105 named destinations out of 1000 (max. 500000)
+ 254 words of extra memory for PDF output out of 10000 (max. 10000000)
 

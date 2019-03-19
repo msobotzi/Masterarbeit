@@ -18,7 +18,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: Masterarbeit_Martin_Sobotzik-blx.bib
 Database file #2: Masterarbeit_Martin_Sobotzik.bib
-I was expecting a `,' or a `}'---line 100 of file Masterarbeit_Martin_Sobotzik.bib
+I was expecting a `,' or a `}'---line 110 of file Masterarbeit_Martin_Sobotzik.bib
  :  
  :  isbn=978-3-540-57280-0,
 (Error may have been on previous line)
@@ -26,45 +26,45 @@ I'm skipping whatever remains of this entry
 Biblatex version: 3.3
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 20 entries,
+You've used 21 entries,
             6256 wiz_defined-function locations,
-            1319 strings with 15832 characters,
-and the built_in function-call counts, 85018 in all, are:
-= -- 4996
-> -- 1929
-< -- 681
-+ -- 1633
-- -- 610
-* -- 5737
-:= -- 7171
+            1325 strings with 15967 characters,
+and the built_in function-call counts, 87362 in all, are:
+= -- 5073
+> -- 1947
+< -- 705
++ -- 1634
+- -- 614
+* -- 5863
+:= -- 7259
 add.period$ -- 0
-call.type$ -- 20
-change.case$ -- 342
-chr.to.int$ -- 104
-cite$ -- 38
-duplicate$ -- 9553
-empty$ -- 8554
+call.type$ -- 21
+change.case$ -- 346
+chr.to.int$ -- 110
+cite$ -- 40
+duplicate$ -- 9872
+empty$ -- 8901
 format.name$ -- 953
-if$ -- 18169
+if$ -- 18695
 int.to.chr$ -- 0
-int.to.str$ -- 48
+int.to.str$ -- 49
 missing$ -- 0
-newline$ -- 570
+newline$ -- 583
 num.names$ -- 933
-pop$ -- 6303
+pop$ -- 6650
 preamble$ -- 1
-purify$ -- 389
+purify$ -- 392
 quote$ -- 0
-skip$ -- 3481
+skip$ -- 3572
 stack$ -- 0
-substring$ -- 7246
-swap$ -- 2828
-text.length$ -- 517
-text.prefix$ -- 19
+substring$ -- 7404
+swap$ -- 2935
+text.length$ -- 538
+text.prefix$ -- 20
 top$ -- 1
-type$ -- 667
+type$ -- 701
 warning$ -- 0
-while$ -- 974
+while$ -- 987
 width$ -- 0
-write$ -- 551
+write$ -- 563
 (There was 1 error message)
