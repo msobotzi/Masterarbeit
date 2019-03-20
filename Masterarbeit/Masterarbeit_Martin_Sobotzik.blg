@@ -18,7 +18,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: Masterarbeit_Martin_Sobotzik-blx.bib
 Database file #2: Masterarbeit_Martin_Sobotzik.bib
-I was expecting a `,' or a `}'---line 110 of file Masterarbeit_Martin_Sobotzik.bib
+I was expecting a `,' or a `}'---line 161 of file Masterarbeit_Martin_Sobotzik.bib
  :  
  :  isbn=978-3-540-57280-0,
 (Error may have been on previous line)
@@ -26,45 +26,45 @@ I'm skipping whatever remains of this entry
 Biblatex version: 3.3
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 21 entries,
+You've used 25 entries,
             6256 wiz_defined-function locations,
-            1325 strings with 15967 characters,
-and the built_in function-call counts, 87362 in all, are:
-= -- 5073
-> -- 1947
-< -- 705
-+ -- 1634
-- -- 614
-* -- 5863
-:= -- 7259
+            1357 strings with 19753 characters,
+and the built_in function-call counts, 101315 in all, are:
+= -- 5769
+> -- 2270
+< -- 797
++ -- 1857
+- -- 717
+* -- 6841
+:= -- 8363
 add.period$ -- 0
-call.type$ -- 21
-change.case$ -- 346
+call.type$ -- 25
+change.case$ -- 384
 chr.to.int$ -- 110
-cite$ -- 40
-duplicate$ -- 9872
-empty$ -- 8901
-format.name$ -- 953
-if$ -- 18695
+cite$ -- 48
+duplicate$ -- 11547
+empty$ -- 10406
+format.name$ -- 1147
+if$ -- 21688
 int.to.chr$ -- 0
-int.to.str$ -- 49
+int.to.str$ -- 59
 missing$ -- 0
-newline$ -- 583
-num.names$ -- 933
-pop$ -- 6650
+newline$ -- 685
+num.names$ -- 1103
+pop$ -- 7936
 preamble$ -- 1
-purify$ -- 392
+purify$ -- 438
 quote$ -- 0
-skip$ -- 3572
+skip$ -- 4172
 stack$ -- 0
-substring$ -- 7404
-swap$ -- 2935
-text.length$ -- 538
-text.prefix$ -- 20
+substring$ -- 8205
+swap$ -- 3453
+text.length$ -- 631
+text.prefix$ -- 25
 top$ -- 1
-type$ -- 701
+type$ -- 837
 warning$ -- 0
-while$ -- 987
+while$ -- 1139
 width$ -- 0
-write$ -- 563
+write$ -- 661
 (There was 1 error message)

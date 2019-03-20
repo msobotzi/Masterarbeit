@@ -409,6 +409,74 @@
     \field{year}{2018}
   \endentry
 
+  \entry{HAMBYE2012193}{article}{}
+    \name{author}{1}{}{%
+      {{hash=HT}{%
+         family={Hambye},
+         familyi={H\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \keyw{Flavor physics, CP violation, Baryogenesis, Leptogenesis, Physique de
+  la saveur, Violation de CP, Baryogenèse, Leptogenèse}
+    \strng{namehash}{HT1}
+    \strng{fullhash}{HT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{abstract}{%
+    In our everyday environment one observes only matter. Thatʼs quite a
+  fortunate situation! Any sizeable presence of antimatter on Earth, from the
+  enormous energy it would release through annihilation with matter, would
+  prevent us talking about it! For the physicist this fact, at first sight
+  obvious, is nevertheless a kind of surprise: antimatter, which is observed in
+  cosmic rays, in radioactive decays of nuclei, which has been copiously
+  produced and extensively studied in accelerators and which is nowadays
+  currently used in hospitals, turns out to have pretty much the same
+  properties as matter. Moreover, the fact that matter dominates appears to be
+  a general property of our Universe: no evidence of large quantities of
+  antimatter has been observed at any distance from us. Why would matter have
+  taken the advantage on antimatter? In this short review we explain how,
+  through a limited number of basic elements, one can find answers to this
+  question. Matter and antimatter have, in fact, not exactly the same
+  properties: from laboratory experiments CP conservation is known not to be a
+  fundamental law of nature. Résumé Dans notre vie de tous les jours nous
+  nʼappréhendons que de la matière et rien ne nous indique à première vue
+  quʼil puisse exister de lʼantimatière. Bienheureux sommes nous ! La
+  présence dʼune quelconque quantité macroscopique dʼantimatière autour de
+  nous, par lʼénergie quʼelle dégagerait en sʼannihilant avec la matière,
+  nous empêcherait dʼêtre là pour en parler ! Cet état de chose est
+  cependant une surprise pour le physicien : lʼantimatière qui est
+  aujourdʼhui bien connue — étant observée et utilisée tous les jours
+  dans les rayons cosmiques, les processus radioactifs, les accélérateurs de
+  particules et les hôpitaux — a des propriétés très similaires à celles
+  de la matière. De plus le fait que la matière domine apparaît être une
+  caractéristique générale de notre univers : aucune trace dʼune grande
+  quantité dʼantimatière nʼa été observée à quelque distance que ce
+  soit. Pourquoi la matière aurait-elle donc pris le pas sur lʼantimatière ?
+  Dans ce Fascicule nous expliquons brièvement comment à partir dʼun nombre
+  restreint dʼéléments de base lʼon peut trouver des réponses à cette
+  question, en commençant par un ingrédient crucial : il a été observé en
+  laboratoire que la conservation de la symétrie CP nʼest pas une loi de la
+  nature.%
+    }
+    \field{issn}{1631-0705}
+    \field{note}{Flavour physics and CP violation / Physique de la saveur et
+  violation de CP}
+    \field{number}{2}
+    \field{pages}{193 \bibrangedash  203}
+    \field{title}{CP violation and the matter–antimatter asymmetry of the
+  Universe}
+    \verb{url}
+    \verb http://www.sciencedirect.com/science/article/pii/S1631070511001873
+    \endverb
+    \field{volume}{13}
+    \field{journaltitle}{Comptes Rendus Physique}
+    \field{year}{2012}
+  \endentry
+
   \entry{CDCHauth}{online}{}
     \name{author}{1}{}{%
       {{hash=HT}{%
@@ -418,8 +486,8 @@
          giveni={T\bibinitperiod},
       }}%
     }
-    \strng{namehash}{HT1}
-    \strng{fullhash}{HT1}
+    \strng{namehash}{HT2}
+    \strng{fullhash}{HT2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{sortinit}{H}
@@ -552,6 +620,62 @@
     \field{year}{2011}
   \endentry
 
+  \entry{TheoryOfAlmostEverything}{book}{}
+    \name{author}{1}{}{%
+      {{hash=OR}{%
+         family={Oerter},
+         familyi={O\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{OR1}
+    \strng{fullhash}{OR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{isbn}{978-1-101-12674-5}
+    \field{title}{The theory of almost everything - The Standard Model}
+    \field{year}{2006}
+  \endentry
+
+  \entry{REINES19941}{article}{}
+    \name{author}{1}{}{%
+      {{hash=RF}{%
+         family={Reines},
+         familyi={R\bibinitperiod},
+         given={Frederick},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \keyw{Neutrino, neutrino discovery, nuclear reactor, scintillation
+  detector, atmospheric neutrinos}
+    \strng{namehash}{RF1}
+    \strng{fullhash}{RF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{abstract}{%
+    Wolfgang Pauli and Enrico Fermi pioneered the hypothesis and
+  characteristics of the weak interaction and the elementary particle called
+  the neutrino. Since its discovery some forty years ago the neutrino has been
+  shown to be a fundamental constituent of matter with a surprisingly rich, and
+  in very many ways unexpected, set of characteristics ranging from basic roles
+  in the generation of energy in the sun to supernovæ.%
+    }
+    \field{issn}{0146-6410}
+    \field{pages}{1 \bibrangedash  12}
+    \field{title}{40 years of neutrino physics}
+    \verb{url}
+    \verb http://www.sciencedirect.com/science/article/pii/0146641094900035
+    \endverb
+    \field{volume}{32}
+    \field{journaltitle}{Progress in Particle and Nuclear Physics}
+    \field{year}{1994}
+  \endentry
+
   \entry{DevelopVertex}{thesis}{}
     \name{author}{1}{}{%
       {{hash=SN}{%
@@ -578,6 +702,29 @@
     }
     \warn{\item Invalid format of field 'date' \item Invalid format of field
   'date'}
+  \endentry
+
+  \entry{sivaram2007special}{article}{}
+    \name{author}{1}{}{%
+      {{hash=SC}{%
+         family={Sivaram},
+         familyi={S\bibinitperiod},
+         given={C},
+         giveni={C},
+      }}%
+    }
+    \strng{namehash}{SC1}
+    \strng{fullhash}{SC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{What is special about the planck mass?}
+    \verb{url}
+    \verb https://arxiv.org/abs/0707.0058
+    \endverb
+    \field{journaltitle}{arXiv preprint arXiv:0707.0058}
+    \field{year}{2007}
   \endentry
 
   \entry{SMFigure}{online}{}
@@ -630,9 +777,6 @@
   these two detectors, the performance studies, and the construction progress
   are presented.%
     }
-    \verb{doi}
-    \verb https://doi.org/10.1016/j.nima.2015.11.016
-    \endverb
     \field{issn}{0168-9002}
     \field{note}{Frontier Detectors for Frontier Physics: Proceedings of the
   13th Pisa Meeting on Advanced Detectors}

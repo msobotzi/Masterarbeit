@@ -44,4 +44,10 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {A.2}Weiterf\"uhrende Details zur Arbeit}{23}{section.A.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Danksagung}{33}{appendix.B}
+\contentsline {chapter}{\nonumberline List of Figures}{25}{chapter*.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline List of Tables}{27}{chapter*.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Bibliography}{29}{chapter*.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Acknowledgement}{33}{section*.5}

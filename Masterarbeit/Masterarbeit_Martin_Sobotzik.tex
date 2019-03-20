@@ -2,7 +2,7 @@
 %class
 %_______________________________________________________________________________
 %\documentclass[a4paper,11pt,onecolumn,final,german,openbib]{scrbook}
-\documentclass[a4paper,11pt,twosided,final,german,openbib,pdftex]{scrbook}
+\documentclass[a4paper,11pt,twosided,final,german,openbib,pdftex,listof=totoc,bibliography=totoc]{scrbook}
 %_______________________________________________________________________________
 % page borders
 %_______________________________________________________________________________
@@ -166,12 +166,20 @@ ersten \"Uberblick \"uber den nachfolgenden Text zu geben.
 \chapter{Standard Model}
 \label{sec:SM}
 
+The standard model (SM) is a theory that describes three of the four fundamental known forces in the universe. At the current level of experimental precision and the reached energies so far, it is the best theory describing these forces.
+
 
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=12.5cm]{Bilder/SM.png}
+	\caption[Standard Model]{The particles of the Standard Model include three families of quarks and leptons, four gauge bosons and the Higgs boson.\cite{SMFigure}}
+	\label{fig:SM}
 \end{figure}
 
+Figure \ref{fig:SM} shows the elementary particles of the standard model. It includes three families of quarks and leptons (fermions), four gauge bosons and the Higgs boson. Atoms consists of fermions from the first family. The nuclei are made out of protons and neutrons, each of which is a combination of up and down quarks. In the electron shell of an atom electrons are located. Pauli proposed the neutrino in the 1930 to explain the energy spectrum of electrons in $\beta$-decays. Since neutrinos are only weak interacting particles, they were not observed until 1956.\cite{REINES19941} With increasing energy, the second and third family have been gradually discovered, first from cosmic ray experiments in the 1930s up to the discovery of the Higgs boson at the LHC in 2012. Parallel to the experimental discoveries, the theory also evolved, partially explaining the results and in part motivating new experiments through predictions.
+\newline
+
+Despite the success of the standard model as an effective theory, it fails answering a lot of open questions. For example, the standard model only includes three out of four fundamental forces. It does not include gravity, therefore, the standard model is not valid at energy scales approaching the Planck energy $E_P \approx 1.22\cdot 10^{19}\,\textrm{GeV} $.\cite{sivaram2007special} It is also unable to explain dark matter, dark energy and the matter/antimatter asymmetry in the universe which is directly linked to charged-parity violation.\cite{HAMBYE2012193}
 
 
 
@@ -531,12 +539,12 @@ findet man im Internet: \url{http://janeden.net/bibliographien-mit-latex}.
 
 
 \nocite{*}
-\printbibliography
+\printbibliography[title={Bibliography}]
 
-
-
+\newpage
+\addcontentsline{toc}{section}{Acknowledgement}
 %_______________________________________________________________________________
-\chapter{Danksagung}
+%\chapter{Danksagung}
 
 ... an wen auch immer. Denken Sie an Ihre Freundinnen und Freunde, 
 Familie, Lehrer, Berater und Kollegen.
