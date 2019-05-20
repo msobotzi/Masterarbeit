@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.21)  20 MAR 2019 14:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.21)  20 MAY 2019 15:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1391,6 +1391,161 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 ))
+(/usr/share/texmf/tex/latex/lm/lmodern.sty
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/epigraph/epigraph.sty
+Package: epigraph 2009/09/02 v1.5c typesetting epigraphs
+\beforeepigraphskip=\skip85
+\afterepigraphskip=\skip86
+\epigraphwidth=\skip87
+\epigraphrule=\skip88
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2017/02/22 v2.0g Standard LaTeX package
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2017/02/22 v2.0g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/yfonts/yfonts.sty
+Package: yfonts 2003/01/08 v1.3 (WaS)
+Now handling font encoding LY ...
+... no UTF-8 mapping file for font encoding LY
+Now handling font encoding LYG ...
+... no UTF-8 mapping file for font encoding LYG
+)
+
+Class scrbook Warning: Usage of package `titlesec' together
+(scrbook)              with a KOMA-Script class is not recommended.
+(scrbook)              I'd suggest to use the package only
+(scrbook)              if you really need it, because it breaks several
+(scrbook)              KOMA-Script features, i.e., option `headings' and
+(scrbook)              the extended optional argument of the section
+(scrbook)              commands.
+(scrbook)              Nevertheless, using requested
+(scrbook)              package `titlesec' on input line 41.
+
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box42
+\beforetitleunit=\skip89
+\aftertitleunit=\skip90
+\ttl@plus=\dimen170
+\ttl@minus=\dimen171
+\ttl@toksa=\toks36
+\titlewidth=\dimen172
+\titlewidthlast=\dimen173
+\titlewidthfirst=\dimen174
+
+
+Package titlesec Warning: Non standard sectioning command detected
+(titlesec)                Using default spacing and no format.
+
+
+Package titlesec Warning: Non standard sectioning command detected
+(titlesec)                Using default spacing and no format.
+
+
+Package titlesec Warning: Non standard sectioning command detected
+(titlesec)                Using default spacing and no format.
+
+
+Package titlesec Warning: Non standard sectioning command detected
+(titlesec)                Using default spacing and no format.
+
+
+Package titlesec Warning: Non standard sectioning command detected
+(titlesec)                Using default spacing and no format.
+
+)
+
+Package scrbook Warning: Activating an ugly workaround for a missing
+(scrbook)                feature of package `titlesec` on input line 41.
+
+(/usr/share/texlive/texmf-dist/tex/latex/lettrine/lettrine.sty
+File: lettrine.sty 2015/08/31 v1.9 (Daniel Flipo)
+\c@DefaultLines=\count324
+\c@DefaultDepth=\count325
+\DefaultFindent=\dimen175
+\DefaultNindent=\dimen176
+\DefaultSlope=\dimen177
+\DiscardVskip=\dimen178
+\L@lbox=\box43
+\L@tbox=\box44
+\c@L@lines=\count326
+\c@L@depth=\count327
+\L@Pindent=\dimen179
+\L@Findent=\dimen180
+\L@Nindent=\dimen181
+\L@lraise=\dimen182
+\L@first=\dimen183
+\L@next=\dimen184
+\L@slope=\dimen185
+\L@height=\dimen186
+\L@novskip=\dimen187
+\LettrineWidth=\dimen188
+\LettrineHeight=\dimen189
+\LettrineDepth=\dimen190
+
+Loading lettrine.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/lettrine/lettrine.cfg))
+
+Class scrbook Warning: Usage of package `fancyhdr' together
+(scrbook)              with a KOMA-Script class is not recommended.
+(scrbook)              I'd suggest to use 
+(scrbook)              package `scrlayer-scrpage'.
+(scrbook)              Nevertheless, using requested
+(scrbook)              package `fancyhdr' on input line 43.
+
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
+\fancy@headwidth=\skip91
+\f@ncyO@elh=\skip92
+\f@ncyO@erh=\skip93
+\f@ncyO@olh=\skip94
+\f@ncyO@orh=\skip95
+\f@ncyO@elf=\skip96
+\f@ncyO@erf=\skip97
+\f@ncyO@olf=\skip98
+\f@ncyO@orf=\skip99
+)
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/block.tss
+File: block.tss 2016/03/15
+)
+\pretitlewidth=\skip100
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
@@ -1407,8 +1562,8 @@ File: german.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count324
-\@quotereset=\count325
+\@quotelevel=\count328
+\@quotereset=\count329
 
 LaTeX Warning: Unused global option(s):
     [twosided].
@@ -1416,41 +1571,50 @@ LaTeX Warning: Unused global option(s):
 (./Masterarbeit_Martin_Sobotzik.aux)
 \openout1 = `Masterarbeit_Martin_Sobotzik.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 83.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 83.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 144.
+LaTeX Font Info:    ... okay on input line 144.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 144.
+LaTeX Font Info:    ... okay on input line 144.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 144.
+LaTeX Font Info:    ... okay on input line 144.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 144.
+LaTeX Font Info:    ... okay on input line 144.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 144.
+LaTeX Font Info:    ... okay on input line 144.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 144.
+LaTeX Font Info:    ... okay on input line 144.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 144.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 144.
+
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    ... okay on input line 144.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 144.
+LaTeX Font Info:    ... okay on input line 144.
+LaTeX Font Info:    Checking defaults for LY/yfrak/m/n on input line 144.
+LaTeX Font Info:    ... okay on input line 144.
+LaTeX Font Info:    Checking defaults for LYG/ygoth/m/n on input line 144.
+LaTeX Font Info:    ... okay on input line 144.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 144.
 
+(/usr/share/texmf/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count326
-\scratchdimen=\dimen170
-\scratchbox=\box42
-\nofMPsegments=\count327
-\nofMParguments=\count328
-\everyMPshowfont=\toks36
-\MPscratchCnt=\count329
-\MPscratchDim=\dimen171
-\MPnumerator=\count330
-\makeMPintoPDFobject=\count331
-\everyMPtoPDFconversion=\toks37
+\scratchcounter=\count330
+\scratchdimen=\dimen191
+\scratchbox=\box45
+\nofMPsegments=\count331
+\nofMParguments=\count332
+\everyMPshowfont=\toks37
+\MPscratchCnt=\count333
+\MPscratchDim=\dimen192
+\MPnumerator=\count334
+\makeMPintoPDFobject=\count335
+\everyMPtoPDFconversion=\toks38
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1468,8 +1632,8 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box43
-Package hyperref Info: Link coloring OFF on input line 83.
+\AtBeginShipoutBox=\box46
+Package hyperref Info: Link coloring OFF on input line 144.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1477,11 +1641,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count332
+\c@section@level=\count336
 )
-LaTeX Info: Redefining \ref on input line 83.
-LaTeX Info: Redefining \pageref on input line 83.
-LaTeX Info: Redefining \nameref on input line 83.
+LaTeX Info: Redefining \ref on input line 144.
+LaTeX Info: Redefining \pageref on input line 144.
+LaTeX Info: Redefining \nameref on input line 144.
 
 (./Masterarbeit_Martin_Sobotzik.out) (./Masterarbeit_Martin_Sobotzik.out)
 \@outlinefile=\write6
@@ -1513,6 +1677,12 @@ Package biblatex Warning: Biber reported the following issues
 
 
 Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'SMFigure':
+(biblatex)                - Invalid format of field 'date' 
+(biblatex)                - Invalid format of field 'date'.
+
+
+Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'CDCHauth':
 (biblatex)                - Invalid format of field 'date' 
 (biblatex)                - Invalid format of field 'date'.
@@ -1523,17 +1693,11 @@ Package biblatex Warning: Biber reported the following issues
 (biblatex)                - Invalid format of field 'date' 
 (biblatex)                - Invalid format of field 'date'.
 
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'SMFigure':
-(biblatex)                - Invalid format of field 'date' 
-(biblatex)                - Invalid format of field 'date'.
-
 )
-Package biblatex Info: Reference section=0 on input line 83.
-Package biblatex Info: Reference segment=0 on input line 83.
+Package biblatex Info: Reference section=0 on input line 144.
+Package biblatex Info: Reference segment=0 on input line 144.
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--104
+Underfull \hbox (badness 10000) in paragraph at lines 163--165
 
  []
 
@@ -1542,30 +1706,72 @@ Underfull \hbox (badness 10000) in paragraph at lines 102--104
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
-(./Masterarbeit_Martin_Sobotzik.toc
-LaTeX Font Info:    Try loading font information for U+msa on input line 11.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 195.
+
+
+(/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 195.
+
+
+(/usr/share/texmf/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 195
+.
+
+(/usr/share/texmf/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 195
+.
+
+(/usr/share/texmf/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 195.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 195.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 195.
+LaTeX Font Info:    Try loading font information for U+msa on input line 195.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 11.
+LaTeX Font Info:    Try loading font information for U+msb on input line 195.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
-\tf@toc=\write7
-\openout7 = `Masterarbeit_Martin_Sobotzik.toc'.
-
- [3
-
-
-] [4
-
+) [3] [4
 
 
 ]
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 221.
+
+
+(/usr/share/texmf/tex/latex/lm/t1lmss.fd
+File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) (./Masterarbeit_Martin_Sobotzik.toc
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 9.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 9.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 9.
+
+[5])
+\tf@toc=\write7
+\openout7 = `Masterarbeit_Martin_Sobotzik.toc'.
+
+ [6]
 chapter 1.
 [1
+
+
+
 
 
 ] [2
@@ -1573,180 +1779,245 @@ chapter 1.
 
 ]
 chapter 2.
-<Bilder/SM.png, id=167, 361.35pt x 240.4182pt>
-File: Bilder/SM.png Graphic file (type png)
- <use Bilder/SM.png>
-Package pdftex.def Info: Bilder/SM.png used on input line 174.
-(pdftex.def)             Requested size: 355.65944pt x 236.63539pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--181
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 264.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--272
 
  []
 
-[3 <./Bilder/SM.png>] [4]
-chapter 3.
-<Bilder/SuperKEKB.png, id=196, 630.355pt x 659.46375pt>
-File: Bilder/SuperKEKB.png Graphic file (type png)
+<Bilder/SM.png, id=204, 803.0pt x 603.25375pt>
+File: Bilder/SM.png Graphic file (type png)
+ <use Bilder/SM.png>
+Package pdftex.def Info: Bilder/SM.png used on input line 275.
+(pdftex.def)             Requested size: 426.79134pt x 320.63425pt.
 
-<use Bilder/SuperKEKB.png>
-Package pdftex.def Info: Bilder/SuperKEKB.png used on input line 205.
-(pdftex.def)             Requested size: 227.62204pt x 238.13127pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[5
-
-
-] <Bilder/bsSKEK.png, id=218, 1087.06125pt x 264.99pt>
-File: Bilder/bsSKEK.png Graphic file (type png)
-
-<use Bilder/bsSKEK.png>
-Package pdftex.def Info: Bilder/bsSKEK.png used on input line 231.
-(pdftex.def)             Requested size: 412.56496pt x 100.5719pt.
-
-Overfull \hbox (5.69048pt too wide) in paragraph at lines 231--232
+Overfull \hbox (19.91685pt too wide) in paragraph at lines 275--276
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[6 <./Bilder/SuperKEKB.png>] <Bilder/Belle2.png, id=233, 1927.2pt x 1084.05pt>
-File: Bilder/Belle2.png Graphic file (type png)
-
-<use Bilder/Belle2.png>
-Package pdftex.def Info: Bilder/Belle2.png used on input line 248.
-(pdftex.def)             Requested size: 355.65944pt x 200.04987pt.
- [7 <./Bilder/bsSKEK.png> <./Bilder/Belle2.png>]
-<Bilder/coordinate.png, id=247, 372.39125pt x 418.56375pt>
-File: Bilder/coordinate.png Graphic file (type png)
-
-<use Bilder/coordinate.png>
-Package pdftex.def Info: Bilder/coordinate.png used on input line 272.
-(pdftex.def)             Requested size: 128.0374pt x 143.91286pt.
- [8 <./Bilder/coordinate.png>]
-<Bilder/PXD_SVD.png, id=257, 853.1875pt x 848.16875pt>
-File: Bilder/PXD_SVD.png Graphic file (type png)
-
-<use Bilder/PXD_SVD.png>
-Package pdftex.def Info: Bilder/PXD_SVD.png used on input line 288.
-(pdftex.def)             Requested size: 298.75394pt x 297.00586pt.
- [9 <./Bilder/PXD_SVD.png>]
-<Bilder/pixel.png, id=270, 1233.60875pt x 838.13126pt>
-File: Bilder/pixel.png Graphic file (type png)
- <use Bilder/pixel.png>
-Package pdftex.def Info: Bilder/pixel.png used on input line 304.
-(pdftex.def)             Requested size: 298.75394pt x 202.97162pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 312--314
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 284--286
 
  []
 
-<Bilder/DEPFET.png, id=278, 294.09875pt x 299.1175pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4 <./Bilder/SM.png>] [5] [6
+
+
+]
+chapter 3.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 299.
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 303.
+
+<Bilder/SuperKEKB.png, id=242, 630.355pt x 659.46375pt>
+File: Bilder/SuperKEKB.png Graphic file (type png)
+
+<use Bilder/SuperKEKB.png>
+Package pdftex.def Info: Bilder/SuperKEKB.png used on input line 312.
+(pdftex.def)             Requested size: 227.62204pt x 238.13127pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[7] [8 <./Bilder/SuperKEKB.png>]
+<Bilder/bsSKEK.png, id=275, 1087.06125pt x 264.99pt>
+File: Bilder/bsSKEK.png Graphic file (type png)
+ <use Bilder/bsSKEK.png>
+Package pdftex.def Info: Bilder/bsSKEK.png used on input line 338.
+(pdftex.def)             Requested size: 412.56496pt x 100.5719pt.
+
+Overfull \hbox (5.69048pt too wide) in paragraph at lines 338--339
+ [][] 
+ []
+
+<Bilder/Belle2.png, id=281, 1927.2pt x 1084.05pt>
+File: Bilder/Belle2.png Graphic file (type png)
+ <use Bilder/Belle2.png>
+Package pdftex.def Info: Bilder/Belle2.png used on input line 355.
+(pdftex.def)             Requested size: 355.65944pt x 200.04987pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[9 <./Bilder/bsSKEK.png>]
+<Bilder/coordinate.png, id=292, 372.39125pt x 418.56375pt>
+File: Bilder/coordinate.png Graphic file (type png)
+
+<use Bilder/coordinate.png>
+Package pdftex.def Info: Bilder/coordinate.png used on input line 379.
+(pdftex.def)             Requested size: 128.0374pt x 143.91286pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[10 <./Bilder/Belle2.png>]
+<Bilder/PXD_SVD.png, id=303, 853.1875pt x 848.16875pt>
+File: Bilder/PXD_SVD.png Graphic file (type png)
+
+<use Bilder/PXD_SVD.png>
+Package pdftex.def Info: Bilder/PXD_SVD.png used on input line 395.
+(pdftex.def)             Requested size: 298.75394pt x 297.00586pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Bilder/pixel.png, id=307, 1233.60875pt x 838.13126pt>
+File: Bilder/pixel.png Graphic file (type png)
+ <use Bilder/pixel.png>
+Package pdftex.def Info: Bilder/pixel.png used on input line 411.
+(pdftex.def)             Requested size: 298.75394pt x 202.97162pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 419--421
+
+ []
+
+<Bilder/DEPFET.png, id=315, 294.09875pt x 299.1175pt>
 File: Bilder/DEPFET.png Graphic file (type png)
  <use Bilder/DEPFET.png>
-Package pdftex.def Info: Bilder/DEPFET.png used on input line 319.
+Package pdftex.def Info: Bilder/DEPFET.png used on input line 426.
 (pdftex.def)             Requested size: 199.16928pt x 202.56653pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[10 <./Bilder/pixel.png>] <Bilder/SVD.png, id=293, 587.33714pt x 344.71643pt>
-File: Bilder/SVD.png Graphic file (type png)
+[11 <./Bilder/coordinate.png>] [12 <./Bilder/PXD_SVD.png>]
+Underfull \vbox (badness 3838) has occurred while \output is active []
 
-<use Bilder/SVD.png>
-Package pdftex.def Info: Bilder/SVD.png used on input line 334.
+ [13 <./Bilder/pixel.png> <./Bilder/DEPFET.png>]
+<Bilder/SVD.png, id=342, 587.33714pt x 344.71643pt>
+File: Bilder/SVD.png Graphic file (type png)
+ <use Bilder/SVD.png>
+Package pdftex.def Info: Bilder/SVD.png used on input line 441.
 (pdftex.def)             Requested size: 355.65944pt x 208.74606pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[11 <./Bilder/DEPFET.png>] <Bilder/CDC.png, id=305, 753.81625pt x 284.06125pt>
+<Bilder/CDC.png, id=349, 753.81625pt x 284.06125pt>
 File: Bilder/CDC.png Graphic file (type png)
-
-<use Bilder/CDC.png>
-Package pdftex.def Info: Bilder/CDC.png used on input line 352.
+ <use Bilder/CDC.png>
+Package pdftex.def Info: Bilder/CDC.png used on input line 459.
 (pdftex.def)             Requested size: 355.65944pt x 134.02025pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[12 <./Bilder/SVD.png>] <Bilder/TOP.png, id=321, 437.635pt x 164.615pt>
+[14 <./Bilder/SVD.png>] [15 <./Bilder/CDC.png>]
+<Bilder/TOP.png, id=371, 437.635pt x 164.615pt>
 File: Bilder/TOP.png Graphic file (type png)
-
-<use Bilder/TOP.png>
-Package pdftex.def Info: Bilder/TOP.png used on input line 381.
+ <use Bilder/TOP.png>
+Package pdftex.def Info: Bilder/TOP.png used on input line 488.
 (pdftex.def)             Requested size: 298.75394pt x 112.37628pt.
+
+<Bilder/ARICH.jpg, id=377, 178.65144pt x 144.10638pt>
+File: Bilder/ARICH.jpg Graphic file (type jpg)
+ <use Bilder/ARICH.jpg>
+Package pdftex.def Info: Bilder/ARICH.jpg used on input line 503.
+(pdftex.def)             Requested size: 183.09227pt x 147.6968pt.
+
+<Bilder/ARICH2.jpg, id=378, 177.797pt x 154.77292pt>
+File: Bilder/ARICH2.jpg Graphic file (type jpg)
+ <use Bilder/ARICH2.jpg>
+Package pdftex.def Info: Bilder/ARICH2.jpg used on input line 508.
+(pdftex.def)             Requested size: 183.09227pt x 159.39424pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[13 <./Bilder/CDC.png>] <Bilder/ARICH.jpg, id=337, 178.65144pt x 144.10638pt>
-File: Bilder/ARICH.jpg Graphic file (type jpg)
-
-<use Bilder/ARICH.jpg>
-Package pdftex.def Info: Bilder/ARICH.jpg used on input line 396.
-(pdftex.def)             Requested size: 183.09227pt x 147.6968pt.
- <Bilder/ARICH2.jpg, id=338, 177.797pt x 154.77292pt>
-File: Bilder/ARICH2.jpg Graphic file (type jpg)
-
-<use Bilder/ARICH2.jpg>
-Package pdftex.def Info: Bilder/ARICH2.jpg used on input line 401.
-(pdftex.def)             Requested size: 183.09227pt x 159.39424pt.
- [14 <./Bilder/TOP.png> <./Bilder/ARICH.jpg> <./Bilder/ARICH2.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 418--421
+[16 <./Bilder/TOP.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 525--528
 
  []
 
-[15]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 444.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 444.
+[17 <./Bilder/ARICH.jpg> <./Bilder/ARICH2.jpg>]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 551.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 444.
+(hyperref)                removing `math shift' on input line 551.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 444.
+(hyperref)                removing `subscript' on input line 551.
 
-[16]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 551.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 551.
+
+[18]
 chapter 4.
-[17
+[19
 
 
-] [18
+] [20
 
 
 ]
 chapter 5.
-[19] [20
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 570.
+
+[21] [22
 
 
 ]
 chapter 6.
-[21] [22
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 589.
+
+<Bilder/b2b_2.pdf, id=433, 453.3585pt x 245.271pt>
+File: Bilder/b2b_2.pdf Graphic file (type pdf)
+ <use Bilder/b2b_2.pdf>
+Package pdftex.def Info: Bilder/b2b_2.pdf used on input line 611.
+(pdftex.def)             Requested size: 284.52756pt x 153.93396pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[23] [24 <./Bilder/b2b_2.pdf>]
+chapter 7.
+[25
+
+
+] [26
 
 
 ]
 chapter A.
 
-LaTeX Warning: Reference `Abb:1' on page 23 undefined on input line 497.
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 633.
 
-[23] [24
+
+LaTeX Warning: Reference `Abb:1' on page 27 undefined on input line 639.
+
+[27] [28
 
 
 ] (./Masterarbeit_Martin_Sobotzik.lof)
 \tf@lof=\write8
 \openout8 = `Masterarbeit_Martin_Sobotzik.lof'.
 
- [25] [26
+ [29] [30
 
 
 ]
@@ -1754,49 +2025,54 @@ LaTeX Warning: Reference `Abb:1' on page 23 undefined on input line 497.
 \tf@lot=\write9
 \openout9 = `Masterarbeit_Martin_Sobotzik.lot'.
 
- [27] [28
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 680.
+
+ (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+[31] [32
 
 
 ]
 chapter without number
-[29]
-Underfull \hbox (badness 1466) in paragraph at lines 542--542
-[]\OT1/cmr/m/sc/10.95 url\OT1/cmr/m/n/10.95 : []$\OT1/cmtt/m/n/10.95 http : / /
- www . sciencedirect . com / science / article / pii /
- []
-
-[30]
-Underfull \hbox (badness 1466) in paragraph at lines 542--542
-[]\OT1/cmr/m/sc/10.95 url\OT1/cmr/m/n/10.95 : []$\OT1/cmtt/m/n/10.95 http : / /
- www . sciencedirect . com / science / article / pii /
- []
-
-
-Underfull \hbox (badness 1466) in paragraph at lines 542--542
-[]\OT1/cmr/m/sc/10.95 url\OT1/cmr/m/n/10.95 : []$\OT1/cmtt/m/n/10.95 http : / /
- www . sciencedirect . com / science / article / pii /
- []
-
-[31]
-Underfull \hbox (badness 1466) in paragraph at lines 542--542
-[]\OT1/cmr/m/sc/10.95 url\OT1/cmr/m/n/10.95 : []$\OT1/cmtt/m/n/10.95 http : / /
- www . sciencedirect . com / science / article / pii /
- []
-
-[32]
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 545.
-
 [33]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 554.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 554.
+Underfull \hbox (badness 1466) in paragraph at lines 684--684
+[]\T1/lmr/m/sc/10.95 url\T1/lmr/m/n/10.95 : []$\T1/lmtt/m/n/10.95 http : / / ww
+w . sciencedirect . com / science / article / pii /
+ []
+
+[34]
+Underfull \hbox (badness 1466) in paragraph at lines 684--684
+[]\T1/lmr/m/sc/10.95 url\T1/lmr/m/n/10.95 : []$\T1/lmtt/m/n/10.95 http : / / ww
+w . sciencedirect . com / science / article / pii /
+ []
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 684--684
+[]\T1/lmr/m/sc/10.95 url\T1/lmr/m/n/10.95 : []$\T1/lmtt/m/n/10.95 http : / / ww
+w . sciencedirect . com / science / article / pii /
+ []
+
+[35]
+Underfull \hbox (badness 1466) in paragraph at lines 684--684
+[]\T1/lmr/m/sc/10.95 url\T1/lmr/m/n/10.95 : []$\T1/lmtt/m/n/10.95 http : / / ww
+w . sciencedirect . com / science / article / pii /
+ []
+
+[36]
+chapter B.
+[37
+
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 695.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 695.
  (./Masterarbeit_Martin_Sobotzik.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 554.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 554.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 695.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 695.
 Package rerunfilecheck Info: File `Masterarbeit_Martin_Sobotzik.out' has not ch
 anged.
-(rerunfilecheck)             Checksum: B002BD3F8503095E513F227E29504305;1531.
+(rerunfilecheck)             Checksum: 16EDC49AA1366C20DCB5FE2A9132BDBA;1846.
 
 
 LaTeX Warning: There were undefined references.
@@ -1805,38 +2081,39 @@ Package logreq Info: Writing requests to 'Masterarbeit_Martin_Sobotzik.run.xml'
 .
 \openout1 = `Masterarbeit_Martin_Sobotzik.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 554.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 695.
  ) 
 Here is how much of TeX's memory you used:
- 26450 strings out of 494852
- 487198 string characters out of 6177656
- 835279 words of memory out of 5000000
- 29205 multiletter control sequences out of 15000+600000
- 17566 words of font info for 67 fonts, out of 8000000 for 9000
+ 27541 strings out of 494852
+ 502202 string characters out of 6177656
+ 844363 words of memory out of 5000000
+ 30220 multiletter control sequences out of 15000+600000
+ 99101 words of font info for 80 fonts, out of 8000000 for 9000
  39 hyphenation exceptions out of 8191
- 64i,9n,66p,8869b,2700s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Masterarbeit_Martin_Sobotzik.pdf (37 pages, 3617625 bytes).
+ 64i,9n,66p,8869b,2704s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
+ips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/s
+hare/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
+-mathsy.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssb
+x10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fo
+nts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.
+pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/
+type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb><
+/usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/
+public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/sha
+re/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/l
+m/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/f
+onts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pf
+b></usr/share/texmf/fonts/type1/public/lm/lmri8.pfb></usr/share/texmf/fonts/typ
+e1/public/lm/lmro10.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></
+usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/
+public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/sha
+re/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on Masterarbeit_Martin_Sobotzik.pdf (43 pages, 3712571 bytes).
 PDF statistics:
- 589 PDF objects out of 1000 (max. 8388607)
- 495 compressed objects within 5 object streams
- 110 named destinations out of 1000 (max. 500000)
- 278 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 662 PDF objects out of 1000 (max. 8388607)
+ 556 compressed objects within 6 object streams
+ 111 named destinations out of 1000 (max. 500000)
+ 323 words of extra memory for PDF output out of 10000 (max. 10000000)
 

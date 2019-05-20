@@ -33,6 +33,49 @@
 \usepackage{wrapfig}
 \usepackage{nicefrac}
 \usepackage[backend=bibtex,style=numeric]{biblatex}
+\usepackage{lmodern}
+\usepackage{epigraph}
+\usepackage[T1]{fontenc}
+\usepackage{yfonts,color}
+\usepackage{titlesec}
+\usepackage{lettrine}
+\usepackage{fancyhdr}
+
+
+
+\pagestyle{fancy}
+
+
+
+
+
+
+
+
+
+\titleformat{\chapter}[block]
+{\Large\bfseries}
+{\raisebox{-\height}{\sffamily\scriptsize\MakeUppercase{\chaptertitlename}}%
+	\space\raisebox{-\height}{\bigchapternumber}\space}
+{0pt}
+{\printtitle}
+
+\newlength\pretitlewidth
+\newcommand\bigchapternumber{\resizebox{24pt}{!}{\mdseries\thechapter}}
+\newcommand{\printtitle}[1]{%
+	\settowidth{\pretitlewidth}{%
+		{\sffamily\scriptsize\MakeUppercase{\chaptertitlename}}\space
+		{\bigchapternumber}\space
+	}%
+	\parbox[t]{\dimexpr.8\textwidth-\pretitlewidth}{%
+		\linespread{1.5}\selectfont
+		\hrule depth 1pt
+		\vspace{3ex}
+		\raggedright\bfseries #1
+	}%
+}
+
+
 
 
 \addbibresource{Masterarbeit_Martin_Sobotzik.bib}
@@ -40,10 +83,10 @@
 % bold fonts for headings
 %_______________________________________________________________________________
 \font\afont=cmssbx10 scaled \magstep5     % for the title
-\font\bfont=cmssbx10 scaled \magstep4     % for chapter headings
-\font\cfont=cmssbx10 scaled \magstep3
+%\font\bfont=cmssbx10 scaled \magstep4     % for chapter headings
+%\font\cfont=cmssbx10 scaled \magstep3
 \font\dfont=cmssbx10 scaled \magstep2     % for section headings and author name
-\font\efont=cmssbx10 scaled \magstephalf
+%\font\efont=cmssbx10 scaled \magstephalf
 
 %_______________________________________________________________________________
 % index depth
@@ -74,7 +117,25 @@
 %_______________________________________________________________________________
 \hyphenation{Ba-che-lor-ar-beit}
 
-\pagestyle{empty}
+
+\fancyhead[RO,LE]{\leftmark}
+\fancyhead[RE,LO]{\rightmark}
+\fancyfoot[LE,RO]{\thepage}
+
+
+
+
+
+
+
+\pagestyle{fancy}
+
+
+\setcounter{secnumdepth}{0}  % default value 2 for »book« class
+\setcounter{tocdepth}{2}
+
+
+
 \pagestyle{headings}
 %for changing the style on a specific page use \thispagestyle{e.g., empty}
 
@@ -126,6 +187,34 @@ D-55128 Mainz\\
 %_______________________________________________________________________________
 
 
+
+
+
+\newpage
+
+\epigraph{In der Mathematik versteht man die Dinge nicht. Man gew\"ohnt sich nur an sie.}{John von Neumann}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 \renewcommand\contentsname{Contents}
 \renewcommand\figurename{Figure}
 \renewcommand\tablename{Table}
@@ -164,22 +253,40 @@ die weitere Gliederung kann angesprochen werden, um dem Leser einen
 ersten \"Uberblick \"uber den nachfolgenden Text zu geben.
 
 \chapter{Standard Model}
+\label{cha:SM}
+
+\lettrine[lines=3]{T}{he} standard model of particle physics (SM) is a theory that describes three of the four fundamental known forces in the universe: the electromagnetic, the weak and the strong force. 
+
+ At the current level of experimental precision and the reached energies so far, it is the best theory describing these forces.
+ 
+ Unfortunately the standard model fails to explain a variety of different observations and since gravitation is not included in the standard model, it is easy to see that the standard model is not complete.
+ 
+\section{The Standard Model}
 \label{sec:SM}
 
-The standard model (SM) is a theory that describes three of the four fundamental known forces in the universe. At the current level of experimental precision and the reached energies so far, it is the best theory describing these forces.
+The standard model is based on the idea that matter is made of particles with no internal structure. These particles can interact with each other by exchanging other particles which are associated to the fundamental forces. The standard model includes the \textit{quantum electrodynamic} (QED), the \textit{electroweak theory} (EWT) and the \textit{quantum chromodynamic} (QCD) as well as the \textit{Higgs mechanism}.
 
+The QED describes all phenomenons caused by photons ($\gamma$) and charged point-like particles like electron and positrons. In the 1920s Paul Dirac laid the foundation for the QED while computing the coefficient of spontaneous emission of an atom. The description of the weak force (\textit{quantum flavordynamics}, QFD) and the QED got merged by Sheldon Glashow in the early 1960s. The exchange particles of the weak force are the $Z$ and $W^{\pm}$ \textit{bosons}. A few years later, Steven Weinberg and Abdus Salam independently proposed a theory that included the \textit{Higgs mechanism} whereby the \textit{electroweak theory} (EQT) emerged. The \textit{Higgs mechanism} is the reason why the \textit{gauge bosons} have mass.
+Finally the standard model reached its modern form after combining the EWT and the theory of the strong interaction (\textit{quantum chromodynamic}, QCD). This was done by Abraham Pais and Sam Treiman in 1975. The exchange particles for the strong force are the gluons (g). They  \cite{RiseStandard}
+\newline  
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=12.5cm]{Bilder/SM.png}
-	\caption[Standard Model]{The particles of the Standard Model include three families of quarks and leptons, four gauge bosons and the Higgs boson.\cite{SMFigure}}
+	\includegraphics[width=15cm]{Bilder/SM.png}
+	\caption[Standard Model]{The particles of the Standard Model include three families of quarks and leptons, four gauge bosons and the Higgs boson. The beige background indicates which bosons interact with which fermions. \cite{SMFigure}}
 	\label{fig:SM}
 \end{figure}
 
-Figure \ref{fig:SM} shows the elementary particles of the standard model. It includes three families of quarks and leptons (fermions), four gauge bosons and the Higgs boson. Atoms consists of fermions from the first family. The nuclei are made out of protons and neutrons, each of which is a combination of up and down quarks. In the electron shell of an atom electrons are located. Pauli proposed the neutrino in the 1930 to explain the energy spectrum of electrons in $\beta$-decays. Since neutrinos are only weak interacting particles, they were not observed until 1956.\cite{REINES19941} With increasing energy, the second and third family have been gradually discovered, first from cosmic ray experiments in the 1930s up to the discovery of the Higgs boson at the LHC in 2012. Parallel to the experimental discoveries, the theory also evolved, partially explaining the results and in part motivating new experiments through predictions.
+
+
+Figure \ref{fig:SM} shows the fundamental particles of the standard model. It includes three families of quarks and leptons so-called \textit{fermions}, four \textit{gauge bosons} and the Higgs \textit{boson}. \textit{Fermions} and \textit{bosons} differ by the spin. Spin is a degree of freedom, which had to be introduced to conserve the angular momentum in the Dirac equation. The matter forming \textit{fermions} have a half-integral spin (in units of the reduced Planck constant $\hbar$) and the \textit{bosons} (the exchange particles as well as the Higgs particle) have an integer spin. \textit{Fermoins} also have so-called \textit{anti-particles}.
+
+Atoms consist of fermions from the first family. The nuclei are made out of protons and neutrons, each of which is a combination of up and down quarks. In the electron shell of an atom the electrons are located. Pauli proposed the neutrino in the 1930 to explain the energy spectrum of electrons in $\beta$-decays. Since neutrinos are only weak interacting particles, they were not observed until 1956.\cite{REINES19941} With increasing energy, the second and third family have been gradually discovered, first from cosmic ray experiments in the 1930s up to the discovery of the Higgs boson at the LHC in 2012. Parallel to the experimental discoveries, the theory also evolved, partially explaining the results and in part motivating new experiments through predictions.
 \newline
 
-Despite the success of the standard model as an effective theory, it fails answering a lot of open questions. For example, the standard model only includes three out of four fundamental forces. It does not include gravity, therefore, the standard model is not valid at energy scales approaching the Planck energy $E_P \approx 1.22\cdot 10^{19}\,\textrm{GeV} $.\cite{sivaram2007special} It is also unable to explain dark matter, dark energy and the matter/antimatter asymmetry in the universe which is directly linked to charged-parity violation.\cite{HAMBYE2012193}
+\section{Physics Beyond The Standard Model}
+
+Despite the success of the standard model as an effective theory, it fails answering a lot of open questions. As already mentioned, the standard model only includes three out of four fundamental forces. It does not include gravity, therefore, the standard model is not valid at energy scales approaching the Planck energy $E_P \approx 1.22\cdot 10^{19}\,\textrm{GeV} $.\cite{sivaram2007special} It is also unable to explain dark matter, dark energy and the matter/antimatter asymmetry in the universe which is directly linked to charged-parity violation.\cite{HAMBYE2012193}
 
 
 
@@ -189,7 +296,7 @@ Despite the success of the standard model as an effective theory, it fails answe
 \chapter{Experimental Setup at SuperKEKB}
 \label{sec:SetupKEK}
 
-SuperKEKB is an two-ring, asymmetric\footnote{asymmetric means that there is an energy difference between the two colliding beams}, electron positron accelerator, which is located at KEK (\textit{High Energy Accelerator Research Organization}) in Tsukuba Japan. 
+\lettrine[lines=3]{S}{uperKEKB} is an two-ring, asymmetric\footnote{asymmetric means that there is an energy difference between the two colliding beams}, electron positron accelerator, which is located at KEK (\textit{High Energy Accelerator Research Organization}) in Tsukuba Japan. 
 The electron beam has an energy of $7\,\textnormal{GeV}$ 
 and the positron beam has an energy of $4\,\textnormal{GeV}$. These beams collide with a center-of-momentum energy of about $10.58\,\textnormal{GeV}$, which is close to the mass of the $\Upsilon(4\textnormal{S})$ resonance. Therefore SuperKEKB is a so-called \textit{B-factory}. The decay products are then detected by the  Belle II detector to study the properties of these B mesons with high precision. In early 2018 Belle II started taking data. One goal of Belle II is to study CP-Violation with respect to new physics.\cite{B2B}
 
@@ -322,7 +429,7 @@ DePFET is a semiconductor detector concept invented in 1987 by J. Kemmer and G. 
 \label{fig:DePFET}
 \end{figure}
 
-A cross section of the device is shown in figure \ref{fig:DePFET}. The structure of a DePFET cell consists of fully depleted silicon. In this silicon substrate depleted by a high negative voltage a $p-$channel MOSFET (metal oxide semiconductor field effect transistor) of a JFET (junction field effect transistor) is integrated. The field effect transistors act as a first pre-intensification. When radiation or a particle hists the detector, electron-hole pairs are created. These pairs get separated by the potential field of the sideward depletion. The positive charged holes drift to the negatively charged back contact. The negative charged electrons are collected in the potential minimum. The so-called internal gate. Above the internal gate a field emission transistor is located.The signal charged is amplified right above the position where it was generated. This avoids the leakage of lateral charge transfers. One of the most important main features of the DePFET is that the internal gate has a very small capacitance. This makes it possible to measure events affected by low noise even at room temperature.\cite{B2TR}
+A cross section of the device is shown in figure \ref{fig:DePFET}. The structure of a DePFET cell consists of fully depleted silicon. In this silicon substrate depleted by a high negative voltage a $p-$channel MOSFET (metal oxide semiconductor field effect transistor) of a JFET (junction field effect transistor) is integrated. The field effect transistors act as a first pre-intensification. When radiation or a particle hists the detector, electron-hole pairs are created. These pairs get separated by the potential field of the sideward depletion. The positive charged holes drift to the negatively charged back contact. The negative charged electrons are collected in the potential minimum. The so-called internal gate. Above the internal gate a field emission transistor is located. The signal charged is amplified right above the position where it was generated. This avoids the leakage of lateral charge transfers. One of the most important main features of the DePFET is that the internal gate has a very small capacitance. This makes it possible to measure events affected by low noise even at room temperature.\cite{B2TR}
 
 \subsection{Silicon Vertex Detector}
 \label{sec:Silicon}
@@ -472,6 +579,41 @@ Ergebnissen. Bei einer theoretischen Arbeit kann damit auch
 die Herleitung von Formeln oder die Beschreibung eines Computerprogramms 
 gemeint sein.
 
+\chapter{Tracking Efficiencies}
+\label{sec:TrackingEff}
+
+In this chapter the tracking efficiency studies I did will be presented. I will go through my studies in more or less chronological order, from the reproduction of Sam Cunliffs plots to the calculation of different efficiencies.
+
+
+
+\section{Definition of Efficiency}
+\label{sec:Eff}
+
+First of all, a definition of efficiency has to be declared, since there are different ways to define a tracking efficiency. The physics case I am considering is Bhabha events $ \textrm{e}^+ \textrm{e}^- \rightarrow \textrm{e}^+ \textrm{e}^- $. As described in chapter \ref{sec:SetupKEK}, charged particles leave a track in the detector. So, when we look at a outgoing particle with a track, then we know that the other particle should also have a track. If the other particle has no charge, then this is an inefficiency. If both particles have a track associated, then this is the efficient case.
+
+So for this work I use the following definition of efficiency:
+
+\begin{equation}
+	\epsilon = \frac{\textrm{Number of Bhabha events with exactly 2 tracks}}{\textrm{Number of Bhabha events with 1 or more tracks}}
+	\label{eq:efficiency}
+\end{equation}
+
+d
+
+
+
+\section{Reproducing Sam Cunliffs Plots}
+\label{sec:repSam}
+
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=10cm]{Bilder/b2b_2}
+	\caption[Sketch of the b2b methode]{Created with Inkscape}
+	\label{fig:Sketchb2b}
+\end{figure}
+
+
 %_______________________________________________________________________________
 \chapter{Zusammenfassung und Ausblick}
 
@@ -541,10 +683,9 @@ findet man im Internet: \url{http://janeden.net/bibliographien-mit-latex}.
 \nocite{*}
 \printbibliography[title={Bibliography}]
 
-\newpage
-\addcontentsline{toc}{section}{Acknowledgement}
+
 %_______________________________________________________________________________
-%\chapter{Danksagung}
+\chapter{Danksagung}
 
 ... an wen auch immer. Denken Sie an Ihre Freundinnen und Freunde, 
 Familie, Lehrer, Berater und Kollegen.

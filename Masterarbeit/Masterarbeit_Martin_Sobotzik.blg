@@ -18,53 +18,149 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: Masterarbeit_Martin_Sobotzik-blx.bib
 Database file #2: Masterarbeit_Martin_Sobotzik.bib
-I was expecting a `,' or a `}'---line 161 of file Masterarbeit_Martin_Sobotzik.bib
+I was expecting a `,' or a `}'---line 159 of file Masterarbeit_Martin_Sobotzik.bib
  :  
  :  isbn=978-3-540-57280-0,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Biblatex version: 3.3
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
+while executing---line 2630 of file biblatex.bst
+Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
+while executing---line 2630 of file biblatex.bst
+Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
+while executing---line 2630 of file biblatex.bst
+Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
+while executing---line 2630 of file biblatex.bst
+Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
+while executing---line 2630 of file biblatex.bst
+Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
+while executing---line 2630 of file biblatex.bst
+Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
+while executing---line 2630 of file biblatex.bst
+Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
+while executing---line 2630 of file biblatex.bst
+Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
+while executing---line 2630 of file biblatex.bst
+Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
+while executing---line 2630 of file biblatex.bst
+Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
+while executing---line 2630 of file biblatex.bst
+Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
+while executing---line 2630 of file biblatex.bst
+Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
+while executing---line 2634 of file biblatex.bst
+Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
+while executing---line 2634 of file biblatex.bst
+Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
+while executing---line 2634 of file biblatex.bst
+Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
+while executing---line 2640 of file biblatex.bst
+Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
+while executing---line 2640 of file biblatex.bst
+Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
+while executing---line 2640 of file biblatex.bst
+Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
+while executing---line 2644 of file biblatex.bst
+Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
+while executing---line 2644 of file biblatex.bst
+Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
+while executing---line 2644 of file biblatex.bst
+Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
+while executing---line 2644 of file biblatex.bst
+Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
+while executing---line 2644 of file biblatex.bst
+Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
+while executing---line 2644 of file biblatex.bst
+Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
+while executing---line 2648 of file biblatex.bst
+Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
+while executing---line 2648 of file biblatex.bst
+Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
+while executing---line 2648 of file biblatex.bst
+Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
+while executing---line 2654 of file biblatex.bst
+Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
+while executing---line 2654 of file biblatex.bst
+Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
+while executing---line 2654 of file biblatex.bst
+Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
+while executing---line 2658 of file biblatex.bst
+Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
+while executing---line 2658 of file biblatex.bst
+Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
+while executing---line 2658 of file biblatex.bst
+Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
+while executing---line 2658 of file biblatex.bst
+Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
+while executing---line 2658 of file biblatex.bst
+Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
+while executing---line 2658 of file biblatex.bst
+Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
+while executing---line 2698 of file biblatex.bst
+Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
+while executing---line 2698 of file biblatex.bst
+Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
+while executing---line 2698 of file biblatex.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 25 entries,
+Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
+while executing---line 2746 of file biblatex.bst
+Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
+while executing---line 2746 of file biblatex.bst
+Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
+while executing---line 2746 of file biblatex.bst
+Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
+while executing---line 2746 of file biblatex.bst
+Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
+while executing---line 2746 of file biblatex.bst
+Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
+while executing---line 2746 of file biblatex.bst
+Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
+while executing---line 2746 of file biblatex.bst
+Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
+while executing---line 2746 of file biblatex.bst
+Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
+while executing---line 2746 of file biblatex.bst
+You've used 26 entries,
             6256 wiz_defined-function locations,
-            1357 strings with 19753 characters,
-and the built_in function-call counts, 101315 in all, are:
-= -- 5769
-> -- 2270
-< -- 797
-+ -- 1857
-- -- 717
-* -- 6841
-:= -- 8363
+            1364 strings with 19939 characters,
+and the built_in function-call counts, 108601 in all, are:
+= -- 6374
+> -- 2375
+< -- 847
++ -- 1966
+- -- 739
+* -- 7389
+:= -- 9011
 add.period$ -- 0
-call.type$ -- 25
-change.case$ -- 384
+call.type$ -- 26
+change.case$ -- 420
 chr.to.int$ -- 110
-cite$ -- 48
-duplicate$ -- 11547
-empty$ -- 10406
-format.name$ -- 1147
-if$ -- 21688
+cite$ -- 50
+duplicate$ -- 12093
+empty$ -- 11137
+format.name$ -- 1196
+if$ -- 23298
 int.to.chr$ -- 0
-int.to.str$ -- 59
+int.to.str$ -- 62
 missing$ -- 0
-newline$ -- 685
-num.names$ -- 1103
-pop$ -- 7936
+newline$ -- 709
+num.names$ -- 1173
+pop$ -- 8266
 preamble$ -- 1
-purify$ -- 438
+purify$ -- 476
 quote$ -- 0
-skip$ -- 4172
+skip$ -- 4401
 stack$ -- 0
-substring$ -- 8205
-swap$ -- 3453
-text.length$ -- 631
-text.prefix$ -- 25
+substring$ -- 9457
+swap$ -- 3602
+text.length$ -- 655
+text.prefix$ -- 26
 top$ -- 1
-type$ -- 837
+type$ -- 871
 warning$ -- 0
-while$ -- 1139
+while$ -- 1186
 width$ -- 0
-write$ -- 661
-(There was 1 error message)
+write$ -- 684
+(There were 49 error messages)

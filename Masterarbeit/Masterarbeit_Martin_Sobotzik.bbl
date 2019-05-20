@@ -409,6 +409,19 @@
     \field{year}{2018}
   \endentry
 
+  \entry{SMFigure}{online}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{addendum}{visited on 20.05.2019}
+    \field{title}{Fundamental Particles}
+    \verb{url}
+    \verb https://www.universetoday.com/tag/fundamental-particles/
+    \endverb
+    \warn{\item Invalid format of field 'date' \item Invalid format of field
+  'date'}
+  \endentry
+
   \entry{HAMBYE2012193}{article}{}
     \name{author}{1}{}{%
       {{hash=HT}{%
@@ -558,6 +571,33 @@
     \field{title}{Techniques for nuclear and particle physics experiments: a
   how-to approach}
     \field{year}{2012}
+  \endentry
+
+  \entry{RiseStandard}{book}{}
+    \name{author}{1}{}{%
+      {{hash=LHMRMDLB}{%
+         family={Lillian\bibnamedelima Hoddeson},
+         familyi={L\bibinitperiod\bibinitdelim H\bibinitperiod},
+         suffix={Laurie\bibnamedelima Brown},
+         suffixi={L\bibinitperiod\bibinitdelim B\bibinitperiod},
+         given={Michael Riordan Max\bibnamedelima Dresden},
+         giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod
+  M\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Cambridge University Press}%
+    }
+    \strng{namehash}{LHLBMRMD1}
+    \strng{fullhash}{LHLBMRMD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{isbn}{0521578167}
+    \field{title}{The Rise of the Standard Model: Particle Physics in the
+  1960's and 1970's}
+    \field{year}{1997}
   \endentry
 
   \entry{MARINAS201159}{article}{}
@@ -725,20 +765,6 @@
     \endverb
     \field{journaltitle}{arXiv preprint arXiv:0707.0058}
     \field{year}{2007}
-  \endentry
-
-  \entry{SMFigure}{online}{}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{S}
-    \field{sortinithash}{S}
-    \field{addendum}{visited on 19.03.2019}
-    \field{title}{Standard Model}
-    \verb{url}
-    \verb https://www.physik.uzh.ch/en/researcharea/lhcb/outreach/StandardModel
-    \verb .html
-    \endverb
-    \warn{\item Invalid format of field 'date' \item Invalid format of field
-  'date'}
   \endentry
 
   \entry{TORASSA}{article}{}
