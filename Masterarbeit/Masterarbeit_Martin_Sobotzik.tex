@@ -40,13 +40,22 @@
 \usepackage{titlesec}
 \usepackage{lettrine}
 \usepackage{fancyhdr}
-
-
+\usepackage[compat=1.0.0]{tikz-feynman}
+\usepackage{tikz}
+\usetikzlibrary{positioning,arrows}
+\usetikzlibrary{decorations.pathmorphing}
+\usetikzlibrary{decorations.markings}
 
 \pagestyle{fancy}
+\tikzset{
+	particle/.style={thick,draw=blue, postaction={decorate},
+		decoration={markings,mark=at position .5 with {\arrow[blue]{triangle 45}}}},
+	gluon/.style={decorate, draw=black,
+		decoration={coil,aspect=0}}
+}
 
-
-
+\widowpenalty10000
+\clubpenalty10000
 
 
 
@@ -83,8 +92,8 @@
 % bold fonts for headings
 %_______________________________________________________________________________
 \font\afont=cmssbx10 scaled \magstep5     % for the title
-%\font\bfont=cmssbx10 scaled \magstep4     % for chapter headings
-%\font\cfont=cmssbx10 scaled \magstep3
+\font\bfont=cmssbx10 scaled \magstep4     % for chapter headings
+\font\cfont=cmssbx10 scaled \magstep3
 \font\dfont=cmssbx10 scaled \magstep2     % for section headings and author name
 %\font\efont=cmssbx10 scaled \magstephalf
 
@@ -118,9 +127,6 @@
 \hyphenation{Ba-che-lor-ar-beit}
 
 
-\fancyhead[RO,LE]{\leftmark}
-\fancyhead[RE,LO]{\rightmark}
-\fancyfoot[LE,RO]{\thepage}
 
 
 
@@ -131,8 +137,7 @@
 \pagestyle{fancy}
 
 
-\setcounter{secnumdepth}{0}  % default value 2 for »book« class
-\setcounter{tocdepth}{2}
+
 
 
 
@@ -267,7 +272,7 @@ ersten \"Uberblick \"uber den nachfolgenden Text zu geben.
 The standard model is based on the idea that matter is made of particles with no internal structure. These particles can interact with each other by exchanging other particles which are associated to the fundamental forces. The standard model includes the \textit{quantum electrodynamic} (QED), the \textit{electroweak theory} (EWT) and the \textit{quantum chromodynamic} (QCD) as well as the \textit{Higgs mechanism}.
 
 The QED describes all phenomenons caused by photons ($\gamma$) and charged point-like particles like electron and positrons. In the 1920s Paul Dirac laid the foundation for the QED while computing the coefficient of spontaneous emission of an atom. The description of the weak force (\textit{quantum flavordynamics}, QFD) and the QED got merged by Sheldon Glashow in the early 1960s. The exchange particles of the weak force are the $Z$ and $W^{\pm}$ \textit{bosons}. A few years later, Steven Weinberg and Abdus Salam independently proposed a theory that included the \textit{Higgs mechanism} whereby the \textit{electroweak theory} (EQT) emerged. The \textit{Higgs mechanism} is the reason why the \textit{gauge bosons} have mass.
-Finally the standard model reached its modern form after combining the EWT and the theory of the strong interaction (\textit{quantum chromodynamic}, QCD). This was done by Abraham Pais and Sam Treiman in 1975. The exchange particles for the strong force are the gluons (g). They  \cite{RiseStandard}
+Finally the standard model reached its modern form after combining the EWT and the theory of the strong interaction (\textit{quantum chromodynamic}, QCD). This was done by Abraham Pais and Sam Treiman in 1975. The exchange particles for the strong force are the \textit{gluons} ($g$). They >>\textit{glue}<< quarks together, forming \textit{hadrons} like \textit{mesons} (even number of quarks) and \textit{baryons} (odd number of quarks). \cite{RiseStandard}
 \newline  
 
 \begin{figure}[h!]
@@ -279,14 +284,67 @@ Finally the standard model reached its modern form after combining the EWT and t
 
 
 
-Figure \ref{fig:SM} shows the fundamental particles of the standard model. It includes three families of quarks and leptons so-called \textit{fermions}, four \textit{gauge bosons} and the Higgs \textit{boson}. \textit{Fermions} and \textit{bosons} differ by the spin. Spin is a degree of freedom, which had to be introduced to conserve the angular momentum in the Dirac equation. The matter forming \textit{fermions} have a half-integral spin (in units of the reduced Planck constant $\hbar$) and the \textit{bosons} (the exchange particles as well as the Higgs particle) have an integer spin. \textit{Fermoins} also have so-called \textit{anti-particles}.
+Figure \ref{fig:SM} shows the fundamental particles of the standard model. It includes three families of quarks and leptons so-called \textit{fermions}, four \textit{gauge bosons} and the Higgs \textit{boson}. Fermions and bosons differ by the spin. Spin is a degree of freedom, which had to be introduced to conserve the angular momentum in the Dirac equation. The matter forming fermions have a half-integral spin (in units of the reduced Planck constant $\hbar$) and the bosons (the exchange particles as well as the Higgs particle) have an integer spin. The fermion family can be sectioned into two families. The \text{quark} and the \textit{lepton} family. 
+The quark familiy consist of up- (u), down- (d), strange- (s), charm- (c), bottom- (b) and top- (t) quark. Quarks have fractional electric charge values. u-, c- and t-quark have an electric charge of $\nicefrac{2}{3} \,e$ and d-, s- and b-quark have an electric charge of $-\nicefrac{1}{3} \,e$. As indicated in figure \ref{fig:SM} by the beige background, quarks can interact with all four gauge bosons.
+The lepton family is made of the electron ($e$), the muon ($\mu$) and the tau ($\tau$) and their corresponding neutrinos $\nu_e,\nu_{\mu} \textrm{ and } \nu_{\tau}$. The neutrinos can only interact with the weak exchange particles ($W^{\pm}$ and $Z$ bosons). Since the electrons, muons and taus are charged, they can also interact with photons ($\gamma$).
 
-Atoms consist of fermions from the first family. The nuclei are made out of protons and neutrons, each of which is a combination of up and down quarks. In the electron shell of an atom the electrons are located. Pauli proposed the neutrino in the 1930 to explain the energy spectrum of electrons in $\beta$-decays. Since neutrinos are only weak interacting particles, they were not observed until 1956.\cite{REINES19941} With increasing energy, the second and third family have been gradually discovered, first from cosmic ray experiments in the 1930s up to the discovery of the Higgs boson at the LHC in 2012. Parallel to the experimental discoveries, the theory also evolved, partially explaining the results and in part motivating new experiments through predictions.
+All fermions also have so-called \textit{antiparticles}. Antiparticle have the same mass as their corresponding particle but they have opposite charge. For example, the antiparticle of the electron is the positron. Both have the same mass and the same spin but the electron has an electric charge of $-1\,e$ and the positron has an electric charge of $+1\,e$.
+When a particle collides with its antiparticle annihilation can occur. In an annihilation process the incoming particles are destroyed to produce other particles. The total energy and momentum of the initial pairs is conserved. 
+\newline 
+
+
+All visible matter in the universe is made of fermions from the first family. For example, atoms consist of protons and neutrons, each of which is a combination of up and down quarks. In the electron shell of an atom the eponymous electrons are located. Pauli proposed the neutrino in the 1930 to explain the energy spectrum of electrons in $\beta$-decays. Since neutrinos are only weak interacting particles, they were not observed until 1956.\cite{REINES19941} With increasing energy, the second and third family have been gradually discovered, first from cosmic ray experiments in the 1930s up to the discovery of the Higgs boson at the LHC in 2012. Parallel to the experimental discoveries, the theory also evolved, partially explaining the results and in part motivating new experiments through predictions.
 \newline
 
 \section{Physics Beyond The Standard Model}
 
 Despite the success of the standard model as an effective theory, it fails answering a lot of open questions. As already mentioned, the standard model only includes three out of four fundamental forces. It does not include gravity, therefore, the standard model is not valid at energy scales approaching the Planck energy $E_P \approx 1.22\cdot 10^{19}\,\textrm{GeV} $.\cite{sivaram2007special} It is also unable to explain dark matter, dark energy and the matter/antimatter asymmetry in the universe which is directly linked to charged-parity violation.\cite{HAMBYE2012193}
+
+\section{Bhabha Scattering}
+\label{sec:Bhabha}
+
+\begin{minipage}[t]{0.4\textwidth}	
+
+
+
+\begin{tikzpicture}[node distance=1cm and 1.5cm]
+\coordinate[label=left:$e^{-}$] (e1);
+\coordinate[below right=of e1] (aux1);
+\coordinate[above right=of aux1,label=right:$e^{-}$] (e2);
+\coordinate[below=1.25cm of aux1] (aux2);
+\coordinate[below left=of aux2,label=left:$e^{-}$] (e3);
+\coordinate[below right=of aux2,label=right:$e^{-}$] (e4);
+
+\draw[particle] (e1) -- (aux1);
+\draw[particle] (aux1) -- (e2);
+\draw[particle] (e3) -- (aux2);
+\draw[particle] (aux2) -- (e4);
+\draw[gluon] (aux1) -- node[label=right:$\gamma$] {} (aux2);
+\end{tikzpicture}
+\end{minipage}
+
+\begin{minipage}[t]{0.4\textwidth}	
+	
+	
+	
+	\begin{tikzpicture}[node distance=1cm and 1.5cm]
+	\coordinate[label=left:$e^{-}$] (e1);
+	\coordinate[below right=of e1] (aux1);
+	\coordinate[above right=of aux1,label=right:$e^{-}$] (e2);
+	\coordinate[below=1.25cm of aux1] (aux2);
+	\coordinate[below left=of aux2,label=left:$e^{-}$] (e3);
+	\coordinate[below right=of aux2,label=right:$e^{-}$] (e4);
+	
+	\draw[particle] (e1) -- (aux1);
+	\draw[particle] (aux1) -- (e2);
+	\draw[particle] (e3) -- (aux2);
+	\draw[particle] (aux2) -- (e4);
+	\draw[gluon] (aux1) -- node[label=right:$\gamma$] {} (aux2);
+	\end{tikzpicture}
+\end{minipage}
+
+
+
 
 
 
