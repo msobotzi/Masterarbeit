@@ -1,31 +1,39 @@
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
-\BOOKMARK [0][-]{chapter.2}{Standard Model}{}% 2
+\BOOKMARK [0][-]{chapter.2}{Theoretical Foundations}{}% 2
 \BOOKMARK [1][-]{section.2.1}{The Standard Model}{chapter.2}% 3
 \BOOKMARK [1][-]{section.2.2}{Physics Beyond The Standard Model}{chapter.2}% 4
 \BOOKMARK [1][-]{section.2.3}{Bhabha Scattering}{chapter.2}% 5
-\BOOKMARK [0][-]{chapter.3}{Experimental Setup at SuperKEKB}{}% 6
-\BOOKMARK [1][-]{section.3.1}{KEKB and SuperKEKB}{chapter.3}% 7
-\BOOKMARK [1][-]{section.3.2}{The Belle II Detector}{chapter.3}% 8
-\BOOKMARK [1][-]{section.3.3}{Coordinate System}{chapter.3}% 9
-\BOOKMARK [1][-]{section.3.4}{Vertex detector}{chapter.3}% 10
-\BOOKMARK [2][-]{subsection.3.4.1}{Pixel Vertex Detector}{section.3.4}% 11
-\BOOKMARK [2][-]{subsection.3.4.2}{Silicon Vertex Detector}{section.3.4}% 12
-\BOOKMARK [1][-]{section.3.5}{Central Drift Chamber}{chapter.3}% 13
-\BOOKMARK [1][-]{section.3.6}{TOP and ARICH}{chapter.3}% 14
-\BOOKMARK [1][-]{section.3.7}{Electromagnetic Calorimeter}{chapter.3}% 15
-\BOOKMARK [1][-]{section.3.8}{KL0 and muon detector }{chapter.3}% 16
-\BOOKMARK [0][-]{chapter.4}{Trigger and Data Acquisition System}{}% 17
-\BOOKMARK [0][-]{chapter.5}{Tools}{}% 18
-\BOOKMARK [1][-]{section.5.1}{Root}{chapter.5}% 19
-\BOOKMARK [1][-]{section.5.2}{Basf2}{chapter.5}% 20
-\BOOKMARK [0][-]{chapter.6}{Tracking Efficiencies}{}% 21
-\BOOKMARK [1][-]{section.6.1}{Definition of Efficiency}{chapter.6}% 22
-\BOOKMARK [1][-]{section.6.2}{Reproducing Sam Cunliffs Plots}{chapter.6}% 23
-\BOOKMARK [0][-]{chapter.7}{Zusammenfassung und Ausblick}{}% 24
-\BOOKMARK [0][-]{appendix.A}{Appendix}{}% 25
-\BOOKMARK [1][-]{section.A.1}{Tabellen und Abbildungen}{appendix.A}% 26
-\BOOKMARK [1][-]{section.A.2}{Weiterf\374hrende Details zur Arbeit}{appendix.A}% 27
-\BOOKMARK [0][-]{chapter*.2}{List of Figures}{}% 28
-\BOOKMARK [0][-]{chapter*.3}{List of Tables}{}% 29
-\BOOKMARK [0][-]{chapter*.4}{Bibliography}{}% 30
-\BOOKMARK [0][-]{appendix.B}{Danksagung}{}% 31
+\BOOKMARK [2][-]{subsection.2.3.1}{Bhabha Process}{section.2.3}% 6
+\BOOKMARK [2][-]{subsection.2.3.2}{Bhabha Kinematics At Belle II}{section.2.3}% 7
+\BOOKMARK [0][-]{chapter.3}{Experimental Setup At SuperKEKB}{}% 8
+\BOOKMARK [1][-]{section.3.1}{KEKB And SuperKEKB}{chapter.3}% 9
+\BOOKMARK [1][-]{section.3.2}{The Belle II Detector}{chapter.3}% 10
+\BOOKMARK [1][-]{section.3.3}{Coordinate System}{chapter.3}% 11
+\BOOKMARK [1][-]{section.3.4}{Vertex detector}{chapter.3}% 12
+\BOOKMARK [2][-]{subsection.3.4.1}{Pixel Vertex Detector}{section.3.4}% 13
+\BOOKMARK [2][-]{subsection.3.4.2}{Silicon Vertex Detector}{section.3.4}% 14
+\BOOKMARK [1][-]{section.3.5}{Central Drift Chamber}{chapter.3}% 15
+\BOOKMARK [1][-]{section.3.6}{TOP And ARICH}{chapter.3}% 16
+\BOOKMARK [1][-]{section.3.7}{Electromagnetic Calorimeter}{chapter.3}% 17
+\BOOKMARK [1][-]{section.3.8}{KL0 And Muon Detector }{chapter.3}% 18
+\BOOKMARK [0][-]{chapter.4}{Trigger And Data Acquisition System}{}% 19
+\BOOKMARK [0][-]{chapter.5}{Tools}{}% 20
+\BOOKMARK [1][-]{section.5.1}{Root}{chapter.5}% 21
+\BOOKMARK [1][-]{section.5.2}{Basf2}{chapter.5}% 22
+\BOOKMARK [0][-]{chapter.6}{Tracking Efficiencies}{}% 23
+\BOOKMARK [1][-]{section.6.1}{Definition Of Efficiency}{chapter.6}% 24
+\BOOKMARK [1][-]{section.6.2}{Reconstruct Events With Basf2}{chapter.6}% 25
+\BOOKMARK [1][-]{section.6.3}{Selecting Bhabha Events On Monte Carlo}{chapter.6}% 26
+\BOOKMARK [2][-]{subsection.6.3.1}{ECL-Cut}{section.6.3}% 27
+\BOOKMARK [2][-]{subsection.6.3.2}{Mass-Cut}{section.6.3}% 28
+\BOOKMARK [2][-]{subsection.6.3.3}{Additional Cuts}{section.6.3}% 29
+\BOOKMARK [2][-]{subsection.6.3.4}{Cut Efficiency}{section.6.3}% 30
+\BOOKMARK [1][-]{section.6.4}{Selecting Bhabha Events On Data}{chapter.6}% 31
+\BOOKMARK [0][-]{chapter.7}{Zusammenfassung und Ausblick}{}% 32
+\BOOKMARK [0][-]{appendix.A}{Appendix}{}% 33
+\BOOKMARK [1][-]{section.A.1}{Tabellen und Abbildungen}{appendix.A}% 34
+\BOOKMARK [1][-]{section.A.2}{Weiterf\374hrende Details zur Arbeit}{appendix.A}% 35
+\BOOKMARK [0][-]{chapter*.17}{List of Figures}{}% 36
+\BOOKMARK [0][-]{chapter*.18}{List of Tables}{}% 37
+\BOOKMARK [0][-]{chapter*.19}{Bibliography}{}% 38
+\BOOKMARK [0][-]{appendix.B}{Danksagung}{}% 39

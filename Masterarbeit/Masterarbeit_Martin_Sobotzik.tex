@@ -29,7 +29,7 @@
 \usepackage{url}
 \usepackage{amsmath}
 \usepackage{hyperref}
-
+\usepackage{caption}
 \usepackage{wrapfig}
 \usepackage{nicefrac}
 \usepackage[backend=bibtex,style=numeric]{biblatex}
@@ -43,9 +43,19 @@
 \usepackage[compat=1.0.0]{tikz-feynman}
 \usepackage{tikz}
 \usetikzlibrary{decorations.pathmorphing,decorations.markings,trees}
+\usepackage{afterpage}
+
+\usepackage{float}
+\floatstyle{plaintop}
+\restylefloat{table}
 
 
 
+\newcommand\blankpage{%
+	\null
+	\thispagestyle{empty}%
+	\addtocounter{page}{-1}%
+	\newpage}
 
 \pagestyle{fancy}
 \tikzset{
@@ -170,8 +180,13 @@
    2. Gutachter: Prof. Dr. Habe D\"unkel \\
    \vfill
 
+\afterpage{\blankpage}
+
+
 \end{titlepage}
-\newpage 
+\newpage
+
+
  
 
 \thispagestyle{empty}
@@ -194,11 +209,13 @@ D-55128 Mainz\\
 
 
 
-
+\afterpage{\blankpage}
 
 \newpage
 
-\epigraph{In der Mathematik versteht man die Dinge nicht. Man gew\"ohnt sich nur an sie.}{John von Neumann}
+\epigraph{But it doesn't do anything
+
+No, it does nothing}{}
 
 
 
@@ -258,10 +275,10 @@ warum Aufgabenstellung und Herangehensweise interessant sind. Auch
 die weitere Gliederung kann angesprochen werden, um dem Leser einen 
 ersten \"Uberblick \"uber den nachfolgenden Text zu geben.
 
-\chapter{Standard Model}
+\chapter{Theoretical Foundations}
 \label{cha:SM}
 
-\lettrine[lines=3]{T}{he} standard model of particle physics (SM) is a theory that describes three of the four fundamental known forces in the universe: the electromagnetic, the weak and the strong force. 
+\lettrine{T}{he} standard model of particle physics (SM) is a theory that describes three of the four fundamental known forces in the universe: the electromagnetic, the weak and the strong force. 
 
  At the current level of experimental precision and the reached energies so far, it is the best theory describing these forces.
  
@@ -270,11 +287,10 @@ ersten \"Uberblick \"uber den nachfolgenden Text zu geben.
 \section{The Standard Model}
 \label{sec:SM}
 
-The standard model is based on the idea that matter is made of particles with no internal structure. These particles can interact with each other by exchanging other particles which are associated to the fundamental forces. The standard model includes the \textit{quantum electrodynamic} (QED), the \textit{electroweak theory} (EWT) and the \textit{quantum chromodynamic} (QCD) as well as the \textit{Higgs mechanism}.
+The standard model is based on the idea that matter is made of particles with no internal structure. These particles can interact with each other by exchanging other particles which are associated to the fundamental forces. The standard model includes the \textit{quantum electrodynamic} (QED), the \textit{electroweak theory} (EWT) and the \textit{quantum chromodynamic} (QCD) as well as the \textit{Higgs mechanism}.\\
 
-The QED describes all phenomenons caused by photons ($\gamma$) and charged point-like particles like electron and positrons. In the 1920s Paul Dirac laid the foundation for the QED while computing the coefficient of spontaneous emission of an atom. The description of the weak force (\textit{quantum flavordynamics}, QFD) and the QED got merged by Sheldon Glashow in the early 1960s. The exchange particles of the weak force are the $Z$ and $W^{\pm}$ \textit{bosons}. A few years later, Steven Weinberg and Abdus Salam independently proposed a theory that included the \textit{Higgs mechanism} whereby the \textit{electroweak theory} (EQT) emerged. The \textit{Higgs mechanism} is the reason why the \textit{gauge bosons} have mass.
-Finally the standard model reached its modern form after combining the EWT and the theory of the strong interaction (\textit{quantum chromodynamic}, QCD). This was done by Abraham Pais and Sam Treiman in 1975. The exchange particles for the strong force are the \textit{gluons} ($g$). They >>\textit{glue}<< quarks together, forming \textit{hadrons} like \textit{mesons} (even number of quarks) and \textit{baryons} (odd number of quarks). \cite{RiseStandard}
-\newline  
+The QED describes all phenomenons caused by photons ($\gamma$) and charged point-like particles like electron and positrons. In the 1920s Paul Dirac laid the foundation for the QED while computing the coefficient of spontaneous emission of an atom. The description of the weak force (\textit{quantum flavordynamics}, QFD) and the QED got merged by Sheldon Glashow in the early 1960s. The exchange particles of the weak force are the $Z$ and $W^{\pm}$ \textit{bosons}. A few years later, Steven Weinberg and Abdus Salam independently proposed a theory that included the \textit{Higgs mechanism} whereby the \textit{electroweak theory} (EQT) emerged. The Higgs mechanism is the reason why the \textit{gauge bosons} have mass.
+Finally the standard model reached its modern form after combining the EWT and the theory of the strong interaction (\textit{quantum chromodynamic}, QCD). This was done by Abraham Pais and Sam Treiman in 1975. The exchange particles for the strong force are the \textit{gluons} ($g$). They >>\textit{glue}<< quarks together, forming \textit{hadrons} like \textit{mesons} (even number of quarks) and \textit{baryons} (odd number of quarks). \cite{RiseStandard} \\ 
 
 \begin{figure}[h!]
 	\centering
@@ -287,15 +303,14 @@ Finally the standard model reached its modern form after combining the EWT and t
 
 Figure \ref{fig:SM} shows the fundamental particles of the standard model. It includes three families of quarks and leptons so-called \textit{fermions}, four \textit{gauge bosons} and the Higgs \textit{boson}. Fermions and bosons differ by the spin. Spin is a degree of freedom, which had to be introduced to conserve the angular momentum in the Dirac equation. The matter forming fermions have a half-integral spin (in units of the reduced Planck constant $\hbar$) and the bosons (the exchange particles as well as the Higgs particle) have an integer spin. The fermion family can be sectioned into two families. The \text{quark} and the \textit{lepton} family. 
 The quark familiy consist of up- (u), down- (d), strange- (s), charm- (c), bottom- (b) and top- (t) quark. Quarks have fractional electric charge values. u-, c- and t-quark have an electric charge of $\nicefrac{2}{3} \,e$ and d-, s- and b-quark have an electric charge of $-\nicefrac{1}{3} \,e$. As indicated in figure \ref{fig:SM} by the beige background, quarks can interact with all four gauge bosons.
-The lepton family is made of the electron ($e$), the muon ($\mu$) and the tau ($\tau$) and their corresponding neutrinos $\nu_e,\nu_{\mu} \textrm{ and } \nu_{\tau}$. The neutrinos can only interact with the weak exchange particles ($W^{\pm}$ and $Z$ bosons). Since the electrons, muons and taus are charged, they can also interact with photons ($\gamma$).
+The lepton family is made of the electron ($e$), the muon ($\mu$) and the tau ($\tau$) and their corresponding neutrinos $\nu_e,\nu_{\mu} \textrm{ and } \nu_{\tau}$. The neutrinos can only interact via the weak exchange particles ($W^{\pm}$ and $Z$ bosons). Since the electrons, muons and taus are charged, they can also interact with photons.
 
 All fermions also have so-called \textit{antiparticles}. Antiparticle have the same mass as their corresponding particle but they have opposite charge. For example, the antiparticle of the electron is the positron. Both have the same mass and the same spin but the electron has an electric charge of $-1\,e$ and the positron has an electric charge of $+1\,e$.
-When a particle collides with its antiparticle annihilation can occur. In an annihilation process the incoming particles are destroyed to produce other particles. The total energy and momentum of the initial pairs is conserved. 
-\newline 
+When a particle collides with its antiparticle annihilation can occur. In an annihilation process the incoming particles are destroyed to produce other particles. The final particles carry the same energy and momentum as the initial particles.\\
 
 
 All visible matter in the universe is made of fermions from the first family. For example, atoms consist of protons and neutrons, each of which is a combination of up and down quarks. In the electron shell of an atom the eponymous electrons are located. Pauli proposed the neutrino in the 1930 to explain the energy spectrum of electrons in $\beta$-decays. Since neutrinos are only weak interacting particles, they were not observed until 1956.\cite{REINES19941} With increasing energy, the second and third family have been gradually discovered, first from cosmic ray experiments in the 1930s up to the discovery of the Higgs boson at the LHC in 2012. Parallel to the experimental discoveries, the theory also evolved, partially explaining the results and in part motivating new experiments through predictions.
-\newline
+
 
 \section{Physics Beyond The Standard Model}
 
@@ -304,16 +319,13 @@ Despite the success of the standard model as an effective theory, it fails answe
 \section{Bhabha Scattering}
 \label{sec:Bhabha}
 
-
-\tikzset{
-	photon/.style={decorate, decoration={snake}, draw=red},
-	electron/.style={draw=blue, postaction={decorate},
-		decoration={markings,mark=at position .55 with {\arrow[draw=blue]{>}}}},
-	gluon/.style={decorate, draw=magenta,
-		decoration={coil,amplitude=4pt, segment length=5pt}} 
-}
-
-
+Bhabha
+ 
+\subsection{Bhabha Process}
+ \label{sec:BhabhaProcess}
+ Bhabha
+ 
+ 
 
 \tikzset{
 	photon/.style={decorate, decoration={snake}, draw=red},
@@ -328,6 +340,13 @@ Despite the success of the standard model as an effective theory, it fails answe
 
 
 
+
+
+
+\begin{center}
+	
+
+\begin{minipage}{.5\textwidth}
 
 
 \begin{tikzpicture}[
@@ -369,6 +388,8 @@ edge from parent [photon]
 	
 ;
 \end{tikzpicture}
+\end{minipage}
+\begin{minipage}{.2\textwidth}
 
 \begin{tikzpicture}[
 thick,
@@ -410,6 +431,44 @@ child[grow=down, level distance=0pt] {
 ;
 \end{tikzpicture}
 
+\end{minipage}
+
+\captionof{figure}[Bhabha Feynman Diagrams]{The two bhabha feynman digrams}
+
+\end{center}
+
+
+
+\begin{equation}
+	\bigg(\frac{d\sigma}{d\Omega} \bigg)_{cms} = \frac{\alpha^2}{16E^2} \bigg(\frac{1}{\textrm{sin}^4(\nicefrac{\theta}{2})} + \frac{\textrm{cos}^4(\nicefrac{\theta}{2})}{\textrm{sin}^4(\nicefrac{\theta}{2})} - 2\frac{\textrm{cos}^4(\nicefrac{\theta}{2})}{\textrm{sin}^2(\nicefrac{\theta}{2})} + \frac{1+\textrm{cos}^2(\theta)}{2} \bigg)
+\end{equation}
+
+
+
+
+
+
+
+\subsection{Bhabha Kinematics At Belle II}
+
+
+\begin{figure}[h!]
+	\centering
+	\begin{minipage}[b]{0.45\linewidth}
+		\centering
+		\includegraphics[width=\textwidth]{Bilder/theta_cms}
+	\end{minipage}
+	\hspace{0.5cm}
+	\begin{minipage}[b]{0.45\linewidth}
+		\centering
+		\includegraphics[width=\textwidth]{Bilder/theta_lab}
+	\end{minipage}
+	\caption[$\theta$-Energy-distribution in the cms and lab frame]{ Bhabha scattering in different frames. In the cms the particle has the same Belle II energy in every $\theta$-direction. Left: The $\theta$-Energy-distribution in the cms frame is shown. Right: The $\theta$-Energy-distribution in the lab frame is shown.}
+
+\end{figure}
+
+
+
 
 
 
@@ -418,14 +477,14 @@ child[grow=down, level distance=0pt] {
 
 
 %_______________________________________________________________________________
-\chapter{Experimental Setup at SuperKEKB}
+\chapter{Experimental Setup At SuperKEKB}
 \label{sec:SetupKEK}
 
-\lettrine[lines=3]{S}{uperKEKB} is an two-ring, asymmetric\footnote{asymmetric means that there is an energy difference between the two colliding beams}, electron positron accelerator, which is located at KEK (\textit{High Energy Accelerator Research Organization}) in Tsukuba Japan. 
+\lettrine{S}{uperKEKB} is an two-ring, asymmetric\footnote{asymmetric means that there is an energy difference between the two colliding beams}, electron positron accelerator, which is located at KEK (\textit{High Energy Accelerator Research Organization}) in Tsukuba Japan. 
 The electron beam has an energy of $7\,\textnormal{GeV}$ 
 and the positron beam has an energy of $4\,\textnormal{GeV}$. These beams collide with a center-of-momentum energy of about $10.58\,\textnormal{GeV}$, which is close to the mass of the $\Upsilon(4\textnormal{S})$ resonance. Therefore SuperKEKB is a so-called \textit{B-factory}. The decay products are then detected by the  Belle II detector to study the properties of these B mesons with high precision. In early 2018 Belle II started taking data. One goal of Belle II is to study CP-Violation with respect to new physics.\cite{B2B}
 
-\section{KEKB and SuperKEKB}
+\section{KEKB And SuperKEKB}
 \label{sec:KEK}
 This section will only provide a rough overview of the SuperKEKB accelerator since the focus of this work is on the analysis. 
 
@@ -577,7 +636,7 @@ When a particles travels through the sensors it creates electron-holes pairs alo
 \section{Central Drift Chamber}
 \label{sec:CDC}
 
-The CDC surrounds the SVD. It consists of 14336 wires arranged in 56 layers and has an inner radius of $16\,\textrm{cm}$ and an outer radius of $113\,\textrm{cm}$. The volume is filled with a $50\%\,\textrm{helium}$ and an $50\%\,\textrm{ethane}$ gas mixture. The purpose of the CDC is to reconstruct the momenta and tracks of charged particles, to identify these particles by measuring their specific energy loss within the gas volume. The CDC alone is able to identify low-momentum tracks, which are unable to reach the particle identification device. The CDC also acts as a reliable trigger for charged particles.\cite{B2TR} A small cross section of the CDC is shown in figure \ref{fig:CDC}.
+The CDC surrounds the SVD. It consists of 14,336 wires arranged in 56 layers and has an inner radius of $16\,\textrm{cm}$ and an outer radius of $113\,\textrm{cm}$. The volume is filled with a $50\%\,\textrm{helium}$ and an $50\%\,\textrm{ethane}$ gas mixture. The purpose of the CDC is to reconstruct the momenta and tracks of charged particles, to identify these particles by measuring their specific energy loss within the gas volume. The CDC alone is able to identify low-momentum tracks, which are unable to reach the particle identification device. The CDC also acts as a reliable trigger for charged particles.\cite{B2TR} A small cross section of the CDC is shown in figure \ref{fig:CDC}.
 
 \begin{figure}[h!] 
 	\centering
@@ -586,12 +645,12 @@ The CDC surrounds the SVD. It consists of 14336 wires arranged in 56 layers and 
 	\label{fig:CDC}
 \end{figure}
 
-When a charged particle passes trough the CDC it losses energy due to ionization of the gas. This produces electron-ion pairs, which are then separated by the electric field provided by 42240 aluminum field wires, with a diameter of $125\,\mu\textrm{m}$. The signal is then read out by the sense wires. These have a radius of $30\,\mu\textrm{m}$ and are made out of gold-plated tungsten.\cite{B2TR} 
+When a charged particle passes trough the CDC it losses energy due to ionization of the gas. This produces electron-ion pairs, which are then separated by the electric field provided by 42,240 aluminum field wires, with a diameter of $125\,\mu\textrm{m}$. The signal is then read out by the sense wires. These have a radius of $30\,\mu\textrm{m}$ and are made out of gold-plated tungsten.\cite{B2TR} 
 
 As indicated in figure \ref{fig:CDC} there are different superlayers in the CDC. The Dense Axial and Axial sense wires allow the reconstruction of the track in the $r-\phi$ plane. The stereo sense wires gives information about the $z$ direction. These stereo wires are tilted in respect to the $z$ direction. Six layers of sense wires are combined to a superlayer. The CDC consists of five axial superlayers (A),and four stereo superlayer. The four stereo superlayer subdivide into two stereo superlayer (U) with a positive stereo angle and two stereo superlayers (V) with a negative stereo angle. Starting with the innermost superlayer, every second superlayer is an axial superlayer. The stereo superlayers are between them, alternating between U and V. In total there are nine superlayers. The innermost superlayer is called \textit{small-cell chamber} has a total of eight superlayers. (compared to the other superlayers with just six layers) This was done to lower the influence of the background, which is higher in the innermost superlayer due to the vicinity to the interaction region.
 The CDC has a spatial resolution of about $100\,\mu\textrm{m}$.\cite{B2TR}
 
-\section{TOP and ARICH}
+\section{TOP And ARICH}
 \label{sec:ARTO}
 
 There are two additional detectors for particle identification, the TOP and the ARICH. The TOP counter is located in the barrel part and it uses a combination of time-of-flight and Cerenkov angle measurements.
@@ -617,7 +676,7 @@ The Cerenkov angle is given by:\cite{cerenkovAngle}
 
 Figure \ref{fig:TOP} shows an illustration of the functionality of a TOP bar. The charged particle emits Cerenkov light when it passes the quartz crystal. These photons then travel inside the crystal due to reflection until they are detected by a photon detector. Measuring the time difference between the emitted photons it is possible to calculate the position of the track of the charged particle. The outgoing photons are then focused by mirrors and are then detected by PMTs. Cerenkov photons with different $\theta_C$ will be detected by different PMTs. Therefore, the TOP reconstruct the Cerenkov ring image using the information of time, $x$ and $y$.\cite{B2TR} 
 
-The TOP counter consists of 32 quartz bars. They have a length of $1250\,\textrm{mm}$, a width of $45\,\textrm{mm}$ and a depth of $20\,\textrm{mm}$. There are two quartz bars per module. The TOP counter has a $K/\pi$ separation of over $99\,\%$.\cite{B2TR}
+The TOP counter consists of 32 quartz bars. They have a length of $1,250\,\textrm{mm}$, a width of $45\,\textrm{mm}$ and a depth of $20\,\textrm{mm}$. There are two quartz bars per module. The TOP counter has a $K/\pi$ separation of over $99\,\%$.\cite{B2TR}
 
 The ARICH detector is located in the forward endcap region. It is designed to distinguish between kaons and pions over most of their momentum spectrum. It is also able to identify particles with a momentum below $1\,\textrm{GeV}$.
 
@@ -642,7 +701,7 @@ In figure \ref{fig:ARICH} the working principle of the ARICH detector is shown. 
 \section{Electromagnetic Calorimeter}
 \label{sec:ECL}
 
-One of the main tasks of the ECL is the detection of photons with a high efficiency. It also determents the energy and the angular coordinates of these photons with high precision. It is also used for electron identification and the generation of a proper signal for the trigger. The ECL consists of a $3\,\textrm{m}$ long barrel section with an inner radius of $1.25\,\textrm{m}$. The circular endcaps are located at a distance of $z=1.96\,\textrm{m}$ in the forward direction and $z=-1.02\,\textrm{m}$ in the backward direction from the interaction point. The ECL covers a polar angle region of $12.4^{\circ} < \theta < 155.1^{\circ}$. Due to construction, there are two $ \sim 1^{\circ}$ wide gaps between the barrel and the endcaps. The barrel section of the calorimeter consists of 6624 CsI(Tl)\footnote{Thallium activated Cesium Iodide} crystals with 29 distinct shapes. Each of these crystals is a truncated pyramid with an average size of about $6\times6 \, \textrm{cm}^2$ in cross section and $30\,\textrm{cm}$ in length. The length of these crystals corresponds to around 16.1 radiation lengths $X_0$. The endcaps consist of 2122 CsI crystals of 69 shapes. At the end of each crystal, photo-multiplier are mounted to detect the excitation of the scintillators. The detected number of photons corresponds directly to the energy released by absorbed particles.
+One of the main tasks of the ECL is the detection of photons with a high efficiency. It also determents the energy and the angular coordinates of these photons with high precision. It is also used for electron identification and the generation of a proper signal for the trigger. The ECL consists of a $3\,\textrm{m}$ long barrel section with an inner radius of $1.25\,\textrm{m}$. The circular endcaps are located at a distance of $z=1.96\,\textrm{m}$ in the forward direction and $z=-1.02\,\textrm{m}$ in the backward direction from the interaction point. The ECL covers a polar angle region of $12.4^{\circ} < \theta < 155.1^{\circ}$. Due to construction, there are two $ \sim 1^{\circ}$ wide gaps between the barrel and the endcaps. The barrel section of the calorimeter consists of 6,624 CsI(Tl)\footnote{Thallium activated Cesium Iodide} crystals with 29 distinct shapes. Each of these crystals is a truncated pyramid with an average size of about $6\times6 \, \textrm{cm}^2$ in cross section and $30\,\textrm{cm}$ in length. The length of these crystals corresponds to around 16.1 radiation lengths $X_0$. The endcaps consist of 2,122 CsI crystals of 69 shapes. At the end of each crystal, photo-multiplier are mounted to detect the excitation of the scintillators. The detected number of photons corresponds directly to the energy released by absorbed particles.
 The energy resolution of the calorimeter can be approximated as:\cite{B2TR} \cite{Belle_ECL_2015}
 
 \begin{equation}
@@ -673,22 +732,23 @@ This shower both spreads longitudinally and transversely. The transverse propaga
 
 $ 95\,\%$ of all particles of a shower are within two Moli\`ere radii.\cite{leo2012techniques}
 
-\section{$K_L^0$ and muon detector }
+\section{$K_L^0$ And Muon Detector }
 \label{sec:KM}
 
 The KLM consists of an alternating sandwich structure of a $4.7\,\textrm{cm}$ thick iron plates and resistive plate chambers (RPC) in between.
 
 RPCs consist of two glass sheets, separated by a thin gas volume. These sheets act as high voltage electrodes. When a particle passes through the volume, they create ion-electron pairs which are then accelerated by the strong electric field. They therefore initiate more ionizations, which leads to a streamer between the electrodes. This causes a voltage drop in the nearby electrodes, which is detected by pick-up strips, located on both sides of the chamber. These strips are a few centimeters wide and are placed orthogonal on each side. Therefore, the particle track can be localized in $z/\phi$ for the barrel region and $\phi/\theta$ for the endcaps.
 
-To distinguish between muons and hadrons, the KLM takes advantage of the high penetration power of muons. Hadrons deplete their energy through hadronic showers in the ECL and KLM. Electrons have a shorter radiation length and are therefore absorbed by the ECL, most of the time. $K_L^0$ create clusters in the ECL and the KLM. These clusters are than grouped and geometrically matched to charged tracks which are detected by the inner detectors. If no corresponding charged track can be found by geometrical matching, the detected particle is then treated as $K_L^0$ candidate.\cite{B2TR}\cite{KLMS}
+To distinguish between muons and hadrons, the KLM takes advantage of the high penetration power of muons. Hadrons deplete their energy through hadronic showers in the ECL and KLM. Electrons have a shorter radiation length and are therefore absorbed by the ECL, most of the time. $K_L^0$ create clusters in the ECL and the KLM. These clusters are than grouped and geometrically matched to charged tracks which are detected by the inner detectors. If no corresponding charged track can be found by geometrical matching, the detected particle is then treated as a $K_L^0$ candidate.\cite{B2TR}\cite{KLMS}
 
-\chapter{Trigger and Data Acquisition System}
+\chapter{Trigger And Data Acquisition System}
 \label{sec:TDAS}
 
 
 \chapter{Tools}
 \label{sec:Tools}
 
+\lettrine{T}{his} chapter will give a short introduction on the two most important tools that were used in this thesis: Root and Basf2
 
 
 
@@ -707,28 +767,158 @@ gemeint sein.
 \chapter{Tracking Efficiencies}
 \label{sec:TrackingEff}
 
-In this chapter the tracking efficiency studies I did will be presented. I will go through my studies in more or less chronological order, from the reproduction of Sam Cunliffs plots to the calculation of different efficiencies.
+\lettrine{I}{n} this chapter the tracking efficiency studies I did will be presented. I will go through my studies in more or less chronological order, from the reproduction of Sam Cunliffs plots to the calculation of different efficiencies.
 
 
 
-\section{Definition of Efficiency}
+\section{Definition Of Efficiency}
 \label{sec:Eff}
 
-First of all, a definition of efficiency has to be declared, since there are different ways to define a tracking efficiency. The physics case I am considering is Bhabha events $ \textrm{e}^+ \textrm{e}^- \rightarrow \textrm{e}^+ \textrm{e}^- $. As described in chapter \ref{sec:SetupKEK}, charged particles leave a track in the detector. So, when we look at a outgoing particle with a track, then we know that the other particle should also have a track. If the other particle has no charge, then this is an inefficiency. If both particles have a track associated, then this is the efficient case.
+First of all, a definition of efficiency has to be declared, since there are different ways to define a tracking efficiency. The physics case we are considering is Bhabha events $ \textrm{e}^+ \textrm{e}^- \rightarrow \textrm{e}^+ \textrm{e}^- $. As described in chapter \ref{sec:SetupKEK}, charged particles leave a track in the detector. So, when we look at a outgoing particle with a track, then we know that the other particle should also have a track. If the other particle has no charge, then this is an inefficiency. If both particles have a track associated, then this is the efficient case.
 
-So for this work I use the following definition of efficiency:
+So for this work we will use the following definition of efficiency:
 
 \begin{equation}
 	\epsilon = \frac{\textrm{Number of Bhabha events with exactly 2 tracks}}{\textrm{Number of Bhabha events with 1 or more tracks}}
 	\label{eq:efficiency}
 \end{equation}
 
-d
+\section{Reconstruct Events With Basf2}
+\label{sec:RecBasf2}
+
+\textcolor{red}{Screenshot of simple bhabha\_vpho.py} (only one case)
+
+To analyze a Monte Carlo file, a python script using Basf2 has to be written.
 
 
 
-\section{Reproducing Sam Cunliffs Plots}
-\label{sec:repSam}
+
+
+
+
+
+
+
+
+\begin{equation}
+n_{cand} = \frac{n_p(n_p +1)}{2}
+\label{eq:Triangular}
+\end{equation}
+
+In equation \ref{eq:Triangular} $n_p$ is the number of reconstructed particles per event.
+Equation \ref{eq:Triangular} is also known as the equation to calculate \textit{triangular numbers}.
+
+
+
+
+
+\section{Selecting Bhabha Events On Monte Carlo}
+
+We use Monte Carlo simulation due to the fact that on MC we know everything about the generated and reconstructed particles. So on MC we can select Bhabha events which hit the ECL and with this knowledge we can introduce cuts in such a way that we only reconstruct these Bhabha events. To calculate an efficiency it is extremely  important to select only Bhabha events. At first, we are also running on only one $ \textrm{e}^+ \textrm{e}^- \rightarrow \textrm{e}^+ \textrm{e}^- $ MC file which is located at /belle/MC/release-02-00-01/DB00000411/MC11/prod00006731/s00/e1002/4S/r00000/3600520000/mdst/sub00/mdst\_000278\_prod00006731\_task10010000499.root.
+\newline
+
+
+\subsection{ECL-Cut}
+
+Due to the fact that we can verify a Bhabha event with only ECL informations and we are therefore only interested in events which hit the ECL, we apply a $\theta$-cut on the generated daughters (generated daughters means the true generated Monte Carlo daughters). 
+\begin{equation}
+	0.296706 < \theta_{tag,probe} < 2.617990
+\end{equation}
+
+All the events which survive this cut are written into a list (\textit{mcEvtECL}). We know that the file Monte Carlo file contains 140,000 generated Bhabha events. After this cut, only 24,286 Bhabha events remain.
+In section \ref{sec:BhabhaProcess}, we saw that Bhabha events have a very high cross-section in the endcap direction. So we expect that most of the generated daughters are not hitting the ECL. 
+\newline
+
+
+
+
+
+Now we will take a look at the reconstructed Monte Carlo events. All of these reconstructed events have to appear in the mcEvtECL list because we know that only in these events both daughters are hitting the ECL. A total of 24,100 events have at least one reconstructed candidate.
+
+
+
+
+
+\begin{figure}[h!]
+	\centering
+	\begin{minipage}[b]{0.45\linewidth}
+		\centering
+		\includegraphics[width=\textwidth]{Cuts/nCandAll}
+	\end{minipage}
+	\hspace{0.5cm}
+	\begin{minipage}[b]{0.45\linewidth}
+		\centering
+		\includegraphics[width=\textwidth]{Cuts/Mall}
+	\end{minipage}
+	\caption[Number Of Candidates and invariant Mass (No Cuts)]{Left: The number of reconstructed candidates per event is shown. Right: The invariant mass of the reconstructed candidates is shown.}
+	\label{fig:nCandAll}
+\end{figure}
+
+
+
+In figure \ref{fig:nCandAll} on the left, we see the number of reconstructed candidates per event. Since we do not have a cut on the reconstruction, the number of reconstructed candidates $n_{cand}$ follows equation \ref{eq:Triangular}. On the right, we see the invariant mass of the reconstructed candidates. Note that we are now looking at candidates and as we can see on the left we oftentimes have more than one candidate per event.
+
+So of course we need some cuts to reduce the number of candidates per event to one.
+
+
+\subsection{Mass-Cut}
+
+The first cut to reduce the number of reconstructed candidates per event is a mass cut (M). As we saw in figure \ref{fig:nCandAll} a lot of candidates are reconstructed with an low invariant mass and we know from section \ref{sec:BhabhaProcess} that the mass of the reconstructed candidate should be the invariant mass of the collider. For Belle II this is around $10.58\,\textrm{GeV}$. Due to some acceptance for reconstruction error the mass cut is with an lower-cut of $8\,\textrm{GeV}$ rather loose.
+
+
+
+\subsection{Additional Cuts}
+
+As you saw in figure \textcolor{red}{nCandM} on the left, a mass cut is not sufficient enough to be sure that we are looking only at Bhabha candidates.
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{lcccc}
+		\\
+ Event&M &Energy(tag) &Energy(probe) &Total Energy ECL \\
+ \hline
+ 
+41890917 & 30.6657& 33.8368& 7.2455& 41.0823\\
+
+
+26574414 & 108.4056 & 235.3918 &13.0644 &  248.4563\\
+
+21222871 &11.6553 & 2.1733& 15.6648& 17.8381\\
+
+26372406 & 10.3229& 0.2465&190.2663 & 194.5971\\
+	\end{tabular}
+\caption[Energy Sum in the ECL]{Some examples for events with too much energy in the ECL. 
+	
+	Note: Here the energy of the particles is shown not clusterE.}
+\end{table}
+
+
+
+\subsection{Cut Efficiency}
+
+
+\begin{table}[H]
+	\centering
+\begin{tabular}{lccc}
+	
+	\\
+ Cut& Number Of Events&  Rel. Eff.& Tot. Eff\\
+ \hline
+ No Cut&24,100 &1.0000 &1.0000 \\
+ M& 17,529&0.7273 &0.7273 \\
+ MclE&15,330 &0.8746 &0.6361 \\
+ MclE2H&15,320&0.9993  &0.6357 \\
+ MclE2HnT&15,320 &1.0000 &0.6357 \\
+ MclE2HnTSumE& 14,961 &0.9766 &0.6208 \\
+
+\end{tabular}
+
+\caption[Cut Efficiencies]{A table with the total number of events after the respective cuts. Also the relative and the total efficiency of these cuts is shown.}
+
+
+\end{table}
+
+\section{Selecting Bhabha Events On Data}
 
 
 \begin{figure}[h!]
@@ -736,7 +926,10 @@ d
 	\includegraphics[width=10cm]{Bilder/b2b_2}
 	\caption[Sketch of the b2b methode]{Created with Inkscape}
 	\label{fig:Sketchb2b}
-\end{figure}
+	\end{figure}
+
+
+
 
 
 %_______________________________________________________________________________

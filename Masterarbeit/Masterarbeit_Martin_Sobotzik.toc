@@ -4,7 +4,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Standard Model}{3}{chapter.2}
+\contentsline {chapter}{\numberline {2}Theoretical Foundations}{3}{chapter.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.1}The Standard Model}{3}{section.2.1}
 \defcounter {refsection}{0}\relax 
@@ -12,9 +12,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.3}Bhabha Scattering}{5}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Experimental Setup at SuperKEKB}{7}{chapter.3}
+\contentsline {subsection}{\numberline {2.3.1}Bhabha Process}{5}{subsection.2.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}KEKB and SuperKEKB}{7}{section.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Bhabha Kinematics At Belle II}{6}{subsection.2.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Experimental Setup At SuperKEKB}{7}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}KEKB And SuperKEKB}{7}{section.3.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}The Belle II Detector}{9}{section.3.2}
 \defcounter {refsection}{0}\relax 
@@ -28,25 +32,37 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.5}Central Drift Chamber}{14}{section.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.6}TOP and ARICH}{15}{section.3.6}
+\contentsline {section}{\numberline {3.6}TOP And ARICH}{15}{section.3.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.7}Electromagnetic Calorimeter}{17}{section.3.7}
+\contentsline {section}{\numberline {3.7}Electromagnetic Calorimeter}{16}{section.3.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.8}$K_L^0$ and muon detector }{18}{section.3.8}
+\contentsline {section}{\numberline {3.8}$K_L^0$ And Muon Detector }{18}{section.3.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Trigger and Data Acquisition System}{21}{chapter.4}
+\contentsline {chapter}{\numberline {4}Trigger And Data Acquisition System}{19}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Tools}{23}{chapter.5}
+\contentsline {chapter}{\numberline {5}Tools}{21}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Root}{23}{section.5.1}
+\contentsline {section}{\numberline {5.1}Root}{21}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Basf2}{23}{section.5.2}
+\contentsline {section}{\numberline {5.2}Basf2}{21}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Tracking Efficiencies}{25}{chapter.6}
+\contentsline {chapter}{\numberline {6}Tracking Efficiencies}{23}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Definition of Efficiency}{25}{section.6.1}
+\contentsline {section}{\numberline {6.1}Definition Of Efficiency}{23}{section.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Reproducing Sam Cunliffs Plots}{25}{section.6.2}
+\contentsline {section}{\numberline {6.2}Reconstruct Events With Basf2}{23}{section.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.3}Selecting Bhabha Events On Monte Carlo}{23}{section.6.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3.1}ECL-Cut}{24}{subsection.6.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3.2}Mass-Cut}{25}{subsection.6.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3.3}Additional Cuts}{25}{subsection.6.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3.4}Cut Efficiency}{25}{subsection.6.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.4}Selecting Bhabha Events On Data}{25}{section.6.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {7}Zusammenfassung und Ausblick}{27}{chapter.7}
 \defcounter {refsection}{0}\relax 
@@ -56,10 +72,10 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {A.2}Weiterf\"uhrende Details zur Arbeit}{29}{section.A.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Figures}{31}{chapter*.2}
+\contentsline {chapter}{\nonumberline List of Figures}{31}{chapter*.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Tables}{33}{chapter*.3}
+\contentsline {chapter}{\nonumberline List of Tables}{33}{chapter*.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{35}{chapter*.4}
+\contentsline {chapter}{\nonumberline Bibliography}{35}{chapter*.19}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {B}Danksagung}{39}{appendix.B}
