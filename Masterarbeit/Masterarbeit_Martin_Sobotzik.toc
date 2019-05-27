@@ -52,30 +52,30 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.2}Reconstruct Events With Basf2}{23}{section.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Selecting Bhabha Events On Monte Carlo}{23}{section.6.3}
+\contentsline {section}{\numberline {6.3}Selecting Bhabha Events On Monte Carlo}{24}{section.6.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.3.1}ECL-Cut}{24}{subsection.6.3.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.3.2}Mass-Cut}{25}{subsection.6.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.3}Additional Cuts}{25}{subsection.6.3.3}
+\contentsline {subsection}{\numberline {6.3.3}Additional Cuts}{26}{subsection.6.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.4}Cut Efficiency}{25}{subsection.6.3.4}
+\contentsline {subsection}{\numberline {6.3.4}Cut Efficiency}{28}{subsection.6.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}Selecting Bhabha Events On Data}{25}{section.6.4}
+\contentsline {chapter}{\numberline {7}Zusammenfassung und Ausblick}{31}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Zusammenfassung und Ausblick}{27}{chapter.7}
+\contentsline {chapter}{\numberline {A}Appendix}{33}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Appendix}{29}{appendix.A}
+\contentsline {section}{\numberline {A.1}Cluster Splitting}{33}{section.A.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Tabellen und Abbildungen}{29}{section.A.1}
+\contentsline {section}{\numberline {A.2}Tabellen und Abbildungen}{33}{section.A.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Weiterf\"uhrende Details zur Arbeit}{29}{section.A.2}
+\contentsline {section}{\numberline {A.3}Weiterf\"uhrende Details zur Arbeit}{33}{section.A.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Figures}{31}{chapter*.17}
+\contentsline {chapter}{\nonumberline List of Figures}{35}{chapter*.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Tables}{33}{chapter*.18}
+\contentsline {chapter}{\nonumberline List of Tables}{37}{chapter*.22}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{35}{chapter*.19}
+\contentsline {chapter}{\nonumberline Bibliography}{39}{chapter*.23}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Danksagung}{39}{appendix.B}
+\contentsline {chapter}{\numberline {B}Danksagung}{43}{appendix.B}

@@ -44,11 +44,22 @@
 \usepackage{tikz}
 \usetikzlibrary{decorations.pathmorphing,decorations.markings,trees}
 \usepackage{afterpage}
-
+\usepackage{listings}
 \usepackage{float}
 \floatstyle{plaintop}
 \restylefloat{table}
 
+
+\lstset{
+	numbers=left,               % Ort der Zeilennummern
+	stepnumber=2,               % Abstand zwischen den Zeilennummern       
+	numberfirstline=false,
+	basicstyle=\ttfamily,
+	columns=fullflexible,
+	frame=single,
+	breaklines=true,
+	postbreak=\mbox{\textcolor{red}{$\hookrightarrow$}\space},
+}
 
 
 \newcommand\blankpage{%
@@ -278,11 +289,15 @@ ersten \"Uberblick \"uber den nachfolgenden Text zu geben.
 \chapter{Theoretical Foundations}
 \label{cha:SM}
 
-\lettrine{T}{he} standard model of particle physics (SM) is a theory that describes three of the four fundamental known forces in the universe: the electromagnetic, the weak and the strong force. 
+\lettrine{T}{he} first part of this chapter will give  short introduction to the standard model of particle physics. The standard model of particle physics (SM) is a theory that describes three of the four fundamental known forces in the universe: the electromagnetic, the weak and the strong force. 
 
  At the current level of experimental precision and the reached energies so far, it is the best theory describing these forces.
  
  Unfortunately the standard model fails to explain a variety of different observations and since gravitation is not included in the standard model, it is easy to see that the standard model is not complete.
+ 
+ 
+ Finally this chapter will shortly describe the electron-positron scattering process, also known as Bhabha scattering, which plays a very important role in this thesis.
+ 
  
 \section{The Standard Model}
 \label{sec:SM}
@@ -290,7 +305,7 @@ ersten \"Uberblick \"uber den nachfolgenden Text zu geben.
 The standard model is based on the idea that matter is made of particles with no internal structure. These particles can interact with each other by exchanging other particles which are associated to the fundamental forces. The standard model includes the \textit{quantum electrodynamic} (QED), the \textit{electroweak theory} (EWT) and the \textit{quantum chromodynamic} (QCD) as well as the \textit{Higgs mechanism}.\\
 
 The QED describes all phenomenons caused by photons ($\gamma$) and charged point-like particles like electron and positrons. In the 1920s Paul Dirac laid the foundation for the QED while computing the coefficient of spontaneous emission of an atom. The description of the weak force (\textit{quantum flavordynamics}, QFD) and the QED got merged by Sheldon Glashow in the early 1960s. The exchange particles of the weak force are the $Z$ and $W^{\pm}$ \textit{bosons}. A few years later, Steven Weinberg and Abdus Salam independently proposed a theory that included the \textit{Higgs mechanism} whereby the \textit{electroweak theory} (EQT) emerged. The Higgs mechanism is the reason why the \textit{gauge bosons} have mass.
-Finally the standard model reached its modern form after combining the EWT and the theory of the strong interaction (\textit{quantum chromodynamic}, QCD). This was done by Abraham Pais and Sam Treiman in 1975. The exchange particles for the strong force are the \textit{gluons} ($g$). They >>\textit{glue}<< quarks together, forming \textit{hadrons} like \textit{mesons} (even number of quarks) and \textit{baryons} (odd number of quarks). \cite{RiseStandard} \\ 
+Finally the standard model reached its modern form after combining the EWT and the theory of the strong interaction (\textit{quantum chromodynamic}, QCD). This was done by Abraham Pais and Sam Treiman in 1975. The exchange particles for the strong force are the \textit{gluons} ($g$). They >>\textit{glue}<< \textit{quarks} (fundamental particles) together, forming \textit{hadrons} like \textit{mesons} (even number of quarks) and \textit{baryons} (odd number of quarks). \cite{RiseStandard} \\ 
 
 \begin{figure}[h!]
 	\centering
@@ -301,12 +316,11 @@ Finally the standard model reached its modern form after combining the EWT and t
 
 
 
-Figure \ref{fig:SM} shows the fundamental particles of the standard model. It includes three families of quarks and leptons so-called \textit{fermions}, four \textit{gauge bosons} and the Higgs \textit{boson}. Fermions and bosons differ by the spin. Spin is a degree of freedom, which had to be introduced to conserve the angular momentum in the Dirac equation. The matter forming fermions have a half-integral spin (in units of the reduced Planck constant $\hbar$) and the bosons (the exchange particles as well as the Higgs particle) have an integer spin. The fermion family can be sectioned into two families. The \text{quark} and the \textit{lepton} family. 
+Figure \ref{fig:SM} shows the fundamental particles of the standard model. It includes three families of quarks and leptons so-called \textit{fermions}, four \textit{gauge bosons} and the Higgs \textit{boson}. Fermions and bosons differ by the spin. Spin is a degree of freedom, which had to be introduced to conserve the angular momentum in the Dirac equation. The matter forming fermions have a half-integral spin (in units of the reduced Planck constant $\hbar$) and the bosons (the exchange particles as well as the Higgs particle) have an integer spin. The fermion family can be sectioned into two families. The \text{quark} and the lepton family. 
 The quark familiy consist of up- (u), down- (d), strange- (s), charm- (c), bottom- (b) and top- (t) quark. Quarks have fractional electric charge values. u-, c- and t-quark have an electric charge of $\nicefrac{2}{3} \,e$ and d-, s- and b-quark have an electric charge of $-\nicefrac{1}{3} \,e$. As indicated in figure \ref{fig:SM} by the beige background, quarks can interact with all four gauge bosons.
 The lepton family is made of the electron ($e$), the muon ($\mu$) and the tau ($\tau$) and their corresponding neutrinos $\nu_e,\nu_{\mu} \textrm{ and } \nu_{\tau}$. The neutrinos can only interact via the weak exchange particles ($W^{\pm}$ and $Z$ bosons). Since the electrons, muons and taus are charged, they can also interact with photons.
 
-All fermions also have so-called \textit{antiparticles}. Antiparticle have the same mass as their corresponding particle but they have opposite charge. For example, the antiparticle of the electron is the positron. Both have the same mass and the same spin but the electron has an electric charge of $-1\,e$ and the positron has an electric charge of $+1\,e$.
-When a particle collides with its antiparticle annihilation can occur. In an annihilation process the incoming particles are destroyed to produce other particles. The final particles carry the same energy and momentum as the initial particles.\\
+All fermions also have so-called \textit{antiparticles}. Antiparticle have the same mass as their corresponding particle but they have opposite charge. For example, the antiparticle of the electron is the positron. Both have the same mass and the same spin but the electron has an electric charge of $-1\,e$ and the positron has an electric charge of $+1\,e$. When a particle collides with its antiparticle annihilation can occur. In an annihilation process the incoming particles are destroyed to produce other particles. The final particles carry the same energy and momentum as the initial particles.\\
 
 
 All visible matter in the universe is made of fermions from the first family. For example, atoms consist of protons and neutrons, each of which is a combination of up and down quarks. In the electron shell of an atom the eponymous electrons are located. Pauli proposed the neutrino in the 1930 to explain the energy spectrum of electrons in $\beta$-decays. Since neutrinos are only weak interacting particles, they were not observed until 1956.\cite{REINES19941} With increasing energy, the second and third family have been gradually discovered, first from cosmic ray experiments in the 1930s up to the discovery of the Higgs boson at the LHC in 2012. Parallel to the experimental discoveries, the theory also evolved, partially explaining the results and in part motivating new experiments through predictions.
@@ -433,7 +447,7 @@ child[grow=down, level distance=0pt] {
 
 \end{minipage}
 
-\captionof{figure}[Bhabha Feynman Diagrams]{The two bhabha feynman digrams}
+\captionof{figure}[Bhabha Feynman Diagrams]{The two Bhabha feynman digrams.}
 
 \end{center}
 
@@ -450,7 +464,7 @@ child[grow=down, level distance=0pt] {
 
 
 \subsection{Bhabha Kinematics At Belle II}
-
+\label{sec:Kinematics}
 
 \begin{figure}[h!]
 	\centering
@@ -463,7 +477,7 @@ child[grow=down, level distance=0pt] {
 		\centering
 		\includegraphics[width=\textwidth]{Bilder/theta_lab}
 	\end{minipage}
-	\caption[$\theta$-Energy-distribution in the cms and lab frame]{ Bhabha scattering in different frames. In the cms the particle has the same Belle II energy in every $\theta$-direction. Left: The $\theta$-Energy-distribution in the cms frame is shown. Right: The $\theta$-Energy-distribution in the lab frame is shown.}
+	\caption[$\theta$-Energy-Distribution In The CMS And LAB Frame]{ Bhabha scattering in different frames. In the cms the particle has the same Belle II energy in every $\theta$-direction. Left: The $\theta$-Energy-distribution in the cms frame is shown. Right: The $\theta$-Energy-distribution in the lab frame is shown.}
 
 \end{figure}
 
@@ -521,7 +535,7 @@ To increase the event rate one has to increase the instantaneous luminosity sinc
 	\centering
 	\includegraphics[width=14.5cm]{Bilder/bsSKEK}
 	
-	\caption[Sketch of the Beam Crossing for KEKB and SuperKEKB]{Sketch of the beam crossing at KEKB (left) and SuperKEKB (right). At KEKB the size of the interaction region was about $10\,\textrm{mm}$. At SuperKEKB it is about $0.5\,\textrm{mm}$}
+	\caption[Sketch Of The Beam Crossing For KEKB And SuperKEKB]{Sketch of the beam crossing at KEKB (left) and SuperKEKB (right). At KEKB the size of the interaction region was about $10\,\textrm{mm}$. At SuperKEKB it is about $0.5\,\textrm{mm}$}
 	\label{fig:beamsize}
 \end{figure}
 
@@ -562,7 +576,7 @@ For clarification, I want to explain the coordinate system of Belle II, before I
 	\begin{center}
 		\includegraphics[width=4.5cm]{Bilder/coordinate.png}
 	\end{center}
-	\caption[Coordinate System of Belle II]{A sketch of the coordinate system of Belle II}
+	\caption[Coordinate System Of Belle II]{A sketch of the coordinate system of Belle II}
 	\label{fig:CoordinateSysytem}
 \end{figure}
 
@@ -786,9 +800,31 @@ So for this work we will use the following definition of efficiency:
 \section{Reconstruct Events With Basf2}
 \label{sec:RecBasf2}
 
-\textcolor{red}{Screenshot of simple bhabha\_vpho.py} (only one case)
 
-To analyze a Monte Carlo file, a python script using Basf2 has to be written.
+To analyze a Monte Carlo/data file, a python script using Basf2 has to be written. The following code is a simplified version of the steering file I wrote.
+
+{\small
+\begin{lstlisting}
+fillParticleList('gamma:all', 'clusterE > 0.01', '', path=mypath)
+fillParticleList('e+:all', 'clusterE > 0.01', '', path=mypath)
+
+reconstructDecay('vpho:gamma -> gamma:all', '', path=mypath)
+reconstructDecay('vpho:elec -> e+:all', '', path=mypath)
+
+copyLists(outputListName = 'vpho:ECLObjectUnranked' ,inputListNames=['vpho:elec', 'vpho:gamma'], path=mypath)
+rankByHighest('vpho:ECLObjectUnranked', 'daughter(0,clusterE)', path=mypath)
+cutAndCopyList('vpho:ECLObject', 'vpho:ECLObjectUnranked', '', path=mypath)
+	
+reconstructDecay('vpho:bhabha -> vpho:ECLObject vpho:ECLObject', '', path=mypath)
+
+variablesToNtuple('vpho:bhabha', var_vpho, treename = 'vpho_bhabha', filename = 'bhabha_vpho.root', path=mypath)
+	
+\end{lstlisting}
+
+}
+
+
+
 
 
 
@@ -814,7 +850,7 @@ Equation \ref{eq:Triangular} is also known as the equation to calculate \textit{
 
 \section{Selecting Bhabha Events On Monte Carlo}
 
-We use Monte Carlo simulation due to the fact that on MC we know everything about the generated and reconstructed particles. So on MC we can select Bhabha events which hit the ECL and with this knowledge we can introduce cuts in such a way that we only reconstruct these Bhabha events. To calculate an efficiency it is extremely  important to select only Bhabha events. At first, we are also running on only one $ \textrm{e}^+ \textrm{e}^- \rightarrow \textrm{e}^+ \textrm{e}^- $ MC file which is located at /belle/MC/release-02-00-01/DB00000411/MC11/prod00006731/s00/e1002/4S/r00000/3600520000/mdst/sub00/mdst\_000278\_prod00006731\_task10010000499.root.
+We use Monte Carlo simulation due to the fact that on MC we know everything about the generated and reconstructed particles. So on MC we can select Bhabha events which hit the ECL and with this knowledge we can introduce cuts in such a way that we only reconstruct these Bhabha events. To calculate an efficiency it is extremely  important to select only Bhabha events. At first, we are also running on only one $ \textrm{e}^+ \textrm{e}^- \rightarrow \textrm{e}^+ \textrm{e}^- $ MC file which is located at: /belle/MC/release-02-00-01/DB00000411/MC11/prod00006731/s00/e1002/4S/r00000/3600520000/mdst/sub00/mdst\_000278\_prod00006731\_task10010000499.root.
 \newline
 
 
@@ -850,26 +886,92 @@ Now we will take a look at the reconstructed Monte Carlo events. All of these re
 		\centering
 		\includegraphics[width=\textwidth]{Cuts/Mall}
 	\end{minipage}
-	\caption[Number Of Candidates and invariant Mass (No Cuts)]{Left: The number of reconstructed candidates per event is shown. Right: The invariant mass of the reconstructed candidates is shown.}
+	\caption[Number Of Candidates And Invariant Mass (No Cuts)]{Left: The number of reconstructed candidates per event is shown. 
+		
+		Right: The invariant mass of the reconstructed candidates is shown.}
 	\label{fig:nCandAll}
 \end{figure}
 
 
 
-In figure \ref{fig:nCandAll} on the left, we see the number of reconstructed candidates per event. Since we do not have a cut on the reconstruction, the number of reconstructed candidates $n_{cand}$ follows equation \ref{eq:Triangular}. On the right, we see the invariant mass of the reconstructed candidates. Note that we are now looking at candidates and as we can see on the left we oftentimes have more than one candidate per event.
-
-So of course we need some cuts to reduce the number of candidates per event to one.
+In figure \ref{fig:nCandAll} on the left, we see the number of reconstructed candidates per event. Since we do not have a cut on the reconstruction, the number of reconstructed candidates $n_{cand}$ follows equation \ref{eq:Triangular}. On the right, we see the invariant mass of the reconstructed candidates. Note that we are now looking at candidates and as we can see on the left we oftentimes have more than one candidate per event. Therefore the numbers of entries for the mass is way higher then for the number of candidates per event.
+Consequently, we need some cuts to reduce the number of candidates per event to one.
 
 
 \subsection{Mass-Cut}
 
-The first cut to reduce the number of reconstructed candidates per event is a mass cut (M). As we saw in figure \ref{fig:nCandAll} a lot of candidates are reconstructed with an low invariant mass and we know from section \ref{sec:BhabhaProcess} that the mass of the reconstructed candidate should be the invariant mass of the collider. For Belle II this is around $10.58\,\textrm{GeV}$. Due to some acceptance for reconstruction error the mass cut is with an lower-cut of $8\,\textrm{GeV}$ rather loose.
+The first cut to reduce the number of reconstructed candidates per event is a mass cut (The cut is called M). As we saw in figure \ref{fig:nCandAll} a lot of candidates are reconstructed with an low invariant mass and we know from section \ref{sec:BhabhaProcess} that the mass of the reconstructed candidate should be the invariant mass of the collider. For Belle II this is around $10.58\,\textrm{GeV}$. Due to some acceptance for reconstruction error the mass cut is with an lower-cut of $8\,\textrm{GeV}$ rather loose.
+
+
+
+\begin{figure}[h!]
+	\centering
+	\begin{minipage}[b]{0.45\linewidth}
+		\centering
+		\includegraphics[width=\textwidth]{Cuts/nCandM}
+	\end{minipage}
+	\hspace{0.5cm}
+	\begin{minipage}[b]{0.45\linewidth}
+		\centering
+		\includegraphics[width=\textwidth]{Cuts/MM}
+	\end{minipage}
+	\caption[Number Of Candidates And Invariant Mass ($\textrm{M} >8\,\textrm{GeV}$)]{A cut on the invariant mass is applied. The reconstructed invariant mass has to be bigger than $8\,\textrm{GeV}$. Left: The number of reconstructed candidates per event is shown. Right: The invariant mass of the reconstructed candidates is shown.}
+	\label{fig:nCandM}
+\end{figure}
+
+As you can see in figure \ref{fig:nCandM} on the right, all reconstructed candidates with an invariant mass below $8\,\textrm{GeV}$ are neglected. Therefore the number of candidates per event is reduced. We see this in the left plot. Unfortunately, sometimes we still have two candidates per event and consequently, we have to introduce some more additional cuts.
 
 
 
 \subsection{Additional Cuts}
 
-As you saw in figure \textcolor{red}{nCandM} on the left, a mass cut is not sufficient enough to be sure that we are looking only at Bhabha candidates.
+To reduce the number of candidates per event to one, some additional cuts are needed. Sometimes it can happen that two reconstructed particles are associated to one Monte Carlo particle. Some examples of this effect can be seen in table \ref{tab:clusterSplitting}. As you can see, the Monte Carlo generated energy (mcE) for both tag and probe is the same and the reconstructed energy (E) of the tag and the probe particle sum up roughly to their respectively mcE. You can also see that the generated particle is always a electron/positron and that the \textit{additionally} reconstructed particle is always a photon.
+
+
+
+
+
+\begin{table}[H]
+	\centering
+	\makebox[\textwidth]{
+	
+	\begin{tabular}{lccccccc}
+		\\
+		
+ event& E(tag) &mcE(tag)&PDG(tag) & E(probe)&mcE(probe)&PDG(probe)&mcPDG \\
+ \hline
+ 
+ 41890065&0.9432 & 4.1278& 11& 3.1900&4.1278 & 22&11\\
+ 41890118&1.5993 &4.3465 &22 & 2.6462& 4.3465&-11 &-11\\
+ 41890668&3.1758 &6.8878 &22 &3.1059 &6.8878 &11 &11\\
+41891214 &2.3290 & 6.1585&22 & 3.9079&6.1585 &11&11  \\
+41892596 &1.4193 & 4.2997& 22&2.9673 &4.2997 &-11 &-11\\
+	\end{tabular}
+}
+\caption[Cluster Splitting Examples]{Some examples for events with cluster splitting. The energies are in GeV.}
+\label{tab:clusterSplitting}
+\end{table}
+
+
+In figure \ref{fig:clusterSplittingAngle} you can see the angular distribution of this effect. For this plot there were no cuts on the reconstruction. It was just checked if exactly two reconstructed particles have the same generated Monte Carlo particle associated. Then the clusterPhi- and clusterTheta-values of these particles were filled into their histograms. On the left you can see that the both reconstructed particle have the same clusterTheta angle. On the right you can see that they have a slightly different clusterPhi angle. Therefore, the one \textit{original} cluster  is separated into two clusters with the same $\theta$-angle and a different $\Phi$-angle. One cluster is associated with a track produced by the generated particle and for the other cluster is no track left, therefore, it is labeled as a photon. I will refer to this effect as \textit{cluster splitting}.
+
+
+
+
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=10cm]{AnhangPlots/EEdoubleMCE}
+	\caption[Cluster Splitting Energy Distribution]{Cluster Energy vs. Cluster Energy in the case that both particles are associated to the same Monte Carlo particle. Here, no cuts are applied.}
+	\label{fig:clusterSplittingE}
+\end{figure}
+
+In figure \ref{fig:clusterSplittingE} you can see the energy of the particles in a cluster splitting process. Since we only want to select Bhabha events, we want to neglect these kinds of events. In section \ref{sec:Kinematics} we saw that the particles have an energy of at least $4\,\textrm{GeV}$. Therefore we are able to apply a cut on the cluster energy. We are now requiring a cluster energy of at least $3.5\,\textrm{GeV}$ (The cut is called MclE). With this cut all events with cluster splitting should be neglected.
+
+Next, we require that we have exactly two clusters per event, each with an energy of at least $3.5\,\textrm{GeV}$, since we only expect two high energetic particles in the ECL (The cut is called MclE2H).
+
+As an additional safety net, a cut on the number of reconstructed tracks per event is applied. On data it can happen that there are way more than two tracks reconstructed per event. To select only \textit{clean} events we apply a cut on the number of reconstructed particles per event (The cut is called MclE2HnT). This number should not be greater than six.
+
 
 \begin{table}[H]
 	\centering
@@ -887,10 +989,27 @@ As you saw in figure \textcolor{red}{nCandM} on the left, a mass cut is not suff
 
 26372406 & 10.3229& 0.2465&190.2663 & 194.5971\\
 	\end{tabular}
-\caption[Energy Sum in the ECL]{Some examples for events with too much energy in the ECL. 
+\caption[Energy Sum In The ECL]{Some examples for events with too much energy in the ECL. 
 	
 	Note: Here the energy of the particles is shown not clusterE.}
+\label{tab:ESum}
 \end{table}
+
+As you can see in table \ref{tab:ESum}, sometimes the invariant mass of the reconstructed candidates is way bigger than $10.58\,\textrm{GeV}$. To neglect these candidates an upper cut on the reconstructed invariant mass is introduced. Now, the reconstructed invariant mass has to be smaller than $12\,\textrm{GeV}$.
+
+Also, sometimes the total energy in the ECL is way higher than expected. To exclude these events an upper cut on the total energy per event in the ECL is added (The cut is called MclE2HnTSumE). The total energy in the ECL must not exceed $15\,\textrm{GeV}$.
+
+
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=10cm]{Cuts/nCand}
+	\caption[Number Of Candidates Per Event After All Cuts]{Number of candidates per event after applying all cuts.}	
+	\label{fig:nCand}
+\end{figure}
+
+After applying all the cuts mentioned, the number of candidates per event is shown in figure \ref{fig:nCand}. As you can see, now, we only select one candidate per event. 
+
 
 
 
@@ -914,17 +1033,19 @@ As you saw in figure \textcolor{red}{nCandM} on the left, a mass cut is not suff
 \end{tabular}
 
 \caption[Cut Efficiencies]{A table with the total number of events after the respective cuts. Also the relative and the total efficiency of these cuts is shown.}
-
+\label{tab:Eff}
 
 \end{table}
 
-\section{Selecting Bhabha Events On Data}
+
 
 
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=10cm]{Bilder/b2b_2}
-	\caption[Sketch of the b2b methode]{Created with Inkscape}
+	\caption[Sketch Of The b2bClusterPhi Variable]{Simplified representation of the b2bClusterPhi variable. 
+		
+		Created with Inkscape}
 	\label{fig:Sketchb2b}
 	\end{figure}
 
@@ -947,6 +1068,42 @@ Arbeiten an der Aufgabenstellung.
 %_______________________________________________________________________________
 \begin{appendix}
 \chapter{Appendix}
+
+
+\section{Cluster Splitting}
+\label{sec:clusterSplitting}
+
+
+
+
+
+
+
+
+\begin{figure}[h!]
+	\centering
+	\begin{minipage}[b]{0.45\linewidth}
+		\centering
+		\includegraphics[width=\textwidth]{AnhangPlots/thetathetadoubleMC}
+	\end{minipage}
+	\hspace{0.5cm}
+	\begin{minipage}[b]{0.45\linewidth}
+		\centering
+		\includegraphics[width=\textwidth]{AnhangPlots/PhiPhidoubleMC}
+	\end{minipage}
+	\caption[Cluster Splitting Angle Distribution]{Left: The number of reconstructed candidates per event is shown. Right: The invariant mass of the reconstructed candidates is shown.}
+	\label{fig:clusterSplittingAngle}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
 
 \section{Tabellen und Abbildungen}
 
