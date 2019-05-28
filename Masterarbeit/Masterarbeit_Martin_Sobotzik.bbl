@@ -680,6 +680,30 @@
     \field{year}{2006}
   \endentry
 
+  \entry{triangular}{online}{}
+    \name{author}{1}{}{%
+      {{hash=PR}{%
+         family={Pierce},
+         familyi={P\bibinitperiod},
+         given={Rod},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PR1}
+    \strng{fullhash}{PR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{addendum}{visited on 27.05.2019}
+    \field{title}{"Triangular Number Sequence" Math Is Fun}
+    \verb{url}
+    \verb http://www.mathsisfun.com/algebra/triangular-numbers.html
+    \endverb
+    \field{month}{11}
+    \field{year}{2018}
+  \endentry
+
   \entry{REINES19941}{article}{}
     \name{author}{1}{}{%
       {{hash=RF}{%
@@ -714,6 +738,30 @@
     \field{volume}{32}
     \field{journaltitle}{Progress in Particle and Nuclear Physics}
     \field{year}{1994}
+  \endentry
+
+  \entry{Bhabha}{online}{}
+    \name{author}{1}{}{%
+      {{hash=SDV}{%
+         family={Schroeder},
+         familyi={S\bibinitperiod},
+         given={Daniel\bibnamedelima V.},
+         giveni={D\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SDV1}
+    \strng{fullhash}{SDV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{addendum}{visited on 27.05.2019}
+    \field{title}{Feynman Diagrams and Electron-Positron Annihilation}
+    \verb{url}
+    \verb https://physics.weber.edu/schroeder/feynman/
+    \endverb
+    \field{month}{10}
+    \field{year}{2002}
   \endentry
 
   \entry{DevelopVertex}{thesis}{}

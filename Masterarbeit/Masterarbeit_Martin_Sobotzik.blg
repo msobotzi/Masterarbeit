@@ -122,45 +122,45 @@ Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, M
 while executing---line 2746 of file biblatex.bst
 Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
 while executing---line 2746 of file biblatex.bst
-You've used 26 entries,
+You've used 28 entries,
             6256 wiz_defined-function locations,
-            1364 strings with 19939 characters,
-and the built_in function-call counts, 108601 in all, are:
-= -- 6374
-> -- 2375
-< -- 847
-+ -- 1966
-- -- 739
-* -- 7389
-:= -- 9011
+            1375 strings with 20207 characters,
+and the built_in function-call counts, 116079 in all, are:
+= -- 6766
+> -- 2555
+< -- 903
++ -- 2088
+- -- 797
+* -- 7909
+:= -- 9623
 add.period$ -- 0
-call.type$ -- 26
-change.case$ -- 420
-chr.to.int$ -- 110
-cite$ -- 50
-duplicate$ -- 12093
-empty$ -- 11137
-format.name$ -- 1196
-if$ -- 23298
+call.type$ -- 28
+change.case$ -- 438
+chr.to.int$ -- 122
+cite$ -- 54
+duplicate$ -- 12937
+empty$ -- 11935
+format.name$ -- 1290
+if$ -- 24894
 int.to.chr$ -- 0
-int.to.str$ -- 62
+int.to.str$ -- 66
 missing$ -- 0
-newline$ -- 709
-num.names$ -- 1173
-pop$ -- 8266
+newline$ -- 757
+num.names$ -- 1255
+pop$ -- 8916
 preamble$ -- 1
-purify$ -- 476
+purify$ -- 498
 quote$ -- 0
-skip$ -- 4401
+skip$ -- 4703
 stack$ -- 0
-substring$ -- 9457
-swap$ -- 3602
-text.length$ -- 655
-text.prefix$ -- 26
+substring$ -- 10015
+swap$ -- 3854
+text.length$ -- 707
+text.prefix$ -- 28
 top$ -- 1
-type$ -- 871
+type$ -- 939
 warning$ -- 0
-while$ -- 1186
+while$ -- 1270
 width$ -- 0
-write$ -- 684
+write$ -- 730
 (There were 49 error messages)

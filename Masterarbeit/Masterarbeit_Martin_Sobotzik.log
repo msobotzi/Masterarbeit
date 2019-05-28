@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.21)  27 MAY 2019 16:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.21)  28 MAY 2019 17:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1981,7 +1981,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 307--309
 
  []
 
-[3] <Bilder/SM.png, id=264, 803.0pt x 603.25375pt>
+[3] <Bilder/SM.png, id=279, 803.0pt x 603.25375pt>
 File: Bilder/SM.png Graphic file (type png)
  <use Bilder/SM.png>
 Package pdftex.def Info: Bilder/SM.png used on input line 312.
@@ -2010,298 +2010,349 @@ See the caption package documentation for explanation.
 Underfull \vbox (badness 2922) has occurred while \output is active []
 
  [5]
-<Bilder/theta_cms.png, id=291, 1019.81pt x 815.045pt>
+<Bilder/dsdO.png, id=308, 407.5225pt x 271.0125pt>
+File: Bilder/dsdO.png Graphic file (type png)
+ <use Bilder/dsdO.png>
+Package pdftex.def Info: Bilder/dsdO.png used on input line 470.
+(pdftex.def)             Requested size: 183.09227pt x 121.76013pt.
+
+<Bilder/dsdOb.png, id=310, 407.5225pt x 273.02pt>
+File: Bilder/dsdOb.png Graphic file (type png)
+ <use Bilder/dsdOb.png>
+Package pdftex.def Info: Bilder/dsdOb.png used on input line 475.
+(pdftex.def)             Requested size: 183.09227pt x 122.66206pt.
+
+<Bilder/theta_cms.png, id=311, 1019.81pt x 815.045pt>
 File: Bilder/theta_cms.png Graphic file (type png)
 
 <use Bilder/theta_cms.png>
-Package pdftex.def Info: Bilder/theta_cms.png used on input line 473.
+Package pdftex.def Info: Bilder/theta_cms.png used on input line 491.
 (pdftex.def)             Requested size: 183.09227pt x 146.32866pt.
 
-<Bilder/theta_lab.png, id=292, 1019.81pt x 815.045pt>
+<Bilder/theta_lab.png, id=312, 1019.81pt x 815.045pt>
 File: Bilder/theta_lab.png Graphic file (type png)
 
 <use Bilder/theta_lab.png>
-Package pdftex.def Info: Bilder/theta_lab.png used on input line 478.
+Package pdftex.def Info: Bilder/theta_lab.png used on input line 496.
 (pdftex.def)             Requested size: 183.09227pt x 146.32866pt.
- [6 <./Bilder/theta_cms.png> <./Bilder/theta_lab.png>]
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[6 <./Bilder/dsdO.png> <./Bilder/dsdOb.png>] [7 <./Bilder/theta_cms.png> <./Bil
+der/theta_lab.png>] [8
+
+
+]
 chapter 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 497.
-<Bilder/SuperKEKB.png, id=304, 630.355pt x 659.46375pt>
+(Font)              <9> on input line 515.
+<Bilder/SuperKEKB.png, id=335, 630.355pt x 659.46375pt>
 File: Bilder/SuperKEKB.png Graphic file (type png)
 
 <use Bilder/SuperKEKB.png>
-Package pdftex.def Info: Bilder/SuperKEKB.png used on input line 510.
+Package pdftex.def Info: Bilder/SuperKEKB.png used on input line 528.
 (pdftex.def)             Requested size: 227.62204pt x 238.13127pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[7
-
-
-] [8 <./Bilder/SuperKEKB.png>]
-<Bilder/bsSKEK.png, id=337, 1087.06125pt x 264.99pt>
+[9] [10 <./Bilder/SuperKEKB.png>]
+<Bilder/bsSKEK.png, id=368, 1087.06125pt x 264.99pt>
 File: Bilder/bsSKEK.png Graphic file (type png)
  <use Bilder/bsSKEK.png>
-Package pdftex.def Info: Bilder/bsSKEK.png used on input line 536.
+Package pdftex.def Info: Bilder/bsSKEK.png used on input line 554.
 (pdftex.def)             Requested size: 412.56496pt x 100.5719pt.
 
-Overfull \hbox (5.69048pt too wide) in paragraph at lines 536--537
+Overfull \hbox (5.69048pt too wide) in paragraph at lines 554--555
  [][] 
  []
 
-<Bilder/Belle2.png, id=343, 1927.2pt x 1084.05pt>
+<Bilder/Belle2.png, id=373, 1927.2pt x 1084.05pt>
 File: Bilder/Belle2.png Graphic file (type png)
  <use Bilder/Belle2.png>
-Package pdftex.def Info: Bilder/Belle2.png used on input line 553.
+Package pdftex.def Info: Bilder/Belle2.png used on input line 571.
 (pdftex.def)             Requested size: 355.65944pt x 200.04987pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[9 <./Bilder/bsSKEK.png>]
-<Bilder/coordinate.png, id=356, 372.39125pt x 418.56375pt>
+[11 <./Bilder/bsSKEK.png>]
+<Bilder/coordinate.png, id=387, 372.39125pt x 418.56375pt>
 File: Bilder/coordinate.png Graphic file (type png)
 
 <use Bilder/coordinate.png>
-Package pdftex.def Info: Bilder/coordinate.png used on input line 577.
+Package pdftex.def Info: Bilder/coordinate.png used on input line 595.
 (pdftex.def)             Requested size: 128.0374pt x 143.91286pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[10 <./Bilder/Belle2.png>]
-<Bilder/PXD_SVD.png, id=368, 853.1875pt x 848.16875pt>
+[12 <./Bilder/Belle2.png>]
+<Bilder/PXD_SVD.png, id=399, 853.1875pt x 848.16875pt>
 File: Bilder/PXD_SVD.png Graphic file (type png)
 
 <use Bilder/PXD_SVD.png>
-Package pdftex.def Info: Bilder/PXD_SVD.png used on input line 593.
+Package pdftex.def Info: Bilder/PXD_SVD.png used on input line 611.
 (pdftex.def)             Requested size: 298.75394pt x 297.00586pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Bilder/pixel.png, id=372, 1233.60875pt x 838.13126pt>
+<Bilder/pixel.png, id=403, 1233.60875pt x 838.13126pt>
 File: Bilder/pixel.png Graphic file (type png)
  <use Bilder/pixel.png>
-Package pdftex.def Info: Bilder/pixel.png used on input line 609.
+Package pdftex.def Info: Bilder/pixel.png used on input line 627.
 (pdftex.def)             Requested size: 298.75394pt x 202.97162pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 617--619
+Underfull \hbox (badness 10000) in paragraph at lines 635--637
 
  []
 
-<Bilder/DEPFET.png, id=380, 294.09875pt x 299.1175pt>
+<Bilder/DEPFET.png, id=411, 294.09875pt x 299.1175pt>
 File: Bilder/DEPFET.png Graphic file (type png)
  <use Bilder/DEPFET.png>
-Package pdftex.def Info: Bilder/DEPFET.png used on input line 624.
+Package pdftex.def Info: Bilder/DEPFET.png used on input line 642.
 (pdftex.def)             Requested size: 199.16928pt x 202.56653pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[11 <./Bilder/coordinate.png>]
+[13 <./Bilder/coordinate.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12 <./Bilder/PXD_SVD.png>] [13 <./Bilder/pixel.png> <./Bilder/DEPFET.png>]
-<Bilder/SVD.png, id=408, 587.33714pt x 344.71643pt>
+ [14 <./Bilder/PXD_SVD.png>] [15 <./Bilder/pixel.png> <./Bilder/DEPFET.png>]
+<Bilder/SVD.png, id=438, 587.33714pt x 344.71643pt>
 File: Bilder/SVD.png Graphic file (type png)
  <use Bilder/SVD.png>
-Package pdftex.def Info: Bilder/SVD.png used on input line 639.
+Package pdftex.def Info: Bilder/SVD.png used on input line 657.
 (pdftex.def)             Requested size: 355.65944pt x 208.74606pt.
 
-<Bilder/CDC.png, id=415, 753.81625pt x 284.06125pt>
+<Bilder/CDC.png, id=445, 753.81625pt x 284.06125pt>
 File: Bilder/CDC.png Graphic file (type png)
  <use Bilder/CDC.png>
-Package pdftex.def Info: Bilder/CDC.png used on input line 657.
+Package pdftex.def Info: Bilder/CDC.png used on input line 675.
 (pdftex.def)             Requested size: 355.65944pt x 134.02025pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[14 <./Bilder/SVD.png>] [15 <./Bilder/CDC.png>]
-<Bilder/TOP.png, id=438, 437.635pt x 164.615pt>
+[16 <./Bilder/SVD.png>] [17 <./Bilder/CDC.png>]
+<Bilder/TOP.png, id=469, 437.635pt x 164.615pt>
 File: Bilder/TOP.png Graphic file (type png)
  <use Bilder/TOP.png>
-Package pdftex.def Info: Bilder/TOP.png used on input line 686.
+Package pdftex.def Info: Bilder/TOP.png used on input line 704.
 (pdftex.def)             Requested size: 298.75394pt x 112.37628pt.
 
-<Bilder/ARICH.jpg, id=444, 178.65144pt x 144.10638pt>
+<Bilder/ARICH.jpg, id=475, 178.65144pt x 144.10638pt>
 File: Bilder/ARICH.jpg Graphic file (type jpg)
  <use Bilder/ARICH.jpg>
-Package pdftex.def Info: Bilder/ARICH.jpg used on input line 701.
+Package pdftex.def Info: Bilder/ARICH.jpg used on input line 719.
 (pdftex.def)             Requested size: 183.09227pt x 147.6968pt.
 
-<Bilder/ARICH2.jpg, id=445, 177.797pt x 154.77292pt>
+<Bilder/ARICH2.jpg, id=476, 177.797pt x 154.77292pt>
 File: Bilder/ARICH2.jpg Graphic file (type jpg)
  <use Bilder/ARICH2.jpg>
-Package pdftex.def Info: Bilder/ARICH2.jpg used on input line 706.
+Package pdftex.def Info: Bilder/ARICH2.jpg used on input line 724.
 (pdftex.def)             Requested size: 183.09227pt x 159.39424pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[16 <./Bilder/TOP.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 723--726
+[18 <./Bilder/TOP.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 741--744
 
  []
 
-[17 <./Bilder/ARICH.jpg> <./Bilder/ARICH2.jpg>]
+[19 <./Bilder/ARICH.jpg> <./Bilder/ARICH2.jpg>]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 749.
+(Font)              <14.4> on input line 767.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 749.
+(hyperref)                removing `math shift' on input line 767.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 749.
+(hyperref)                removing `subscript' on input line 767.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 749.
+(hyperref)                removing `superscript' on input line 767.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 749.
+(hyperref)                removing `math shift' on input line 767.
 
-[18]
+[20]
 chapter 4.
-[19
+[21
 
 
-] [20
+] [22
 
 
 ]
 chapter 5.
-[21] [22
+[23] [24
 
 
 ]
 chapter 6.
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 807.
+
+Underfull \hbox (badness 10000) in paragraph at lines 831--833
+
+ []
+
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 835.
 
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [23]
-Overfull \hbox (263.62901pt too wide) in paragraph at lines 853--855
-\T1/lmr/m/n/10.95 01/DB00000411/MC11/prod00006731/s00/e1002/4S/r00000/360052000
-0/mdst/sub00/mdst_000278_prod00006731_task10010000499.root. 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 853--855
+) [25] [26]
+Underfull \hbox (badness 10000) in paragraph at lines 882--884
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 864--867
+Underfull \hbox (badness 10000) in paragraph at lines 885--888
+[]\T1/lmr/m/n/10.95 /belle/MC/release-02-00-01/DB00000411/MC11/prod00006731/s00
+/e1002/4S/
+ []
+
+
+Overfull \hbox (2.86757pt too wide) in paragraph at lines 885--888
+\T1/lmr/m/n/10.95 r00000/3600520000/mdst/sub00/mdst_000278_prod00006731_task100
+10000499.root 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 885--888
 
  []
 
-<Cuts/nCandAll.png, id=524, 1019.81pt x 815.045pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 891--893
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 902--905
+
+ []
+
+[27] <Cuts/nCandAll.png, id=573, 1019.81pt x 815.045pt>
 File: Cuts/nCandAll.png Graphic file (type png)
- <use Cuts/nCandAll.png>
-Package pdftex.def Info: Cuts/nCandAll.png used on input line 882.
-(pdftex.def)             Requested size: 183.09227pt x 146.32866pt.
 
-<Cuts/Mall.png, id=525, 1019.81pt x 815.045pt>
+<use Cuts/nCandAll.png>
+Package pdftex.def Info: Cuts/nCandAll.png used on input line 920.
+(pdftex.def)             Requested size: 183.09227pt x 146.32866pt.
+ <Cuts/Mall.png, id=574, 1019.81pt x 815.045pt>
 File: Cuts/Mall.png Graphic file (type png)
- <use Cuts/Mall.png>
-Package pdftex.def Info: Cuts/Mall.png used on input line 887.
+
+<use Cuts/Mall.png>
+Package pdftex.def Info: Cuts/Mall.png used on input line 925.
+(pdftex.def)             Requested size: 183.09227pt x 146.32866pt.
+ <Cuts/nCandM.png, id=579, 1019.81pt x 815.045pt>
+File: Cuts/nCandM.png Graphic file (type png)
+
+<use Cuts/nCandM.png>
+Package pdftex.def Info: Cuts/nCandM.png used on input line 949.
+(pdftex.def)             Requested size: 183.09227pt x 146.32866pt.
+ <Cuts/MM.png, id=580, 1019.81pt x 815.045pt>
+File: Cuts/MM.png Graphic file (type png)
+
+<use Cuts/MM.png>
+Package pdftex.def Info: Cuts/MM.png used on input line 954.
 (pdftex.def)             Requested size: 183.09227pt x 146.32866pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[24] <Cuts/nCandM.png, id=540, 1019.81pt x 815.045pt>
-File: Cuts/nCandM.png Graphic file (type png)
- <use Cuts/nCandM.png>
-Package pdftex.def Info: Cuts/nCandM.png used on input line 911.
-(pdftex.def)             Requested size: 183.09227pt x 146.32866pt.
 
-<Cuts/MM.png, id=541, 1019.81pt x 815.045pt>
-File: Cuts/MM.png Graphic file (type png)
- <use Cuts/MM.png>
-Package pdftex.def Info: Cuts/MM.png used on input line 916.
-(pdftex.def)             Requested size: 183.09227pt x 146.32866pt.
- [25 <./Cuts/nCandAll.png> <./Cuts/Mall.png> <./Cuts/nCandM.png> <./Cuts/MM.png
->]
-<AnhangPlots/EEdoubleMCE.png, id=550, 1019.81pt x 815.045pt>
+Underfull \vbox (badness 3568) has occurred while \output is active []
+
+ [28 <./Cuts/nCandAll.png> <./Cuts/Mall.png>]
+<AnhangPlots/EEdoubleMCE.png, id=590, 1019.81pt x 815.045pt>
 File: AnhangPlots/EEdoubleMCE.png Graphic file (type png)
 
 <use AnhangPlots/EEdoubleMCE.png>
-Package pdftex.def Info: AnhangPlots/EEdoubleMCE.png used on input line 964.
+Package pdftex.def Info: AnhangPlots/EEdoubleMCE.png used on input line 1002.
+(pdftex.def)             Requested size: 284.52756pt x 227.40266pt.
+ [29 <./Cuts/nCandM.png> <./Cuts/MM.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Cuts/nCand.png, id=601, 1019.81pt x 815.045pt>
+File: Cuts/nCand.png Graphic file (type png)
+ <use Cuts/nCand.png>
+Package pdftex.def Info: Cuts/nCand.png used on input line 1044.
 (pdftex.def)             Requested size: 284.52756pt x 227.40266pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[30 <./AnhangPlots/EEdoubleMCE.png>]
 
-Underfull \vbox (badness 1577) has occurred while \output is active []
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
- [26]
-<Cuts/nCand.png, id=561, 1019.81pt x 815.045pt>
-File: Cuts/nCand.png Graphic file (type png)
- <use Cuts/nCand.png>
-Package pdftex.def Info: Cuts/nCand.png used on input line 1006.
-(pdftex.def)             Requested size: 284.52756pt x 227.40266pt.
- [27 <./AnhangPlots/EEdoubleMCE.png>] <Bilder/b2b_2.pdf, id=568, 453.3585pt x 2
-45.271pt>
+<Bilder/b2b_2.pdf, id=610, 453.3585pt x 245.271pt>
 File: Bilder/b2b_2.pdf Graphic file (type pdf)
-
-<use Bilder/b2b_2.pdf>
-Package pdftex.def Info: Bilder/b2b_2.pdf used on input line 1045.
+ <use Bilder/b2b_2.pdf>
+Package pdftex.def Info: Bilder/b2b_2.pdf used on input line 1083.
 (pdftex.def)             Requested size: 284.52756pt x 153.93396pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[28 <./Cuts/nCand.png>] [29 <./Bilder/b2b_2.pdf>] [30
-
-
-]
+[31 <./Cuts/nCand.png>] [32 <./Bilder/b2b_2.pdf>]
 chapter 7.
-[31] [32
+[33
+
+
+] [34
 
 
 ]
 chapter A.
-<AnhangPlots/thetathetadoubleMC.png, id=596, 1019.81pt x 815.045pt>
+<AnhangPlots/clEDiff.png, id=634, 1019.81pt x 815.045pt>
+File: AnhangPlots/clEDiff.png Graphic file (type png)
+
+<use AnhangPlots/clEDiff.png>
+Package pdftex.def Info: AnhangPlots/clEDiff.png used on input line 1122.
+(pdftex.def)             Requested size: 284.52756pt x 227.40266pt.
+
+<AnhangPlots/thetathetadoubleMC.png, id=635, 1019.81pt x 815.045pt>
 File: AnhangPlots/thetathetadoubleMC.png Graphic file (type png)
 
 <use AnhangPlots/thetathetadoubleMC.png>
 Package pdftex.def Info: AnhangPlots/thetathetadoubleMC.png used on input line 
-1087.
+1143.
 (pdftex.def)             Requested size: 183.09227pt x 146.32866pt.
 
-<AnhangPlots/PhiPhidoubleMC.png, id=597, 1019.81pt x 815.045pt>
+<AnhangPlots/PhiPhidoubleMC.png, id=636, 1019.81pt x 815.045pt>
 File: AnhangPlots/PhiPhidoubleMC.png Graphic file (type png)
 
 <use AnhangPlots/PhiPhidoubleMC.png>
-Package pdftex.def Info: AnhangPlots/PhiPhidoubleMC.png used on input line 1092
+Package pdftex.def Info: AnhangPlots/PhiPhidoubleMC.png used on input line 1148
 .
 (pdftex.def)             Requested size: 183.09227pt x 146.32866pt.
+ [35 <./AnhangPlots/clEDiff.png>]
 
+LaTeX Warning: Reference `Abb:1' on page 36 undefined on input line 1170.
 
-LaTeX Warning: Reference `Abb:1' on page 33 undefined on input line 1114.
-
-[33 <./AnhangPlots/thetathetadoubleMC.png> <./AnhangPlots/PhiPhidoubleMC.png>]
-[34] (./Masterarbeit_Martin_Sobotzik.lof)
+[36 <./AnhangPlots/thetathetadoubleMC.png> <./AnhangPlots/PhiPhidoubleMC.png>]
+(./Masterarbeit_Martin_Sobotzik.lof)
 \tf@lof=\write8
 \openout8 = `Masterarbeit_Martin_Sobotzik.lof'.
 
- [35
+ [37
 
 
-] [36
+] [38
 
 
 ]
@@ -2309,50 +2360,50 @@ LaTeX Warning: Reference `Abb:1' on page 33 undefined on input line 1114.
 \tf@lot=\write9
 \openout9 = `Masterarbeit_Martin_Sobotzik.lot'.
 
- [37] [38
+ [39] [40
 
 
 ]
 chapter without number
-[39]
-Underfull \hbox (badness 1466) in paragraph at lines 1159--1159
-[]\T1/lmr/m/sc/10.95 url\T1/lmr/m/n/10.95 : []$\T1/lmtt/m/n/10.95 http : / / ww
-w . sciencedirect . com / science / article / pii /
- []
-
-[40]
-Underfull \hbox (badness 1466) in paragraph at lines 1159--1159
-[]\T1/lmr/m/sc/10.95 url\T1/lmr/m/n/10.95 : []$\T1/lmtt/m/n/10.95 http : / / ww
-w . sciencedirect . com / science / article / pii /
- []
-
-
-Underfull \hbox (badness 1466) in paragraph at lines 1159--1159
-[]\T1/lmr/m/sc/10.95 url\T1/lmr/m/n/10.95 : []$\T1/lmtt/m/n/10.95 http : / / ww
-w . sciencedirect . com / science / article / pii /
- []
-
 [41]
-Underfull \hbox (badness 1466) in paragraph at lines 1159--1159
+Underfull \hbox (badness 1466) in paragraph at lines 1215--1215
 []\T1/lmr/m/sc/10.95 url\T1/lmr/m/n/10.95 : []$\T1/lmtt/m/n/10.95 http : / / ww
 w . sciencedirect . com / science / article / pii /
  []
 
 [42]
+Underfull \hbox (badness 1466) in paragraph at lines 1215--1215
+[]\T1/lmr/m/sc/10.95 url\T1/lmr/m/n/10.95 : []$\T1/lmtt/m/n/10.95 http : / / ww
+w . sciencedirect . com / science / article / pii /
+ []
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 1215--1215
+[]\T1/lmr/m/sc/10.95 url\T1/lmr/m/n/10.95 : []$\T1/lmtt/m/n/10.95 http : / / ww
+w . sciencedirect . com / science / article / pii /
+ []
+
+[43]
+Underfull \hbox (badness 1466) in paragraph at lines 1215--1215
+[]\T1/lmr/m/sc/10.95 url\T1/lmr/m/n/10.95 : []$\T1/lmtt/m/n/10.95 http : / / ww
+w . sciencedirect . com / science / article / pii /
+ []
+
+[44]
 chapter B.
-[43
+[45
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1170.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1170.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1226.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1226.
  (./Masterarbeit_Martin_Sobotzik.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1170.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1170.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1226.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1226.
 
 Package rerunfilecheck Info: File `Masterarbeit_Martin_Sobotzik.out' has not ch
 anged.
-(rerunfilecheck)             Checksum: 015EE5A7CFA89D9BC88A11C3992403CC;2503.
+(rerunfilecheck)             Checksum: B0DF4B7D01CCE77E6BBB84D8BD595D29;2749.
 
 
 LaTeX Warning: There were undefined references.
@@ -2361,16 +2412,16 @@ Package logreq Info: Writing requests to 'Masterarbeit_Martin_Sobotzik.run.xml'
 .
 \openout1 = `Masterarbeit_Martin_Sobotzik.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1170.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1226.
  ) 
 Here is how much of TeX's memory you used:
- 33309 strings out of 494852
- 635095 string characters out of 6177656
- 1050038 words of memory out of 5000000
- 35823 multiletter control sequences out of 15000+600000
+ 33344 strings out of 494852
+ 635745 string characters out of 6177656
+ 1052038 words of memory out of 5000000
+ 35845 multiletter control sequences out of 15000+600000
  100008 words of font info for 83 fonts, out of 8000000 for 9000
  39 hyphenation exceptions out of 8191
- 72i,12n,91p,8869b,2704s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 72i,12n,91p,8869b,2719s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
 ips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share
 /texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
@@ -2390,10 +2441,10 @@ usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/
 public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/sha
 re/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Masterarbeit_Martin_Sobotzik.pdf (51 pages, 3913514 bytes).
+Output written on Masterarbeit_Martin_Sobotzik.pdf (53 pages, 3954032 bytes).
 PDF statistics:
- 824 PDF objects out of 1000 (max. 8388607)
- 699 compressed objects within 7 object streams
- 166 named destinations out of 1000 (max. 500000)
- 445 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 870 PDF objects out of 1000 (max. 8388607)
+ 737 compressed objects within 8 object streams
+ 176 named destinations out of 1000 (max. 500000)
+ 484 words of extra memory for PDF output out of 10000 (max. 10000000)
 

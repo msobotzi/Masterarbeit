@@ -337,7 +337,7 @@ Bhabha
  
 \subsection{Bhabha Process}
  \label{sec:BhabhaProcess}
- Bhabha
+ Bhabha \cite{Bhabha}
  
  
 
@@ -447,18 +447,36 @@ child[grow=down, level distance=0pt] {
 
 \end{minipage}
 
-\captionof{figure}[Bhabha Feynman Diagrams]{The two Bhabha feynman digrams.}
+\captionof{figure}[Bhabha Feynman Diagrams]{The two Bhabha process feynman digrams.}
 
 \end{center}
 
 
 
 \begin{equation}
-	\bigg(\frac{d\sigma}{d\Omega} \bigg)_{cms} = \frac{\alpha^2}{16E^2} \bigg(\frac{1}{\textrm{sin}^4(\nicefrac{\theta}{2})} + \frac{\textrm{cos}^4(\nicefrac{\theta}{2})}{\textrm{sin}^4(\nicefrac{\theta}{2})} - 2\frac{\textrm{cos}^4(\nicefrac{\theta}{2})}{\textrm{sin}^2(\nicefrac{\theta}{2})} + \frac{1+\textrm{cos}^2(\theta)}{2} \bigg)
+	\bigg(\frac{d\sigma}{d\Omega} \bigg)_{cms} = \frac{e^4}{64\pi^22E^2}
+	\bigg(
+	\frac{1+\textrm{cos}^2(\theta)}{2} +
+ \frac{1+\textrm{cos}^4(\nicefrac{\theta}{2})}{\textrm{sin}^4(\nicefrac{\theta}{2})} - \frac{2\textrm{cos}^4(\nicefrac{\theta}{2})}{\textrm{sin}^2(\nicefrac{\theta}{2})}   \bigg)
+ \label{eq:bhabhaCross}
 \end{equation}
 
 
 
+\begin{figure}[h!]
+	\centering
+	\begin{minipage}[b]{0.45\linewidth}
+		\centering
+		\includegraphics[width=\textwidth]{Bilder/dsdO}
+	\end{minipage}
+	\hspace{0.5cm}
+	\begin{minipage}[b]{0.45\linewidth}
+		\centering
+		\includegraphics[width=\textwidth]{Bilder/dsdOb}
+	\end{minipage}
+	\caption[Differential Cross Section For Bhabha Events]{Differential cross-section for Bhabha events. Left: Cross-section for \textcolor{red}{text}}
+	
+	\end{figure}
 
 
 
@@ -778,79 +796,99 @@ Ergebnissen. Bei einer theoretischen Arbeit kann damit auch
 die Herleitung von Formeln oder die Beschreibung eines Computerprogramms 
 gemeint sein.
 
+
+\section{GridKa}
+
+
+
+
+
+
 \chapter{Tracking Efficiencies}
 \label{sec:TrackingEff}
 
-\lettrine{I}{n} this chapter the tracking efficiency studies I did will be presented. I will go through my studies in more or less chronological order, from the reproduction of Sam Cunliffs plots to the calculation of different efficiencies.
+\lettrine{I}{n} this chapter the tracking efficiency studies will be presented. We will start with a definition of the tracking efficiency we want to calculate. Then the reconstruction and selection of the Bhabha events will be described. Finally the tracking efficiency for MC and for data will be calculated.
 
 
-
-\section{Definition Of Efficiency}
+\section{Definition Of Tracking Efficiency}
 \label{sec:Eff}
 
-First of all, a definition of efficiency has to be declared, since there are different ways to define a tracking efficiency. The physics case we are considering is Bhabha events $ \textrm{e}^+ \textrm{e}^- \rightarrow \textrm{e}^+ \textrm{e}^- $. As described in chapter \ref{sec:SetupKEK}, charged particles leave a track in the detector. So, when we look at a outgoing particle with a track, then we know that the other particle should also have a track. If the other particle has no charge, then this is an inefficiency. If both particles have a track associated, then this is the efficient case.
+First of all, a definition of efficiency has to be declared, since there are different ways to define a tracking efficiency. The physics case we are considering is Bhabha events $ \textrm{e}^+ \textrm{e}^- \rightarrow \textrm{e}^+ \textrm{e}^- $. As described in chapter \ref{sec:SetupKEK}, charged particles leave a track in the detector. So, when we look at an outgoing particle with a track, then we know that the other particle should also have a track. If the other particle has no charge, then this is an inefficiency. If both particles have a track associated, then this is the efficient case.
 
-So for this work we will use the following definition of efficiency:
+So for this work we will use the following definition for the tracking efficiency:
 
 \begin{equation}
 	\epsilon = \frac{\textrm{Number of Bhabha events with exactly 2 tracks}}{\textrm{Number of Bhabha events with 1 or more tracks}}
 	\label{eq:efficiency}
 \end{equation}
 
-\section{Reconstruct Events With Basf2}
+\section{Reconstructing Bhabha Events With Basf2}
 \label{sec:RecBasf2}
 
 
-To analyze a Monte Carlo/data file, a python script using Basf2 has to be written. The following code is a simplified version of the steering file I wrote.
+To analyze a Monte Carlo/data file, a python script using Basf2 has to be written. The following code is a simplified version of the steering file I wrote. The goal of this steering file is to reconstruct the virtual photon in a Bhabha event. This virtual photon decays into two daughters which hit the ECL. Since we want to calculate the tracking efficiency. We need to be able to reconstruct the virtual photon from two daughters both associated with an track, and two daughters one associated with a track (reconstructed as a charged particle by the framework) and one with no track associated (reconstructed as a photon by the framework).
+
+The same steering file is used for data and for MC and MC on GridKa.
+\newline 
 
 {\small
 \begin{lstlisting}
-fillParticleList('gamma:all', 'clusterE > 0.01', '', path=mypath)
-fillParticleList('e+:all', 'clusterE > 0.01', '', path=mypath)
+fillParticleList('gamma:all', 'clusterE > 0.01', path=mypath)
+fillParticleList('e+:all', 'clusterE > 0.01', path=mypath)
 
 reconstructDecay('vpho:gamma -> gamma:all', '', path=mypath)
 reconstructDecay('vpho:elec -> e+:all', '', path=mypath)
 
 copyLists(outputListName = 'vpho:ECLObjectUnranked' ,inputListNames=['vpho:elec', 'vpho:gamma'], path=mypath)
+
 rankByHighest('vpho:ECLObjectUnranked', 'daughter(0,clusterE)', path=mypath)
 cutAndCopyList('vpho:ECLObject', 'vpho:ECLObjectUnranked', '', path=mypath)
 	
 reconstructDecay('vpho:bhabha -> vpho:ECLObject vpho:ECLObject', '', path=mypath)
 
-variablesToNtuple('vpho:bhabha', var_vpho, treename = 'vpho_bhabha', filename = 'bhabha_vpho.root', path=mypath)
+variablesToNtuple('vpho:bhabha', var_vpho, treename = 'vpho_bhabha', filename = outputname, path=mypath)
 	
 \end{lstlisting}
-
 }
+\bigskip
+
+In the first line of code all particles which hit the ECL and have no track associated are filled into a gamma list called \texttt{gamma:all}. The clusters created by those particles must have an energy (clusterE) of at least $0.01\,\textrm{GeV}$. In the second line a list called \texttt{e+:all} is created. All particles with an associated track are filled in this list independently of their charge. Therefore, this list contains for example electrons, positrons and even muons. Again, a cut is applied to the cluster energy.
 
 
+Due to the fact, that we want to calculate the efficiency of the tracking, we need to somehow combine the \texttt{e+:all} and the \texttt{gamma:all} lists. As mentioned earlier, we need to be able to reconstruct the virtual photon from particles reconstructed as electrons/positrons and photons.
+Unfortunately, the Basf2 framework prevents a combination of two different particle lists, like \texttt{e+:all} and \texttt{gamma:all}. Therefore, we need to use a trick. This is shown in lines four and five. In line four, we tell the framework that the reconstructed gamma is the only daughter of a virtual photon called \texttt{vpho:gamma}. The same is done for the electron list. Here, the virtual photon is called \texttt{vpho:elec}. 
 
+Now, these two lists can be combined to one list called \texttt{vpho:ECLObjectUnranked}. This is done in line seven.
 
+In line nine and ten the daughters in the \texttt{vpho:ECLObjectUnranked} list are sorted by their cluster energy and filled in a list called \texttt{vpho:ECLObject}.
 
-
-
-
-
-
-
-
-
+In line twelve, a virtual photon of the bhabha event is reconstructed from the ECL objects in the \texttt{vpho:ECLObject} list. The number of reconstructed virtual photon candidates per event $n_{cand}$ is determined by the following equation\cite{triangular}:
 
 \begin{equation}
 n_{cand} = \frac{n_p(n_p +1)}{2}
 \label{eq:Triangular}
 \end{equation}
 
-In equation \ref{eq:Triangular} $n_p$ is the number of reconstructed particles per event.
-Equation \ref{eq:Triangular} is also known as the equation to calculate \textit{triangular numbers}.
+$n_p$ is the number of reconstructed particles per event. Equation \ref{eq:Triangular} is also known as the equation to calculate \textit{triangular numbers}. For example, if four ECL particles are reconstructed in a single event then ten virtual photon candidates are reconstructed according to equation \ref{eq:Triangular}. Since we only expect one virtual Bhabha photon per event, we have to select the best candidate in each event. This will be done in section \ref{sec:SelectingBhabhaMC}.
 
+Since the entries in the \texttt{vpho:ECLObject} list are sorted by energy, the first daughter of the reconstructed virtual bhabha photon always has a higher energy than the second daughter. I will refer to the first daughter as \texttt{tag} and the second daughter as \texttt{probe}. You can see that the \texttt{tag} daughter has always a higher energy than the \texttt{probe} daughter in figure \ref{fig:clEDiff}. Here the clusterE(\texttt{probe}) is subtracted from the clusterE(\texttt{tag}) and only positive values remain. Therefore, \texttt{tag} is the daughter with the higher energy.
 
-
+Finally, in the last line of code, all variables of the candidates like mass, momentum, cluster energy of each daughter, does the daughter have a track and so on are written in a tree \texttt{vpho\_bhabha} in a file. The \texttt{outputname} of the output file depends on whether the steering file is running on data or MC. 
 
 
 \section{Selecting Bhabha Events On Monte Carlo}
+\label{sec:SelectingBhabhaMC}
 
-We use Monte Carlo simulation due to the fact that on MC we know everything about the generated and reconstructed particles. So on MC we can select Bhabha events which hit the ECL and with this knowledge we can introduce cuts in such a way that we only reconstruct these Bhabha events. To calculate an efficiency it is extremely  important to select only Bhabha events. At first, we are also running on only one $ \textrm{e}^+ \textrm{e}^- \rightarrow \textrm{e}^+ \textrm{e}^- $ MC file which is located at: /belle/MC/release-02-00-01/DB00000411/MC11/prod00006731/s00/e1002/4S/r00000/3600520000/mdst/sub00/mdst\_000278\_prod00006731\_task10010000499.root.
+We use Monte Carlo simulation due to the fact that on MC we know everything about the generated and reconstructed particles. So on MC we can select Bhabha events which hit the ECL and with this knowledge we can introduce cuts in such a way that we only reconstruct these Bhabha events. To calculate an efficiency it is extremely  important to select only Bhabha events. At first, we are also running on only one $\textrm{e}^+ \textrm{e}^- \rightarrow \textrm{e}^+ \textrm{e}^-$ MC file which is located at:
+\newline
+
+/belle/MC/release-02-00-01/DB00000411/MC11/prod00006731/s00/e1002/4S/
+r00000/3600520000/mdst/sub00/mdst\_000278\_prod00006731\_task10010000499.root
+\newline
+
+The generated file is located at:
+
+ /home/belle2/msobotzi/bhabha/bhabha\_vpho\_mc.root
 \newline
 
 
@@ -895,12 +933,12 @@ Now we will take a look at the reconstructed Monte Carlo events. All of these re
 
 
 In figure \ref{fig:nCandAll} on the left, we see the number of reconstructed candidates per event. Since we do not have a cut on the reconstruction, the number of reconstructed candidates $n_{cand}$ follows equation \ref{eq:Triangular}. On the right, we see the invariant mass of the reconstructed candidates. Note that we are now looking at candidates and as we can see on the left we oftentimes have more than one candidate per event. Therefore the numbers of entries for the mass is way higher then for the number of candidates per event.
-Consequently, we need some cuts to reduce the number of candidates per event to one.
+Consequently, we need some cuts to select the best candidate in each event and thereby reduce the number of candidates per event to one.
 
 
 \subsection{Mass-Cut}
 
-The first cut to reduce the number of reconstructed candidates per event is a mass cut (The cut is called M). As we saw in figure \ref{fig:nCandAll} a lot of candidates are reconstructed with an low invariant mass and we know from section \ref{sec:BhabhaProcess} that the mass of the reconstructed candidate should be the invariant mass of the collider. For Belle II this is around $10.58\,\textrm{GeV}$. Due to some acceptance for reconstruction error the mass cut is with an lower-cut of $8\,\textrm{GeV}$ rather loose.
+The first cut to reduce the number of reconstructed candidates per event is a mass cut (The cut is called \texttt{M}). As we saw in figure \ref{fig:nCandAll} a lot of candidates are reconstructed with an low invariant mass and we know from section \ref{sec:BhabhaProcess} that the mass of the reconstructed candidate should be the invariant mass of the collider. For Belle II this is around $10.58\,\textrm{GeV}$. Due to some acceptance for reconstruction error the mass cut is with an lower-cut of $8\,\textrm{GeV}$ rather loose.
 
 
 
@@ -931,12 +969,12 @@ To reduce the number of candidates per event to one, some additional cuts are ne
 
 
 
-\begin{table}[H]
+\begin{table}[h!]
 	\centering
 	\makebox[\textwidth]{
 	
 	\begin{tabular}{lccccccc}
-		\\
+	
 		
  event& E(tag) &mcE(tag)&PDG(tag) & E(probe)&mcE(probe)&PDG(probe)&mcPDG \\
  \hline
@@ -966,17 +1004,17 @@ In figure \ref{fig:clusterSplittingAngle} you can see the angular distribution o
 	\label{fig:clusterSplittingE}
 \end{figure}
 
-In figure \ref{fig:clusterSplittingE} you can see the energy of the particles in a cluster splitting process. Since we only want to select Bhabha events, we want to neglect these kinds of events. In section \ref{sec:Kinematics} we saw that the particles have an energy of at least $4\,\textrm{GeV}$. Therefore we are able to apply a cut on the cluster energy. We are now requiring a cluster energy of at least $3.5\,\textrm{GeV}$ (The cut is called MclE). With this cut all events with cluster splitting should be neglected.
+In figure \ref{fig:clusterSplittingE} you can see the energy of the particles in a cluster splitting process. Since we only want to select Bhabha events, we want to neglect these kinds of events. In section \ref{sec:Kinematics} we saw that the particles have an energy of at least $4\,\textrm{GeV}$. Therefore we are able to apply a cut on the cluster energy. We are now requiring a cluster energy of at least $3.5\,\textrm{GeV}$ (The cut is called \texttt{MclE}). With this cut all events with cluster splitting should be neglected.
 
-Next, we require that we have exactly two clusters per event, each with an energy of at least $3.5\,\textrm{GeV}$, since we only expect two high energetic particles in the ECL (The cut is called MclE2H).
+Next, we require that we have exactly two clusters per event, each with an energy of at least $3.5\,\textrm{GeV}$, since we only expect two high energetic particles in the ECL (The cut is called \texttt{MclE2H}).
 
-As an additional safety net, a cut on the number of reconstructed tracks per event is applied. On data it can happen that there are way more than two tracks reconstructed per event. To select only \textit{clean} events we apply a cut on the number of reconstructed particles per event (The cut is called MclE2HnT). This number should not be greater than six.
+As an additional safety net, a cut on the number of reconstructed tracks per event is applied. On data it can happen that there are way more than two tracks reconstructed per event. To select only \textit{clean} events we apply a cut on the number of reconstructed particles per event (The cut is called \texttt{MclE2HnT}). This number should not be greater than six.
 
 
-\begin{table}[H]
+\begin{table}[h!]
 	\centering
 	\begin{tabular}{lcccc}
-		\\
+		
  Event&M &Energy(tag) &Energy(probe) &Total Energy ECL \\
  \hline
  
@@ -997,7 +1035,7 @@ As an additional safety net, a cut on the number of reconstructed tracks per eve
 
 As you can see in table \ref{tab:ESum}, sometimes the invariant mass of the reconstructed candidates is way bigger than $10.58\,\textrm{GeV}$. To neglect these candidates an upper cut on the reconstructed invariant mass is introduced. Now, the reconstructed invariant mass has to be smaller than $12\,\textrm{GeV}$.
 
-Also, sometimes the total energy in the ECL is way higher than expected. To exclude these events an upper cut on the total energy per event in the ECL is added (The cut is called MclE2HnTSumE). The total energy in the ECL must not exceed $15\,\textrm{GeV}$.
+Also, sometimes the total energy in the ECL is way higher than expected. To exclude these events an upper cut on the total energy per event in the ECL is added (The cut is called \texttt{MclE2HnTSumE}). The total energy in the ECL must not exceed $15\,\textrm{GeV}$.
 
 
 
@@ -1016,19 +1054,19 @@ After applying all the cuts mentioned, the number of candidates per event is sho
 \subsection{Cut Efficiency}
 
 
-\begin{table}[H]
+\begin{table}[h!]
 	\centering
 \begin{tabular}{lccc}
 	
-	\\
- Cut& Number Of Events&  Rel. Eff.& Tot. Eff\\
+	
+ Cut& Number Of Events&  Relative Efficiency& Total Efficiency\\
  \hline
  No Cut&24,100 &1.0000 &1.0000 \\
- M& 17,529&0.7273 &0.7273 \\
- MclE&15,330 &0.8746 &0.6361 \\
- MclE2H&15,320&0.9993  &0.6357 \\
- MclE2HnT&15,320 &1.0000 &0.6357 \\
- MclE2HnTSumE& 14,961 &0.9766 &0.6208 \\
+ \texttt{M}& 17,529&0.7273 &0.7273 \\
+ \texttt{MclE}&15,330 &0.8746 &0.6361 \\
+ \texttt{MclE2H}&15,320&0.9993  &0.6357 \\
+ \texttt{MclE2HnT}&15,320 &1.0000 &0.6357 \\
+ \texttt{MclE2HnTSumE}& 14,961 &0.9766 &0.6208 \\
 
 \end{tabular}
 
@@ -1043,11 +1081,9 @@ After applying all the cuts mentioned, the number of candidates per event is sho
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=10cm]{Bilder/b2b_2}
-	\caption[Sketch Of The b2bClusterPhi Variable]{Simplified representation of the b2bClusterPhi variable. 
-		
-		Created with Inkscape}
+	\caption[Sketch Of The b2bClusterPhi Variable]{Simplified representation of the b2bClusterPhi variable. The track of charged particles are bend in the detector. This sketch was created with Inkscape}
 	\label{fig:Sketchb2b}
-	\end{figure}
+\end{figure}
 
 
 
@@ -1067,20 +1103,40 @@ Arbeiten an der Aufgabenstellung.
 
 %_______________________________________________________________________________
 \begin{appendix}
+	
+
+	
+	
 \chapter{Appendix}
 
-
-\section{Cluster Splitting}
-\label{sec:clusterSplitting}
+\section{Annotations}
 
 
+\subsection{How To Produce The Tables In The Efficiency Cuts Chapter}
+
+To reproduce the tables \ref{tab:clusterSplitting} and \ref{tab:ESum} you will need the file: \texttt{bhabha\_vpho\_mc.root} which is located at: /home/belle2/msobotzi/bhabha/
+
+\section{Plots and Tables}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=10cm]{AnhangPlots/clEDiff}
+	\caption[clusterE(tag) - clusterE(probe)]{clusterE(tag) - clusterE(probe) of the reconstructed candidates. This shows that the tag daughters has always a higher cluster energy than the probe daughter.}
+	\label{fig:clEDiff}
+\end{figure}
 
 
 
 
 
 
-\begin{figure}[h!]
+
+
+
+
+
+
+
+\begin{figure}[H]
 	\centering
 	\begin{minipage}[b]{0.45\linewidth}
 		\centering
@@ -1160,7 +1216,7 @@ findet man im Internet: \url{http://janeden.net/bibliographien-mit-latex}.
 
 
 %_______________________________________________________________________________
-\chapter{Danksagung}
+\chapter{Acknowledgements}
 
 ... an wen auch immer. Denken Sie an Ihre Freundinnen und Freunde, 
 Familie, Lehrer, Berater und Kollegen.

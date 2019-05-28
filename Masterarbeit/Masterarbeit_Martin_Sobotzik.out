@@ -20,20 +20,23 @@
 \BOOKMARK [0][-]{chapter.5}{Tools}{}% 20
 \BOOKMARK [1][-]{section.5.1}{Root}{chapter.5}% 21
 \BOOKMARK [1][-]{section.5.2}{Basf2}{chapter.5}% 22
-\BOOKMARK [0][-]{chapter.6}{Tracking Efficiencies}{}% 23
-\BOOKMARK [1][-]{section.6.1}{Definition Of Efficiency}{chapter.6}% 24
-\BOOKMARK [1][-]{section.6.2}{Reconstruct Events With Basf2}{chapter.6}% 25
-\BOOKMARK [1][-]{section.6.3}{Selecting Bhabha Events On Monte Carlo}{chapter.6}% 26
-\BOOKMARK [2][-]{subsection.6.3.1}{ECL-Cut}{section.6.3}% 27
-\BOOKMARK [2][-]{subsection.6.3.2}{Mass-Cut}{section.6.3}% 28
-\BOOKMARK [2][-]{subsection.6.3.3}{Additional Cuts}{section.6.3}% 29
-\BOOKMARK [2][-]{subsection.6.3.4}{Cut Efficiency}{section.6.3}% 30
-\BOOKMARK [0][-]{chapter.7}{Zusammenfassung und Ausblick}{}% 31
-\BOOKMARK [0][-]{appendix.A}{Appendix}{}% 32
-\BOOKMARK [1][-]{section.A.1}{Cluster Splitting}{appendix.A}% 33
-\BOOKMARK [1][-]{section.A.2}{Tabellen und Abbildungen}{appendix.A}% 34
-\BOOKMARK [1][-]{section.A.3}{Weiterf\374hrende Details zur Arbeit}{appendix.A}% 35
-\BOOKMARK [0][-]{chapter*.21}{List of Figures}{}% 36
-\BOOKMARK [0][-]{chapter*.22}{List of Tables}{}% 37
-\BOOKMARK [0][-]{chapter*.23}{Bibliography}{}% 38
-\BOOKMARK [0][-]{appendix.B}{Danksagung}{}% 39
+\BOOKMARK [1][-]{section.5.3}{GridKa}{chapter.5}% 23
+\BOOKMARK [0][-]{chapter.6}{Tracking Efficiencies}{}% 24
+\BOOKMARK [1][-]{section.6.1}{Definition Of Tracking Efficiency}{chapter.6}% 25
+\BOOKMARK [1][-]{section.6.2}{Reconstructing Bhabha Events With Basf2}{chapter.6}% 26
+\BOOKMARK [1][-]{section.6.3}{Selecting Bhabha Events On Monte Carlo}{chapter.6}% 27
+\BOOKMARK [2][-]{subsection.6.3.1}{ECL-Cut}{section.6.3}% 28
+\BOOKMARK [2][-]{subsection.6.3.2}{Mass-Cut}{section.6.3}% 29
+\BOOKMARK [2][-]{subsection.6.3.3}{Additional Cuts}{section.6.3}% 30
+\BOOKMARK [2][-]{subsection.6.3.4}{Cut Efficiency}{section.6.3}% 31
+\BOOKMARK [0][-]{chapter.7}{Zusammenfassung und Ausblick}{}% 32
+\BOOKMARK [0][-]{appendix.A}{Appendix}{}% 33
+\BOOKMARK [1][-]{section.A.1}{Annotations}{appendix.A}% 34
+\BOOKMARK [2][-]{subsection.A.1.1}{How To Produce The Tables In The Efficiency Cuts Chapter}{section.A.1}% 35
+\BOOKMARK [1][-]{section.A.2}{Plots and Tables}{appendix.A}% 36
+\BOOKMARK [1][-]{section.A.3}{Tabellen und Abbildungen}{appendix.A}% 37
+\BOOKMARK [1][-]{section.A.4}{Weiterf\374hrende Details zur Arbeit}{appendix.A}% 38
+\BOOKMARK [0][-]{chapter*.23}{List of Figures}{}% 39
+\BOOKMARK [0][-]{chapter*.24}{List of Tables}{}% 40
+\BOOKMARK [0][-]{chapter*.25}{Bibliography}{}% 41
+\BOOKMARK [0][-]{appendix.B}{Acknowledgements}{}% 42
