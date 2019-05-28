@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.21)  28 MAY 2019 17:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.21)  28 MAY 2019 18:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2010,17 +2010,17 @@ See the caption package documentation for explanation.
 Underfull \vbox (badness 2922) has occurred while \output is active []
 
  [5]
-<Bilder/dsdO.png, id=308, 407.5225pt x 271.0125pt>
+<Bilder/dsdO.png, id=308, 434.62375pt x 284.06125pt>
 File: Bilder/dsdO.png Graphic file (type png)
  <use Bilder/dsdO.png>
 Package pdftex.def Info: Bilder/dsdO.png used on input line 470.
-(pdftex.def)             Requested size: 183.09227pt x 121.76013pt.
+(pdftex.def)             Requested size: 191.23149pt x 124.98732pt.
 
-<Bilder/dsdOb.png, id=310, 407.5225pt x 273.02pt>
+<Bilder/dsdOb.png, id=310, 434.62375pt x 289.08pt>
 File: Bilder/dsdOb.png Graphic file (type png)
  <use Bilder/dsdOb.png>
 Package pdftex.def Info: Bilder/dsdOb.png used on input line 475.
-(pdftex.def)             Requested size: 183.09227pt x 122.66206pt.
+(pdftex.def)             Requested size: 191.23149pt x 127.19559pt.
 
 <Bilder/theta_cms.png, id=311, 1019.81pt x 815.045pt>
 File: Bilder/theta_cms.png Graphic file (type png)
@@ -2403,7 +2403,7 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1226.
 
 Package rerunfilecheck Info: File `Masterarbeit_Martin_Sobotzik.out' has not ch
 anged.
-(rerunfilecheck)             Checksum: B0DF4B7D01CCE77E6BBB84D8BD595D29;2749.
+(rerunfilecheck)             Checksum: D98C2B481F849ED8E1BFBCD346C69D2B;2731.
 
 
 LaTeX Warning: There were undefined references.
@@ -2417,7 +2417,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1226.
 Here is how much of TeX's memory you used:
  33344 strings out of 494852
  635745 string characters out of 6177656
- 1052038 words of memory out of 5000000
+ 1053038 words of memory out of 5000000
  35845 multiletter control sequences out of 15000+600000
  100008 words of font info for 83 fonts, out of 8000000 for 9000
  39 hyphenation exceptions out of 8191
@@ -2441,7 +2441,7 @@ usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/
 public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/sha
 re/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Masterarbeit_Martin_Sobotzik.pdf (53 pages, 3954032 bytes).
+Output written on Masterarbeit_Martin_Sobotzik.pdf (53 pages, 3957920 bytes).
 PDF statistics:
  870 PDF objects out of 1000 (max. 8388607)
  737 compressed objects within 8 object streams
