@@ -474,7 +474,9 @@ child[grow=down, level distance=0pt] {
 		\centering
 		\includegraphics[width=\textwidth]{Bilder/dsdOb}
 	\end{minipage}
-	\caption[Differential Cross Section For Bhabha Events]{Differential cross-section for Bhabha events. Left: Cross-section for \textcolor{red}{text}}
+	\caption[Differential Cross Section For Bhabha Events]{Differential cross-section for Bhabha events. Left: Cross-section for \textcolor{red}{text}.
+	
+These plots were created with python3.}
 	
 	\end{figure}
 
@@ -668,7 +670,7 @@ When a particles travels through the sensors it creates electron-holes pairs alo
 \section{Central Drift Chamber}
 \label{sec:CDC}
 
-The CDC surrounds the SVD. It consists of 14,336 wires arranged in 56 layers and has an inner radius of $16\,\textrm{cm}$ and an outer radius of $113\,\textrm{cm}$. The volume is filled with a $50\%\,\textrm{helium}$ and an $50\%\,\textrm{ethane}$ gas mixture. The purpose of the CDC is to reconstruct the momenta and tracks of charged particles, to identify these particles by measuring their specific energy loss within the gas volume. The CDC alone is able to identify low-momentum tracks, which are unable to reach the particle identification device. The CDC also acts as a reliable trigger for charged particles.\cite{B2TR} A small cross section of the CDC is shown in figure \ref{fig:CDC}.
+The CDC surrounds the SVD. It consists of 14,336 wires arranged in 56 layers and has an inner radius of $16\,\textrm{cm}$ and an outer radius of $113\,\textrm{cm}$. The volume is filled with a $50\,\%\,\textrm{helium}$ and an $50\,\%\,\textrm{ethane}$ gas mixture. The purpose of the CDC is to reconstruct the momenta and tracks of charged particles, to identify these particles by measuring their specific energy loss within the gas volume. The CDC alone is able to identify low-momentum tracks, which are unable to reach the particle identification device. The CDC also acts as a reliable trigger for charged particles.\cite{B2TR} A small cross section of the CDC is shown in figure \ref{fig:CDC}.
 
 \begin{figure}[h!] 
 	\centering
@@ -679,7 +681,7 @@ The CDC surrounds the SVD. It consists of 14,336 wires arranged in 56 layers and
 
 When a charged particle passes trough the CDC it losses energy due to ionization of the gas. This produces electron-ion pairs, which are then separated by the electric field provided by 42,240 aluminum field wires, with a diameter of $125\,\mu\textrm{m}$. The signal is then read out by the sense wires. These have a radius of $30\,\mu\textrm{m}$ and are made out of gold-plated tungsten.\cite{B2TR} 
 
-As indicated in figure \ref{fig:CDC} there are different superlayers in the CDC. The Dense Axial and Axial sense wires allow the reconstruction of the track in the $r-\phi$ plane. The stereo sense wires gives information about the $z$ direction. These stereo wires are tilted in respect to the $z$ direction. Six layers of sense wires are combined to a superlayer. The CDC consists of five axial superlayers (A),and four stereo superlayer. The four stereo superlayer subdivide into two stereo superlayer (U) with a positive stereo angle and two stereo superlayers (V) with a negative stereo angle. Starting with the innermost superlayer, every second superlayer is an axial superlayer. The stereo superlayers are between them, alternating between U and V. In total there are nine superlayers. The innermost superlayer is called \textit{small-cell chamber} has a total of eight superlayers. (compared to the other superlayers with just six layers) This was done to lower the influence of the background, which is higher in the innermost superlayer due to the vicinity to the interaction region.
+As indicated in figure \ref{fig:CDC} there are different superlayers in the CDC. The Dense Axial and Axial sense wires allow the reconstruction of the track in the $r-\phi$ plane. The stereo sense wires gives information about the $z$ direction. These stereo wires are tilted in respect to the $z$ direction. Six layers of sense wires are combined to a superlayer. The CDC consists of five axial superlayers (A), and four stereo superlayer. The four stereo superlayer subdivide into two stereo superlayer (U) with a positive stereo angle and two stereo superlayers (V) with a negative stereo angle. Starting with the innermost superlayer, every second superlayer is an axial superlayer. The stereo superlayers are between them, alternating between U and V. In total there are nine superlayers. The innermost superlayer is called \textit{small-cell chamber} has a total of eight superlayers. (compared to the other superlayers with just six layers) This was done to lower the influence of the background, which is higher in the innermost superlayer due to the vicinity to the interaction region.
 The CDC has a spatial resolution of about $100\,\mu\textrm{m}$.\cite{B2TR}
 
 \section{TOP And ARICH}
@@ -780,7 +782,7 @@ To distinguish between muons and hadrons, the KLM takes advantage of the high pe
 \chapter{Tools}
 \label{sec:Tools}
 
-\lettrine{T}{his} chapter will give a short introduction on the two most important tools that were used in this thesis: Root and Basf2
+\lettrine{T}{his} chapter will give a short introduction on the three most important tools that were used in this thesis: Root, Basf2 and GridKa.
 
 
 
@@ -818,7 +820,7 @@ First of all, a definition of efficiency has to be declared, since there are dif
 So for this work we will use the following definition for the tracking efficiency:
 
 \begin{equation}
-	\epsilon = \frac{\textrm{Number of Bhabha events with exactly 2 tracks}}{\textrm{Number of Bhabha events with 1 or more tracks}}
+	\epsilon = \frac{\textrm{Number of Bhabha events with exactly reconstructed 2 tracks}}{\textrm{Number of Bhabha events with 1 or more reconstructed tracks}}
 	\label{eq:efficiency}
 \end{equation}
 
@@ -862,14 +864,14 @@ Now, these two lists can be combined to one list called \texttt{vpho:ECLObjectUn
 
 In line nine and ten the daughters in the \texttt{vpho:ECLObjectUnranked} list are sorted by their cluster energy and filled in a list called \texttt{vpho:ECLObject}.
 
-In line twelve, a virtual photon of the bhabha event is reconstructed from the ECL objects in the \texttt{vpho:ECLObject} list. The number of reconstructed virtual photon candidates per event $n_{cand}$ is determined by the following equation\cite{triangular}:
+In line twelve, a virtual photon of the bhabha event is reconstructed from the ECL objects in the \texttt{vpho:ECLObject} list. The number of reconstructed virtual photon candidates per event $n_{\textrm{cand}}$ is determined by the following equation\cite{triangular}:
 
 \begin{equation}
-n_{cand} = \frac{n_p(n_p +1)}{2}
+n_{\textrm{cand}} = \frac{n_{\textrm{p}}(n_{\textrm{p}} +1)}{2}
 \label{eq:Triangular}
 \end{equation}
 
-$n_p$ is the number of reconstructed particles per event. Equation \ref{eq:Triangular} is also known as the equation to calculate \textit{triangular numbers}. For example, if four ECL particles are reconstructed in a single event then ten virtual photon candidates are reconstructed according to equation \ref{eq:Triangular}. Since we only expect one virtual Bhabha photon per event, we have to select the best candidate in each event. This will be done in section \ref{sec:SelectingBhabhaMC}.
+$n_{\textrm{p}}$ is the number of reconstructed particles per event. Equation \ref{eq:Triangular} is also known as the equation to calculate \textit{triangular numbers}. For example, if four ECL particles are reconstructed in a single event then ten virtual photon candidates are reconstructed according to equation \ref{eq:Triangular}. Since we only expect one virtual Bhabha photon per event, we have to select the best candidate in each event. This will be done in section \ref{sec:SelectingBhabhaMC}.
 
 Since the entries in the \texttt{vpho:ECLObject} list are sorted by energy, the first daughter of the reconstructed virtual bhabha photon always has a higher energy than the second daughter. I will refer to the first daughter as \texttt{tag} and the second daughter as \texttt{probe}. You can see that the \texttt{tag} daughter has always a higher energy than the \texttt{probe} daughter in figure \ref{fig:clEDiff}. Here the clusterE(\texttt{probe}) is subtracted from the clusterE(\texttt{tag}) and only positive values remain. Therefore, \texttt{tag} is the daughter with the higher energy.
 
@@ -932,7 +934,7 @@ Now we will take a look at the reconstructed Monte Carlo events. All of these re
 
 
 
-In figure \ref{fig:nCandAll} on the left, we see the number of reconstructed candidates per event. Since we do not have a cut on the reconstruction, the number of reconstructed candidates $n_{cand}$ follows equation \ref{eq:Triangular}. On the right, we see the invariant mass of the reconstructed candidates. Note that we are now looking at candidates and as we can see on the left we oftentimes have more than one candidate per event. Therefore the numbers of entries for the mass is way higher then for the number of candidates per event.
+In figure \ref{fig:nCandAll} on the left, we see the number of reconstructed candidates per event. Since we do not have a cut on the reconstruction, the number of reconstructed candidates $n_{\textrm{cand}}$ follows equation \ref{eq:Triangular}. On the right, we see the invariant mass of the reconstructed candidates. Note that we are now looking at candidates and as we can see on the left we oftentimes have more than one candidate per event. Therefore the numbers of entries for the mass is way higher then for the number of candidates per event.
 Consequently, we need some cuts to select the best candidate in each event and thereby reduce the number of candidates per event to one.
 
 
@@ -1053,12 +1055,26 @@ After applying all the cuts mentioned, the number of candidates per event is sho
 
 \subsection{Cut Efficiency}
 
+In this section we want to discuss different efficiencies of the previously introduced cuts. We will take a look at the relative and the total efficienct. The results can be seen in table \ref{tab:cutEff}.
+
+\begin{equation}
+	\epsilon_{\textrm{tot}} = \frac{n_{\textrm{cut}}}{n_{\textrm{total}}}
+	\label{eq:cutTotEff}
+\end{equation}
+
+To calculate the total efficiency of a cut we have to use equation \ref{eq:cutTotEff}. Here the number of events after a cut $n_{\textrm{cut}}$ is divided by the total number of events $n_{\textrm{total}}$ before all cuts\footnote{The cut that requires that the generated particles have to hit the ECL is still applied $\rightarrow n_{\textrm{total}} = 24,100$}.
+
+\begin{equation}
+	\epsilon_{\textrm{rel;Cut B}} = \frac{n_{\textrm{Cut B}}}{n_{\textrm{Cut A}}}
+	\label{eq:cutRelEff}
+\end{equation}
+
+Equation \ref{eq:cutRelEff} shows the equation used to calculate the relative efficiency. To calculate the efficiency of cut B we have to divide the number of events after cut B by the number of events after the previous
+cut A. The relative efficiency with no cut is defined as 1.
 
 \begin{table}[h!]
 	\centering
 \begin{tabular}{lccc}
-	
-	
  Cut& Number Of Events&  Relative Efficiency& Total Efficiency\\
  \hline
  No Cut&24,100 &1.0000 &1.0000 \\
@@ -1071,10 +1087,10 @@ After applying all the cuts mentioned, the number of candidates per event is sho
 \end{tabular}
 
 \caption[Cut Efficiencies]{A table with the total number of events after the respective cuts. Also the relative and the total efficiency of these cuts is shown.}
-\label{tab:Eff}
-
+\label{tab:cutEff}
 \end{table}
 
+Table \ref{tab:cutEff} shows the relative and total efficiency of the cuts.
 
 
 
@@ -1109,14 +1125,9 @@ Arbeiten an der Aufgabenstellung.
 	
 \chapter{Appendix}
 
-\section{Annotations}
 
 
-\subsection{How To Produce The Tables In The Efficiency Cuts Chapter}
-
-To reproduce the tables \ref{tab:clusterSplitting} and \ref{tab:ESum} you will need the file: \texttt{bhabha\_vpho\_mc.root} which is located at: /home/belle2/msobotzi/bhabha/
-
-\section{Plots and Tables}
+\section{Additional Plots and Tables}
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=10cm]{AnhangPlots/clEDiff}
