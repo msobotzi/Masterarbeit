@@ -333,11 +333,11 @@ Despite the success of the standard model as an effective theory, it fails answe
 \section{Bhabha Scattering}
 \label{sec:Bhabha}
 
-Bhabha
+In this section we want to shortly discuss Bhabha scattering.
  
 \subsection{Bhabha Process}
  \label{sec:BhabhaProcess}
- Bhabha \cite{Bhabha}
+ Bhabha scattering is a quantum electromechanical process between a particle and its antiparticle. It is named after the Indian  physicist H. Bhabha.\cite{Bhabha}
  
  
 
@@ -809,7 +809,7 @@ gemeint sein.
 \chapter{Tracking Efficiencies}
 \label{sec:TrackingEff}
 
-\lettrine{I}{n} this chapter the tracking efficiency studies will be presented. We will start with a definition of the tracking efficiency we want to calculate. Then the reconstruction and selection of the Bhabha events will be described. Finally the tracking efficiency for MC and for data will be calculated.
+\lettrine{I}{n} this chapter the tracking efficiency studies will be presented. We will start with a definition of the tracking efficiency we want to calculate. Then the reconstruction and selection of the Bhabha events will be described. Finally the tracking efficiency for MC and for beamtime data will be calculated.
 
 
 \section{Definition Of Tracking Efficiency}
@@ -830,7 +830,7 @@ So for this work we will use the following definition for the tracking efficienc
 
 To analyze a Monte Carlo/data file, a python script using Basf2 has to be written. The following code is a simplified version of the steering file I wrote. The goal of this steering file is to reconstruct the virtual photon in a Bhabha event. This virtual photon decays into two daughters which hit the ECL. Since we want to calculate the tracking efficiency. We need to be able to reconstruct the virtual photon from two daughters both associated with an track, and two daughters one associated with a track (reconstructed as a charged particle by the framework) and one with no track associated (reconstructed as a photon by the framework).
 
-The same steering file is used for data and for MC and MC on GridKa.
+The same steering file is used for data, MC and MC on GridKa.
 \newline 
 
 {\small
@@ -975,17 +975,17 @@ To reduce the number of candidates per event to one, some additional cuts are ne
 	\centering
 	\makebox[\textwidth]{
 	
-	\begin{tabular}{lccccccc}
-	
+	\begin{tabular}{l|cccc|cccc}
+	 & \multicolumn{4}{c|}{tag} & \multicolumn{4}{c}{probe}\\
+		\cline{2-9}
 		
- event& E(tag) &mcE(tag)&PDG(tag) & E(probe)&mcE(probe)&PDG(probe)&mcPDG \\
+ Event Number& E &mcE&PDG&mcPDG & E&mcE&PDG&mcPDG  \\
  \hline
- 
- 41890065&0.9432 & 4.1278& 11& 3.1900&4.1278 & 22&11\\
- 41890118&1.5993 &4.3465 &22 & 2.6462& 4.3465&-11 &-11\\
- 41890668&3.1758 &6.8878 &22 &3.1059 &6.8878 &11 &11\\
-41891214 &2.3290 & 6.1585&22 & 3.9079&6.1585 &11&11  \\
-41892596 &1.4193 & 4.2997& 22&2.9673 &4.2997 &-11 &-11\\
+ 41890065&0.9432 & 4.1278& 11&11& 3.1900&4.1278 & 22&-11 \\
+ 41890118&1.5993 &4.3465 &22 &11& 2.6462& 4.3465&-11 &-11 \\
+ 41890668&3.1758 &6.8878 &22 &-11&3.1059 &6.8878 &11 &11 \\
+41891214 &2.3290 & 6.1585&22 &-11& 3.9079&6.1585 &11&11  \\
+41892596 &1.4193 & 4.2997& 22&11&2.9673 &4.2997 &-11 &-11 \\
 	\end{tabular}
 }
 \caption[Cluster Splitting Examples]{Some examples for events with cluster splitting. The energies are in GeV.}
@@ -1055,7 +1055,7 @@ After applying all the cuts mentioned, the number of candidates per event is sho
 
 \subsection{Cut Efficiency}
 
-In this section we want to discuss different efficiencies of the previously introduced cuts. We will take a look at the relative and the total efficienct. The results can be seen in table \ref{tab:cutEff}.
+In this section we want to discuss different efficiencies of the previously introduced cuts. We will take a look at the relative and the total efficiency. The results can be seen in table \ref{tab:cutEff}.
 
 \begin{equation}
 	\epsilon_{\textrm{tot}} = \frac{n_{\textrm{cut}}}{n_{\textrm{total}}}
@@ -1091,6 +1091,31 @@ cut A. The relative efficiency with no cut is defined as 1.
 \end{table}
 
 Table \ref{tab:cutEff} shows the relative and total efficiency of the cuts.
+\textcolor{red}{Describe the table}
+
+\subsection{No MC-Truth Information}
+\label{sec:NoMCT}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=10cm]{Cuts/nCandNoMCInfo}
+	\caption[Number Of Candidates Per Event With No MC-Truth Information]{Number of candidates per events with no MC-Truth information. Same MC file as before.}
+	\label{fig:nCandNoMCInfo}
+\end{figure}
+
+
+
+\section{Selecting Bhabha Events on Beamtime Data}
+\label{sec:SelectingBhabhaData}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=10cm]{Cuts/Data/nCandData}
+	\caption[Number Of Candidates Per Event for Beamtime Data]{Number of candidates per event for beamtime data.}
+\end{figure}
+
+
+\section{Selecting Electron-Positron Pairs}
 
 
 
@@ -1102,6 +1127,28 @@ Table \ref{tab:cutEff} shows the relative and total efficiency of the cuts.
 \end{figure}
 
 
+
+
+
+\begin{figure}[h!]
+	\centering
+	\begin{minipage}[b]{0.45\linewidth}
+		\centering
+		\includegraphics[width=\textwidth]{Cuts/Data/b2b_TagProbe}
+	\end{minipage}
+	\hspace{0.5cm}
+	\begin{minipage}[b]{0.45\linewidth}
+		\centering
+		\includegraphics[width=\textwidth]{Cuts/Data/b2b_ProbeTag}
+	\end{minipage}
+	\caption[PredictedClusterPhi - ReconstructedClusterPhi For Beamtime Data]{Left: Predicted clusterPhi(tag) - Reconstructed clusterPhi(probe). Right: Predicted clusterPhi(probe) - Reconstructed clusterPhi(tag). Both plots are created with beamtime data. The variable to get the predicted clusterPhi value is the b2bclusterPhi variable which was described earlier.}
+	\label{}
+\end{figure}
+
+
+
+
+\section{Tracking Efficiency}
 
 
 
