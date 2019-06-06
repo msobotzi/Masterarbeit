@@ -66,26 +66,26 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.3.5}No MC-Truth Information}{32}{subsection.6.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}Selecting Bhabha Events on Beamtime Data}{33}{section.6.4}
+\contentsline {section}{\numberline {6.4}Selecting Bhabha Events on Beamtime Data}{32}{section.6.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.5}Selecting Electron-Positron Pairs}{33}{section.6.5}
+\contentsline {section}{\numberline {6.5}Selecting Electron-Positron Pairs}{34}{section.6.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.6}Tracking Efficiency}{34}{section.6.6}
+\contentsline {section}{\numberline {6.6}Tracking Efficiency}{35}{section.6.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Conclusion}{35}{chapter.7}
+\contentsline {chapter}{\numberline {7}Conclusion}{37}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Appendix}{37}{appendix.A}
+\contentsline {chapter}{\numberline {A}Appendix}{39}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Additional Plots and Tables}{37}{section.A.1}
+\contentsline {section}{\numberline {A.1}Additional Plots and Tables}{39}{section.A.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Tabellen und Abbildungen}{38}{section.A.2}
+\contentsline {section}{\numberline {A.2}Tabellen und Abbildungen}{40}{section.A.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Weiterf\"uhrende Details zur Arbeit}{38}{section.A.3}
+\contentsline {section}{\numberline {A.3}Weiterf\"uhrende Details zur Arbeit}{41}{section.A.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Figures}{39}{chapter*.26}
+\contentsline {chapter}{\nonumberline List of Figures}{43}{chapter*.27}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Tables}{41}{chapter*.27}
+\contentsline {chapter}{\nonumberline List of Tables}{45}{chapter*.28}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{43}{chapter*.28}
+\contentsline {chapter}{\nonumberline Bibliography}{47}{chapter*.29}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Acknowledgements}{47}{appendix.B}
+\contentsline {chapter}{\numberline {B}Acknowledgements}{51}{appendix.B}

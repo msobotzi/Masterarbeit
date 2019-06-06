@@ -486,6 +486,9 @@ These plots were created with python3.}
 \subsection{Bhabha Kinematics At Belle II}
 \label{sec:Kinematics}
 
+Beams are hitting each other under an angle.
+
+
 \begin{figure}[h!]
 	\centering
 	\begin{minipage}[b]{0.45\linewidth}
@@ -590,7 +593,7 @@ The task of the outermost detector the $K_L^0$ and muon detector (KLM) is to ide
 
 \section{Coordinate System}
 
-For clarification, I want to explain the coordinate system of Belle II, before I describe to the detectors in more detail.
+For clarification, I want to explain the coordinate system of Belle II, before I describe the detectors in more detail.
 
 \begin{figure}[h!]
 	\begin{center}
@@ -1017,7 +1020,7 @@ As an additional safety net, a cut on the number of reconstructed tracks per eve
 	\centering
 	\begin{tabular}{lcccc}
 		
- Event&M &Energy(tag) &Energy(probe) &Total Energy ECL \\
+ Event Number&M &Energy(tag) &Energy(probe) &Total Energy ECL \\
  \hline
  
 41890917 & 30.6657& 33.8368& 7.2455& 41.0823\\
@@ -1086,7 +1089,7 @@ cut A. The relative efficiency with no cut is defined as 1.
 
 \end{tabular}
 
-\caption[Cut Efficiencies]{A table with the total number of events after the respective cuts. Also the relative and the total efficiency of these cuts is shown.}
+\caption[Cut Efficiencies]{A table with the total number of events after the respective cuts. Also the relative and the total efficiency of these cuts is shown. The total number of entries in the \textit{mcEvtECL}-list is 24,286.}
 \label{tab:cutEff}
 \end{table}
 
@@ -1096,28 +1099,49 @@ Table \ref{tab:cutEff} shows the relative and total efficiency of the cuts.
 \subsection{No MC-Truth Information}
 \label{sec:NoMCT}
 
+In the previous sections we saw that we are able to select only one candidate in a Bhabha event under the condition that we know that both daughters are hitting the ECL. Unfortunately we do not have this information on beamtime data. Therefore, we also check how many candidates we reconstruct when we do not have MC-Truth information. We will analyze the same MC-file as before to compare the number of reconstructed events. 
+
+
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=10cm]{Cuts/nCandNoMCInfo}
-	\caption[Number Of Candidates Per Event With No MC-Truth Information]{Number of candidates per events with no MC-Truth information. Same MC file as before.}
+	\caption[Number Of Candidates Per Event With No MC-Truth Information]{Number of candidates per events with no MC-Truth information. Same MC file as before. }
 	\label{fig:nCandNoMCInfo}
 \end{figure}
 
+In figure \ref{fig:nCandNoMCInfo} we see that we reconstruct a total number of 14,981 events. Therefore, we reconstruct 20 events more with no MC-Truth information. Also, we are still able to select only one candidate per event. 
 
+Since we only reconstruct a few more events and still only one candidate per event, we can be very confidant that we only select Bhabha events.
 
 \section{Selecting Bhabha Events on Beamtime Data}
 \label{sec:SelectingBhabhaData}
+
+Until now we only run on MC but ultimately we want to calculate the tracking efficiency on beamtime data. Therefore, we have to test the selection also on beamtime data. I used the same steering file as described in section \ref{sec:RecBasf2} and run over a the following files located at:
+\newline
+
+/ghi/fs01/belle2/bdata//Data/release-03-00-03/DB00000528/proc00000008/e0003/
+4S/r02608/all/mdst/sub00/*.root
+\newline
+
+The generated file is located at:
+
+/home/belle2/msobotzi/bhabha/bhabha\_vpho\_data\_608.root
 
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=10cm]{Cuts/Data/nCandData}
 	\caption[Number Of Candidates Per Event for Beamtime Data]{Number of candidates per event for beamtime data.}
+	\label{fig:nCandData}
 \end{figure}
+
+Figure \ref{fig:nCandData} shows the number of reconstructed candidates on beamtime data after the \texttt{MclE2HnTSumE} cut. You can see that we reconstruct only one candidate per event even on beamtime data.
+
 
 
 \section{Selecting Electron-Positron Pairs}
+\label{sec:SelectingElectronPositron}
 
-
+Now, that we are satisfied with the selection of events and candidates we need to be sure that we only select $\textrm{ee} \rightarrow \textrm{ee}$ events and not for example $\textrm{ee} \rightarrow \gamma \gamma$. To do this we can use the so-called b2b-variable (back-to-back).
 
 \begin{figure}[h!]
 	\centering
@@ -1126,8 +1150,9 @@ Table \ref{tab:cutEff} shows the relative and total efficiency of the cuts.
 	\label{fig:Sketchb2b}
 \end{figure}
 
+A simplified sketch of the b2bClusterPhi variable is shown in figure \ref{fig:Sketchb2b}. This sketch shows the ECL in beam direction, so the magnetic field in the ECL is pointing into the paper. \textcolor{red}{(?)} At the interaction point an electron (in this example the red line) and a positron (in this example the blue line) are created. Since both particles are charge their trajectory is bended by the magnetic field. The electron hits the ECL and creates a cluster with at the $\Phi$-angle clusterPhi. As described in section \ref{sec:Kinematics} the center-of-momentum frame at Belle II has a non zero $x-y$ fraction. Therefore, the b2bClusterPhi variable is not just $\textrm{clusterPhi} - \pi$ (as in the sketch). To calculate the b2bClusterPhi variable we have to boost the particle in the center-of-momentum frame then calculate $\textrm{clusterPhi} - \pi$ and finally boost back in the lab frame. With this variable we can kind of predict the clusterPhi angle of the other particle. 
 
-
+In the sketch you see that there is a difference between the predicted and the true clusterPhi angle due to the magnetic field. This also means that in an $\textrm{ee} \rightarrow \gamma \gamma$ event the predicted and the true clusterPhi angle are the same because the trajectory of photons are not bend in the magnetic field. So we are able to differ between $\textrm{ee} \rightarrow \textrm{ee}$ and $\textrm{ee} \rightarrow \gamma \gamma$.
 
 
 \begin{figure}[h!]
@@ -1141,15 +1166,16 @@ Table \ref{tab:cutEff} shows the relative and total efficiency of the cuts.
 		\centering
 		\includegraphics[width=\textwidth]{Cuts/Data/b2b_ProbeTag}
 	\end{minipage}
-	\caption[PredictedClusterPhi - ReconstructedClusterPhi For Beamtime Data]{Left: Predicted clusterPhi(tag) - Reconstructed clusterPhi(probe). Right: Predicted clusterPhi(probe) - Reconstructed clusterPhi(tag). Both plots are created with beamtime data. The variable to get the predicted clusterPhi value is the b2bclusterPhi variable which was described earlier.}
-	\label{}
+	\caption[b2bClusterPhi - clusterPhi For Beamtime Data]{Left: Predicted clusterPhi(tag) - Reconstructed clusterPhi(probe). Right: Predicted clusterPhi(probe) - Reconstructed clusterPhi(tag). Both plots are created with beamtime data. The variable to get the predicted clusterPhi value is the b2bclusterPhi variable which was described earlier.}
+	\label{fig:b2bData}
 \end{figure}
 
+In figure \ref{fig:b2bData} the difference between the predicted and the reconstructed clusterPhi angle for beamtime data is shown. In the left plot the reconstructed clusterPhi angle of the probe particle is subtracted by the b2bClusterPhi angle of the tag particle. In the right plot it is vice versa. In both plots we have three peaks. The middle peaks are $\textrm{ee} \rightarrow \gamma \gamma$ events since the predicted and the reconstructed clusterPhi angle is the same. So these are events we want to cut away. The left peak is caused by electrons (most of the tag particles are electrons, therefore the left peak on the right plot significantly higher\footnote{As described in section \ref{sec:RecBasf2}, the tag daughter is the daughter with the higher cluster energy}), the right peak by positrons. This means that if we for example only cut on the left peak we are only selecting electron particles even if they are wrongly reconstructed as photons, using ECL information only.
+This also means that we are now able to calculate tracking efficiencies.
 
-
-
+Figure \ref{fig:b2bMC} shows the same plots as figure \ref{fig:b2bData} but with MC data. Note that there is no middle peak because only $\textrm{ee} \rightarrow \textrm{ee}$ events were generated.
 \section{Tracking Efficiency}
-
+\label{sec:TrackingEfficiency}
 
 
 %_______________________________________________________________________________
@@ -1211,7 +1237,20 @@ Arbeiten an der Aufgabenstellung.
 
 
 
-
+\begin{figure}[h!]
+	\centering
+	\begin{minipage}[b]{0.45\linewidth}
+		\centering
+		\includegraphics[width=\textwidth]{Cuts/b2bTP_mc}
+	\end{minipage}
+	\hspace{0.5cm}
+	\begin{minipage}[b]{0.45\linewidth}
+		\centering
+		\includegraphics[width=\textwidth]{Cuts/b2bPT_mc}
+	\end{minipage}
+	\caption[b2bClusterPhi - clusterPhi For MC]{Left: Predicted clusterPhi(tag) - Reconstructed clusterPhi(probe). Right: Predicted clusterPhi(probe) - Reconstructed clusterPhi(tag). Both plots are created with MC data. There is no middle peak because only $\textrm{ee} \rightarrow \textrm{ee}$ events were generated.}
+	\label{fig:b2bMC}
+\end{figure}
 
 
 

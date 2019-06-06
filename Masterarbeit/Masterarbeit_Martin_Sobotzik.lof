@@ -52,21 +52,23 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {\relax 6.4}{\ignorespaces Number Of Candidates Per Event After All Cuts}}{31}{figure.caption.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.5}{\ignorespaces Number Of Candidates Per Event With No MC-Truth Information}}{32}{figure.caption.20}
+\contentsline {figure}{\numberline {\relax 6.5}{\ignorespaces Number Of Candidates Per Event With No MC-Truth Information}}{33}{figure.caption.20}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {\relax 6.6}{\ignorespaces Number Of Candidates Per Event for Beamtime Data}}{33}{figure.caption.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.7}{\ignorespaces Sketch Of The b2bClusterPhi Variable}}{33}{figure.caption.22}
+\contentsline {figure}{\numberline {\relax 6.7}{\ignorespaces Sketch Of The b2bClusterPhi Variable}}{34}{figure.caption.22}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.8}{\ignorespaces PredictedClusterPhi - ReconstructedClusterPhi For Beamtime Data}}{34}{figure.caption.23}
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {\relax 6.8}{\ignorespaces b2bClusterPhi - clusterPhi For Beamtime Data}}{35}{figure.caption.23}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.1}{\ignorespaces clusterE(tag) - clusterE(probe)}}{37}{figure.caption.24}
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.2}{\ignorespaces Cluster Splitting Angle Distribution}}{38}{figure.caption.25}
+\contentsline {figure}{\numberline {\relax A.1}{\ignorespaces clusterE(tag) - clusterE(probe)}}{39}{figure.caption.24}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.2}{\ignorespaces Cluster Splitting Angle Distribution}}{40}{figure.caption.25}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.3}{\ignorespaces b2bClusterPhi - clusterPhi For MC}}{40}{figure.caption.26}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
