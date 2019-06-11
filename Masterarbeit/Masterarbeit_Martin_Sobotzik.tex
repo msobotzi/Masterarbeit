@@ -823,7 +823,7 @@ First of all, a definition of efficiency has to be declared, since there are dif
 So for this work we will use the following definition for the tracking efficiency:
 
 \begin{equation}
-	\epsilon = \frac{\textrm{Number of Bhabha events with exactly reconstructed 2 tracks}}{\textrm{Number of Bhabha events with 1 or more reconstructed tracks}}
+	\epsilon = \frac{\textrm{Number of Bhabha events with exactly 2 reconstructed tracks}}{\textrm{Number of Bhabha events with 1 or more reconstructed tracks}}
 	\label{eq:efficiency}
 \end{equation}
 
@@ -1170,7 +1170,7 @@ In the sketch you see that there is a difference between the predicted and the t
 	\label{fig:b2bData}
 \end{figure}
 
-In figure \ref{fig:b2bData} the difference between the predicted and the reconstructed clusterPhi angle for beamtime data is shown. In the left plot the reconstructed clusterPhi angle of the probe particle is subtracted by the b2bClusterPhi angle of the tag particle. In the right plot it is vice versa. In both plots we have three peaks. The middle peaks are $\textrm{ee} \rightarrow \gamma \gamma$ events since the predicted and the reconstructed clusterPhi angle is the same. So these are events we want to cut away. The left peak is caused by electrons (most of the tag particles are electrons, therefore the left peak on the right plot significantly higher\footnote{As described in section \ref{sec:RecBasf2}, the tag daughter is the daughter with the higher cluster energy}), the right peak by positrons. This means that if we for example only cut on the left peak we are only selecting electron particles even if they are wrongly reconstructed as photons, using ECL information only.
+In figure \ref{fig:b2bData} the difference between the predicted and the reconstructed clusterPhi angle for beamtime data is shown. In the left plot the reconstructed clusterPhi angle of the probe particle is subtracted by the b2bClusterPhi angle of the tag particle. In the right plot it is vice versa. In both plots we have three peaks. The middle peaks are $\textrm{ee} \rightarrow \gamma \gamma$ events since the predicted and the reconstructed clusterPhi angle is the same. So these are events we want to cut away. The left peak is caused by electrons (most of the tag particles are electrons, therefore the left peak on the right plot significantly higher\footnote{As described in section \ref{sec:RecBasf2}, the tag daughter is the daughter with the higher cluster energy}), the right peak by positrons. This means that if for example we only cut on the left peak we are only selecting electron particles even if they are wrongly reconstructed as photons, using ECL information only.
 This also means that we are now able to calculate tracking efficiencies.
 
 Figure \ref{fig:b2bMC} shows the same plots as figure \ref{fig:b2bData} but with MC data. Note that there is no middle peak because only $\textrm{ee} \rightarrow \textrm{ee}$ events were generated.
