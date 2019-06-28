@@ -333,7 +333,7 @@ Despite the success of the standard model as an effective theory, it fails answe
 \section{Bhabha Scattering}
 \label{sec:Bhabha}
 
-In this section we want to shortly discuss Bhabha scattering.
+In this section we want to shortly discuss Bhabha scattering. We will start with the physics of Bhabha scattering and then discuss the Bhabha kinematics at Belle II.
  
 \subsection{Bhabha Process}
  \label{sec:BhabhaProcess}
@@ -472,13 +472,19 @@ child[grow=down, level distance=0pt] {
 	\hspace{0.5cm}
 	\begin{minipage}[b]{0.47\linewidth}
 		\centering
-		\includegraphics[width=\textwidth]{Bilder/dsdOb}
+		\includegraphics[width=\textwidth]{Bilder/dsdO1}
 	\end{minipage}
-	\caption[Differential Cross Section For Bhabha Events]{Differential cross-section for Bhabha events. Left: Cross-section for \textcolor{red}{text}.
+	\caption[Differential Cross Section For Electrons And Positrons In Bhabha Events]{Differential cross-section for Bhabha events. Left: Cross-section for \textcolor{red}{text}.
 	
 These plots were created with python3.}
 	
 	\end{figure}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=10cm]{Bilder/dsdOb}
+	\caption[Differential Cross Section For Bhabha Events]{text}
+\end{figure}
 
 
 
@@ -530,7 +536,7 @@ SuperKEKB is an upgrade of the KEKB accelerator. KEKB was also an asymmetric ele
 
 \begin{figure}[h!]
 \begin{center}
-	\includegraphics[width=8cm]{Bilder/SuperKEKB.png}
+	\includegraphics[width=9cm]{Bilder/SuperKEKB.png}
 	
 	\caption[SuperKEKB Collider]{The SuperKEKB collider.\cite{SKEKAcc}}
 	\label{fig:SuperKEKB}
@@ -556,7 +562,7 @@ To increase the event rate one has to increase the instantaneous luminosity sinc
  
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=14.5cm]{Bilder/bsSKEK}
+	\includegraphics[width=\textwidth]{Bilder/bsSKEK}
 	
 	\caption[Sketch Of The Beam Crossing For KEKB And SuperKEKB]{Sketch of the beam crossing at KEKB (left) and SuperKEKB (right). At KEKB the size of the interaction region was about $10\,\textrm{mm}$. At SuperKEKB it is about $0.5\,\textrm{mm}$}
 	\label{fig:beamsize}
@@ -573,7 +579,7 @@ The Belle II detector is an upgraded version of the Belle detector which was a s
  
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=12.5cm]{Bilder/Belle2.png}
+	\includegraphics[width=\textwidth]{Bilder/Belle2.png}
 	
 	\caption[Belle II Detector]{Schematic view of the Belle II detector. The different detector elements are labeled. Also the beam pipes for the electrons and positrons with their corresponding energies are shown. \cite{BDetector}}
 	\label{fig:Belle2}
@@ -597,7 +603,7 @@ For clarification, I want to explain the coordinate system of Belle II, before I
 
 \begin{figure}[h!]
 	\begin{center}
-		\includegraphics[width=4.5cm]{Bilder/coordinate.png}
+		\includegraphics[width=5cm]{Bilder/coordinate.png}
 	\end{center}
 	\caption[Coordinate System Of Belle II]{A sketch of the coordinate system of Belle II}
 	\label{fig:CoordinateSysytem}
@@ -629,7 +635,7 @@ The PXD is based on Depleted P-channel Field-Effect Transistor (DePFET) technolo
 
 \begin{figure}[h!]
 	\begin{center}
-		\includegraphics[width=10.5cm]{Bilder/pixel}
+		\includegraphics[width=12cm]{Bilder/pixel}
 	\end{center}
 	\caption[Pixel Detector]{Sketch of the PXD \cite{B2TR}}
 	\label{fig:pxd}
@@ -659,7 +665,7 @@ The SVD consists of four layers of double-sided strip detectors. The layers are 
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=12.5cm]{Bilder/SVD.png}
+	\includegraphics[width=\textwidth]{Bilder/SVD.png}
 	\caption[Silicon Vertex Detector]{Cross section of the silicon vertex detector\cite{SVDItalian}}
 	\label{fig:SiliconVertex}
 \end{figure}
@@ -677,7 +683,7 @@ The CDC surrounds the SVD. It consists of 14,336 wires arranged in 56 layers and
 
 \begin{figure}[h!] 
 	\centering
-	\includegraphics[width=12.5cm]{Bilder/CDC}
+	\includegraphics[width=\textwidth]{Bilder/CDC}
 	\caption[Central Drift Chamber]{Cross section and only a small part of the CDC. Each dot represent a wire. Also the area for the different superlayers is shown by the green line. All of these wires are immersed in a helium-ethane mixture.\cite{CDCHauth}}
 	\label{fig:CDC}
 \end{figure}
@@ -706,7 +712,7 @@ The Cerenkov angle is given by:\cite{cerenkovAngle}
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=10.5cm]{Bilder/TOP}
+	\includegraphics[width=12cm]{Bilder/TOP}
 	\caption[TOP Principle]{Operating mode of a TOP detector.\cite{B2TR}}
 	\label{fig:TOP}
 \end{figure}
@@ -791,15 +797,10 @@ To distinguish between muons and hadrons, the KLM takes advantage of the high pe
 
 \section{Root}
 
-Entsprechend kann es bei einer theoretischen Arbeit sinnvoll sein,
-die L\"osungsmethoden in einem eigenen Kapitel zu beschreiben.
 
 \section{Basf2}
 
-Hauptteil Ihrer Arbeit ist das Kapitel (oder die Kapitel) mit den 
-Ergebnissen. Bei einer theoretischen Arbeit kann damit auch 
-die Herleitung von Formeln oder die Beschreibung eines Computerprogramms 
-gemeint sein.
+
 
 
 \section{GridKa}
@@ -881,7 +882,7 @@ Since the entries in the \texttt{vpho:ECLObject} list are sorted by energy, the 
 Finally, in the last line of code, all variables of the candidates like mass, momentum, cluster energy of each daughter, does the daughter have a track and so on are written in a tree \texttt{vpho\_bhabha} in a file. The \texttt{outputname} of the output file depends on whether the steering file is running on data or MC. 
 
 
-\section{Selecting Bhabha Events On Monte Carlo}
+\section{Best Candidate Selection On Monte Carlo}
 \label{sec:SelectingBhabhaMC}
 
 We use Monte Carlo simulation due to the fact that on MC we know everything about the generated and reconstructed particles. So on MC we can select Bhabha events which hit the ECL and with this knowledge we can introduce cuts in such a way that we only reconstruct these Bhabha events. To calculate an efficiency it is extremely  important to select only Bhabha events. At first, we are also running on only one $\textrm{e}^+ \textrm{e}^- \rightarrow \textrm{e}^+ \textrm{e}^-$ MC file which is located at:
@@ -1113,7 +1114,7 @@ In figure \ref{fig:nCandNoMCInfo} we see that we reconstruct a total number of 1
 
 Since we only reconstruct a few more events and still only one candidate per event, we can be very confidant that we only select Bhabha events.
 
-\section{Selecting Bhabha Events on Beamtime Data}
+\section{Best Candidate Selection on Beamtime Data}
 \label{sec:SelectingBhabhaData}
 
 Until now we only run on MC but ultimately we want to calculate the tracking efficiency on beamtime data. Therefore, we have to test the selection also on beamtime data. I used the same steering file as described in section \ref{sec:RecBasf2} and run over a the following files located at:
@@ -1138,7 +1139,7 @@ Figure \ref{fig:nCandData} shows the number of reconstructed candidates on beamt
 
 
 
-\section{Selecting Electron-Positron Pairs}
+\section{Selecting Bhabha Events}
 \label{sec:SelectingElectronPositron}
 
 Now, that we are satisfied with the selection of events and candidates we need to be sure that we only select $\textrm{ee} \rightarrow \textrm{ee}$ events and not for example $\textrm{ee} \rightarrow \gamma \gamma$. To do this we can use the so-called b2b-variable (back-to-back).
@@ -1168,12 +1169,34 @@ In the sketch you see that there is a difference between the predicted and the t
 	\end{minipage}
 	\caption[b2bClusterPhi - clusterPhi For Beamtime Data]{Left: Predicted clusterPhi(tag) - Reconstructed clusterPhi(probe). Right: Predicted clusterPhi(probe) - Reconstructed clusterPhi(tag). Both plots are created with beamtime data. The variable to get the predicted clusterPhi value is the b2bclusterPhi variable which was described earlier.}
 	\label{fig:b2bData}
+	%Single Data file 608 Efficiency.C makro
 \end{figure}
 
-In figure \ref{fig:b2bData} the difference between the predicted and the reconstructed clusterPhi angle for beamtime data is shown. In the left plot the reconstructed clusterPhi angle of the probe particle is subtracted by the b2bClusterPhi angle of the tag particle. In the right plot it is vice versa. In both plots we have three peaks. The middle peaks are $\textrm{ee} \rightarrow \gamma \gamma$ events since the predicted and the reconstructed clusterPhi angle is the same. So these are events we want to cut away. The left peak is caused by electrons (most of the tag particles are electrons, therefore the left peak on the right plot significantly higher\footnote{As described in section \ref{sec:RecBasf2}, the tag daughter is the daughter with the higher cluster energy}), the right peak by positrons. This means that if for example we only cut on the left peak we are only selecting electron particles even if they are wrongly reconstructed as photons, using ECL information only.
-This also means that we are now able to calculate tracking efficiencies.
+In figure \ref{fig:b2bData} the difference between the predicted and the reconstructed clusterPhi angle for beamtime data is shown. In the left plot the reconstructed clusterPhi angle of the probe particle is subtracted by the b2bClusterPhi angle of the tag particle. In the right plot it is vice versa. In both plots we have three peaks. The middle peaks are $\textrm{ee} \rightarrow \gamma \gamma$ events since the predicted and the reconstructed clusterPhi angle is the same. So these are events we want to cut away. The left peak is caused by electrons (most of the tag particles are electrons, therefore the left peak on the right plot is significantly higher\footnote{As described in section \ref{sec:RecBasf2}, the tag daughter is the daughter with the higher cluster energy}), the right peak by positrons. This means that if for example we only cut on the left peak we are only selecting electron particles even if they are wrongly reconstructed as photons, using ECL information only. 
+Therefore the last cut we will add is a cut on the b2bClusterPhi angle. We will only consider events in with:
 
-Figure \ref{fig:b2bMC} shows the same plots as figure \ref{fig:b2bData} but with MC data. Note that there is no middle peak because only $\textrm{ee} \rightarrow \textrm{ee}$ events were generated.
+ $0.05 \leq \textrm{abs(b2bClusterPhi(tag) - clusterPhi(probe)} \leq 0.2 $ and  $0.05 \leq \textrm{abs(b2bClusterPhi(probe) - clusterPhi(tag))} \leq 0.2$
+
+An exception occurs for $\Phi \approx \pi$ or $\Phi \approx -\pi$. It can happen that the reconstructed clusterPhi angle is around $\pi$ but the b2bClusterPhi angle is calculated to be around $-\pi$, then the difference between the predicted and reconstructed clusterPhi angle is around $2\pi$. This can be seen in figure \textcolor{red}{Figure for the whole b2b Range.}
+
+
+Finally, the b2bClusterPhi variable cut can be summarized in the following three conditions. Each event has to fulfill one of them to be taken into account.
+
+\begin{enumerate}
+	\item $0.05 \leq \textrm{abs(b2bClusterPhi(tag) - clusterPhi(probe)} \leq 0.2 \, \&\& \, 0.05 \leq \textrm{abs(b2bClusterPhi(probe) - clusterPhi(tag))} \leq 0.2$
+	\item $2\pi - 0.2 \leq \textrm{abs(b2bClusterPhi(tag) - clusterPhi(probe)} \leq 2\pi - 0.05 \, \&\& \, 0.05 \leq \textrm{abs(b2bClusterPhi(probe) - clusterPhi(tag))} \leq 0.2$
+	\item $0.05 \leq \textrm{abs(b2bClusterPhi(tag) - clusterPhi(probe)} \leq 0.2 \, \&\& \, 2\pi - 0.2 \leq \textrm{abs(b2bClusterPhi(probe) - clusterPhi(tag))} \leq 2\pi - 0.05$
+\end{enumerate}
+
+
+
+
+
+Figure \ref{fig:b2bMC} shows the same plots as figure \ref{fig:b2bData} but with MC data. Note that there is no middle peak because only $\textrm{ee} \rightarrow \textrm{ee}$ events were generated. In figure \textcolor{red}{MC Whole range} the b2bClusterPhi plot with full range is shown for MC.
+
+With all these introduced cuts we are now able to calculate tracking efficiencies.
+
+
 \section{Tracking Efficiency}
 \label{sec:TrackingEfficiency}
 
