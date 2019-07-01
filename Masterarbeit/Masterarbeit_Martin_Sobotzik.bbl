@@ -17,6 +17,33 @@
 \endgroup
 
 \sortlist[entry]{nty/global/}
+  \entry{Beamsize}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=AF}{%
+         family={Abudinén},
+         familyi={A\bibinitperiod},
+         given={Fernando},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AF1}
+    \strng{fullhash}{AF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{title}{Development of a $B^0$ flavor tagger and performance study of
+  a novel time-dependant $CP$ analysis of the decay $B^0 \rightarrow \pi^0
+  \pi^0$ at Belle II}
+    \list{institution}{1}{%
+      {Ludwig-Maximilians-Universität München}%
+    }
+    \field{type}{PhD Thesis}
+    \field{month}{09}
+    \field{year}{2018}
+    \warn{\item Can't use 'date' + 'year'}
+  \endentry
+
   \entry{PTEP}{article}{}
     \name{author}{1}{}{%
       {{hash=eaA}{%

@@ -536,12 +536,17 @@ SuperKEKB is an upgrade of the KEKB accelerator. KEKB was also an asymmetric ele
 
 \begin{figure}[h!]
 \begin{center}
-	\includegraphics[width=9cm]{Bilder/SuperKEKB.png}
+	\includegraphics[width=\textwidth]{Bilder/SuperKEKB.png}
 	
 	\caption[SuperKEKB Collider]{The SuperKEKB collider.\cite{SKEKAcc}}
 	\label{fig:SuperKEKB}
 \end{center}
 \end{figure}
+
+
+
+
+
 
 In figure \ref{fig:SuperKEKB} you can see the schematic layout of the SuperKEKB accelerator. The electrons are start at the Low emittance gun. They are then accelerated in the \textit{J}-shaped linear particle accelerator (linac). Due to lack of space, the linac has to have this special form.\cite{KEKBJArc} After the curve and a second acceleration stage the electrons hit the positron production target, where the positrons are created. After this target there are more acceleration stages, before the two beam are then injected into their independent storage rings. The electrons are stored in the high-energy ring (HER) and the positrons are stored in the low-energy ring (LER). Each of these rings has a circumference of about $3\,\textrm{km}$. Both beams collide at the interaction region (IR). The products of the collisions are then detected by the Belle II detector, an upgraded version of the Belle detector.\cite{B2B} (See chapter \ref{sec:BelleII})
 
@@ -560,13 +565,29 @@ To increase the event rate one has to increase the instantaneous luminosity sinc
 \end{equation}
  assuming that both beams have a Gaussian profile of horizontal and vertical size $\sigma_x$ and $\sigma_y$. In equation \ref{eq:Lumi} $N_{e^-}$ is the number of particles in an electron bunch and $N_{e^+}$ is the number of particles in a positron bunch. $f_c$ is the average crossing rate, which can be calculated by $f_c = n \cdot f_r$. Where $n$ is the number of bunches and $f_r$ is the revolution frequency. $S$ is a reduction factor which takes geometrical effects linked to the finite cross section and bunch length into account.\cite{herr2006concept} SuperKEKB increased the luminosity by a factor of two compared to KEKB by increasing the number of bunches and the number of particles per bunch.
  
+
+
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=\textwidth]{Bilder/bsSKEK}
-	
-	\caption[Sketch Of The Beam Crossing For KEKB And SuperKEKB]{Sketch of the beam crossing at KEKB (left) and SuperKEKB (right). At KEKB the size of the interaction region was about $10\,\textrm{mm}$. At SuperKEKB it is about $0.5\,\textrm{mm}$}
+	\begin{minipage}[b]{0.45\linewidth}
+		\centering
+		\includegraphics[width=\textwidth]{Bilder/BeamBelle}
+	\end{minipage}
+	\hspace{0.5cm}
+	\begin{minipage}[b]{0.45\linewidth}
+		\centering
+		\includegraphics[width=\textwidth]{Bilder/SuperKEKBBeam}
+	\end{minipage}
+		\caption[Sketch Of The Beam Crossing For KEKB And SuperKEKB]{Sketch of the beam crossing at KEKB (left) and SuperKEKB (right). At KEKB the size of the interaction region was about $10\,\textrm{mm}$. At SuperKEKB it is about $0.5\,\textrm{mm}$.\cite{Beamsize} This figure was edited to make the axis more readable.}
 	\label{fig:beamsize}
+
 \end{figure}
+
+
+
+
+
+
 
 Also the size of the interaction region at SuperKEKB is just one twentieth of what it was at KEKB, resulting in a vertical beam size of $\sigma \approx 50\,\textrm{nm} $. This can be seen in figure \ref{fig:beamsize}. This decrease in beam size, along with the increase in the beam currents, it results in a overall 40-fold increase in luminosity.  \cite{B2TR} \cite{B2B}
 
@@ -1160,14 +1181,16 @@ In the sketch you see that there is a difference between the predicted and the t
 	\centering
 	\begin{minipage}[b]{0.45\linewidth}
 		\centering
+		\includegraphics[width=\textwidth]{Bilder/b2b_2}
 		\includegraphics[width=\textwidth]{Cuts/Data/b2b_TagProbe}
 	\end{minipage}
 	\hspace{0.5cm}
 	\begin{minipage}[b]{0.45\linewidth}
 		\centering
+		\includegraphics[width=\textwidth]{Bilder/b2b_3}
 		\includegraphics[width=\textwidth]{Cuts/Data/b2b_ProbeTag}
 	\end{minipage}
-	\caption[b2bClusterPhi - clusterPhi For Beamtime Data]{Left: Predicted clusterPhi(tag) - Reconstructed clusterPhi(probe). Right: Predicted clusterPhi(probe) - Reconstructed clusterPhi(tag). Both plots are created with beamtime data. The variable to get the predicted clusterPhi value is the b2bclusterPhi variable which was described earlier.}
+	\caption[b2bClusterPhi - clusterPhi For Beamtime Data]{Left: Predicted clusterPhi(tag) - Reconstructed clusterPhi(probe). Right: Predicted clusterPhi(probe) - Reconstructed clusterPhi(tag). Both plots are created with beamtime data. The variable to get the predicted clusterPhi value is the b2bclusterPhi variable which was described earlier. The two top figures represent what is calculated.}
 	\label{fig:b2bData}
 	%Single Data file 608 Efficiency.C makro
 \end{figure}
