@@ -66,9 +66,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.3.5}No MC-Truth Information}{34}{subsection.6.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}Best Candidate Selection on Beamtime Data}{34}{section.6.4}
+\contentsline {section}{\numberline {6.4}Best Candidate Selection on Beamtime-Data}{34}{section.6.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.5}Selecting Bhabha Events}{36}{section.6.5}
+\contentsline {section}{\numberline {6.5}Selecting Bhabha Events}{35}{section.6.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.6}Tracking Efficiency}{38}{section.6.6}
 \defcounter {refsection}{0}\relax 
@@ -76,16 +76,10 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {A}Appendix}{41}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Additional Plots and Tables}{41}{section.A.1}
+\contentsline {chapter}{\nonumberline List of Figures}{45}{chapter*.30}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Tabellen und Abbildungen}{42}{section.A.2}
+\contentsline {chapter}{\nonumberline List of Tables}{47}{chapter*.31}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Weiterf\"uhrende Details zur Arbeit}{43}{section.A.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Figures}{45}{chapter*.28}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Tables}{47}{chapter*.29}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{49}{chapter*.30}
+\contentsline {chapter}{\nonumberline Bibliography}{49}{chapter*.32}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {B}Acknowledgements}{53}{appendix.B}
