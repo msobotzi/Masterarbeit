@@ -896,7 +896,7 @@ n_{\textrm{cand}} = \frac{n_{\textrm{p}}(n_{\textrm{p}} +1)}{2}
 
 $n_{\textrm{p}}$ is the number of reconstructed particles per event. Equation \ref{eq:Triangular} is also known as the equation to calculate \textit{triangular numbers}. For example, if four ECL particles are reconstructed in a single event then ten virtual photon candidates are reconstructed according to equation \ref{eq:Triangular}. Since we only expect one virtual Bhabha photon per event, we have to select the best candidate in each event. This will be done in section \ref{sec:SelectingBhabhaMC}.
 
-Since the entries in the \texttt{vpho:ECLObject} list are sorted by energy, the first daughter of the reconstructed virtual bhabha photon always has a higher energy than the second daughter. I will refer to the first daughter as \texttt{tag} and the second daughter as \texttt{probe}. You can see that the \texttt{tag} daughter has always a higher energy than the \texttt{probe} daughter in figure \ref{fig:clEDiff}. Here the clusterE(\texttt{probe}) is subtracted from the clusterE(\texttt{tag}) and only positive values remain. Therefore, \texttt{tag} is the daughter with the higher energy.
+Since the entries in the \texttt{vpho:ECLObject} list are sorted by energy, the first daughter of the reconstructed virtual bhabha photon always has a higher energy than the second daughter. I will refer to the first daughter as \texttt{HclE} and the second daughter as \texttt{LclE}. You can see that the \texttt{HclE} daughter has always a higher energy than the \texttt{LclE} daughter in figure \ref{fig:clEDiff}. Here the clusterE(\texttt{LclE}) is subtracted from the clusterE(\texttt{HclE}) and only positive values remain. Therefore, \texttt{HclE} is the daughter with the higher energy.
 
 Finally, in the last line of code, all variables of the candidates like mass, momentum, cluster energy of each daughter, does the daughter have a track and so on are written in a tree \texttt{vpho\_bhabha} in a file. The \texttt{outputname} of the output file depends on whether the steering file is running on data or MC. 
 
@@ -921,7 +921,7 @@ The generated file is located at:
 
 Due to the fact that we can verify a Bhabha event with only ECL informations and we are therefore only interested in events which hit the ECL, we apply a $\theta$-cut on the generated daughters (generated daughters means the true generated Monte Carlo daughters). 
 \begin{equation}
-	0.296706 < \theta_{tag,probe} < 2.617990
+	0.296706 < \theta_{HclE,LclE} < 2.617990
 \end{equation}
 
 All the events which survive this cut are written into a list (\textit{mcEvtECL}). We know that the file Monte Carlo file contains 140,000 generated Bhabha events. After this cut, only 24,286 Bhabha events remain.
@@ -987,7 +987,7 @@ As you can see in figure \ref{fig:nCandM} on the right, all reconstructed candid
 
 \subsection{Additional Cuts}
 
-To reduce the number of candidates per event to one, some additional cuts are needed. Sometimes it can happen that two reconstructed particles are associated to one Monte Carlo particle. Some examples of this effect can be seen in table \ref{tab:clusterSplitting}. As you can see, the Monte Carlo generated energy (mcE) for both tag and probe is the same and the reconstructed energy (E) of the tag and the probe particle sum up roughly to their respectively mcE. You can also see that the generated particle is always a electron/positron and that the \textit{additionally} reconstructed particle is always a photon.
+To reduce the number of candidates per event to one, some additional cuts are needed. Sometimes it can happen that two reconstructed particles are associated to one Monte Carlo particle. Some examples of this effect can be seen in table \ref{tab:clusterSplitting}. As you can see, the Monte Carlo generated energy (mcE) for both HclE and LclE is the same and the reconstructed energy (E) of the HclE and the LclE particle sum up roughly to their respectively mcE. You can also see that the generated particle is always a electron/positron and that the \textit{additionally} reconstructed particle is always a photon.
 
 
 
@@ -998,7 +998,7 @@ To reduce the number of candidates per event to one, some additional cuts are ne
 	\makebox[\textwidth]{
 	
 	\begin{tabular}{l|cccc|cccc}
-	 & \multicolumn{4}{c|}{tag} & \multicolumn{4}{c}{probe}\\
+	 & \multicolumn{4}{c|}{HclE} & \multicolumn{4}{c}{LclE}\\
 		\cline{2-9}
 		
  Event Number& E &mcE&PDG&mcPDG & E&mcE&PDG&mcPDG  \\
@@ -1039,7 +1039,7 @@ As an additional safety net, a cut on the number of reconstructed tracks per eve
 	\centering
 	\begin{tabular}{lcccc}
 		
- Event Number&M &Energy(tag) &Energy(probe) &Total Energy ECL \\
+ Event Number&M &Energy(HclE) &Energy(LclE) &Total Energy ECL \\
  \hline
  
 41890917 & 30.6657& 33.8368& 7.2455& 41.0823\\
@@ -1187,24 +1187,24 @@ In the sketch you see that there is a difference between the predicted and the t
 		\includegraphics[width=\textwidth]{Bilder/b2b_3}
 		\includegraphics[width=\textwidth]{Cuts/Data/b2b_ProbeTag.pdf}
 	\end{minipage}
-	\caption[b2bClusterPhi - clusterPhi For Beamtime-Data]{Left: Predicted clusterPhi(tag) - Reconstructed clusterPhi(probe). Right: Predicted clusterPhi(probe) - Reconstructed clusterPhi(tag). Both plots are created with Beamtime-data. The variable to get the predicted clusterPhi value is the b2bclusterPhi variable which was described earlier. The two top sketches represent what is calculated.}
+	\caption[b2bClusterPhi - clusterPhi For Beamtime-Data]{Left: Predicted clusterPhi(HclE) - Reconstructed clusterPhi(LclE). Right: Predicted clusterPhi(LclE) - Reconstructed clusterPhi(HclE). Both plots are created with Beamtime-data. The variable to get the predicted clusterPhi value is the b2bclusterPhi variable which was described earlier. The two top sketches represent what is calculated.}
 	\label{fig:b2bData}
 	%Single Data file 608 Efficiency.C makro
 \end{figure}
 
-In figure \ref{fig:b2bData} the difference between the predicted and the reconstructed clusterPhi angle for Beamtime-Data is shown. In the left plot the reconstructed clusterPhi angle of the probe particle is subtracted by the b2bClusterPhi angle of the tag particle. In the right plot it is vice versa. In both plots we have three peaks. The middle peaks are $\textrm{ee} \rightarrow \gamma \gamma$ events since the predicted and the reconstructed clusterPhi angle is the same. So these are events we want to cut away. The left peak is caused by electrons (most of the tag particles are electrons, therefore the left peak on the right plot is significantly higher\footnote{As described in section \ref{sec:RecBasf2}, the tag daughter is the daughter with the higher cluster energy}), the right peak by positrons. This means that if for example we only cut on the left peak we are only selecting electron particles even if they are wrongly reconstructed as photons, using ECL information only. 
+In figure \ref{fig:b2bData} the difference between the predicted and the reconstructed clusterPhi angle for Beamtime-Data is shown. In the left plot the reconstructed clusterPhi angle of the LclE particle is subtracted by the b2bClusterPhi angle of the HclE particle. In the right plot it is vice versa. In both plots we have three peaks. The middle peaks are $\textrm{ee} \rightarrow \gamma \gamma$ events since the predicted and the reconstructed clusterPhi angle is the same. So these are events we want to cut away. The left peak is caused by electrons (most of the HclE particles are electrons, therefore the left peak on the right plot is significantly higher\footnote{As described in section \ref{sec:RecBasf2}, the HclE daughter is the daughter with the higher cluster energy}), the right peak by positrons. This means that if for example we only cut on the left peak we are only selecting electron particles even if they are wrongly reconstructed as photons, using ECL information only. 
 Therefore the last cut we will add is a cut on the b2bClusterPhi angle. We will only consider events in with:
 
- $0.05 \leq \textrm{abs(b2bClusterPhi(tag) - clusterPhi(probe)} \leq 0.2 $ and  $0.05 \leq \textrm{abs(b2bClusterPhi(probe) - clusterPhi(tag))} \leq 0.2$
+ $0.05 \leq \textrm{abs(b2bClusterPhi(HclE) - clusterPhi(LclE)} \leq 0.2 $ and  $0.05 \leq \textrm{abs(b2bClusterPhi(LclE) - clusterPhi(HclE))} \leq 0.2$
 
 An exception occurs for $\Phi \approx \pi$ or $\Phi \approx -\pi$. It can happen that the reconstructed clusterPhi angle is around $\pi$ but the b2bClusterPhi angle is calculated to be around $-\pi$, then the difference between the predicted and reconstructed clusterPhi angle is around $2\pi$. This can be seen in figure \ref{fig:b2bData_Whole}
 
 Finally, the b2bClusterPhi variable cut can be summarized in the following three conditions. Each event has to fulfill one of them to be taken into account.
 
 \begin{enumerate}
-	\item $0.05 \leq \textrm{abs(b2bClusterPhi(tag) - clusterPhi(probe)} \leq 0.2 \, \&\& \, 0.05 \leq \textrm{abs(b2bClusterPhi(probe) - clusterPhi(tag))} \leq 0.2$
-	\item $2\pi - 0.2 \leq \textrm{abs(b2bClusterPhi(tag) - clusterPhi(probe)} \leq 2\pi - 0.05 \, \&\& \, 0.05 \leq \textrm{abs(b2bClusterPhi(probe) - clusterPhi(tag))} \leq 0.2$
-	\item $0.05 \leq \textrm{abs(b2bClusterPhi(tag) - clusterPhi(probe)} \leq 0.2 \, \&\& \, 2\pi - 0.2 \leq \textrm{abs(b2bClusterPhi(probe) - clusterPhi(tag))} \leq 2\pi - 0.05$
+	\item $0.05 \leq \textrm{abs(b2bClusterPhi(HclE) - clusterPhi(LclE)} \leq 0.2 \, \&\& \, 0.05 \leq \textrm{abs(b2bClusterPhi(LclE) - clusterPhi(HclE))} \leq 0.2$
+	\item $2\pi - 0.2 \leq \textrm{abs(b2bClusterPhi(HclE) - clusterPhi(LclE)} \leq 2\pi - 0.05 \, \&\& \, 0.05 \leq \textrm{abs(b2bClusterPhi(LclE) - clusterPhi(HclE))} \leq 0.2$
+	\item $0.05 \leq \textrm{abs(b2bClusterPhi(HclE) - clusterPhi(LclE)} \leq 0.2 \, \&\& \, 2\pi - 0.2 \leq \textrm{abs(b2bClusterPhi(LclE) - clusterPhi(HclE))} \leq 2\pi - 0.05$
 \end{enumerate}
 
 
@@ -1244,7 +1244,7 @@ Arbeiten an der Aufgabenstellung.
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=10cm]{AnhangPlots/clEDiff.pdf}
-	\caption[clusterE(tag) - clusterE(probe)]{clusterE(tag) - clusterE(probe) of the reconstructed candidates. This shows that the tag daughters has always a higher cluster energy than the probe daughter.}
+	\caption[clusterE(HclE) - clusterE(LclE)]{clusterE(HclE) - clusterE(LclE) of the reconstructed candidates. This shows that the HclE daughters has always a higher cluster energy than the LclE daughter.}
 	\label{fig:clEDiff}
 \end{figure}
 
@@ -1288,7 +1288,7 @@ Arbeiten an der Aufgabenstellung.
 		\centering
 		\includegraphics[width=\textwidth]{AnhangPlots/b2b_TagProbe_Data_Whole.pdf}
 	\end{minipage}
-	\caption[b2bClusterPhi - clusterPhi For Data (Whole Range)]{Left: Predicted clusterPhi(tag) - Reconstructed clusterPhi(probe). Right: Predicted clusterPhi(probe) - Reconstructed clusterPhi(tag). Both plots are created with Beamtime-Data. Note the logarithmic scale.}
+	\caption[b2bClusterPhi - clusterPhi For Data (Whole Range)]{Left: Predicted clusterPhi(HclE) - Reconstructed clusterPhi(LclE). Right: Predicted clusterPhi(LclE) - Reconstructed clusterPhi(HclE). Both plots are created with Beamtime-Data. Note the logarithmic scale.}
 	\label{fig:b2bData_Whole}
 \end{figure}
 
@@ -1308,7 +1308,7 @@ Arbeiten an der Aufgabenstellung.
 		\centering
 		\includegraphics[width=\textwidth]{Cuts/b2bPT_mc.pdf}
 	\end{minipage}
-	\caption[b2bClusterPhi - clusterPhi For MC]{Left: Predicted clusterPhi(tag) - Reconstructed clusterPhi(probe). Right: Predicted clusterPhi(probe) - Reconstructed clusterPhi(tag). Both plots are created with MC data. There is no middle peak because only $\textrm{ee} \rightarrow \textrm{ee}$ events were generated.}
+	\caption[b2bClusterPhi - clusterPhi For MC]{Left: Predicted clusterPhi(HclE) - Reconstructed clusterPhi(LclE). Right: Predicted clusterPhi(LclE) - Reconstructed clusterPhi(HclE). Both plots are created with MC data. There is no middle peak because only $\textrm{ee} \rightarrow \textrm{ee}$ events were generated.}
 	\label{fig:b2bMC}
 \end{figure}
 
@@ -1326,7 +1326,7 @@ Arbeiten an der Aufgabenstellung.
 		\centering
 		\includegraphics[width=\textwidth]{AnhangPlots/b2b_TagProbe_Data_Whole.pdf}
 	\end{minipage}
-	\caption[b2bClusterPhi - clusterPhi For MC (Whole Range)]{Left: Predicted clusterPhi(tag) - Reconstructed clusterPhi(probe). Right: Predicted clusterPhi(probe) - Reconstructed clusterPhi(tag). Both plots are created with MC data. Note the logarithmic scale.}
+	\caption[b2bClusterPhi - clusterPhi For MC (Whole Range)]{Left: Predicted clusterPhi(HclE) - Reconstructed clusterPhi(LclE). Right: Predicted clusterPhi(LclE) - Reconstructed clusterPhi(HclE). Both plots are created with MC data. Note the logarithmic scale.}
 	\label{fig:b2bMC_Whole}
 \end{figure}
 

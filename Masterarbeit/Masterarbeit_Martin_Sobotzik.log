@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.21)  3 JUL 2019 16:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.21)  8 JUL 2019 14:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2353,17 +2353,17 @@ Package pdftex.def Info: Cuts/Data/nCandData.pdf used on input line 1151.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Bilder/b2b_2.pdf, id=948, 453.35774pt x 250.97263pt>
+<Bilder/b2b_2.pdf, id=948, 453.35774pt x 251.47615pt>
 File: Bilder/b2b_2.pdf Graphic file (type pdf)
  <use Bilder/b2b_2.pdf>
 Package pdftex.def Info: Bilder/b2b_2.pdf used on input line 1167.
-(pdftex.def)             Requested size: 284.52756pt x 157.51234pt.
+(pdftex.def)             Requested size: 284.52756pt x 157.82835pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [35 <./Cuts/nCandNoMCInfo.pdf, page is rotated 90 degrees>]
-Underfull \vbox (badness 2020) has occurred while \output is active []
+Underfull \vbox (badness 1852) has occurred while \output is active []
 
  [36 <./Cuts/Data/nCandData.pdf, page is rotated 90 degrees> <./Bilder/b2b_2.pd
 f>]
@@ -2371,7 +2371,7 @@ File: Bilder/b2b_2.pdf Graphic file (type pdf)
 
 <use Bilder/b2b_2.pdf>
 Package pdftex.def Info: Bilder/b2b_2.pdf used on input line 1181.
-(pdftex.def)             Requested size: 183.09227pt x 101.35995pt.
+(pdftex.def)             Requested size: 183.09227pt x 101.56332pt.
 
 <Cuts/Data/b2b_TagProbe.pdf, id=1051, 569.12625pt x 429.605pt>
 File: Cuts/Data/b2b_TagProbe.pdf Graphic file (type pdf)
@@ -2393,7 +2393,13 @@ File: Cuts/Data/b2b_ProbeTag.pdf Graphic file (type pdf)
 Package pdftex.def Info: Cuts/Data/b2b_ProbeTag.pdf used on input line 1188.
 (pdftex.def)             Requested size: 183.09227pt x 138.21059pt.
 
-Underfull \hbox (badness 7777) in paragraph at lines 1198--1199
+Underfull \hbox (badness 1412) in paragraph at lines 1190--1190
+[][][]|\T1/lmr/m/n/10.95 Left: Pre-dicted clus-ter-Phi(HclE) - Re-con-structed 
+clus-ter-Phi(LclE).
+ []
+
+
+Underfull \hbox (badness 6808) in paragraph at lines 1198--1199
 []$\OT1/lmr/m/n/10.95 0\OML/lmm/m/it/10.95 :\OT1/lmr/m/n/10.95 05 \OMS/lmsy/m/n
 /10.95 ^^T [] ^^T \OT1/lmr/m/n/10.95 0\OML/lmm/m/it/10.95 :\OT1/lmr/m/n/10.95 2
 $ \T1/lmr/m/n/10.95 and $\OT1/lmr/m/n/10.95 0\OML/lmm/m/it/10.95 :\OT1/lmr/m/n/
@@ -2405,7 +2411,7 @@ Underfull \vbox (badness 1173) has occurred while \output is active []
 
  [37 <./Cuts/Data/b2b_TagProbe.pdf, page is rotated 90 degrees> <./Bilder/b2b_3
 .pdf> <./Cuts/Data/b2b_ProbeTag.pdf, page is rotated 90 degrees>]
-Underfull \hbox (badness 5374) in paragraph at lines 1205--1206
+Underfull \hbox (badness 4454) in paragraph at lines 1205--1206
 []$\OT1/lmr/m/n/10.95 0\OML/lmm/m/it/10.95 :\OT1/lmr/m/n/10.95 05 \OMS/lmsy/m/n
 /10.95 ^^T [] ^^T \OT1/lmr/m/n/10.95 0\OML/lmm/m/it/10.95 :\OT1/lmr/m/n/10.95 2
  && 0\OML/lmm/m/it/10.95 :\OT1/lmr/m/n/10.95 05 \OMS/lmsy/m/n/10.95 ^^T
@@ -2463,9 +2469,9 @@ Package pdftex.def Info: AnhangPlots/b2b_TagProbe_Data_Whole.pdf used on input
 line 1289.
 (pdftex.def)             Requested size: 183.09227pt x 138.21059pt.
 
-Underfull \hbox (badness 1533) in paragraph at lines 1291--1291
-[][][]|\T1/lmr/m/n/10.95 Left: Pre-dicted clus-ter-Phi(tag) - Re-con-structed c
-lus-ter-Phi(probe).
+Underfull \hbox (badness 1019) in paragraph at lines 1291--1291
+[][][]|\T1/lmr/m/n/10.95 Left: Pre-dicted clus-ter-Phi(HclE) - Re-con-structed 
+clus-ter-Phi(LclE).
  []
 
 <Cuts/b2bTP_mc.pdf, id=1226, 569.12625pt x 454.69875pt>
@@ -2482,9 +2488,9 @@ File: Cuts/b2bPT_mc.pdf Graphic file (type pdf)
 Package pdftex.def Info: Cuts/b2bPT_mc.pdf used on input line 1309.
 (pdftex.def)             Requested size: 183.09227pt x 146.28363pt.
 
-Underfull \hbox (badness 1533) in paragraph at lines 1311--1311
-[][][]|\T1/lmr/m/n/10.95 Left: Pre-dicted clus-ter-Phi(tag) - Re-con-structed c
-lus-ter-Phi(probe).
+Underfull \hbox (badness 1019) in paragraph at lines 1311--1311
+[][][]|\T1/lmr/m/n/10.95 Left: Pre-dicted clus-ter-Phi(HclE) - Re-con-structed 
+clus-ter-Phi(LclE).
  []
 
 
@@ -2502,9 +2508,9 @@ Package pdftex.def Info: AnhangPlots/b2b_TagProbe_Data_Whole.pdf used on input
 line 1327.
 (pdftex.def)             Requested size: 183.09227pt x 138.21059pt.
 
-Underfull \hbox (badness 1533) in paragraph at lines 1329--1329
-[][][]|\T1/lmr/m/n/10.95 Left: Pre-dicted clus-ter-Phi(tag) - Re-con-structed c
-lus-ter-Phi(probe).
+Underfull \hbox (badness 1019) in paragraph at lines 1329--1329
+[][][]|\T1/lmr/m/n/10.95 Left: Pre-dicted clus-ter-Phi(HclE) - Re-con-structed 
+clus-ter-Phi(LclE).
  []
 
 
@@ -2608,7 +2614,7 @@ ublic/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/shar
 e/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/lm
 /lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/
 msbm10.pfb>
-Output written on Masterarbeit_Martin_Sobotzik.pdf (61 pages, 5212702 bytes).
+Output written on Masterarbeit_Martin_Sobotzik.pdf (61 pages, 5208101 bytes).
 PDF statistics:
  1737 PDF objects out of 2073 (max. 8388607)
  1141 compressed objects within 12 object streams
