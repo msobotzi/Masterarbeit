@@ -46,6 +46,7 @@
 \usepackage{afterpage}
 \usepackage{listings}
 \usepackage{float}
+\usepackage{scrextend}
 \floatstyle{plaintop}
 \restylefloat{table}
 
@@ -807,6 +808,75 @@ To distinguish between muons and hadrons, the KLM takes advantage of the high pe
 \label{sec:TDAS}
 
 
+\lettrine{T}{he} online event selection system (trigger) for Belle II makes it possible to acquire data from the detector based on information from a set of sub-detectors. The individual triggers are structured in an hierarchy. Each sub-trigger system provides the trigger information from the corresponding sub-detector to the global decision logic (GDL). This global trigger finally decides whether the event should be written out or not.\cite{B2TR}
+
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=12cm]{Bilder/trigger}
+	\caption[Schematic Overview Of The Trigger System]{\textcolor{red}{text} \cite{B2TR}}
+	\label{fig:Trigger}
+\end{figure}
+
+
+
+
+The trigger system has to fulfill the following requirements:\cite{B2TR}
+
+\begin{enumerate}
+	\setcounter{enumi}{-1}
+	\item high efficiency for hadronic events from $\Upsilon(4\textrm{S}) \rightarrow B\bar{B}$ and from continuum
+	\item a maximum average trigger rate of $30\,\textrm{kHz}$
+	\item a fixed latency of about $5\,\mu \textrm{s}$
+	\item a timing precision of less than $10\,\textrm{ns}$
+	\item a minimum two-event separation of $200\,\textrm{ns}$
+	\item a trigger configuration that is flexible and robust
+\end{enumerate}
+
+
+At SuperKEKb bunch crossing happens almost continuously, since the radio-frequency (RF) is about $508\,\textrm{Hz}$ and every second or third period produces an event.\cite{B2TR} The total cross section and trigger rates at a luminosity of  $L = 8\cdot 10^{35} \, \textrm{cm}^{-2} \textrm{s}^{-1}$ for various physics processes is shown in table \ref{tab:Lumi}.
+
+
+
+\begin{table}[h!]
+	\centering
+\begin{minipage}{\textwidth}
+\renewcommand{\thefootnote}{\emph{\alph{footnote}}}
+\begin{center}
+
+		\begin{tabular}{ccc}
+
+
+ Physics process&Cross section (nb) &Rate (Hz) \\
+ \hline
+$\Upsilon(\textrm{4S} \rightarrow B\bar{B}$) & 1.2&960 \\
+ $\textrm{e}^+ \textrm{e}^- \rightarrow \textrm{continuum}$&2.8 &2200 \\
+ $\mu^+ \mu^-$&0.8 &640 \\
+ $\tau^+ \tau^-$&0.8 &640 \\
+ $\textrm{Bhabha} \,\,(\theta_{\textrm{lab}} \geq 17^{\circ})$ &44 &350 \footnote{\label{note1}The rate is pre-scaled by a factor of 1/100}\\
+ 
+ $\gamma \gamma \,\,(\theta_{\textrm{lab}} \geq 17^{\circ})$& 2.4&19 \footref{note1} \\
+ $2\gamma \,\,\textrm{processes } (\theta_{\textrm{lab}} \geq 17^{\circ},\,\, p_t \geq 0.1\,\textrm{GeV/c} )$&$\sim 80$ &$\sim 15000$ \\
+ \hline
+ Total& $\sim 130$& $\sim 20000$\\
+		\end{tabular}
+
+	\caption[Luminosity at Belle II]{Total cross section and trigger rates for $L = 8\cdot 10^{35} \, \textrm{cm}^{-2} \textrm{s}^{-1}$ from various physics processes at the $\Upsilon(4\textrm{S})$.\cite{LumiTrigger}}
+	\label{tab:Lumi}
+
+\renewcommand{\thefootnote}{\arabic{footnote}}
+\end{center}
+\end{minipage}
+\end{table}
+
+The luminosity is measured by using Bhabha and $\gamma \gamma$ events. These events are also used to calibrate the detector response. Due to the high luminosity, these events are very dominant. That is the reason why there is a prescaling factor of 100  on these events. This means that on  predetermined fraction of these events are accepted after satisfying the trigger requirements.
+After a beam collision, the GDL decides within about $5\,\mu \textrm{s}$ if the event should be accepted and if it should be written out. Since the GDL is the first module to make a decision, and since it is dead time free, it is also called Level 1 trigger.\cite{B2TR}
+
+
+
+
+
+
 \chapter{Tools}
 \label{sec:Tools}
 
@@ -829,7 +899,7 @@ To distinguish between muons and hadrons, the KLM takes advantage of the high pe
 
 
 
-\chapter{Tracking Efficiencies}
+\chapter{Tracking Efficiencies For Phase2 Data}
 \label{sec:TrackingEff}
 
 \lettrine{I}{n} this chapter the tracking efficiency studies will be presented. We will start with a definition of the tracking efficiency we want to calculate. Then the reconstruction and selection of the Bhabha events will be described. Finally the tracking efficiency for MC and for Beamtime-Data will be calculated.

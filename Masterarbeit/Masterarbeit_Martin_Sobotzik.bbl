@@ -574,6 +574,48 @@
     \field{year}{2006}
   \endentry
 
+  \entry{LumiTrigger}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=IY}{%
+         family={Iwasaki},
+         familyi={I\bibinitperiod},
+         given={Yoshihito},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=CB}{%
+         family={Cheon},
+         familyi={C\bibinitperiod},
+         given={ByungGu},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=WE}{%
+         family={Won},
+         familyi={W\bibinitperiod},
+         given={Eunil},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=VG}{%
+         family={Varner},
+         familyi={V\bibinitperiod},
+         given={Gary},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{IY+1}
+    \strng{fullhash}{IYCBWEVG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{booktitle}{2010 17th IEEE-NPSS Real Time Conference}
+    \field{pages}{1\bibrangedash 9}
+    \field{title}{Level 1 trigger system for the Belle II experiment}
+    \field{year}{2010}
+  \endentry
+
   \entry{leo2012techniques}{book}{}
     \name{author}{1}{}{%
       {{hash=LWR}{%

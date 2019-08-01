@@ -42,39 +42,41 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.1}{\ignorespaces Number Of Candidates And Invariant Mass (No Cuts)}}{30}{figure.caption.17}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.2}{\ignorespaces Number Of Candidates And Invariant Mass ($\textrm {M} >8\tmspace +\thinmuskip {.1667em}\textrm {GeV}$)}}{31}{figure.caption.18}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.3}{\ignorespaces Cluster Splitting Energy Distribution}}{32}{figure.caption.19}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.4}{\ignorespaces Number Of Candidates Per Event (All Cuts)}}{33}{figure.caption.20}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.5}{\ignorespaces Number Of Candidates Per Event With No MC-Truth Info (All Cuts)}}{35}{figure.caption.21}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.6}{\ignorespaces Number Of Candidates Per Event for Beamtime-Data (All Cuts)}}{36}{figure.caption.22}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.7}{\ignorespaces Sketch Of The b2bClusterPhi Variable}}{36}{figure.caption.23}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.8}{\ignorespaces b2bClusterPhi - clusterPhi For Beamtime-Data}}{37}{figure.caption.24}
+\contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces Schematic Overview Of The Trigger System}}{24}{figure.caption.17}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.1}{\ignorespaces clusterE(HclE) - clusterE(LclE)}}{41}{figure.caption.25}
+\contentsline {figure}{\numberline {\relax 6.1}{\ignorespaces Number Of Candidates And Invariant Mass (No Cuts)}}{30}{figure.caption.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.2}{\ignorespaces Cluster Splitting Angle Distribution}}{42}{figure.caption.26}
+\contentsline {figure}{\numberline {\relax 6.2}{\ignorespaces Number Of Candidates And Invariant Mass ($\textrm {M} >8\tmspace +\thinmuskip {.1667em}\textrm {GeV}$)}}{31}{figure.caption.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.3}{\ignorespaces b2bClusterPhi - clusterPhi For Data (Whole Range)}}{42}{figure.caption.27}
+\contentsline {figure}{\numberline {\relax 6.3}{\ignorespaces Cluster Splitting Energy Distribution}}{32}{figure.caption.20}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.4}{\ignorespaces b2bClusterPhi - clusterPhi For MC}}{43}{figure.caption.28}
+\contentsline {figure}{\numberline {\relax 6.4}{\ignorespaces Number Of Candidates Per Event (All Cuts)}}{33}{figure.caption.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.5}{\ignorespaces b2bClusterPhi - clusterPhi For MC (Whole Range)}}{43}{figure.caption.29}
+\contentsline {figure}{\numberline {\relax 6.5}{\ignorespaces Number Of Candidates Per Event With No MC-Truth Info (All Cuts)}}{35}{figure.caption.22}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 6.6}{\ignorespaces Number Of Candidates Per Event for Beamtime-Data (All Cuts)}}{36}{figure.caption.23}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 6.7}{\ignorespaces Sketch Of The b2bClusterPhi Variable}}{36}{figure.caption.24}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 6.8}{\ignorespaces b2bClusterPhi - clusterPhi For Beamtime-Data}}{37}{figure.caption.25}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.1}{\ignorespaces clusterE(HclE) - clusterE(LclE)}}{41}{figure.caption.26}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.2}{\ignorespaces Cluster Splitting Angle Distribution}}{42}{figure.caption.27}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.3}{\ignorespaces b2bClusterPhi - clusterPhi For Data (Whole Range)}}{42}{figure.caption.28}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.4}{\ignorespaces b2bClusterPhi - clusterPhi For MC}}{43}{figure.caption.29}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.5}{\ignorespaces b2bClusterPhi - clusterPhi For MC (Whole Range)}}{43}{figure.caption.30}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
