@@ -332,12 +332,13 @@ Despite the success of the standard model as an effective theory, it fails answe
 \section{Bhabha Scattering}
 \label{sec:Bhabha}
 
-In this section we want to shortly discuss Bhabha scattering. We will start with the physics of Bhabha scattering and then discuss the Bhabha kinematics at Belle II.
+In this section, we want to shortly discuss Bhabha scattering. We will start with the physics of Bhabha scattering and then discuss the Bhabha kinematics at Belle II.
  
 \subsection{Bhabha Process}
  \label{sec:BhabhaProcess}
  Bhabha scattering is a quantum electromechanical process between an electron and a positron. It is named after the Indian  physicist H. Bhabha who first derived the electron-positron scattering cross section in 1935.\cite{Bhabha}
  
+ Bhabha scattering contains two different processes.
  
 
 \tikzset{
@@ -505,14 +506,25 @@ Beams are hitting each other under an angle.
 		\centering
 		\includegraphics[width=\textwidth]{Bilder/theta_lab}
 	\end{minipage}
-	\caption[$\theta$-Energy-Distribution In The CMS And LAB Frame]{ Bhabha scattering in different frames. In the cms the particle has the same Belle II energy in every $\theta$-direction. Left: The $\theta$-Energy-distribution in the cms frame is shown. Right: The $\theta$-Energy-distribution in the lab frame is shown.}
+	\caption[$\theta$-Energy-Distribution In The CMS And LAB Frame]{Bhabha scattering in different frames. In the cms the particle has the same Belle II energy in every $\theta$-direction. Left: The $\theta$-Energy-distribution in the cms frame is shown. Right: The $\theta$-Energy-distribution in the lab frame is shown. The cross section is not factored in. A continuous distribution in $\theta$ is assumed.}
 
 \end{figure}
 
 
-
-
-
+\begin{figure}[h!]
+	\centering
+	\begin{minipage}[b]{0.45\linewidth}
+		\centering
+		\includegraphics[width=\textwidth]{Bilder/ptTheta_CMS}
+	\end{minipage}
+	\hspace{0.5cm}
+	\begin{minipage}[b]{0.45\linewidth}
+		\centering
+		\includegraphics[width=\textwidth]{Bilder/ptTheta}
+	\end{minipage}
+	\caption[$\theta$-pt-Distribution In The CMS And LAB Frame]{The cross-section is not factored in. A continuous distribution in $\theta$ is assumed.}
+	
+\end{figure}
 
 
 
@@ -530,7 +542,7 @@ and the positron beam has an energy of $4\,\textnormal{GeV}$. These beams collid
 \label{sec:KEK}
 This section will only provide a rough overview of the SuperKEKB accelerator since the focus of this work is on the analysis. 
 
-SuperKEKB is an upgrade of the KEKB accelerator. KEKB was also an asymmetric electron positron accelerator in the period from 1998 to 2010, but the energies were different compared to SuperKEKB. At KEKB the electrons were accelerated to an energy of $8\,\textrm{GeV}$ and the positrons to an energy of $3.5\,\textrm{GeV}$. KEKB was also a B-factory and the reaction products were then detected in the Belle detector. In 2009 KEKB achieved an instantaneous luminosity of $2.11 \cdot 10^{34}\,\textrm{cm}^{-1}\textrm{s}^{-1}$. This was the world record at that time. KEKB was discontinued after more than 10 years, to be upgraded to SuperKEKB.\cite{PTEP}
+SuperKEKB is an upgrade of the KEKB accelerator. KEKB was also an asymmetric electron positron accelerator in the period from 1998 to 2010, but the energies were different compared to SuperKEKB. At KEKB the electrons were accelerated to an energy of $8\,\textrm{GeV}$ and the positrons to an energy of $3.5\,\textrm{GeV}$. KEKB was also a B-factory and the reaction products were then detected in the Belle detector. In 2009 KEKB achieved an instantaneous luminosity of $\mathcal{L} = 2.11 \cdot 10^{34}\,\textrm{cm}^{-1}\textrm{s}^{-1}$. This was the world record at that time. KEKB was discontinued after more than 10 years, to be upgraded to SuperKEKB.\cite{PTEP}
 
 
 \begin{figure}[h!]
@@ -808,13 +820,18 @@ To distinguish between muons and hadrons, the KLM takes advantage of the high pe
 \label{sec:TDAS}
 
 
-\lettrine{T}{he} online event selection system (trigger) for Belle II makes it possible to acquire data from the detector based on information from a set of sub-detectors. The individual triggers are structured in an hierarchy. Each sub-trigger system provides the trigger information from the corresponding sub-detector to the global decision logic (GDL). This global trigger finally decides whether the event should be written out or not.\cite{B2TR}
+\lettrine{I}{n} this chapter a short introduction to the trigger system and the data acquisition system at Belle II is provided.
+
+
+\section{Trigger}
+
+The online event selection system (trigger) for Belle II makes it possible to acquire data from the detector based on information from a set of sub-detectors. The individual triggers are structured in an hierarchy. Each sub-trigger system provides the trigger information from the corresponding sub-detector to the global decision logic (GDL). This global trigger finally decides whether the event should be written out or not. \cite{B2TR} A schematic overview of this trigger hierarchy can be found in figure \ref{fig:Trigger}.
 
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=12cm]{Bilder/trigger}
-	\caption[Schematic Overview Of The Trigger System]{\textcolor{red}{text} \cite{B2TR}}
+	\includegraphics[width=12cm]{Bilder/Trigger}
+	\caption[Schematic Overview Of The Trigger System]{Schematic overview of the Belle II trigger system. The four suub-trigger systems send their outputs to the Global Decision Logic. The GDL then performs the final online trigger decision. \cite{LumiTrigger}}
 	\label{fig:Trigger}
 \end{figure}
 
@@ -834,7 +851,7 @@ The trigger system has to fulfill the following requirements:\cite{B2TR}
 \end{enumerate}
 
 
-At SuperKEKb bunch crossing happens almost continuously, since the radio-frequency (RF) is about $508\,\textrm{Hz}$ and every second or third period produces an event.\cite{B2TR} The total cross section and trigger rates at a luminosity of  $L = 8\cdot 10^{35} \, \textrm{cm}^{-2} \textrm{s}^{-1}$ for various physics processes is shown in table \ref{tab:Lumi}.
+At SuperKEKb bunch crossing happens almost continuously, since the radio-frequency (RF) is about $508\,\textrm{Hz}$ and every second or third period produces an event.\cite{B2TR} The total cross section and trigger rates at a luminosity of  $	\mathcal{L} = 8\cdot 10^{35} \, \textrm{cm}^{-2} \textrm{s}^{-1}$ for various physics processes is shown in table \ref{tab:Lumi}.
 
 
 
@@ -861,7 +878,7 @@ $\Upsilon(\textrm{4S} \rightarrow B\bar{B}$) & 1.2&960 \\
  Total& $\sim 130$& $\sim 20000$\\
 		\end{tabular}
 
-	\caption[Luminosity at Belle II]{Total cross section and trigger rates for $L = 8\cdot 10^{35} \, \textrm{cm}^{-2} \textrm{s}^{-1}$ from various physics processes at the $\Upsilon(4\textrm{S})$.\cite{LumiTrigger}}
+	\caption[Luminosity at Belle II]{Total cross section and trigger rates for $\mathcal{L} = 8\cdot 10^{35} \, \textrm{cm}^{-2} \textrm{s}^{-1}$ from various physics processes at the $\Upsilon(4\textrm{S})$.\cite{LumiTrigger}}
 	\label{tab:Lumi}
 
 \renewcommand{\thefootnote}{\arabic{footnote}}
@@ -870,8 +887,23 @@ $\Upsilon(\textrm{4S} \rightarrow B\bar{B}$) & 1.2&960 \\
 \end{table}
 
 The luminosity is measured by using Bhabha and $\gamma \gamma$ events. These events are also used to calibrate the detector response. Due to the high luminosity, these events are very dominant. That is the reason why there is a prescaling factor of 100  on these events. This means that on  predetermined fraction of these events are accepted after satisfying the trigger requirements.
-After a beam collision, the GDL decides within about $5\,\mu \textrm{s}$ if the event should be accepted and if it should be written out. Since the GDL is the first module to make a decision, and since it is dead time free, it is also called Level 1 trigger.\cite{B2TR}
+After a beam collision, the GDL decides within about $5\,\mu \textrm{s}$ if the event should be accepted and if it should be written out. Since the GDL is the first module to make a decision, and since it is dead time free, it is also called Level-1 trigger.\cite{B2TR}
 
+\section{Data Acquisition System}
+\label{sec:DAQ}
+
+The data acquisition system (DAQ) reads out the detector signals once the Level-1 trigger decision is given by the trigger system. Starting from the front-end electronics, DAQ transfers the data trough multiple steps of data processing to the storage system. With the exception of the PXD, all sub-detectors are read out by the unified data link system called the Belle2Link. The working principle of the DAQ can be seen in figure \ref{fig:DAQ}.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\textwidth]{Bilder/DAQ}
+	\caption[Working Principle of the DAQ]{\textcolor{red}{Quelle} Working principle of the Belle II DAQ. The data is transfered by about 300 COPPER boards to about 30 R/O PCs. The data is then put together by the first event builder and the events are reconstructed by the HLT afterwards. The HLT contains $O(10)$ units with about 400 cores each. Then, the reconstructed data is merged with to data coming from the PXD. Finally, the data is saved on about 10 storage units.}
+	\label{fig:DAQ}
+\end{figure}
+
+The first part of the Belle2Link is the common readout platform (COPPER). This platform transforms the different data formats coming from the sub-detectors into a common data format. The COPPER boards then send their output to the event builder, which merges the data coming from the same collision to an event. With the information from the fully reconstructed events, the high level trigger (HLT) is able to finally decide whether the event should be stored or not. If the event should be recorded, it is then merged with the information coming from the PXD data in the second event builder.
+
+Once the PXD receives the trigger signal, the readout starts. These data are stored on online selector nodes for up to $5\,\textrm{s}$. Meanwhile, the HLT performs the event reconstruction. Based on information coming from the SVD and CDC, the charged tracks, reconstructed in the HTL, are transfered back to the PXD and regions of interest (ROI) are formed. Only pixels of the PXD within the ROI are kept and considered in the second event builder. Complementarity to the HLT, the data concentrator also searches for RIOs. The HLT is optimized for high momentum and the data concentrator is optimized for low momentum particles. Both systems require hits in all SVD layers. 
 
 
 
@@ -1047,7 +1079,7 @@ The first cut to reduce the number of reconstructed candidates per event is a ma
 		\centering
 		\includegraphics[width=\textwidth]{Cuts/MM.pdf}
 	\end{minipage}
-	\caption[Number Of Candidates And Invariant Mass ($\textrm{M} >8\,\textrm{GeV}$)]{A cut on the invariant mass is applied. The reconstructed invariant mass has to be bigger than $8\,\textrm{GeV}$. Left: The number of reconstructed candidates per event is shown. We select 17,539 events. Right: The invariant mass of the reconstructed candidates is shown. We select 17558 candidates.}
+	\caption[Number Of Candidates And Invariant Mass ($\textrm{M} >8\,\textrm{GeV}$)]{A cut on the invariant mass is applied. The reconstructed invariant mass has to be bigger than $8\,\textrm{GeV}$. Left: The number of reconstructed candidates per event is shown. We select 17,539 events. Right: The invariant mass of the reconstructed candidates is shown. We select 17,558 candidates.}
 	\label{fig:nCandM}
 \end{figure}
 
@@ -1127,7 +1159,7 @@ As an additional safety net, a cut on the number of reconstructed tracks per eve
 \label{tab:ESum}
 \end{table}
 
-As you can see in table \ref{tab:ESum}, sometimes the invariant mass of the reconstructed candidates is way bigger than $10.58\,\textrm{GeV}$. To neglect these candidates an upper cut on the reconstructed invariant mass is introduced. Now, the reconstructed invariant mass has to be smaller than $12\,\textrm{GeV}$.
+As you can see in table \ref{tab:ESum}, sometimes the invariant mass of the reconstructed candidates is way bigger than $10.58\,\textrm{GeV}$. To neglect these candidates an upper cut on the reconstructed invariant mass is introduced. Now, the reconstructed invariant mass also has to be smaller than $12\,\textrm{GeV}$.
 
 Also, sometimes the total energy in the ECL is way higher than expected. To exclude these events an upper cut on the total energy per event in the ECL is added (The cut is called \texttt{MclE2HnTSumE}). The total energy in the ECL must not exceed $15\,\textrm{GeV}$.
 
@@ -1290,6 +1322,16 @@ With all these introduced cuts we are now able to calculate tracking efficiencie
 \label{sec:TrackingEfficiency}
 
 First of all, we need more statistics.
+
+
+
+
+
+\chapter{Tracking Efficiencies For Phase3 Data}
+
+
+
+
 
 %_______________________________________________________________________________
 \chapter{Conclusion}

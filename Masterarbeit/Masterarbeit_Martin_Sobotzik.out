@@ -17,25 +17,28 @@
 \BOOKMARK [1][-]{section.3.7}{Electromagnetic Calorimeter}{chapter.3}% 17
 \BOOKMARK [1][-]{section.3.8}{KL0 And Muon Detector }{chapter.3}% 18
 \BOOKMARK [0][-]{chapter.4}{Trigger And Data Acquisition System}{}% 19
-\BOOKMARK [0][-]{chapter.5}{Tools}{}% 20
-\BOOKMARK [1][-]{section.5.1}{Root}{chapter.5}% 21
-\BOOKMARK [1][-]{section.5.2}{Basf2}{chapter.5}% 22
-\BOOKMARK [1][-]{section.5.3}{GridKa}{chapter.5}% 23
-\BOOKMARK [0][-]{chapter.6}{Tracking Efficiencies For Phase2 Data}{}% 24
-\BOOKMARK [1][-]{section.6.1}{Definition Of Tracking Efficiency}{chapter.6}% 25
-\BOOKMARK [1][-]{section.6.2}{Reconstructing Bhabha Events With Basf2}{chapter.6}% 26
-\BOOKMARK [1][-]{section.6.3}{Best Candidate Selection On Monte Carlo}{chapter.6}% 27
-\BOOKMARK [2][-]{subsection.6.3.1}{ECL-Cut}{section.6.3}% 28
-\BOOKMARK [2][-]{subsection.6.3.2}{Mass-Cut}{section.6.3}% 29
-\BOOKMARK [2][-]{subsection.6.3.3}{Additional Cuts}{section.6.3}% 30
-\BOOKMARK [2][-]{subsection.6.3.4}{Cut Efficiency}{section.6.3}% 31
-\BOOKMARK [2][-]{subsection.6.3.5}{No MC-Truth Information}{section.6.3}% 32
-\BOOKMARK [1][-]{section.6.4}{Best Candidate Selection on Beamtime-Data}{chapter.6}% 33
-\BOOKMARK [1][-]{section.6.5}{Selecting Bhabha Events}{chapter.6}% 34
-\BOOKMARK [1][-]{section.6.6}{Tracking Efficiency}{chapter.6}% 35
-\BOOKMARK [0][-]{chapter.7}{Conclusion}{}% 36
-\BOOKMARK [0][-]{appendix.A}{Appendix}{}% 37
-\BOOKMARK [0][-]{chapter*.31}{List of Figures}{}% 38
-\BOOKMARK [0][-]{chapter*.32}{List of Tables}{}% 39
-\BOOKMARK [0][-]{chapter*.33}{Bibliography}{}% 40
-\BOOKMARK [0][-]{appendix.B}{Acknowledgements}{}% 41
+\BOOKMARK [1][-]{section.4.1}{Trigger}{chapter.4}% 20
+\BOOKMARK [1][-]{section.4.2}{Data Acquisition System}{chapter.4}% 21
+\BOOKMARK [0][-]{chapter.5}{Tools}{}% 22
+\BOOKMARK [1][-]{section.5.1}{Root}{chapter.5}% 23
+\BOOKMARK [1][-]{section.5.2}{Basf2}{chapter.5}% 24
+\BOOKMARK [1][-]{section.5.3}{GridKa}{chapter.5}% 25
+\BOOKMARK [0][-]{chapter.6}{Tracking Efficiencies For Phase2 Data}{}% 26
+\BOOKMARK [1][-]{section.6.1}{Definition Of Tracking Efficiency}{chapter.6}% 27
+\BOOKMARK [1][-]{section.6.2}{Reconstructing Bhabha Events With Basf2}{chapter.6}% 28
+\BOOKMARK [1][-]{section.6.3}{Best Candidate Selection On Monte Carlo}{chapter.6}% 29
+\BOOKMARK [2][-]{subsection.6.3.1}{ECL-Cut}{section.6.3}% 30
+\BOOKMARK [2][-]{subsection.6.3.2}{Mass-Cut}{section.6.3}% 31
+\BOOKMARK [2][-]{subsection.6.3.3}{Additional Cuts}{section.6.3}% 32
+\BOOKMARK [2][-]{subsection.6.3.4}{Cut Efficiency}{section.6.3}% 33
+\BOOKMARK [2][-]{subsection.6.3.5}{No MC-Truth Information}{section.6.3}% 34
+\BOOKMARK [1][-]{section.6.4}{Best Candidate Selection on Beamtime-Data}{chapter.6}% 35
+\BOOKMARK [1][-]{section.6.5}{Selecting Bhabha Events}{chapter.6}% 36
+\BOOKMARK [1][-]{section.6.6}{Tracking Efficiency}{chapter.6}% 37
+\BOOKMARK [0][-]{chapter.7}{Tracking Efficiencies For Phase3 Data}{}% 38
+\BOOKMARK [0][-]{chapter.8}{Conclusion}{}% 39
+\BOOKMARK [0][-]{appendix.A}{Appendix}{}% 40
+\BOOKMARK [0][-]{chapter*.33}{List of Figures}{}% 41
+\BOOKMARK [0][-]{chapter*.34}{List of Tables}{}% 42
+\BOOKMARK [0][-]{chapter*.35}{Bibliography}{}% 43
+\BOOKMARK [0][-]{appendix.B}{Acknowledgements}{}% 44
