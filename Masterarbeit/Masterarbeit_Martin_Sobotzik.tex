@@ -338,7 +338,7 @@ In this section, we want to shortly discuss Bhabha scattering. We will start wit
  \label{sec:BhabhaProcess}
  Bhabha scattering is a quantum electromechanical process between an electron and a positron. It is named after the Indian  physicist H. Bhabha who first derived the electron-positron scattering cross section in 1935.\cite{Bhabha}
  
- Bhabha scattering contains two different processes.
+ Bhabha scattering contains two different processes. Both have in common that there are an electron and positron in the initial and final state. Figure \ref{fig:feynman} shows the Feynman diagrams for both Bhabha processes. The time passes from the left to the right side. In the left process, the initial electron and positron annihilate to form a virtual photon $\gamma^\ast$. This virtual photon then decays into an electron and a positron. The right Feynman diagram describes a classic electrodynamic scattering process. Here the incoming electron and positron are scattering by the interaction with a virtual photon. In contrast to the right diagram, the left diagram can only be explained by quantum field theory, due to the creation and destruction of particles.
  
 
 \tikzset{
@@ -382,7 +382,7 @@ child[grow=left]{
 		node {$e^-$}
 		edge from parent [antiparticle]
 	}
-	edge from parent [photon] node [above=3pt] {$\gamma$}
+	edge from parent [photon] node [above=3pt] {$\gamma^\ast$}
 }
 % I have to insert a dummy child to get the tree to grow
 % correctly to the right.
@@ -424,7 +424,7 @@ child[grow=up]{
 		node {$e^+$}
 		edge from parent [particle]
 	}
-	edge from parent [photon] node [right=3pt] {$\gamma$}
+	edge from parent [photon] node [right=3pt] {$\gamma^\ast$}
 }
 % I have to insert a dummy child to get the tree to grow
 % correctly to the right.
@@ -447,14 +447,34 @@ child[grow=down, level distance=0pt] {
 
 \end{minipage}
 
-\captionof{figure}[Bhabha Feynman Diagrams]{The two Bhabha process feynman digrams.}
+\begin{tikzpicture}
+\begin{scope},scale=1]
+\draw[->,thick]
+(-4,0) -- (4,0)
+;
+\draw
+(0,0) node[anchor=south]{$t$};
+\end{scope}
 
+
+\end{tikzpicture}
+
+
+
+
+\captionof{figure}[Bhabha Feynman Diagrams]{The two Bhabha process Feynman digrams. The left diagram describes the annihilation process, while the right diagram describes a classic electromagnetic scattering process.}
+\label{fig:feynman}
 \end{center}
 
+\subsection{Differential Cross Section Of Bhabha Processes}
+\label{sec:cross-section}
 
+The cross section is the probability that two particle will interact with each other when they collide. If this collision creates secondary radiation, then the intensity distribution over the spatial direction $\Omega$ is described by the differential cross section $\nicefrac{\textrm{d}\sigma}{\textrm{d}\Omega}$.
+
+The differential cross section for the electron\footnote{The electrons are moving along the x-axis. The positrons are moving in the opposite direction} in a Bhabha process is given by equation \ref{eq:bhabhaCross}. 
 
 \begin{equation}
-	\bigg(\frac{d\sigma}{d\Omega} \bigg)_{cms} = \frac{e^4}{64\pi^22E^2}
+	\bigg(\frac{\textrm{d}\sigma}{\textrm{d}\Omega} \bigg)_{\textrm{cms}} = \frac{e^4}{32\pi^2 E^2}
 	\bigg(
 	\frac{1+\textrm{cos}^2(\theta)}{2} +
  \frac{1+\textrm{cos}^4(\nicefrac{\theta}{2})}{\textrm{sin}^4(\nicefrac{\theta}{2})} - \frac{2\textrm{cos}^4(\nicefrac{\theta}{2})}{\textrm{sin}^2(\nicefrac{\theta}{2})}   \bigg)
@@ -477,23 +497,28 @@ child[grow=down, level distance=0pt] {
 	\caption[Differential Cross Section For Electrons And Positrons In Bhabha Events]{Differential cross-section for Bhabha events. Left: Cross-section for \textcolor{red}{text}.
 	
 These plots were created with python3.}
-	
+	\label{fig:CrossSectionElPos}
 	\end{figure}
+
+In figure \ref{fig:CrossSectionElPos} on the left, the differential cross section for electrons is plotted. \textcolor{red}{beschreibe plot (die meisten werden kaum abgelenkt)} Equation \ref{eq:bhabhaCross} is also true for positron but since they are moving in the opposite direction, $\theta$ in the equation has to be replaced by $\pi - \theta$. The result can be found in figure \ref{fig:CrossSectionElPos} on the right.
+
+
+
 
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=10cm]{Bilder/dsdOb}
 	\caption[Differential Cross Section For Bhabha Events]{text}
+	\label{fig:CrossSectionBoth}
 \end{figure}
 
-
+Figure \ref{fig:CrossSectionBoth} shows the combination of the differantial cross section for electrons and positrons.
 
 
 \subsection{Bhabha Kinematics At Belle II}
 \label{sec:Kinematics}
 
-Beams are hitting each other under an angle.
-
+At Belle II the electron and the positron beams have different energies. Also, they are hitting each other under an angle. Therefore, it is interesting to look at the kinematics in the lab system of Belle II.
 
 \begin{figure}[h!]
 	\centering
@@ -897,7 +922,7 @@ The data acquisition system (DAQ) reads out the detector signals once the Level-
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\textwidth]{Bilder/DAQ}
-	\caption[Working Principle of the DAQ]{\textcolor{red}{Quelle} Working principle of the Belle II DAQ. The data is transfered by about 300 COPPER boards to about 30 R/O PCs. The data is then put together by the first event builder and the events are reconstructed by the HLT afterwards. The HLT contains $O(10)$ units with about 400 cores each. Then, the reconstructed data is merged with to data coming from the PXD. Finally, the data is saved on about 10 storage units.}
+	\caption[Working Principle of the DAQ]{\textcolor{red}{Quelle} Working principle of the Belle II DAQ. The data is transfered by about 300 COPPER boards to about 30 R/O PCs. The data is then put together by the first event builder and the events are reconstructed by the HLT afterwards. The HLT contains $O(10)$ units with about 400 cores each. Then, the reconstructed data is merged with to data coming from the PXD. Finally, the data is saved on about 10 storage units. \cite{Filippo:1097}}
 	\label{fig:DAQ}
 \end{figure}
 
@@ -932,9 +957,14 @@ Once the PXD receives the trigger signal, the readout starts. These data are sto
 
 
 \chapter{Tracking Efficiencies For Phase2 Data}
-\label{sec:TrackingEff}
+\label{chap:Phase2Eff}
 
 \lettrine{I}{n} this chapter the tracking efficiency studies will be presented. We will start with a definition of the tracking efficiency we want to calculate. Then the reconstruction and selection of the Bhabha events will be described. Finally the tracking efficiency for MC and for Beamtime-Data will be calculated.
+
+\section{Phase2 Data}
+\label{sec:Phase2}
+
+This chapter will present the tracking efficiency for Phase2 data.  \textcolor{red}{Beschreibe was Phase 2 ausmacht. Welche detektoren an sind und in welchem Zeitraum daten genommen wurden}
 
 
 \section{Definition Of Tracking Efficiency}
@@ -973,7 +1003,7 @@ cutAndCopyList('vpho:ECLObject', 'vpho:ECLObjectUnranked', '', path=mypath)
 	
 reconstructDecay('vpho:bhabha -> vpho:ECLObject vpho:ECLObject', '', path=mypath)
 
-variablesToNtuple('vpho:bhabha', var_vpho, treename = 'vpho_bhabha', filename = outputname, path=mypath)
+variablesToNtuple('vpho:bhabha', variables, treename = 'vpho_bhabha', filename = output.root, path=mypath)
 	
 \end{lstlisting}
 }
@@ -1058,7 +1088,7 @@ Now we will take a look at the reconstructed Monte Carlo events. All of these re
 
 
 
-In figure \ref{fig:nCandAll} on the left, we see the number of reconstructed candidates per event. Since we do not have a cut on the reconstruction, the number of reconstructed candidates $n_{\textrm{cand}}$ follows equation \ref{eq:Triangular}. On the right, we see the invariant mass of the reconstructed candidates. Note that we are now looking at candidates and as we can see on the left we oftentimes have more than one candidate per event. Therefore the numbers of entries for the mass is way higher then for the number of candidates per event.
+In figure \ref{fig:nCandAll} on the left, we see the number of reconstructed candidates per event. Since we do not have a cut on the reconstruction, the number of reconstructed candidates $n_{\textrm{cand}}$ follows equation \ref{eq:Triangular}. On the right, we see the invariant mass of the reconstructed candidates. Note that we are now looking at candidates and as we can see on the left we oftentimes have more than one candidate per event. Therefore, the numbers of entries for the mass is way higher then for the number of candidates per event.
 Consequently, we need some cuts to select the best candidate in each event and thereby reduce the number of candidates per event to one.
 
 
@@ -1234,7 +1264,7 @@ In figure \ref{fig:nCandNoMCInfo} we see that we reconstruct a total number of 1
 
 Since we only reconstruct a few more events and still only one candidate per event, we can be very confidant that we only select Bhabha events.
 
-\section{Best Candidate Selection on Beamtime-Data}
+\section{Best Candidate Selection on Phase2 Data}
 \label{sec:SelectingBhabhaData}
 
 Until now we only run on MC but ultimately we want to calculate the tracking efficiency on Beamtime-data. Therefore, we have to test the selection also on Beamtime-Data. I used the same steering file as described in section \ref{sec:RecBasf2} and run over a the following files located at:
@@ -1271,9 +1301,9 @@ Now, that we are satisfied with the selection of events and candidates we need t
 	\label{fig:Sketchb2b}
 \end{figure}
 
-A simplified sketch of the b2bClusterPhi variable is shown in figure \ref{fig:Sketchb2b}. This sketch shows the ECL in beam direction, so the magnetic field in the ECL is pointing into the paper. \textcolor{red}{(?)} At the interaction point an electron (in this example the red line) and a positron (in this example the blue line) are created. Since both particles are charge their trajectory is bended by the magnetic field. The electron hits the ECL and creates a cluster with at the $\Phi$-angle clusterPhi. As described in section \ref{sec:Kinematics} the center-of-momentum frame at Belle II has a non zero $x-y$ fraction. Therefore, the b2bClusterPhi variable is not just $\textrm{clusterPhi} - \pi$ (as in the sketch). To calculate the b2bClusterPhi variable we have to boost the particle in the center-of-momentum frame then calculate $\textrm{clusterPhi} - \pi$ and finally boost back in the lab frame. With this variable we can kind of predict the clusterPhi angle of the other particle. 
+A simplified sketch of the b2bClusterPhi variable is shown in figure \ref{fig:Sketchb2b}. This sketch shows the ECL in beam direction, so the magnetic field in the ECL is pointing into the paper. At the interaction point an electron (in this example the red line) and a positron (in this example the blue line) are created. Since both particles are charge their trajectory is bended by the magnetic field. The electron hits the ECL and creates a cluster with at the $\Phi$-angle clusterPhi. As described in section \ref{sec:Kinematics} the center-of-momentum frame at Belle II has a non zero $x-y$ fraction. Therefore, the b2bClusterPhi variable is not just $\textrm{clusterPhi} - \pi$ (as in the sketch). To calculate the b2bClusterPhi variable we have to boost the particle in the center-of-momentum frame then calculate $\textrm{clusterPhi} - \pi$ and finally boost back in the lab frame. With this variable we can kind of predict the clusterPhi angle of the other particle. 
 
-In the sketch you see that there is a difference between the predicted and the true clusterPhi angle due to the magnetic field. This also means that in an $\textrm{ee} \rightarrow \gamma \gamma$ event the predicted and the true clusterPhi angle are the same because the trajectory of photons are not bend in the magnetic field. So we are able to differ between $\textrm{ee} \rightarrow \textrm{ee}$ and $\textrm{ee} \rightarrow \gamma \gamma$.
+In the sketch you see that there is a difference between the predicted and the true clusterPhi angle due to the magnetic field. This also means that in an $\textrm{ee} \rightarrow \gamma \gamma$ event the predicted and the true clusterPhi angle are the same because the trajectory of photons are not bend in the magnetic field. Therefore, we are able to differ between $\textrm{ee} \rightarrow \textrm{ee}$ and $\textrm{ee} \rightarrow \gamma \gamma$.
 
 
 \begin{figure}[h!]
@@ -1315,22 +1345,59 @@ Finally, the b2bClusterPhi variable cut can be summarized in the following three
 
 Figure \ref{fig:b2bMC} shows the same plots as figure \ref{fig:b2bData} but with MC data. Note that there is no middle peak because only $\textrm{ee} \rightarrow \textrm{ee}$ events were generated. In figure \ref{fig:b2bMC_Whole} the b2bClusterPhi plot with full range is shown for MC.
 
-With all these introduced cuts we are now able to calculate tracking efficiencies.
+\section{ECL Trigger}
+\label{sec:ECLTrigger}
+
+Last but not least, we need to be sure that each event has a trigger signal coming from the ECL. Otherwise, the trigger signal could come only from the tracking detectors. Then, there would be a bias on the efficiency, since the tracking detectors require at least one track. Therefore, a cut on the trigger called \texttt{lume} is introduced. \texttt{lume} requires a trigger signal coming from the ECL and a total energy in the ECL of more than $3\,\textrm{GeV}$.\cite{lumeTrigger}
+
+
+
+
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\textwidth]{Cuts/Data/DataTrigger}
+	\caption[\texttt{lume} Trigger Signal After Selection]{\texttt{lume} trigger signal for a single data file after the selection. 
+		
+		Trigger Signal == 0 means that there was no trigger signal in the event. Trigger Signal == 1 means that there was a trigger signal in the event. (Trigger Signal == -1 means that there are no trigger informations in the file.) As you can see, in most of the selected events there is a trigger signal coming from the ECL.}
+	\label{fig:LumeTrigger}
+\end{figure}
+
+In figure \ref{fig:LumeTrigger} you can see the \texttt{lume} trigger signal for a single phase2 data file after the selection. Most of the time, there was an ECL trigger signal and in only about $5\,\%$ of the events there was no trigger signal coming from the ECL. These events has to be cut out.
+
+This is not done for Monte Carlo, since the trigger does not work reliable on MC and we only look at events we want to consider. Therefore, a trigger cut is only done for phase2 data (and phase3 data in chapter \ref{chap:Phase3Eff}).
+
+\section{More Events}
+\label{sec:Phase2MoreEvents}
+
+To reduce the error on the calculated efficiency, a higher statistic and therefore more data files are needed. For Monte Carlo we will consider all files in: 
+\newline
+
+/belle/MC/release-02-00-01/DB00000411/MC11/prod00006731/s00/e1002/4S/
+r00000/3600520000/mdst/sub00/
+\newline
+
+Also, we will take all phase2 data into account. They are located at:
+\newline
+
+/ghi/fs01/belle2/bdata//Data/release-03-00-03/DB00000528/proc00000008/e0003/ 4S/r0*/all/mdst/sub00/*.root
+\newline
+
+
+\textcolor{red}{plot fuer mc and data was No. ausgewaehlte kandidaten pro events zeigt und damit auch die totale zahl der events nach der selection.}
+
+
+In figure \textcolor{red}{Zahl der Figure}, you can see the number of candidates per event after the selection.
 
 
 \section{Tracking Efficiency}
 \label{sec:TrackingEfficiency}
 
-First of all, we need more statistics.
-
-
-
-
 
 \chapter{Tracking Efficiencies For Phase3 Data}
+\label{chap:Phase3Eff}
 
-
-
+\section{Phase3 Data}
 
 
 %_______________________________________________________________________________

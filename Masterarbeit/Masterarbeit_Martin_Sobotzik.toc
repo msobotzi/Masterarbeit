@@ -14,7 +14,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.1}Bhabha Process}{5}{subsection.2.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}Bhabha Kinematics At Belle II}{6}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.2}Differential Cross Section Of Bhabha Processes}{6}{subsection.2.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.3}Bhabha Kinematics At Belle II}{7}{subsection.2.3.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Experimental Setup At SuperKEKB}{9}{chapter.3}
 \defcounter {refsection}{0}\relax 
@@ -54,38 +56,46 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {6}Tracking Efficiencies For Phase2 Data}{29}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Definition Of Tracking Efficiency}{29}{section.6.1}
+\contentsline {section}{\numberline {6.1}Phase2 Data}{29}{section.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Reconstructing Bhabha Events With Basf2}{29}{section.6.2}
+\contentsline {section}{\numberline {6.2}Definition Of Tracking Efficiency}{29}{section.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Best Candidate Selection On Monte Carlo}{31}{section.6.3}
+\contentsline {section}{\numberline {6.3}Reconstructing Bhabha Events With Basf2}{29}{section.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.1}ECL-Cut}{31}{subsection.6.3.1}
+\contentsline {section}{\numberline {6.4}Best Candidate Selection On Monte Carlo}{31}{section.6.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.2}Mass-Cut}{32}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.4.1}ECL-Cut}{31}{subsection.6.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.3}Additional Cuts}{33}{subsection.6.3.3}
+\contentsline {subsection}{\numberline {6.4.2}Mass-Cut}{32}{subsection.6.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.4}Cut Efficiency}{35}{subsection.6.3.4}
+\contentsline {subsection}{\numberline {6.4.3}Additional Cuts}{33}{subsection.6.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.5}No MC-Truth Information}{36}{subsection.6.3.5}
+\contentsline {subsection}{\numberline {6.4.4}Cut Efficiency}{36}{subsection.6.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}Best Candidate Selection on Beamtime-Data}{36}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.5}No MC-Truth Information}{36}{subsection.6.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.5}Selecting Bhabha Events}{37}{section.6.5}
+\contentsline {section}{\numberline {6.5}Best Candidate Selection on Phase2 Data}{37}{section.6.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.6}Tracking Efficiency}{40}{section.6.6}
+\contentsline {section}{\numberline {6.6}Selecting Bhabha Events}{38}{section.6.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Tracking Efficiencies For Phase3 Data}{41}{chapter.7}
+\contentsline {section}{\numberline {6.7}ECL Trigger}{40}{section.6.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Conclusion}{43}{chapter.8}
+\contentsline {section}{\numberline {6.8}More Events}{41}{section.6.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Appendix}{45}{appendix.A}
+\contentsline {section}{\numberline {6.9}Tracking Efficiency}{42}{section.6.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Figures}{49}{chapter*.33}
+\contentsline {chapter}{\numberline {7}Tracking Efficiencies For Phase3 Data}{43}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Tables}{51}{chapter*.34}
+\contentsline {section}{\numberline {7.1}Phase3 Data}{43}{section.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{53}{chapter*.35}
+\contentsline {chapter}{\numberline {8}Conclusion}{45}{chapter.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Acknowledgements}{57}{appendix.B}
+\contentsline {chapter}{\numberline {A}Appendix}{47}{appendix.A}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline List of Figures}{51}{chapter*.34}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline List of Tables}{53}{chapter*.35}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Bibliography}{55}{chapter*.36}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {B}Acknowledgements}{59}{appendix.B}
