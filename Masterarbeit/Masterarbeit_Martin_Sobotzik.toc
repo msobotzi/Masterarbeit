@@ -84,6 +84,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.9}Tracking Efficiency}{42}{section.6.9}
 \defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.9.1}Random Mixed Efficiency}{42}{subsection.6.9.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {6.9.1.1}Momentum}{42}{subsubsection.6.9.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {6.9.1.2}Transverse Momentum}{42}{subsubsection.6.9.1.2}
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {7}Tracking Efficiencies For Phase3 Data}{43}{chapter.7}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7.1}Phase3 Data}{43}{section.7.1}
