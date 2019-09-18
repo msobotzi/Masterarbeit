@@ -262,29 +262,7 @@ D-55128 Mainz\\
 \chapter{Introduction}
 \label{sec:Introduction}
 
-{\em Dieses Dokument richtet sich an Studierende am Fachbereich 08 im 
-Studiengang Bachelor of Science (Physik). Sie finden hier Beispiele 
-f\"ur eine m\"ogliche Gliederung Ihrer Arbeit und Hinweise zur 
-Strukturierung des Inhalts. Selbstverst\"andlich sollen Sie diese 
-Gliederung nach den Gegebenheiten Ihrer Bachelorarbeit anpassen. 
-Besprechen Sie rechtzeitig mit Ihrem Betreuer, ob Ihr Entwurf sinnvoll 
-ist. Holen Sie sich auch Anregungen zur Gestaltung von Abschlussarbeiten 
-aus der Literatur ().
-\medskip
 
-Sofern Sie sich dazu entscheiden, Ihr Dokument in \LaTeX\ zu erstellen, 
-k\"onnen Sie diese Datei als Vorlage verwenden. Fast die gesamte 
-Literatur in der Physik verwendet \LaTeX, vor allem wegen der 
-ausgezeichneten M\"oglichkeiten f\"ur das Formelschreiben.
-}
-\bigskip
-
-In der Einleitung Ihrer Bachelorarbeit sollte das Thema der Arbeit 
-m\"oglichst allgemeinverst\"andlich eingef\"uhrt werden. Gehen Sie 
-dabei auch auf das weitere Umfeld der Arbeit ein und erl\"autern Sie, 
-warum Aufgabenstellung und Herangehensweise interessant sind. Auch 
-die weitere Gliederung kann angesprochen werden, um dem Leser einen 
-ersten \"Uberblick \"uber den nachfolgenden Text zu geben.
 
 \chapter{Theoretical Foundations}
 \label{cha:SM}
@@ -495,13 +473,13 @@ The differential cross section for the electron\footnote{The electrons are movin
 		\centering
 		\includegraphics[width=\textwidth]{Bilder/dsdO1}
 	\end{minipage}
-	\caption[Differential Cross Section For Electrons And Positrons In Bhabha Events]{Differential cross-section for Bhabha events. Left: Cross-section for \textcolor{red}{text}.
+	\caption[Differential Cross Section For Electrons And Positrons In Bhabha Events]{Differential cross-section for Bhabha events. Left: The Cross-section for electrons is shown and on the left for positrons.
 	
 These plots were created with python3.}
 	\label{fig:CrossSectionElPos}
 	\end{figure}
 
-In figure \ref{fig:CrossSectionElPos} on the left, the differential cross section for electrons is plotted. \textcolor{red}{beschreibe plot (die meisten werden kaum abgelenkt)} Equation \ref{eq:bhabhaCross} is also true for positron but since they are moving in the opposite direction, $\theta$ in the equation has to be replaced by $\pi - \theta$. The result can be found in figure \ref{fig:CrossSectionElPos} on the right.
+In figure \ref{fig:CrossSectionElPos} on the left, the differential cross section for electrons is plotted. Since, most incoming particles are only very slightly deflected, the cross section is very high for small angels and gets smaller with increasing angle. Equation \ref{eq:bhabhaCross} is also true for positron but since they are moving in the opposite direction, $\theta$ in the equation has to be replaced by $\pi - \theta$. This result is plotted in figure \ref{fig:CrossSectionElPos} on the right.
 
 
 
@@ -509,29 +487,21 @@ In figure \ref{fig:CrossSectionElPos} on the left, the differential cross sectio
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=10cm]{Bilder/dsdOb}
-	\caption[Differential Cross Section For Bhabha Events]{text}
+	\caption[Differential Cross Section For Bhabha Events]{This figure shows to differential cross section for Bhabha events.}
 	\label{fig:CrossSectionBoth}
 \end{figure}
 
-Figure \ref{fig:CrossSectionBoth} shows the combination of the differantial cross section for electrons and positrons.
+To get to differential cross section for Bhabha events, one has to add the differential cross section of electrons and positrons. This is shown in figure \ref{fig:CrossSectionBoth}. As you can see, most of the outgoing particles will have a very small or very large $\theta$ angle.
 
 
 \subsection{Bhabha Kinematics At Belle II}
 \label{sec:Kinematics}
 
-At Belle II the electron and the positron beams have different energies. Also, they are hitting each other under an angle. Therefore, it is interesting to look at the kinematics in the lab system of Belle II.
+At Belle II the electron and the positron beams have different energies. Also, they are hitting each other under an angle. Therefore, it is interesting to look at the Bhabha kinematics in the lab system of Belle II.
 
 \begin{figure}[h!]
 	\centering
-	\begin{minipage}[b]{0.45\linewidth}
-		\centering
-		\includegraphics[width=\textwidth]{Bilder/theta_cms}
-	\end{minipage}
-	\hspace{0.5cm}
-	\begin{minipage}[b]{0.45\linewidth}
-		\centering
-		\includegraphics[width=\textwidth]{Bilder/theta_lab}
-	\end{minipage}
+\includegraphics[width=\textwidth]{Bilder/CThetaP}
 	\caption[$\theta$-Energy-Distribution In The CMS And LAB Frame]{Bhabha scattering in different frames. In the cms the particle has the same Belle II energy in every $\theta$-direction. Left: The $\theta$-Energy-distribution in the cms frame is shown. Right: The $\theta$-Energy-distribution in the lab frame is shown. The cross section is not factored in. A continuous distribution in $\theta$ is assumed.}
 
 \end{figure}
@@ -539,15 +509,7 @@ At Belle II the electron and the positron beams have different energies. Also, t
 
 \begin{figure}[h!]
 	\centering
-	\begin{minipage}[b]{0.45\linewidth}
-		\centering
-		\includegraphics[width=\textwidth]{Bilder/ptTheta_CMS}
-	\end{minipage}
-	\hspace{0.5cm}
-	\begin{minipage}[b]{0.45\linewidth}
-		\centering
-		\includegraphics[width=\textwidth]{Bilder/ptTheta}
-	\end{minipage}
+\includegraphics[width=\textwidth]{Bilder/CptTheta}
 	\caption[$\theta$-pt-Distribution In The CMS And LAB Frame]{The cross-section is not factored in. A continuous distribution in $\theta$ is assumed.}
 	
 \end{figure}
@@ -615,7 +577,7 @@ To increase the event rate one has to increase the instantaneous luminosity sinc
 		\centering
 		\includegraphics[width=\textwidth]{Bilder/SuperKEKBBeam}
 	\end{minipage}
-		\caption[Sketch Of The Beam Crossing For KEKB And SuperKEKB]{Sketch of the beam crossing at KEKB (left) and SuperKEKB (right). At KEKB the size of the interaction region was about $10\,\textrm{mm}$. At SuperKEKB it is about $0.5\,\textrm{mm}$.\cite{Beamsize} This figure was edited to make the axis more readable.}
+		\caption[Sketch Of The Beam Crossing For KEKB And SuperKEKB]{Sketch of the beam crossing at KEKB (left) and SuperKEKB (right). At KEKB the size of the interaction region was about $10\,\textrm{mm}$. At SuperKEKB it is about $0.5\,\textrm{mm}$.\cite{Beamsize} This figure was edited in order to make the axis more readable.}
 	\label{fig:beamsize}
 
 \end{figure}
@@ -657,7 +619,7 @@ The task of the outermost detector the $K_L^0$ and muon detector (KLM) is to ide
 
 \section{Coordinate System}
 
-For clarification, I want to explain the coordinate system of Belle II, before I describe the detectors in more detail.
+For clarification, the coordinate system of Belle II will be described in this section, before the detectors are explained in more detail.
 
 \begin{figure}[h!]
 	\begin{center}
@@ -927,7 +889,7 @@ The data acquisition system (DAQ) reads out the detector signals once the Level-
 	\label{fig:DAQ}
 \end{figure}
 
-The first part of the Belle2Link is the common readout platform (COPPER). This platform transforms the different data formats coming from the sub-detectors into a common data format. The COPPER boards then send their output to the event builder, which merges the data coming from the same collision to an event. With the information from the fully reconstructed events, the high level trigger (HLT) is able to finally decide whether the event should be stored or not. If the event should be recorded, it is then merged with the information coming from the PXD data in the second event builder.
+The first part of the Belle2Link is the common readout platform (COPPER). This platform transforms the different data formats coming from the sub-detectors into a common data format. The COPPER boards then send their output signal to the event builder, which merges the data coming from the same collision to an event. With the information from the fully reconstructed events, the high level trigger (HLT) is able to finally decide whether the event should be stored or not. If the event should be recorded, it is then merged with the information coming from the PXD data in the second event builder.
 
 Once the PXD receives the trigger signal, the readout starts. These data are stored on online selector nodes for up to $5\,\textrm{s}$. Meanwhile, the HLT performs the event reconstruction. Based on information coming from the SVD and CDC, the charged tracks, reconstructed in the HTL, are transfered back to the PXD and regions of interest (ROI) are formed. Only pixels of the PXD within the ROI are kept and considered in the second event builder. Complementarity to the HLT, the data concentrator also searches for RIOs. The HLT is optimized for high momentum and the data concentrator is optimized for low momentum particles. Both systems require hits in all SVD layers. 
 
@@ -938,11 +900,7 @@ Once the PXD receives the trigger signal, the readout starts. These data are sto
 \chapter{Tools}
 \label{sec:Tools}
 
-\lettrine{T}{his} chapter will give a short introduction on the three most important tools that were used in this thesis: Root, Basf2 and GridKa.
-
-
-
-\section{Root}
+\lettrine{T}{his} chapter will give a short introduction on the two most important tools that were used in this thesis: Basf2 and GridKa.
 
 
 \section{Basf2}
@@ -957,7 +915,7 @@ Once the PXD receives the trigger signal, the readout starts. These data are sto
 
 
 
-\chapter{Tracking Efficiencies For Phase2 Data}
+\chapter{Tracking Efficiencies For Phase2}
 \label{chap:Phase2Eff}
 
 \lettrine{I}{n} this chapter the tracking efficiency studies will be presented. We will start with a definition of the tracking efficiency we want to calculate. Then the reconstruction and selection of the Bhabha events will be described. Finally the tracking efficiency for MC and for Beamtime-Data will be calculated.
@@ -984,13 +942,19 @@ So for this work we will use the following definition for the tracking efficienc
 \label{sec:RecBasf2}
 
 
-To analyze a Monte Carlo/data file, a python script using Basf2 has to be written. The following code is a simplified version of the steering file I wrote. The goal of this steering file is to reconstruct the virtual photon in a Bhabha event. This virtual photon decays into two daughters which hit the ECL. Since we want to calculate the tracking efficiency, we need to be able to reconstruct the virtual photon from two daughters both associated with an track, and two daughters one associated with a track (reconstructed as a charged particle by the framework) and one with no track associated (reconstructed as a photon by the framework).
-
-The same steering file is used for data, MC and MC on GridKa. This file is located on KEK at:
+To analyze a Monte Carlo/data file, a python script using Basf2 has to be written. The following code is a simplified version of the steering file I wrote. 
+The whole steering file is located on KEK at:
 \newline 
 
 /home/belle2/msobotzi/bhabha/bhabha\_vpho.py
 \newline
+
+
+The goal of this steering file is to reconstruct the virtual photon in a Bhabha event. This virtual photon decays into two daughters which hit the ECL. Since we want to calculate the tracking efficiency, we need to be able to reconstruct the virtual photon from two daughters both associated with an track, and two daughters one associated with a track (reconstructed as a charged particle by the framework) and one with no track associated (reconstructed as a photon by the framework).
+
+The same steering file is used for data, MC and MC on GridKa. 
+\newline 
+
 
 
 
@@ -1016,6 +980,12 @@ variablesToNtuple('vpho:bhabha', variables, treename = 'vpho_bhabha', filename =
 }
 \bigskip
 
+
+
+
+
+
+
 In the first line of code all particles which hit the ECL and have no track associated are filled into a gamma list called \texttt{gamma:all}. The clusters created by those particles must have an energy (clusterE) of at least $0.01\,\textrm{GeV}$. In the second line a list called \texttt{e+:all} is created. All particles with an associated track are filled in this list independently of their charge. Therefore, this list contains for example electrons, positrons and even muons. Again, a cut is applied to the cluster energy.
 
 
@@ -1040,7 +1010,7 @@ Since the entries in the \texttt{vpho:ECLObject} list are sorted by energy, the 
 Finally, in the last line of code, all variables of the candidates like mass, momentum, cluster energy of each daughter, does the daughter have a track and so on are written in a tree \texttt{vpho\_bhabha} in a file. The \texttt{outputname} of the output file depends on whether the steering file is running on data or MC. 
 
 
-\section{Best Candidate Selection On Monte Carlo}
+\section{Best Candidate Selection On Phase2 Monte Carlo}
 \label{sec:SelectingBhabhaMC}
 
 We use Monte Carlo simulation due to the fact that on MC we know everything about the generated and reconstructed particles. So on MC we can select Bhabha events which hit the ECL and with this knowledge we can introduce cuts in such a way that we only reconstruct these Bhabha events. To calculate an efficiency it is extremely  important to select only Bhabha events. At first, we are also running on only one $\textrm{e}^+ \textrm{e}^- \rightarrow \textrm{e}^+ \textrm{e}^-$ MC file which is located at:
@@ -1283,7 +1253,7 @@ Since we only reconstruct a few more events and still only one candidate per eve
 \section{Best Candidate Selection on Phase2 Data}
 \label{sec:SelectingBhabhaData}
 
-Until now we only run on MC but ultimately we want to calculate the tracking efficiency on Beamtime-data. Therefore, we have to test the selection also on Beamtime-Data. I used the same steering file as described in section \ref{sec:RecBasf2} and run over a the following files located at:
+Until now we only run on MC but ultimately we want to calculate the tracking efficiency on Beamtime-data. Therefore, we have to test the selection also on Beamtime-Data. I used the same steering file as described in section \ref{sec:RecBasf2} and run over the following files located at:
 \newline
 
 /ghi/fs01/belle2/bdata//Data/release-03-00-03/DB00000528/proc00000008/e0003/
@@ -1363,7 +1333,7 @@ Finally, the b2bClusterPhi variable cut can be summarized in the following three
 
 Figure \ref{fig:b2bMC} shows the same plots as figure \ref{fig:b2bData} but with MC data. Note that there is no middle peak because only $\textrm{ee} \rightarrow \textrm{ee}$ events were generated. In figure \ref{fig:b2bMC_Whole} the b2bClusterPhi plot with full range is shown for MC.
 
-\section{ECL Trigger}
+\section{ECL-Trigger}
 \label{sec:ECLTrigger}
 
 Last but not least, we need to be sure that each event has a trigger signal coming from the ECL. Otherwise, the trigger signal could come only from the tracking detectors. Then, there would be a bias on the efficiency, since the tracking detectors require at least one track. Therefore, a cut on the trigger called \texttt{lume} is introduced. \texttt{lume} requires a trigger signal coming from the ECL and a total energy in the ECL of more than $3\,\textrm{GeV}$.\cite{lumeTrigger}
@@ -1389,6 +1359,9 @@ This is not done for Monte Carlo, since the trigger does not work reliable on MC
 \label{sec:Phase2MoreEvents}
 
 
+
+
+
 The efficiency errors are calculated with the following equation:
 
 \begin{equation}
@@ -1396,7 +1369,7 @@ The efficiency errors are calculated with the following equation:
 \label{eq:EffError}
 \end{equation}
 
-In equation \ref{eq:EffError}, $\epsilon$ is the calculated efficiency and $n$ is the total number of entries.
+In equation \ref{eq:EffError}, $\epsilon$ is the calculated efficiency and $n$ is the total number reconstructed particles with and without an associated track in the investigated bin.
 
 
 
@@ -1414,7 +1387,19 @@ Also, we will take all available phase2 data files into account. They are locate
 \newline
 
 
-\textcolor{red}{plot fuer mc and data was No. ausgewaehlte kandidaten pro events zeigt und damit auch die totale zahl der events nach der selection.}
+\textcolor{red}{plot fuer mc and data was No. ausgewaehlte kandidaten pro events zeigt und damit auch die totale zahl der events nach der selection. Sowohl fuer MC als auch fuer beamtime data}
+
+
+
+\begin{figure}[h!]
+	\includegraphics[width=\textwidth]{Bilder/CCand.pdf}
+\end{figure}
+
+
+
+
+
+
 
 
 In figure \textcolor{red}{Zahl der Figure}, you can see the number of candidates per event after the selection.
@@ -1423,7 +1408,7 @@ In figure \textcolor{red}{Zahl der Figure}, you can see the number of candidates
 \section{Tracking Efficiency}
 \label{sec:TrackingEfficiency}
 
-In the following sections, the tracking efficiency for phase2 data and phase2 Monte Carlo will be discussed. All plots are created with
+In the following sections, the tracking efficiency for phase2 data and phase2 Monte Carlo will be discussed. All plots are created with 
 
 
 
@@ -1433,28 +1418,59 @@ In the following sections, the tracking efficiency for phase2 data and phase2 Mo
 
 \subsection{Random Mixed Efficiency}
 
+\subsubsection{Barrel}
+
+\subsubsection{Forward Cap}
+
+\subsubsection{End Cap}
+
 \subsubsection{Momentum}
 
 \subsubsection{Transverse Momentum}
 
 
-\chapter{Tracking Efficiencies For Phase3 Data}
+
+\subsection{Electron Efficiency}
+
+\subsubsection{Barrel}
+
+\subsubsection{Forward Cap}
+
+\subsubsection{End Cap}
+
+\subsubsection{Momentum}
+
+
+\subsubsection{Transverse Momentum}
+
+\subsection{Positron Efficiency}
+
+\subsubsection{Barrel}
+
+\subsubsection{Forward Cap}
+
+\subsubsection{End Cap}
+
+
+
+\subsubsection{Momentum}
+
+\subsubsection{Transverse Momentum}
+
+\chapter{Tracking Efficiencies For Phase3}
 \label{chap:Phase3Eff}
 
 \section{Phase3 Data}
 
 
+
+\chapter{Further Results}
+
+\section{Phase2 ECL-Trigger}
+\label{sec:ECLTriggerPhase2}
 %_______________________________________________________________________________
 \chapter{Conclusion}
 
-In der Zusammenfassung sollten Sie in knapper Form die Aufgabenstellung 
-und die wichtigsten Ergebnisse rekapitulieren. Es ist f\"ur die 
-Gutachter hilfreich, wenn Sie ausdr\"ucklich beschreiben, worin 
-Ihre eigenen Beitr\"age liegen. Scheuen Sie sich auch nicht davor 
-auszusprechen, welche Untersuchungen durch die Zeitbegrenzung der 
-Bachelorarbeit nicht m\"oglich waren und nutzen Sie dies als 
-\"Uberleitung zu einem Ausblick auf m\"ogliche weitergehende 
-Arbeiten an der Aufgabenstellung.
 
 %_______________________________________________________________________________
 \begin{appendix}
