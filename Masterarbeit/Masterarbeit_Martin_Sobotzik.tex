@@ -502,7 +502,7 @@ At Belle II the electron and the positron beams have different energies. Also, t
 \begin{figure}[h!]
 	\centering
 \includegraphics[width=\textwidth]{Bilder/CThetaP}
-	\caption[$\theta$-Energy-Distribution In The CMS And LAB Frame]{Bhabha scattering in different frames. In the cms the particle has the same Belle II energy in every $\theta$-direction. Left: The $\theta$-Energy-distribution in the cms frame is shown. Right: The $\theta$-Energy-distribution in the lab frame is shown. The cross section is not factored in. A continuous distribution in $\theta$ is assumed.}
+	\caption[$\theta$-Energy-Distribution In The CMS And LAB Frame]{Bhabha scattering in different frames. In the cms the particle has the same Belle II energy in every $\theta$-direction. Left: The $\theta$-Energy-distribution in the cms frame is shown. Right: The $\theta$-Energy-distribution in the lab frame is shown.}
 
 \end{figure}
 
@@ -510,7 +510,7 @@ At Belle II the electron and the positron beams have different energies. Also, t
 \begin{figure}[h!]
 	\centering
 \includegraphics[width=\textwidth]{Bilder/CptTheta}
-	\caption[$\theta$-pt-Distribution In The CMS And LAB Frame]{The cross-section is not factored in. A continuous distribution in $\theta$ is assumed.}
+	\caption[$\theta$-pt-Distribution In The CMS And LAB Frame]{text}
 	
 \end{figure}
 
@@ -918,7 +918,7 @@ Once the PXD receives the trigger signal, the readout starts. These data are sto
 \chapter{Tracking Efficiencies For Phase2}
 \label{chap:Phase2Eff}
 
-\lettrine{I}{n} this chapter the tracking efficiency studies will be presented. We will start with a definition of the tracking efficiency we want to calculate. Then the reconstruction and selection of the Bhabha events will be described. Finally the tracking efficiency for MC and for Beamtime-Data will be calculated.
+\lettrine{I}{n} this chapter the tracking efficiency studies will be presented. We will start with a definition of the tracking efficiency we want to calculate. Then the reconstruction and selection of the Bhabha events will be described. Finally, the tracking efficiency for MC and for Beamtime-Data will be calculated in section \ref{sec:TrackingEfficiency}.
 
 \section{Phase2 Data}
 \label{sec:Phase2}
@@ -937,7 +937,7 @@ So for this work we will use the following definition for the tracking efficienc
 	\epsilon = \frac{\textrm{Number of Bhabha events with exactly 2 reconstructed tracks}}{\textrm{Number of Bhabha events with 1 or more reconstructed tracks}}
 	\label{eq:efficiency}
 \end{equation}
-
+\newline
 
 To calculate a efficiency according to equation \ref{eq:efficiency} one needs two histograms. One histogram filled particle information in the case that both particles are charged and a histogram filled with particle information in the case that at least one particle in the event is reconstructed as a charged particle. The first will be referred to as \textit{enumerator} histograms and the later will be referred to as \textit{denominator} histograms.
 
@@ -952,7 +952,7 @@ We will calculate the efficiency for three different cases:
 	\item Positron: \textit{tag} is reconstructed as an electron
 \end{itemize}
 
-The efficiency will be calculated by the root class TEfficiency. 
+
 
 
 
@@ -1200,7 +1200,7 @@ Also, sometimes the total energy in the ECL is way higher than expected. To excl
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=10cm]{Cuts/nCand.pdf}
-	\caption[Number Of Candidates Per Event (All Cuts)]{Number of candidates per event after applying all cuts.}	
+	\caption[Number Of Candidates Per Event (All Cuts)]{Number of candidates per event after applying all cuts. $n = 14,961$}	
 	\label{fig:nCand}
 \end{figure}
 
@@ -1310,26 +1310,37 @@ A simplified sketch of the b2bClusterPhi variable is shown in figure \ref{fig:Sk
 In the sketch you see that there is a difference between the predicted and the true clusterPhi angle due to the magnetic field. This also means that in an $\textrm{ee} \rightarrow \gamma \gamma$ event the predicted and the true clusterPhi angle are the same because the trajectory of photons are not bend in the magnetic field. Therefore, we are able to differ between $\textrm{ee} \rightarrow \textrm{ee}$ and $\textrm{ee} \rightarrow \gamma \gamma$.
 
 
+
 \begin{figure}[h!]
-	\centering
+	
+
+\begin{minipage}[b]{\textwidth}
+\centering
+
+
 	\begin{minipage}[b]{0.45\linewidth}
 		\centering
 		\includegraphics[width=\textwidth]{Bilder/b2b_2}
-		\includegraphics[width=\textwidth]{Cuts/Data/b2b_TagProbe.pdf}
+
 	\end{minipage}
 	\hspace{0.5cm}
 	\begin{minipage}[b]{0.45\linewidth}
 		\centering
 		\includegraphics[width=\textwidth]{Bilder/b2b_3}
-		\includegraphics[width=\textwidth]{Cuts/Data/b2b_ProbeTag.pdf}
 	\end{minipage}
-	\caption[b2bClusterPhi - clusterPhi For Beamtime-Data]{Left: Predicted clusterPhi(HclE) - Reconstructed clusterPhi(LclE). Right: Predicted clusterPhi(LclE) - Reconstructed clusterPhi(HclE). Both plots are created with Beamtime-data. The variable to get the predicted clusterPhi value is the b2bclusterPhi variable which was described earlier. The two top sketches represent what is calculated.}
+	\includegraphics[width=\textwidth]{Plots/sb2b_Data.pdf}
+	
+
+	\caption[b2bClusterPhi - clusterPhi For Beamtime-Data]{Left: Predicted clusterPhi(HclE) - Reconstructed clusterPhi(LclE). Right: Predicted clusterPhi(LclE) - Reconstructed clusterPhi(HclE). Only particles within the gray area are taken into account. Both plots are created with phase2 data. The variable to get the predicted clusterPhi value is the b2bclusterPhi variable which was described earlier. The two top sketches represent what is calculated.}
 	\label{fig:b2bData}
 	%Single Data file 608 Efficiency.C makro
+
+\end{minipage}
 \end{figure}
 
+
 In figure \ref{fig:b2bData} the difference between the predicted and the reconstructed clusterPhi angle for Beamtime-Data is shown. In the left plot the reconstructed clusterPhi angle of the LclE particle is subtracted by the b2bClusterPhi angle of the HclE particle. In the right plot it is vice versa. In both plots we have three peaks. The middle peaks are $\textrm{ee} \rightarrow \gamma \gamma$ events since the predicted and the reconstructed clusterPhi angle is the same. So these are events we want to cut away. The left peak is caused by electrons (most of the HclE particles are electrons, therefore the left peak on the right plot is significantly higher\footnote{As described in section \ref{sec:RecBasf2}, the HclE daughter is the daughter with the higher cluster energy}), the right peak by positrons. This means that if for example we only cut on the left peak we are only selecting electron particles even if they are wrongly reconstructed as photons, using ECL information only. 
-Therefore the last cut we will add is a cut on the b2bClusterPhi angle. We will only consider events in with:
+Therefore, the last cut we will add is a cut on the b2bClusterPhi angle. We will only consider events in with:
 \newline
 
  $0.05 \leq \textrm{abs(b2bClusterPhi(HclE) - clusterPhi(LclE)} \leq 0.2 $ and  $0.05 \leq \textrm{abs(b2bClusterPhi(LclE) - clusterPhi(HclE))} \leq 0.2$
@@ -1345,7 +1356,7 @@ Finally, the b2bClusterPhi variable cut can be summarized in the following three
 	\item $0.05 \leq \textrm{abs(b2bClusterPhi(HclE) - clusterPhi(LclE)} \leq 0.2 \, \&\& \, 2\pi - 0.2 \leq \textrm{abs(b2bClusterPhi(LclE) - clusterPhi(HclE))} \leq 2\pi - 0.05$
 \end{enumerate}
 
-
+These cuts are visualized by the gray area in figure \ref{fig:b2bData}. Only particles within these areas are taken into account.
 
 
 
@@ -1407,7 +1418,7 @@ Also, we will take all available phase2 data files into account. They are locate
 
 \begin{figure}[h!]
 	\includegraphics[width=\textwidth]{Bilder/CCand.pdf}
-	\caption[Total Number Of Events After The Selection]{The number of candidates per event after the selection is shown. Left: Phase2 Data. Right: Phase2 MC. You can see that we reconstruct only one virtual photon per event on both phase2 data and MC.}
+	\caption[Total Number Of Events After The Selection]{The number of candidates per event after the selection is shown. Left: Phase2 Data. Right: Phase2 MC. A total of 11,074,560 candidates are selected for phase2 data and 5,330,062 candidates are selected for phase2 MC.}
 	\label{fig:nCandAS}
 \end{figure}
 
@@ -1418,15 +1429,15 @@ Also, we will take all available phase2 data files into account. They are locate
 
 
 
-In figure \ref{fig:nCandAS}, you can see the number of candidates per event after the selection.
+In figure \ref{fig:nCandAS}, you can see the number of candidates per event after the selection. You can see that we reconstruct only one virtual photon per event on both phase2 data and MC.
 
 
 
 
 
 
-\section{Dividing The Barrel In Areas Of Interest}
-
+\section{Dividing The ECL In Areas Of Interest}
+\label{sec:DivECL}
 
 As described in section \ref{sec:ECL}, the ECL is divided in three areas. The barrel, the forward cap and the end cap. Therefore, three areas of interest are created. The first will only contain the forward cap. This means, only particles with an predicted theta angle of $0^\circ <\theta<32^\circ$ will be taken into account. The second area of interest is the barrel. Here the predicted theta angle of the investigated particle has to be $32^\circ < \theta < 130^\circ$. The last area of interest is the end cap with an cluster theta angle of $130^\circ <\theta < 180^\circ$.  
 
@@ -1437,17 +1448,17 @@ In section \ref{sec:Kinematics}, we saw that the the azimuth angle and the momen
 
 \begin{figure}[h!]
 	\includegraphics[width=\textwidth]{Plots/RTPMRandomD_MC.pdf}
-	\caption{Predicted $\theta$ and $\phi$ denominator histograms of the \textit{probe} particle for different momenta in the random case for phase2 MC are shown. The different areas of interest are indicated by the pink line.}
+	\caption[Denominator $\theta$, $\phi$ Random Momentum MC]{Predicted $\theta$ and $\phi$ denominator histograms of the \textit{probe} particle for different momenta in the random case for phase2 MC are shown. The different areas of interest are indicated by the pink line.}
 	\label{plt:RTPMRandomD_MC}
 \end{figure}
 
-In figure \ref{plt:RTPMRandomD_MC} you can see the number of reconstructed particles and their predicted $\theta$ and $\phi$ angles for different momenta for Phase2 MC in the random case. This means, that these plots contains both electrons and positrons. It also is the  In this figure you can also see the three areas of interest. Each is divided by a pink line.
+In figure \ref{plt:RTPMRandomD_MC} you can see the denominator histograms for the \textit{probe} particles. Their predicted $\theta$ and $\phi$ angles for different momenta for Phase2 MC in the random case are shown. In this figure you can also see the three areas of interest. They are separated by each other by a pink line.
 
 
 
 \begin{figure}[h!]
 	\includegraphics[width=\textwidth]{Plots/RTPtMRandomD_MC.pdf}
-	\caption{Predicted $\theta$ and $\phi$ denominator histograms of the \textit{probe} particle for different transverse momenta in the random case for phase2 MC are shown. The different areas of interest are indicated by the pink line.}
+	\caption[Denominator $\theta$, $\phi$ Random Transverse Momentum MC]{Predicted $\theta$ and $\phi$ denominator histograms of the \textit{probe} particle for different transverse momenta in the random case for phase2 MC are shown. The different areas of interest are indicated by the pink line.}
 	\label{plt:RTPtMRandomD_MC}
 \end{figure}
 
@@ -1455,7 +1466,7 @@ In figure \ref{plt:RTPMRandomD_MC} you can see the number of reconstructed parti
 
 
 
-\section{Tracking Efficiency}
+\section{Phase2 Tracking Efficiency}
 \label{sec:TrackingEfficiency}
 
 In the following sections, the tracking efficiency for phase2 data and phase2 Monte Carlo will be discussed. All plots are created with 
@@ -1513,7 +1524,7 @@ In the following sections, the tracking efficiency for phase2 data and phase2 Mo
 		\centering
 		\includegraphics[width=\textwidth]{AnhangPlots/PhiPhidoubleMC.pdf}
 	\end{minipage}
-	\caption[Cluster Splitting Angle Distribution]{Left: \textcolor{red}{ClusterSplitting Theta}. Right: \textcolor{red}{ClusterSplitting Phi}.}
+	\caption[Cluster Splitting Angle Distribution]{Left: The $\theta$ angle of the clusters after the \textit{cluster splitting}. Almost all the time, both clusters have the same $\theta$ angle.  Right: The $\phi$ angle of the clusters after the \textit{cluster splitting}. The $\phi$ angle of both clusters are always slightly different. Therefore, \textit{cluster splitting} always occurs along the polar angle.}
 	\label{fig:clusterSplittingAngle}
 \end{figure}
 
@@ -1521,16 +1532,8 @@ In the following sections, the tracking efficiency for phase2 data and phase2 Mo
 
 \begin{figure}[h!]
 	\centering
-	\begin{minipage}[b]{0.45\linewidth}
-		\centering
-		\includegraphics[width=\textwidth]{AnhangPlots/b2b_ProbeTag_Data_Whole.pdf}
-	\end{minipage}
-	\hspace{0.5cm}
-	\begin{minipage}[b]{0.45\linewidth}
-		\centering
-		\includegraphics[width=\textwidth]{AnhangPlots/b2b_TagProbe_Data_Whole.pdf}
-	\end{minipage}
-	\caption[b2bClusterPhi - clusterPhi For Data (Whole Range)]{Left: Predicted clusterPhi(HclE) - Reconstructed clusterPhi(LclE). Right: Predicted clusterPhi(LclE) - Reconstructed clusterPhi(HclE). Both plots are created with Beamtime-Data. Note the logarithmic scale.}
+	\includegraphics[width=\textwidth]{Plots/sb2b_Data_0.pdf}
+	\caption[b2bClusterPhi - clusterPhi For Data (Whole Range)]{Left: Predicted clusterPhi(HclE) - Reconstructed clusterPhi(LclE). Right: Predicted clusterPhi(LclE) - Reconstructed clusterPhi(HclE). Only particles within the gray area are taken into account. Both plots are created with Beamtime-Data. Note the logarithmic scale.}
 	\label{fig:b2bData_Whole}
 \end{figure}
 
@@ -1541,16 +1544,8 @@ In the following sections, the tracking efficiency for phase2 data and phase2 Mo
 
 \begin{figure}[h!]
 	\centering
-	\begin{minipage}[b]{0.45\linewidth}
-		\centering
-		\includegraphics[width=\textwidth]{Cuts/b2bTP_mc.pdf}
-	\end{minipage}
-	\hspace{0.5cm}
-	\begin{minipage}[b]{0.45\linewidth}
-		\centering
-		\includegraphics[width=\textwidth]{Cuts/b2bPT_mc.pdf}
-	\end{minipage}
-	\caption[b2bClusterPhi - clusterPhi For MC]{Left: Predicted clusterPhi(HclE) - Reconstructed clusterPhi(LclE). Right: Predicted clusterPhi(LclE) - Reconstructed clusterPhi(HclE). Both plots are created with MC data. There is no middle peak because only $\textrm{ee} \rightarrow \textrm{ee}$ events were generated.}
+	\includegraphics[width=\textwidth]{Plots/sb2b_MC.pdf}
+	\caption[b2bClusterPhi - clusterPhi For MC]{Left: Predicted clusterPhi(HclE) - Reconstructed clusterPhi(LclE). Right: Predicted clusterPhi(LclE) - Reconstructed clusterPhi(HclE). Only particles within the gray area are taken into account. Both plots are created with MC data. There is no middle peak because only $\textrm{ee} \rightarrow \textrm{ee}$ events were generated.}
 	\label{fig:b2bMC}
 \end{figure}
 
@@ -1559,16 +1554,8 @@ In the following sections, the tracking efficiency for phase2 data and phase2 Mo
 
 \begin{figure}[h!]
 	\centering
-	\begin{minipage}[b]{0.45\linewidth}
-		\centering
-		\includegraphics[width=\textwidth]{AnhangPlots/b2b_ProbeTag_Data_Whole.pdf}
-	\end{minipage}
-	\hspace{0.5cm}
-	\begin{minipage}[b]{0.45\linewidth}
-		\centering
-		\includegraphics[width=\textwidth]{AnhangPlots/b2b_TagProbe_Data_Whole.pdf}
-	\end{minipage}
-	\caption[b2bClusterPhi - clusterPhi For MC (Whole Range)]{Left: Predicted clusterPhi(HclE) - Reconstructed clusterPhi(LclE). Right: Predicted clusterPhi(LclE) - Reconstructed clusterPhi(HclE). Both plots are created with MC data. Note the logarithmic scale.}
+	\includegraphics[width=\textwidth]{Plots/sb2b_MC_0.pdf}
+	\caption[b2bClusterPhi - clusterPhi For MC (Whole Range)]{Left: Predicted clusterPhi(HclE) - Reconstructed clusterPhi(LclE). Right: Predicted clusterPhi(LclE) - Reconstructed clusterPhi(HclE). Only particles within the gray area are taken into account. Both plots are created with MC data. Note the logarithmic scale.}
 	\label{fig:b2bMC_Whole}
 \end{figure}
 
@@ -1577,14 +1564,14 @@ In the following sections, the tracking efficiency for phase2 data and phase2 Mo
 
 \begin{figure}[h!]
 	\includegraphics[width=\textwidth]{Plots/RTPMRandomD_Data.pdf}
-	\caption{Predicted $\theta$ and $\phi$ denominator histograms of the \textit{probe} particle for different momenta in the random case for phase2 data are shown. The different areas of interest are indicated by the pink line.}
+	\caption[Denominator $\theta$, $\phi$ Random Momentum Data]{Predicted $\theta$ and $\phi$ denominator histograms of the \textit{probe} particle for different momenta in the random case for phase2 data are shown. The different areas of interest are indicated by the pink line.}
 	\label{plt:RTPMRandomD_Data}
 \end{figure}
 
 
 \begin{figure}[h!]
 	\includegraphics[width=\textwidth]{Plots/RTPtMRandomD_Data.pdf}
-	\caption{Predicted $\theta$ and $\phi$ denominator histograms of the \textit{probe} particle for different transverse momenta in the random case for phase2 data are shown. The different areas of interest are indicated by the pink line.}
+	\caption[Denominator $\theta$, $\phi$ Random Transverse Momentum Data]{Predicted $\theta$ and $\phi$ denominator histograms of the \textit{probe} particle for different transverse momenta in the random case for phase2 data are shown. The different areas of interest are indicated by the pink line.}
 	\label{plt:RTPtMRandomD_Data}
 \end{figure}
 

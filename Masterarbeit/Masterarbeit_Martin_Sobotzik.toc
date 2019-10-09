@@ -78,11 +78,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.7}ECL-Trigger}{41}{section.6.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.8}More Events}{42}{section.6.8}
+\contentsline {section}{\numberline {6.8}More Events}{41}{section.6.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.9}Dividing The Barrel In Areas Of Interest}{42}{section.6.9}
+\contentsline {section}{\numberline {6.9}Dividing The ECL In Areas Of Interest}{42}{section.6.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.10}Tracking Efficiency}{43}{section.6.10}
+\contentsline {section}{\numberline {6.10}Phase2 Tracking Efficiency}{43}{section.6.10}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {7}Phase3 Data}{47}{chapter.7}
 \defcounter {refsection}{0}\relax 

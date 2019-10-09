@@ -68,13 +68,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {\relax 6.8}{\ignorespaces b2bClusterPhi - clusterPhi For Beamtime-Data}}{40}{figure.caption.27}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.9}{\ignorespaces \texttt {lume} Trigger Signal After Selection}}{41}{figure.caption.28}
+\contentsline {figure}{\numberline {\relax 6.9}{\ignorespaces \texttt {lume} Trigger Signal After Selection}}{42}{figure.caption.28}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {\relax 6.10}{\ignorespaces Total Number Of Events After The Selection}}{43}{figure.caption.29}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.11}{\ignorespaces Predicted $\theta $ and $\phi $ denominator histograms of the \textit {probe} particle for different momenta in the random case for phase2 MC are shown. The different areas of interest are indicated by the pink line.\relax }}{44}{figure.caption.30}
+\contentsline {figure}{\numberline {\relax 6.11}{\ignorespaces Denominator $\theta $, $\phi $ Random Momentum MC}}{44}{figure.caption.30}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.12}{\ignorespaces Predicted $\theta $ and $\phi $ denominator histograms of the \textit {probe} particle for different transverse momenta in the random case for phase2 MC are shown. The different areas of interest are indicated by the pink line.\relax }}{45}{figure.caption.31}
+\contentsline {figure}{\numberline {\relax 6.12}{\ignorespaces Denominator $\theta $, $\phi $ Random Transverse Momentum MC}}{45}{figure.caption.31}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
@@ -94,9 +94,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {\relax A.5}{\ignorespaces b2bClusterPhi - clusterPhi For MC (Whole Range)}}{55}{figure.caption.36}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.6}{\ignorespaces Predicted $\theta $ and $\phi $ denominator histograms of the \textit {probe} particle for different momenta in the random case for phase2 data are shown. The different areas of interest are indicated by the pink line.\relax }}{56}{figure.caption.37}
+\contentsline {figure}{\numberline {\relax A.6}{\ignorespaces Denominator $\theta $, $\phi $ Random Momentum Data}}{56}{figure.caption.37}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.7}{\ignorespaces Predicted $\theta $ and $\phi $ denominator histograms of the \textit {probe} particle for different transverse momenta in the random case for phase2 data are shown. The different areas of interest are indicated by the pink line.\relax }}{57}{figure.caption.38}
+\contentsline {figure}{\numberline {\relax A.7}{\ignorespaces Denominator $\theta $, $\phi $ Random Transverse Momentum Data}}{57}{figure.caption.38}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
