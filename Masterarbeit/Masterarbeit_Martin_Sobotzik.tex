@@ -938,6 +938,24 @@ So for this work we will use the following definition for the tracking efficienc
 	\label{eq:efficiency}
 \end{equation}
 
+
+To calculate a efficiency according to equation \ref{eq:efficiency} one needs two histograms. One histogram filled particle information in the case that both particles are charged and a histogram filled with particle information in the case that at least one particle in the event is reconstructed as a charged particle. The first will be referred to as \textit{enumerator} histograms and the later will be referred to as \textit{denominator} histograms.
+
+
+The particle we investigate will be called \textit{probe}. The other particle will be called \textit{tag}. We  know that \textit{tag} is always reconstructed as a charged particle.
+
+We will calculate the efficiency for three different cases:
+
+\begin{itemize}
+	\item Random: \textit{tag} is reconstructed as a charged particle
+	\item Electron: \textit{tag} is reconstructed as a positron
+	\item Positron: \textit{tag} is reconstructed as an electron
+\end{itemize}
+
+The efficiency will be calculated by the root class TEfficiency. 
+
+
+
 \section{Reconstructing Bhabha Events With Basf2}
 \label{sec:RecBasf2}
 
@@ -1369,7 +1387,7 @@ The efficiency errors are calculated with the following equation:
 \label{eq:EffError}
 \end{equation}
 
-In equation \ref{eq:EffError}, $\epsilon$ is the calculated efficiency and $n$ is the total number reconstructed particles with and without an associated track in the investigated bin.
+In equation \ref{eq:EffError}, $\epsilon$ is the calculated efficiency and $n$ is the total number reconstructed particles with and without an associated track in the investigated bin. This equation is only true for large $n$, since according this equation, an efficiency of 1 has always an error of zero. Therefore, the efficiency will be calculated by the root class TEfficiency. This class is able to calculate the right efficiency error even for small $n$. \cite{TEfficiency}
 
 
 
@@ -1387,12 +1405,10 @@ Also, we will take all available phase2 data files into account. They are locate
 \newline
 
 
-\textcolor{red}{plot fuer mc and data was No. ausgewaehlte kandidaten pro events zeigt und damit auch die totale zahl der events nach der selection. Sowohl fuer MC als auch fuer beamtime data}
-
-
-
 \begin{figure}[h!]
 	\includegraphics[width=\textwidth]{Bilder/CCand.pdf}
+	\caption[Total Number Of Events After The Selection]{The number of candidates per event after the selection is shown. Left: Phase2 Data. Right: Phase2 MC. You can see that we reconstruct only one virtual photon per event on both phase2 data and MC.}
+	\label{fig:nCandAS}
 \end{figure}
 
 
@@ -1402,7 +1418,41 @@ Also, we will take all available phase2 data files into account. They are locate
 
 
 
-In figure \textcolor{red}{Zahl der Figure}, you can see the number of candidates per event after the selection.
+In figure \ref{fig:nCandAS}, you can see the number of candidates per event after the selection.
+
+
+
+
+
+
+\section{Dividing The Barrel In Areas Of Interest}
+
+
+As described in section \ref{sec:ECL}, the ECL is divided in three areas. The barrel, the forward cap and the end cap. Therefore, three areas of interest are created. The first will only contain the forward cap. This means, only particles with an predicted theta angle of $0^\circ <\theta<32^\circ$ will be taken into account. The second area of interest is the barrel. Here the predicted theta angle of the investigated particle has to be $32^\circ < \theta < 130^\circ$. The last area of interest is the end cap with an cluster theta angle of $130^\circ <\theta < 180^\circ$.  
+
+In section \ref{sec:Kinematics}, we saw that the the azimuth angle and the momentum of the particles are correlated in the lab frame. Therefore, we need to look at momentum intervals. Otherwise, it would be impossible to interpret the calculated efficiencies. For example, a low efficiency in $\phi$ could be the results of an inefficient forward cap or created by momentum dependencies.
+
+
+
+
+\begin{figure}[h!]
+	\includegraphics[width=\textwidth]{Plots/RTPMRandomD_MC.pdf}
+	\caption{Predicted $\theta$ and $\phi$ denominator histograms of the \textit{probe} particle for different momenta in the random case for phase2 MC are shown. The different areas of interest are indicated by the pink line.}
+	\label{plt:RTPMRandomD_MC}
+\end{figure}
+
+In figure \ref{plt:RTPMRandomD_MC} you can see the number of reconstructed particles and their predicted $\theta$ and $\phi$ angles for different momenta for Phase2 MC in the random case. This means, that these plots contains both electrons and positrons. It also is the  In this figure you can also see the three areas of interest. Each is divided by a pink line.
+
+
+
+\begin{figure}[h!]
+	\includegraphics[width=\textwidth]{Plots/RTPtMRandomD_MC.pdf}
+	\caption{Predicted $\theta$ and $\phi$ denominator histograms of the \textit{probe} particle for different transverse momenta in the random case for phase2 MC are shown. The different areas of interest are indicated by the pink line.}
+	\label{plt:RTPtMRandomD_MC}
+\end{figure}
+
+
+
 
 
 \section{Tracking Efficiency}
@@ -1413,54 +1463,7 @@ In the following sections, the tracking efficiency for phase2 data and phase2 Mo
 
 
 
-
-
-
-\subsection{Random Mixed Efficiency}
-
-\subsubsection{Barrel}
-
-\subsubsection{Forward Cap}
-
-\subsubsection{End Cap}
-
-\subsubsection{Momentum}
-
-\subsubsection{Transverse Momentum}
-
-
-
-\subsection{Electron Efficiency}
-
-\subsubsection{Barrel}
-
-\subsubsection{Forward Cap}
-
-\subsubsection{End Cap}
-
-\subsubsection{Momentum}
-
-
-\subsubsection{Transverse Momentum}
-
-\subsection{Positron Efficiency}
-
-\subsubsection{Barrel}
-
-\subsubsection{Forward Cap}
-
-\subsubsection{End Cap}
-
-
-
-\subsubsection{Momentum}
-
-\subsubsection{Transverse Momentum}
-
-\chapter{Tracking Efficiencies For Phase3}
-\label{chap:Phase3Eff}
-
-\section{Phase3 Data}
+\chapter{Phase3 Data}
 
 
 
@@ -1568,6 +1571,28 @@ In the following sections, the tracking efficiency for phase2 data and phase2 Mo
 	\caption[b2bClusterPhi - clusterPhi For MC (Whole Range)]{Left: Predicted clusterPhi(HclE) - Reconstructed clusterPhi(LclE). Right: Predicted clusterPhi(LclE) - Reconstructed clusterPhi(HclE). Both plots are created with MC data. Note the logarithmic scale.}
 	\label{fig:b2bMC_Whole}
 \end{figure}
+
+
+
+
+\begin{figure}[h!]
+	\includegraphics[width=\textwidth]{Plots/RTPMRandomD_Data.pdf}
+	\caption{Predicted $\theta$ and $\phi$ denominator histograms of the \textit{probe} particle for different momenta in the random case for phase2 data are shown. The different areas of interest are indicated by the pink line.}
+	\label{plt:RTPMRandomD_Data}
+\end{figure}
+
+
+\begin{figure}[h!]
+	\includegraphics[width=\textwidth]{Plots/RTPtMRandomD_Data.pdf}
+	\caption{Predicted $\theta$ and $\phi$ denominator histograms of the \textit{probe} particle for different transverse momenta in the random case for phase2 data are shown. The different areas of interest are indicated by the pink line.}
+	\label{plt:RTPtMRandomD_Data}
+\end{figure}
+
+
+
+
+
+
 
 
 

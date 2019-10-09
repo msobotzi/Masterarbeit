@@ -884,6 +884,18 @@
     \field{year}{2007}
   \endentry
 
+  \entry{TEfficiency}{online}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{addendum}{visited on 09.10.2019}
+    \field{title}{TEfficiency Class Reference}
+    \verb{url}
+    \verb https://root.cern.ch/doc/master/classTEfficiency.html
+    \endverb
+    \field{year}{2019}
+  \endentry
+
   \entry{TORASSA}{article}{}
     \name{author}{1}{}{%
       {{hash=TE}{%

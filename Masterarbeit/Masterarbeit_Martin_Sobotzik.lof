@@ -56,21 +56,25 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {\relax 6.2}{\ignorespaces Number Of Candidates And Invariant Mass ($\textrm {M} >8\tmspace +\thinmuskip {.1667em}\textrm {GeV}$)}}{33}{figure.caption.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.3}{\ignorespaces Cluster Splitting Energy Distribution}}{34}{figure.caption.22}
+\contentsline {figure}{\numberline {\relax 6.3}{\ignorespaces Cluster Splitting Energy Distribution}}{35}{figure.caption.22}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.4}{\ignorespaces Number Of Candidates Per Event (All Cuts)}}{35}{figure.caption.23}
+\contentsline {figure}{\numberline {\relax 6.4}{\ignorespaces Number Of Candidates Per Event (All Cuts)}}{36}{figure.caption.23}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {\relax 6.5}{\ignorespaces Number Of Candidates Per Event With No MC-Truth Info (All Cuts)}}{37}{figure.caption.24}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {\relax 6.6}{\ignorespaces Number Of Candidates Per Event for Beamtime-Data (All Cuts)}}{38}{figure.caption.25}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.7}{\ignorespaces Sketch Of The b2bClusterPhi Variable}}{38}{figure.caption.26}
+\contentsline {figure}{\numberline {\relax 6.7}{\ignorespaces Sketch Of The b2bClusterPhi Variable}}{39}{figure.caption.26}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.8}{\ignorespaces b2bClusterPhi - clusterPhi For Beamtime-Data}}{39}{figure.caption.27}
+\contentsline {figure}{\numberline {\relax 6.8}{\ignorespaces b2bClusterPhi - clusterPhi For Beamtime-Data}}{40}{figure.caption.27}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {\relax 6.9}{\ignorespaces \texttt {lume} Trigger Signal After Selection}}{41}{figure.caption.28}
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {\relax 6.10}{\ignorespaces Total Number Of Events After The Selection}}{43}{figure.caption.29}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 6.11}{\ignorespaces Predicted $\theta $ and $\phi $ denominator histograms of the \textit {probe} particle for different momenta in the random case for phase2 MC are shown. The different areas of interest are indicated by the pink line.\relax }}{44}{figure.caption.30}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 6.12}{\ignorespaces Predicted $\theta $ and $\phi $ denominator histograms of the \textit {probe} particle for different transverse momenta in the random case for phase2 MC are shown. The different areas of interest are indicated by the pink line.\relax }}{45}{figure.caption.31}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
@@ -78,15 +82,21 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.1}{\ignorespaces clusterE(HclE) - clusterE(LclE)}}{51}{figure.caption.30}
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.2}{\ignorespaces Cluster Splitting Angle Distribution}}{52}{figure.caption.31}
+\contentsline {figure}{\numberline {\relax A.1}{\ignorespaces clusterE(HclE) - clusterE(LclE)}}{53}{figure.caption.32}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.3}{\ignorespaces b2bClusterPhi - clusterPhi For Data (Whole Range)}}{52}{figure.caption.32}
+\contentsline {figure}{\numberline {\relax A.2}{\ignorespaces Cluster Splitting Angle Distribution}}{54}{figure.caption.33}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.4}{\ignorespaces b2bClusterPhi - clusterPhi For MC}}{53}{figure.caption.33}
+\contentsline {figure}{\numberline {\relax A.3}{\ignorespaces b2bClusterPhi - clusterPhi For Data (Whole Range)}}{54}{figure.caption.34}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.5}{\ignorespaces b2bClusterPhi - clusterPhi For MC (Whole Range)}}{53}{figure.caption.34}
+\contentsline {figure}{\numberline {\relax A.4}{\ignorespaces b2bClusterPhi - clusterPhi For MC}}{55}{figure.caption.35}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.5}{\ignorespaces b2bClusterPhi - clusterPhi For MC (Whole Range)}}{55}{figure.caption.36}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.6}{\ignorespaces Predicted $\theta $ and $\phi $ denominator histograms of the \textit {probe} particle for different momenta in the random case for phase2 data are shown. The different areas of interest are indicated by the pink line.\relax }}{56}{figure.caption.37}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.7}{\ignorespaces Predicted $\theta $ and $\phi $ denominator histograms of the \textit {probe} particle for different transverse momenta in the random case for phase2 data are shown. The different areas of interest are indicated by the pink line.\relax }}{57}{figure.caption.38}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
