@@ -536,12 +536,12 @@ Figure \ref{fig:BelleIIMomentum} on the left, you can see  the momentum of the B
 \begin{figure}[h!]
 	\centering
 \includegraphics[width=\textwidth]{Bilder/CptTheta}
-	\caption[$\theta$-pt-Distribution In The CMS And LAB Frame]{The transverse momentum of the outgoing Bhabha particles in different frames. Left: transverse momentum in the center of mass frame. The highest transverse momentum is expected at an $\theta$ angle of about $\nicefrac{\pi}{2}$}
+	\caption[$\theta$-pt-Distribution In The CMS And LAB Frame]{The transverse momentum of the outgoing Bhabha particles in different frames. Left: transverse momentum in the center of mass frame. The highest transverse momentum is expected at an $\theta$ angle of $\nicefrac{\pi}{2}$.  Right: The transverse momentum in the lab frame. The highest transverse momentum is shifted a bit to smaller values of $\theta$.}
 	\label{fig:BelleIItMomentum}
 \end{figure}
 
 
-
+Figure \ref{fig:BelleIItMomentum}
 
 
 %_______________________________________________________________________________
@@ -655,7 +655,7 @@ For clarification, the coordinate system of Belle II will be described in this s
 	\label{fig:CoordinateSysytem}
 \end{figure}
 
-A sketch of the coordinate system is shown in figure \ref{fig:CoordinateSysytem}. The origin of the coordinate system corresponds to the interaction region. For the Cartesian coordinate system: The $z$-axis points in the direction of the magnetic field. This is also the so-called forward direction. The $y$-axis points up to the upper part of the detector. The $x$-axis points along the radial direction of the accelerator. In figure \ref{fig:CoordinateSysytem} also the spherical coordinate system is shown. Here $\theta$ corresponds to the polar angle and $\phi$ to the azimuthal angle.\cite{DevelopVertex}
+A sketch of the coordinate system is shown in figure \ref{fig:CoordinateSysytem}. The origin of the coordinate system corresponds to the interaction region. For the Cartesian coordinate system: The $z$-axis points in the direction of the magnetic field. This is also the so-called forward direction. The $y$-axis points up to the upper part of the detector. The $x$-axis points along the radial direction of the accelerator. The electrons are moving roughly along the positive $z$ axis, while the positrons are moving in the opposite direction. In figure \ref{fig:CoordinateSysytem} also the spherical coordinate system is shown. Here $\theta$ corresponds to the polar angle and $\phi$ to the azimuthal angle.\cite{DevelopVertex}
 
 \section{Vertex detector}
 \label{sec:vertexDet}
@@ -931,10 +931,10 @@ Once the PXD receives the trigger signal, the readout starts. These data are sto
 
 \section{Basf2}
 
-The software framework used at Belle2 is called BASF2 (Belle AnalysiS Framework). It is designed to prosecute off-line and analysis tasks. The majority of the code is written in C++, but python scripts are used for framework execution. The user specifies a sequence of modules in the python steering file which than process events. External libraries like ROOT which allows processing, statistical analysis, visualization and storage of common data and Geant4 for simulating the full detector.\cite{Moll_2011}
+The software framework used at Belle2 is called BASF2 (Belle AnalysiS Framework). It is designed to prosecute off-line and analysis tasks. The majority of the code is written in C++, but python scripts are used for framework execution. The user specifies a sequence of modules in the python steering file which than process events. It also provides access to external libraries like ROOT which allows processing, statistical analysis, visualization and storage of common data and Geant4 for simulating the full detector.\cite{Moll_2011}
 
 
-
+\textcolor{red}{OffLineTracking}
 \section{GridKa}
 
 
@@ -942,15 +942,15 @@ The software framework used at Belle2 is called BASF2 (Belle AnalysiS Framework)
 
 
 
-\chapter{Tracking Efficiencies For Phase2}
+\chapter{Preparation  For Calculating The Tracking Efficiency Of Phase2}
 \label{chap:Phase2Eff}
 
-\lettrine{I}{n} this chapter the tracking efficiency studies will be presented. We will start with a definition of the tracking efficiency we want to calculate. Then the reconstruction and selection of the Bhabha events will be described. Finally, the tracking efficiency for MC and for Beamtime-Data will be calculated in section \ref{sec:TrackingEfficiency}.
+\lettrine{T}{his} chapter will provide an overview on how the cuts where chosen and which selection was applied in order to calculate a reasonable tracking efficiency on phase2 data. We will start with a definition of the tracking efficiency we want to calculate. Then the reconstruction and selection of the Bhabha events will be described. The same selection and cuts used on phase2 will also be used on phase3 later on.
 
-\section{Phase2 Data}
+\section{Phase2}
 \label{sec:Phase2}
 
-Phase2 data were taken in the time between March 2018 and July 2018. During this time, only a small azimuthal fraction of the vertex detector was installed. The main focus of this phase to study the background of the newly installed BelleII detectors, in order to be certain that the operation of the vertex detector is compatible with the much higher luminosity expected for physics data taking. Also, hardware controls were tested in this phase.
+Phase2 data were taken in the time between March 2018 and July 2018. During this time, only a small azimuthal fraction of the vertex detector was installed. The main focus of this phase was to study the background of the newly installed BelleII detectors, in order to be certain that the operation of the vertex detector is compatible with the much higher luminosity expected for physics data taking. Also, hardware controls were tested in this phase.
 
 
 \section{Definition Of Tracking Efficiency}
@@ -964,7 +964,7 @@ So for this work we will use the following definition for the tracking efficienc
 	\epsilon = \frac{\textrm{Number of Bhabha events with exactly 2 reconstructed tracks}}{\textrm{Number of Bhabha events with 1 or more reconstructed tracks}}
 	\label{eq:efficiency}
 \end{equation}
-\newline
+
 
 To calculate a efficiency according to equation \ref{eq:efficiency} one needs two histograms. One histogram filled particle information in the case that both particles are charged and a histogram filled with particle information in the case that at least one particle in the event is reconstructed as a charged particle. The first will be referred to as \textit{enumerator} histograms and the later will be referred to as \textit{denominator} histograms.
 
@@ -1387,6 +1387,20 @@ These cuts are visualized by the gray area in figure \ref{fig:b2bData}. Only par
 
 
 
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/sb2b_MC.pdf}
+	\caption[b2bClusterPhi - clusterPhi For MC]{Left: Predicted clusterPhi(HclE) - Reconstructed clusterPhi(LclE). Right: Predicted clusterPhi(LclE) - Reconstructed clusterPhi(HclE). Only particles within the gray area are taken into account. Both plots are created with MC data. There is no middle peak because only $\textrm{ee} \rightarrow \textrm{ee}$ events were generated.}
+	\label{fig:b2bMC}
+\end{figure}
+
+
+
+
+
+
+
 Figure \ref{fig:b2bMC} shows the same plots as figure \ref{fig:b2bData} but with MC data. Note that there is no middle peak because only $\textrm{ee} \rightarrow \textrm{ee}$ events were generated. In figure \ref{fig:b2bMC_Whole} the b2bClusterPhi plot with full range is shown for MC.
 
 \section{ECL-Trigger}
@@ -1409,7 +1423,7 @@ Last but not least, we need to be sure that each event has a trigger signal comi
 
 In figure \ref{fig:LumeTrigger} you can see the \texttt{lume} trigger signal for a single phase2 data file after the selection. Most of the time, there was an ECL trigger signal and in only about $5\,\%$ of the events there was no trigger signal coming from the ECL. These events has to be cut out.
 
-This is not done for Monte Carlo, since the trigger does not work reliable on MC and we only look at events we want to consider. Therefore, a trigger cut is only done for phase2 data (and phase3 data in chapter \ref{chap:Phase3Eff}).
+This is not done for Monte Carlo, since the trigger does not work reliable on MC and we only look at events we want to consider. Therefore, a trigger cut is only done for phase2 data (and phase3 data in chapter \ref{chp:TrackingEfficiencyPhase3}).
 
 \section{More Events}
 \label{sec:Phase2MoreEvents}
@@ -1479,7 +1493,7 @@ In section \ref{sec:Kinematics}, we saw that the the azimuth angle and the momen
 	\label{plt:RTPMRandomD_MC}
 \end{figure}
 
-In figure \ref{plt:RTPMRandomD_MC} you can see the denominator histograms for the \textit{probe} particles. Their predicted $\theta$ and $\phi$ angles for different momenta for Phase2 MC in the random case are shown. In this figure you can also see the three areas of interest. They are separated by each other by a pink line.
+In figure \ref{plt:RTPMRandomD_MC} you can see the denominator histograms for the \textit{probe} particles. In these plots, their predicted $\theta$ and $\phi$ angles for different momenta for Phase2 MC in the random case are shown. In this figure you can also see the three areas of interest. They are separated by each other by a pink line.
 
 \begin{figure}[h!]
 	\includegraphics[width=\textwidth]{Plots/RTPMRandomD_Data.pdf}
@@ -1487,14 +1501,34 @@ In figure \ref{plt:RTPMRandomD_MC} you can see the denominator histograms for th
 	\label{plt:RTPMRandomD_Data}
 \end{figure}
 
+
+ Figure \ref{plt:RTPMRandomD_Data} shows the same plots but for phase2 data. Small differences for momenta between $4\,\textrm{GeV}$ and more at an $\phi$ angle of about $0^\circ$ are caused by the geometry of the vertex detector. As already mentioned in section \ref{sec:Phase2}, only a small azimuthal fraction at $\phi =0$ was installed but not simulated properly on Monte Carlo. 
+ The corresponding plots are shown for electron in figure \ref{plt:RTPMemD_MC} for MC and \ref{plt:RTPMemD_Data} for Data. The denominator plots for positrons are in figure \ref{plt:RTPMepD_MC} for MC and \ref{plt:RTPMepD_Data} for data.  
+
+In these six figures one can also see that it makes sense to look only at some momenta for different areas of interest. The different momenta regions are listed in table \ref{tab:RTPMDTable}.
+
+
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{lccc}
+		&Random&$\textrm{e}^-$ &$\textrm{e}^+$\\
+		\hline
+		Forward End Cap &$3\,\textrm{GeV} - 9\,\textrm{GeV}$&$3\,\textrm{GeV} - 9\,\textrm{GeV}$&$6\,\textrm{GeV} - 7\,\textrm{GeV}$\\
+		Barrel &$3\,\textrm{GeV} - 7\,\textrm{GeV}$&$3\,\textrm{GeV} - 7\,\textrm{GeV}$&$3\,\textrm{GeV} - 7\,\textrm{GeV}$\\
+		Backward End Cap &$2\,\textrm{GeV} - 6\,\textrm{GeV}$& /&$2\,\textrm{GeV} - 6\,\textrm{GeV}$\\	
+	\end{tabular}
+	
+	\caption[Areas Of Interest Different Momenta Ranges]{Momenta ranges for different \textit{probe} cases and different areas of interest.}
+	\label{tab:RTPMDTable}
+\end{table}
+
+
+
 \begin{figure}[h!]
 	\includegraphics[width=\textwidth]{Plots/RTPtMRandomD_MC.pdf}
 	\caption[Denominator $\theta$, $\phi$ Random Transverse Momentum MC]{Predicted $\theta$ and $\phi$ denominator histograms of the \textit{probe} particle for different transverse momenta in the random case for phase2 MC are shown. The different areas of interest are indicated by the pink line.}
 	\label{plt:RTPtMRandomD_MC}
 \end{figure}
-
-
-
 
 
 
@@ -1505,16 +1539,41 @@ In figure \ref{plt:RTPMRandomD_MC} you can see the denominator histograms for th
 \end{figure}
 
 
-\section{Phase2 Tracking Efficiency}
-\label{sec:TrackingEfficiency}
+The same is done for the transverse momenta for the three different cases. The denominator plots for the random \textit{probe} case can be seen in figure \ref{plt:RTPtMRandomD_MC} for MC and figure \ref{plt:RTPtMRandomD_Data} for data.
 
-In the following sections, the tracking efficiency for phase2 data and phase2 Monte Carlo will be discussed. 
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{lccc}
+		&Random&$\textrm{e}^-$ &$\textrm{e}^+$\\
+		\hline
+		Forward End Cap &$1\,\textrm{GeV} - 4\,\textrm{GeV}$&$1\,\textrm{GeV} - 4\,\textrm{GeV}$&/\\
+		Barrel &$2\,\textrm{GeV} - 6\,\textrm{GeV}$&$2\,\textrm{GeV} - 6\,\textrm{GeV}$&$2\,\textrm{GeV} - 6\,\textrm{GeV}$\\
+		Backward End Cap &$1\,\textrm{GeV} - 4\,\textrm{GeV}$& /&$1\,\textrm{GeV} - 4\,\textrm{GeV}$\\
+	\end{tabular}
+	
+	\caption[Areas Of Interest Different Transverse Momenta Ranges]{Transverse Momenta ranges for different \textit{probe} cases and different areas of interest.}
+	\label{tab:RTPtMDTable}
+\end{table}
 
 
 
 
-\chapter{Phase3 Data}
 
+
+
+
+
+
+\chapter{Phase2 Tracking Efficiency}
+\label{chp:TrackingEfficiencyPhase2}
+
+\lettrine{I}{n} this chapter the tracking efficiency studies on phase2 will be presented.
+
+
+
+
+\chapter{Phase3 Tracking Efficiency}
+\label{chp:TrackingEfficiencyPhase3}
 
 
 \chapter{Further Results}
@@ -1532,6 +1591,10 @@ In the following sections, the tracking efficiency for phase2 data and phase2 Mo
 	
 	
 \chapter{Appendix}
+
+
+\section{Preparation Plots}
+
 
 \begin{figure}[h!]
 	\centering
@@ -1581,37 +1644,88 @@ In the following sections, the tracking efficiency for phase2 data and phase2 Mo
 
 
 
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=\textwidth]{Plots/sb2b_MC.pdf}
-	\caption[b2bClusterPhi - clusterPhi For MC]{Left: Predicted clusterPhi(HclE) - Reconstructed clusterPhi(LclE). Right: Predicted clusterPhi(LclE) - Reconstructed clusterPhi(HclE). Only particles within the gray area are taken into account. Both plots are created with MC data. There is no middle peak because only $\textrm{ee} \rightarrow \textrm{ee}$ events were generated.}
-	\label{fig:b2bMC}
-\end{figure}
-
-
-
-
-\begin{figure}[h!]
+\begin{figure}[!htbp]
 	\centering
 	\includegraphics[width=\textwidth]{Plots/sb2b_MC_0.pdf}
 	\caption[b2bClusterPhi - clusterPhi For MC (Whole Range)]{Left: Predicted clusterPhi(HclE) - Reconstructed clusterPhi(LclE). Right: Predicted clusterPhi(LclE) - Reconstructed clusterPhi(HclE). Only particles within the gray area are taken into account. Both plots are created with MC data. Note the logarithmic scale.}
 	\label{fig:b2bMC_Whole}
 \end{figure}
+\newpage
+
+\section{Additional Area Of Interest Plots}
+
+
+
+
+
+\begin{figure}[h!]
+	\includegraphics[width=\textwidth]{Plots/RTPMemD_MC.pdf}
+	\caption[Denominator $\theta$, $\phi$ Electron Momentum MC]{Predicted $\theta$ and $\phi$ denominator histograms of the \textit{probe} particle for different momenta for electrons for phase2 MC are shown. The different areas of interest are indicated by the pink line.}
+	\label{plt:RTPMemD_MC}
+\end{figure}
+
+
+
+\begin{figure}[h!]
+	\includegraphics[width=\textwidth]{Plots/RTPMemD_Data.pdf}
+	\caption[Denominator $\theta$, $\phi$ Electron Momentum Data]{Predicted $\theta$ and $\phi$ denominator histograms of the \textit{probe} particle for different momenta for electrons for phase2 Data are shown. The different areas of interest are indicated by the pink line.}
+	\label{plt:RTPMemD_Data}
+\end{figure}
+
+
+
+
+
+\begin{figure}[h!]
+	\includegraphics[width=\textwidth]{Plots/RTPMepD_MC.pdf}
+	\caption[Denominator $\theta$, $\phi$ Positron Momentum MC]{Predicted $\theta$ and $\phi$ denominator histograms of the \textit{probe} particle for different momenta for positrons for phase2 MC are shown. The different areas of interest are indicated by the pink line.}
+	\label{plt:RTPMepD_MC}
+\end{figure}
+
+
+
+\begin{figure}[h!]
+	\includegraphics[width=\textwidth]{Plots/RTPMepD_Data.pdf}
+	\caption[Denominator $\theta$, $\phi$ Positron Momentum Data]{Predicted $\theta$ and $\phi$ denominator histograms of the \textit{probe} particle for different momenta for positrons for phase2 Data are shown. The different areas of interest are indicated by the pink line.}
+	\label{plt:RTPMepD_Data}
+\end{figure}
 
 
 
 
 
 
+\begin{figure}[h!]
+	\includegraphics[width=\textwidth]{Plots/RTPtMemD_MC.pdf}
+	\caption[Denominator $\theta$, $\phi$ Electron Transverse Momentum MC]{Predicted $\theta$ and $\phi$ denominator histograms of the \textit{probe} particle for different transverse momenta for electrons for phase2 MC are shown. The different areas of interest are indicated by the pink line.}
+	\label{plt:RTPtMemD_MC}
+\end{figure}
+
+
+
+\begin{figure}[h!]
+	\includegraphics[width=\textwidth]{Plots/RTPtMemD_Data.pdf}
+	\caption[Denominator $\theta$, $\phi$ Electron Transverse Momentum Data]{Predicted $\theta$ and $\phi$ denominator histograms of the \textit{probe} particle for different transverse momenta for electrons for phase2 Data are shown. The different areas of interest are indicated by the pink line.}
+	\label{plt:RTPtMemD_Data}
+\end{figure}
 
 
 
 
 
+\begin{figure}[h!]
+	\includegraphics[width=\textwidth]{Plots/RTPtMepD_MC.pdf}
+	\caption[Denominator $\theta$, $\phi$ Positron Transverse Momentum MC]{Predicted $\theta$ and $\phi$ denominator histograms of the \textit{probe} particle for different transverse momenta for positrons for phase2 MC are shown. The different areas of interest are indicated by the pink line.}
+	\label{plt:RTPtMepD_MC}
+\end{figure}
 
 
 
-
+\begin{figure}[h!]
+	\includegraphics[width=\textwidth]{Plots/RTPtMepD_Data.pdf}
+	\caption[Denominator $\theta$, $\phi$ Positron Transverse Momentum Data]{Predicted $\theta$ and $\phi$ denominator histograms of the \textit{probe} particle for different transverse momenta for positrons for phase2 Data are shown. The different areas of interest are indicated by the pink line.}
+	\label{plt:RTtPMepD_Data}
+\end{figure}
 
 
 \listoffigures

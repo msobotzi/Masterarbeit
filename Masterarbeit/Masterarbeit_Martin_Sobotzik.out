@@ -23,8 +23,8 @@
 \BOOKMARK [0][-]{chapter.5}{Tools}{}% 23
 \BOOKMARK [1][-]{section.5.1}{Basf2}{chapter.5}% 24
 \BOOKMARK [1][-]{section.5.2}{GridKa}{chapter.5}% 25
-\BOOKMARK [0][-]{chapter.6}{Tracking Efficiencies For Phase2}{}% 26
-\BOOKMARK [1][-]{section.6.1}{Phase2 Data}{chapter.6}% 27
+\BOOKMARK [0][-]{chapter.6}{Preparation For Calculating The Tracking Efficiency Of Phase2}{}% 26
+\BOOKMARK [1][-]{section.6.1}{Phase2}{chapter.6}% 27
 \BOOKMARK [1][-]{section.6.2}{Definition Of Tracking Efficiency}{chapter.6}% 28
 \BOOKMARK [1][-]{section.6.3}{Reconstructing Bhabha Events With Basf2}{chapter.6}% 29
 \BOOKMARK [1][-]{section.6.4}{Best Candidate Selection On Phase2 Monte Carlo}{chapter.6}% 30
@@ -38,13 +38,15 @@
 \BOOKMARK [1][-]{section.6.7}{ECL-Trigger}{chapter.6}% 38
 \BOOKMARK [1][-]{section.6.8}{More Events}{chapter.6}% 39
 \BOOKMARK [1][-]{section.6.9}{Dividing The ECL In Areas Of Interest}{chapter.6}% 40
-\BOOKMARK [1][-]{section.6.10}{Phase2 Tracking Efficiency}{chapter.6}% 41
-\BOOKMARK [0][-]{chapter.7}{Phase3 Data}{}% 42
-\BOOKMARK [0][-]{chapter.8}{Further Results}{}% 43
-\BOOKMARK [1][-]{section.8.1}{Phase2 ECL-Trigger}{chapter.8}% 44
-\BOOKMARK [0][-]{chapter.9}{Conclusion}{}% 45
+\BOOKMARK [0][-]{chapter.7}{Phase2 Tracking Efficiency}{}% 41
+\BOOKMARK [0][-]{chapter.8}{Phase3 Tracking Efficiency}{}% 42
+\BOOKMARK [0][-]{chapter.9}{Further Results}{}% 43
+\BOOKMARK [1][-]{section.9.1}{Phase2 ECL-Trigger}{chapter.9}% 44
+\BOOKMARK [0][-]{chapter.10}{Conclusion}{}% 45
 \BOOKMARK [0][-]{appendix.A}{Appendix}{}% 46
-\BOOKMARK [0][-]{chapter*.40}{List of Figures}{}% 47
-\BOOKMARK [0][-]{chapter*.41}{List of Tables}{}% 48
-\BOOKMARK [0][-]{chapter*.42}{Bibliography}{}% 49
-\BOOKMARK [0][-]{appendix.B}{Acknowledgements}{}% 50
+\BOOKMARK [1][-]{section.A.1}{Preparation Plots}{appendix.A}% 47
+\BOOKMARK [1][-]{section.A.2}{Additional Area Of Interest Plots}{appendix.A}% 48
+\BOOKMARK [0][-]{chapter*.48}{List of Figures}{}% 49
+\BOOKMARK [0][-]{chapter*.49}{List of Tables}{}% 50
+\BOOKMARK [0][-]{chapter*.50}{Bibliography}{}% 51
+\BOOKMARK [0][-]{appendix.B}{Acknowledgements}{}% 52

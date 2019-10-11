@@ -68,17 +68,23 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {\relax 6.8}{\ignorespaces b2bClusterPhi - clusterPhi For Beamtime-Data}}{40}{figure.caption.28}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.9}{\ignorespaces \texttt {lume} Trigger Signal After Selection}}{42}{figure.caption.29}
+\contentsline {figure}{\numberline {\relax 6.9}{\ignorespaces b2bClusterPhi - clusterPhi For MC}}{41}{figure.caption.29}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.10}{\ignorespaces Total Number Of Events After The Selection}}{43}{figure.caption.30}
+\contentsline {figure}{\numberline {\relax 6.10}{\ignorespaces \texttt {lume} Trigger Signal After Selection}}{42}{figure.caption.30}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.11}{\ignorespaces Denominator $\theta $, $\phi $ Random Momentum MC}}{44}{figure.caption.31}
+\contentsline {figure}{\numberline {\relax 6.11}{\ignorespaces Total Number Of Events After The Selection}}{43}{figure.caption.31}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.12}{\ignorespaces Denominator $\theta $, $\phi $ Random Momentum Data}}{45}{figure.caption.32}
+\contentsline {figure}{\numberline {\relax 6.12}{\ignorespaces Denominator $\theta $, $\phi $ Random Momentum MC}}{45}{figure.caption.32}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.13}{\ignorespaces Denominator $\theta $, $\phi $ Random Transverse Momentum MC}}{46}{figure.caption.33}
+\contentsline {figure}{\numberline {\relax 6.13}{\ignorespaces Denominator $\theta $, $\phi $ Random Momentum Data}}{46}{figure.caption.33}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.14}{\ignorespaces Denominator $\theta $, $\phi $ Random Transverse Momentum Data}}{47}{figure.caption.34}
+\contentsline {figure}{\numberline {\relax 6.14}{\ignorespaces Denominator $\theta $, $\phi $ Random Transverse Momentum MC}}{47}{figure.caption.34}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 6.15}{\ignorespaces Denominator $\theta $, $\phi $ Random Transverse Momentum Data}}{48}{figure.caption.35}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
@@ -86,17 +92,29 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {\relax A.1}{\ignorespaces clusterE(HclE) - clusterE(LclE)}}{57}{figure.caption.36}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.1}{\ignorespaces clusterE(HclE) - clusterE(LclE)}}{55}{figure.caption.35}
+\contentsline {figure}{\numberline {\relax A.2}{\ignorespaces Cluster Splitting Angle Distribution}}{58}{figure.caption.37}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.2}{\ignorespaces Cluster Splitting Angle Distribution}}{56}{figure.caption.36}
+\contentsline {figure}{\numberline {\relax A.3}{\ignorespaces b2bClusterPhi - clusterPhi For Data (Whole Range)}}{58}{figure.caption.38}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.3}{\ignorespaces b2bClusterPhi - clusterPhi For Data (Whole Range)}}{56}{figure.caption.37}
+\contentsline {figure}{\numberline {\relax A.4}{\ignorespaces b2bClusterPhi - clusterPhi For MC (Whole Range)}}{59}{figure.caption.39}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.4}{\ignorespaces b2bClusterPhi - clusterPhi For MC}}{57}{figure.caption.38}
+\contentsline {figure}{\numberline {\relax A.5}{\ignorespaces Denominator $\theta $, $\phi $ Electron Momentum MC}}{60}{figure.caption.40}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.5}{\ignorespaces b2bClusterPhi - clusterPhi For MC (Whole Range)}}{57}{figure.caption.39}
+\contentsline {figure}{\numberline {\relax A.6}{\ignorespaces Denominator $\theta $, $\phi $ Electron Momentum Data}}{61}{figure.caption.41}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.7}{\ignorespaces Denominator $\theta $, $\phi $ Positron Momentum MC}}{62}{figure.caption.42}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.8}{\ignorespaces Denominator $\theta $, $\phi $ Positron Momentum Data}}{63}{figure.caption.43}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.9}{\ignorespaces Denominator $\theta $, $\phi $ Electron Transverse Momentum MC}}{64}{figure.caption.44}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.10}{\ignorespaces Denominator $\theta $, $\phi $ Electron Transverse Momentum Data}}{65}{figure.caption.45}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.11}{\ignorespaces Denominator $\theta $, $\phi $ Positron Transverse Momentum MC}}{66}{figure.caption.46}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.12}{\ignorespaces Denominator $\theta $, $\phi $ Positron Transverse Momentum Data}}{67}{figure.caption.47}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
