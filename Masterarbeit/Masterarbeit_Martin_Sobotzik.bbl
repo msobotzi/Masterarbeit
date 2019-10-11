@@ -16,430 +16,34 @@
   {}
 \endgroup
 
-\sortlist[entry]{nty/global/}
-  \entry{Beamsize}{thesis}{}
+\sortlist[entry]{none/global/}
+  \entry{RiseStandard}{book}{}
     \name{author}{1}{}{%
-      {{hash=AF}{%
-         family={Abudinén},
-         familyi={A\bibinitperiod},
-         given={Fernando},
-         giveni={F\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{AF1}
-    \strng{fullhash}{AF1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{A}
-    \field{sortinithash}{A}
-    \field{title}{Development of a $B^0$ flavor tagger and performance study of
-  a novel time-dependant $CP$ analysis of the decay $B^0 \rightarrow \pi^0
-  \pi^0$ at Belle II}
-    \list{institution}{1}{%
-      {Ludwig-Maximilians-Universität München}%
-    }
-    \field{type}{PhD Thesis}
-    \field{month}{09}
-    \field{year}{2018}
-    \warn{\item Can't use 'date' + 'year'}
-  \endentry
-
-  \entry{PTEP}{article}{}
-    \name{author}{1}{}{%
-      {{hash=eaA}{%
-         prefix={et},
-         prefixi={e\bibinitperiod},
-         family={al.},
-         familyi={a\bibinitperiod},
-         given={Abe},
-         giveni={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{aAe1}
-    \strng{fullhash}{aAe1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{A}
-    \field{sortinithash}{A}
-    \field{abstract}{%
-    {The machine commissioning of KEKB started in December 1998 and its
-  operation was terminated at the end of June 2010 to upgrade KEKB to
-  SuperKEKB. In this paper, we summarize the history of KEKB and show the
-  achievements made there.}%
-    }
-    \verb{doi}
-    \verb 10.1093/ptep/pts102
-    \endverb
-    \verb{eprint}
-    \verb http://oup.prod.sis.lan/ptep/article-pdf/2013/3/03A001/4440618/pts102
-    \verb .pdf
-    \endverb
-    \field{issn}{2050-3911}
-    \field{number}{3}
-    \field{title}{{Achievements of KEKB}}
-    \verb{url}
-    \verb https://dx.doi.org/10.1093/ptep/pts102
-    \endverb
-    \field{volume}{2013}
-    \field{journaltitle}{Progress of Theoretical and Experimental Physics}
-    \field{month}{03}
-    \field{year}{2013}
-  \endentry
-
-  \entry{B2TR}{article}{}
-    \name{author}{1}{}{%
-      {{hash=eaA}{%
-         prefix={et},
-         prefixi={e\bibinitperiod},
-         family={al.},
-         familyi={a\bibinitperiod},
-         given={Abe},
-         giveni={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{aAe1}
-    \strng{fullhash}{aAe1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{A}
-    \field{sortinithash}{A}
-    \field{title}{Belle II Technical Design Report}
-    \verb{url}
-    \verb arXiv:1011.0352
-    \endverb
-    \field{month}{11}
-    \field{year}{2010}
-  \endentry
-
-  \entry{KEKBJArc}{article}{}
-    \name{author}{1}{}{%
-      {{hash=eaA}{%
-         prefix={et},
-         prefixi={e\bibinitperiod},
-         family={al.},
-         familyi={a\bibinitperiod},
-         given={Akemoto},
-         giveni={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{aAe2}
-    \strng{fullhash}{aAe2}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{A}
-    \field{sortinithash}{A}
-    \field{abstract}{%
-    {The KEKB injector linac has been continuously improved to enhance the
-  stability of many devices and the efficiency of beam operation. These
-  improvements include the development of the new C-band accelerating
-  structure, pulse compressor, klystron, rf window, compact modulator, and the
-  new positron production target using crystalline tungsten. We have also
-  achieved two-bunch beam acceleration, the development of an energy spread
-  monitor, a safety system upgrade, and an event-based timing and control
-  system. These developments and practical applications for advanced linac beam
-  handling result in the success of the simultaneous top-up injection among the
-  three independent storage rings. This result greatly improves the integrated
-  luminosity and the operation stability of the KEKB rings. In this paper, we
-  present the progress of the KEKB injector linac in this decade.}%
-    }
-    \verb{doi}
-    \verb 10.1093/ptep/ptt011
-    \endverb
-    \verb{eprint}
-    \verb http://oup.prod.sis.lan/ptep/article-pdf/2013/3/03A002/4441335/ptt011
-    \verb .pdf
-    \endverb
-    \field{issn}{2050-3911}
-    \field{number}{3}
-    \field{title}{{The KEKB injector linac}}
-    \verb{url}
-    \verb https://dx.doi.org/10.1093/ptep/ptt011
-    \endverb
-    \field{volume}{2013}
-    \field{journaltitle}{Progress of Theoretical and Experimental Physics}
-    \field{month}{03}
-    \field{year}{2013}
-  \endentry
-
-  \entry{B2B}{book}{}
-    \name{author}{1}{}{%
-      {{hash=eaEK}{%
-         prefix={et},
-         prefixi={e\bibinitperiod},
-         family={al.},
-         familyi={a\bibinitperiod},
-         given={E.\bibnamedelima Kou},
-         giveni={E\bibinitperiod\bibinitdelim K\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{aEKe1}
-    \strng{fullhash}{aEKe1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{A}
-    \field{sortinithash}{A}
-    \field{title}{The Belle II Physics Book}
-    \verb{url}
-    \verb https://arxiv.org/abs/1808.10567
-    \endverb
-    \field{month}{08}
-    \field{year}{2018}
-  \endentry
-
-  \entry{OnlineDataReduction}{article}{}
-    \name{author}{1}{}{%
-      {{hash=eaFB}{%
-         prefix={et},
-         prefixi={e\bibinitperiod},
-         family={al.},
-         familyi={a\bibinitperiod},
-         given={F.\bibnamedelima Bernlochner},
-         giveni={F\bibinitperiod\bibinitdelim B\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{aFBe1}
-    \strng{fullhash}{aFBe1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{A}
-    \field{sortinithash}{A}
-    \verb{doi}
-    \verb 10.1051/epjconf/201715000014
-    \endverb
-    \field{title}{Online Data Reduction for the Belle II Experiment using
-  DATCON}
-    \verb{url}
-    \verb https://arxiv.org/abs/1709.00612
-    \endverb
-    \field{month}{09}
-    \field{year}{2017}
-  \endentry
-
-  \entry{KLMS}{article}{}
-    \name{author}{1}{}{%
-      {{hash=eaTA}{%
-         prefix={et},
-         prefixi={e\bibinitperiod},
-         family={al.},
-         familyi={a\bibinitperiod},
-         given={T.\bibnamedelima Aushev},
-         giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{aTAe1}
-    \strng{fullhash}{aTAe1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{A}
-    \field{sortinithash}{A}
-    \verb{doi}
-    \verb 10.1016/j.nima.2015.03.060
-    \endverb
-    \field{title}{A scintillator based endcap K L and muon detector for the
-  Belle II experiment}
-    \verb{url}
-    \verb https://arxiv.org/abs/1406.3267v3
-    \endverb
-    \field{month}{04}
-    \field{year}{2015}
-  \endentry
-
-  \entry{Belle_ECL_2015}{article}{}
-    \name{author}{1}{}{%
-      {{hash=eaVA}{%
-         prefix={et},
-         prefixi={e\bibinitperiod},
-         family={al.},
-         familyi={a\bibinitperiod},
-         given={V.\bibnamedelima Aulchenko},
-         giveni={V\bibinitperiod\bibinitdelim A\bibinitperiod},
+      {{hash=LHMRMDLB}{%
+         family={Lillian\bibnamedelima Hoddeson},
+         familyi={L\bibinitperiod\bibinitdelim H\bibinitperiod},
+         suffix={Laurie\bibnamedelima Brown},
+         suffixi={L\bibinitperiod\bibinitdelim B\bibinitperiod},
+         given={Michael Riordan Max\bibnamedelima Dresden},
+         giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod
+  M\bibinitperiod\bibinitdelim D\bibinitperiod},
       }}%
     }
     \list{publisher}{1}{%
-      {{IOP} Publishing}%
+      {Cambridge University Press}%
     }
-    \strng{namehash}{aVAe1}
-    \strng{fullhash}{aVAe1}
+    \strng{namehash}{LHLBMRMD1}
+    \strng{fullhash}{LHLBMRMD1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{A}
-    \field{sortinithash}{A}
-    \field{abstract}{%
-    The electromagnetic calorimeter of the BELLE II detector for experiments at
-  Super B-factory SuperKEKB is briefly described. The project of the
-  calorimeter upgrade to meet severe background conditions expected at the
-  upgraded KEK B factory is presented.%
-    }
-    \verb{doi}
-    \verb 10.1088/1742-6596/587/1/012045
-    \endverb
-    \field{pages}{012045}
-    \field{title}{Electromagnetic calorimeter for Belle {II}}
-    \verb{url}
-    \verb https://doi.org/10.1088%2F1742-6596%2F587%2F1%2F012045
-    \endverb
-    \field{volume}{587}
-    \field{journaltitle}{Journal of Physics: Conference Series}
-    \field{year}{2015}
-    \warn{\item Invalid format of field 'month'}
-  \endentry
-
-  \entry{bergauer2010silicon}{article}{}
-    \name{author}{1}{}{%
-      {{hash=BT}{%
-         family={Bergauer},
-         familyi={B\bibinitperiod},
-         given={Thomas},
-         giveni={T\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{BT1}
-    \strng{fullhash}{BT1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{B}
-    \field{sortinithash}{B}
-    \field{pages}{044}
-    \field{title}{The silicon vertex detector of the Belle II experiment}
-    \field{journaltitle}{PoS}
-    \field{year}{2010}
-  \endentry
-
-  \entry{cerenkovAngle}{article}{}
-    \name{author}{1}{}{%
-      {{hash=CP}{%
-         family={Cerenkov},
-         familyi={C\bibinitperiod},
-         given={PA},
-         giveni={P\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{CP1}
-    \strng{fullhash}{CP1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{C}
-    \field{sortinithash}{C}
-    \field{pages}{378}
-    \field{title}{PA Cerenkov, Phys. Rev. 52, 378 (1937).}
-    \field{volume}{52}
-    \field{journaltitle}{Phys. Rev.}
-    \field{year}{1937}
-  \endentry
-
-  \entry{SVDItalian}{online}{}
-    \name{author}{1}{}{%
-      {{hash=cBII}{%
-         family={collaboration},
-         familyi={c\bibinitperiod},
-         given={Belle II\bibnamedelima Italian},
-         giveni={B\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim
-  I\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{cBII1}
-    \strng{fullhash}{cBII1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{C}
-    \field{sortinithash}{C}
-    \field{addendum}{visited on 06.03.2019}
-    \field{title}{Silicon Vertex Detector}
-    \verb{url}
-    \verb https://web.infn.it/Belle-II/index.php/detector/svd
-    \endverb
-    \field{month}{03}
-    \field{year}{2019}
-    \warn{\item Invalid format of field 'date' \item Invalid format of field
-  'date'}
-  \endentry
-
-  \entry{SKEKAcc}{article}{}
-    \name{author}{1}{}{%
-      {{hash=HdlCI}{%
-         prefix={Heredia de\bibnamedelima la},
-         prefixi={H\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim
-  l\bibinitperiod},
-         family={Cruz},
-         familyi={C\bibinitperiod},
-         given={Ivan},
-         giveni={I\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{CIHdl1}
-    \strng{fullhash}{CIHdl1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{C}
-    \field{sortinithash}{C}
-    \verb{doi}
-    \verb 10.1088/1742-6596/761/1/012017
-    \endverb
-    \field{title}{The Belle II experiment: fundamental physics at the flavor
-  frontier}
-    \field{volume}{761}
-    \field{journaltitle}{Journal of Physics: Conference Series}
-    \field{month}{09}
-    \field{year}{2016}
-  \endentry
-
-  \entry{Filippo:1097}{thesis}{}
-    \name{author}{3}{}{%
-      {{hash=DF}{%
-         family={Dattola},
-         familyi={D\bibinitperiod},
-         given={Filippo},
-         giveni={F\bibinitperiod},
-      }}%
-      {{hash=VL}{%
-         family={Vitale},
-         familyi={V\bibinitperiod},
-         given={Lorenzo},
-         giveni={L\bibinitperiod},
-      }}%
-      {{hash=TD}{%
-         family={Tonelli},
-         familyi={T\bibinitperiod},
-         given={Diego},
-         giveni={D\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{DFVLTD1}
-    \strng{fullhash}{DFVLTD1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{D}
-    \field{sortinithash}{D}
-    \field{note}{Presented on 20 07 2018}
-    \field{title}{Tracking studies for the Belle II detector}
-    \list{location}{1}{%
-      {Trieste}%
-    }
-    \list{institution}{1}{%
-      {Trieste, University of Trieste}%
-    }
-    \field{type}{phdthesis}
-    \field{year}{2018}
-  \endentry
-
-  \entry{BDetector}{online}{}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{E}
-    \field{sortinithash}{E}
-    \field{addendum}{visited on 25.02.2019}
-    \field{title}{Electrons and Positrons Collide for the first time in the
-  SuperKEKB Accelerator}
-    \verb{url}
-    \verb https://www.kek.jp/en/newsroom/2018/04/26/0700/
-    \endverb
-    \field{month}{04}
-    \field{year}{2018}
+    \field{isbn}{0521578167}
+    \field{title}{The Rise of the Standard Model: Particle Physics in the
+  1960's and 1970's}
+    \field{year}{1997}
   \endentry
 
   \entry{SMFigure}{online}{}
     \field{labeltitlesource}{title}
-    \field{sortinit}{F}
-    \field{sortinithash}{F}
     \field{addendum}{visited on 20.05.2019}
     \field{title}{Fundamental Particles}
     \verb{url}
@@ -447,6 +51,61 @@
     \endverb
     \warn{\item Invalid format of field 'date' \item Invalid format of field
   'date'}
+  \endentry
+
+  \entry{REINES19941}{article}{}
+    \name{author}{1}{}{%
+      {{hash=RF}{%
+         family={Reines},
+         familyi={R\bibinitperiod},
+         given={Frederick},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \keyw{Neutrino, neutrino discovery, nuclear reactor, scintillation
+  detector, atmospheric neutrinos}
+    \strng{namehash}{RF1}
+    \strng{fullhash}{RF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Wolfgang Pauli and Enrico Fermi pioneered the hypothesis and
+  characteristics of the weak interaction and the elementary particle called
+  the neutrino. Since its discovery some forty years ago the neutrino has been
+  shown to be a fundamental constituent of matter with a surprisingly rich, and
+  in very many ways unexpected, set of characteristics ranging from basic roles
+  in the generation of energy in the sun to supernovæ.%
+    }
+    \field{issn}{0146-6410}
+    \field{pages}{1 \bibrangedash  12}
+    \field{title}{40 years of neutrino physics}
+    \verb{url}
+    \verb http://www.sciencedirect.com/science/article/pii/0146641094900035
+    \endverb
+    \field{volume}{32}
+    \field{journaltitle}{Progress in Particle and Nuclear Physics}
+    \field{year}{1994}
+  \endentry
+
+  \entry{sivaram2007special}{article}{}
+    \name{author}{1}{}{%
+      {{hash=SC}{%
+         family={Sivaram},
+         familyi={S\bibinitperiod},
+         given={C},
+         giveni={C},
+      }}%
+    }
+    \strng{namehash}{SC1}
+    \strng{fullhash}{SC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{What is special about the planck mass?}
+    \verb{url}
+    \verb https://arxiv.org/abs/0707.0058
+    \endverb
+    \field{journaltitle}{arXiv preprint arXiv:0707.0058}
+    \field{year}{2007}
   \endentry
 
   \entry{HAMBYE2012193}{article}{}
@@ -464,8 +123,6 @@
     \strng{fullhash}{HT1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{H}
-    \field{sortinithash}{H}
     \field{abstract}{%
     In our everyday environment one observes only matter. Thatʼs quite a
   fortunate situation! Any sizeable presence of antimatter on Earth, from the
@@ -517,29 +174,164 @@
     \field{year}{2012}
   \endentry
 
-  \entry{CDCHauth}{online}{}
+  \entry{Bhabha}{online}{}
     \name{author}{1}{}{%
-      {{hash=HT}{%
-         family={Hauth},
-         familyi={H\bibinitperiod},
-         given={Thomas},
-         giveni={T\bibinitperiod},
+      {{hash=SDV}{%
+         family={Schroeder},
+         familyi={S\bibinitperiod},
+         given={Daniel\bibnamedelima V.},
+         giveni={D\bibinitperiod\bibinitdelim V\bibinitperiod},
       }}%
     }
-    \strng{namehash}{HT2}
-    \strng{fullhash}{HT2}
+    \strng{namehash}{SDV1}
+    \strng{fullhash}{SDV1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{H}
-    \field{sortinithash}{H}
-    \field{title}{Pattern Recognition at Belle II}
-    \list{institution}{1}{%
-      {Karlsruher Institut f\"ur Technologie}%
+    \field{addendum}{visited on 27.05.2019}
+    \field{title}{Feynman Diagrams and Electron-Positron Annihilation}
+    \verb{url}
+    \verb https://physics.weber.edu/schroeder/feynman/
+    \endverb
+    \field{month}{10}
+    \field{year}{2002}
+  \endentry
+
+  \entry{B2B}{book}{}
+    \name{author}{1}{}{%
+      {{hash=eaEK}{%
+         prefix={et},
+         prefixi={e\bibinitperiod},
+         family={al.},
+         familyi={a\bibinitperiod},
+         given={E.\bibnamedelima Kou},
+         giveni={E\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
     }
-    \field{month}{12}
+    \strng{namehash}{aEKe1}
+    \strng{fullhash}{aEKe1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{The Belle II Physics Book}
+    \verb{url}
+    \verb https://arxiv.org/abs/1808.10567
+    \endverb
+    \field{month}{08}
+    \field{year}{2018}
+  \endentry
+
+  \entry{PTEP}{article}{}
+    \name{author}{1}{}{%
+      {{hash=eaA}{%
+         prefix={et},
+         prefixi={e\bibinitperiod},
+         family={al.},
+         familyi={a\bibinitperiod},
+         given={Abe},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{aAe1}
+    \strng{fullhash}{aAe1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    {The machine commissioning of KEKB started in December 1998 and its
+  operation was terminated at the end of June 2010 to upgrade KEKB to
+  SuperKEKB. In this paper, we summarize the history of KEKB and show the
+  achievements made there.}%
+    }
+    \verb{doi}
+    \verb 10.1093/ptep/pts102
+    \endverb
+    \verb{eprint}
+    \verb http://oup.prod.sis.lan/ptep/article-pdf/2013/3/03A001/4440618/pts102
+    \verb .pdf
+    \endverb
+    \field{issn}{2050-3911}
+    \field{number}{3}
+    \field{title}{{Achievements of KEKB}}
+    \verb{url}
+    \verb https://dx.doi.org/10.1093/ptep/pts102
+    \endverb
+    \field{volume}{2013}
+    \field{journaltitle}{Progress of Theoretical and Experimental Physics}
+    \field{month}{03}
+    \field{year}{2013}
+  \endentry
+
+  \entry{SKEKAcc}{article}{}
+    \name{author}{1}{}{%
+      {{hash=HdlCI}{%
+         prefix={Heredia de\bibnamedelima la},
+         prefixi={H\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim
+  l\bibinitperiod},
+         family={Cruz},
+         familyi={C\bibinitperiod},
+         given={Ivan},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CIHdl1}
+    \strng{fullhash}{CIHdl1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1088/1742-6596/761/1/012017
+    \endverb
+    \field{title}{The Belle II experiment: fundamental physics at the flavor
+  frontier}
+    \field{volume}{761}
+    \field{journaltitle}{Journal of Physics: Conference Series}
+    \field{month}{09}
     \field{year}{2016}
-    \warn{\item Invalid format of field 'date' \item Invalid format of field
-  'date'}
+  \endentry
+
+  \entry{KEKBJArc}{article}{}
+    \name{author}{1}{}{%
+      {{hash=eaA}{%
+         prefix={et},
+         prefixi={e\bibinitperiod},
+         family={al.},
+         familyi={a\bibinitperiod},
+         given={Akemoto},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{aAe2}
+    \strng{fullhash}{aAe2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    {The KEKB injector linac has been continuously improved to enhance the
+  stability of many devices and the efficiency of beam operation. These
+  improvements include the development of the new C-band accelerating
+  structure, pulse compressor, klystron, rf window, compact modulator, and the
+  new positron production target using crystalline tungsten. We have also
+  achieved two-bunch beam acceleration, the development of an energy spread
+  monitor, a safety system upgrade, and an event-based timing and control
+  system. These developments and practical applications for advanced linac beam
+  handling result in the success of the simultaneous top-up injection among the
+  three independent storage rings. This result greatly improves the integrated
+  luminosity and the operation stability of the KEKB rings. In this paper, we
+  present the progress of the KEKB injector linac in this decade.}%
+    }
+    \verb{doi}
+    \verb 10.1093/ptep/ptt011
+    \endverb
+    \verb{eprint}
+    \verb http://oup.prod.sis.lan/ptep/article-pdf/2013/3/03A002/4441335/ptt011
+    \verb .pdf
+    \endverb
+    \field{issn}{2050-3911}
+    \field{number}{3}
+    \field{title}{{The KEKB injector linac}}
+    \verb{url}
+    \verb https://dx.doi.org/10.1093/ptep/ptt011
+    \endverb
+    \field{volume}{2013}
+    \field{journaltitle}{Progress of Theoretical and Experimental Physics}
+    \field{month}{03}
+    \field{year}{2013}
   \endentry
 
   \entry{herr2006concept}{article}{}
@@ -564,8 +356,6 @@
     \strng{fullhash}{HWMB1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{H}
-    \field{sortinithash}{H}
     \verb{doi}
     \verb 10.5170/CERN-2006-002.361
     \endverb
@@ -574,99 +364,145 @@
     \field{year}{2006}
   \endentry
 
-  \entry{LumiTrigger}{inproceedings}{}
-    \name{author}{4}{}{%
-      {{hash=IY}{%
-         family={Iwasaki},
-         familyi={I\bibinitperiod},
-         given={Yoshihito},
-         giveni={Y\bibinitperiod},
-      }}%
-      {{hash=CB}{%
-         family={Cheon},
-         familyi={C\bibinitperiod},
-         given={ByungGu},
-         giveni={B\bibinitperiod},
-      }}%
-      {{hash=WE}{%
-         family={Won},
-         familyi={W\bibinitperiod},
-         given={Eunil},
-         giveni={E\bibinitperiod},
-      }}%
-      {{hash=VG}{%
-         family={Varner},
-         familyi={V\bibinitperiod},
-         given={Gary},
-         giveni={G\bibinitperiod},
+  \entry{Beamsize}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=AF}{%
+         family={Abudinén},
+         familyi={A\bibinitperiod},
+         given={Fernando},
+         giveni={F\bibinitperiod},
       }}%
     }
-    \list{organization}{1}{%
-      {IEEE}%
-    }
-    \strng{namehash}{IY+1}
-    \strng{fullhash}{IYCBWEVG1}
+    \strng{namehash}{AF1}
+    \strng{fullhash}{AF1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{I}
-    \field{sortinithash}{I}
-    \field{booktitle}{2010 17th IEEE-NPSS Real Time Conference}
-    \field{pages}{1\bibrangedash 9}
-    \field{title}{Level 1 trigger system for the Belle II experiment}
+    \field{title}{Development of a $B^0$ flavor tagger and performance study of
+  a novel time-dependant $CP$ analysis of the decay $B^0 \rightarrow \pi^0
+  \pi^0$ at Belle II}
+    \list{institution}{1}{%
+      {Ludwig-Maximilians-Universität München}%
+    }
+    \field{type}{PhD Thesis}
+    \field{month}{09}
+    \field{year}{2018}
+    \warn{\item Can't use 'date' + 'year'}
+  \endentry
+
+  \entry{B2TR}{article}{}
+    \name{author}{1}{}{%
+      {{hash=eaA}{%
+         prefix={et},
+         prefixi={e\bibinitperiod},
+         family={al.},
+         familyi={a\bibinitperiod},
+         given={Abe},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{aAe1}
+    \strng{fullhash}{aAe1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Belle II Technical Design Report}
+    \verb{url}
+    \verb arXiv:1011.0352
+    \endverb
+    \field{month}{11}
     \field{year}{2010}
   \endentry
 
-  \entry{leo2012techniques}{book}{}
-    \name{author}{1}{}{%
-      {{hash=LWR}{%
-         family={Leo},
-         familyi={L\bibinitperiod},
-         given={William\bibnamedelima R},
-         giveni={W\bibinitperiod\bibinitdelim R\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Springer Science \& Business Media}%
-    }
-    \strng{namehash}{LWR1}
-    \strng{fullhash}{LWR1}
-    \field{labelnamesource}{author}
+  \entry{BDetector}{online}{}
     \field{labeltitlesource}{title}
-    \field{sortinit}{L}
-    \field{sortinithash}{L}
-    \verb{doi}
-    \verb 10.1007/978-3-642-57920-2
+    \field{addendum}{visited on 25.02.2019}
+    \field{title}{Electrons and Positrons Collide for the first time in the
+  SuperKEKB Accelerator}
+    \verb{url}
+    \verb https://www.kek.jp/en/newsroom/2018/04/26/0700/
     \endverb
-    \field{title}{Techniques for nuclear and particle physics experiments: a
-  how-to approach}
-    \field{year}{2012}
+    \field{month}{04}
+    \field{year}{2018}
   \endentry
 
-  \entry{RiseStandard}{book}{}
+  \entry{TrackReconstruction}{thesis}{}
     \name{author}{1}{}{%
-      {{hash=LHMRMDLB}{%
-         family={Lillian\bibnamedelima Hoddeson},
-         familyi={L\bibinitperiod\bibinitdelim H\bibinitperiod},
-         suffix={Laurie\bibnamedelima Brown},
-         suffixi={L\bibinitperiod\bibinitdelim B\bibinitperiod},
-         given={Michael Riordan Max\bibnamedelima Dresden},
-         giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod
-  M\bibinitperiod\bibinitdelim D\bibinitperiod},
+      {{hash=PS}{%
+         family={Pohl},
+         familyi={P\bibinitperiod},
+         given={Sara},
+         giveni={S\bibinitperiod},
       }}%
     }
-    \list{publisher}{1}{%
-      {Cambridge University Press}%
-    }
-    \strng{namehash}{LHLBMRMD1}
-    \strng{fullhash}{LHLBMRMD1}
+    \strng{namehash}{PS1}
+    \strng{fullhash}{PS1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{L}
-    \field{sortinithash}{L}
-    \field{isbn}{0521578167}
-    \field{title}{The Rise of the Standard Model: Particle Physics in the
-  1960's and 1970's}
-    \field{year}{1997}
+    \field{title}{Track Reconstruction at the First Level Trigger of the Belle
+  II Experiment}
+    \verb{url}
+    \verb https://edoc.ub.uni-muenchen.de/22085/
+    \endverb
+    \list{institution}{1}{%
+      {Ludwig-Maximilians-Universität München}%
+    }
+    \field{type}{PhD Thesis}
+    \field{month}{12}
+    \field{year}{2017}
+    \warn{\item Invalid format of field 'date' \item Invalid format of field
+  'date'}
+  \endentry
+
+  \entry{DevelopVertex}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=SN}{%
+         family={Shimizu},
+         familyi={S\bibinitperiod},
+         given={Nobuhiro},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SN1}
+    \strng{fullhash}{SN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{addendum}{visited on 25.02.2019}
+    \field{title}{Development of the Silicon Vertex Detector for Belle II
+  experiment}
+    \verb{url}
+    \verb http://hep.phys.s.u-tokyo.ac.jp/?page_id=229
+    \endverb
+    \list{institution}{1}{%
+      {Department of Physics, University of Tokyo}%
+    }
+    \warn{\item Invalid format of field 'date' \item Invalid format of field
+  'date'}
+  \endentry
+
+  \entry{OnlineDataReduction}{article}{}
+    \name{author}{1}{}{%
+      {{hash=eaFB}{%
+         prefix={et},
+         prefixi={e\bibinitperiod},
+         family={al.},
+         familyi={a\bibinitperiod},
+         given={F.\bibnamedelima Bernlochner},
+         giveni={F\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{aFBe1}
+    \strng{fullhash}{aFBe1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1051/epjconf/201715000014
+    \endverb
+    \field{title}{Online Data Reduction for the Belle II Experiment using
+  DATCON}
+    \verb{url}
+    \verb https://arxiv.org/abs/1709.00612
+    \endverb
+    \field{month}{09}
+    \field{year}{2017}
   \endentry
 
   \entry{MARINAS201159}{article}{}
@@ -690,8 +526,6 @@
     \strng{fullhash}{MCVM1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{M}
-    \field{sortinithash}{M}
     \field{abstract}{%
     An upgrade of the successful asymmetric e+e− collider in KEK (Tsukuba,
   Japan) is foreseen by the fall of 2013. This new Super Flavor Factory will
@@ -729,171 +563,91 @@
     \field{year}{2011}
   \endentry
 
-  \entry{TheoryOfAlmostEverything}{book}{}
+  \entry{SVDItalian}{online}{}
     \name{author}{1}{}{%
-      {{hash=OR}{%
-         family={Oerter},
-         familyi={O\bibinitperiod},
-         given={Robert},
-         giveni={R\bibinitperiod},
+      {{hash=cBII}{%
+         family={collaboration},
+         familyi={c\bibinitperiod},
+         given={Belle II\bibnamedelima Italian},
+         giveni={B\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim
+  I\bibinitperiod},
       }}%
     }
-    \strng{namehash}{OR1}
-    \strng{fullhash}{OR1}
+    \strng{namehash}{cBII1}
+    \strng{fullhash}{cBII1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{O}
-    \field{sortinithash}{O}
-    \field{isbn}{978-1-101-12674-5}
-    \field{title}{The theory of almost everything - The Standard Model}
-    \field{year}{2006}
-  \endentry
-
-  \entry{triangular}{online}{}
-    \name{author}{1}{}{%
-      {{hash=PR}{%
-         family={Pierce},
-         familyi={P\bibinitperiod},
-         given={Rod},
-         giveni={R\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{PR1}
-    \strng{fullhash}{PR1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{P}
-    \field{sortinithash}{P}
-    \field{addendum}{visited on 27.05.2019}
-    \field{title}{"Triangular Number Sequence" Math Is Fun}
+    \field{addendum}{visited on 06.03.2019}
+    \field{title}{Silicon Vertex Detector}
     \verb{url}
-    \verb http://www.mathsisfun.com/algebra/triangular-numbers.html
+    \verb https://web.infn.it/Belle-II/index.php/detector/svd
     \endverb
-    \field{month}{11}
-    \field{year}{2018}
-  \endentry
-
-  \entry{REINES19941}{article}{}
-    \name{author}{1}{}{%
-      {{hash=RF}{%
-         family={Reines},
-         familyi={R\bibinitperiod},
-         given={Frederick},
-         giveni={F\bibinitperiod},
-      }}%
-    }
-    \keyw{Neutrino, neutrino discovery, nuclear reactor, scintillation
-  detector, atmospheric neutrinos}
-    \strng{namehash}{RF1}
-    \strng{fullhash}{RF1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{R}
-    \field{sortinithash}{R}
-    \field{abstract}{%
-    Wolfgang Pauli and Enrico Fermi pioneered the hypothesis and
-  characteristics of the weak interaction and the elementary particle called
-  the neutrino. Since its discovery some forty years ago the neutrino has been
-  shown to be a fundamental constituent of matter with a surprisingly rich, and
-  in very many ways unexpected, set of characteristics ranging from basic roles
-  in the generation of energy in the sun to supernovæ.%
-    }
-    \field{issn}{0146-6410}
-    \field{pages}{1 \bibrangedash  12}
-    \field{title}{40 years of neutrino physics}
-    \verb{url}
-    \verb http://www.sciencedirect.com/science/article/pii/0146641094900035
-    \endverb
-    \field{volume}{32}
-    \field{journaltitle}{Progress in Particle and Nuclear Physics}
-    \field{year}{1994}
-  \endentry
-
-  \entry{Bhabha}{online}{}
-    \name{author}{1}{}{%
-      {{hash=SDV}{%
-         family={Schroeder},
-         familyi={S\bibinitperiod},
-         given={Daniel\bibnamedelima V.},
-         giveni={D\bibinitperiod\bibinitdelim V\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{SDV1}
-    \strng{fullhash}{SDV1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{S}
-    \field{sortinithash}{S}
-    \field{addendum}{visited on 27.05.2019}
-    \field{title}{Feynman Diagrams and Electron-Positron Annihilation}
-    \verb{url}
-    \verb https://physics.weber.edu/schroeder/feynman/
-    \endverb
-    \field{month}{10}
-    \field{year}{2002}
-  \endentry
-
-  \entry{DevelopVertex}{thesis}{}
-    \name{author}{1}{}{%
-      {{hash=SN}{%
-         family={Shimizu},
-         familyi={S\bibinitperiod},
-         given={Nobuhiro},
-         giveni={N\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{SN1}
-    \strng{fullhash}{SN1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{S}
-    \field{sortinithash}{S}
-    \field{addendum}{visited on 25.02.2019}
-    \field{title}{Development of the Silicon Vertex Detector for Belle II
-  experiment}
-    \verb{url}
-    \verb http://hep.phys.s.u-tokyo.ac.jp/?page_id=229
-    \endverb
-    \list{institution}{1}{%
-      {Department of Physics, University of Tokyo}%
-    }
+    \field{month}{03}
+    \field{year}{2019}
     \warn{\item Invalid format of field 'date' \item Invalid format of field
   'date'}
   \endentry
 
-  \entry{sivaram2007special}{article}{}
+  \entry{bergauer2010silicon}{article}{}
     \name{author}{1}{}{%
-      {{hash=SC}{%
-         family={Sivaram},
-         familyi={S\bibinitperiod},
-         given={C},
-         giveni={C},
+      {{hash=BT}{%
+         family={Bergauer},
+         familyi={B\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
       }}%
     }
-    \strng{namehash}{SC1}
-    \strng{fullhash}{SC1}
+    \strng{namehash}{BT1}
+    \strng{fullhash}{BT1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{S}
-    \field{sortinithash}{S}
-    \field{title}{What is special about the planck mass?}
-    \verb{url}
-    \verb https://arxiv.org/abs/0707.0058
-    \endverb
-    \field{journaltitle}{arXiv preprint arXiv:0707.0058}
-    \field{year}{2007}
+    \field{pages}{044}
+    \field{title}{The silicon vertex detector of the Belle II experiment}
+    \field{journaltitle}{PoS}
+    \field{year}{2010}
   \endentry
 
-  \entry{TEfficiency}{online}{}
+  \entry{CDCHauth}{online}{}
+    \name{author}{1}{}{%
+      {{hash=HT}{%
+         family={Hauth},
+         familyi={H\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HT2}
+    \strng{fullhash}{HT2}
+    \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{T}
-    \field{sortinithash}{T}
-    \field{addendum}{visited on 09.10.2019}
-    \field{title}{TEfficiency Class Reference}
-    \verb{url}
-    \verb https://root.cern.ch/doc/master/classTEfficiency.html
-    \endverb
-    \field{year}{2019}
+    \field{title}{Pattern Recognition at Belle II}
+    \list{institution}{1}{%
+      {Karlsruher Institut f\"ur Technologie}%
+    }
+    \field{month}{12}
+    \field{year}{2016}
+    \warn{\item Invalid format of field 'date' \item Invalid format of field
+  'date'}
+  \endentry
+
+  \entry{cerenkovAngle}{article}{}
+    \name{author}{1}{}{%
+      {{hash=CP}{%
+         family={Cerenkov},
+         familyi={C\bibinitperiod},
+         given={PA},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CP1}
+    \strng{fullhash}{CP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{378}
+    \field{title}{PA Cerenkov, Phys. Rev. 52, 378 (1937).}
+    \field{volume}{52}
+    \field{journaltitle}{Phys. Rev.}
+    \field{year}{1937}
   \endentry
 
   \entry{TORASSA}{article}{}
@@ -910,8 +664,6 @@
     \strng{fullhash}{TE1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{T}
-    \field{sortinithash}{T}
     \field{abstract}{%
     The SuperKEKB e+e− collider will provide 40 times higher instantaneous
   luminosity than the KEKB collider. The Belle II detector, located at the
@@ -947,10 +699,239 @@
     \field{year}{2016}
   \endentry
 
+  \entry{Belle_ECL_2015}{article}{}
+    \name{author}{1}{}{%
+      {{hash=eaVA}{%
+         prefix={et},
+         prefixi={e\bibinitperiod},
+         family={al.},
+         familyi={a\bibinitperiod},
+         given={V.\bibnamedelima Aulchenko},
+         giveni={V\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{IOP} Publishing}%
+    }
+    \strng{namehash}{aVAe1}
+    \strng{fullhash}{aVAe1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The electromagnetic calorimeter of the BELLE II detector for experiments at
+  Super B-factory SuperKEKB is briefly described. The project of the
+  calorimeter upgrade to meet severe background conditions expected at the
+  upgraded KEK B factory is presented.%
+    }
+    \verb{doi}
+    \verb 10.1088/1742-6596/587/1/012045
+    \endverb
+    \field{pages}{012045}
+    \field{title}{Electromagnetic calorimeter for Belle {II}}
+    \verb{url}
+    \verb https://doi.org/10.1088%2F1742-6596%2F587%2F1%2F012045
+    \endverb
+    \field{volume}{587}
+    \field{journaltitle}{Journal of Physics: Conference Series}
+    \field{year}{2015}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{leo2012techniques}{book}{}
+    \name{author}{1}{}{%
+      {{hash=LWR}{%
+         family={Leo},
+         familyi={L\bibinitperiod},
+         given={William\bibnamedelima R},
+         giveni={W\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer Science \& Business Media}%
+    }
+    \strng{namehash}{LWR1}
+    \strng{fullhash}{LWR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/978-3-642-57920-2
+    \endverb
+    \field{title}{Techniques for nuclear and particle physics experiments: a
+  how-to approach}
+    \field{year}{2012}
+  \endentry
+
+  \entry{KLMS}{article}{}
+    \name{author}{1}{}{%
+      {{hash=eaTA}{%
+         prefix={et},
+         prefixi={e\bibinitperiod},
+         family={al.},
+         familyi={a\bibinitperiod},
+         given={T.\bibnamedelima Aushev},
+         giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{aTAe1}
+    \strng{fullhash}{aTAe1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.nima.2015.03.060
+    \endverb
+    \field{title}{A scintillator based endcap K L and muon detector for the
+  Belle II experiment}
+    \verb{url}
+    \verb https://arxiv.org/abs/1406.3267v3
+    \endverb
+    \field{month}{04}
+    \field{year}{2015}
+  \endentry
+
+  \entry{LumiTrigger}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=IY}{%
+         family={Iwasaki},
+         familyi={I\bibinitperiod},
+         given={Yoshihito},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=CB}{%
+         family={Cheon},
+         familyi={C\bibinitperiod},
+         given={ByungGu},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=WE}{%
+         family={Won},
+         familyi={W\bibinitperiod},
+         given={Eunil},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=VG}{%
+         family={Varner},
+         familyi={V\bibinitperiod},
+         given={Gary},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{IY+1}
+    \strng{fullhash}{IYCBWEVG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2010 17th IEEE-NPSS Real Time Conference}
+    \field{pages}{1\bibrangedash 9}
+    \field{title}{Level 1 trigger system for the Belle II experiment}
+    \field{year}{2010}
+  \endentry
+
+  \entry{Filippo:1097}{thesis}{}
+    \name{author}{3}{}{%
+      {{hash=DF}{%
+         family={Dattola},
+         familyi={D\bibinitperiod},
+         given={Filippo},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=VL}{%
+         family={Vitale},
+         familyi={V\bibinitperiod},
+         given={Lorenzo},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=TD}{%
+         family={Tonelli},
+         familyi={T\bibinitperiod},
+         given={Diego},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DFVLTD1}
+    \strng{fullhash}{DFVLTD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{Presented on 20 07 2018}
+    \field{title}{Tracking studies for the Belle II detector}
+    \list{location}{1}{%
+      {Trieste}%
+    }
+    \list{institution}{1}{%
+      {Trieste, University of Trieste}%
+    }
+    \field{type}{phdthesis}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Moll_2011}{article}{}
+    \name{author}{1}{}{%
+      {{hash=MA}{%
+         family={Moll},
+         familyi={M\bibinitperiod},
+         given={Andreas},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{IOP} Publishing}%
+    }
+    \strng{namehash}{MA1}
+    \strng{fullhash}{MA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The future of CP-Violation experiments is to begin in 2014 with the launch
+  of the SuperKEKB collider in Tsukuba, Japan. As a part of this process the
+  BELLE experiment will undergo an upgrade, giving rise to the BELLE II
+  experiment. The BELLE II detector will include improvements and redesigns of
+  various subdetectors, as well as the addition of an entire new subdetector
+  for precise vertexing. In order to reflect these changes in the existing
+  BELLE software framework, major modifications of nearly all parts of the
+  software would have been necessary. As a result the decision was made to
+  completely rewrite the software framework. In this article the main concepts
+  of the new framework and the applied technologies are presented.%
+    }
+    \verb{doi}
+    \verb 10.1088/1742-6596/331/3/032024
+    \endverb
+    \field{number}{3}
+    \field{pages}{032024}
+    \field{title}{The Software Framework of the Belle {II} Experiment}
+    \verb{url}
+    \verb https://doi.org/10.1088%2F1742-6596%2F331%2F3%2F032024
+    \endverb
+    \field{volume}{331}
+    \field{journaltitle}{Journal of Physics: Conference Series}
+    \field{year}{2011}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{triangular}{online}{}
+    \name{author}{1}{}{%
+      {{hash=PR}{%
+         family={Pierce},
+         familyi={P\bibinitperiod},
+         given={Rod},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PR1}
+    \strng{fullhash}{PR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{addendum}{visited on 27.05.2019}
+    \field{title}{"Triangular Number Sequence" Math Is Fun}
+    \verb{url}
+    \verb http://www.mathsisfun.com/algebra/triangular-numbers.html
+    \endverb
+    \field{month}{11}
+    \field{year}{2018}
+  \endentry
+
   \entry{lumeTrigger}{online}{}
     \field{labeltitlesource}{title}
-    \field{sortinit}{T}
-    \field{sortinithash}{T}
     \field{addendum}{visited on 22.08.2019}
     \field{title}{Trigger Bit Table}
     \verb{url}
@@ -958,6 +939,34 @@
     \endverb
     \field{month}{06}
     \field{year}{2019}
+  \endentry
+
+  \entry{TEfficiency}{online}{}
+    \field{labeltitlesource}{title}
+    \field{addendum}{visited on 09.10.2019}
+    \field{title}{TEfficiency Class Reference}
+    \verb{url}
+    \verb https://root.cern.ch/doc/master/classTEfficiency.html
+    \endverb
+    \field{year}{2019}
+  \endentry
+
+  \entry{TheoryOfAlmostEverything}{book}{}
+    \name{author}{1}{}{%
+      {{hash=OR}{%
+         family={Oerter},
+         familyi={O\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{OR1}
+    \strng{fullhash}{OR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{isbn}{978-1-101-12674-5}
+    \field{title}{The theory of almost everything - The Standard Model}
+    \field{year}{2006}
   \endentry
 
   \entry{cross-section}{online}{}
@@ -973,8 +982,6 @@
     \strng{fullhash}{WD1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{W}
-    \field{sortinithash}{W}
     \field{addendum}{visited on 08.08.2019}
     \field{title}{"Cross Section"}
     \verb{url}

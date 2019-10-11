@@ -97,12 +97,6 @@ Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, M
 while executing---line 2658 of file biblatex.bst
 Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
 while executing---line 2658 of file biblatex.bst
-Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
-while executing---line 2698 of file biblatex.bst
-Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
-while executing---line 2698 of file biblatex.bst
-Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
-while executing---line 2698 of file biblatex.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
 while executing---line 2746 of file biblatex.bst
@@ -122,45 +116,45 @@ Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, M
 while executing---line 2746 of file biblatex.bst
 Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, Max Dresden" for entry RiseStandard
 while executing---line 2746 of file biblatex.bst
-You've used 33 entries,
+You've used 35 entries,
             6256 wiz_defined-function locations,
-            1404 strings with 20987 characters,
-and the built_in function-call counts, 137035 in all, are:
-= -- 7853
-> -- 3380
-< -- 1073
-+ -- 2908
-- -- 1350
-* -- 9084
-:= -- 11535
+            1419 strings with 22063 characters,
+and the built_in function-call counts, 140199 in all, are:
+= -- 8341
+> -- 3403
+< -- 946
++ -- 3044
+- -- 1310
+* -- 8488
+:= -- 11917
 add.period$ -- 0
-call.type$ -- 33
-change.case$ -- 521
-chr.to.int$ -- 164
-cite$ -- 64
-duplicate$ -- 15246
-empty$ -- 13978
-format.name$ -- 1466
-if$ -- 28997
+call.type$ -- 35
+change.case$ -- 518
+chr.to.int$ -- 177
+cite$ -- 68
+duplicate$ -- 15649
+empty$ -- 14395
+format.name$ -- 1468
+if$ -- 29686
 int.to.chr$ -- 0
-int.to.str$ -- 76
+int.to.str$ -- 82
 missing$ -- 0
-newline$ -- 873
-num.names$ -- 1428
-pop$ -- 10578
+newline$ -- 869
+num.names$ -- 1480
+pop$ -- 11254
 preamble$ -- 1
-purify$ -- 591
+purify$ -- 626
 quote$ -- 0
-skip$ -- 5461
+skip$ -- 5604
 stack$ -- 0
-substring$ -- 11564
-swap$ -- 4521
-text.length$ -- 826
-text.prefix$ -- 33
+substring$ -- 12304
+swap$ -- 4338
+text.length$ -- 676
+text.prefix$ -- 1
 top$ -- 1
-type$ -- 1105
+type$ -- 1169
 warning$ -- 0
-while$ -- 1484
+while$ -- 1514
 width$ -- 0
-write$ -- 841
-(There were 49 error messages)
+write$ -- 835
+(There were 46 error messages)

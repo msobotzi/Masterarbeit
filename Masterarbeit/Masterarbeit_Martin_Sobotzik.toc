@@ -60,7 +60,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.3}Reconstructing Bhabha Events With Basf2}{30}{section.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}Best Candidate Selection On Phase2 Monte Carlo}{31}{section.6.4}
+\contentsline {section}{\numberline {6.4}Best Candidate Selection On Phase2 Monte Carlo}{32}{section.6.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.4.1}ECL-Cut}{32}{subsection.6.4.1}
 \defcounter {refsection}{0}\relax 
@@ -70,34 +70,34 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.4.4}Cut Efficiency}{36}{subsection.6.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4.5}No MC-Truth Information}{36}{subsection.6.4.5}
+\contentsline {subsection}{\numberline {6.4.5}No MC-Truth Information}{37}{subsection.6.4.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.5}Best Candidate Selection on Phase2 Data}{38}{section.6.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.6}Selecting Bhabha Events}{38}{section.6.6}
+\contentsline {section}{\numberline {6.6}Selecting Bhabha Events}{39}{section.6.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.7}ECL-Trigger}{41}{section.6.7}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.8}More Events}{41}{section.6.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.9}Dividing The ECL In Areas Of Interest}{42}{section.6.9}
+\contentsline {section}{\numberline {6.9}Dividing The ECL In Areas Of Interest}{43}{section.6.9}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.10}Phase2 Tracking Efficiency}{43}{section.6.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Phase3 Data}{47}{chapter.7}
+\contentsline {chapter}{\numberline {7}Phase3 Data}{49}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Further Results}{49}{chapter.8}
+\contentsline {chapter}{\numberline {8}Further Results}{51}{chapter.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}Phase2 ECL-Trigger}{49}{section.8.1}
+\contentsline {section}{\numberline {8.1}Phase2 ECL-Trigger}{51}{section.8.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Conclusion}{51}{chapter.9}
+\contentsline {chapter}{\numberline {9}Conclusion}{53}{chapter.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Appendix}{53}{appendix.A}
+\contentsline {chapter}{\numberline {A}Appendix}{55}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Figures}{59}{chapter*.39}
+\contentsline {chapter}{\nonumberline List of Figures}{59}{chapter*.40}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Tables}{61}{chapter*.40}
+\contentsline {chapter}{\nonumberline List of Tables}{61}{chapter*.41}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{63}{chapter*.41}
+\contentsline {chapter}{\nonumberline Bibliography}{63}{chapter*.42}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {B}Acknowledgements}{69}{appendix.B}
