@@ -84,7 +84,11 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {\relax 7.1}{\ignorespaces Momentum $\phi $ Random Forward End Cap Efficiency}}{54}{figure.caption.36}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 7.2}{\ignorespaces Momentum $\phi $ Electron Forward End Cap Efficiency}}{55}{figure.caption.37}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 7.3}{\ignorespaces Momentum $\phi $ Positron Forward End Cap Efficiency}}{56}{figure.caption.38}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
@@ -92,29 +96,67 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.1}{\ignorespaces clusterE(HclE) - clusterE(LclE)}}{61}{figure.caption.36}
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.2}{\ignorespaces Cluster Splitting Angle Distribution}}{62}{figure.caption.37}
+\contentsline {figure}{\numberline {\relax A.1}{\ignorespaces clusterE(HclE) - clusterE(LclE)}}{63}{figure.caption.39}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.3}{\ignorespaces b2bClusterPhi - clusterPhi For Data (Whole Range)}}{62}{figure.caption.38}
+\contentsline {figure}{\numberline {\relax A.2}{\ignorespaces Cluster Splitting Angle Distribution}}{64}{figure.caption.40}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.4}{\ignorespaces b2bClusterPhi - clusterPhi For MC (Whole Range)}}{63}{figure.caption.39}
+\contentsline {figure}{\numberline {\relax A.3}{\ignorespaces b2bClusterPhi - clusterPhi For Data (Whole Range)}}{64}{figure.caption.41}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.5}{\ignorespaces Denominator $\theta $, $\phi $ Electron Momentum MC}}{64}{figure.caption.40}
+\contentsline {figure}{\numberline {\relax A.4}{\ignorespaces b2bClusterPhi - clusterPhi For MC (Whole Range)}}{65}{figure.caption.42}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.6}{\ignorespaces Denominator $\theta $, $\phi $ Electron Momentum Data}}{65}{figure.caption.41}
+\contentsline {figure}{\numberline {\relax A.5}{\ignorespaces Denominator $\theta $, $\phi $ Electron Momentum MC}}{66}{figure.caption.43}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.7}{\ignorespaces Denominator $\theta $, $\phi $ Positron Momentum MC}}{66}{figure.caption.42}
+\contentsline {figure}{\numberline {\relax A.6}{\ignorespaces Denominator $\theta $, $\phi $ Electron Momentum Data}}{67}{figure.caption.44}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.8}{\ignorespaces Denominator $\theta $, $\phi $ Positron Momentum Data}}{67}{figure.caption.43}
+\contentsline {figure}{\numberline {\relax A.7}{\ignorespaces Denominator $\theta $, $\phi $ Positron Momentum MC}}{68}{figure.caption.45}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.9}{\ignorespaces Denominator $\theta $, $\phi $ Electron Transverse Momentum MC}}{68}{figure.caption.44}
+\contentsline {figure}{\numberline {\relax A.8}{\ignorespaces Denominator $\theta $, $\phi $ Positron Momentum Data}}{69}{figure.caption.46}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.10}{\ignorespaces Denominator $\theta $, $\phi $ Electron Transverse Momentum Data}}{69}{figure.caption.45}
+\contentsline {figure}{\numberline {\relax A.9}{\ignorespaces Denominator $\theta $, $\phi $ Electron Transverse Momentum MC}}{70}{figure.caption.47}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.11}{\ignorespaces Denominator $\theta $, $\phi $ Positron Transverse Momentum MC}}{70}{figure.caption.46}
+\contentsline {figure}{\numberline {\relax A.10}{\ignorespaces Denominator $\theta $, $\phi $ Electron Transverse Momentum Data}}{71}{figure.caption.48}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.12}{\ignorespaces Denominator $\theta $, $\phi $ Positron Transverse Momentum Data}}{71}{figure.caption.47}
+\contentsline {figure}{\numberline {\relax A.11}{\ignorespaces Denominator $\theta $, $\phi $ Positron Transverse Momentum MC}}{72}{figure.caption.49}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.12}{\ignorespaces Denominator $\theta $, $\phi $ Positron Transverse Momentum Data}}{73}{figure.caption.50}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.13}{\ignorespaces Momentum $\phi $ Random Forward End Cap Efficiency MC}}{74}{figure.caption.51}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.14}{\ignorespaces Momentum $\phi $ Random Forward End Cap Efficiency Data}}{75}{figure.caption.52}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.15}{\ignorespaces Momentum $\phi $ Random Forward End Cap Enumerator Histogram MC}}{76}{figure.caption.53}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.16}{\ignorespaces Momentum $\phi $ Random Forward End Cap Denominator Histogram MC}}{77}{figure.caption.54}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.17}{\ignorespaces Momentum $\phi $ Random Forward End Cap Enumerator Histogram Data}}{78}{figure.caption.55}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.18}{\ignorespaces Momentum $\phi $ Random Forward End Cap Denominator Histogram Data}}{79}{figure.caption.56}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.19}{\ignorespaces Momentum $\phi $ Electron Forward End Cap Efficiency MC}}{80}{figure.caption.57}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.20}{\ignorespaces Momentum $\phi $ Electron Forward End Cap Efficiency Data}}{81}{figure.caption.58}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.21}{\ignorespaces Momentum $\phi $ Electron Forward End Cap Enumerator Histogram MC}}{82}{figure.caption.59}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.22}{\ignorespaces Momentum $\phi $ Electron Forward End Cap Denominator Histogram MC}}{83}{figure.caption.60}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.23}{\ignorespaces Momentum $\phi $ Electron Forward End Cap Enumerator Histogram Data}}{84}{figure.caption.61}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.24}{\ignorespaces Momentum $\phi $ Electron Forward End Cap Denominator Histogram Data}}{85}{figure.caption.62}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.25}{\ignorespaces Momentum $\phi $ Positron Forward End Cap Efficiency MC}}{86}{figure.caption.63}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.26}{\ignorespaces Momentum $\phi $ Positron Forward End Cap Efficiency Data}}{86}{figure.caption.64}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.27}{\ignorespaces Momentum $\phi $ Positron Forward End Cap Enumerator Histogram MC}}{87}{figure.caption.65}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.28}{\ignorespaces Momentum $\phi $ Positron Forward End Cap Denominator Histogram MC}}{87}{figure.caption.66}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.29}{\ignorespaces Momentum $\phi $ Positron Forward End Cap Enumerator Histogram Data}}{88}{figure.caption.67}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.30}{\ignorespaces Momentum $\phi $ Positron Forward End Cap Denominator Histogram Data}}{88}{figure.caption.68}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
