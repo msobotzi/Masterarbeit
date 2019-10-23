@@ -84,36 +84,48 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {7}Phase2 Tracking Efficiency}{53}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Momentum $\phi $-Efficiencies}{53}{section.7.1}
+\contentsline {section}{\numberline {7.1}Momentum Efficiencies}{53}{section.7.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {7.1.1}Forward End Cap}{53}{subsection.7.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Transverse Momentum $\phi $-Efficiencies}{56}{section.7.2}
+\contentsline {subsection}{\numberline {7.1.2}Barrel}{58}{subsection.7.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Phase3 Tracking Efficiency}{57}{chapter.8}
+\contentsline {subsection}{\numberline {7.1.3}Backward End Cap}{61}{subsection.7.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}Phase3}{57}{section.8.1}
+\contentsline {subsection}{\numberline {7.1.4}$\theta $ Efficiencies}{63}{subsection.7.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}Selected Candidates}{57}{section.8.2}
+\contentsline {section}{\numberline {7.2}Transverse Momentum Efficiencies}{66}{section.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.3}Tracking Efficiency}{57}{section.8.3}
+\contentsline {subsection}{\numberline {7.2.1}Forward End Cap}{66}{subsection.7.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Further Results}{59}{chapter.9}
+\contentsline {subsection}{\numberline {7.2.2}Barrel}{68}{subsection.7.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.1}Phase2 ECL-Trigger}{59}{section.9.1}
+\contentsline {subsection}{\numberline {7.2.3}Backward End Cap}{71}{subsection.7.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {10}Conclusion}{61}{chapter.10}
+\contentsline {subsection}{\numberline {7.2.4}$\theta $ Efficiencies}{73}{subsection.7.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Appendix}{63}{appendix.A}
+\contentsline {chapter}{\numberline {8}Phase3 Tracking Efficiency}{77}{chapter.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Preparation Plots}{63}{section.A.1}
+\contentsline {section}{\numberline {8.1}Phase3}{77}{section.8.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Additional Area Of Interest Plots}{65}{section.A.2}
+\contentsline {section}{\numberline {8.2}Selected Candidates}{77}{section.8.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Figures}{89}{chapter*.69}
+\contentsline {section}{\numberline {8.3}Tracking Efficiency}{77}{section.8.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Tables}{91}{chapter*.70}
+\contentsline {chapter}{\numberline {9}Further Results}{79}{chapter.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{93}{chapter*.71}
+\contentsline {section}{\numberline {9.1}Phase2 ECL-Trigger}{79}{section.9.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Acknowledgements}{99}{appendix.B}
+\contentsline {chapter}{\numberline {10}Conclusion}{81}{chapter.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Appendix}{83}{appendix.A}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.1}Preparation Plots}{83}{section.A.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.2}Additional Area Of Interest Plots}{85}{section.A.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline List of Figures}{145}{chapter*.123}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline List of Tables}{149}{chapter*.124}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Bibliography}{151}{chapter*.125}
