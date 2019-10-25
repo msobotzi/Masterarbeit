@@ -1469,7 +1469,7 @@ Also, we will take all available phase2 data files into account. They are locate
 
 \begin{figure}[h!]
 	\includegraphics[width=\textwidth]{Bilder/CCand.pdf}
-	\caption[Total Number Of Events After The Selection]{The number of candidates per event after the selection is shown. Left: Phase2 Data. Right: Phase2 MC. A total of 11,074,560 candidates are selected for phase2 data and 5,330,062 candidates are selected for phase2 MC.}
+	\caption[Total Number Of Events After The Selection]{The number of candidates per event after the selection is shown. Left: Phase2 Data. Right: Phase2 MC. A total of 11074560 candidates are selected for phase2 data and 5330062 candidates are selected for phase2 MC.}
 	\label{fig:nCandAS}
 \end{figure}
 
@@ -1610,10 +1610,10 @@ The selected ranges can be found in the following table.
 
 
 \subsection{Forward End Cap}
+\label{sec:MFC}
 
-In figure \ref{plt:xPMPhiRandomFC} you can see the calculated tracking efficiency for different momenta in the random case\footnote{As described in section \ref{sec:Eff}, in the random case the \textit{probe} particle can be an electron as well as a positron}. But due to the kinematics at BelleII, most \textit{probe} particles are electrons in the forward end cap.
 
-As expected, the tracking efficiency for phase2 data is almost all of the time worse than the efficiency for phase2 MC. According to figures \ref{plt:RTPMRandomD_MC} and \ref{plt:RTPMRandomD_Data}, we expect that most particles have a momentum between $5\,\textrm{GeV}$ and $8\,\textrm{GeV}$. For momenta between $5\,\textrm{GeV}$ and $6\,\textrm{GeV}$ phase2 data and phase2 MC are rather close together. The biggest difference occurs for momenta between $6\,\textrm{GeV}$ and $7\,\textrm{GeV}$. For phase2 MC, the tracking efficiency ranges between 0.87 and almost 1.00. But the efficiency oscillates heavily between 0.71 and 0.98 for phase2 data. In both cases the highest efficiency occurs at $\phi \approx 0$. For momenta between $7\,\textrm{GeV}$ and $8\,\textrm{GeV}$, phase2 MC has a tracking efficiency of above 0.99 for all $\phi$ angles. For phase2 data, the efficiency is also very high for $\phi >\textrm{abs}(1)$. But for $\phi < \textrm{abs}(1)$ the efficiency falls down. The large errors for phase2 MC for momenta between $8\,\textrm{GeV}$ are caused by low statistics. This can be seen in the enumerator (figure \ref{plt:PMPhiRandomFCE_MC}) and denominator (figure \ref{plt:PMPhiRandomFCD_MC}) plots in the appendix. For phase2 data, the calculated tracking efficiency is around 0.95 most of the time. For $\phi \approx 0$ the efficiency falls a little down. The additional plots for the random  case in the forward end cap can be found in the appendix, figures \ref{plt:PMPhiRandomFC_MC} to \ref{plt:PMPhiRandomFCD_Data}.
+In figure \ref{plt:xPMPhiRandomFC} you can see the calculated tracking efficiency for different momenta in the random case\footnote{As described in section \ref{sec:Eff}, in the random case the \textit{probe} particle can be an electron as well as a positron}. But due to the kinematics at BelleII, most \textit{probe} particles are electrons in the forward end cap. As expected, the tracking efficiency for phase2 data is almost all of the time worse than the efficiency for phase2 MC. According to figures \ref{plt:RTPMRandomD_MC} and \ref{plt:RTPMRandomD_Data}, we expect that most particles have a momentum between $5\,\textrm{GeV}$ and $8\,\textrm{GeV}$. For momenta between $5\,\textrm{GeV}$ and $6\,\textrm{GeV}$ phase2 data and phase2 MC are rather close together. The biggest difference occurs for momenta between $6\,\textrm{GeV}$ and $7\,\textrm{GeV}$. For phase2 MC, the tracking efficiency ranges between 0.87 and almost 1.00. But the efficiency oscillates heavily between 0.71 and 0.98 for phase2 data. In both cases the highest efficiency occurs at $\phi \approx 0$. For momenta between $7\,\textrm{GeV}$ and $8\,\textrm{GeV}$, phase2 MC has a tracking efficiency of above 0.99 for all $\phi$ angles. For phase2 data, the efficiency is also very high for $\phi >\textrm{abs}(1)$. But for $\phi < \textrm{abs}(1)$ the efficiency falls down. The large errors for phase2 MC for momenta between $8\,\textrm{GeV}$ are caused by low statistics. This can be seen in the enumerator (figure \ref{plt:PMPhiRandomFCE_MC}) and denominator (figure \ref{plt:PMPhiRandomFCD_MC}) plots in the appendix. For phase2 data, the calculated tracking efficiency is around 0.95 most of the time. For $\phi \approx 0$ the efficiency falls a little down. The additional plots for the random  case in the forward end cap can be found in the appendix, figures \ref{plt:PMPhiRandomFC_MC} to \ref{plt:PMPhiRandomFCD_Data}.
 
 
 As already mentioned, most of the \textit{probe} particles in the random case are in fact electrons. Therefore, the calculated efficiencies for electrons in the forward end cap (figure \ref{plt:xPMPhiemFC}) are very similar to the random case we already discussed. The additional plots for the calculated electron tracking efficiency in the forward end cap can be found in the appendix, figures \ref{plt:PMPhiemFC_MC} to \ref{plt:PMPhiemFCD_Data}.
@@ -1621,7 +1621,8 @@ As already mentioned, most of the \textit{probe} particles in the random case ar
 
 
 Figure \ref{plt:xPMPhiepFC} shows the tracking efficiency for positrons in the forward end cap. As described in section \ref{sec:DivECL}, there are only enough positrons in the forward end cap for momenta between $6\,\textrm{GeV}$ and $7\,\textrm{GeV}$ to calculate a tracking efficiency. You can see in this figure that the calculated efficiency ranges between 0.7 and 1.0 for phase2 MC and between 0.6 and 1.0 for phase2 data. Phase2 MC has a higher tracking efficiency compared to phase2 data in this case.
- The additional plots for the calculated electron tracking efficiency in the forward end cap can be found in the appendix, figures \ref{plt:PMPhiepFC_MC} to \ref{plt:PMPhiepFCD_Data}.
+ The additional plots for the calculated positron tracking efficiency in the forward end cap can be found in the appendix, figures \ref{plt:PMPhiepFC_MC} to \ref{plt:PMPhiepFCD_Data}.
+
 
 
 \begin{figure}[!htbp]
@@ -1659,13 +1660,20 @@ Figure \ref{plt:xPMPhiepFC} shows the tracking efficiency for positrons in the f
 \subsection{Barrel}
 
 In figure \ref{plt:xPMPhiRandomBarrel} the calculated tracking efficiency for the random case in the barrel is shown. For momenta between $3\,\textrm{GeV}$ and $4\,\textrm{GeV}$, the efficiency of phase2 data and phase2 MC are close together and between 0.7 and 0.9. The only difference occurs at $\phi \approx -2$. Here, we have a slightly higher tracking efficiency for phase2 data than for phase2 MC.
+For momenta between $4\,\textrm{GeV}$ and $6\,\textrm{GeV}$, the calculated tracking efficiency is between 0.95 and 0.99 for phase2 MC and 0.94 and 0.98 for phase2 data. The highest efficiencies are reached by momenta between $6\,\textrm{GeV}$ and $7\,\textrm{GeV}$ in the random case. For these momenta, phase2 MC has a calculated efficiency of over 0.99 for all $\phi$ angles. The efficiency for phase2 data is slightly worse compared to phase2 MC. Especially for $\phi \approx 0.5$. For this $\phi$ angle falls down to about 0.97. The additional plots for the calculated tracking efficiency for the random case in the barrel can be found in the appendix, figures \ref{plt:PMPhiRandomBarrel_MC} to \ref{plt:PMPhiRandomBarrelD_Data}.
+
+Figure \ref{plt:xPMPhiemBarrel} shows the efficiencies of reconstructing an electron in the barrel for different momenta. For low electron momenta i.e. $3\,\textrm{GeV}$ and $4\,\textrm{GeV}$, the efficiency is between 0.4 and 0.8 for phase2 MC and 0.5 and 0.8 for phase2 data. The tracking efficiency becomes better with increasing momenta. For momenta between $4\,\textrm{GeV}$ and $5\,\textrm{GeV}$ it is already between 0.74 and 0.94 for phase2 MC and between 0.75 and 0.91 for phase2 data. For both phase2 MC and phase2 data the efficiency has its minimum at $\phi \approx 0$. For momenta between $5\,\textrm{GeV}$ and $6\,\textrm{GeV}$, the efficiency becomes even better. The tracking efficiency ranges between 0.92 and 0.99 for phase2 MC and between 0.91 and 0.97 for phase2 data. The structure of this efficiency is very similar compared to the tracking efficiency for momenta between $4\,\textrm{GeV}$ and $5\,\textrm{GeV}$. In both cases the lowest efficiency occurs at $\phi \approx 0$. The best tracking efficiencies for electrons in the barrel appears at momenta between $6\,\textrm{GeV}$ and $7\,\textrm{GeV}$. Here the efficiency for phase2 MC is between 0.99 and 1 and for phase2 data between 0.955 and 0.995. Again, the lowest calculated tracking efficiency occurs at  $\phi \approx 0.5$. Without this drop, the tracking efficiency of phase2 data is between 0.980 and 0.995. The additional plots for the calculated electron tracking efficiency in the barrel can be found in the appendix, figures \ref{plt:PMPhiemBarrel_MC} to \ref{plt:PMPhiemBarrelD_Data}.
+
+The calculated tracking efficiencies for positrons in the barrel can be found in figure \ref{plt:xPMPhiepBarrel}. You can see that for momenta between $3\,\textrm{GeV}$ and $4\,\textrm{GeV}$, the calculated tracking efficiency is between 0.74 and 0.92 for phase2 MC and phase2 data. The structure of the efficiency is also very similar between phase2 MC and phase2 data, meaning that in both cases the lowest efficiency occurs at $\phi \approx 0$. For momenta between $4\,\textrm{GeV}$ $5\,\textrm{GeV}$ the tracking efficiency is between 0.980 and 0.995 for phase2 MC and between 0.955 and 0.985 for phase2 data. The biggest difference between phase2 data and phase2 MC appears at $\phi \approx 0.5$. Here, the efficiency for phase2 data falls down significantly. For momenta between $5\,\textrm{GeV}$ and $6\,\textrm{GeV}$, the tracking efficiency ranges between 0.97 and 1 for phase2 MC and 0.95  and 0.99 for phase2 data. The tracking efficiency for phase2 MC is higher by 0.02 compared to phase2 data for almost all $\phi$ angles. The same is true for momenta between $6\,\textrm{GeV}$ and $7\,\textrm{GeV}$ except that the efficiency difference is about 0.03 in this case.
+The additional plots for the calculated electron tracking efficiency in the barrel can be found in the appendix, figures \ref{plt:PMPhiepBarrel_MC} to \ref{plt:PMPhiepBarrelD_Data}.
+
+
 
 
 \begin{figure}[!htbp]
 	\centering
 	\includegraphics[width=\textwidth]{Plots/master/xPMPhiRandomBarrel}
 	\caption[Momentum $\phi$ Random Barrel Efficiency Phase2]{$\phi$ tracking efficiency plots in the random case in the barrel. The tracking efficiency for phase2 data is shown in blue and phase2 MC in red.}
-	\label{plt:xPMPhiemBarrel}
 	\label{plt:xPMPhiRandomBarrel}
 \end{figure}
 
@@ -1675,7 +1683,7 @@ In figure \ref{plt:xPMPhiRandomBarrel} the calculated tracking efficiency for th
 	\centering
 	\includegraphics[width=\textwidth]{Plots/master/xPMPhiemBarrel}
 	\caption[Momentum $\phi$ Electron Barrel Efficiency Phase2]{Electron $\phi$ tracking efficiency plots in the barrel. The tracking efficiency for phase2 data is shown in blue and phase2 MC in red.}
-	\label{plt:xPMPhieBarrel}
+	\label{plt:xPMPhiemBarrel}
 \end{figure}
 
 
@@ -1685,15 +1693,26 @@ In figure \ref{plt:xPMPhiRandomBarrel} the calculated tracking efficiency for th
 	\centering
 	\includegraphics[width=\textwidth]{Plots/master/xPMPhiepBarrel}
 	\caption[Momentum $\phi$ Positron Barrel Efficiency Phase2]{Positron $\phi$ tracking efficiency plots in the barrel. The tracking efficiency for phase2 data is shown in blue and phase2 MC in red.}
+		\label{plt:xPMPhiepBarrel}
 \end{figure}
 
 \newpage
 \subsection{Backward End Cap}
+\label{sec:MEC}
+
+In figure \ref{plt:xPMPhiRandomEC} you can see the calculated tracking efficiency for different momenta in the random case in the backward end cap. But due to the kinematics at BelleII, most \textit{probe} particles are positrons in the backward end cap. Therefore, the tracking efficiency in this figure is mostly influenced by positrons. For momenta between $2\,\textrm{GeV}$ and $3\,\textrm{GeV}$, the calculated tracking efficiency is between 0.9 and 1 for phase2 MC and phase2 data. 
+For momenta between $3\,\textrm{GeV}$ and $4\,\textrm{GeV}$ the tracking efficiency covers a very large range. For phase2 MC the efficiency is between 0.35 and 0.95 and for phase2 data between 0.25 and 0.85. For $\phi <  -1$, the efficiency is slightly larger for phase2 data compared to phase2 MC. A strange structure occurs at $\phi \approx 0$. Starting at around $\phi \approx -1.5$ the efficiency goes up from 0.5 to 0.85 at $\phi \approx -0.5$, then it goes back down to 0.7 before it reaches its maximum at $\phi \approx 0$. For phase2 data the highest efficiency is reached around $\phi =0$. At $\phi =0$ the efficiency is down to ~0.45. At $\phi$ values slightly bigger than 0, the efficiency is back to its maximum, before it falls back down to 0.7 for phase2 MC and 0.4 for phase2 data. After that, for phase2 MC the efficiency goes back up with a local maximum at $\phi \approx 0.5$ before it falls back down for higher $\phi$. For phase2 data, the efficiency stays roughly the same for $0.5 < \phi < 1.5$. For higher $\phi$ values the efficiency falls down, reaching its minimum at $\phi \approx 2$. After this the efficiency goes back up a little bit. A similar structure can be found for momenta between $4\,\textrm{GeV}$ and $5\,\textrm{GeV}$. The only difference is that the efficiency is higher compared to the lower momenta. For momenta between $5\,\textrm{GeV}$ and $6\,\textrm{GeV}$ the efficiency is above 0.95 for both phase2 MC and phase2 data with the exception of $\phi \approx 0$. Here, the error of the calculated efficiencies are very large due to the lack of statistics. This can be seen in figures \ref{plt:PMPhiRandomECE_MC} to \ref{plt:PMPhiRandomECD_Data}. The additional plots for the calculated tracking efficiency for the random case in the backward end cap can be found in the appendix, figures \ref{plt:PMPhiRandomEC_MC} to \ref{plt:PMPhiRandomECD_Data}.
+
+
+Figure \ref{plt:xPMPhiepEC} shows the calculated tracking efficiencies for the positron in the backward end cap. Since there are almost no electrons detected in the backward end cap, the tracking efficiency for positrons if almost the same as for the random case. The additional plots for the calculated positron tracking efficiency in the backward end cap can be found in the appendix, figures \ref{plt:PMPhiRandomEC_MC} to \ref{plt:PMPhiepECD_Data}.
+
+
 
 \begin{figure}[!htbp]
 	\centering
 	\includegraphics[width=\textwidth]{Plots/master/xPMPhiRandomEC}
 	\caption[Momentum $\phi$ Random Backward End Cap Efficiency Phase2]{$\phi$ tracking efficiency plots in the random case in the backward end cap. The tracking efficiency for phase2 data is shown in blue and phase2 MC in red.}
+	\label{plt:xPMPhiRandomEC}
 \end{figure}
 
 
@@ -1705,6 +1724,8 @@ In figure \ref{plt:xPMPhiRandomBarrel} the calculated tracking efficiency for th
 	\centering
 	\includegraphics[width=\textwidth]{Plots/master/xPMPhiepEC}
 	\caption[Momentum $\phi$ Positron Backward End Cap Efficiency Phase2]{Positron $\phi$ tracking efficiency plots in the backward end cap. The tracking efficiency for phase2 data is shown in blue and phase2 MC in red.}
+	
+	\label{plt:xPMPhiepEC}
 \end{figure}
 
 
@@ -1715,18 +1736,32 @@ In figure \ref{plt:xPMPhiRandomBarrel} the calculated tracking efficiency for th
 
 
 
-\newpage
+\clearpage
 
 
 
 
 \subsection{$\theta$ Efficiencies}
 
+This section will present the present the calculated tracking efficiencies as a function of the polar angle $\theta$. The pink lines in each of the following plots will indicate the different areas of the ECL. Due to the construction of the detector, it is only possible to detect particles with a  polar angle of $ 0.2967 <\theta <2.6179 $.
+
+Figure \ref{plt:xPMThetaRandom} shows the calculated tracking efficiency for different momenta in the random case as a function of the polar angle. For momenta between $2\,\textrm{GeV}$ and $3\,\textrm{GeV}$, most reconstructed particles are positrons. Due to the kinematics at BelleII, most positrons hit the ECL with a high $\theta$ angle. Therefore, they are mostly hitting the backward end cap. This efficiency was already discussed in section \ref{sec:MEC}. In the barrel the error bars of the efficiency are getting bigger with decreasing $\theta$ angle. For momenta between $3\,\textrm{GeV}$ and $4\,\textrm{GeV}$, the calculated tracking efficiency starts rather high for small $\theta$ angles. For phase2 MC and phase2 data the highest efficiency is in the forward end cap with roughly 0.9. But it falls down very quickly with increasing $\theta$. At the transition between the forward end cap and the barrel, the efficiency has a local minimum of only 0.2. For $0.5 < \theta < 0.7$, the efficiency goes back up to 0.6 very quickly. After this, the efficiency increases slowly to around 0.85 at $\theta \approx 2.2$. At roughly  this angle the barrel ends and the backward end cap begins. In the backward end cap the efficiency goes up tp over 0.9 at first for phase2 MC before it falls down to 0 rather quickly. In contrast, phase2 data falls down strictly monotonic in the backward end cap. For momenta between $4\,\textrm{GeV}$ and $5\,\textrm{GeV}$ the structure of the efficiency is similar to the momentum region we just look at. The only difference is that the efficiency drop at the forward end cap to barrel transition is not as dominant as before. Here, the efficiency only falls down to 0.6. Also, the highest efficiency is reached in the barrel at $1.7< \theta <2.3$ for phase2 MC and $1.7< \theta <2.2$ for phase2 data. The biggest difference between phase2 MC and phase2 data occurs again in the backward end cap. Here the efficiency for phase2 data falls down noticeably earlier compared to phase2 MC. For momenta between $5\,\textrm{GeV}$ and $6\,\textrm{GeV}$, there is no dip in the efficiency at the transition between forward end cap and barrel. In the forward end cap the efficiency of phase2 data starts lower compared to the phase2 MC efficiency. But they meet at $\theta \approx 0.4$  and increase up to approximately 0.95 and more at $\theta \approx 1$. For higher $\theta$ values the efficiency in the barrel and the backward end cap stays more or less the same with the exception of a small dip in phase2 data at $\theta \approx 1.8$. The large error bars for phase2 MC at $\theta \approx 2.1$ are caused by low statistic in this region. This can be seen in figure \ref{plt:PMThetaRandomE_MC} and \ref{plt:PMThetaRandomD_MC}. In the plot for the momentum range between $6\,\textrm{GeV}$ and $7\,\textrm{GeV}$, the efficiency for phase2 data starts lower compared to phase2 MC efficiency. In the barrel both efficiencies stay above 0.98 with an exception of a dip similar to the dip already mentioned at momenta between $5\,\textrm{GeV}$ and $6\,\textrm{GeV}$. But this time, the dip appears at $\theta \approx 1.2$. Also, in the backward end cap, the tracking efficiency of phase2 data is higher than phase2 MC. For momenta  between $7\,\textrm{GeV}$ and $8\,\textrm{GeV}$ most particles are reconstructed in the forward end cap. For phase2 MC the efficiency is about 0.99. This was already discussed in section \ref{sec:MFC}. For phase2 the tracking efficiency is slightly lower. Again for phase2 data, a small dip in the tracking efficiency appears. The dip has a $\theta$ angle of 0.4. For the last momentum range, similar to the previous momenta range, almost all of the reconstructed particles are reconstructed in the forward end cap. The tracking efficiency for phase2 MC and phase2 MC are above 0.95. The additional plots for the calculated tracking efficiency for the random case as a function of $\theta$ can be found in the appendix, figures \ref{plt:PMThetaRandom_MC} to \ref{plt:PMThetaRandomD_Data}.
+ 
+
+
+Figure \ref{plt:xPMThetaem} shows the calculated tracking efficiency of electrons as a function of the polar angle $\theta$. The efficiency for momenta between $3\,\textrm{GeV}$ and $4\,\textrm{GeV}$ is very similar to the efficiency we already discussed in the random case with the same momentum range. The only difference for electrons is that the error bars are larger due to the lower statistic. In the next momentum range a larger difference to the random case appears. For electrons the tracking tracking efficiency of phase2 data starts to decline at $\theta \approx 1.5$. This is not true for phase2 MC which starts to decline in the backward end cap. The tracking efficiencies for the momenta between $5\,\textrm{GeV}$ and $6\,\textrm{GeV}$ for the electrons is again similar to the random case. But since only electrons are taken into account the errors for $\theta$ angles are large. The additional plots for the calculated electron tracking efficiency as a function of $\theta$ can be found in the appendix, figures \ref{plt:PMThetaem_MC} to \ref{plt:PMThetaemD_Data}.
+
+
+
+In figure \ref{plt:xPMThetaep} the calculated tracking efficiency for positrons as a function of the polar angle $\theta$ is shown.
+
+
 
 \begin{figure}[!htbp]
 	\centering
 	\includegraphics[width=\textwidth]{Plots/master/xPMThetaRandom}
 	\caption[Momentum $\theta$ Random Efficiency Phase2]{$\theta$ momentum tracking efficiency plots in the random case. The tracking efficiency for phase2 data is shown in blue and phase2 MC in red. The pink line indicates the different sectors of the ECL.}
+		\label{plt:xPMThetaRandom}
 \end{figure}
 
 
@@ -1735,17 +1770,24 @@ In figure \ref{plt:xPMPhiRandomBarrel} the calculated tracking efficiency for th
 	\centering
 	\includegraphics[width=\textwidth]{Plots/master/xPMThetaem}
 	\caption[Momentum $\theta$ Electron Efficiency Phase2]{Electron $\theta$ momentum tracking efficiency plots. The tracking efficiency for phase2 data is shown in blue and phase2 MC in red. The pink line indicates the different sectors of the ECL.}
+	
+	\label{plt:xPMThetaem}
 \end{figure}
 
 \begin{figure}[!htbp]
 	\centering
 	\includegraphics[width=\textwidth]{Plots/master/xPMThetaep}
 	\caption[Momentum $\theta$ Positron Efficiency Phase2]{Positron $\theta$ momentum tracking efficiency plots. The tracking efficiency for phase2 data is shown in blue and phase2 MC in red. The pink line indicates the different sectors of the ECL.}
+	\label{plt:xPMThetaep}
 \end{figure}
 
 
 
-\newpage
+\clearpage
+
+
+
+
 
 
 \section{Transverse Momentum Efficiencies}
@@ -1873,8 +1915,6 @@ In figure \ref{plt:xPMPhiRandomBarrel} the calculated tracking efficiency for th
 
 
 
-
-
 \chapter{Phase3 Tracking Efficiency}
 \label{chp:TrackingEfficiencyPhase3}
 
@@ -1908,10 +1948,7 @@ MC11
 
 	
 	
-\chapter{Appendix}
-
-
-\section{Preparation Plots}
+\chapter{Additional Preparation Plots}
 
 
 \begin{figure}[h!]
@@ -1962,7 +1999,7 @@ MC11
 \end{figure}
 \newpage
 
-\section{Additional Area Of Interest Plots}
+
 
 
 
@@ -2038,7 +2075,14 @@ MC11
 
 
 
-\clearpage
+\chapter{Additional Phase2 Plots}
+
+
+
+
+
+
+
 
 
 \begin{figure}[!htbp]
@@ -2471,6 +2515,449 @@ MC11
 \end{figure}
 
 
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPMThetaem_MC}
+	\caption[Momentum $\theta$ Electron Efficiency Phase2 MC]{Electron $\phi$ tracking efficiency plots for phase2 MC. The pink line indicates the different sectors of the ECL.}
+	\label{plt:PMThetaem_MC}
+\end{figure}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPMThetaem_Data}
+	\caption[Momentum $\theta$ Electron Efficiency Phase2 Data]{Electron $\phi$ tracking efficiency plots for phase2 Data. The pink line indicates the different sectors of the ECL.}
+	\label{plt:PMThetaem_Data}
+\end{figure}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPMThetaemE_MC}
+	\caption[Momentum $\theta$ Electron Enumerator Histogram Phase2 MC]{Enumerator histograms for electrons for phase2 MC. The pink line indicates the different sectors of the ECL.}
+	\label{plt:PMThetaemE_MC}
+\end{figure}
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPMThetaemD_MC}
+	\caption[Momentum $\theta$ Electron Denominator Histogram Phase2 MC]{Denominator histograms for electrons for phase2 MC. The pink line indicates the different sectors of the ECL.}
+	\label{plt:PMThetaemD_MC}
+\end{figure}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPMThetaemE_Data}
+	\caption[Momentum $\theta$ Electron Enumerator Histogram Phase2 Data]{Enumerator histograms for electrons for phase2 Data. The pink line indicates the different sectors of the ECL.}
+	\label{plt:PMThetaemE_Data}
+\end{figure}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPMThetaemD_Data}
+	\caption[Momentum $\phi$ Electrons Denominator Histogram Phase2 Data]{Denominator histograms for electrons for phase2 Data. The pink line indicates the different sectors of the ECL.}
+	\label{plt:PMThetaemD_Data}
+\end{figure}
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPMThetaep_MC}
+	\caption[Momentum $\theta$ Positron Efficiency Phase2 MC]{Positron $\phi$ tracking efficiency plots for phase2 MC. The pink line indicates the different sectors of the ECL.}
+	\label{plt:PMThetaep_MC}
+\end{figure}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPMThetaep_Data}
+	\caption[Momentum $\theta$ Positron Efficiency Phase2 Data]{Positron $\phi$ tracking efficiency plots for phase2 Data. The pink line indicates the different sectors of the ECL.}
+	\label{plt:PMThetaep_Data}
+\end{figure}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPMThetaepE_MC}
+	\caption[Momentum $\theta$ Positron Enumerator Histogram Phase2 MC]{Enumerator histograms for positrons for phase2 MC. The pink line indicates the different sectors of the ECL.}
+	\label{plt:PMThetaepE_MC}
+\end{figure}
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPMThetaepD_MC}
+	\caption[Momentum $\theta$ Positron Denominator Histogram Phase2 MC]{Denominator histograms for positrons for phase2 MC. The pink line indicates the different sectors of the ECL.}
+	\label{plt:PMThetaepD_MC}
+\end{figure}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPMThetaepE_Data}
+	\caption[Momentum $\theta$ Positron Enumerator Histogram Phase2 Data]{Enumerator histograms for positrons for phase2 Data. The pink line indicates the different sectors of the ECL.}
+	\label{plt:PMThetaepE_Data}
+\end{figure}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPMThetaepD_Data}
+	\caption[Momentum $\phi$ Positron Denominator Histogram Phase2 Data]{Denominator histograms for positrons for phase2 Data. The pink line indicates the different sectors of the ECL.}
+	\label{plt:PMThetaepD_Data}
+\end{figure}
+\clearpage
+
+%transverse Momentum Phase2
+
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMPhiRandomFC_MC}
+	\caption[Transverse Momentum $\phi$ Random Forward End Cap Efficiency Phase2 MC]{$\phi$ transverse momentum tracking efficiency plots in the random case in the forward end cap for phase2 MC.}
+	\label{plt:PtMPhiRandomFC_MC}
+\end{figure}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMPhiRandomFC_Data}
+	\caption[Transverse Momentum $\phi$ Random Forward End Cap Efficiency Phase2 Data]{$\phi$ transverse momentum tracking efficiency plots in the random case in the forward end cap for phase2 Data.}
+	\label{plt:PtMPhiRandomFC_Data}
+\end{figure}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMPhiRandomFCE_MC}
+	\caption[Transverse Momentum $\phi$ Random Forward End Cap Enumerator Histogram Phase2 MC]{Transverse momentum enumerator histograms of the \textit{probe} particle in the random case for phase2 MC in the forward end cap.}
+	\label{plt:PtMPhiRandomFCE_MC}
+\end{figure}
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMPhiRandomFCD_MC}
+	\caption[Transverse Momentum $\phi$ Random Forward End Cap Denominator Histogram Phase2 MC]{Transverse momentum denominator histograms of the \textit{probe} particle in the random case for phase2 MC in the forward end cap.}
+	\label{plt:PtMPhiRandomFCD_MC}
+\end{figure}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMPhiRandomFCE_Data}
+	\caption[Transverse Momentum $\phi$ Random Forward End Cap Enumerator Histogram Phase2 Data]{Transverse momentum enumerator histograms of the \textit{probe} particle in the random case for phase2 Data in the forward end cap.}
+	\label{plt:PtMPhiRandomFCE_Data}
+\end{figure}
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMPhiRandomFCD_Data}
+	\caption[Transverse Momentum $\phi$ Random Forward End Cap Denominator Histogram Phase2 Data]{Transverse momentum enumerator histograms of the \textit{probe} particle in the random case for phase2 Data for the forward end cap.}
+	\label{plt:PtMPhiRandomFCD_Data}
+\end{figure}
+
+
+
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMPhiemFC_MC}
+	\caption[Transverse Momentum $\phi$ Electron Forward End Cap Efficiency Phase2 MC]{Electron $\phi$ transverse momentum tracking efficiency plots in the forward end cap for phase2 MC.}
+	\label{plt:PtMPhiemFC_MC}
+\end{figure}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMPhiemFC_Data}
+	\caption[Transverse Momentum $\phi$ Electron Forward End Cap Efficiency Phase2 Data]{Electron $\phi$ transverse momentum tracking efficiency plots in the forward end cap for phase2 Data.}
+	\label{plt:PtMPhiemFC_Data}
+\end{figure}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMPhiemFCE_MC}
+	\caption[Transverse Momentum $\phi$ Electron Forward End Cap Enumerator Histogram Phase2 MC]{Transverse momentum enumerator histograms for electrons for phase2 MC in the forward end cap.}
+	\label{plt:PtMPhiemFCE_MC}
+\end{figure}
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMPhiemFCD_MC}
+	\caption[Transverse Momentum $\phi$ Electron Forward End Cap Denominator Histogram Phase2 MC]{Transverse momentum denominator histograms for electrons for phase2 MC in the forward end cap.}
+	\label{plt:PtMPhiemFCD_MC}
+\end{figure}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMPhiemFCE_Data}
+	\caption[Transverse Momentum $\phi$ Electron Forward End Cap Enumerator Histogram Phase2 Data]{Transverse momentum enumerator histograms for electrons for phase2 Data in the forward end cap.}
+	\label{plt:PtMPhiemFCE_Data}
+\end{figure}
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMPhiemFCD_Data}
+	\caption[Transverse Momentum $\phi$ Electron Forward End Cap Denominator Histogram Phase2 Data]{Transverse momentum denominator histograms for electrons for phase2 Data in the forward end cap.}
+	\label{plt:PtMPhiemFCD_Data}
+\end{figure}
+
+
+
+
+\clearpage
+%-------------------------------------------------------------------------------------------------------------------
+%Barrel
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMPhiRandomBarrel_MC}
+	\caption[Transverse Momentum $\phi$ Random Barrel Efficiency Phase2 MC]{$\phi$ transverse momentum tracking efficiency plots in the random case in the barrel for phase2 MC.}
+	\label{plt:PtMPhiRandomBarrel_MC}
+\end{figure}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMPhiRandomBarrel_Data}
+	\caption[Transverse Momentum $\phi$ Random Barrel Efficiency Phase2 Data]{$\phi$ transverse momentum tracking efficiency plots in the random case in the barrel for phase2 Data.}
+	\label{plt:PtMPhiRandomBarrel_Data}
+\end{figure}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMPhiRandomBarrelE_MC}
+	\caption[Transverse Momentum $\phi$ Random Barrel Enumerator Histogram Phase2 MC]{Transverse momentum enumerator histograms of the \textit{probe} particle in the random case for phase2 MC in the Barrel.}
+	\label{plt:PtMPhiRandomBarrelE_MC}
+\end{figure}
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMPhiRandomBarrelD_MC}
+	\caption[Transverse Momentum $\phi$ Random Barrel Denominator Histogram Phase2 MC]{Transverse momentum denominator histograms of the \textit{probe} particle in the random case for phase2 MC in the barrel.}
+	\label{plt:PtMPhiRandomBarrelD_MC}
+\end{figure}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMPhiRandomBarrelE_Data}
+	\caption[Transverse Momentum $\phi$ Random Barrel Enumerator Histogram Phase2 Data]{Transverse momentum enumerator histograms of the \textit{probe} particle in the random case for phase2 Data in the barrel.}
+	\label{plt:PtMPhiRandomBarrelE_Data}
+\end{figure}
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMPhiRandomBarrelD_Data}
+	\caption[Transverse Momentum $\phi$ Random Barrel Denominator Histogram Phase2 Data]{Transverse momentum enumerator histograms of the \textit{probe} particle in the random case for phase2 Data for the barrel.}
+	\label{plt:PtMPhiRandomBarrelD_Data}
+\end{figure}
+
+
+
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMPhiemBarrel_MC}
+	\caption[Transverse Momentum $\phi$ Electron Barrel Efficiency Phase2 MC]{Electron $\phi$ transverse momentum tracking efficiency plots in the barrel for phase2 MC.}
+	\label{plt:PtMPhiemBarrel_MC}
+\end{figure}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMPhiemBarrel_Data}
+	\caption[Transverse Momentum $\phi$ Electron Barrel Efficiency Phase2 Data]{Electron $\phi$ transverse momentum tracking efficiency plots in the barrel for phase2 Data.}
+	\label{plt:PtMPhiemBarrel_Data}
+\end{figure}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMPhiemBarrelE_MC}
+	\caption[Transverse Momentum $\phi$ Electron Barrel Enumerator Histogram Phase2 MC]{Transverse momentum enumerator histograms for electrons for phase2 MC in the barrel.}
+	\label{plt:PtMPhiemBarrelE_MC}
+\end{figure}
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMPhiemBarrelD_MC}
+	\caption[Transverse Momentum $\phi$ Electron Barrel Denominator Histogram Phase2 MC]{Transverse momentum denominator histograms for electrons for phase2 MC in the barrel.}
+	\label{plt:PtMPhiemBarrelD_MC}
+\end{figure}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMPhiemBarrelE_Data}
+	\caption[Transverse Momentum $\phi$ Electron Barrel Enumerator Histogram Phase2 Data]{Transverse momentum enumerator histograms for electrons for phase2 Data in the barrel.}
+	\label{plt:PtMPhiemBarrelE_Data}
+\end{figure}
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMPhiemBarrelD_Data}
+	\caption[Transverse Momentum $\phi$ Electron Barrel Denominator Histogram Phase2 Data]{Transverse momentum denominator histograms for electrons for phase2 Data in the barrel.}
+	\label{plt:PtMPhiemBarrelD_Data}
+\end{figure}
+
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMPhiepBarrel_MC}
+	\caption[Transverse Momentum $\phi$ Positron Barrel Efficiency Phase2 MC]{Positron $\phi$ transverse momentum tracking efficiency plots in the barrel for phase2 MC.}
+	\label{plt:PtMPhiepBarrel_MC}
+\end{figure}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMPhiepBarrel_Data}
+	\caption[Transverse Momentum $\phi$ Positron Barrel Efficiency Phase2 Data]{Positron $\phi$ transverse  momentum tracking efficiency plots in the barrel for phase2 Data.}
+	\label{plt:PtMPhiepBarrel_Data}
+\end{figure}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMPhiepBarrelE_MC}
+	\caption[Transverse Momentum $\phi$ Positron Barrel Enumerator Histogram Phase2 MC]{Transverse momentum enumerator histograms for positrons for phase2 MC in the barrel.}
+	\label{plt:PtMPhiepBarrelE_MC}
+\end{figure}
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMPhiepBarrelD_MC}
+	\caption[Transverse Momentum $\phi$ Positron Barrel Denominator Histogram Phase2 MC]{Transverse momentum denominator histograms for positrons for phase2 MC in the barrel.}
+	\label{plt:PtMPhiepBarrelD_MC}
+\end{figure}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMPhiepBarrelE_Data}
+	\caption[Transverse Momentum $\phi$ Positron Barrel Enumerator Histogram Phase2 Data]{Transvers momentum enumerator histograms for positrons for phase2 Data in the barrel.}
+	\label{plt:PtMPhiepBarrelE_Data}
+\end{figure}
+
+
+
+
+
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMPhiepBarrelD_Data}
+	\caption[Transverse Momentum $\phi$ Positron Barrel Denominator Histogram Phase2 Data]{Transverse momentum denominator histograms for positrons for phase2 Data in the barrel.}
+	\label{plt:PtMPhiepBarrelD_Data}
+\end{figure}
+%----------------------------------------------------------------------------------------------------------------------------------------
+%Backward End Cap
+
+
+\clearpage
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMPhiRandomEC_MC}
+	\caption[Transverse Momentum $\phi$ Random Backward End Cap Efficiency Phase2 MC]{$\phi$ transverse momentum tracking efficiency plots in the random case in the backward end cap for phase2 MC.}
+	\label{plt:PtMPhiRandomEC_MC}
+\end{figure}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMPhiRandomEC_Data}
+	\caption[Transverse Momentum $\phi$ Random Backward End Cap Efficiency Phase2 Data]{$\phi$ transverse momentum tracking efficiency plots in the random case in the backward end cap for phase2 Data.}
+	\label{plt:PtMPhiRandomEC_Data}
+\end{figure}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMPhiRandomECE_MC}
+	\caption[Transverse Momentum $\phi$ Random Backward End Cap Enumerator Histogram Phase2 MC]{Transverse momentum enumerator histograms of the \textit{probe} particle in the random case for phase2 MC in the backward end cap.}
+	\label{plt:PtMPhiRandomECE_MC}
+\end{figure}
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMPhiRandomECD_MC}
+	\caption[Transerse Momentum $\phi$ Random Backward End Cap Denominator Histogram Phase2 MC]{Transverse momentum denominator histograms of the \textit{probe} particle in the random case for phase2 MC in the backward end cap.}
+	\label{plt:PtMPhiRandomECD_MC}
+\end{figure}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMPhiRandomECE_Data}
+	\caption[Transverse Momentum $\phi$ Random Backward End Cap Enumerator Histogram Phase2 Data]{Transverse momentum enumerator histograms of the \textit{probe} particle in the random case for phase2 Data in the backward end cap.}
+	\label{plt:PtMPhiRandomECE_Data}
+\end{figure}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMPhiRandomECD_Data}
+	\caption[Transverse Momentum $\phi$ Random Backward End Cap Denominator Histogram Phase2 Data]{Transverse momentum denominator histograms of the \textit{probe} particle in the random case for phase2 Data in the backward end cap.}
+	\label{plt:PtMPhiRandomECD_Data}
+\end{figure}
+
+
+
+
+
+
+%%%
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMPhiepEC_MC}
+	\caption[Transverse Momentum $\phi$ Positron Backward End Cap Efficiency Phase2 MC]{Positron $\phi$ transverse momentum tracking efficiency plots in the backward end cap for phase2 MC.}
+	\label{plt:PtMPhiepEC_MC}
+\end{figure}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMPhiepEC_Data}
+	\caption[Transverse Momentum $\phi$ Positron Backward End Cap Efficiency Phase2 Data]{Positron $\phi$ transverse momentum tracking efficiency plots in the backward end cap for phase2 Data.}
+	\label{plt:PtMPhiepEC_Data}
+\end{figure}
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMPhiepECE_MC}
+	\caption[Transverse Momentum $\phi$ Positron Backward End Cap Enumerator Histogram Phase2 MC]{Transverse momentum enumerator histograms for positrons for phase2 MC in the backward end cap.}
+	\label{plt:PtMPhiepECE_MC}
+\end{figure}
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMPhiepECD_MC}
+	\caption[Transverse Momentum $\phi$ Positron Backward End Cap Denominator Histogram Phase2 MC]{Transverse momentum denominator histograms for positrons for phase2 MC in the backward end cap.}
+	\label{plt:PtMPhiepECD_MC}
+\end{figure}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMPhiepECE_Data}
+	\caption[Transverse Momentum $\phi$ Positron Backward End Cap Enumerator Histogram Phase2 Data]{Transverse momentum enumerator histograms for positrons for phase2 Data in the backward end cap.}
+	\label{plt:PtMPhiepECE_Data}
+\end{figure}
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMPhiepECD_Data}
+	\caption[Transverse Momentum $\phi$ Positron Backward End Cap Denominator Histogram Phase2 Data]{Transverse momentim denominator histograms for positrons for phase2 Data in the backward end cap.}
+	\label{plt:PtMPhiepECD_Data}
+\end{figure}
 
 
 
@@ -2482,10 +2969,147 @@ MC11
 
 
 
+\clearpage
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMThetaRandom_MC}
+	\caption[Transverse Momentum $\theta$ Random Efficiency Phase2 MC]{$\phi$ transverse momentum tracking efficiency plots in the random case for phase2 MC. The pink line indicates the different sectors of the ECL.}
+	\label{plt:PtMThetaRandom_MC}
+\end{figure}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMThetaRandom_Data}
+	\caption[Transverse Momentum $\theta$ Random Efficiency Phase2 Data]{$\phi$ transverse momentum tracking efficiency plots in the random case for phase2 Data. The pink line indicates the different sectors of the ECL.}
+	\label{plt:PtMThetaRandom_Data}
+\end{figure}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMThetaRandomE_MC}
+	\caption[Transverse Momentum $\theta$ Random Enumerator Histogram Phase2 MC]{Transverse momentum enumerator histograms of the \textit{probe} particle in the random case for phase2 MC. The pink line indicates the different sectors of the ECL.}
+	\label{plt:PtMThetaRandomE_MC}
+\end{figure}
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPMThetaRandomD_MC}
+	\caption[Transverse Momentum $\theta$ Random Denominator Histogram Phase2 MC]{Transverse momentum denominator histograms of the \textit{probe} particle in the random case for phase2 MC. The pink line indicates the different sectors of the ECL.}
+	\label{plt:PtMThetaRandomD_MC}
+\end{figure}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMThetaRandomE_Data}
+	\caption[Transverse Momentum $\theta$ Random Enumerator Histogram Phase2 Data]{Transverse momentum enumerator histograms of the \textit{probe} particle in the random case for phase2 Data. The pink line indicates the different sectors of the ECL.}
+	\label{plt:PtMThetaRandomE_Data}
+\end{figure}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMThetaRandomD_Data}
+	\caption[Transverse Momentum $\phi$ Random Denominator Histogram Phase2 Data]{Transverse momentum denominator histograms of the \textit{probe} particle in the random case for phase2 Data. The pink line indicates the different sectors of the ECL.}
+	\label{plt:PtMThetaRandomD_Data}
+\end{figure}
 
 
 
 
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMThetaem_MC}
+	\caption[Transverse Momentum $\theta$ Electron Efficiency Phase2 MC]{Electron $\phi$ transverse momentum tracking efficiency plots for phase2 MC. The pink line indicates the different sectors of the ECL.}
+	\label{plt:PtMThetaem_MC}
+\end{figure}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMThetaem_Data}
+	\caption[Transverse Momentum $\theta$ Electron Efficiency Phase2 Data]{Electron $\phi$ transverse momentum tracking efficiency plots for phase2 Data. The pink line indicates the different sectors of the ECL.}
+	\label{plt:PtMThetaem_Data}
+\end{figure}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMThetaemE_MC}
+	\caption[Transverse Momentum $\theta$ Electron Enumerator Histogram Phase2 MC]{Transverse momentum enumerator histograms for electrons for phase2 MC. The pink line indicates the different sectors of the ECL.}
+	\label{plt:PtMThetaemE_MC}
+\end{figure}
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMThetaemD_MC}
+	\caption[Transverse Momentum $\theta$ Electron Denominator Histogram Phase2 MC]{Transverse momentum denominator histograms for electrons for phase2 MC. The pink line indicates the different sectors of the ECL.}
+	\label{plt:PtMThetaemD_MC}
+\end{figure}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMThetaemE_Data}
+	\caption[Transverse Momentum $\theta$ Electron Enumerator Histogram Phase2 Data]{Transverse momentum enumerator histograms for electrons for phase2 Data. The pink line indicates the different sectors of the ECL.}
+	\label{plt:PtMThetaemE_Data}
+\end{figure}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMThetaemD_Data}
+	\caption[Transverse Momentum $\phi$ Electrons Denominator Histogram Phase2 Data]{Transverse momentum denominator histograms for electrons for phase2 Data. The pink line indicates the different sectors of the ECL.}
+	\label{plt:PtMThetaemD_Data}
+\end{figure}
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMThetaep_MC}
+	\caption[Transverse Momentum $\theta$ Positron Efficiency Phase2 MC]{Positron $\phi$ transverse momentum tracking efficiency plots for phase2 MC. The pink line indicates the different sectors of the ECL.}
+	\label{plt:PtMThetaep_MC}
+\end{figure}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMThetaep_Data}
+	\caption[Transverse Momentum $\theta$ Positron Efficiency Phase2 Data]{Positron transverse momentum $\phi$ tracking efficiency plots for phase2 Data. The pink line indicates the different sectors of the ECL.}
+	\label{plt:PtMThetaep_Data}
+\end{figure}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMThetaepE_MC}
+	\caption[Transverse Momentum $\theta$ Positron Enumerator Histogram Phase2 MC]{Transverse momentum enumerator histograms for positrons for phase2 MC. The pink line indicates the different sectors of the ECL.}
+	\label{plt:PtMThetaepE_MC}
+\end{figure}
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMThetaepD_MC}
+	\caption[Transverse Momentum $\theta$ Positron Denominator Histogram Phase2 MC]{Transverse momentum denominator histograms for positrons for phase2 MC. The pink line indicates the different sectors of the ECL.}
+	\label{plt:PtMThetaepD_MC}
+\end{figure}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMThetaepE_Data}
+	\caption[Transverse Momentum $\theta$ Positron Enumerator Histogram Phase2 Data]{Transverse momentum enumerator histograms for positrons for phase2 Data. The pink line indicates the different sectors of the ECL.}
+	\label{plt:PtMThetaepE_Data}
+\end{figure}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xPtMThetaepD_Data}
+	\caption[Transverse Momentum $\phi$ Positron Denominator Histogram Phase2 Data]{Transverse momentum denominator histograms for positrons for phase2 Data. The pink line indicates the different sectors of the ECL.}
+	\label{plt:PtMThetaepD_Data}
+\end{figure}
 
 
 
