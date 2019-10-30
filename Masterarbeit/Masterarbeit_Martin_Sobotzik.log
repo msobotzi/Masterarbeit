@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.21)  25 OCT 2019 16:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.21)  30 OCT 2019 13:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1984,18 +1984,18 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 9.
 
 [5]
-Overfull \hbox (1.09496pt too wide) detected at line 125
- []\T1/lmss/bx/n/10.95 223
- []
-
-
 Overfull \hbox (1.09496pt too wide) detected at line 127
- []\T1/lmss/bx/n/10.95 231
+ []\T1/lmss/bx/n/10.95 117
  []
 
 
 Overfull \hbox (1.09496pt too wide) detected at line 129
- []\T1/lmss/bx/n/10.95 233
+ []\T1/lmss/bx/n/10.95 121
+ []
+
+
+Overfull \hbox (1.09496pt too wide) detected at line 131
+ []\T1/lmss/bx/n/10.95 123
  []
 
 )
@@ -2040,7 +2040,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 290--292
 
  []
 
-[3] <Bilder/SM.png, id=385, 803.0pt x 603.25375pt>
+[3] <Bilder/SM.png, id=390, 803.0pt x 603.25375pt>
 File: Bilder/SM.png Graphic file (type png)
  <use Bilder/SM.png>
 Package pdftex.def Info: Bilder/SM.png used on input line 295.
@@ -2081,13 +2081,13 @@ Overfull \hbox (10.47505pt too wide) in paragraph at lines 454--455
 
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 476.
-<Bilder/dsdO.png, id=417, 432.61626pt x 284.06125pt>
+<Bilder/dsdO.png, id=422, 432.61626pt x 284.06125pt>
 File: Bilder/dsdO.png Graphic file (type png)
  <use Bilder/dsdO.png>
 Package pdftex.def Info: Bilder/dsdO.png used on input line 492.
 (pdftex.def)             Requested size: 191.23149pt x 125.5638pt.
 
-<Bilder/dsdO1.png, id=419, 432.61626pt x 284.06125pt>
+<Bilder/dsdO1.png, id=424, 432.61626pt x 284.06125pt>
 File: Bilder/dsdO1.png Graphic file (type png)
  <use Bilder/dsdO1.png>
 Package pdftex.def Info: Bilder/dsdO1.png used on input line 497.
@@ -2096,7 +2096,7 @@ Package pdftex.def Info: Bilder/dsdO1.png used on input line 497.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Bilder/dsdOb.png, id=423, 433.62pt x 284.06125pt>
+<Bilder/dsdOb.png, id=428, 433.62pt x 284.06125pt>
 File: Bilder/dsdOb.png Graphic file (type png)
  <use Bilder/dsdOb.png>
 Package pdftex.def Info: Bilder/dsdOb.png used on input line 512.
@@ -2105,7 +2105,7 @@ Package pdftex.def Info: Bilder/dsdOb.png used on input line 512.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[6] <Bilder/CThetaP.pdf, id=436, 569.12625pt x 208.78pt>
+[6] <Bilder/CThetaP.pdf, id=441, 569.12625pt x 208.78pt>
 File: Bilder/CThetaP.pdf Graphic file (type pdf)
 
 <use Bilder/CThetaP.pdf>
@@ -2116,23 +2116,30 @@ Package pdftex.def Info: Bilder/CThetaP.pdf used on input line 529.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [7 <./Bilder/dsdO.png> <./Bilder/dsdO1.png> <./Bilder/dsdOb.png>]
-<Bilder/CptTheta.pdf, id=447, 569.12625pt x 208.78pt>
+<Bilder/CptTheta.pdf, id=452, 569.12625pt x 208.78pt>
 File: Bilder/CptTheta.pdf Graphic file (type pdf)
 
 <use Bilder/CptTheta.pdf>
 Package pdftex.def Info: Bilder/CptTheta.pdf used on input line 541.
 (pdftex.def)             Requested size: 406.87448pt x 149.26698pt.
+ <Bilder/ee.pdf, id=454, 569.12625pt x 385.44pt>
+File: Bilder/ee.pdf Graphic file (type pdf)
+
+<use Bilder/ee.pdf>
+Package pdftex.def Info: Bilder/ee.pdf used on input line 553.
+(pdftex.def)             Requested size: 284.52756pt x 192.70187pt.
  [8 <./Bilder/CThetaP.pdf, page is rotated 90 degrees> <./Bilder/CptTheta.pdf, 
-page is rotated 90 degrees>] [9] [10
+page is rotated 90 degrees>] [9 <./Bilder/ee.pdf, page is rotated 90 degrees>] 
+[10
 
 
 ]
 chapter 3.
-<Bilder/SuperKEKB.png, id=552, 630.355pt x 659.46375pt>
+<Bilder/SuperKEKB.png, id=603, 630.355pt x 659.46375pt>
 File: Bilder/SuperKEKB.png Graphic file (type png)
 
 <use Bilder/SuperKEKB.png>
-Package pdftex.def Info: Bilder/SuperKEKB.png used on input line 567.
+Package pdftex.def Info: Bilder/SuperKEKB.png used on input line 586.
 (pdftex.def)             Requested size: 406.87448pt x 425.66782pt.
 
 
@@ -2141,25 +2148,25 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [11]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12 <./Bilder/SuperKEKB.png>] <Bilder/BeamBelle.pdf, id=578, 430.13326pt x 183
+ [12 <./Bilder/SuperKEKB.png>] <Bilder/BeamBelle.pdf, id=629, 430.13326pt x 183
 .03633pt>
 File: Bilder/BeamBelle.pdf Graphic file (type pdf)
 
 <use Bilder/BeamBelle.pdf>
-Package pdftex.def Info: Bilder/BeamBelle.pdf used on input line 602.
+Package pdftex.def Info: Bilder/BeamBelle.pdf used on input line 621.
 (pdftex.def)             Requested size: 183.09227pt x 77.91089pt.
 
-<Bilder/SuperKEKBBeam.pdf, id=579, 412.73409pt x 177.28557pt>
+<Bilder/SuperKEKBBeam.pdf, id=630, 412.73409pt x 177.28557pt>
 File: Bilder/SuperKEKBBeam.pdf Graphic file (type pdf)
 
 <use Bilder/SuperKEKBBeam.pdf>
-Package pdftex.def Info: Bilder/SuperKEKBBeam.pdf used on input line 607.
+Package pdftex.def Info: Bilder/SuperKEKBBeam.pdf used on input line 626.
 (pdftex.def)             Requested size: 183.09227pt x 78.647pt.
 
-<Bilder/Belle2.pdf, id=586, 1445.4pt x 813.0375pt>
+<Bilder/Belle2.pdf, id=637, 1445.4pt x 813.0375pt>
 File: Bilder/Belle2.pdf Graphic file (type pdf)
  <use Bilder/Belle2.pdf>
-Package pdftex.def Info: Bilder/Belle2.pdf used on input line 631.
+Package pdftex.def Info: Bilder/Belle2.pdf used on input line 650.
 (pdftex.def)             Requested size: 406.87448pt x 228.86473pt.
 
 
@@ -2172,43 +2179,43 @@ ion: multiple pdfs with page group included in a single page
 >]
 Underfull \vbox (badness 1048) has occurred while \output is active []
 
- [14 <./Bilder/Belle2.pdf>] <Bilder/coordinate.png, id=655, 372.39125pt x 418.5
+ [14 <./Bilder/Belle2.pdf>] <Bilder/coordinate.png, id=707, 372.39125pt x 418.5
 6375pt>
 File: Bilder/coordinate.png Graphic file (type png)
 
 <use Bilder/coordinate.png>
-Package pdftex.def Info: Bilder/coordinate.png used on input line 655.
+Package pdftex.def Info: Bilder/coordinate.png used on input line 674.
 (pdftex.def)             Requested size: 142.26378pt x 159.9053pt.
 
-<Bilder/PXD_SVD.png, id=661, 853.1875pt x 848.16875pt>
+<Bilder/PXD_SVD.png, id=713, 853.1875pt x 848.16875pt>
 File: Bilder/PXD_SVD.png Graphic file (type png)
 
 <use Bilder/PXD_SVD.png>
-Package pdftex.def Info: Bilder/PXD_SVD.png used on input line 671.
+Package pdftex.def Info: Bilder/PXD_SVD.png used on input line 690.
 (pdftex.def)             Requested size: 298.75394pt x 297.00586pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [15 <./Bilder/coordinate.png>]
-<Bilder/pixel.png, id=674, 1233.60875pt x 838.13126pt>
+<Bilder/pixel.png, id=726, 1233.60875pt x 838.13126pt>
 File: Bilder/pixel.png Graphic file (type png)
  <use Bilder/pixel.png>
-Package pdftex.def Info: Bilder/pixel.png used on input line 687.
+Package pdftex.def Info: Bilder/pixel.png used on input line 706.
 (pdftex.def)             Requested size: 341.43306pt x 231.96391pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 695--697
+Underfull \hbox (badness 10000) in paragraph at lines 714--716
 
  []
 
-<Bilder/DEPFET.png, id=682, 294.09875pt x 299.1175pt>
+<Bilder/DEPFET.png, id=734, 294.09875pt x 299.1175pt>
 File: Bilder/DEPFET.png Graphic file (type png)
  <use Bilder/DEPFET.png>
-Package pdftex.def Info: Bilder/DEPFET.png used on input line 702.
+Package pdftex.def Info: Bilder/DEPFET.png used on input line 721.
 (pdftex.def)             Requested size: 199.16928pt x 202.56653pt.
 
 Underfull \vbox (badness 4479) has occurred while \output is active []
@@ -2217,79 +2224,79 @@ Underfull \vbox (badness 4479) has occurred while \output is active []
 Underfull \vbox (badness 7851) has occurred while \output is active []
 
  [17 <./Bilder/pixel.png> <./Bilder/DEPFET.png>]
-<Bilder/SVD.png, id=705, 587.33714pt x 344.71643pt>
+<Bilder/SVD.png, id=756, 587.33714pt x 344.71643pt>
 File: Bilder/SVD.png Graphic file (type png)
  <use Bilder/SVD.png>
-Package pdftex.def Info: Bilder/SVD.png used on input line 717.
+Package pdftex.def Info: Bilder/SVD.png used on input line 736.
 (pdftex.def)             Requested size: 406.87448pt x 238.80663pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Bilder/CDC.png, id=712, 753.81625pt x 284.06125pt>
+<Bilder/CDC.png, id=763, 753.81625pt x 284.06125pt>
 File: Bilder/CDC.png Graphic file (type png)
  <use Bilder/CDC.png>
-Package pdftex.def Info: Bilder/CDC.png used on input line 735.
+Package pdftex.def Info: Bilder/CDC.png used on input line 754.
 (pdftex.def)             Requested size: 406.87448pt x 153.32143pt.
 
 [18]
 Underfull \vbox (badness 3623) has occurred while \output is active []
 
  [19 <./Bilder/SVD.png> <./Bilder/CDC.png>]
-<Bilder/TOP.png, id=734, 437.635pt x 164.615pt>
+<Bilder/TOP.png, id=785, 437.635pt x 164.615pt>
 File: Bilder/TOP.png Graphic file (type png)
  <use Bilder/TOP.png>
-Package pdftex.def Info: Bilder/TOP.png used on input line 764.
+Package pdftex.def Info: Bilder/TOP.png used on input line 783.
 (pdftex.def)             Requested size: 341.43306pt x 128.42932pt.
- [20 <./Bilder/TOP.png>] <Bilder/ARICH.jpg, id=748, 178.65144pt x 144.10638pt>
+ [20 <./Bilder/TOP.png>] <Bilder/ARICH.jpg, id=799, 178.65144pt x 144.10638pt>
 File: Bilder/ARICH.jpg Graphic file (type jpg)
 
 <use Bilder/ARICH.jpg>
-Package pdftex.def Info: Bilder/ARICH.jpg used on input line 779.
+Package pdftex.def Info: Bilder/ARICH.jpg used on input line 798.
 (pdftex.def)             Requested size: 183.09227pt x 147.6968pt.
- <Bilder/ARICH2.jpg, id=749, 177.797pt x 154.77292pt>
+ <Bilder/ARICH2.jpg, id=800, 177.797pt x 154.77292pt>
 File: Bilder/ARICH2.jpg Graphic file (type jpg)
 
 <use Bilder/ARICH2.jpg>
-Package pdftex.def Info: Bilder/ARICH2.jpg used on input line 784.
+Package pdftex.def Info: Bilder/ARICH2.jpg used on input line 803.
 (pdftex.def)             Requested size: 183.09227pt x 159.39424pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [21 <./Bilder/ARICH.jpg> <./Bilder/ARICH2.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 801--804
+Underfull \hbox (badness 10000) in paragraph at lines 820--823
 
  []
 
 [22]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 827.
+(Font)              <14.4> on input line 846.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 827.
+(hyperref)                removing `math shift' on input line 846.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 827.
+(hyperref)                removing `subscript' on input line 846.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 827.
+(hyperref)                removing `superscript' on input line 846.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 827.
+(hyperref)                removing `math shift' on input line 846.
 
 [23] [24
 
 
 ]
 chapter 4.
-<Bilder/Trigger.png, id=792, 790.955pt x 824.07875pt>
+<Bilder/Trigger.png, id=844, 790.955pt x 824.07875pt>
 File: Bilder/Trigger.png Graphic file (type png)
  <use Bilder/Trigger.png>
-Package pdftex.def Info: Bilder/Trigger.png used on input line 850.
+Package pdftex.def Info: Bilder/Trigger.png used on input line 869.
 (pdftex.def)             Requested size: 341.43306pt x 355.73013pt.
 
 
@@ -2298,10 +2305,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[25] <Bilder/DAQ.png, id=816, 983.675pt x 525.965pt>
+[25] <Bilder/DAQ.png, id=868, 983.675pt x 525.965pt>
 File: Bilder/DAQ.png Graphic file (type png)
  <use Bilder/DAQ.png>
-Package pdftex.def Info: Bilder/DAQ.png used on input line 916.
+Package pdftex.def Info: Bilder/DAQ.png used on input line 935.
 (pdftex.def)             Requested size: 406.87448pt x 217.54909pt.
 
 [26 <./Bilder/Trigger.png>] [27 <./Bilder/DAQ.png>] [28]
@@ -2315,31 +2322,31 @@ chapter 5.
 ]
 chapter 6.
 [31]
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 987.
-
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 1007
+.
  (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \hbox (badness 10000) in paragraph at lines 1000--1003
+Underfull \hbox (badness 10000) in paragraph at lines 1019--1022
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1004--1006
+Underfull \hbox (badness 10000) in paragraph at lines 1023--1025
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1010--1012
+Underfull \hbox (badness 10000) in paragraph at lines 1029--1031
 
  []
 
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 1018
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 1037
 .
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [32]
-Underfull \hbox (badness 10000) in paragraph at lines 1071--1073
+Underfull \hbox (badness 10000) in paragraph at lines 1090--1092
 
  []
 
@@ -2347,141 +2354,143 @@ Underfull \hbox (badness 10000) in paragraph at lines 1071--1073
 Underfull \vbox (badness 2495) has occurred while \output is active []
 
  [33]
-Underfull \hbox (badness 10000) in paragraph at lines 1074--1077
-[]\T1/lmr/m/n/10.95 /belle/MC/release-02-00-01/DB00000411/MC11/prod00006731/s00
+Underfull \hbox (badness 10000) in paragraph at lines 1093--1096
+[]\T1/lmr/m/n/10.95 /belle/MC/release-01-00-02/DB00000294/MC10/prod00004668/s00
 /e1002/4S/
  []
 
 
-Overfull \hbox (2.86757pt too wide) in paragraph at lines 1074--1077
-\T1/lmr/m/n/10.95 r00000/3600520000/mdst/sub00/mdst_000278_prod00006731_task100
-10000499.root 
+Overfull \hbox (2.86757pt too wide) in paragraph at lines 1093--1096
+\T1/lmr/m/n/10.95 r00000/3600520000/mdst/sub00/mdst_000050_prod00004668_task100
+10000050.root 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1074--1077
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1080--1082
+Underfull \hbox (badness 10000) in paragraph at lines 1093--1096
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1091--1094
+Underfull \hbox (badness 10000) in paragraph at lines 1099--1101
 
  []
 
-<Cuts/nCandAll.pdf, id=891, 569.12625pt x 441.65pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1110--1113
+
+ []
+
+<Cuts/nCandAll.pdf, id=942, 569.12625pt x 441.65pt>
 File: Cuts/nCandAll.pdf Graphic file (type pdf)
  <use Cuts/nCandAll.pdf>
-Package pdftex.def Info: Cuts/nCandAll.pdf used on input line 1109.
+Package pdftex.def Info: Cuts/nCandAll.pdf used on input line 1128.
 (pdftex.def)             Requested size: 183.09227pt x 142.08565pt.
 
-<Cuts/Mall.pdf, id=892, 569.12625pt x 429.605pt>
+<Cuts/Mall.pdf, id=943, 569.12625pt x 429.605pt>
 File: Cuts/Mall.pdf Graphic file (type pdf)
  <use Cuts/Mall.pdf>
-Package pdftex.def Info: Cuts/Mall.pdf used on input line 1114.
+Package pdftex.def Info: Cuts/Mall.pdf used on input line 1133.
 (pdftex.def)             Requested size: 183.09227pt x 138.21059pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[34] <Cuts/nCandM.pdf, id=903, 569.12625pt x 441.65pt>
+[34] <Cuts/nCandM.pdf, id=954, 569.12625pt x 441.65pt>
 File: Cuts/nCandM.pdf Graphic file (type pdf)
  <use Cuts/nCandM.pdf>
-Package pdftex.def Info: Cuts/nCandM.pdf used on input line 1137.
+Package pdftex.def Info: Cuts/nCandM.pdf used on input line 1156.
 (pdftex.def)             Requested size: 183.09227pt x 142.08565pt.
 
-<Cuts/MM.pdf, id=904, 569.12625pt x 429.605pt>
+<Cuts/MM.pdf, id=955, 569.12625pt x 429.605pt>
 File: Cuts/MM.pdf Graphic file (type pdf)
  <use Cuts/MM.pdf>
-Package pdftex.def Info: Cuts/MM.pdf used on input line 1142.
+Package pdftex.def Info: Cuts/MM.pdf used on input line 1161.
 (pdftex.def)             Requested size: 183.09227pt x 138.21059pt.
  [35 <./Cuts/nCandAll.pdf, page is rotated 90 degrees> <./Cuts/Mall.pdf, page i
 s rotated 90 degrees> <./Cuts/nCandM.pdf, page is rotated 90 degrees> <./Cuts/M
 M.pdf, page is rotated 90 degrees>]
-<AnhangPlots/EEdoubleMCE.pdf, id=1087, 569.12625pt x 454.69875pt>
+<AnhangPlots/EEdoubleMCE.pdf, id=1138, 569.12625pt x 454.69875pt>
 File: AnhangPlots/EEdoubleMCE.pdf Graphic file (type pdf)
 
 <use AnhangPlots/EEdoubleMCE.pdf>
-Package pdftex.def Info: AnhangPlots/EEdoubleMCE.pdf used on input line 1197.
+Package pdftex.def Info: AnhangPlots/EEdoubleMCE.pdf used on input line 1216.
 (pdftex.def)             Requested size: 284.52756pt x 227.32799pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[36] <Cuts/nCand.pdf, id=1098, 569.12625pt x 429.605pt>
+[36] <Cuts/nCand.pdf, id=1150, 569.12625pt x 429.605pt>
 File: Cuts/nCand.pdf Graphic file (type pdf)
  <use Cuts/nCand.pdf>
-Package pdftex.def Info: Cuts/nCand.pdf used on input line 1239.
+Package pdftex.def Info: Cuts/nCand.pdf used on input line 1258.
 (pdftex.def)             Requested size: 284.52756pt x 214.7823pt.
 
+Underfull \vbox (badness 2726) has occurred while \output is active []
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[37 <./AnhangPlots/EEdoubleMCE.pdf, page is rotated 90 degrees>]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[38 <./Cuts/nCand.pdf, page is rotated 90 degrees>]
-<Cuts/nCandNoMCInfo.pdf, id=1209, 569.12625pt x 429.605pt>
+ [37 <./AnhangPlots/EEdoubleMCE.pdf, page is rotated 90 degrees>] [38 <./Cuts/n
+Cand.pdf, page is rotated 90 degrees>]
+<Cuts/nCandNoMCInfo.pdf, id=1261, 569.12625pt x 429.605pt>
 File: Cuts/nCandNoMCInfo.pdf Graphic file (type pdf)
 
 <use Cuts/nCandNoMCInfo.pdf>
-Package pdftex.def Info: Cuts/nCandNoMCInfo.pdf used on input line 1299.
+Package pdftex.def Info: Cuts/nCandNoMCInfo.pdf used on input line 1318.
 (pdftex.def)             Requested size: 284.52756pt x 214.7823pt.
- [39 <./Cuts/nCandNoMCInfo.pdf, page is rotated 90 degrees>]
-Underfull \hbox (badness 10000) in paragraph at lines 1311--1313
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1330--1332
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1314--1317
+Underfull \hbox (badness 10000) in paragraph at lines 1333--1336
 []\T1/lmr/m/n/10.95 /ghi/fs01/belle2/bdata//Data/release-03-00-03/DB00000528/pr
 oc00000008/e0003/
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1314--1317
+Underfull \hbox (badness 10000) in paragraph at lines 1333--1336
 
  []
 
-<Cuts/Data/nCandData.pdf, id=1260, 569.12625pt x 429.605pt>
+<Cuts/Data/nCandData.pdf, id=1264, 569.12625pt x 429.605pt>
 File: Cuts/Data/nCandData.pdf Graphic file (type pdf)
 
 <use Cuts/Data/nCandData.pdf>
-Package pdftex.def Info: Cuts/Data/nCandData.pdf used on input line 1324.
+Package pdftex.def Info: Cuts/Data/nCandData.pdf used on input line 1343.
 (pdftex.def)             Requested size: 284.52756pt x 214.7823pt.
+ [39]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<Bilder/b2b_2.pdf, id=1262, 453.35774pt x 251.47615pt>
+ [40 <./Cuts/nCandNoMCInfo.pdf, page is rotated 90 degrees> <./Cuts/Data/nCandD
+ata.pdf, page is rotated 90 degrees>]
+<Bilder/b2b_2.pdf, id=1362, 453.35774pt x 251.47615pt>
 File: Bilder/b2b_2.pdf Graphic file (type pdf)
  <use Bilder/b2b_2.pdf>
-Package pdftex.def Info: Bilder/b2b_2.pdf used on input line 1340.
+Package pdftex.def Info: Bilder/b2b_2.pdf used on input line 1359.
 (pdftex.def)             Requested size: 284.52756pt x 157.82835pt.
-
-[40 <./Cuts/Data/nCandData.pdf, page is rotated 90 degrees>]
 File: Bilder/b2b_2.pdf Graphic file (type pdf)
 
 <use Bilder/b2b_2.pdf>
-Package pdftex.def Info: Bilder/b2b_2.pdf used on input line 1360.
+Package pdftex.def Info: Bilder/b2b_2.pdf used on input line 1379.
 (pdftex.def)             Requested size: 183.09227pt x 101.56332pt.
- <Bilder/b2b_3.pdf, id=1313, 453.35774pt x 251.47615pt>
+ <Bilder/b2b_3.pdf, id=1365, 453.35774pt x 251.47615pt>
 File: Bilder/b2b_3.pdf Graphic file (type pdf)
 
 <use Bilder/b2b_3.pdf>
-Package pdftex.def Info: Bilder/b2b_3.pdf used on input line 1366.
+Package pdftex.def Info: Bilder/b2b_3.pdf used on input line 1385.
 (pdftex.def)             Requested size: 183.09227pt x 101.56332pt.
 
-<Plots/sb2b_Data.pdf, id=1314, 569.12625pt x 207.77625pt>
+<Plots/sb2b_Data.pdf, id=1366, 569.12625pt x 207.77625pt>
 File: Plots/sb2b_Data.pdf Graphic file (type pdf)
 
 <use Plots/sb2b_Data.pdf>
-Package pdftex.def Info: Plots/sb2b_Data.pdf used on input line 1368.
+Package pdftex.def Info: Plots/sb2b_Data.pdf used on input line 1387.
 (pdftex.def)             Requested size: 406.87448pt x 148.54936pt.
 
-Underfull \hbox (badness 1412) in paragraph at lines 1371--1371
+Underfull \hbox (badness 1412) in paragraph at lines 1390--1390
 [][][]|\T1/lmr/m/n/10.95 Left: Pre-dicted clus-ter-Phi(HclE) - Re-con-structed 
 clus-ter-Phi(LclE).
  []
@@ -2490,12 +2499,12 @@ clus-ter-Phi(LclE).
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1379--1382
+Underfull \hbox (badness 10000) in paragraph at lines 1398--1401
 
  []
 
 [41 <./Bilder/b2b_2.pdf>]
-Underfull \hbox (badness 6808) in paragraph at lines 1383--1385
+Underfull \hbox (badness 6808) in paragraph at lines 1402--1404
 []$\OT1/lmr/m/n/10.95 0\OML/lmm/m/it/10.95 :\OT1/lmr/m/n/10.95 05 \OMS/lmsy/m/n
 /10.95 ^^T [] ^^T \OT1/lmr/m/n/10.95 0\OML/lmm/m/it/10.95 :\OT1/lmr/m/n/10.95 2
 $ \T1/lmr/m/n/10.95 and $\OT1/lmr/m/n/10.95 0\OML/lmm/m/it/10.95 :\OT1/lmr/m/n/
@@ -2503,117 +2512,115 @@ $ \T1/lmr/m/n/10.95 and $\OT1/lmr/m/n/10.95 0\OML/lmm/m/it/10.95 :\OT1/lmr/m/n/
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1383--1385
+Underfull \hbox (badness 10000) in paragraph at lines 1402--1404
 
  []
 
 
-Underfull \vbox (badness 3219) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [42 <./Bilder/b2b_3.pdf> <./Plots/sb2b_Data.pdf, page is rotated 90 degrees>]
-Underfull \hbox (badness 4454) in paragraph at lines 1391--1392
+Underfull \hbox (badness 4454) in paragraph at lines 1410--1411
 []$\OT1/lmr/m/n/10.95 0\OML/lmm/m/it/10.95 :\OT1/lmr/m/n/10.95 05 \OMS/lmsy/m/n
 /10.95 ^^T [] ^^T \OT1/lmr/m/n/10.95 0\OML/lmm/m/it/10.95 :\OT1/lmr/m/n/10.95 2
  && 0\OML/lmm/m/it/10.95 :\OT1/lmr/m/n/10.95 05 \OMS/lmsy/m/n/10.95 ^^T
  []
 
-<Plots/sb2b_MC.pdf, id=1380, 569.12625pt x 207.77625pt>
+<Plots/sb2b_MC.pdf, id=1431, 569.12625pt x 207.77625pt>
 File: Plots/sb2b_MC.pdf Graphic file (type pdf)
 
 <use Plots/sb2b_MC.pdf>
-Package pdftex.def Info: Plots/sb2b_MC.pdf used on input line 1403.
+Package pdftex.def Info: Plots/sb2b_MC.pdf used on input line 1422.
 (pdftex.def)             Requested size: 406.87448pt x 148.54936pt.
 
-Underfull \hbox (badness 1412) in paragraph at lines 1404--1404
+Underfull \hbox (badness 1412) in paragraph at lines 1423--1423
 [][][]|\T1/lmr/m/n/10.95 Left: Pre-dicted clus-ter-Phi(HclE) - Re-con-structed 
 clus-ter-Phi(LclE).
  []
 
-<Cuts/Data/DataTrigger.pdf, id=1385, 569.12625pt x 330.23375pt>
+[43 <./Plots/sb2b_MC.pdf, page is rotated 90 degrees>]
+<Cuts/Data/DataTrigger.pdf, id=1489, 569.12625pt x 339.2675pt>
 File: Cuts/Data/DataTrigger.pdf Graphic file (type pdf)
 
 <use Cuts/Data/DataTrigger.pdf>
-Package pdftex.def Info: Cuts/Data/DataTrigger.pdf used on input line 1427.
-(pdftex.def)             Requested size: 406.87448pt x 236.1002pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[43 <./Plots/sb2b_MC.pdf, page is rotated 90 degrees>] [44 <./Cuts/Data/DataTri
-gger.pdf, page is rotated 90 degrees>]
-Underfull \hbox (badness 10000) in paragraph at lines 1456--1458
+Package pdftex.def Info: Cuts/Data/DataTrigger.pdf used on input line 1451.
+(pdftex.def)             Requested size: 406.87448pt x 242.55888pt.
+ [44 <./Cuts/Data/DataTrigger.pdf, page is rotated 90 degrees>]
+Underfull \hbox (badness 10000) in paragraph at lines 1480--1482
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1459--1462
-[]\T1/lmr/m/n/10.95 /belle/MC/release-02-00-01/DB00000411/MC11/prod00006731/s00
+Underfull \hbox (badness 10000) in paragraph at lines 1483--1486
+[]\T1/lmr/m/n/10.95 /belle/MC/release-01-00-02/DB00000294/MC10/prod00004668/s00
 /e1002/4S/
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1459--1462
+Underfull \hbox (badness 10000) in paragraph at lines 1483--1486
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1463--1465
+Underfull \hbox (badness 10000) in paragraph at lines 1487--1489
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1466--1468
+Underfull \hbox (badness 10000) in paragraph at lines 1490--1492
 []\T1/lmr/m/n/10.95 /ghi/fs01/belle2/bdata//Data/release-03-00-03/DB00000528/pr
 oc00000008/e0003/
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1466--1468
+Underfull \hbox (badness 10000) in paragraph at lines 1490--1492
 
  []
 
-<Bilder/CCand.pdf, id=1492, 569.12625pt x 207.77625pt>
+<Bilder/CCand.pdf, id=1543, 569.12625pt x 207.77625pt>
 File: Bilder/CCand.pdf Graphic file (type pdf)
  <use Bilder/CCand.pdf>
-Package pdftex.def Info: Bilder/CCand.pdf used on input line 1471.
+Package pdftex.def Info: Bilder/CCand.pdf used on input line 1495.
 (pdftex.def)             Requested size: 406.87448pt x 148.54936pt.
 
-[45 <./Bilder/CCand.pdf, page is rotated 90 degrees>]
-<Plots/RTPMRandomD_MC.pdf, id=1545, 564.1075pt x 739.76375pt>
-File: Plots/RTPMRandomD_MC.pdf Graphic file (type pdf)
 
-<use Plots/RTPMRandomD_MC.pdf>
-Package pdftex.def Info: Plots/RTPMRandomD_MC.pdf used on input line 1501.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Plots/RTPMemD_MC.pdf, id=1547, 564.1075pt x 739.76375pt>
+File: Plots/RTPMemD_MC.pdf Graphic file (type pdf)
+
+<use Plots/RTPMemD_MC.pdf>
+Package pdftex.def Info: Plots/RTPMemD_MC.pdf used on input line 1525.
+(pdftex.def)             Requested size: 406.87448pt x 533.57767pt.
+ [45]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Plots/RTPMepD_MC.pdf, id=1556, 564.1075pt x 739.76375pt>
+File: Plots/RTPMepD_MC.pdf Graphic file (type pdf)
+
+<use Plots/RTPMepD_MC.pdf>
+Package pdftex.def Info: Plots/RTPMepD_MC.pdf used on input line 1533.
 (pdftex.def)             Requested size: 406.87448pt x 533.57767pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Plots/RTPMRandomD_Data.pdf, id=1547, 564.1075pt x 739.76375pt>
-File: Plots/RTPMRandomD_Data.pdf Graphic file (type pdf)
+<Plots/RTPtMemD_MC.pdf, id=1561, 564.1075pt x 739.76375pt>
+File: Plots/RTPtMemD_MC.pdf Graphic file (type pdf)
 
-<use Plots/RTPMRandomD_Data.pdf>
-Package pdftex.def Info: Plots/RTPMRandomD_Data.pdf used on input line 1509.
+<use Plots/RTPtMemD_MC.pdf>
+Package pdftex.def Info: Plots/RTPtMemD_MC.pdf used on input line 1566.
 (pdftex.def)             Requested size: 406.87448pt x 533.57767pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Plots/RTPtMRandomD_MC.pdf, id=1555, 564.1075pt x 739.76375pt>
-File: Plots/RTPtMRandomD_MC.pdf Graphic file (type pdf)
+<Plots/RTPtMepD_MC.pdf, id=1562, 564.1075pt x 739.76375pt>
+File: Plots/RTPtMepD_MC.pdf Graphic file (type pdf)
 
-<use Plots/RTPtMRandomD_MC.pdf>
-Package pdftex.def Info: Plots/RTPtMRandomD_MC.pdf used on input line 1540.
-(pdftex.def)             Requested size: 406.87448pt x 533.57767pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Plots/RTPtMRandomD_Data.pdf, id=1556, 564.1075pt x 739.76375pt>
-File: Plots/RTPtMRandomD_Data.pdf Graphic file (type pdf)
-
-<use Plots/RTPtMRandomD_Data.pdf>
-Package pdftex.def Info: Plots/RTPtMRandomD_Data.pdf used on input line 1548.
+<use Plots/RTPtMepD_MC.pdf>
+Package pdftex.def Info: Plots/RTPtMepD_MC.pdf used on input line 1575.
 (pdftex.def)             Requested size: 406.87448pt x 533.57767pt.
 
 
@@ -2622,1737 +2629,662 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[46] [47] [48 <./Plots/RTPMRandomD_MC.pdf>] [49 <./Plots/RTPMRandomD_Data.pdf>]
-[50 <./Plots/RTPtMRandomD_MC.pdf>] [51 <./Plots/RTPtMRandomD_Data.pdf>]
-[52
+[46 <./Bilder/CCand.pdf, page is rotated 90 degrees>] [47] [48 <./Plots/RTPMemD
+_MC.pdf>] [49 <./Plots/RTPMepD_MC.pdf>] [50 <./Plots/RTPtMemD_MC.pdf>] [51 <./P
+lots/RTPtMepD_MC.pdf>] [52
 
 
 ]
 chapter 7.
-[53] <Plots/master/xPMPhiRandomFC.pdf, id=1810, 569.12625pt x 641.39626pt>
-File: Plots/master/xPMPhiRandomFC.pdf Graphic file (type pdf)
 
-<use Plots/master/xPMPhiRandomFC.pdf>
-Package pdftex.def Info: Plots/master/xPMPhiRandomFC.pdf used on input line 163
-0.
-(pdftex.def)             Requested size: 406.87448pt x 458.56548pt.
+LaTeX Warning: Reference `plt:PMPhiemFCE_MC' on page 53 undefined on input line
+ 1647.
 
-<Plots/master/xPMPhiemFC.pdf, id=1811, 569.12625pt x 641.39626pt>
+
+LaTeX Warning: Reference `plt:PMPhiemFCD_MC' on page 53 undefined on input line
+ 1647.
+
+<Plots/master/xPMPhiemFC.pdf, id=1825, 569.12625pt x 556.0775pt>
 File: Plots/master/xPMPhiemFC.pdf Graphic file (type pdf)
 
 <use Plots/master/xPMPhiemFC.pdf>
-Package pdftex.def Info: Plots/master/xPMPhiemFC.pdf used on input line 1639.
-(pdftex.def)             Requested size: 406.87448pt x 458.56548pt.
-
-<Plots/master/xPMPhiepFC.pdf, id=1812, 569.12625pt x 548.0475pt>
-File: Plots/master/xPMPhiepFC.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMPhiepFC.pdf>
-Package pdftex.def Info: Plots/master/xPMPhiepFC.pdf used on input line 1649.
-(pdftex.def)             Requested size: 284.52756pt x 273.99799pt.
- [54] [55 <./Plots/master/xPMPhiRandomFC.pdf>] [56 <./Plots/master/xPMPhiemFC.p
-df>] [57 <./Plots/master/xPMPhiepFC.pdf, page is rotated 90 degrees>]
-<Plots/master/xPMPhiRandomBarrel.pdf, id=1974, 569.12625pt x 556.0775pt>
-File: Plots/master/xPMPhiRandomBarrel.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMPhiRandomBarrel.pdf>
-Package pdftex.def Info: Plots/master/xPMPhiRandomBarrel.pdf used on input line
- 1675.
+Package pdftex.def Info: Plots/master/xPMPhiemFC.pdf used on input line 1657.
 (pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
+ [53] [54 <./Plots/master/xPMPhiemFC.pdf, page is rotated 90 degrees>]
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: Reference `plt:xPMPhiRandomBarrel' on page 55 undefined on input
+ line 1674.
 
- [58]
-<Plots/master/xPMPhiemBarrel.pdf, id=1986, 569.12625pt x 556.0775pt>
+<Plots/master/xPMPhiemBarrel.pdf, id=1882, 569.12625pt x 556.0775pt>
 File: Plots/master/xPMPhiemBarrel.pdf Graphic file (type pdf)
 
 <use Plots/master/xPMPhiemBarrel.pdf>
 Package pdftex.def Info: Plots/master/xPMPhiemBarrel.pdf used on input line 168
-4.
+5.
 (pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
 
-<Plots/master/xPMPhiepBarrel.pdf, id=1987, 569.12625pt x 556.0775pt>
+<Plots/master/xPMPhiepBarrel.pdf, id=1883, 569.12625pt x 556.0775pt>
 File: Plots/master/xPMPhiepBarrel.pdf Graphic file (type pdf)
 
 <use Plots/master/xPMPhiepBarrel.pdf>
 Package pdftex.def Info: Plots/master/xPMPhiepBarrel.pdf used on input line 169
-4.
+5.
 (pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
- [59 <./Plots/master/xPMPhiRandomBarrel.pdf, page is rotated 90 degrees>] [60 <
-./Plots/master/xPMPhiemBarrel.pdf, page is rotated 90 degrees>] [61 <./Plots/ma
-ster/xPMPhiepBarrel.pdf, page is rotated 90 degrees>]
-<Plots/master/xPMPhiRandomEC.pdf, id=2140, 569.12625pt x 556.0775pt>
-File: Plots/master/xPMPhiRandomEC.pdf Graphic file (type pdf)
+ [55] [56 <./Plots/master/xPMPhiemBarrel.pdf, page is rotated 90 degrees>] [57 
+<./Plots/master/xPMPhiepBarrel.pdf, page is rotated 90 degrees>]
 
-<use Plots/master/xPMPhiRandomEC.pdf>
-Package pdftex.def Info: Plots/master/xPMPhiRandomEC.pdf used on input line 171
-3.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
+LaTeX Warning: Reference `plt:xPMPhiRandomEC' on page 58 undefined on input lin
+e 1704.
 
-<Plots/master/xPMPhiepEC.pdf, id=2141, 569.12625pt x 556.0775pt>
+
+LaTeX Warning: Reference `plt:PMPhiRandomECE_MC' on page 58 undefined on input 
+line 1705.
+
+
+LaTeX Warning: Reference `plt:PMPhiRandomECD_Data' on page 58 undefined on inpu
+t line 1705.
+
+<Plots/master/xPMPhiepEC.pdf, id=1986, 569.12625pt x 556.0775pt>
 File: Plots/master/xPMPhiepEC.pdf Graphic file (type pdf)
 
 <use Plots/master/xPMPhiepEC.pdf>
-Package pdftex.def Info: Plots/master/xPMPhiepEC.pdf used on input line 1725.
+Package pdftex.def Info: Plots/master/xPMPhiepEC.pdf used on input line 1716.
 (pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
- [62] [63 <./Plots/master/xPMPhiRandomEC.pdf, page is rotated 90 degrees>] [64 
-<./Plots/master/xPMPhiepEC.pdf, page is rotated 90 degrees>]
+ [58] [59 <./Plots/master/xPMPhiepEC.pdf, page is rotated 90 degrees>]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 1744.
+(Font)              <12> on input line 1735.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1744.
+(hyperref)                removing `math shift' on input line 1735.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\theta' on input line 1744.
+(hyperref)                removing `\theta' on input line 1735.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1744.
+(hyperref)                removing `math shift' on input line 1735.
 
 
-Underfull \vbox (badness 1092) has occurred while \output is active []
+LaTeX Warning: Reference `plt:PMThetaRandomE_MC' on page 60 undefined on input 
+line 1741.
 
- [65
+
+LaTeX Warning: Reference `plt:PMThetaRandomD_MC' on page 60 undefined on input 
+line 1741.
+
+
+LaTeX Warning: Reference `plt:PMThetaRandom_MC' on page 60 undefined on input l
+ine 1741.
+
+
+LaTeX Warning: Reference `plt:PMThetaRandomD_Data' on page 60 undefined on inpu
+t line 1741.
+
+[60
 
 ]
-<Plots/master/xPMThetaRandom.pdf, id=2266, 564.1075pt x 739.76375pt>
-File: Plots/master/xPMThetaRandom.pdf Graphic file (type pdf)
 
-<use Plots/master/xPMThetaRandom.pdf>
-Package pdftex.def Info: Plots/master/xPMThetaRandom.pdf used on input line 176
-2.
-(pdftex.def)             Requested size: 406.87448pt x 533.57767pt.
+LaTeX Warning: Reference `plt:PMThetaemD_Data' on page 61 undefined on input li
+ne 1745.
 
-<Plots/master/xPMThetaem.pdf, id=2267, 569.12625pt x 641.39626pt>
+<Plots/master/xPMThetaem.pdf, id=2051, 569.12625pt x 641.39626pt>
 File: Plots/master/xPMThetaem.pdf Graphic file (type pdf)
 
 <use Plots/master/xPMThetaem.pdf>
-Package pdftex.def Info: Plots/master/xPMThetaem.pdf used on input line 1771.
+Package pdftex.def Info: Plots/master/xPMThetaem.pdf used on input line 1757.
 (pdftex.def)             Requested size: 406.87448pt x 458.56548pt.
 
-<Plots/master/xPMThetaep.pdf, id=2268, 569.12625pt x 641.39626pt>
+<Plots/master/xPMThetaep.pdf, id=2052, 569.12625pt x 641.39626pt>
 File: Plots/master/xPMThetaep.pdf Graphic file (type pdf)
 
 <use Plots/master/xPMThetaep.pdf>
-Package pdftex.def Info: Plots/master/xPMThetaep.pdf used on input line 1779.
+Package pdftex.def Info: Plots/master/xPMThetaep.pdf used on input line 1765.
 (pdftex.def)             Requested size: 406.87448pt x 458.56548pt.
- [66] [67 <./Plots/master/xPMThetaRandom.pdf>] [68 <./Plots/master/xPMThetaem.p
-df>] [69 <./Plots/master/xPMThetaep.pdf>]
-<Plots/master/xPtMPhiRandomFC.pdf, id=2421, 569.12625pt x 556.0775pt>
-File: Plots/master/xPtMPhiRandomFC.pdf Graphic file (type pdf)
-
-<use Plots/master/xPtMPhiRandomFC.pdf>
-Package pdftex.def Info: Plots/master/xPtMPhiRandomFC.pdf used on input line 17
-99.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPtMPhiemFC.pdf, id=2422, 569.12625pt x 556.0775pt>
+ [61] [62 <./Plots/master/xPMThetaem.pdf>]
+[63 <./Plots/master/xPMThetaep.pdf>]
+<Plots/master/xPtMPhiemFC.pdf, id=2153, 569.12625pt x 556.0775pt>
 File: Plots/master/xPtMPhiemFC.pdf Graphic file (type pdf)
 
 <use Plots/master/xPtMPhiemFC.pdf>
-Package pdftex.def Info: Plots/master/xPtMPhiemFC.pdf used on input line 1807.
+Package pdftex.def Info: Plots/master/xPtMPhiemFC.pdf used on input line 1787.
 (pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
- [70
+ [64
 
- <./Plots/master/xPtMPhiRandomFC.pdf, page is rotated 90 degrees>] [71 <./Plots
-/master/xPtMPhiemFC.pdf, page is rotated 90 degrees>]
-<Plots/master/xPtMPhiRandomBarrel.pdf, id=2520, 569.12625pt x 556.0775pt>
-File: Plots/master/xPtMPhiRandomBarrel.pdf Graphic file (type pdf)
-
-<use Plots/master/xPtMPhiRandomBarrel.pdf>
-Package pdftex.def Info: Plots/master/xPtMPhiRandomBarrel.pdf used on input lin
-e 1825.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPtMPhiemBarrel.pdf, id=2521, 569.12625pt x 556.0775pt>
+ <./Plots/master/xPtMPhiemFC.pdf, page is rotated 90 degrees>]
+<Plots/master/xPtMPhiemBarrel.pdf, id=2203, 569.12625pt x 556.0775pt>
 File: Plots/master/xPtMPhiemBarrel.pdf Graphic file (type pdf)
 
 <use Plots/master/xPtMPhiemBarrel.pdf>
 Package pdftex.def Info: Plots/master/xPtMPhiemBarrel.pdf used on input line 18
-33.
+04.
 (pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
 
-<Plots/master/xPtMPhiepBarrel.pdf, id=2522, 569.12625pt x 556.0775pt>
+<Plots/master/xPtMPhiepBarrel.pdf, id=2204, 569.12625pt x 556.0775pt>
 File: Plots/master/xPtMPhiepBarrel.pdf Graphic file (type pdf)
 
 <use Plots/master/xPtMPhiepBarrel.pdf>
 Package pdftex.def Info: Plots/master/xPtMPhiepBarrel.pdf used on input line 18
-42.
+13.
 (pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
- [72 <./Plots/master/xPtMPhiRandomBarrel.pdf, page is rotated 90 degrees>] [73 
-<./Plots/master/xPtMPhiemBarrel.pdf, page is rotated 90 degrees>] [74 <./Plots/
-master/xPtMPhiepBarrel.pdf, page is rotated 90 degrees>]
-<Plots/master/xPtMPhiRandomEC.pdf, id=2668, 569.12625pt x 556.0775pt>
-File: Plots/master/xPtMPhiRandomEC.pdf Graphic file (type pdf)
-
-<use Plots/master/xPtMPhiRandomEC.pdf>
-Package pdftex.def Info: Plots/master/xPtMPhiRandomEC.pdf used on input line 18
-59.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPtMPhiepEC.pdf, id=2669, 569.12625pt x 556.0775pt>
+ [65 <./Plots/master/xPtMPhiemBarrel.pdf, page is rotated 90 degrees>] [66 <./P
+lots/master/xPtMPhiepBarrel.pdf, page is rotated 90 degrees>]
+<Plots/master/xPtMPhiepEC.pdf, id=2302, 569.12625pt x 556.0775pt>
 File: Plots/master/xPtMPhiepEC.pdf Graphic file (type pdf)
 
 <use Plots/master/xPtMPhiepEC.pdf>
-Package pdftex.def Info: Plots/master/xPtMPhiepEC.pdf used on input line 1872.
+Package pdftex.def Info: Plots/master/xPtMPhiepEC.pdf used on input line 1836.
 (pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
- [75 <./Plots/master/xPtMPhiRandomEC.pdf, page is rotated 90 degrees>] [76 <./P
-lots/master/xPtMPhiepEC.pdf, page is rotated 90 degrees>]
+ [67 <./Plots/master/xPtMPhiepEC.pdf, page is rotated 90 degrees>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1888.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\theta' on input line 1888.
+(hyperref)                removing `math shift' on input line 1852.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1888.
+(hyperref)                removing `\theta' on input line 1852.
 
-<Plots/master/xPtMThetaRandom.pdf, id=2766, 569.12625pt x 641.39626pt>
-File: Plots/master/xPtMThetaRandom.pdf Graphic file (type pdf)
 
-<use Plots/master/xPtMThetaRandom.pdf>
-Package pdftex.def Info: Plots/master/xPtMThetaRandom.pdf used on input line 18
-99.
-(pdftex.def)             Requested size: 406.87448pt x 458.56548pt.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1852.
 
-<Plots/master/xPtMThetaem.pdf, id=2767, 569.12625pt x 641.39626pt>
+<Plots/master/xPtMThetaem.pdf, id=2351, 569.12625pt x 641.39626pt>
 File: Plots/master/xPtMThetaem.pdf Graphic file (type pdf)
 
 <use Plots/master/xPtMThetaem.pdf>
-Package pdftex.def Info: Plots/master/xPtMThetaem.pdf used on input line 1905.
+Package pdftex.def Info: Plots/master/xPtMThetaem.pdf used on input line 1862.
 (pdftex.def)             Requested size: 406.87448pt x 458.56548pt.
 
-<Plots/master/xPtMThetaep.pdf, id=2768, 569.12625pt x 641.39626pt>
+<Plots/master/xPtMThetaep.pdf, id=2352, 569.12625pt x 641.39626pt>
 File: Plots/master/xPtMThetaep.pdf Graphic file (type pdf)
 
 <use Plots/master/xPtMThetaep.pdf>
-Package pdftex.def Info: Plots/master/xPtMThetaep.pdf used on input line 1912.
+Package pdftex.def Info: Plots/master/xPtMThetaep.pdf used on input line 1869.
 (pdftex.def)             Requested size: 406.87448pt x 458.56548pt.
- [77 <./Plots/master/xPtMThetaRandom.pdf>]
-[78 <./Plots/master/xPtMThetaem.pdf>] [79 <./Plots/master/xPtMThetaep.pdf>]
-[80
+ [68 <./Plots/master/xPtMThetaem.pdf>]
+[69 <./Plots/master/xPtMThetaep.pdf>] [70
 
 
 ]
 chapter 8.
-[81] [82
+
+Underfull \hbox (badness 10000) in paragraph at lines 1886--1888
+\T1/lmr/m/n/10.95 /belle/MC/release-01-00-02/DB00000294/MC10/prod00004664/s00/e
+0000/4S/
+ []
+
+[71] [72
 
 
 ]
 chapter 9.
-[83] [84
-
-
-]
-chapter 10.
-[85] [86
+[73] [74
 
 
 ]
 chapter A.
-<AnhangPlots/clEDiff.pdf, id=2944, 569.12625pt x 429.605pt>
+<AnhangPlots/clEDiff.pdf, id=2471, 569.12625pt x 429.605pt>
 File: AnhangPlots/clEDiff.pdf Graphic file (type pdf)
 
 <use AnhangPlots/clEDiff.pdf>
-Package pdftex.def Info: AnhangPlots/clEDiff.pdf used on input line 1956.
+Package pdftex.def Info: AnhangPlots/clEDiff.pdf used on input line 1945.
 (pdftex.def)             Requested size: 284.52756pt x 214.7823pt.
 
-<AnhangPlots/ttpp.pdf, id=2945, 569.12625pt x 208.78pt>
+<AnhangPlots/ttpp.pdf, id=2472, 569.12625pt x 208.78pt>
 File: AnhangPlots/ttpp.pdf Graphic file (type pdf)
 
 <use AnhangPlots/ttpp.pdf>
-Package pdftex.def Info: AnhangPlots/ttpp.pdf used on input line 1975.
+Package pdftex.def Info: AnhangPlots/ttpp.pdf used on input line 1964.
 (pdftex.def)             Requested size: 406.87448pt x 149.26698pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [87 <./AnhangPlots/clEDiff.pdf, page is rotated 90 degrees>]
-<Plots/sb2b_Data_0.pdf, id=2993, 569.12625pt x 207.77625pt>
+ [75 <./AnhangPlots/clEDiff.pdf, page is rotated 90 degrees>]
+<Plots/sb2b_Data_0.pdf, id=2520, 569.12625pt x 207.77625pt>
 File: Plots/sb2b_Data_0.pdf Graphic file (type pdf)
 
 <use Plots/sb2b_Data_0.pdf>
-Package pdftex.def Info: Plots/sb2b_Data_0.pdf used on input line 1984.
+Package pdftex.def Info: Plots/sb2b_Data_0.pdf used on input line 1973.
 (pdftex.def)             Requested size: 406.87448pt x 148.54936pt.
 
-Underfull \hbox (badness 1019) in paragraph at lines 1985--1985
+Underfull \hbox (badness 1019) in paragraph at lines 1974--1974
 [][][]|\T1/lmr/m/n/10.95 Left: Pre-dicted clus-ter-Phi(HclE) - Re-con-structed 
 clus-ter-Phi(LclE).
  []
 
-<Plots/sb2b_MC_0.pdf, id=2994, 569.12625pt x 207.77625pt>
+<Plots/sb2b_MC_0.pdf, id=2521, 569.12625pt x 207.77625pt>
 File: Plots/sb2b_MC_0.pdf Graphic file (type pdf)
 
 <use Plots/sb2b_MC_0.pdf>
-Package pdftex.def Info: Plots/sb2b_MC_0.pdf used on input line 1996.
+Package pdftex.def Info: Plots/sb2b_MC_0.pdf used on input line 1985.
 (pdftex.def)             Requested size: 406.87448pt x 148.54936pt.
 
-Underfull \hbox (badness 1019) in paragraph at lines 1997--1997
+Underfull \hbox (badness 1019) in paragraph at lines 1986--1986
 [][][]|\T1/lmr/m/n/10.95 Left: Pre-dicted clus-ter-Phi(HclE) - Re-con-structed 
 clus-ter-Phi(LclE).
  []
 
-[88 <./AnhangPlots/ttpp.pdf, page is rotated 90 degrees> <./Plots/sb2b_Data_0.p
+[76 <./AnhangPlots/ttpp.pdf, page is rotated 90 degrees> <./Plots/sb2b_Data_0.p
 df, page is rotated 90 degrees>]
-<Plots/RTPMemD_MC.pdf, id=3086, 564.1075pt x 739.76375pt>
-File: Plots/RTPMemD_MC.pdf Graphic file (type pdf)
-
-<use Plots/RTPMemD_MC.pdf>
-Package pdftex.def Info: Plots/RTPMemD_MC.pdf used on input line 2008.
-(pdftex.def)             Requested size: 406.87448pt x 533.57767pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Plots/RTPMemD_Data.pdf, id=3087, 564.1075pt x 739.76375pt>
+<Plots/RTPMemD_Data.pdf, id=2613, 564.1075pt x 739.76375pt>
 File: Plots/RTPMemD_Data.pdf Graphic file (type pdf)
 
 <use Plots/RTPMemD_Data.pdf>
-Package pdftex.def Info: Plots/RTPMemD_Data.pdf used on input line 2016.
+Package pdftex.def Info: Plots/RTPMemD_Data.pdf used on input line 2000.
 (pdftex.def)             Requested size: 406.87448pt x 533.57767pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Plots/RTPMepD_MC.pdf, id=3088, 564.1075pt x 739.76375pt>
-File: Plots/RTPMepD_MC.pdf Graphic file (type pdf)
+<Plots/RTPMemE_MC.pdf, id=2614, 564.1075pt x 739.76375pt>
+File: Plots/RTPMemE_MC.pdf Graphic file (type pdf)
 
-<use Plots/RTPMepD_MC.pdf>
-Package pdftex.def Info: Plots/RTPMepD_MC.pdf used on input line 2026.
+<use Plots/RTPMemE_MC.pdf>
+Package pdftex.def Info: Plots/RTPMemE_MC.pdf used on input line 2008.
 (pdftex.def)             Requested size: 406.87448pt x 533.57767pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Plots/RTPMepD_Data.pdf, id=3089, 564.1075pt x 739.76375pt>
+<Plots/RTPMemE_Data.pdf, id=2615, 564.1075pt x 739.76375pt>
+File: Plots/RTPMemE_Data.pdf Graphic file (type pdf)
+
+<use Plots/RTPMemE_Data.pdf>
+Package pdftex.def Info: Plots/RTPMemE_Data.pdf used on input line 2014.
+(pdftex.def)             Requested size: 406.87448pt x 533.57767pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Plots/RTPMepD_Data.pdf, id=2616, 564.1075pt x 739.76375pt>
 File: Plots/RTPMepD_Data.pdf Graphic file (type pdf)
 
 <use Plots/RTPMepD_Data.pdf>
-Package pdftex.def Info: Plots/RTPMepD_Data.pdf used on input line 2034.
+Package pdftex.def Info: Plots/RTPMepD_Data.pdf used on input line 2022.
 (pdftex.def)             Requested size: 406.87448pt x 533.57767pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Plots/RTPtMemD_MC.pdf, id=3090, 564.1075pt x 739.76375pt>
-File: Plots/RTPtMemD_MC.pdf Graphic file (type pdf)
+<Plots/RTPMepE_MC.pdf, id=2617, 564.1075pt x 739.76375pt>
+File: Plots/RTPMepE_MC.pdf Graphic file (type pdf)
 
-<use Plots/RTPtMemD_MC.pdf>
-Package pdftex.def Info: Plots/RTPtMemD_MC.pdf used on input line 2045.
+<use Plots/RTPMepE_MC.pdf>
+Package pdftex.def Info: Plots/RTPMepE_MC.pdf used on input line 2029.
 (pdftex.def)             Requested size: 406.87448pt x 533.57767pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Plots/RTPtMemD_Data.pdf, id=3091, 564.1075pt x 739.76375pt>
+<Plots/RTPMepE_Data.pdf, id=2618, 564.1075pt x 739.76375pt>
+File: Plots/RTPMepE_Data.pdf Graphic file (type pdf)
+
+<use Plots/RTPMepE_Data.pdf>
+Package pdftex.def Info: Plots/RTPMepE_Data.pdf used on input line 2036.
+(pdftex.def)             Requested size: 406.87448pt x 533.57767pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Plots/RTPtMemD_Data.pdf, id=2619, 564.1075pt x 739.76375pt>
 File: Plots/RTPtMemD_Data.pdf Graphic file (type pdf)
 
 <use Plots/RTPtMemD_Data.pdf>
-Package pdftex.def Info: Plots/RTPtMemD_Data.pdf used on input line 2053.
+Package pdftex.def Info: Plots/RTPtMemD_Data.pdf used on input line 2046.
 (pdftex.def)             Requested size: 406.87448pt x 533.57767pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Plots/RTPtMepD_MC.pdf, id=3092, 564.1075pt x 739.76375pt>
-File: Plots/RTPtMepD_MC.pdf Graphic file (type pdf)
+<Plots/RTPtMemE_MC.pdf, id=2620, 564.1075pt x 739.76375pt>
+File: Plots/RTPtMemE_MC.pdf Graphic file (type pdf)
 
-<use Plots/RTPtMepD_MC.pdf>
-Package pdftex.def Info: Plots/RTPtMepD_MC.pdf used on input line 2063.
+<use Plots/RTPtMemE_MC.pdf>
+Package pdftex.def Info: Plots/RTPtMemE_MC.pdf used on input line 2052.
 (pdftex.def)             Requested size: 406.87448pt x 533.57767pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Plots/RTPtMepD_Data.pdf, id=3093, 564.1075pt x 739.76375pt>
+<Plots/RTPtMemE_Data.pdf, id=2621, 564.1075pt x 739.76375pt>
+File: Plots/RTPtMemE_Data.pdf Graphic file (type pdf)
+
+<use Plots/RTPtMemE_Data.pdf>
+Package pdftex.def Info: Plots/RTPtMemE_Data.pdf used on input line 2059.
+(pdftex.def)             Requested size: 406.87448pt x 533.57767pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Plots/RTPtMepD_Data.pdf, id=2622, 564.1075pt x 739.76375pt>
 File: Plots/RTPtMepD_Data.pdf Graphic file (type pdf)
 
 <use Plots/RTPtMepD_Data.pdf>
-Package pdftex.def Info: Plots/RTPtMepD_Data.pdf used on input line 2071.
+Package pdftex.def Info: Plots/RTPtMepD_Data.pdf used on input line 2066.
 (pdftex.def)             Requested size: 406.87448pt x 533.57767pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[89 <./Plots/sb2b_MC_0.pdf, page is rotated 90 degrees>] [90 <./Plots/RTPMemD_M
-C.pdf>] [91 <./Plots/RTPMemD_Data.pdf>] [92 <./Plots/RTPMepD_MC.pdf>] [93 <./Pl
-ots/RTPMepD_Data.pdf>] [94 <./Plots/RTPtMemD_MC.pdf>] [95 <./Plots/RTPtMemD_Dat
-a.pdf>] [96 <./Plots/RTPtMepD_MC.pdf>] [97 <./Plots/RTPtMepD_Data.pdf>]
-[98
+<Plots/RTPtMepE_MC.pdf, id=2623, 564.1075pt x 739.76375pt>
+File: Plots/RTPtMepE_MC.pdf Graphic file (type pdf)
+
+<use Plots/RTPtMepE_MC.pdf>
+Package pdftex.def Info: Plots/RTPtMepE_MC.pdf used on input line 2073.
+(pdftex.def)             Requested size: 406.87448pt x 533.57767pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Plots/RTPtMepE_Data.pdf, id=2624, 564.1075pt x 739.76375pt>
+File: Plots/RTPtMepE_Data.pdf Graphic file (type pdf)
+
+<use Plots/RTPtMepE_Data.pdf>
+Package pdftex.def Info: Plots/RTPtMepE_Data.pdf used on input line 2079.
+(pdftex.def)             Requested size: 406.87448pt x 533.57767pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[77 <./Plots/sb2b_MC_0.pdf, page is rotated 90 degrees>] [78 <./Plots/RTPMemD_D
+ata.pdf>] [79 <./Plots/RTPMemE_MC.pdf>] [80 <./Plots/RTPMemE_Data.pdf>]
+[81 <./Plots/RTPMepD_Data.pdf>] [82 <./Plots/RTPMepE_MC.pdf>] [83 <./Plots/RTPM
+epE_Data.pdf>] [84 <./Plots/RTPtMemD_Data.pdf>] [85 <./Plots/RTPtMemE_MC.pdf>]
+[86 <./Plots/RTPtMemE_Data.pdf>] [87 <./Plots/RTPtMepD_Data.pdf>] [88 <./Plots/
+RTPtMepE_MC.pdf>] [89 <./Plots/RTPtMepE_Data.pdf>] [90
 
 
 ]
 chapter B.
-<Plots/master/xPMPhiRandomFC_MC.pdf, id=3529, 569.12625pt x 641.39626pt>
-File: Plots/master/xPMPhiRandomFC_MC.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMPhiRandomFC_MC.pdf>
-Package pdftex.def Info: Plots/master/xPMPhiRandomFC_MC.pdf used on input line 
-2090.
-(pdftex.def)             Requested size: 406.87448pt x 458.56548pt.
-
-<Plots/master/xPMPhiRandomFC_Data.pdf, id=3530, 569.12625pt x 641.39626pt>
-File: Plots/master/xPMPhiRandomFC_Data.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMPhiRandomFC_Data.pdf>
-Package pdftex.def Info: Plots/master/xPMPhiRandomFC_Data.pdf used on input lin
-e 2098.
-(pdftex.def)             Requested size: 406.87448pt x 458.56548pt.
-
-<Plots/master/xPMPhiRandomFCE_MC.pdf, id=3531, 569.12625pt x 641.39626pt>
-File: Plots/master/xPMPhiRandomFCE_MC.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMPhiRandomFCE_MC.pdf>
-Package pdftex.def Info: Plots/master/xPMPhiRandomFCE_MC.pdf used on input line
- 2106.
-(pdftex.def)             Requested size: 406.87448pt x 458.56548pt.
-
-<Plots/master/xPMPhiRandomFCD_MC.pdf, id=3532, 569.12625pt x 641.39626pt>
-File: Plots/master/xPMPhiRandomFCD_MC.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMPhiRandomFCD_MC.pdf>
-Package pdftex.def Info: Plots/master/xPMPhiRandomFCD_MC.pdf used on input line
- 2113.
-(pdftex.def)             Requested size: 406.87448pt x 458.56548pt.
-
-<Plots/master/xPMPhiRandomFCE_Data.pdf, id=3533, 569.12625pt x 641.39626pt>
-File: Plots/master/xPMPhiRandomFCE_Data.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMPhiRandomFCE_Data.pdf>
-Package pdftex.def Info: Plots/master/xPMPhiRandomFCE_Data.pdf used on input li
-ne 2121.
-(pdftex.def)             Requested size: 406.87448pt x 458.56548pt.
-
-<Plots/master/xPMPhiRandomFCD_Data.pdf, id=3534, 569.12625pt x 641.39626pt>
-File: Plots/master/xPMPhiRandomFCD_Data.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMPhiRandomFCD_Data.pdf>
-Package pdftex.def Info: Plots/master/xPMPhiRandomFCD_Data.pdf used on input li
-ne 2128.
-(pdftex.def)             Requested size: 406.87448pt x 458.56548pt.
-
-<Plots/master/xPMPhiemFC_MC.pdf, id=3535, 569.12625pt x 641.39626pt>
+<Plots/master/xPMPhiemFC_MC.pdf, id=3256, 569.12625pt x 556.0775pt>
 File: Plots/master/xPMPhiemFC_MC.pdf Graphic file (type pdf)
 
 <use Plots/master/xPMPhiemFC_MC.pdf>
-Package pdftex.def Info: Plots/master/xPMPhiemFC_MC.pdf used on input line 2139
+Package pdftex.def Info: Plots/master/xPMPhiemFC_MC.pdf used on input line 2105
 .
-(pdftex.def)             Requested size: 406.87448pt x 458.56548pt.
+(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
 
-<Plots/master/xPMPhiemFC_Data.pdf, id=3536, 569.12625pt x 641.39626pt>
+<Plots/master/xPMPhiemFC_Data.pdf, id=3257, 569.12625pt x 556.0775pt>
 File: Plots/master/xPMPhiemFC_Data.pdf Graphic file (type pdf)
 
 <use Plots/master/xPMPhiemFC_Data.pdf>
 Package pdftex.def Info: Plots/master/xPMPhiemFC_Data.pdf used on input line 21
-47.
-(pdftex.def)             Requested size: 406.87448pt x 458.56548pt.
-
-<Plots/master/xPMPhiemFCE_MC.pdf, id=3537, 569.12625pt x 641.39626pt>
-File: Plots/master/xPMPhiemFCE_MC.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMPhiemFCE_MC.pdf>
-Package pdftex.def Info: Plots/master/xPMPhiemFCE_MC.pdf used on input line 215
-5.
-(pdftex.def)             Requested size: 406.87448pt x 458.56548pt.
-
-<Plots/master/xPMPhiemFCD_MC.pdf, id=3538, 569.12625pt x 641.39626pt>
-File: Plots/master/xPMPhiemFCD_MC.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMPhiemFCD_MC.pdf>
-Package pdftex.def Info: Plots/master/xPMPhiemFCD_MC.pdf used on input line 216
-2.
-(pdftex.def)             Requested size: 406.87448pt x 458.56548pt.
-
-<Plots/master/xPMPhiemFCE_Data.pdf, id=3539, 569.12625pt x 641.39626pt>
-File: Plots/master/xPMPhiemFCE_Data.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMPhiemFCE_Data.pdf>
-Package pdftex.def Info: Plots/master/xPMPhiemFCE_Data.pdf used on input line 2
-170.
-(pdftex.def)             Requested size: 406.87448pt x 458.56548pt.
-
-<Plots/master/xPMPhiemFCD_Data.pdf, id=3540, 569.12625pt x 641.39626pt>
-File: Plots/master/xPMPhiemFCD_Data.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMPhiemFCD_Data.pdf>
-Package pdftex.def Info: Plots/master/xPMPhiemFCD_Data.pdf used on input line 2
-177.
-(pdftex.def)             Requested size: 406.87448pt x 458.56548pt.
-
-<Plots/master/xPMPhiepFC_MC.pdf, id=3541, 569.12625pt x 548.0475pt>
-File: Plots/master/xPMPhiepFC_MC.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMPhiepFC_MC.pdf>
-Package pdftex.def Info: Plots/master/xPMPhiepFC_MC.pdf used on input line 2186
-.
-(pdftex.def)             Requested size: 256.0748pt x 246.60237pt.
-
-<Plots/master/xPMPhiepFC_Data.pdf, id=3542, 569.12625pt x 548.0475pt>
-File: Plots/master/xPMPhiepFC_Data.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMPhiepFC_Data.pdf>
-Package pdftex.def Info: Plots/master/xPMPhiepFC_Data.pdf used on input line 21
-94.
-(pdftex.def)             Requested size: 256.0748pt x 246.60237pt.
-
-<Plots/master/xPMPhiepFCE_MC.pdf, id=3543, 569.12625pt x 548.0475pt>
-File: Plots/master/xPMPhiepFCE_MC.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMPhiepFCE_MC.pdf>
-Package pdftex.def Info: Plots/master/xPMPhiepFCE_MC.pdf used on input line 220
-2.
-(pdftex.def)             Requested size: 256.0748pt x 246.60237pt.
-
-<Plots/master/xPMPhiepFCD_MC.pdf, id=3544, 569.12625pt x 548.0475pt>
-File: Plots/master/xPMPhiepFCD_MC.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMPhiepFCD_MC.pdf>
-Package pdftex.def Info: Plots/master/xPMPhiepFCD_MC.pdf used on input line 220
-9.
-(pdftex.def)             Requested size: 256.0748pt x 246.60237pt.
-
-<Plots/master/xPMPhiepFCE_Data.pdf, id=3545, 569.12625pt x 548.0475pt>
-File: Plots/master/xPMPhiepFCE_Data.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMPhiepFCE_Data.pdf>
-Package pdftex.def Info: Plots/master/xPMPhiepFCE_Data.pdf used on input line 2
-217.
-(pdftex.def)             Requested size: 256.0748pt x 246.60237pt.
-
-<Plots/master/xPMPhiepFCD_Data.pdf, id=3546, 569.12625pt x 548.0475pt>
-File: Plots/master/xPMPhiepFCD_Data.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMPhiepFCD_Data.pdf>
-Package pdftex.def Info: Plots/master/xPMPhiepFCD_Data.pdf used on input line 2
-224.
-(pdftex.def)             Requested size: 256.0748pt x 246.60237pt.
-
-<Plots/master/xPMPhiRandomBarrel_MC.pdf, id=3547, 569.12625pt x 556.0775pt>
-File: Plots/master/xPMPhiRandomBarrel_MC.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMPhiRandomBarrel_MC.pdf>
-Package pdftex.def Info: Plots/master/xPMPhiRandomBarrel_MC.pdf used on input l
-ine 2232.
+13.
 (pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
 
-<Plots/master/xPMPhiRandomBarrel_Data.pdf, id=3548, 569.12625pt x 556.0775pt>
-File: Plots/master/xPMPhiRandomBarrel_Data.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMPhiRandomBarrel_Data.pdf>
-Package pdftex.def Info: Plots/master/xPMPhiRandomBarrel_Data.pdf used on input
- line 2240.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPMPhiRandomBarrelE_MC.pdf, id=3549, 569.12625pt x 556.0775pt>
-File: Plots/master/xPMPhiRandomBarrelE_MC.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMPhiRandomBarrelE_MC.pdf>
-Package pdftex.def Info: Plots/master/xPMPhiRandomBarrelE_MC.pdf used on input 
-line 2248.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPMPhiRandomBarrelD_MC.pdf, id=3550, 569.12625pt x 556.0775pt>
-File: Plots/master/xPMPhiRandomBarrelD_MC.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMPhiRandomBarrelD_MC.pdf>
-Package pdftex.def Info: Plots/master/xPMPhiRandomBarrelD_MC.pdf used on input 
-line 2255.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPMPhiRandomBarrelE_Data.pdf, id=3551, 569.12625pt x 556.0775pt>
-File: Plots/master/xPMPhiRandomBarrelE_Data.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMPhiRandomBarrelE_Data.pdf>
-Package pdftex.def Info: Plots/master/xPMPhiRandomBarrelE_Data.pdf used on inpu
-t line 2263.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPMPhiRandomBarrelD_Data.pdf, id=3552, 569.12625pt x 556.0775pt>
-File: Plots/master/xPMPhiRandomBarrelD_Data.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMPhiRandomBarrelD_Data.pdf>
-Package pdftex.def Info: Plots/master/xPMPhiRandomBarrelD_Data.pdf used on inpu
-t line 2270.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPMPhiemBarrel_MC.pdf, id=3553, 569.12625pt x 556.0775pt>
+<Plots/master/xPMPhiemBarrel_MC.pdf, id=3258, 569.12625pt x 556.0775pt>
 File: Plots/master/xPMPhiemBarrel_MC.pdf Graphic file (type pdf)
 
 <use Plots/master/xPMPhiemBarrel_MC.pdf>
 Package pdftex.def Info: Plots/master/xPMPhiemBarrel_MC.pdf used on input line 
-2281.
+2135.
 (pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
 
-<Plots/master/xPMPhiemBarrel_Data.pdf, id=3554, 569.12625pt x 556.0775pt>
+<Plots/master/xPMPhiemBarrel_Data.pdf, id=3259, 569.12625pt x 556.0775pt>
 File: Plots/master/xPMPhiemBarrel_Data.pdf Graphic file (type pdf)
 
 <use Plots/master/xPMPhiemBarrel_Data.pdf>
 Package pdftex.def Info: Plots/master/xPMPhiemBarrel_Data.pdf used on input lin
-e 2289.
+e 2143.
 (pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
 
-<Plots/master/xPMPhiemBarrelE_MC.pdf, id=3555, 569.12625pt x 556.0775pt>
-File: Plots/master/xPMPhiemBarrelE_MC.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMPhiemBarrelE_MC.pdf>
-Package pdftex.def Info: Plots/master/xPMPhiemBarrelE_MC.pdf used on input line
- 2297.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPMPhiemBarrelD_MC.pdf, id=3556, 569.12625pt x 556.0775pt>
-File: Plots/master/xPMPhiemBarrelD_MC.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMPhiemBarrelD_MC.pdf>
-Package pdftex.def Info: Plots/master/xPMPhiemBarrelD_MC.pdf used on input line
- 2304.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPMPhiemBarrelE_Data.pdf, id=3557, 569.12625pt x 556.0775pt>
-File: Plots/master/xPMPhiemBarrelE_Data.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMPhiemBarrelE_Data.pdf>
-Package pdftex.def Info: Plots/master/xPMPhiemBarrelE_Data.pdf used on input li
-ne 2312.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPMPhiemBarrelD_Data.pdf, id=3558, 569.12625pt x 556.0775pt>
-File: Plots/master/xPMPhiemBarrelD_Data.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMPhiemBarrelD_Data.pdf>
-Package pdftex.def Info: Plots/master/xPMPhiemBarrelD_Data.pdf used on input li
-ne 2319.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPMPhiepBarrel_MC.pdf, id=3559, 569.12625pt x 556.0775pt>
+<Plots/master/xPMPhiepBarrel_MC.pdf, id=3260, 569.12625pt x 556.0775pt>
 File: Plots/master/xPMPhiepBarrel_MC.pdf Graphic file (type pdf)
 
 <use Plots/master/xPMPhiepBarrel_MC.pdf>
 Package pdftex.def Info: Plots/master/xPMPhiepBarrel_MC.pdf used on input line 
-2328.
+2155.
 (pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
 
-<Plots/master/xPMPhiepBarrel_Data.pdf, id=3560, 569.12625pt x 556.0775pt>
+<Plots/master/xPMPhiepBarrel_Data.pdf, id=3261, 569.12625pt x 556.0775pt>
 File: Plots/master/xPMPhiepBarrel_Data.pdf Graphic file (type pdf)
 
 <use Plots/master/xPMPhiepBarrel_Data.pdf>
 Package pdftex.def Info: Plots/master/xPMPhiepBarrel_Data.pdf used on input lin
-e 2336.
+e 2163.
 (pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
 
-<Plots/master/xPMPhiepBarrelE_MC.pdf, id=3561, 569.12625pt x 556.0775pt>
-File: Plots/master/xPMPhiepBarrelE_MC.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMPhiepBarrelE_MC.pdf>
-Package pdftex.def Info: Plots/master/xPMPhiepBarrelE_MC.pdf used on input line
- 2344.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPMPhiepBarrelD_MC.pdf, id=3562, 569.12625pt x 556.0775pt>
-File: Plots/master/xPMPhiepBarrelD_MC.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMPhiepBarrelD_MC.pdf>
-Package pdftex.def Info: Plots/master/xPMPhiepBarrelD_MC.pdf used on input line
- 2351.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPMPhiepBarrelE_Data.pdf, id=3563, 569.12625pt x 556.0775pt>
-File: Plots/master/xPMPhiepBarrelE_Data.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMPhiepBarrelE_Data.pdf>
-Package pdftex.def Info: Plots/master/xPMPhiepBarrelE_Data.pdf used on input li
-ne 2359.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPMPhiepBarrelD_Data.pdf, id=3564, 569.12625pt x 556.0775pt>
-File: Plots/master/xPMPhiepBarrelD_Data.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMPhiepBarrelD_Data.pdf>
-Package pdftex.def Info: Plots/master/xPMPhiepBarrelD_Data.pdf used on input li
-ne 2372.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPMPhiRandomEC_MC.pdf, id=3565, 569.12625pt x 556.0775pt>
-File: Plots/master/xPMPhiRandomEC_MC.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMPhiRandomEC_MC.pdf>
-Package pdftex.def Info: Plots/master/xPMPhiRandomEC_MC.pdf used on input line 
-2381.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPMPhiRandomEC_Data.pdf, id=3566, 569.12625pt x 556.0775pt>
-File: Plots/master/xPMPhiRandomEC_Data.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMPhiRandomEC_Data.pdf>
-Package pdftex.def Info: Plots/master/xPMPhiRandomEC_Data.pdf used on input lin
-e 2389.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPMPhiRandomECE_MC.pdf, id=3567, 569.12625pt x 556.0775pt>
-File: Plots/master/xPMPhiRandomECE_MC.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMPhiRandomECE_MC.pdf>
-Package pdftex.def Info: Plots/master/xPMPhiRandomECE_MC.pdf used on input line
- 2397.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPMPhiRandomECD_MC.pdf, id=3568, 569.12625pt x 556.0775pt>
-File: Plots/master/xPMPhiRandomECD_MC.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMPhiRandomECD_MC.pdf>
-Package pdftex.def Info: Plots/master/xPMPhiRandomECD_MC.pdf used on input line
- 2404.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPMPhiRandomECE_Data.pdf, id=3569, 569.12625pt x 556.0775pt>
-File: Plots/master/xPMPhiRandomECE_Data.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMPhiRandomECE_Data.pdf>
-Package pdftex.def Info: Plots/master/xPMPhiRandomECE_Data.pdf used on input li
-ne 2412.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPMPhiRandomECD_Data.pdf, id=3570, 569.12625pt x 556.0775pt>
-File: Plots/master/xPMPhiRandomECD_Data.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMPhiRandomECD_Data.pdf>
-Package pdftex.def Info: Plots/master/xPMPhiRandomECD_Data.pdf used on input li
-ne 2420.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPMPhiepEC_MC.pdf, id=3571, 569.12625pt x 556.0775pt>
+<Plots/master/xPMPhiepEC_MC.pdf, id=3262, 569.12625pt x 556.0775pt>
 File: Plots/master/xPMPhiepEC_MC.pdf Graphic file (type pdf)
 
 <use Plots/master/xPMPhiepEC_MC.pdf>
-Package pdftex.def Info: Plots/master/xPMPhiepEC_MC.pdf used on input line 2428
+Package pdftex.def Info: Plots/master/xPMPhiepEC_MC.pdf used on input line 2180
 .
 (pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
 
-<Plots/master/xPMPhiepEC_Data.pdf, id=3572, 569.12625pt x 556.0775pt>
+<Plots/master/xPMPhiepEC_Data.pdf, id=3263, 569.12625pt x 556.0775pt>
 File: Plots/master/xPMPhiepEC_Data.pdf Graphic file (type pdf)
 
 <use Plots/master/xPMPhiepEC_Data.pdf>
-Package pdftex.def Info: Plots/master/xPMPhiepEC_Data.pdf used on input line 24
-36.
+Package pdftex.def Info: Plots/master/xPMPhiepEC_Data.pdf used on input line 21
+88.
 (pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPMPhiepECE_MC.pdf, id=3573, 569.12625pt x 556.0775pt>
-File: Plots/master/xPMPhiepECE_MC.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMPhiepECE_MC.pdf>
-Package pdftex.def Info: Plots/master/xPMPhiepECE_MC.pdf used on input line 244
-3.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPMPhiepECD_MC.pdf, id=3574, 569.12625pt x 556.0775pt>
-File: Plots/master/xPMPhiepECD_MC.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMPhiepECD_MC.pdf>
-Package pdftex.def Info: Plots/master/xPMPhiepECD_MC.pdf used on input line 245
-0.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPMPhiepECE_Data.pdf, id=3575, 569.12625pt x 556.0775pt>
-File: Plots/master/xPMPhiepECE_Data.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMPhiepECE_Data.pdf>
-Package pdftex.def Info: Plots/master/xPMPhiepECE_Data.pdf used on input line 2
-458.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPMPhiepECD_Data.pdf, id=3576, 569.12625pt x 556.0775pt>
-File: Plots/master/xPMPhiepECD_Data.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMPhiepECD_Data.pdf>
-Package pdftex.def Info: Plots/master/xPMPhiepECD_Data.pdf used on input line 2
-465.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
- [99] [100 <./Plots/master/xPMPhiRandomFC_MC.pdf>] [101 <./Plots/master/xPMPhiR
-andomFC_Data.pdf>] [102 <./Plots/master/xPMPhiRandomFCE_MC.pdf>] [103 <./Plots/
-master/xPMPhiRandomFCD_MC.pdf>] [104 <./Plots/master/xPMPhiRandomFCE_Data.pdf>]
- [105 <./Plots/master/xPMPhiRandomFCD_Data.pdf>] [106 <./Plots/master/xPMPhiemF
-C_MC.pdf>] [107 <./Plots/master/xPMPhiemFC_Data.pdf>] [108 <./Plots/master/xPMP
-hiemFCE_MC.pdf>] [109 <./Plots/master/xPMPhiemFCD_MC.pdf>] [110 <./Plots/master
-/xPMPhiemFCE_Data.pdf>] [111 <./Plots/master/xPMPhiemFCD_Data.pdf>] [112 <./Plo
-ts/master/xPMPhiepFC_MC.pdf, page is rotated 90 degrees> <./Plots/master/xPMPhi
-epFC_Data.pdf, page is rotated 90 degrees>] [113 <./Plots/master/xPMPhiepFCE_MC
-.pdf, page is rotated 90 degrees> <./Plots/master/xPMPhiepFCD_MC.pdf, page is r
-otated 90 degrees>] [114 <./Plots/master/xPMPhiepFCE_Data.pdf, page is rotated 
-90 degrees> <./Plots/master/xPMPhiepFCD_Data.pdf, page is rotated 90 degrees>] 
-[115 <./Plots/master/xPMPhiRandomBarrel_MC.pdf, page is rotated 90 degrees>] [1
-16 <./Plots/master/xPMPhiRandomBarrel_Data.pdf, page is rotated 90 degrees>] [1
-17 <./Plots/master/xPMPhiRandomBarrelE_MC.pdf, page is rotated 90 degrees>] [11
-8 <./Plots/master/xPMPhiRandomBarrelD_MC.pdf, page is rotated 90 degrees>] [119
- <./Plots/master/xPMPhiRandomBarrelE_Data.pdf, page is rotated 90 degrees>] [12
-0 <./Plots/master/xPMPhiRandomBarrelD_Data.pdf, page is rotated 90 degrees>] [1
-21 <./Plots/master/xPMPhiemBarrel_MC.pdf, page is rotated 90 degrees>] [122 <./
-Plots/master/xPMPhiemBarrel_Data.pdf, page is rotated 90 degrees>] [123 <./Plot
-s/master/xPMPhiemBarrelE_MC.pdf, page is rotated 90 degrees>] [124 <./Plots/mas
-ter/xPMPhiemBarrelD_MC.pdf, page is rotated 90 degrees>] [125 <./Plots/master/x
-PMPhiemBarrelE_Data.pdf, page is rotated 90 degrees>] [126 <./Plots/master/xPMP
-hiemBarrelD_Data.pdf, page is rotated 90 degrees>] [127 <./Plots/master/xPMPhie
-pBarrel_MC.pdf, page is rotated 90 degrees>] [128 <./Plots/master/xPMPhiepBarre
-l_Data.pdf, page is rotated 90 degrees>] [129 <./Plots/master/xPMPhiepBarrelE_M
-C.pdf, page is rotated 90 degrees>]
-[130 <./Plots/master/xPMPhiepBarrelD_MC.pdf, page is rotated 90 degrees>]
-[131 <./Plots/master/xPMPhiepBarrelE_Data.pdf, page is rotated 90 degrees>]
-[132 <./Plots/master/xPMPhiepBarrelD_Data.pdf, page is rotated 90 degrees>]
-[133 <./Plots/master/xPMPhiRandomEC_MC.pdf, page is rotated 90 degrees>]
-[134 <./Plots/master/xPMPhiRandomEC_Data.pdf, page is rotated 90 degrees>]
-[135 <./Plots/master/xPMPhiRandomECE_MC.pdf, page is rotated 90 degrees>]
-[136 <./Plots/master/xPMPhiRandomECD_MC.pdf, page is rotated 90 degrees>]
-[137 <./Plots/master/xPMPhiRandomECE_Data.pdf, page is rotated 90 degrees>]
-[138 <./Plots/master/xPMPhiRandomECD_Data.pdf, page is rotated 90 degrees>]
-[139 <./Plots/master/xPMPhiepEC_MC.pdf, page is rotated 90 degrees>] [140 <./Pl
-ots/master/xPMPhiepEC_Data.pdf, page is rotated 90 degrees>] [141 <./Plots/mast
-er/xPMPhiepECE_MC.pdf, page is rotated 90 degrees>] [142 <./Plots/master/xPMPhi
-epECD_MC.pdf, page is rotated 90 degrees>] [143 <./Plots/master/xPMPhiepECE_Dat
-a.pdf, page is rotated 90 degrees>] [144 <./Plots/master/xPMPhiepECD_Data.pdf, 
-page is rotated 90 degrees>]
-<Plots/master/xPMThetaRandom_MC.pdf, id=5871, 564.1075pt x 739.76375pt>
-File: Plots/master/xPMThetaRandom_MC.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMThetaRandom_MC.pdf>
-Package pdftex.def Info: Plots/master/xPMThetaRandom_MC.pdf used on input line 
-2473.
-(pdftex.def)             Requested size: 406.87448pt x 533.57767pt.
-
-<Plots/master/xPMThetaRandom_Data.pdf, id=5872, 564.1075pt x 739.76375pt>
-File: Plots/master/xPMThetaRandom_Data.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMThetaRandom_Data.pdf>
-Package pdftex.def Info: Plots/master/xPMThetaRandom_Data.pdf used on input lin
-e 2481.
-(pdftex.def)             Requested size: 406.87448pt x 533.57767pt.
-
-<Plots/master/xPMThetaRandomE_MC.pdf, id=5873, 564.1075pt x 739.76375pt>
-File: Plots/master/xPMThetaRandomE_MC.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMThetaRandomE_MC.pdf>
-Package pdftex.def Info: Plots/master/xPMThetaRandomE_MC.pdf used on input line
- 2489.
-(pdftex.def)             Requested size: 406.87448pt x 533.57767pt.
-
-<Plots/master/xPMThetaRandomD_MC.pdf, id=5874, 564.1075pt x 739.76375pt>
-File: Plots/master/xPMThetaRandomD_MC.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMThetaRandomD_MC.pdf>
-Package pdftex.def Info: Plots/master/xPMThetaRandomD_MC.pdf used on input line
- 2496.
-(pdftex.def)             Requested size: 406.87448pt x 533.57767pt.
-
-<Plots/master/xPMThetaRandomE_Data.pdf, id=5875, 564.1075pt x 739.76375pt>
-File: Plots/master/xPMThetaRandomE_Data.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMThetaRandomE_Data.pdf>
-Package pdftex.def Info: Plots/master/xPMThetaRandomE_Data.pdf used on input li
-ne 2504.
-(pdftex.def)             Requested size: 406.87448pt x 533.57767pt.
-
-<Plots/master/xPMThetaRandomD_Data.pdf, id=5876, 564.1075pt x 739.76375pt>
-File: Plots/master/xPMThetaRandomD_Data.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMThetaRandomD_Data.pdf>
-Package pdftex.def Info: Plots/master/xPMThetaRandomD_Data.pdf used on input li
-ne 2512.
-(pdftex.def)             Requested size: 406.87448pt x 533.57767pt.
-
-<Plots/master/xPMThetaem_MC.pdf, id=5877, 569.12625pt x 641.39626pt>
+ [91] [92 <./Plots/master/xPMPhiemFC_MC.pdf, page is rotated 90 degrees>] [93 <
+./Plots/master/xPMPhiemFC_Data.pdf, page is rotated 90 degrees>] [94 <./Plots/m
+aster/xPMPhiemBarrel_MC.pdf, page is rotated 90 degrees>] [95 <./Plots/master/x
+PMPhiemBarrel_Data.pdf, page is rotated 90 degrees>] [96 <./Plots/master/xPMPhi
+epBarrel_MC.pdf, page is rotated 90 degrees>] [97 <./Plots/master/xPMPhiepBarre
+l_Data.pdf, page is rotated 90 degrees>]
+[98 <./Plots/master/xPMPhiepEC_MC.pdf, page is rotated 90 degrees>] [99 <./Plot
+s/master/xPMPhiepEC_Data.pdf, page is rotated 90 degrees>]
+<Plots/master/xPMThetaem_MC.pdf, id=3654, 569.12625pt x 641.39626pt>
 File: Plots/master/xPMThetaem_MC.pdf Graphic file (type pdf)
 
 <use Plots/master/xPMThetaem_MC.pdf>
-Package pdftex.def Info: Plots/master/xPMThetaem_MC.pdf used on input line 2520
+Package pdftex.def Info: Plots/master/xPMThetaem_MC.pdf used on input line 2203
 .
 (pdftex.def)             Requested size: 406.87448pt x 458.56548pt.
 
-<Plots/master/xPMThetaem_Data.pdf, id=5878, 569.12625pt x 641.39626pt>
+<Plots/master/xPMThetaem_Data.pdf, id=3655, 569.12625pt x 641.39626pt>
 File: Plots/master/xPMThetaem_Data.pdf Graphic file (type pdf)
 
 <use Plots/master/xPMThetaem_Data.pdf>
-Package pdftex.def Info: Plots/master/xPMThetaem_Data.pdf used on input line 25
-28.
+Package pdftex.def Info: Plots/master/xPMThetaem_Data.pdf used on input line 22
+11.
 (pdftex.def)             Requested size: 406.87448pt x 458.56548pt.
 
-<Plots/master/xPMThetaemE_MC.pdf, id=5879, 569.12625pt x 641.39626pt>
-File: Plots/master/xPMThetaemE_MC.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMThetaemE_MC.pdf>
-Package pdftex.def Info: Plots/master/xPMThetaemE_MC.pdf used on input line 253
-6.
-(pdftex.def)             Requested size: 406.87448pt x 458.56548pt.
-
-<Plots/master/xPMThetaemD_MC.pdf, id=5880, 569.12625pt x 641.39626pt>
-File: Plots/master/xPMThetaemD_MC.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMThetaemD_MC.pdf>
-Package pdftex.def Info: Plots/master/xPMThetaemD_MC.pdf used on input line 254
-3.
-(pdftex.def)             Requested size: 406.87448pt x 458.56548pt.
-
-<Plots/master/xPMThetaemE_Data.pdf, id=5881, 569.12625pt x 641.39626pt>
-File: Plots/master/xPMThetaemE_Data.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMThetaemE_Data.pdf>
-Package pdftex.def Info: Plots/master/xPMThetaemE_Data.pdf used on input line 2
-551.
-(pdftex.def)             Requested size: 406.87448pt x 458.56548pt.
-
-<Plots/master/xPMThetaemD_Data.pdf, id=5882, 569.12625pt x 641.39626pt>
-File: Plots/master/xPMThetaemD_Data.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMThetaemD_Data.pdf>
-Package pdftex.def Info: Plots/master/xPMThetaemD_Data.pdf used on input line 2
-559.
-(pdftex.def)             Requested size: 406.87448pt x 458.56548pt.
-
-<Plots/master/xPMThetaep_MC.pdf, id=5883, 569.12625pt x 641.39626pt>
+<Plots/master/xPMThetaep_MC.pdf, id=3656, 569.12625pt x 641.39626pt>
 File: Plots/master/xPMThetaep_MC.pdf Graphic file (type pdf)
 
 <use Plots/master/xPMThetaep_MC.pdf>
-Package pdftex.def Info: Plots/master/xPMThetaep_MC.pdf used on input line 2566
+Package pdftex.def Info: Plots/master/xPMThetaep_MC.pdf used on input line 2221
 .
 (pdftex.def)             Requested size: 406.87448pt x 458.56548pt.
 
-<Plots/master/xPMThetaep_Data.pdf, id=5884, 569.12625pt x 641.39626pt>
+<Plots/master/xPMThetaep_Data.pdf, id=3657, 569.12625pt x 641.39626pt>
 File: Plots/master/xPMThetaep_Data.pdf Graphic file (type pdf)
 
 <use Plots/master/xPMThetaep_Data.pdf>
-Package pdftex.def Info: Plots/master/xPMThetaep_Data.pdf used on input line 25
-74.
+Package pdftex.def Info: Plots/master/xPMThetaep_Data.pdf used on input line 22
+29.
 (pdftex.def)             Requested size: 406.87448pt x 458.56548pt.
+ [100
 
-<Plots/master/xPMThetaepE_MC.pdf, id=5885, 569.12625pt x 641.39626pt>
-File: Plots/master/xPMThetaepE_MC.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMThetaepE_MC.pdf>
-Package pdftex.def Info: Plots/master/xPMThetaepE_MC.pdf used on input line 258
-2.
-(pdftex.def)             Requested size: 406.87448pt x 458.56548pt.
-
-<Plots/master/xPMThetaepD_MC.pdf, id=5886, 569.12625pt x 641.39626pt>
-File: Plots/master/xPMThetaepD_MC.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMThetaepD_MC.pdf>
-Package pdftex.def Info: Plots/master/xPMThetaepD_MC.pdf used on input line 258
-9.
-(pdftex.def)             Requested size: 406.87448pt x 458.56548pt.
-
-<Plots/master/xPMThetaepE_Data.pdf, id=5887, 569.12625pt x 641.39626pt>
-File: Plots/master/xPMThetaepE_Data.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMThetaepE_Data.pdf>
-Package pdftex.def Info: Plots/master/xPMThetaepE_Data.pdf used on input line 2
-597.
-(pdftex.def)             Requested size: 406.87448pt x 458.56548pt.
-
-<Plots/master/xPMThetaepD_Data.pdf, id=5888, 569.12625pt x 641.39626pt>
-File: Plots/master/xPMThetaepD_Data.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMThetaepD_Data.pdf>
-Package pdftex.def Info: Plots/master/xPMThetaepD_Data.pdf used on input line 2
-605.
-(pdftex.def)             Requested size: 406.87448pt x 458.56548pt.
- [145
-
- <./Plots/master/xPMThetaRandom_MC.pdf>] [146 <./Plots/master/xPMThetaRandom_Da
-ta.pdf>] [147 <./Plots/master/xPMThetaRandomE_MC.pdf>] [148 <./Plots/master/xPM
-ThetaRandomD_MC.pdf>] [149 <./Plots/master/xPMThetaRandomE_Data.pdf>] [150 <./P
-lots/master/xPMThetaRandomD_Data.pdf>] [151 <./Plots/master/xPMThetaem_MC.pdf>]
- [152 <./Plots/master/xPMThetaem_Data.pdf>] [153 <./Plots/master/xPMThetaemE_MC
-.pdf>] [154 <./Plots/master/xPMThetaemD_MC.pdf>] [155 <./Plots/master/xPMThetae
-mE_Data.pdf>] [156 <./Plots/master/xPMThetaemD_Data.pdf>] [157 <./Plots/master/
-xPMThetaep_MC.pdf>] [158 <./Plots/master/xPMThetaep_Data.pdf>] [159 <./Plots/ma
-ster/xPMThetaepE_MC.pdf>] [160 <./Plots/master/xPMThetaepD_MC.pdf>] [161 <./Plo
-ts/master/xPMThetaepE_Data.pdf>]
-[162 <./Plots/master/xPMThetaepD_Data.pdf>]
-<Plots/master/xPtMPhiRandomFC_MC.pdf, id=6754, 569.12625pt x 556.0775pt>
-File: Plots/master/xPtMPhiRandomFC_MC.pdf Graphic file (type pdf)
-
-<use Plots/master/xPtMPhiRandomFC_MC.pdf>
-Package pdftex.def Info: Plots/master/xPtMPhiRandomFC_MC.pdf used on input line
- 2617.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPtMPhiRandomFC_Data.pdf, id=6755, 569.12625pt x 556.0775pt>
-File: Plots/master/xPtMPhiRandomFC_Data.pdf Graphic file (type pdf)
-
-<use Plots/master/xPtMPhiRandomFC_Data.pdf>
-Package pdftex.def Info: Plots/master/xPtMPhiRandomFC_Data.pdf used on input li
-ne 2625.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPtMPhiRandomFCE_MC.pdf, id=6756, 569.12625pt x 556.0775pt>
-File: Plots/master/xPtMPhiRandomFCE_MC.pdf Graphic file (type pdf)
-
-<use Plots/master/xPtMPhiRandomFCE_MC.pdf>
-Package pdftex.def Info: Plots/master/xPtMPhiRandomFCE_MC.pdf used on input lin
-e 2633.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPtMPhiRandomFCD_MC.pdf, id=6757, 569.12625pt x 556.0775pt>
-File: Plots/master/xPtMPhiRandomFCD_MC.pdf Graphic file (type pdf)
-
-<use Plots/master/xPtMPhiRandomFCD_MC.pdf>
-Package pdftex.def Info: Plots/master/xPtMPhiRandomFCD_MC.pdf used on input lin
-e 2640.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPtMPhiRandomFCE_Data.pdf, id=6758, 569.12625pt x 556.0775pt>
-File: Plots/master/xPtMPhiRandomFCE_Data.pdf Graphic file (type pdf)
-
-<use Plots/master/xPtMPhiRandomFCE_Data.pdf>
-Package pdftex.def Info: Plots/master/xPtMPhiRandomFCE_Data.pdf used on input l
-ine 2648.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPtMPhiRandomFCD_Data.pdf, id=6759, 569.12625pt x 556.0775pt>
-File: Plots/master/xPtMPhiRandomFCD_Data.pdf Graphic file (type pdf)
-
-<use Plots/master/xPtMPhiRandomFCD_Data.pdf>
-Package pdftex.def Info: Plots/master/xPtMPhiRandomFCD_Data.pdf used on input l
-ine 2655.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPtMPhiemFC_MC.pdf, id=6760, 569.12625pt x 556.0775pt>
+ <./Plots/master/xPMThetaem_MC.pdf>] [101 <./Plots/master/xPMThetaem_Data.pdf>]
+ [102 <./Plots/master/xPMThetaep_MC.pdf>] [103 <./Plots/master/xPMThetaep_Data.
+pdf>]
+<Plots/master/xPtMPhiemFC_MC.pdf, id=3851, 569.12625pt x 556.0775pt>
 File: Plots/master/xPtMPhiemFC_MC.pdf Graphic file (type pdf)
 
 <use Plots/master/xPtMPhiemFC_MC.pdf>
-Package pdftex.def Info: Plots/master/xPtMPhiemFC_MC.pdf used on input line 266
-6.
+Package pdftex.def Info: Plots/master/xPtMPhiemFC_MC.pdf used on input line 224
+9.
 (pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
 
-<Plots/master/xPtMPhiemFC_Data.pdf, id=6761, 569.12625pt x 556.0775pt>
+<Plots/master/xPtMPhiemFC_Data.pdf, id=3852, 569.12625pt x 556.0775pt>
 File: Plots/master/xPtMPhiemFC_Data.pdf Graphic file (type pdf)
 
 <use Plots/master/xPtMPhiemFC_Data.pdf>
 Package pdftex.def Info: Plots/master/xPtMPhiemFC_Data.pdf used on input line 2
-674.
+257.
 (pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
+ [104
 
-<Plots/master/xPtMPhiemFCE_MC.pdf, id=6762, 569.12625pt x 556.0775pt>
-File: Plots/master/xPtMPhiemFCE_MC.pdf Graphic file (type pdf)
-
-<use Plots/master/xPtMPhiemFCE_MC.pdf>
-Package pdftex.def Info: Plots/master/xPtMPhiemFCE_MC.pdf used on input line 26
-82.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPtMPhiemFCD_MC.pdf, id=6763, 569.12625pt x 556.0775pt>
-File: Plots/master/xPtMPhiemFCD_MC.pdf Graphic file (type pdf)
-
-<use Plots/master/xPtMPhiemFCD_MC.pdf>
-Package pdftex.def Info: Plots/master/xPtMPhiemFCD_MC.pdf used on input line 26
-89.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPtMPhiemFCE_Data.pdf, id=6764, 569.12625pt x 556.0775pt>
-File: Plots/master/xPtMPhiemFCE_Data.pdf Graphic file (type pdf)
-
-<use Plots/master/xPtMPhiemFCE_Data.pdf>
-Package pdftex.def Info: Plots/master/xPtMPhiemFCE_Data.pdf used on input line 
-2697.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPtMPhiemFCD_Data.pdf, id=6765, 569.12625pt x 556.0775pt>
-File: Plots/master/xPtMPhiemFCD_Data.pdf Graphic file (type pdf)
-
-<use Plots/master/xPtMPhiemFCD_Data.pdf>
-Package pdftex.def Info: Plots/master/xPtMPhiemFCD_Data.pdf used on input line 
-2704.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
- [163
-
- <./Plots/master/xPtMPhiRandomFC_MC.pdf, page is rotated 90 degrees>] [164 <./P
-lots/master/xPtMPhiRandomFC_Data.pdf, page is rotated 90 degrees>] [165 <./Plot
-s/master/xPtMPhiRandomFCE_MC.pdf, page is rotated 90 degrees>] [166 <./Plots/ma
-ster/xPtMPhiRandomFCD_MC.pdf, page is rotated 90 degrees>] [167 <./Plots/master
-/xPtMPhiRandomFCE_Data.pdf, page is rotated 90 degrees>] [168 <./Plots/master/x
-PtMPhiRandomFCD_Data.pdf, page is rotated 90 degrees>] [169 <./Plots/master/xPt
-MPhiemFC_MC.pdf, page is rotated 90 degrees>] [170 <./Plots/master/xPtMPhiemFC_
-Data.pdf, page is rotated 90 degrees>] [171 <./Plots/master/xPtMPhiemFCE_MC.pdf
-, page is rotated 90 degrees>]
-[172 <./Plots/master/xPtMPhiemFCD_MC.pdf, page is rotated 90 degrees>] [173 <./
-Plots/master/xPtMPhiemFCE_Data.pdf, page is rotated 90 degrees>] [174 <./Plots/
-master/xPtMPhiemFCD_Data.pdf, page is rotated 90 degrees>]
-<Plots/master/xPtMPhiRandomBarrel_MC.pdf, id=7347, 569.12625pt x 556.0775pt>
-File: Plots/master/xPtMPhiRandomBarrel_MC.pdf Graphic file (type pdf)
-
-<use Plots/master/xPtMPhiRandomBarrel_MC.pdf>
-Package pdftex.def Info: Plots/master/xPtMPhiRandomBarrel_MC.pdf used on input 
-line 2717.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPtMPhiRandomBarrel_Data.pdf, id=7348, 569.12625pt x 556.0775pt>
-File: Plots/master/xPtMPhiRandomBarrel_Data.pdf Graphic file (type pdf)
-
-<use Plots/master/xPtMPhiRandomBarrel_Data.pdf>
-Package pdftex.def Info: Plots/master/xPtMPhiRandomBarrel_Data.pdf used on inpu
-t line 2725.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPtMPhiRandomBarrelE_MC.pdf, id=7349, 569.12625pt x 556.0775pt>
-File: Plots/master/xPtMPhiRandomBarrelE_MC.pdf Graphic file (type pdf)
-
-<use Plots/master/xPtMPhiRandomBarrelE_MC.pdf>
-Package pdftex.def Info: Plots/master/xPtMPhiRandomBarrelE_MC.pdf used on input
- line 2733.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPtMPhiRandomBarrelD_MC.pdf, id=7350, 569.12625pt x 556.0775pt>
-File: Plots/master/xPtMPhiRandomBarrelD_MC.pdf Graphic file (type pdf)
-
-<use Plots/master/xPtMPhiRandomBarrelD_MC.pdf>
-Package pdftex.def Info: Plots/master/xPtMPhiRandomBarrelD_MC.pdf used on input
- line 2740.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPtMPhiRandomBarrelE_Data.pdf, id=7351, 569.12625pt x 556.0775pt>
-File: Plots/master/xPtMPhiRandomBarrelE_Data.pdf Graphic file (type pdf)
-<use Plots/master/xPtMPhiRandomBarrelE_Data.pdf>
-Package pdftex.def Info: Plots/master/xPtMPhiRandomBarrelE_Data.pdf used on inp
-ut line 2748.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPtMPhiRandomBarrelD_Data.pdf, id=7352, 569.12625pt x 556.0775pt>
-File: Plots/master/xPtMPhiRandomBarrelD_Data.pdf Graphic file (type pdf)
-<use Plots/master/xPtMPhiRandomBarrelD_Data.pdf>
-Package pdftex.def Info: Plots/master/xPtMPhiRandomBarrelD_Data.pdf used on inp
-ut line 2755.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPtMPhiemBarrel_MC.pdf, id=7353, 569.12625pt x 556.0775pt>
+ <./Plots/master/xPtMPhiemFC_MC.pdf, page is rotated 90 degrees>] [105 <./Plots
+/master/xPtMPhiemFC_Data.pdf, page is rotated 90 degrees>]
+<Plots/master/xPtMPhiemBarrel_MC.pdf, id=3950, 569.12625pt x 556.0775pt>
 File: Plots/master/xPtMPhiemBarrel_MC.pdf Graphic file (type pdf)
 
 <use Plots/master/xPtMPhiemBarrel_MC.pdf>
 Package pdftex.def Info: Plots/master/xPtMPhiemBarrel_MC.pdf used on input line
- 2766.
+ 2278.
 (pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
 
-<Plots/master/xPtMPhiemBarrel_Data.pdf, id=7354, 569.12625pt x 556.0775pt>
+<Plots/master/xPtMPhiemBarrel_Data.pdf, id=3951, 569.12625pt x 556.0775pt>
 File: Plots/master/xPtMPhiemBarrel_Data.pdf Graphic file (type pdf)
 
 <use Plots/master/xPtMPhiemBarrel_Data.pdf>
 Package pdftex.def Info: Plots/master/xPtMPhiemBarrel_Data.pdf used on input li
-ne 2774.
+ne 2286.
 (pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
 
-<Plots/master/xPtMPhiemBarrelE_MC.pdf, id=7355, 569.12625pt x 556.0775pt>
-File: Plots/master/xPtMPhiemBarrelE_MC.pdf Graphic file (type pdf)
-
-<use Plots/master/xPtMPhiemBarrelE_MC.pdf>
-Package pdftex.def Info: Plots/master/xPtMPhiemBarrelE_MC.pdf used on input lin
-e 2782.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPtMPhiemBarrelD_MC.pdf, id=7356, 569.12625pt x 556.0775pt>
-File: Plots/master/xPtMPhiemBarrelD_MC.pdf Graphic file (type pdf)
-
-<use Plots/master/xPtMPhiemBarrelD_MC.pdf>
-Package pdftex.def Info: Plots/master/xPtMPhiemBarrelD_MC.pdf used on input lin
-e 2789.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPtMPhiemBarrelE_Data.pdf, id=7357, 569.12625pt x 556.0775pt>
-File: Plots/master/xPtMPhiemBarrelE_Data.pdf Graphic file (type pdf)
-
-<use Plots/master/xPtMPhiemBarrelE_Data.pdf>
-Package pdftex.def Info: Plots/master/xPtMPhiemBarrelE_Data.pdf used on input l
-ine 2797.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPtMPhiemBarrelD_Data.pdf, id=7358, 569.12625pt x 556.0775pt>
-File: Plots/master/xPtMPhiemBarrelD_Data.pdf Graphic file (type pdf)
-
-<use Plots/master/xPtMPhiemBarrelD_Data.pdf>
-Package pdftex.def Info: Plots/master/xPtMPhiemBarrelD_Data.pdf used on input l
-ine 2804.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPtMPhiepBarrel_MC.pdf, id=7359, 569.12625pt x 556.0775pt>
+<Plots/master/xPtMPhiepBarrel_MC.pdf, id=3952, 569.12625pt x 556.0775pt>
 File: Plots/master/xPtMPhiepBarrel_MC.pdf Graphic file (type pdf)
 
 <use Plots/master/xPtMPhiepBarrel_MC.pdf>
 Package pdftex.def Info: Plots/master/xPtMPhiepBarrel_MC.pdf used on input line
- 2813.
+ 2298.
 (pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
 
-<Plots/master/xPtMPhiepBarrel_Data.pdf, id=7360, 569.12625pt x 556.0775pt>
+<Plots/master/xPtMPhiepBarrel_Data.pdf, id=3953, 569.12625pt x 556.0775pt>
 File: Plots/master/xPtMPhiepBarrel_Data.pdf Graphic file (type pdf)
 
 <use Plots/master/xPtMPhiepBarrel_Data.pdf>
 Package pdftex.def Info: Plots/master/xPtMPhiepBarrel_Data.pdf used on input li
-ne 2821.
+ne 2306.
 (pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
+ [106
 
-<Plots/master/xPtMPhiepBarrelE_MC.pdf, id=7361, 569.12625pt x 556.0775pt>
-File: Plots/master/xPtMPhiepBarrelE_MC.pdf Graphic file (type pdf)
-
-<use Plots/master/xPtMPhiepBarrelE_MC.pdf>
-Package pdftex.def Info: Plots/master/xPtMPhiepBarrelE_MC.pdf used on input lin
-e 2829.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPtMPhiepBarrelD_MC.pdf, id=7362, 569.12625pt x 556.0775pt>
-File: Plots/master/xPtMPhiepBarrelD_MC.pdf Graphic file (type pdf)
-
-<use Plots/master/xPtMPhiepBarrelD_MC.pdf>
-Package pdftex.def Info: Plots/master/xPtMPhiepBarrelD_MC.pdf used on input lin
-e 2836.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPtMPhiepBarrelE_Data.pdf, id=7363, 569.12625pt x 556.0775pt>
-File: Plots/master/xPtMPhiepBarrelE_Data.pdf Graphic file (type pdf)
-
-<use Plots/master/xPtMPhiepBarrelE_Data.pdf>
-Package pdftex.def Info: Plots/master/xPtMPhiepBarrelE_Data.pdf used on input l
-ine 2844.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPtMPhiepBarrelD_Data.pdf, id=7364, 569.12625pt x 556.0775pt>
-File: Plots/master/xPtMPhiepBarrelD_Data.pdf Graphic file (type pdf)
-
-<use Plots/master/xPtMPhiepBarrelD_Data.pdf>
-Package pdftex.def Info: Plots/master/xPtMPhiepBarrelD_Data.pdf used on input l
-ine 2857.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
- [175
-
- <./Plots/master/xPtMPhiRandomBarrel_MC.pdf, page is rotated 90 degrees>] [176 
-<./Plots/master/xPtMPhiRandomBarrel_Data.pdf, page is rotated 90 degrees>] [177
- <./Plots/master/xPtMPhiRandomBarrelE_MC.pdf, page is rotated 90 degrees>] [178
- <./Plots/master/xPtMPhiRandomBarrelD_MC.pdf, page is rotated 90 degrees>] [179
- <./Plots/master/xPtMPhiRandomBarrelE_Data.pdf, page is rotated 90 degrees>] [1
-80 <./Plots/master/xPtMPhiRandomBarrelD_Data.pdf, page is rotated 90 degrees>] 
-[181 <./Plots/master/xPtMPhiemBarrel_MC.pdf, page is rotated 90 degrees>] [182 
-<./Plots/master/xPtMPhiemBarrel_Data.pdf, page is rotated 90 degrees>] [183 <./
-Plots/master/xPtMPhiemBarrelE_MC.pdf, page is rotated 90 degrees>] [184 <./Plot
-s/master/xPtMPhiemBarrelD_MC.pdf, page is rotated 90 degrees>] [185 <./Plots/ma
-ster/xPtMPhiemBarrelE_Data.pdf, page is rotated 90 degrees>] [186 <./Plots/mast
-er/xPtMPhiemBarrelD_Data.pdf, page is rotated 90 degrees>] [187 <./Plots/master
-/xPtMPhiepBarrel_MC.pdf, page is rotated 90 degrees>] [188 <./Plots/master/xPtM
-PhiepBarrel_Data.pdf, page is rotated 90 degrees>] [189 <./Plots/master/xPtMPhi
-epBarrelE_MC.pdf, page is rotated 90 degrees>] [190 <./Plots/master/xPtMPhiepBa
-rrelD_MC.pdf, page is rotated 90 degrees>] [191 <./Plots/master/xPtMPhiepBarrel
-E_Data.pdf, page is rotated 90 degrees>] [192 <./Plots/master/xPtMPhiepBarrelD_
-Data.pdf, page is rotated 90 degrees>]
-<Plots/master/xPtMPhiRandomEC_MC.pdf, id=8236, 569.12625pt x 556.0775pt>
-File: Plots/master/xPtMPhiRandomEC_MC.pdf Graphic file (type pdf)
-
-<use Plots/master/xPtMPhiRandomEC_MC.pdf>
-Package pdftex.def Info: Plots/master/xPtMPhiRandomEC_MC.pdf used on input line
- 2868.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPtMPhiRandomEC_Data.pdf, id=8237, 569.12625pt x 556.0775pt>
-File: Plots/master/xPtMPhiRandomEC_Data.pdf Graphic file (type pdf)
-
-<use Plots/master/xPtMPhiRandomEC_Data.pdf>
-Package pdftex.def Info: Plots/master/xPtMPhiRandomEC_Data.pdf used on input li
-ne 2876.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPtMPhiRandomECE_MC.pdf, id=8238, 569.12625pt x 556.0775pt>
-File: Plots/master/xPtMPhiRandomECE_MC.pdf Graphic file (type pdf)
-
-<use Plots/master/xPtMPhiRandomECE_MC.pdf>
-Package pdftex.def Info: Plots/master/xPtMPhiRandomECE_MC.pdf used on input lin
-e 2884.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPtMPhiRandomECD_MC.pdf, id=8239, 569.12625pt x 556.0775pt>
-File: Plots/master/xPtMPhiRandomECD_MC.pdf Graphic file (type pdf)
-
-<use Plots/master/xPtMPhiRandomECD_MC.pdf>
-Package pdftex.def Info: Plots/master/xPtMPhiRandomECD_MC.pdf used on input lin
-e 2891.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPtMPhiRandomECE_Data.pdf, id=8240, 569.12625pt x 556.0775pt>
-File: Plots/master/xPtMPhiRandomECE_Data.pdf Graphic file (type pdf)
-
-<use Plots/master/xPtMPhiRandomECE_Data.pdf>
-Package pdftex.def Info: Plots/master/xPtMPhiRandomECE_Data.pdf used on input l
-ine 2899.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPtMPhiRandomECD_Data.pdf, id=8241, 569.12625pt x 556.0775pt>
-File: Plots/master/xPtMPhiRandomECD_Data.pdf Graphic file (type pdf)
-
-<use Plots/master/xPtMPhiRandomECD_Data.pdf>
-Package pdftex.def Info: Plots/master/xPtMPhiRandomECD_Data.pdf used on input l
-ine 2907.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPtMPhiepEC_MC.pdf, id=8242, 569.12625pt x 556.0775pt>
+ <./Plots/master/xPtMPhiemBarrel_MC.pdf, page is rotated 90 degrees>] [107 <./P
+lots/master/xPtMPhiemBarrel_Data.pdf, page is rotated 90 degrees>] [108 <./Plot
+s/master/xPtMPhiepBarrel_MC.pdf, page is rotated 90 degrees>] [109 <./Plots/mas
+ter/xPtMPhiepBarrel_Data.pdf, page is rotated 90 degrees>]
+<Plots/master/xPtMPhiepEC_MC.pdf, id=4148, 569.12625pt x 556.0775pt>
 File: Plots/master/xPtMPhiepEC_MC.pdf Graphic file (type pdf)
 
 <use Plots/master/xPtMPhiepEC_MC.pdf>
-Package pdftex.def Info: Plots/master/xPtMPhiepEC_MC.pdf used on input line 292
-0.
+Package pdftex.def Info: Plots/master/xPtMPhiepEC_MC.pdf used on input line 232
+8.
 (pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
 
-<Plots/master/xPtMPhiepEC_Data.pdf, id=8243, 569.12625pt x 556.0775pt>
+<Plots/master/xPtMPhiepEC_Data.pdf, id=4149, 569.12625pt x 556.0775pt>
 File: Plots/master/xPtMPhiepEC_Data.pdf Graphic file (type pdf)
 
 <use Plots/master/xPtMPhiepEC_Data.pdf>
 Package pdftex.def Info: Plots/master/xPtMPhiepEC_Data.pdf used on input line 2
-928.
+336.
 (pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
+ [110
 
-<Plots/master/xPtMPhiepECE_MC.pdf, id=8244, 569.12625pt x 556.0775pt>
-File: Plots/master/xPtMPhiepECE_MC.pdf Graphic file (type pdf)
-
-<use Plots/master/xPtMPhiepECE_MC.pdf>
-Package pdftex.def Info: Plots/master/xPtMPhiepECE_MC.pdf used on input line 29
-35.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPtMPhiepECD_MC.pdf, id=8245, 569.12625pt x 556.0775pt>
-File: Plots/master/xPtMPhiepECD_MC.pdf Graphic file (type pdf)
-
-<use Plots/master/xPtMPhiepECD_MC.pdf>
-Package pdftex.def Info: Plots/master/xPtMPhiepECD_MC.pdf used on input line 29
-42.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-Underfull \hbox (badness 1442) in paragraph at lines 2943--2943
-[][][]|\T1/lmr/m/n/10.95 Trans-verse mo-men-tum de-nom-i-na-tor his-tograms for
- positrons for
- []
-
-<Plots/master/xPtMPhiepECE_Data.pdf, id=8246, 569.12625pt x 556.0775pt>
-File: Plots/master/xPtMPhiepECE_Data.pdf Graphic file (type pdf)
-
-<use Plots/master/xPtMPhiepECE_Data.pdf>
-Package pdftex.def Info: Plots/master/xPtMPhiepECE_Data.pdf used on input line 
-2950.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
-
-<Plots/master/xPtMPhiepECD_Data.pdf, id=8247, 569.12625pt x 556.0775pt>
-File: Plots/master/xPtMPhiepECD_Data.pdf Graphic file (type pdf)
-
-<use Plots/master/xPtMPhiepECD_Data.pdf>
-Package pdftex.def Info: Plots/master/xPtMPhiepECD_Data.pdf used on input line 
-2957.
-(pdftex.def)             Requested size: 406.87448pt x 397.56694pt.
- [193
-
- <./Plots/master/xPtMPhiRandomEC_MC.pdf, page is rotated 90 degrees>] [194 <./P
-lots/master/xPtMPhiRandomEC_Data.pdf, page is rotated 90 degrees>] [195 <./Plot
-s/master/xPtMPhiRandomECE_MC.pdf, page is rotated 90 degrees>] [196 <./Plots/ma
-ster/xPtMPhiRandomECD_MC.pdf, page is rotated 90 degrees>] [197 <./Plots/master
-/xPtMPhiRandomECE_Data.pdf, page is rotated 90 degrees>] [198 <./Plots/master/x
-PtMPhiRandomECD_Data.pdf, page is rotated 90 degrees>] [199 <./Plots/master/xPt
-MPhiepEC_MC.pdf, page is rotated 90 degrees>] [200 <./Plots/master/xPtMPhiepEC_
-Data.pdf, page is rotated 90 degrees>] [201 <./Plots/master/xPtMPhiepECE_MC.pdf
-, page is rotated 90 degrees>]
-[202 <./Plots/master/xPtMPhiepECD_MC.pdf, page is rotated 90 degrees>] [203 <./
-Plots/master/xPtMPhiepECE_Data.pdf, page is rotated 90 degrees>] [204 <./Plots/
-master/xPtMPhiepECD_Data.pdf, page is rotated 90 degrees>]
-<Plots/master/xPtMThetaRandom_MC.pdf, id=8829, 569.12625pt x 641.39626pt>
-File: Plots/master/xPtMThetaRandom_MC.pdf Graphic file (type pdf)
-
-<use Plots/master/xPtMThetaRandom_MC.pdf>
-Package pdftex.def Info: Plots/master/xPtMThetaRandom_MC.pdf used on input line
- 2975.
-(pdftex.def)             Requested size: 406.87448pt x 458.56548pt.
-
-<Plots/master/xPtMThetaRandom_Data.pdf, id=8830, 569.12625pt x 641.39626pt>
-File: Plots/master/xPtMThetaRandom_Data.pdf Graphic file (type pdf)
-
-<use Plots/master/xPtMThetaRandom_Data.pdf>
-Package pdftex.def Info: Plots/master/xPtMThetaRandom_Data.pdf used on input li
-ne 2983.
-(pdftex.def)             Requested size: 406.87448pt x 458.56548pt.
-
-<Plots/master/xPtMThetaRandomE_MC.pdf, id=8831, 569.12625pt x 641.39626pt>
-File: Plots/master/xPtMThetaRandomE_MC.pdf Graphic file (type pdf)
-
-<use Plots/master/xPtMThetaRandomE_MC.pdf>
-Package pdftex.def Info: Plots/master/xPtMThetaRandomE_MC.pdf used on input lin
-e 2991.
-(pdftex.def)             Requested size: 406.87448pt x 458.56548pt.
-File: Plots/master/xPMThetaRandomD_MC.pdf Graphic file (type pdf)
-
-<use Plots/master/xPMThetaRandomD_MC.pdf>
-Package pdftex.def Info: Plots/master/xPMThetaRandomD_MC.pdf used on input line
- 2998.
-(pdftex.def)             Requested size: 406.87448pt x 533.57767pt.
-
-<Plots/master/xPtMThetaRandomE_Data.pdf, id=8832, 569.12625pt x 641.39626pt>
-File: Plots/master/xPtMThetaRandomE_Data.pdf Graphic file (type pdf)
-
-<use Plots/master/xPtMThetaRandomE_Data.pdf>
-Package pdftex.def Info: Plots/master/xPtMThetaRandomE_Data.pdf used on input l
-ine 3006.
-(pdftex.def)             Requested size: 406.87448pt x 458.56548pt.
-
-<Plots/master/xPtMThetaRandomD_Data.pdf, id=8833, 569.12625pt x 641.39626pt>
-File: Plots/master/xPtMThetaRandomD_Data.pdf Graphic file (type pdf)
-
-<use Plots/master/xPtMThetaRandomD_Data.pdf>
-Package pdftex.def Info: Plots/master/xPtMThetaRandomD_Data.pdf used on input l
-ine 3014.
-(pdftex.def)             Requested size: 406.87448pt x 458.56548pt.
-
-<Plots/master/xPtMThetaem_MC.pdf, id=8834, 569.12625pt x 641.39626pt>
+ <./Plots/master/xPtMPhiepEC_MC.pdf, page is rotated 90 degrees>] [111 <./Plots
+/master/xPtMPhiepEC_Data.pdf, page is rotated 90 degrees>]
+<Plots/master/xPtMThetaem_MC.pdf, id=4246, 569.12625pt x 641.39626pt>
 File: Plots/master/xPtMThetaem_MC.pdf Graphic file (type pdf)
 
 <use Plots/master/xPtMThetaem_MC.pdf>
-Package pdftex.def Info: Plots/master/xPtMThetaem_MC.pdf used on input line 302
-4.
+Package pdftex.def Info: Plots/master/xPtMThetaem_MC.pdf used on input line 235
+2.
 (pdftex.def)             Requested size: 406.87448pt x 458.56548pt.
 
-<Plots/master/xPtMThetaem_Data.pdf, id=8835, 569.12625pt x 641.39626pt>
+<Plots/master/xPtMThetaem_Data.pdf, id=4247, 569.12625pt x 641.39626pt>
 File: Plots/master/xPtMThetaem_Data.pdf Graphic file (type pdf)
 
 <use Plots/master/xPtMThetaem_Data.pdf>
-Package pdftex.def Info: Plots/master/xPtMThetaem_Data.pdf used on input line 3
-032.
+Package pdftex.def Info: Plots/master/xPtMThetaem_Data.pdf used on input line 2
+360.
 (pdftex.def)             Requested size: 406.87448pt x 458.56548pt.
 
-<Plots/master/xPtMThetaemE_MC.pdf, id=8836, 569.12625pt x 641.39626pt>
-File: Plots/master/xPtMThetaemE_MC.pdf Graphic file (type pdf)
-
-<use Plots/master/xPtMThetaemE_MC.pdf>
-Package pdftex.def Info: Plots/master/xPtMThetaemE_MC.pdf used on input line 30
-40.
-(pdftex.def)             Requested size: 406.87448pt x 458.56548pt.
-
-<Plots/master/xPtMThetaemD_MC.pdf, id=8837, 569.12625pt x 641.39626pt>
-File: Plots/master/xPtMThetaemD_MC.pdf Graphic file (type pdf)
-
-<use Plots/master/xPtMThetaemD_MC.pdf>
-Package pdftex.def Info: Plots/master/xPtMThetaemD_MC.pdf used on input line 30
-47.
-(pdftex.def)             Requested size: 406.87448pt x 458.56548pt.
-
-<Plots/master/xPtMThetaemE_Data.pdf, id=8838, 569.12625pt x 641.39626pt>
-File: Plots/master/xPtMThetaemE_Data.pdf Graphic file (type pdf)
-
-<use Plots/master/xPtMThetaemE_Data.pdf>
-Package pdftex.def Info: Plots/master/xPtMThetaemE_Data.pdf used on input line 
-3055.
-(pdftex.def)             Requested size: 406.87448pt x 458.56548pt.
-
-<Plots/master/xPtMThetaemD_Data.pdf, id=8839, 569.12625pt x 641.39626pt>
-File: Plots/master/xPtMThetaemD_Data.pdf Graphic file (type pdf)
-
-<use Plots/master/xPtMThetaemD_Data.pdf>
-Package pdftex.def Info: Plots/master/xPtMThetaemD_Data.pdf used on input line 
-3063.
-(pdftex.def)             Requested size: 406.87448pt x 458.56548pt.
-
-<Plots/master/xPtMThetaep_MC.pdf, id=8840, 569.12625pt x 641.39626pt>
+<Plots/master/xPtMThetaep_MC.pdf, id=4248, 569.12625pt x 641.39626pt>
 File: Plots/master/xPtMThetaep_MC.pdf Graphic file (type pdf)
 
 <use Plots/master/xPtMThetaep_MC.pdf>
-Package pdftex.def Info: Plots/master/xPtMThetaep_MC.pdf used on input line 307
+Package pdftex.def Info: Plots/master/xPtMThetaep_MC.pdf used on input line 237
 0.
 (pdftex.def)             Requested size: 406.87448pt x 458.56548pt.
 
-<Plots/master/xPtMThetaep_Data.pdf, id=8841, 569.12625pt x 641.39626pt>
+<Plots/master/xPtMThetaep_Data.pdf, id=4249, 569.12625pt x 641.39626pt>
 File: Plots/master/xPtMThetaep_Data.pdf Graphic file (type pdf)
 
 <use Plots/master/xPtMThetaep_Data.pdf>
-Package pdftex.def Info: Plots/master/xPtMThetaep_Data.pdf used on input line 3
-078.
+Package pdftex.def Info: Plots/master/xPtMThetaep_Data.pdf used on input line 2
+378.
 (pdftex.def)             Requested size: 406.87448pt x 458.56548pt.
+ [112
 
-<Plots/master/xPtMThetaepE_MC.pdf, id=8842, 569.12625pt x 641.39626pt>
-File: Plots/master/xPtMThetaepE_MC.pdf Graphic file (type pdf)
+ <./Plots/master/xPtMThetaem_MC.pdf>] [113 <./Plots/master/xPtMThetaem_Data.pdf
+>] [114 <./Plots/master/xPtMThetaep_MC.pdf>] [115 <./Plots/master/xPtMThetaep_D
+ata.pdf>] [116
 
-<use Plots/master/xPtMThetaepE_MC.pdf>
-Package pdftex.def Info: Plots/master/xPtMThetaepE_MC.pdf used on input line 30
-86.
-(pdftex.def)             Requested size: 406.87448pt x 458.56548pt.
 
-<Plots/master/xPtMThetaepD_MC.pdf, id=8843, 569.12625pt x 641.39626pt>
-File: Plots/master/xPtMThetaepD_MC.pdf Graphic file (type pdf)
-
-<use Plots/master/xPtMThetaepD_MC.pdf>
-Package pdftex.def Info: Plots/master/xPtMThetaepD_MC.pdf used on input line 30
-93.
-(pdftex.def)             Requested size: 406.87448pt x 458.56548pt.
-
-Underfull \hbox (badness 1442) in paragraph at lines 3094--3094
-[][][]|\T1/lmr/m/n/10.95 Trans-verse mo-men-tum de-nom-i-na-tor his-tograms for
- positrons for
- []
-
-<Plots/master/xPtMThetaepE_Data.pdf, id=8844, 569.12625pt x 641.39626pt>
-File: Plots/master/xPtMThetaepE_Data.pdf Graphic file (type pdf)
-
-<use Plots/master/xPtMThetaepE_Data.pdf>
-Package pdftex.def Info: Plots/master/xPtMThetaepE_Data.pdf used on input line 
-3101.
-(pdftex.def)             Requested size: 406.87448pt x 458.56548pt.
-
-<Plots/master/xPtMThetaepD_Data.pdf, id=8845, 569.12625pt x 641.39626pt>
-File: Plots/master/xPtMThetaepD_Data.pdf Graphic file (type pdf)
-
-<use Plots/master/xPtMThetaepD_Data.pdf>
-Package pdftex.def Info: Plots/master/xPtMThetaepD_Data.pdf used on input line 
-3109.
-(pdftex.def)             Requested size: 406.87448pt x 458.56548pt.
-
-Underfull \hbox (badness 1442) in paragraph at lines 3110--3110
-[][][]|\T1/lmr/m/n/10.95 Trans-verse mo-men-tum de-nom-i-na-tor his-tograms for
- positrons for
- []
-
-[205
-
- <./Plots/master/xPtMThetaRandom_MC.pdf>] [206 <./Plots/master/xPtMThetaRandom_
-Data.pdf>] [207 <./Plots/master/xPtMThetaRandomE_MC.pdf>] [208] [209 <./Plots/m
-aster/xPtMThetaRandomE_Data.pdf>] [210 <./Plots/master/xPtMThetaRandomD_Data.pd
-f>] [211 <./Plots/master/xPtMThetaem_MC.pdf>] [212 <./Plots/master/xPtMThetaem_
-Data.pdf>] [213 <./Plots/master/xPtMThetaemE_MC.pdf>] [214 <./Plots/master/xPtM
-ThetaemD_MC.pdf>] [215 <./Plots/master/xPtMThetaemE_Data.pdf>] [216 <./Plots/ma
-ster/xPtMThetaemD_Data.pdf>] [217 <./Plots/master/xPtMThetaep_MC.pdf>]
-[218 <./Plots/master/xPtMThetaep_Data.pdf>] [219 <./Plots/master/xPtMThetaepE_M
-C.pdf>] [220 <./Plots/master/xPtMThetaepD_MC.pdf>] [221 <./Plots/master/xPtMThe
-taepE_Data.pdf>] [222 <./Plots/master/xPtMThetaepD_Data.pdf>]
-(./Masterarbeit_Martin_Sobotzik.lof [223
-
-
-] [224] [225] [226]
-Underfull \hbox (badness 1400) in paragraph at lines 323--323
- [][] [][]\T1/lmr/m/n/10.95 Transverse Mo-men-tum $\OML/lmm/m/it/10.95 ^^^$ \T1
-/lmr/m/n/10.95 Ran-dom Bar-rel Enu-mer-a-tor His-togram 
- []
-
-
-Underfull \hbox (badness 1400) in paragraph at lines 327--327
- [][] [][]\T1/lmr/m/n/10.95 Transverse Mo-men-tum $\OML/lmm/m/it/10.95 ^^^$ \T1
-/lmr/m/n/10.95 Ran-dom Bar-rel Enu-mer-a-tor His-togram 
- []
-
-
-Underfull \hbox (badness 1394) in paragraph at lines 335--335
- [][] [][]\T1/lmr/m/n/10.95 Transverse Mo-men-tum $\OML/lmm/m/it/10.95 ^^^$ \T1
-/lmr/m/n/10.95 Elec-tron Bar-rel Enu-mer-a-tor His-togram 
- []
-
-
-Underfull \hbox (badness 1394) in paragraph at lines 339--339
- [][] [][]\T1/lmr/m/n/10.95 Transverse Mo-men-tum $\OML/lmm/m/it/10.95 ^^^$ \T1
-/lmr/m/n/10.95 Elec-tron Bar-rel Enu-mer-a-tor His-togram 
- []
-
-
-Underfull \hbox (badness 1436) in paragraph at lines 347--347
- [][] [][]\T1/lmr/m/n/10.95 Transverse Mo-men-tum $\OML/lmm/m/it/10.95 ^^^$ \T1
-/lmr/m/n/10.95 Positron Bar-rel Enu-mer-a-tor His-togram 
- []
-
-
-Underfull \hbox (badness 1436) in paragraph at lines 351--351
- [][] [][]\T1/lmr/m/n/10.95 Transverse Mo-men-tum $\OML/lmm/m/it/10.95 ^^^$ \T1
-/lmr/m/n/10.95 Positron Bar-rel Enu-mer-a-tor His-togram 
- []
-
-[227]
-Overfull \hbox (5.07912pt too wide) detected at line 361
-\T1/lmr/m/n/10.95 B.100. 
- []
-
-
-Overfull \hbox (5.07912pt too wide) detected at line 363
-\T1/lmr/m/n/10.95 B.101. 
- []
-
-
-Overfull \hbox (5.07912pt too wide) detected at line 365
-\T1/lmr/m/n/10.95 B.102. 
- []
-
-
-Overfull \hbox (5.07912pt too wide) detected at line 367
-\T1/lmr/m/n/10.95 B.103. 
- []
-
-
-Overfull \hbox (5.07912pt too wide) detected at line 369
-\T1/lmr/m/n/10.95 B.104. 
- []
-
-
-Overfull \hbox (5.07912pt too wide) detected at line 371
-\T1/lmr/m/n/10.95 B.105. 
- []
-
-
-Overfull \hbox (5.07912pt too wide) detected at line 373
-\T1/lmr/m/n/10.95 B.106. 
- []
-
-
-Overfull \hbox (5.07912pt too wide) detected at line 375
-\T1/lmr/m/n/10.95 B.107. 
- []
-
-
-Overfull \hbox (5.07912pt too wide) detected at line 377
-\T1/lmr/m/n/10.95 B.108. 
- []
-
-
-Overfull \hbox (5.07912pt too wide) detected at line 379
-\T1/lmr/m/n/10.95 B.109. 
- []
-
-
-Overfull \hbox (5.07912pt too wide) detected at line 381
-\T1/lmr/m/n/10.95 B.110. 
- []
-
-
-Overfull \hbox (5.07912pt too wide) detected at line 383
-\T1/lmr/m/n/10.95 B.111. 
- []
-
-
-Overfull \hbox (5.07912pt too wide) detected at line 385
-\T1/lmr/m/n/10.95 B.112. 
- []
-
-
-Overfull \hbox (5.07912pt too wide) detected at line 387
-\T1/lmr/m/n/10.95 B.113. 
- []
-
-
-Overfull \hbox (5.07912pt too wide) detected at line 389
-\T1/lmr/m/n/10.95 B.114. 
- []
-
-
-Overfull \hbox (5.07912pt too wide) detected at line 391
-\T1/lmr/m/n/10.95 B.115. 
- []
-
-
-Overfull \hbox (5.07912pt too wide) detected at line 393
-\T1/lmr/m/n/10.95 B.116. 
- []
-
-
-Overfull \hbox (5.07912pt too wide) detected at line 395
-\T1/lmr/m/n/10.95 B.117. 
- []
-
-
-Overfull \hbox (5.07912pt too wide) detected at line 397
-\T1/lmr/m/n/10.95 B.118. 
- []
-
-
-Overfull \hbox (5.07912pt too wide) detected at line 399
-\T1/lmr/m/n/10.95 B.119. 
- []
-
-
-Overfull \hbox (5.07912pt too wide) detected at line 401
-\T1/lmr/m/n/10.95 B.120. 
- []
-
-
-Overfull \hbox (5.07912pt too wide) detected at line 403
-\T1/lmr/m/n/10.95 B.121. 
- []
-
-
-Overfull \hbox (5.07912pt too wide) detected at line 405
-\T1/lmr/m/n/10.95 B.122. 
- []
-
-
-Overfull \hbox (5.07912pt too wide) detected at line 407
-\T1/lmr/m/n/10.95 B.123. 
- []
-
-
-Overfull \hbox (5.07912pt too wide) detected at line 409
-\T1/lmr/m/n/10.95 B.124. 
- []
-
-
-Overfull \hbox (5.07912pt too wide) detected at line 411
-\T1/lmr/m/n/10.95 B.125. 
- []
-
-[228]
-Overfull \hbox (5.07912pt too wide) detected at line 413
-\T1/lmr/m/n/10.95 B.126. 
- []
-
-)
+]
+(./Masterarbeit_Martin_Sobotzik.lof [117] [118])
 \tf@lof=\write8
 \openout8 = `Masterarbeit_Martin_Sobotzik.lof'.
 
- [229] [230
+ [119] [120
 
 
-] (./Masterarbeit_Martin_Sobotzik.lot)
+]
+(./Masterarbeit_Martin_Sobotzik.lot)
 \tf@lot=\write9
 \openout9 = `Masterarbeit_Martin_Sobotzik.lot'.
 
- [231] [232
+ [121] [122
 
 
 ]
 chapter without number
 
-Underfull \hbox (badness 1466) in paragraph at lines 3123--3123
+Underfull \hbox (badness 1466) in paragraph at lines 2393--2393
 []\T1/lmr/m/sc/10.95 url\T1/lmr/m/n/10.95 : []$\T1/lmtt/m/n/10.95 http : / / ww
 w . sciencedirect . com / science / article / pii /
  []
 
 
-Underfull \hbox (badness 1466) in paragraph at lines 3123--3123
+Underfull \hbox (badness 1466) in paragraph at lines 2393--2393
 []\T1/lmr/m/sc/10.95 url\T1/lmr/m/n/10.95 : []$\T1/lmtt/m/n/10.95 http : / / ww
 w . sciencedirect . com / science / article / pii /
  []
 
-[233] [234]
-Underfull \hbox (badness 1466) in paragraph at lines 3123--3123
+[123] [124]
+Underfull \hbox (badness 1466) in paragraph at lines 2393--2393
 []\T1/lmr/m/sc/10.95 url\T1/lmr/m/n/10.95 : []$\T1/lmtt/m/n/10.95 http : / / ww
 w . sciencedirect . com / science / article / pii /
  []
 
-[235]
-Underfull \hbox (badness 1466) in paragraph at lines 3123--3123
+[125]
+Underfull \hbox (badness 1466) in paragraph at lines 2393--2393
 []\T1/lmr/m/sc/10.95 url\T1/lmr/m/n/10.95 : []$\T1/lmtt/m/n/10.95 http : / / ww
 w . sciencedirect . com / science / article / pii /
  []
 
-[236] [237]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3130.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 3130.
+[126] [127]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2400.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2400.
  (./Masterarbeit_Martin_Sobotzik.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3130.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3130.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2400.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2400.
 
 Package rerunfilecheck Info: File `Masterarbeit_Martin_Sobotzik.out' has not ch
 anged.
-(rerunfilecheck)             Checksum: 06A6A2F9D0B0E3E95F52BBB18B95D6D1;4184.
+(rerunfilecheck)             Checksum: D76430A5C8D7FF573DA077C5C9415B2D;4221.
+
+
+LaTeX Warning: There were undefined references.
+
 Package logreq Info: Writing requests to 'Masterarbeit_Martin_Sobotzik.run.xml'
 .
 \openout1 = `Masterarbeit_Martin_Sobotzik.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3130.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2400.
  ) 
 Here is how much of TeX's memory you used:
- 35275 strings out of 494852
- 681977 string characters out of 6177656
- 1089111 words of memory out of 5000000
- 37172 multiletter control sequences out of 15000+600000
- 117170 words of font info for 92 fonts, out of 8000000 for 9000
+ 34442 strings out of 494852
+ 657600 string characters out of 6177656
+ 1070349 words of memory out of 5000000
+ 36661 multiletter control sequences out of 15000+600000
+ 115902 words of font info for 92 fonts, out of 8000000 for 9000
  39 hyphenation exceptions out of 8191
  72i,18n,91p,8869b,3221s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
@@ -4360,28 +3292,28 @@ ips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share
 /texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
 -ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}</usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf/fonts
-/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb
-></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/typ
-e1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></us
-r/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/pub
-lic/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/
-texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/l
-mr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fon
-ts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></
-usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/
-public/lm/lmri7.pfb></usr/share/texmf/fonts/type1/public/lm/lmri8.pfb></usr/sha
-re/texmf/fonts/type1/public/lm/lmri9.pfb></usr/share/texmf/fonts/type1/public/l
-m/lmro10.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/t
-exmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/l
-msy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fo
-nts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
->
-Output written on Masterarbeit_Martin_Sobotzik.pdf (245 pages, 24321691 bytes).
+/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb>
+</usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/typ
+e1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></us
+r/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/pu
+blic/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share
+/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/
+lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/f
+onts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb>
+</usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/
+public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri7.pfb></usr/sh
+are/texmf/fonts/type1/public/lm/lmri8.pfb></usr/share/texmf/fonts/type1/public/
+lm/lmro10.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/
+texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/
+lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/f
+onts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pf
+b>
+Output written on Masterarbeit_Martin_Sobotzik.pdf (135 pages, 20643195 bytes).
 
 PDF statistics:
- 10264 PDF objects out of 10688 (max. 8388607)
- 5301 compressed objects within 54 object streams
- 588 named destinations out of 1000 (max. 500000)
- 1502 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4814 PDF objects out of 5155 (max. 8388607)
+ 2717 compressed objects within 28 object streams
+ 372 named destinations out of 1000 (max. 500000)
+ 985 words of extra memory for PDF output out of 10000 (max. 10000000)
 
