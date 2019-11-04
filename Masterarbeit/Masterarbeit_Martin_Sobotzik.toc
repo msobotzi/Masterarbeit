@@ -94,38 +94,38 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {7.1.4}$\theta $ Efficiencies}{60}{subsection.7.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Transverse Momentum Efficiencies}{64}{section.7.2}
+\contentsline {section}{\numberline {7.2}Transverse Momentum Efficiencies}{63}{section.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.1}Forward End Cap}{64}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.1}Forward End Cap}{63}{subsection.7.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.2}Barrel}{65}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.2}Barrel}{64}{subsection.7.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.3}Backward End Cap}{67}{subsection.7.2.3}
+\contentsline {subsection}{\numberline {7.2.3}Backward End Cap}{66}{subsection.7.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.4}$\theta $ Efficiencies}{68}{subsection.7.2.4}
+\contentsline {subsection}{\numberline {7.2.4}$\theta $ Efficiencies}{67}{subsection.7.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Phase3 Tracking Efficiency}{71}{chapter.8}
+\contentsline {chapter}{\numberline {8}Phase3 Tracking Efficiency}{69}{chapter.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}Phase3}{71}{section.8.1}
+\contentsline {section}{\numberline {8.1}Phase3}{69}{section.8.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}Location}{71}{section.8.2}
+\contentsline {section}{\numberline {8.2}Location}{69}{section.8.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.3}Exp7}{71}{section.8.3}
+\contentsline {section}{\numberline {8.3}Exp7}{69}{section.8.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.4}Exp8}{71}{section.8.4}
+\contentsline {section}{\numberline {8.4}Exp8}{69}{section.8.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.5}Selected Candidates}{71}{section.8.5}
+\contentsline {section}{\numberline {8.5}Selected Candidates}{69}{section.8.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.6}Tracking Efficiency}{71}{section.8.6}
+\contentsline {section}{\numberline {8.6}Tracking Efficiency}{69}{section.8.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Conclusion}{73}{chapter.9}
+\contentsline {chapter}{\numberline {9}Conclusion}{71}{chapter.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Additional Preparation Plots}{75}{appendix.A}
+\contentsline {chapter}{\numberline {A}Additional Preparation Plots}{73}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Additional Phase2 Plots}{91}{appendix.B}
+\contentsline {chapter}{\numberline {B}Additional Phase2 Plots}{89}{appendix.B}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Figures}{117}{chapter*.89}
+\contentsline {chapter}{\nonumberline List of Figures}{115}{chapter*.89}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Tables}{121}{chapter*.90}
+\contentsline {chapter}{\nonumberline List of Tables}{119}{chapter*.90}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{123}{chapter*.91}
+\contentsline {chapter}{\nonumberline Bibliography}{121}{chapter*.91}
