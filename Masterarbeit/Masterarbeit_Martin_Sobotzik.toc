@@ -1,131 +1,130 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {english}{}
 \defcounter {refsection}{0}\relax 
-\select@language {english}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}Theoretical Foundations}{3}{chapter.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Theoretical Foundations}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}The Standard Model}{3}{section.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}The Standard Model}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}Physics Beyond The Standard Model}{5}{section.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Physics Beyond The Standard Model}{5}{section.2.2}
+\contentsline {section}{\numberline {2.3}Bhabha Scattering}{5}{section.2.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Bhabha Scattering}{5}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Bhabha Process}{5}{subsection.2.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}Bhabha Process}{5}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Differential Cross Section Of Bhabha Processes}{6}{subsection.2.3.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}Differential Cross Section Of Bhabha Processes}{6}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Bhabha Kinematics At Belle II}{7}{subsection.2.3.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.3}Bhabha Kinematics At Belle II}{7}{subsection.2.3.3}
+\contentsline {chapter}{\numberline {3}Experimental Setup At SuperKEKB}{11}{chapter.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Experimental Setup At SuperKEKB}{11}{chapter.3}
+\contentsline {section}{\numberline {3.1}KEKB And SuperKEKB}{11}{section.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}KEKB And SuperKEKB}{11}{section.3.1}
+\contentsline {section}{\numberline {3.2}The Belle II Detector}{13}{section.3.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}The Belle II Detector}{13}{section.3.2}
+\contentsline {section}{\numberline {3.3}Coordinate System}{15}{section.3.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Coordinate System}{15}{section.3.3}
+\contentsline {section}{\numberline {3.4}Vertex detector}{15}{section.3.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Vertex detector}{15}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Pixel Vertex Detector}{16}{subsection.3.4.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.1}Pixel Vertex Detector}{16}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Silicon Vertex Detector}{18}{subsection.3.4.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.2}Silicon Vertex Detector}{18}{subsection.3.4.2}
+\contentsline {section}{\numberline {3.5}Central Drift Chamber}{18}{section.3.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Central Drift Chamber}{18}{section.3.5}
+\contentsline {section}{\numberline {3.6}TOP And ARICH}{20}{section.3.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.6}TOP And ARICH}{20}{section.3.6}
+\contentsline {section}{\numberline {3.7}Electromagnetic Calorimeter}{22}{section.3.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.7}Electromagnetic Calorimeter}{22}{section.3.7}
+\contentsline {section}{\numberline {3.8}$K_L^0$ And Muon Detector }{23}{section.3.8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.8}$K_L^0$ And Muon Detector }{23}{section.3.8}
+\contentsline {chapter}{\numberline {4}Trigger And Data Acquisition System}{25}{chapter.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Trigger And Data Acquisition System}{25}{chapter.4}
+\contentsline {section}{\numberline {4.1}Trigger}{25}{section.4.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Trigger}{25}{section.4.1}
+\contentsline {section}{\numberline {4.2}Data Acquisition System}{26}{section.4.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Data Acquisition System}{26}{section.4.2}
+\contentsline {chapter}{\numberline {5}Tools}{29}{chapter.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Tools}{29}{chapter.5}
+\contentsline {section}{\numberline {5.1}Basf2}{29}{section.5.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Basf2}{29}{section.5.1}
+\contentsline {section}{\numberline {5.2}GridKa}{29}{section.5.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}GridKa}{29}{section.5.2}
+\contentsline {chapter}{\numberline {6}Preparation For Calculating The Tracking Efficiency Of Phase2}{31}{chapter.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Preparation For Calculating The Tracking Efficiency Of Phase2}{31}{chapter.6}
+\contentsline {section}{\numberline {6.1}Phase2}{31}{section.6.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Phase2}{31}{section.6.1}
+\contentsline {section}{\numberline {6.2}Definition Of Tracking Efficiency}{31}{section.6.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Definition Of Tracking Efficiency}{31}{section.6.2}
+\contentsline {section}{\numberline {6.3}Reconstructing Bhabha Events With Basf2}{32}{section.6.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Reconstructing Bhabha Events With Basf2}{32}{section.6.3}
+\contentsline {section}{\numberline {6.4}Best Candidate Selection On Phase2 Monte Carlo}{34}{section.6.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}Best Candidate Selection On Phase2 Monte Carlo}{34}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}ECL-Cut}{34}{subsection.6.4.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4.1}ECL-Cut}{34}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.2}Mass-Cut}{35}{subsection.6.4.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4.2}Mass-Cut}{35}{subsection.6.4.2}
+\contentsline {subsection}{\numberline {6.4.3}Additional Cuts}{36}{subsection.6.4.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4.3}Additional Cuts}{36}{subsection.6.4.3}
+\contentsline {subsection}{\numberline {6.4.4}Cut Efficiency}{38}{subsection.6.4.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4.4}Cut Efficiency}{38}{subsection.6.4.4}
+\contentsline {subsection}{\numberline {6.4.5}No MC-Truth Information}{39}{subsection.6.4.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4.5}No MC-Truth Information}{39}{subsection.6.4.5}
+\contentsline {section}{\numberline {6.5}Best Candidate Selection on Phase2 Data}{39}{section.6.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.5}Best Candidate Selection on Phase2 Data}{39}{section.6.5}
+\contentsline {section}{\numberline {6.6}Selecting Bhabha Events}{41}{section.6.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.6}Selecting Bhabha Events}{41}{section.6.6}
+\contentsline {section}{\numberline {6.7}ECL-Trigger}{43}{section.6.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.7}ECL-Trigger}{44}{section.6.7}
+\contentsline {section}{\numberline {6.8}More Events}{44}{section.6.8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.8}More Events}{45}{section.6.8}
+\contentsline {section}{\numberline {6.9}Dividing The ECL In Areas Of Interest}{46}{section.6.9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.9}Dividing The ECL In Areas Of Interest}{45}{section.6.9}
+\contentsline {chapter}{\numberline {7}Phase2 Tracking Efficiency}{53}{chapter.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Phase2 Tracking Efficiency}{53}{chapter.7}
+\contentsline {section}{\numberline {7.1}Momentum Efficiencies}{53}{section.7.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Momentum Efficiencies}{53}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Forward End Cap}{53}{subsection.7.1.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.1}Forward End Cap}{53}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Barrel}{55}{subsection.7.1.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.2}Barrel}{55}{subsection.7.1.2}
+\contentsline {subsection}{\numberline {7.1.3}Backward End Cap}{58}{subsection.7.1.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.3}Backward End Cap}{58}{subsection.7.1.3}
+\contentsline {subsection}{\numberline {7.1.4}$\theta $ Efficiencies}{60}{subsection.7.1.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.4}$\theta $ Efficiencies}{60}{subsection.7.1.4}
+\contentsline {section}{\numberline {7.2}Transverse Momentum Efficiencies}{64}{section.7.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Transverse Momentum Efficiencies}{63}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Forward End Cap}{64}{subsection.7.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.1}Forward End Cap}{63}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Barrel}{65}{subsection.7.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.2}Barrel}{64}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.3}Backward End Cap}{67}{subsection.7.2.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.3}Backward End Cap}{66}{subsection.7.2.3}
+\contentsline {subsection}{\numberline {7.2.4}$\theta $ Efficiencies}{68}{subsection.7.2.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.4}$\theta $ Efficiencies}{67}{subsection.7.2.4}
+\contentsline {chapter}{\numberline {8}Phase3 Tracking Efficiency}{71}{chapter.8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Phase3 Tracking Efficiency}{69}{chapter.8}
+\contentsline {section}{\numberline {8.1}Phase3}{71}{section.8.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}Phase3}{69}{section.8.1}
+\contentsline {section}{\numberline {8.2}Location}{71}{section.8.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}Location}{69}{section.8.2}
+\contentsline {section}{\numberline {8.3}Exp7}{71}{section.8.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.3}Exp7}{69}{section.8.3}
+\contentsline {section}{\numberline {8.4}Exp8}{71}{section.8.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.4}Exp8}{69}{section.8.4}
+\contentsline {section}{\numberline {8.5}Selected Candidates}{71}{section.8.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.5}Selected Candidates}{69}{section.8.5}
+\contentsline {section}{\numberline {8.6}Tracking Efficiency}{71}{section.8.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.6}Tracking Efficiency}{69}{section.8.6}
+\contentsline {chapter}{\numberline {9}Conclusion}{73}{chapter.9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Conclusion}{71}{chapter.9}
+\contentsline {chapter}{\numberline {A}Additional Preparation Plots}{75}{appendix.A}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Additional Preparation Plots}{73}{appendix.A}
+\contentsline {chapter}{\numberline {B}Additional Phase2 Plots}{91}{appendix.B}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Additional Phase2 Plots}{89}{appendix.B}
+\contentsline {chapter}{\nonumberline List of Figures}{117}{chapter*.89}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Figures}{115}{chapter*.89}
+\contentsline {chapter}{\nonumberline List of Tables}{121}{chapter*.90}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Tables}{119}{chapter*.90}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{121}{chapter*.91}
+\contentsline {chapter}{\nonumberline Bibliography}{123}{chapter*.91}% 

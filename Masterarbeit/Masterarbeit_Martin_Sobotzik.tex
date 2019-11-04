@@ -182,7 +182,7 @@
 \begin{titlepage}
   \vspace*{6mm}
   \begin{center}
-     {\afont Systematic Studies on Reconstruction Efficiency at Belle II}
+     {\afont Systematic Studies on Reconstruction Efficiency at BelleII}
      \\[3.5cm]
      {\large von}
      \\[3.5cm]
@@ -866,7 +866,7 @@ The online event selection system (trigger) for Belle II makes it possible to ac
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=12cm]{Bilder/Trigger}
+	\includegraphics[width=\textwidth]{Bilder/Trigger}
 	\caption[Schematic Overview Of The Trigger System]{Schematic overview of the Belle II trigger system. The four suub-trigger systems send their outputs to the Global Decision Logic. The GDL then performs the final online trigger decision. \cite{LumiTrigger}}
 	\label{fig:Trigger}
 \end{figure}
@@ -1328,11 +1328,11 @@ Since we only reconstruct a few more events and still only one candidate per eve
 \label{sec:SelectingBhabhaData}
 
 Until now we only run on MC but ultimately we want to calculate the tracking efficiency on Beamtime-data. Therefore, we have to test the selection also on Beamtime-Data. I used the same steering file as described in section \ref{sec:RecBasf2} and run over the following files located at:
-\newline
+
 
 /ghi/fs01/belle2/bdata//Data/release-03-00-03/DB00000528/proc00000008/e0003/
 4S/r02608/all/mdst/sub00/*.root
-\newline
+
 
 The generated file is located at:
 
@@ -1435,13 +1435,8 @@ Figure \ref{fig:b2bMC} shows the same plots as figure \ref{fig:b2bData} but with
 \section{ECL-Trigger}
 \label{sec:ECLTrigger}
 
-Last but not least, we need to be sure that each event has a trigger signal coming from the ECL. Otherwise, the trigger signal could come only from the tracking detectors. Then, there would be a bias on the efficiency, since the tracking detectors require at least one track. Therefore, a cut on the trigger called \texttt{bhabha} is introduced. \texttt{bhabha}. This trigger requires a signal coming from the ECL and some additional conditions. Both reconstructed particles have to have an energy of at least $3\,\textrm{GeV}$ each and one of them has to have at an energy of $4.5\,\textrm{GeV}$ or more.
- 
+Last but not least, we need to be sure that each event has a trigger signal coming from the ECL. Otherwise, the trigger signal could come only from the tracking detectors. Then, there would be a bias on the efficiency, since the tracking detectors require at least one track. Therefore, a cut on the trigger called \texttt{bhabha} is introduced. \texttt{bhabha}. This trigger requires a signal coming from the ECL and some additional conditions. Both reconstructed particles have to have an energy of at least $3\,\textrm{GeV}$ each and one of them has to have at an energy of $4.5\,\textrm{GeV}$ or more.\cite{lumeTrigger} \textcolor{red}{cut auf bhabha}
 
-
-
- \cite{lumeTrigger}
-\textcolor{red}{cut von bhabha aendern}
 
 
 
@@ -1609,7 +1604,7 @@ The same is done for the transverse momenta for the three different cases. The d
 
 
 We will also look at the tracking efficiency as a function of $\theta$. For this, we also have to choose momenta regions. They can be determined by the same plots as before.
-The selected ranges can be found in the following table.
+The selected ranges can be found in table \ref{tab:RTPMDThetaTable}.
 
 \begin{table}[h!]
 	\centering
@@ -1747,7 +1742,7 @@ In the backward end cap the efficiency goes up to over 0.9 at first for phase2 M
 For momenta between $4\,\textrm{GeV}$ and $5\,\textrm{GeV}$, the structure of the efficiency is similar to the momentum region we just looked at. The only differences are that the efficiency drop at the forward end cap to barrel transition is not as dominant as before. Here, the efficiency only falls down to 0.6. Also, phase2 MC has a higher tracking efficiency in the forward end cap compared to phase2 data.
 In addition, the highest efficiency is reached in the barrel at $1.7< \theta <2.3$ for phase2 MC and $1.7< \theta <2.2$ for phase2 data. The biggest difference between phase2 MC and phase2 data occurs again in the backward end cap. Here the efficiency for phase2 data falls down noticeably earlier compared to phase2 MC. The phase2 data tracking efficiency is lower compared to phase2 MC for almost all $\theta$.
 For momenta between $5\,\textrm{GeV}$ and $6\,\textrm{GeV}$, there is no dip in the efficiency at the transition between forward end cap and barrel. In the forward end cap the efficiency of phase2 data starts lower compared to the phase2 MC efficiency. But they meet at $\theta \approx 0.4$  and increase up to approximately 0.95 and more at $\theta \approx 1$.
-For higher $\theta$ values the efficiency in the barrel and the backward end cap stays more or less the same. 
+For higher $\theta$ values the efficiency in the barrel stays more or less the same. One can argue that there is a small dip in phase2 data at $\theta \approx 1.9$.
 In the plot for the momentum range between $6\,\textrm{GeV}$ and $7\,\textrm{GeV}$, the efficiency for phase2 data starts lower compared to phase2 MC efficiency. In the barrel both efficiencies stay above 0.98 with an exception of a small dip for phase2 data at $\theta \approx 1.25$. For momenta  between $7\,\textrm{GeV}$ and $8\,\textrm{GeV}$ the tracking efficiency for phase2 MC is about 0.99. This was already discussed in section \ref{sec:MFC}. For phase2 the tracking efficiency is slightly lower. Again for phase2 data, a small dip in the tracking efficiency appears. The dip has a $\theta$ angle of 0.4. For the last momentum range, similar to the previous momenta range the tracking efficiency for phase2 MC and phase2 MC are above 0.95.
  
 
@@ -1756,9 +1751,9 @@ In the plot for the momentum range between $6\,\textrm{GeV}$ and $7\,\textrm{GeV
 
 In figure \ref{plt:xPMThetaep} the calculated tracking efficiency for positrons as a function of the polar angle $\theta$ is shown. For momenta between $2\,\textrm{GeV}$ and $3\,\textrm{GeV}$, almost all positrons are detected in the backward end cap, with a tracking efficiency of over 0.98 for phase2 MC and phase2 data. 
 For momenta between $3\,\textrm{GeV}$ and $4\,\textrm{GeV}$, the tracking efficiency increases slowly in the barrel with increasing values of $\theta$. It reaches its maximum of $\approx 0.9$ at $\theta \approx 2.2$. Then the tracking efficiency falls down for phase2 data and it continues in the barrel. For phase2 MC the efficiency has a small peak in the backward end cap before it also falls down. 
-For momenta between $4\,\textrm{GeV}$ and $5\,\textrm{GeV}$
-
-
+For momenta between $4\,\textrm{GeV}$ and $5\,\textrm{GeV}$, the tracking efficiency has a similar structure compared to the previous momenta range except it is overall higher. The calculated tracking efficiency also slowly increases in the barrel until it reaches its maximum of over 0.95 for phase2 MC and phase2 data at $\theta \approx 1.6$. The tracking efficiency stays more or less constant with increasing $\theta$ in the barrel. As soon as the backward end cap starts the phase2 data efficiency drops down. Phase2 MC tracking efficiency stays very high up to $\theta \approx 2.4$.
+For momenta between $5\,\textrm{GeV}$ and $6\,\textrm{GeV}$, the calculated tracking efficiency also gets higher in the barrel. It reaches its maximum at $\theta \approx 1$. After this it stays more or less the same, even in the backward end cap. At $\theta \approx 1.9$ there is a small dip for phase2 data. We saw this also for electrons at the same momenta range.
+The last positron momenta range is between $6\,\textrm{GeV}$ and $7\,\textrm{GeV}$. Here, the calculated tracking efficiency increases rapidly in the forward end cap. It reaches its maximum of over 0.95 for phase2 MC and around 0.95 for phase2 data in the barrel. In contrast to the forward end cap and the barrel, the tracking efficiency in the backward end cap is higher for phase2 data compared to phase2 MC. Similar to the phase2 tracking efficiency for electrons with the same momenta range, there is a at $\theta \approx 1.25$.
 
 
 \begin{figure}[!htbp]
@@ -1789,12 +1784,13 @@ For momenta between $4\,\textrm{GeV}$ and $5\,\textrm{GeV}$
 
 \subsection{Forward End Cap}
 
-
+In figure \ref{plt:xPtMPhiemFC} you can see the calculated tracking efficiency for electrons in the forward end cap  with different transverse momenta.
 
 \begin{figure}[!htbp]
 	\centering
 	\includegraphics[width=\textwidth]{Plots/master/xPtMPhiemFC}
-	\caption[Transverse Momentum $\phi$ Electron Forward End Cap Efficiency Phase2]{Electron $\phi$ transverse momentum tracking efficiency plots in the forward end cap. The tracking efficiency for phase2 data is shown in blue and phase2 MC in red.}
+	\caption[Transverse Momentum $\phi$ Electron Forward End Cap Efficiency Phase2]{Electron $\phi$ transverse momentum tracking efficiency plots in the forward end cap. The tracking efficiency for phase2 data is shown in blue and phase2 MC in red.
+		\label{plt:xPtMPhiemFC}}
 \end{figure}
 
 
