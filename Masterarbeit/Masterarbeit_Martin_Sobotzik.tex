@@ -1784,7 +1784,7 @@ The last positron momenta range is between $6\,\textrm{GeV}$ and $7\,\textrm{GeV
 
 \subsection{Forward End Cap}
 
-In figure \ref{plt:xPtMPhiemFC} you can see the calculated tracking efficiency for electrons in the forward end cap  with different transverse momenta.
+In figure \ref{plt:xPtMPhiemFC} you can see the calculated tracking efficiency for electrons in the forward end cap  with different transverse momenta. For transverse momenta between $1\,\textrm{GeV}$ and $2\,\textrm{GeV}$, the biggest differences between phase2 MC and phase2 data occur at $\textrm{abs}(\phi) \gtrsim 1$. For these angles the phase2 data efficiency is noticeably worse compared to phase2 MC. For transverse momenta between $2\,\textrm{GeV}$ and $3\,\textrm{GeV}$, the tracking efficiency for phase2 MC stays above 0.9 for all values of $\phi$. For phase2 data, the structure of the tracking efficiency looks more random. The lowest efficiency of approximately 0.65 occurs at $\textrm{abs}(\phi) \approx 3$ and the highest efficiency with $0.9$ at $\phi \approx 0$. Also, the efficiency has a lot of local minimums and maximums. For transverse momenta between $3\,\textrm{GeV}$ and $4\,\textrm{GeV}$, phase2 MC has an efficiency of over 0.97 for almost all values of $\phi$. The tracking efficiency for phase2 data also has an efficiency of over 0.97 for most $\phi$ values with the exceptions of $\textrm{abs}(\phi) \approx 0.5$, $\phi  \approx 1$ and $\phi \approx 2.9$. In all of these cases the tracking efficiency drops down significantly and in the $\phi \approx 0.5$ case even down to 0.92.
 
 \begin{figure}[!htbp]
 	\centering
@@ -1801,13 +1801,15 @@ In figure \ref{plt:xPtMPhiemFC} you can see the calculated tracking efficiency f
 
 \subsection{Barrel}
 
-
+Figure \ref{plt:xPtMPhiemBarrel} shows the calculated phase2 electron tracking efficiency for different transverse momenta in the barrel. For transverse momenta between $2\,\textrm{GeV}$ and $3\,\textrm{GeV}$, the tracking efficiency of phase2 MC and phase2 data has a very similar structure. in both cases the lowest tracking efficiency occurs at $\phi \approx 0$. For transverse momenta between $3\,\textrm{GeV}$ and $5\,\textrm{GeV}$, the structure of the efficiency of phase2 MC and phase2 data differ. For phase2 MC the tracking efficiency is above 0.92 and for phase2 data above 0.91. The tracking efficiency becomes higher with increasing transverse momentum. The highest tracking efficiency occurs at transverse momenta between $5\,\textrm{GeV}$ and $6\,\textrm{GeV}$. The efficiency of phase2 MC and phase2 data never falls below 0.95. For phase2 data, the lowest tracking efficiency appears at $\phi \approx 0$.  
 
 
 \begin{figure}[!htbp]
 	\centering
 	\includegraphics[width=\textwidth]{Plots/master/xPtMPhiemBarrel}
-	\caption[Transverse Momentum $\phi$ Electron Barrel Efficiency Phase2]{Electron $\phi$ transverse momentum tracking efficiency plots in the barrel. The tracking efficiency for phase2 data is shown in blue and phase2 MC in red.}
+	\caption[Transverse Momentum $\phi$ Electron Barrel Efficiency Phase2]{Electron $\phi$ transverse momentum tracking efficiency plots in the barrel. The tracking efficiency for phase2 data is shown in blue and phase2 MC in red.
+	\label{plt:xPtMPhiemBarrel}	
+}
 \end{figure}
 
 
@@ -1816,7 +1818,8 @@ In figure \ref{plt:xPtMPhiemFC} you can see the calculated tracking efficiency f
 \begin{figure}[!htbp]
 	\centering
 	\includegraphics[width=\textwidth]{Plots/master/xPtMPhiepBarrel}
-	\caption[Transverse Momentum $\phi$ Positron Barrel Efficiency Phase2]{Positron $\phi$ transverse momentum tracking efficiency plots in the barrel. The tracking efficiency for phase2 data is shown in blue and phase2 MC in red.}
+	\caption[Transverse Momentum $\phi$ Positron Barrel Efficiency Phase2]{Positron $\phi$ transverse momentum tracking efficiency plots in the barrel. The tracking efficiency for phase2 data is shown in blue and phase2 MC in red.
+		\label{plt:xPtMPhiepBarrel}	}
 \end{figure}
 
 
@@ -1892,18 +1895,6 @@ In figure \ref{plt:xPtMPhiemFC} you can see the calculated tracking efficiency f
 r00000/3600520000/mdst/sub00
 
 
-\section{Exp7}
-
-
-
-
-
-\section{Exp8}
-
-
-All Files at
-
-except 1544
 
 
 
@@ -1911,13 +1902,60 @@ except 1544
 
 \section{Selected Candidates}
 
+
+
+
 \section{Tracking Efficiency}
 
 
 
 
+\subsection{Momentum Efficiency}
 
-MC10
+
+\subsubsection{Forward End Cap}
+
+
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master3/xPMPhiemFCP3}
+	\caption[Momentum $\phi$ Electron Forward End Cap Efficiency Phase3]{Electron $\phi$ tracking efficiency plots in the forward end cap. The tracking efficiency for phase3 data is shown in brown and phase3 MC in green.}
+	\label{plt:xPMPhiemFC3}
+\end{figure}
+
+
+
+\newpage
+\subsubsection{Barrel}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\newpage
+
+\subsubsection{Backward End Cap}
+
+
+
+\newpage
+\subsection{Transverse Momentum Efficieny}
+
+
+
 \begin{comment}
 
 \chapter{Further Results}
@@ -2387,6 +2425,297 @@ MC10
 
 
 
+
+\chapter{Additional Phase3 Plots}
+
+
+
+
+
+
+
+
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master3/xPMPhiemFC_MCP3}
+	\caption[Momentum $\phi$ Electron Forward End Cap Efficiency Phase3 MC]{Electron $\phi$ tracking efficiency plots in the forward end cap for phase3 MC.}
+	\label{plt:PMPhiemFC3_MC}
+\end{figure}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master3/xPMPhiemFC_DataP3}
+	\caption[Momentum $\phi$ Electron Forward End Cap Efficiency Phase3 Data]{Electron $\phi$ tracking efficiency plots in the forward end cap for phase3 Data.}
+	\label{plt:PMPhiemFC3_Data}
+\end{figure}
+
+
+
+
+
+
+
+
+%-------------------------------------------------------------------------------------------------------------------
+%Barrel
+
+
+
+
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master3/xPMPhiemBarrel_MCP3}
+	\caption[Momentum $\phi$ Electron Barrel Efficiency Phase3 MC]{Electron $\phi$ tracking efficiency plots in the barrel for phase3 MC.}
+	\label{plt:PMPhiemBarrel3_MC}
+\end{figure}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master3/xPMPhiemBarrel_DataP3}
+	\caption[Momentum $\phi$ Electron Barrel Efficiency Phase3 Data]{Electron $\phi$ tracking efficiency plots in the barrel for phase3 Data.}
+	\label{plt:PMPhiemBarrel3_Data}
+\end{figure}
+
+
+
+
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master3/xPMPhiepBarrel_MCP3}
+	\caption[Momentum $\phi$ Positron Barrel Efficiency Phase3 MC]{Positron $\phi$ tracking efficiency plots in the barrel for phase3 MC.}
+	\label{plt:PMPhiepBarrel3_MC}
+\end{figure}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master3/xPMPhiepBarrel_DataP3}
+	\caption[Momentum $\phi$ Positron Barrel Efficiency Phase3 Data]{Positron $\phi$ tracking efficiency plots in the barrel for phase3 Data.}
+	\label{plt:PMPhiepBarrel3_Data}
+\end{figure}
+
+
+
+%----------------------------------------------------------------------------------------------------------------------------------------
+%Backward End Cap
+
+
+
+
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master3/xPMPhiepEC_MCP3}
+	\caption[Momentum $\phi$ Positron Backward End Cap Efficiency Phase3 MC]{Positron $\phi$ tracking efficiency plots in the backward end cap for phase3 MC.}
+	\label{plt:PMPhiepEC3_MC}
+\end{figure}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master3/xPMPhiepEC_DataP3}
+	\caption[Momentum $\phi$ Positron Backward End Cap Efficiency Phase3 Data]{Positron $\phi$ tracking efficiency plots in the backward end cap for phase3 Data.}
+	\label{plt:PMPhiepEC3_Data}
+\end{figure}
+
+
+
+\clearpage
+
+
+
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master3/xPMThetaem_MCP3}
+	\caption[Momentum $\theta$ Electron Efficiency Phase3 MC]{Electron $\phi$ tracking efficiency plots for phase3 MC. The pink line indicates the different sectors of the ECL.}
+	\label{plt:PMThetaem3_MC}
+\end{figure}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master3/xPMThetaem_DataP3}
+	\caption[Momentum $\theta$ Electron Efficiency Phase3 Data]{Electron $\phi$ tracking efficiency plots for phase3 Data. The pink line indicates the different sectors of the ECL.}
+	\label{plt:PMThetaem3_Data}
+\end{figure}
+
+
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master3/xPMThetaep_MCP3}
+	\caption[Momentum $\theta$ Positron Efficiency Phase3 MC]{Positron $\phi$ tracking efficiency plots for phase3 MC. The pink line indicates the different sectors of the ECL.}
+	\label{plt:PMThetaep3_MC}
+\end{figure}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master3/xPMThetaep_DataP3}
+	\caption[Momentum $\theta$ Positron Efficiency Phase3 Data]{Positron $\phi$ tracking efficiency plots for phase3 Data. The pink line indicates the different sectors of the ECL.}
+	\label{plt:PMThetaep3_Data}
+\end{figure}
+
+
+\clearpage
+
+%transverse Momentum Phase2
+
+
+
+
+
+
+
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master3/xPtMPhiemFC_MCP3}
+	\caption[Transverse Momentum $\phi$ Electron Forward End Cap Efficiency Phase3 MC]{Electron $\phi$ transverse momentum tracking efficiency plots in the forward end cap for phase3 MC.}
+	\label{plt:PtMPhiemFC3_MC}
+\end{figure}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master3/xPtMPhiemFC_DataP3}
+	\caption[Transverse Momentum $\phi$ Electron Forward End Cap Efficiency Phase3 Data]{Electron $\phi$ transverse momentum tracking efficiency plots in the forward end cap for phase3 Data.}
+	\label{plt:PtMPhiemFC3_Data}
+\end{figure}
+
+
+
+
+
+
+
+\clearpage
+%-------------------------------------------------------------------------------------------------------------------
+%Barrel
+
+
+
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master3/xPtMPhiemBarrel_MCP3}
+	\caption[Transverse Momentum $\phi$ Electron Barrel Efficiency Phase3 MC]{Electron $\phi$ transverse momentum tracking efficiency plots in the barrel for phase3 MC.}
+	\label{plt:PtMPhiemBarrel3_MC}
+\end{figure}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master3/xPtMPhiemBarrel_DataP3}
+	\caption[Transverse Momentum $\phi$ Electron Barrel Efficiency Phase3 Data]{Electron $\phi$ transverse momentum tracking efficiency plots in the barrel for phase3 Data.}
+	\label{plt:PtMPhiemBarrel3_Data}
+\end{figure}
+
+
+
+
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master3/xPtMPhiepBarrel_MCP3}
+	\caption[Transverse Momentum $\phi$ Positron Barrel Efficiency Phase3 MC]{Positron $\phi$ transverse momentum tracking efficiency plots in the barrel for phase3 MC.}
+	\label{plt:PtMPhiepBarrel3_MC}
+\end{figure}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master3/xPtMPhiepBarrel_DataP3}
+	\caption[Transverse Momentum $\phi$ Positron Barrel Efficiency Phase3 Data]{Positron $\phi$ transverse  momentum tracking efficiency plots in the barrel for phase3 Data.}
+	\label{plt:PtMPhiepBarrel3_Data}
+\end{figure}
+
+
+
+%----------------------------------------------------------------------------------------------------------------------------------------
+%Backward End Cap
+
+
+\clearpage
+
+
+
+
+
+
+
+%%%
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master3/xPtMPhiepEC_MCP3}
+	\caption[Transverse Momentum $\phi$ Positron Backward End Cap Efficiency Phase3 MC]{Positron $\phi$ transverse momentum tracking efficiency plots in the backward end cap for phase3 MC.}
+	\label{plt:PtMPhiepEC3_MC}
+\end{figure}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master3/xPtMPhiepEC_DataP3}
+	\caption[Transverse Momentum $\phi$ Positron Backward End Cap Efficiency Phase3 Data]{Positron $\phi$ transverse momentum tracking efficiency plots in the backward end cap for phase3 Data.}
+	\label{plt:PtMPhiepEC3_Data}
+\end{figure}
+
+
+
+
+
+
+
+
+\clearpage
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master3/xPtMThetaem_MCP3}
+	\caption[Transverse Momentum $\theta$ Electron Efficiency Phase3 MC]{Electron $\phi$ transverse momentum tracking efficiency plots for phase3 MC. The pink line indicates the different sectors of the ECL.}
+	\label{plt:PtMThetaem3_MC}
+\end{figure}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master3/xPtMThetaem_DataP3}
+	\caption[Transverse Momentum $\theta$ Electron Efficiency Phase3 Data]{Electron $\phi$ transverse momentum tracking efficiency plots for phase3 Data. The pink line indicates the different sectors of the ECL.}
+	\label{plt:PtMThetaem3_Data}
+\end{figure}
+
+
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master3/xPtMThetaep_MCP3}
+	\caption[Transverse Momentum $\theta$ Positron Efficiency Phase3 MC]{Positron $\phi$ transverse momentum tracking efficiency plots for phase3 MC. The pink line indicates the different sectors of the ECL.}
+	\label{plt:PtMThetaep3_MC}
+\end{figure}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master3/xPtMThetaep_DataP3}
+	\caption[Transverse Momentum $\theta$ Positron Efficiency Phase3 Data]{Positron transverse momentum $\phi$ tracking efficiency plots for phase3 Data. The pink line indicates the different sectors of the ECL.}
+	\label{plt:PtMThetaep3_Data}
+\end{figure}
 
 
 
