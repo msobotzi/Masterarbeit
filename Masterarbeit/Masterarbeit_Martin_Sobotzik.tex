@@ -49,7 +49,6 @@
 \usepackage{listings}
 \usepackage{float}
 \usepackage{scrextend}
-
 \usepackage{titling}
 \floatstyle{plaintop}
 \restylefloat{table}
@@ -264,10 +263,20 @@ D-55128 Mainz\\
 \sloppy
 
 %_______________________________________________________________________________
+
+
+\newpage
+
+\thispagestyle{plain}
+\begin{center}
+	\textbf{Abstract}
+\end{center}
+Text
+
 \chapter{Introduction}
 \label{sec:Introduction}
 
-
+In this thesis, natural units are used.
 
 \chapter{Theoretical Foundations}
 \label{cha:SM}
@@ -867,7 +876,7 @@ The online event selection system (trigger) for Belle II makes it possible to ac
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\textwidth]{Bilder/Trigger}
-	\caption[Schematic Overview Of The Trigger System]{Schematic overview of the Belle II trigger system. The four suub-trigger systems send their outputs to the Global Decision Logic. The GDL then performs the final online trigger decision. \cite{LumiTrigger}}
+	\caption[Schematic Overview Of The Trigger System]{Schematic overview of the Belle II trigger system. The four sub-trigger systems send their outputs to the Global Decision Logic. The GDL then performs the final on-line trigger decision. \cite{LumiTrigger}}
 	\label{fig:Trigger}
 \end{figure}
 
@@ -939,34 +948,21 @@ The data acquisition system (DAQ) reads out the detector signals once the Level-
 
 The first part of the Belle2Link is the common readout platform (COPPER). This platform transforms the different data formats coming from the sub-detectors into a common data format. The COPPER boards then send their output signal to the event builder, which merges the data coming from the same collision to an event. With the information from the fully reconstructed events, the high level trigger (HLT) is able to finally decide whether the event should be stored or not. If the event should be recorded, it is then merged with the information coming from the PXD data in the second event builder.
 
-Once the PXD receives the trigger signal, the readout starts. These data are stored on online selector nodes for up to $5\,\textrm{s}$. Meanwhile, the HLT performs the event reconstruction. Based on information coming from the SVD and CDC, the charged tracks, reconstructed in the HTL, are transfered back to the PXD and regions of interest (ROI) are formed. Only pixels of the PXD within the ROI are kept and considered in the second event builder. Complementarity to the HLT, the data concentrator also searches for RIOs. The HLT is optimized for high momentum and the data concentrator is optimized for low momentum particles. Both systems require hits in all SVD layers. 
+Once the PXD receives the trigger signal, the readout starts. These data are stored on on-line selector nodes for up to $5\,\textrm{s}$. Meanwhile, the HLT performs the event reconstruction. Based on information coming from the SVD and CDC, the charged tracks, reconstructed in the HTL, are transfered back to the PXD and regions of interest (ROI) are formed. Only pixels of the PXD within the ROI are kept and considered in the second event builder. Complementarity to the HLT, the data concentrator also searches for RIOs. The HLT is optimized for high momentum and the data concentrator is optimized for low momentum particles. Both systems require hits in all SVD layers. 
 
 
 
 
 
-\chapter{Tools}
+\chapter{BASF2}
 \label{sec:Tools}
 
-\lettrine{T}{his} chapter will give a short introduction on the two most important tools that were used in this thesis: Basf2 and GridKa.
+\lettrine{T}{he} software framework used at BelleII is called BASF2 (Belle AnalysiS Framework). It is designed to prosecute off-line and analysis tasks. The majority of the code is written in C++, but python scripts are used for framework execution. The user specifies a sequence of modules in the python steering file which than process events. It also provides access to external libraries like ROOT which allows processing, statistical analysis, visualization and storage of common data and Geant4 for simulating the full detector.\cite{Moll_2011}
 
 
-\section{Basf2}
-
-The software framework used at Belle2 is called BASF2 (Belle AnalysiS Framework). It is designed to prosecute off-line and analysis tasks. The majority of the code is written in C++, but python scripts are used for framework execution. The user specifies a sequence of modules in the python steering file which than process events. It also provides access to external libraries like ROOT which allows processing, statistical analysis, visualization and storage of common data and Geant4 for simulating the full detector.\cite{Moll_2011}
+For the off-line reconstruction to work it has to take into account that the BelleII detector consists of a set of subdetectors. Each subdetector has a different geometry, dimension and is made out of different materials buried in a magnetic field. It also exploits the informations on the interactions of the particles with the matter. These informations are then used to reconstruct the particle trajectories (tracks) and the signal they generate in the detectors. This is done using algorithm that model particle propagation.
 
 
-
-
-
-
-
-
-
-
-
-\textcolor{red}{OffLineTracking}
-\section{GridKa}
 
 
 
@@ -1197,7 +1193,7 @@ To reduce the number of candidates per event to one, some additional cuts are ne
 
 
 
-As you can see, the Monte Carlo generated energy (mcE) for both HclE and LclE is the same and the reconstructed energy (E) of the HclE and the LclE particle sum up roughly to their respectively mcE. You can also see that the generated particle is always a electron/positron and that the \textit{additionally} reconstructed particle is always a photon.
+As you can see, the Monte Carlo generated energy (mcE) for both HclE and LclE is the same and the reconstructed energy (E) of the HclE and the LclE particle sum up roughly to their respectively mcE. You can also see that the generated particle is always an electron or positron and that the \textit{additionally} reconstructed particle is always a photon.
 
 
 
@@ -1357,7 +1353,7 @@ Now, that we are satisfied with the selection of events and candidates we need t
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=10cm]{Bilder/b2b_2}
-	\caption[Sketch Of The b2bClusterPhi Variable]{Simplified representation of the b2bClusterPhi variable. The track of charged particles are bend in the detector. This sketch was created with Inkscape.}
+	\caption[Sketch Of The b2bClusterPhi Variable]{Simplified representation of the b2bClusterPhi variable. The track of charged particles are bend in the detector. This sketch was created with Inkscape. The colors have no deeper meaning.}
 	\label{fig:Sketchb2b}
 \end{figure}
 
@@ -1435,11 +1431,15 @@ Figure \ref{fig:b2bMC} shows the same plots as figure \ref{fig:b2bData} but with
 \section{ECL-Trigger}
 \label{sec:ECLTrigger}
 
-Last but not least, we need to be sure that each event has a trigger signal coming from the ECL. Otherwise, the trigger signal could come only from the tracking detectors. Then, there would be a bias on the efficiency, since the tracking detectors require at least one track. Therefore, a cut on the trigger called \texttt{bhabha} is introduced. \texttt{bhabha}. This trigger requires a signal coming from the ECL and some additional conditions. Both reconstructed particles have to have an energy of at least $3\,\textrm{GeV}$ each and one of them has to have at an energy of $4.5\,\textrm{GeV}$ or more.\cite{lumeTrigger} \textcolor{red}{cut auf bhabha}
+Last but not least, we need to be sure that each event has a trigger signal coming from the ECL. Otherwise, the trigger signal could come only from the tracking detectors. Then, there would be a bias on the efficiency, since the tracking detectors require at least one track. Therefore, a cut on the trigger called \texttt{bhabha} is introduced. \texttt{bhabha}. This trigger requires a signal coming from the ECL and some additional conditions. Both reconstructed particles have to have an energy of at least $2.5\,\textrm{GeV}$ each and one of them has to have at an energy of $4\,\textrm{GeV}$ or more. Also, two additional conditions have to be fulfilled. 
 
+\begin{itemize} 
+\item $160^\circ < \sum \theta_{cms} < 200^\circ$
+\item $140^\circ < \Delta \phi_{cms} < 220^\circ$
+\end{itemize}
 
-
-
+The \texttt{bhabha} trigger return a 1, only if all three conditions are fulfilled.
+ \cite{lumeTrigger}
 
 \begin{figure}[h!]
 	\centering
@@ -1486,13 +1486,13 @@ Also, we will take all available phase2 data files into account. They are locate
 \newline
 
 
+
+
 \begin{figure}[h!]
 	\includegraphics[width=\textwidth]{Plots/master/CCand.pdf}
 	\caption[Total Number Of Events After The Selection]{The number of candidates per event after the selection is shown. Left: Phase2 Data. Right: Phase2 MC. A total of 9323903 candidates are selected for phase2 data and 973181 candidates are selected for phase2 MC.}
 	\label{fig:nCandAS}
 \end{figure}
-
-
 
 
 
@@ -1628,7 +1628,7 @@ The selected ranges can be found in table \ref{tab:RTPMDThetaTable}.
 
 
 
-\lettrine{I}{n} this chapter the tracking efficiency studies on phase2 will be presented. The selection described in chapter \ref{chap:Phase2Eff} will be used in this chapter. Phase2 data in blue and phase2 Monte Carlo in red will be shown together, in order to make comparison between these two easier. The individual tracking efficiencies can be found in the appendix. 
+\lettrine{I}{n} this chapter the tracking efficiency studies on phase2 will be presented. The selection described in chapter \ref{chap:Phase2Eff} will be used in this chapter. Phase2 data in blue and phase2 Monte Carlo in red will be shown together, in order to make comparison between these two easier. The individual tracking efficiencies can be found in the appendix chapter \ref{A:2}. Also, only tracking efficiencies with $\Delta \epsilon < 0.4$ are plotted to make the plots more easy to read. 
  
 
 \section{Momentum Efficiencies}
@@ -1775,7 +1775,7 @@ The last positron momenta range is between $6\,\textrm{GeV}$ and $7\,\textrm{GeV
 
 \clearpage
 
-
+\newpage
 
 
 
@@ -1801,15 +1801,21 @@ In figure \ref{plt:xPtMPhiemFC} you can see the calculated tracking efficiency f
 
 \subsection{Barrel}
 
-Figure \ref{plt:xPtMPhiemBarrel} shows the calculated phase2 electron tracking efficiency for different transverse momenta in the barrel. For transverse momenta between $2\,\textrm{GeV}$ and $3\,\textrm{GeV}$, the tracking efficiency of phase2 MC and phase2 data has a very similar structure. in both cases the lowest tracking efficiency occurs at $\phi \approx 0$. For transverse momenta between $3\,\textrm{GeV}$ and $5\,\textrm{GeV}$, the structure of the efficiency of phase2 MC and phase2 data differ. For phase2 MC the tracking efficiency is above 0.92 and for phase2 data above 0.91. The tracking efficiency becomes higher with increasing transverse momentum. The highest tracking efficiency occurs at transverse momenta between $5\,\textrm{GeV}$ and $6\,\textrm{GeV}$. The efficiency of phase2 MC and phase2 data never falls below 0.95. For phase2 data, the lowest tracking efficiency appears at $\phi \approx 0$.  
+Figure \ref{plt:xPtMPhiemBarrel} shows the calculated phase2 electron tracking efficiency for different transverse momenta in the barrel. For transverse momenta between $2\,\textrm{GeV}$ and $3\,\textrm{GeV}$, the tracking efficiency of phase2 MC and phase2 data has a very similar structure. in both cases the lowest tracking efficiency occurs at $\phi \approx 0$. For transverse momenta between $3\,\textrm{GeV}$ and $5\,\textrm{GeV}$, the structure of the efficiency of phase2 MC and phase2 data differ. For phase2 MC the tracking efficiency is above 0.92 and for phase2 data above 0.91. The tracking efficiency becomes higher with increasing transverse momentum. The highest tracking efficiency occurs at transverse momenta between $5\,\textrm{GeV}$ and $6\,\textrm{GeV}$. The efficiency of phase2 MC and phase2 data never falls below 0.95. For phase2 data, the lowest tracking efficiency appears at $\phi \approx 0$. The error bars for phase2 MC are smaller for $\phi \approx 0$ due to the kinematics at BelleII. The electron and positron beams are hitting each other under an angle and therefore there is more statistics at $\phi \approx 0$.
+
+
+Figure \ref{plt:xPtMPhiepBarrel} shows positrons tracking efficiencies in the barrel for different transverse momenta. For transverse momenta between $3\,\textrm{GeV}$ and $4\,\textrm{GeV}$, the calculated tracking efficiency is above 0.94 for both phase2 MC and phase2 data. The error bars are to big the see a structure in the efficiency for phase2 MC. The tracking efficiency for phase2 data is lower compared to phase2 MC for almost all values of $\phi$. There are also some noticeable dips in the efficiency at $\phi \approx -2.2$, $ \lesssim 0$, $ \approx 0.5$ and $ \approx 2.2$. For transverse momenta between $4\,\textrm{GeV}$ and $5\,\textrm{GeV}$, the structure of the phase2 efficiency looks similar to the structure of the lower transverse momenta with the exception that the tracking efficiency is overall higher with at least 0.96 and the dips on phase2 data are not that dominant. For transverse momenta between $5\,\textrm{GeV}$ and $6\,\textrm{GeV}$, the phase2 data tracking efficiency is almost always above 0.96. Again, there is a small dip at $\phi \approx 0.5$. For phase2 MC the tracking efficiency is almost always above 0.95. 
+
+
+
+
 
 
 \begin{figure}[!htbp]
 	\centering
 	\includegraphics[width=\textwidth]{Plots/master/xPtMPhiemBarrel}
 	\caption[Transverse Momentum $\phi$ Electron Barrel Efficiency Phase2]{Electron $\phi$ transverse momentum tracking efficiency plots in the barrel. The tracking efficiency for phase2 data is shown in blue and phase2 MC in red.
-	\label{plt:xPtMPhiemBarrel}	
-}
+	\label{plt:xPtMPhiemBarrel}	}
 \end{figure}
 
 
@@ -1834,7 +1840,7 @@ Figure \ref{plt:xPtMPhiemBarrel} shows the calculated phase2 electron tracking e
 \subsection{Backward End Cap}
 
 
-
+Figure \ref{plt:xPtMPhiepEC} shows the calculated positron tracking efficiencies for different transverse momenta in the backward end cap. For transverse momenta between $1\,\textrm{GeV}$ and $2\,\textrm{GeV}$, the tracking efficiency of phase2 MC and phase2 data are very close together. You can see some sort of plateau at $\textrm{abs}(\phi) \lesssim 1.5$. Here the tracking efficiency is very high compared to the efficiency of the remaining $\phi$ angles. One half of the backward end cap appears to have a significantly better efficiency. It is also worth noting, that for $\phi <1.5$, phase2 data appears to have a higher efficiency compared to phase2 MC and for $\phi > 1.5$ it is the other way around. For momenta between $2\,\textrm{GeV}$ and $3\,\textrm{GeV}$, the tracking efficiency for $\textrm{abs}(\phi) >1.5$ is again very low with just about 0.6. The plateau we saw before is also way more narrow and it only appears on phase2 MC. For phase2 data the tracking efficiency oscillates heavily at $\phi \approx$. It starts with a drop of the efficiency down to 0.4 at $\phi \approx -0.5$ followed by a local maximum of ~0.9 at $\phi \lesssim 0$. At $\phi \approx 0 $ the efficiency falls down to 0.6 and goes back up to ~0.9 at $\phi \gtrsim 0$. Finally it falls back down to around 0.4 at $\phi \approx 0.5$. The last efficiency drop for phase2 data appears at $\phi \approx 2$. Here the efficiency falls down to ~0.3. For transverse momenta between $3\,\textrm{GeV}$ and $4\,\textrm{GeV}$, the calculated tracking efficiency for phase2 MC is above 0.98 for all values of $\phi$. For phase2 data, the tracking efficiency is above 0.95 for $\textrm{abs}(\phi) > 1$, but you can see the structure in the efficiency we saw in the previous transverse momenta range again. This time, the drops of the efficiency is not as dominant and it never falls below 0.87.
 
 
 
@@ -1842,7 +1848,8 @@ Figure \ref{plt:xPtMPhiemBarrel} shows the calculated phase2 electron tracking e
 \begin{figure}[!htbp]
 	\centering
 	\includegraphics[width=\textwidth]{Plots/master/xPtMPhiepEC}
-	\caption[Transverse Momentum $\phi$ Positron backward end cap Efficiency Phase2]{Positron $\phi$ transverse momentum tracking efficiency plots in the backward end cap. The tracking efficiency for phase2 data is shown in blue and phase2 MC in red.}
+	\caption[Transverse Momentum $\phi$ Positron backward end cap Efficiency Phase2]{Positron $\phi$ transverse momentum tracking efficiency plots in the backward end cap. The tracking efficiency for phase2 data is shown in blue and phase2 MC in red.
+		\label{plt:xPtMPhiepEC}	}
 \end{figure}
 
 \newpage
@@ -1860,7 +1867,7 @@ Figure \ref{plt:xPtMPhiemBarrel} shows the calculated phase2 electron tracking e
 \subsection{$\theta$ Efficiencies}
 
 
-
+Figure \ref{plt:xPtMThetaem} shows the calculated electron tracking efficiencies for different transverse momenta as a function of the polar angle $\theta$.
 
 
 
@@ -1869,6 +1876,7 @@ Figure \ref{plt:xPtMPhiemBarrel} shows the calculated phase2 electron tracking e
 	\centering
 	\includegraphics[width=\textwidth]{Plots/master/xPtMThetaem}
 	\caption[Transverse Momentum $\theta$ Electron Efficiency Phase2]{Electron $\theta$ transverse momentum tracking efficiency plots. The tracking efficiency for phase2 data is shown in blue and phase2 MC in red. The pink line indicates the different sectors of the ECL.}
+	\label{plt:xPtMThetaem}
 \end{figure}
 
 
@@ -1876,8 +1884,23 @@ Figure \ref{plt:xPtMPhiemBarrel} shows the calculated phase2 electron tracking e
 	\centering
 	\includegraphics[width=\textwidth]{Plots/master/xPtMThetaep}
 	\caption[Transverse Momentum $\theta$ Positron Efficiency Phase2]{Positron $\theta$ transverse momentum tracking efficiency plots. The tracking efficiency for phase2 data is shown in blue and phase2 MC in red. The pink line indicates the different sectors of the ECL.}
+	\label{plt:xPtMThetaep}
 \end{figure}
 
+\newpage
+
+\section{$\theta$-$\phi$ Efficiencies}
+In the following $\theta$-$\phi$ plots all efficiencies are shown, including the ones with $\Delta \epsilon >0.4$.
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xCEffTP_MCData.pdf}
+	\caption[$\theta$-$\phi$ Efficiency Plots Phase2]{$\theta$-$\phi$ efficiencies for phase2. Left: Phase2 MC. Right: Phase2 data. First line: electron efficiencies. Second line: positron efficiencies. The 2D plots with the corresponding error can be found in the appendix \ref{plt:xCEff_Error}\textcolor{red}{pinke linie hinzufuegen fuer ECL}}
+	\label{plt:xCEff}
+\end{figure}
+
+In figure \ref{plt:xCEff} you can see the $theta$-$\phi$ efficiencies for phase2 MC on the left and phase2 data on the right. The efficiencies for electrons are shown in the first line and positrons in the second line. 
 
 
 \chapter{Phase3 Tracking Efficiency}
@@ -1889,10 +1912,38 @@ Figure \ref{plt:xPtMPhiemBarrel} shows the calculated phase2 electron tracking e
 
 \section{Location}
 
+To have as much events as possible, all phase3 data files are taken into account. There are located at:
+
+/group/belle2/dataprod/Data/release-03-02-02/DB00000654/proc9/e0007/4S/
+r0*/all/mdst/sub00/*.root
+
+and
+
+/group/belle2/dataprod/Data/release-03-02-02/DB00000654/proc9/e0008/4S/
+r0*/all/mdst/sub00/*.root
+\newline
+
+
+For Monte Carlo we will consider all files located at:
+
+
 
 
 /belle/MC/release-01-00-02/DB00000294/MC10/prod00004664/s00/e0000/4S/
 r00000/3600520000/mdst/sub00
+\newline
+
+The selection described in chapter \ref{chap:Phase2Eff} will be used to select Bhabha events.
+
+
+
+\begin{figure}[h!]
+	\includegraphics[width=\textwidth]{Plots/master3/CCandP3.pdf}
+	\caption[Total Number Of Events After The Selection Phase3]{The number of candidates per event after the selection is shown. Left: Phase3 Data. Right: Phase3 MC. A total of 852093 candidates are selected for phase3 data and $5.344275\cdot10^7$ candidates are selected for phase2 MC.}
+	\label{fig:nCandAS3}
+\end{figure}
+
+In figure \ref{fig:nCandAS3} you can see the number of selected virtual photon candidates per event. You can see that in both phase3 MC and phase3 data only one candidate is selected per event.
 
 
 
@@ -1900,17 +1951,17 @@ r00000/3600520000/mdst/sub00
 
 
 
-\section{Selected Candidates}
 
 
 
+\newpage
 
 \section{Tracking Efficiency}
 
+In this section the calculated tracking efficiencies for phase3 will be presented.  Phase3 data will be shown in brown together with phase3 MC in green. The individual tracking efficiencies can be found in the appendix chapter \ref{A:3}. Just like chapter \ref{chp:TrackingEfficiencyPhase2}, only efficiencies with $\Delta \epsilon < 0.4$ are plotted.
 
 
-
-\subsection{Momentum Efficiency}
+\subsection{Momentum Efficiencies}
 
 
 \subsubsection{Forward End Cap}
@@ -1932,6 +1983,22 @@ r00000/3600520000/mdst/sub00
 
 
 
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master3/xPMPhiemBarrelP3}
+	\caption[Momentum $\phi$ Electron Barrel Efficiency Phase3]{Electron $\phi$ tracking efficiency plots in the barrel. The tracking efficiency for phase3 data is shown in brown and phase3 MC in green.}
+	\label{plt:xPMPhiemBarrel3}
+\end{figure}
+
+
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master3/xPMPhiepBarrelP3}
+	\caption[Momentum $\phi$ Positron Barrel Efficiency Phase3]{Positron $\phi$ tracking efficiency plots in the barrel. The tracking efficiency for phase3 data is shown in brown and phase3 MC in green.}
+	\label{plt:xPMPhiepBarrel3}
+\end{figure}
 
 
 
@@ -1951,8 +2018,145 @@ r00000/3600520000/mdst/sub00
 
 
 
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master3/xPMPhiepECP3}
+	\caption[Momentum $\phi$ Positron Backward End Cap Efficiency Phase3]{Positron $\phi$ tracking efficiency plots in the backward end cap. The tracking efficiency for phase3 data is shown in brown and phase3 MC in green.}
+	
+	\label{plt:xPMPhiepEC3}
+\end{figure}
+
+
+
+
+
+
 \newpage
-\subsection{Transverse Momentum Efficieny}
+
+\subsubsection{$\theta$ Efficiencies}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master3/xPMThetaemP3}
+	\caption[Momentum $\theta$ Electron Efficiency Phase3]{Electron $\theta$ momentum tracking efficiency plots. The tracking efficiency for phase3 data is shown in brown and phase3 MC in green. The pink line indicates the different sectors of the ECL.}
+	
+	\label{plt:xPMThetaem3}
+\end{figure}
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master3/xPMThetaepP3}
+	\caption[Momentum $\theta$ Positron Efficiency Phase3]{Positron $\theta$ momentum tracking efficiency plots. The tracking efficiency for phase3 data is shown in brown and phase3 MC in green. The pink line indicates the different sectors of the ECL.}
+	\label{plt:xPMThetaep3}
+\end{figure}
+
+
+
+
+\newpage
+\subsection{Transverse Momentum Efficiencies}
+
+
+
+
+
+\subsubsection{Forward End Cap}
+
+
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master3/xPtMPhiemFCP3}
+	\caption[Transverse Momentum $\phi$ Electron Forward End Cap Efficiency Phase3]{Electron $\phi$ transverse momentum tracking efficiency plots in the forward end cap. The tracking efficiency for phase3 data is shown in brown and phase3 MC in green.}
+	\label{plt:xPtMPhiemFC3}
+\end{figure}
+
+
+
+\newpage
+\subsubsection{Barrel}
+
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master3/xPtMPhiemBarrelP3}
+	\caption[Transverse Momentum $\phi$ Electron Barrel Efficiency Phase3]{Electron $\phi$ transverse momentum tracking efficiency plots in the barrel. The tracking efficiency for phase3 data is shown in brown and phase3 MC in green.}
+	\label{plt:xPtMPhiemBarrel3}
+\end{figure}
+
+
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master3/xPtMPhiepBarrelP3}
+	\caption[Transverse Momentum $\phi$ Positron Barrel Efficiency Phase3]{Positron $\phi$ transverse momentum tracking efficiency plots in the barrel. The tracking efficiency for phase3 data is shown in brown and phase3 MC in green.}
+	\label{plt:xPtMPhiepBarrel3}
+\end{figure}
+
+
+\newpage
+
+\subsubsection{Backward End Cap}
+
+
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master3/xPtMPhiepECP3}
+	\caption[Transverse Momentum $\phi$ Positron Backward End Cap Efficiency Phase3]{Positron $\phi$ transverse momentum tracking efficiency plots in the backward end cap. The tracking efficiency for phase3 data is shown in brown and phase3 MC in green.}
+	
+	\label{plt:xPtMPhiepEC3}
+\end{figure}
+
+
+
+
+
+
+\newpage
+
+\subsubsection{$\theta$ Efficiencies}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master3/xPtMThetaemP3}
+	\caption[Transverse Momentum $\theta$ Electron Efficiency Phase3]{Electron $\theta$ transverse momentum tracking efficiency plots. The tracking efficiency for phase3 data is shown in brown and phase3 MC in green. The pink line indicates the different sectors of the ECL.}
+	
+	\label{plt:xPtMThetaem3}
+\end{figure}
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master3/xPtMThetaepP3}
+	\caption[Transverse Momentum $\theta$ Positron Efficiency Phase3]{Positron $\theta$ transverse momentum tracking efficiency plots. The tracking efficiency for phase3 data is shown in brown and phase3 MC in green. The pink line indicates the different sectors of the ECL.}
+	\label{plt:xPtMThetaep3}
+\end{figure}
+
+
+
+
+
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master3/xCEffTP_MCDataP3.pdf}
+	\caption[$\theta$-$\phi$ Efficiency Plots Phase3]{$\theta$-$\phi$ efficiencies for phase3. Left: Phase3 MC. Right: Phase3 data. First line: electron efficiencies. Second line: positron efficiencies. The 2D plots with the corresponding error can be found in the appendix \ref{plt:xCEff_Error3}}
+	\label{plt:xCEff3}
+\end{figure}
+
+
+
+
+
+
 
 
 
@@ -1966,6 +2170,10 @@ r00000/3600520000/mdst/sub00
 
 
 \end{comment}
+
+
+
+\chapter{Comparing Phase2 and Phase3}
 
 
 
@@ -2129,7 +2337,7 @@ r00000/3600520000/mdst/sub00
 
 
 \chapter{Additional Phase2 Plots}
-
+\label{A:2}
 
 
 
@@ -2426,8 +2634,30 @@ r00000/3600520000/mdst/sub00
 
 
 
-\chapter{Additional Phase3 Plots}
 
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xCEffTP_MCData_Error.pdf}
+	\caption[$\theta$-$\phi$ Efficiency Error Plots Phase2]{$\theta$-$\phi$ efficiency errors for phase2. Left: Phase2 MC. Right: Phase2 data. First line: electron efficiency errors. Second line: positron efficiency errors.}
+	\label{plt:xCEff_Error}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\chapter{Additional Phase3 Plots}
+\label{A:3}
 
 
 
@@ -2716,6 +2946,24 @@ r00000/3600520000/mdst/sub00
 	\caption[Transverse Momentum $\theta$ Positron Efficiency Phase3 Data]{Positron transverse momentum $\phi$ tracking efficiency plots for phase3 Data. The pink line indicates the different sectors of the ECL.}
 	\label{plt:PtMThetaep3_Data}
 \end{figure}
+
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master3/xCEffTP_MCData_ErrorP3.pdf}
+	\caption[$\theta$-$\phi$ Efficiency Error Plots Phase3]{$\theta$-$\phi$ efficiency errors for phase3. Left: Phase3 MC. Right: Phase3 data. First line: electron efficiency errors. Second line: positron efficiency errors.}
+	\label{plt:xCEff_Error3}
+\end{figure}
+
+
+
+
+
+
+
+
+
 
 
 
