@@ -117,36 +117,36 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {8.3.1.3}Backward End Cap}{85}{subsubsection.8.3.1.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {8.3.1.4}$\theta $ Efficiencies}{86}{subsubsection.8.3.1.4}% 
+\contentsline {subsubsection}{\numberline {8.3.1.4}$\theta $ Efficiencies}{87}{subsubsection.8.3.1.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.3.2}Transverse Momentum Efficiencies}{88}{subsection.8.3.2}% 
+\contentsline {subsection}{\numberline {8.3.2}Transverse Momentum Efficiencies}{91}{subsection.8.3.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {8.3.2.1}Forward End Cap}{88}{subsubsection.8.3.2.1}% 
+\contentsline {subsubsection}{\numberline {8.3.2.1}Forward End Cap}{91}{subsubsection.8.3.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {8.3.2.2}Barrel}{89}{subsubsection.8.3.2.2}% 
+\contentsline {subsubsection}{\numberline {8.3.2.2}Barrel}{92}{subsubsection.8.3.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {8.3.2.3}Backward End Cap}{91}{subsubsection.8.3.2.3}% 
+\contentsline {subsubsection}{\numberline {8.3.2.3}Backward End Cap}{94}{subsubsection.8.3.2.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {8.3.2.4}$\theta $ Efficiencies}{92}{subsubsection.8.3.2.4}% 
+\contentsline {subsubsection}{\numberline {8.3.2.4}$\theta $ Efficiencies}{95}{subsubsection.8.3.2.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.3.3}$\theta $-$\phi $ Efficiencies}{94}{subsection.8.3.3}% 
+\contentsline {subsection}{\numberline {8.3.3}$\theta $-$\phi $ Efficiencies}{97}{subsection.8.3.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Comparing Phase2 and Phase3}{95}{chapter.9}% 
+\contentsline {chapter}{\numberline {9}Comparing Phase2 and Phase3}{99}{chapter.9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.1}$\theta $-Efficiencies}{95}{section.9.1}% 
+\contentsline {section}{\numberline {9.1}$\theta $-Efficiencies}{99}{section.9.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.2}$\phi $-Efficiencies}{98}{section.9.2}% 
+\contentsline {section}{\numberline {9.2}$\phi $-Efficiencies}{102}{section.9.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {10}Conclusion}{101}{chapter.10}% 
+\contentsline {chapter}{\numberline {10}Conclusion}{105}{chapter.10}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Additional Preparation Plots}{103}{appendix.A}% 
+\contentsline {chapter}{\numberline {A}Additional Preparation Plots}{107}{appendix.A}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Additional Phase2 Plots}{119}{appendix.B}% 
+\contentsline {chapter}{\numberline {B}Additional Phase2 Plots}{123}{appendix.B}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}Additional Phase3 Plots}{145}{appendix.C}% 
+\contentsline {chapter}{\numberline {C}Additional Phase3 Plots}{149}{appendix.C}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Figures}{171}{chapter*.134}% 
+\contentsline {chapter}{\nonumberline List of Figures}{175}{chapter*.134}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Tables}{175}{chapter*.135}% 
+\contentsline {chapter}{\nonumberline List of Tables}{179}{chapter*.135}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{177}{chapter*.136}% 
+\contentsline {chapter}{\nonumberline Bibliography}{181}{chapter*.136}% 
