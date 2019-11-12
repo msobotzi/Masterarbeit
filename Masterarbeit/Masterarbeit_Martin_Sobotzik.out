@@ -5,10 +5,10 @@
 \BOOKMARK [1][-]{section.2.3}{Bhabha Scattering}{chapter.2}% 5
 \BOOKMARK [2][-]{subsection.2.3.1}{Bhabha Process}{section.2.3}% 6
 \BOOKMARK [2][-]{subsection.2.3.2}{Differential Cross Section Of Bhabha Processes}{section.2.3}% 7
-\BOOKMARK [2][-]{subsection.2.3.3}{Bhabha Kinematics At BelleII}{section.2.3}% 8
+\BOOKMARK [2][-]{subsection.2.3.3}{Bhabha Kinematics At Belle II}{section.2.3}% 8
 \BOOKMARK [0][-]{chapter.3}{Experimental Setup At SuperKEKB}{}% 9
 \BOOKMARK [1][-]{section.3.1}{KEKB And SuperKEKB}{chapter.3}% 10
-\BOOKMARK [1][-]{section.3.2}{The BelleII Detector}{chapter.3}% 11
+\BOOKMARK [1][-]{section.3.2}{The Belle II Detector}{chapter.3}% 11
 \BOOKMARK [1][-]{section.3.3}{Coordinate System}{chapter.3}% 12
 \BOOKMARK [1][-]{section.3.4}{Vertex detector}{chapter.3}% 13
 \BOOKMARK [2][-]{subsection.3.4.1}{Pixel Vertex Detector}{section.3.4}% 14
@@ -26,7 +26,7 @@
 \BOOKMARK [1][-]{section.6.2}{Definition Of Tracking Efficiency}{chapter.6}% 26
 \BOOKMARK [1][-]{section.6.3}{Reconstructing Bhabha Events With Basf2}{chapter.6}% 27
 \BOOKMARK [1][-]{section.6.4}{Best Candidate Selection On Phase2 Monte Carlo}{chapter.6}% 28
-\BOOKMARK [2][-]{subsection.6.4.1}{ECL-Cut}{section.6.4}% 29
+\BOOKMARK [2][-]{subsection.6.4.1}{CDC-Cut}{section.6.4}% 29
 \BOOKMARK [2][-]{subsection.6.4.2}{Mass-Cut}{section.6.4}% 30
 \BOOKMARK [2][-]{subsection.6.4.3}{Additional Cuts}{section.6.4}% 31
 \BOOKMARK [2][-]{subsection.6.4.4}{Cut Efficiency}{section.6.4}% 32
