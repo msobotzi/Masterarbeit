@@ -951,6 +951,72 @@
     \field{year}{2019}
   \endentry
 
+  \entry{phase3}{online}{}
+    \name{author}{1}{}{%
+      {{hash=UY}{%
+         family={Ushiroda},
+         familyi={U\bibinitperiod},
+         given={Y.},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{UY1}
+    \strng{fullhash}{UY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Kick-off of the Belle II Phase 3 Physics Run}
+    \verb{url}
+    \verb https://www.kek.jp/en/newsroom/2019/03/25/2030/
+    \endverb
+    \field{month}{03}
+    \field{year}{2019}
+  \endentry
+
+  \entry{phase2vxd}{online}{}
+    \name{author}{1}{}{%
+      {{hash=CG}{%
+         family={Casarosa},
+         familyi={C\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CG1}
+    \strng{fullhash}{CG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Commissioning of the Belle II Silicon Vertex Detector}
+    \verb{url}
+    \verb https://confluence.desy.de/display/BI/SVD+SVDTalks?preview=%2F3403454
+    \verb 0%2F120373765%2Fb2svd_VCI_final.pdf
+    \endverb
+    \field{month}{02}
+    \field{year}{2019}
+  \endentry
+
+  \entry{phase3pxd}{online}{}
+    \name{author}{1}{}{%
+      {{hash=KI}{%
+         family={Koramov},
+         familyi={K\bibinitperiod},
+         given={I.},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KI1}
+    \strng{fullhash}{KI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Belle II at SuperKEKB, 87th Meeting of Physics Research
+  Committee}
+    \verb{url}
+    \verb https://indico.desy.de/indico/event/22800/contribution/6/material/sli
+    \verb des/0.pdf
+    \endverb
+    \field{month}{05}
+    \field{year}{2019}
+  \endentry
+
   \entry{TheoryOfAlmostEverything}{book}{}
     \name{author}{1}{}{%
       {{hash=OR}{%
