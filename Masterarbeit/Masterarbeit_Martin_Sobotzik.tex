@@ -269,15 +269,41 @@ D-55128 Mainz\\
 \label{sec:Introduction}
 
 
-This thesis will present the calculated tracking efficiencies for electrons and positrons at Belle II.
-The Belle II experiment is located at the electron-positron collider SuperKEKB at KEK in Tsukuba, Japan. SuperKEKB is a next-generation $B$ factory with a design luminosity of $8\cdot 10^{35}\,\textrm{cm}^{-1}\textrm{s}^{-1}$. It is planed that SuperKEKB will ultimately have a data sample corresponding to a recorded integrated luminosity of $\sim 50\,\textrm{ab}^{-1}$. The Belle II detector is designed to study the properties of $B$ and $D$ mesons with respect to new physics. Belle II started taking physics data in early 2019.
-
-To reconstruct these mesons, one has to know how well the detector is working in the first place.
-%Put simply, how well does the Belle II detector reconstruct electrons as electrons and positrons as positrons. 
+\lettrine{T}{he} standard model of particle physics (SM) is a extraordinary successful theory which describes three out of four fundamental forces in nature. The predictions of this theory are extremely accurate within the reach of precision and energy currently available at modern experiments. 
+Nevertheless, the standard model is far from complete because it is unable to answer fundamental questions like the origin of the matter/antimatter asymmetry, the presence of dark matter/energy and many other unanswered questions. Theories which try to answer these question have been developed suggesting physics beyond the standard model ultimately leading to new physics. Nonetheless, these theories lack experimental evidence.
 
 
+The Belle II experiment is located at the electron-positron collider SuperKEKB at KEK in Tsukuba, Japan. SuperKEKB is a next-generation $B$ factory with a design luminosity of $8\cdot 10^{35}\,\textrm{cm}^{-1}\textrm{s}^{-1}$. It is planed that SuperKEKB will ultimately have a data sample corresponding to a recorded integrated luminosity of $\sim 50\,\textrm{ab}^{-1}$. 
+The Belle II detector is designed to study the properties of $B$ and $D$ mesons with respect to new physics. Belle II started taking physics data in early 2019. 
+The detector consists of a vast variety of sub-detectors each fulfilling a complementary purpose like determination of the charge, trajectory (track) reconstruction, momentum measurements, particle identification etc. For example, the purpose amongst others of the innermost sub-detectors is to reconstruct tracks created by charged particles passing through them. Of course, these sub-detectors are not able to reconstruct every charged particle as such. Therefore, one has to estimate how well they perform. This can be done by using Bhabha events. 
+In a Bhabha event, an electron interacts with its antiparticle, a positron, by scattering or annihilation. The outgoing particles are then an electron and a positron again. Using the kinematics of this process and informations solely coming from the electromagnetic calorimeter (ECL), a sub-detector surrounding the inner sub-detectors, it is possible to select only Bhabha events. Therefore, one knows that there has to be an outgoing electron and positron in these events. Then, it is counted how often a charged particle is reconstructed as such. Finally, this number is divided by the total number of particles in all the Bhabha events. The result is a so-called tracking efficiency.
+\newline
+
+This thesis will present tracking efficiency for different phases of the Belle II detector. The tracking efficiencies will be shown for several (transverse) momenta ranges and as a function of the polar angle $\theta$ and the azimuth angle $\phi$.
+\newline
+
+Chapter \ref{cha:SM} will present a short introduction to the standard model of particle physics. Also, Bhabha scattering will be explained briefly followed by Bhabha kinematics at Belle II. 
+
+In chapter \ref{sec:SetupKEK} the experimental setup at SuperKEKB will be described. First, the accelerator SuperKEKB will be introduced, then the Belle II detector with all of its sub-detectors starting with the innermost.
+
+Since, the ECL will be used as a tool to select Bhabha events, one has to be sure that it send out a trigger signal in each event which is taken into account. Therefore, the trigger and data acquisition system will be described briefly in chapter \ref{sec:TDAS}.  
+
+
+
+A very briefly introduction to the analysis framework at Belle II, BASF2, will be given in chapter \ref{sec:Tools}.
+
+In chapter \ref{chap:Phase2Eff} the selection used to only take Bhabha events into account, with only ECL informations, will be presented in detail. 
+
+Finally, this selection will be used to calculate the tracking efficiency of phase2 in chapter \ref{chp:TrackingEfficiencyPhase2} and phase3 in chapter \ref{chp:TrackingEfficiencyPhase3}.
+
+Since the same selection is used on to calculate the tracking efficiency phase2 and phase3 one can compare them. This will be done in chapter \ref{cha:Comp}.
+
+Last but not least, a short conclusion will be given in chapter \ref{cha:Conclusion}.
+\newline 
 
 In this thesis, natural units are used. This means that $c = \hbar = 1$.
+\newline
+
 
 \chapter{Theoretical Foundations}
 \label{cha:SM}
@@ -295,28 +321,32 @@ In this thesis, natural units are used. This means that $c = \hbar = 1$.
 \section{The Standard Model}
 \label{sec:SM}
 
-The standard model is based on the idea that matter is made of particles with no internal structure. These particles can interact with each other by exchanging other particles which are associated to the fundamental forces. The standard model includes the \textit{quantum electrodynamic} (QED), the \textit{electroweak theory} (EWT) and the \textit{quantum chromodynamic} (QCD) as well as the \textit{Higgs mechanism}.\\
+The standard model is based on the idea that matter is made of particles with no internal structure. These particles can interact with each other by exchanging other particles which are associated to the fundamental forces. The standard model includes the \textit{quantum electrodynamic} (QED), the \textit{electroweak theory} (EWT) and the \textit{quantum chromodynamic} (QCD) as well as the \textit{Higgs mechanism}.
+\newline
 
 The QED describes all phenomenons caused by photons ($\gamma$) and charged point-like particles like electron and positrons. In the 1920s Paul Dirac laid the foundation for the QED while computing the coefficient of spontaneous emission of an atom. The description of the weak force (\textit{quantum flavordynamics}, QFD) and the QED got merged by Sheldon Glashow in the early 1960s. The exchange particles of the weak force are the $Z$ and $W^{\pm}$ \textit{bosons}. A few years later, Steven Weinberg and Abdus Salam independently proposed a theory that included the \textit{Higgs mechanism} whereby the \textit{electroweak theory} (EQT) emerged. The Higgs mechanism is the reason why the \textit{gauge bosons} have mass.
-Finally, the standard model reached its modern form after combining the EWT and the theory of the strong interaction (\textit{quantum chromodynamic}, QCD). This was done by Abraham Pais and Sam Treiman in 1975. The exchange particles for the strong force are the \textit{gluons} ($g$). They <<\textit{glue}>> \textit{quarks} (fundamental particles) together, forming \textit{hadrons} like \textit{mesons} (even number of quarks) and \textit{baryons} (odd number of quarks). \cite{RiseStandard} \\ 
+
+Finally, the standard model reached its modern form after combining the EWT and the theory of the strong interaction (\textit{quantum chromodynamic}, QCD). This was done by Abraham Pais and Sam Treiman in 1975. The exchange particles for the strong force are the \textit{gluons} ($g$). They <<\textit{glue}>> \textit{quarks} (fundamental particles) together, forming \textit{hadrons} like \textit{mesons} (even number of quarks) and \textit{baryons} (odd number of quarks). \cite{RiseStandard}
+\newline  
 
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\textwidth]{Bilder/SM.png}
-	\caption[Standard Model]{The particles of the Standard Model include three families of quarks and leptons, four gauge bosons and the Higgs boson. The beige background indicates which bosons interact with which fermions. \cite{SMFigure}}
+	\caption[Standard Model]{The particles of the standard model include three families of quarks and leptons, four gauge bosons and the Higgs boson. The beige background indicates which bosons interact with which fermions. \cite{SMFigure}}
 	\label{fig:SM}
 \end{figure}
 
 
 
 Figure \ref{fig:SM} shows the fundamental particles of the standard model. It includes three families of quarks and leptons so-called \textit{fermions}, four \textit{gauge bosons} and the Higgs \textit{boson}. Fermions and bosons differ by the spin. Spin is a degree of freedom, which had to be introduced to conserve the angular momentum in the Dirac equation. The matter forming fermions have a half-integral spin (in units of the reduced Planck constant $\hbar$) and the bosons (the exchange particles as well as the Higgs particle) have an integer spin. The fermion family can be sectioned into two families. The \text{quark} and the lepton family. 
+
 The quark familiy consist of up- (u), down- (d), strange- (s), charm- (c), bottom- (b) and top- (t) quark. Quarks have fractional electric charge values. u-, c- and t-quark have an electric charge of $\nicefrac{2}{3} \,e$ and d-, s- and b-quark have an electric charge of $-\nicefrac{1}{3} \,e$. As indicated in figure \ref{fig:SM} by the beige background, quarks can interact with all four gauge bosons.
 The lepton family is made of the electron ($e$), the muon ($\mu$) and the tau ($\tau$) and their corresponding neutrinos $\nu_e,\nu_{\mu} \textrm{ and } \nu_{\tau}$. The neutrinos can only interact via the weak exchange particles ($W^{\pm}$ and $Z$ bosons). Since the electrons, muons and taus are charged, they can also interact with photons.
 
 All fermions also have so-called \textit{antiparticles}. Antiparticles have the same mass as their corresponding particle but they have opposite charge. For example, the antiparticle of the electron is the positron. Both have the same mass and the same spin but the electron has an electric charge of $-1\,e$ and the positron has an electric charge of $+1\,e$. When a particle collides with its antiparticle annihilation can occur. In an annihilation process the incoming particles are destroyed to produce other particles. The final particles carry the same energy and momentum as the initial particles.\\
 
 
-All visible matter in the universe is made of fermions from the first family. For example, atoms consist of protons and neutrons, each of which is a combination of up and down quarks. In the electron shell of an atom the eponymous electrons are located. Pauli proposed the neutrino in the 1930 to explain the energy spectrum of electrons in $\beta$-decays. Since neutrinos are only weak interacting particles, they were not observed until 1956.\cite{REINES19941} With increasing energy, the second and third family have been gradually discovered, first from cosmic ray experiments in the 1930s up to the discovery of the Higgs boson at the Large Hadron Collider (LHC) at Cern in 2012. Parallel to the experimental discoveries, the theory also evolved, partially explaining the results and in part motivating new experiments through predictions.
+All visible matter in the universe is made out of fermions from the first family. For example, atoms consist of protons and neutrons, each of which is a combination of up and down quarks. In the electron shell of an atom the eponymous electrons are located. Pauli proposed the neutrino in the 1930 to explain the energy spectrum of electrons in $\beta$-decays. Since neutrinos are only weak interacting particles, they were not observed until 1956.\cite{REINES19941} With increasing energy, the second and third family have been gradually discovered, first from cosmic ray experiments in the 1930s up to the discovery of the Higgs boson at the Large Hadron Collider (LHC) at Cern in 2012. Parallel to the experimental discoveries, the theory also evolved, partially explaining the results and in part motivating new experiments through predictions.
 
 
 \section{Physics Beyond The Standard Model}
@@ -664,7 +694,7 @@ The Belle II detector is an upgraded version of the Belle detector which was a s
 	\label{fig:Belle2}
 \end{figure}
 
- In the innermost of the detector, three tracking sub-detectors are located, surrounding the IR. These sub-detectors are in a axial magnetic field of $1.5\,\textrm{T}$, provided by a solenoid, to be able to reconstruct the tracks of charged particles. 
+ In the innermost of the detector, three tracking sub-detectors are located, surrounding the IR. These sub-detectors are in a axial magnetic field of $1.5\,\textrm{T}$, provided by a solenoid, to be able to reconstruct the trajectories (tracks) of charged particles. 
  
  The vertex detectors, consisting of the silicon vertex detector (SVD), an upgraded version of the SVD used in Belle, and the pixel detector (PXD), a new detector designed for Belle II, are used to measure the momenta of charged particles and to reconstruct decay vertices and particles with a momentum too low to reach the central drift chamber (CDC).
 
@@ -2297,6 +2327,9 @@ In figure \ref{plt:xCEff3} you can see the $\theta$-$\phi$ efficiencies.\footnot
 
 
 \chapter{Comparing Phase2 With Phase3}
+\label{cha:Comp}
+
+
 \lettrine{T}{his} chapter will provide a comparison between the tracking efficiencies of phase2 and phase3. I will only present some plots and only the differences in the efficiencies will be described because the efficiencies very already discussed in the previous chapters. Also, only momenta plots for phase2 data and phase3 data will be shown.
 \newline
 
@@ -2359,6 +2392,10 @@ Figure \ref{plt:compPhiemEC} shows the phase2 data and phase3 data positron trac
 
 %_______________________________________________________________________________
 \chapter{Conclusion}
+\label{cha:Conclusion}
+
+
+
 
 
 %_______________________________________________________________________________
@@ -2730,9 +2767,6 @@ Figure \ref{plt:compPhiemEC} shows the phase2 data and phase3 data positron trac
 
 
 
-
-
-
 \begin{figure}[!htbp]
 	\centering
 	\includegraphics[width=\textwidth]{Plots/master/xPtMPhiepBarrel_MC}
@@ -2757,11 +2791,6 @@ Figure \ref{plt:compPhiemEC} shows the phase2 data and phase3 data positron trac
 \clearpage
 
 
-
-
-
-
-
 %%%
 \begin{figure}[!htbp]
 	\centering
@@ -2777,11 +2806,6 @@ Figure \ref{plt:compPhiemEC} shows the phase2 data and phase3 data positron trac
 	\caption[Transverse Momentum $\phi$ Positron Backward End-Cap Efficiency Phase2 Data]{Positron $\phi$ transverse momentum tracking efficiency plots in the backward end-cap for phase2 Data.}
 	\label{plt:PtMPhiepEC_Data}
 \end{figure}
-
-
-
-
-
 
 
 
@@ -2833,18 +2857,6 @@ Figure \ref{plt:compPhiemEC} shows the phase2 data and phase3 data positron trac
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 \chapter{Additional Phase3 Plots}
 \label{A:3}
 
@@ -2855,8 +2867,6 @@ Figure \ref{plt:compPhiemEC} shows the phase2 data and phase3 data positron trac
 	\caption[The Status Of The PXD In Phase3]{The status of the PXD during phase3. You can see that the innermost layer is completely installed and only 2 out 12 from the outer layer are installed. This sketch was modified to make it easier to look at.\cite{phase3pxd}}
 	\label{fig:phase3pxd}
 \end{figure}
-
-
 
 
 
@@ -2878,15 +2888,8 @@ Figure \ref{plt:compPhiemEC} shows the phase2 data and phase3 data positron trac
 
 
 
-
-
-
-
-
 %-------------------------------------------------------------------------------------------------------------------
 %Barrel
-
-
 
 
 
@@ -2905,9 +2908,6 @@ Figure \ref{plt:compPhiemEC} shows the phase2 data and phase3 data positron trac
 	\caption[Momentum $\phi$ Electron Barrel Efficiency Phase3 Data]{Electron $\phi$ tracking efficiency plots in the barrel for phase3 Data.}
 	\label{plt:PMPhiemBarrel3_Data}
 \end{figure}
-
-
-
 
 
 
@@ -2932,10 +2932,6 @@ Figure \ref{plt:compPhiemEC} shows the phase2 data and phase3 data positron trac
 %Backward End-Cap
 
 
-
-
-
-
 \begin{figure}[!htbp]
 	\centering
 	\includegraphics[width=\textwidth]{Plots/master3/xPMPhiepEC_MCP3}
@@ -2956,9 +2952,6 @@ Figure \ref{plt:compPhiemEC} shows the phase2 data and phase3 data positron trac
 \clearpage
 
 
-
-
-
 \begin{figure}[!htbp]
 	\centering
 	\includegraphics[width=\textwidth]{Plots/master3/xPMThetaem_MCP3}
@@ -2973,8 +2966,6 @@ Figure \ref{plt:compPhiemEC} shows the phase2 data and phase3 data positron trac
 	\caption[Momentum $\theta$ Electron Efficiency Phase3 Data]{Electron $\phi$ tracking efficiency plots for phase3 Data. The pink line indicates the different sectors of the ECL.}
 	\label{plt:PMThetaem3_Data}
 \end{figure}
-
-
 
 
 \begin{figure}[!htbp]
@@ -2998,13 +2989,6 @@ Figure \ref{plt:compPhiemEC} shows the phase2 data and phase3 data positron trac
 %transverse Momentum Phase2
 
 
-
-
-
-
-
-
-
 \begin{figure}[!htbp]
 	\centering
 	\includegraphics[width=\textwidth]{Plots/master3/xPtMPhiemFC_MCP3}
@@ -3023,14 +3007,9 @@ Figure \ref{plt:compPhiemEC} shows the phase2 data and phase3 data positron trac
 
 
 
-
-
-
 \clearpage
 %-------------------------------------------------------------------------------------------------------------------
 %Barrel
-
-
 
 
 
@@ -3048,8 +3027,6 @@ Figure \ref{plt:compPhiemEC} shows the phase2 data and phase3 data positron trac
 	\caption[Transverse Momentum $\phi$ Electron Barrel Efficiency Phase3 Data]{Electron $\phi$ transverse momentum tracking efficiency plots in the barrel for phase3 Data.}
 	\label{plt:PtMPhiemBarrel3_Data}
 \end{figure}
-
-
 
 
 
@@ -3079,10 +3056,6 @@ Figure \ref{plt:compPhiemEC} shows the phase2 data and phase3 data positron trac
 
 
 
-
-
-
-
 %%%
 \begin{figure}[!htbp]
 	\centering
@@ -3098,12 +3071,6 @@ Figure \ref{plt:compPhiemEC} shows the phase2 data and phase3 data positron trac
 	\caption[Transverse Momentum $\phi$ Positron Backward End-Cap Efficiency Phase3 Data]{Positron $\phi$ transverse momentum tracking efficiency plots in the backward end-cap for phase3 Data.}
 	\label{plt:PtMPhiepEC3_Data}
 \end{figure}
-
-
-
-
-
-
 
 
 \clearpage
@@ -3149,16 +3116,6 @@ Figure \ref{plt:compPhiemEC} shows the phase2 data and phase3 data positron trac
 	\caption[$\theta$-$\phi$ Efficiency Error Plots Phase3]{$\theta$-$\phi$ efficiency errors for phase3. Left: Phase3 MC. Right: Phase3 data. First line: electron efficiency errors. Second line: positron efficiency errors.}
 	\label{plt:xCEff_Error3}
 \end{figure}
-
-
-
-
-
-
-
-
-
-
 
 
 \listoffigures
