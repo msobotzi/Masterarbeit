@@ -269,26 +269,29 @@ D-55128 Mainz\\
 \label{sec:Introduction}
 
 
-\lettrine{T}{he} standard model of particle physics (SM) is a extraordinary successful theory which describes three out of four fundamental forces in nature. The predictions of this theory are extremely accurate within the reach of precision and energy currently available at modern experiments. 
+\lettrine{T}{he} standard model of particle physics (SM) is an extraordinary successful theory which describes three out of four fundamental forces in nature. The predictions of this theory are extremely accurate within the reach of precision and energy currently available at modern experiments. 
 Nevertheless, the standard model is far from complete because it is unable to answer fundamental questions like the origin of the matter/antimatter asymmetry, the presence of dark matter/energy and many other unanswered questions. Theories which try to answer these question have been developed suggesting physics beyond the standard model ultimately leading to new physics. Nonetheless, these theories lack experimental evidence.
 
 
 The Belle II experiment is located at the electron-positron collider SuperKEKB at KEK in Tsukuba, Japan. SuperKEKB is a next-generation $B$ factory with a design luminosity of $8\cdot 10^{35}\,\textrm{cm}^{-1}\textrm{s}^{-1}$. It is planed that SuperKEKB will ultimately have a data sample corresponding to a recorded integrated luminosity of $\sim 50\,\textrm{ab}^{-1}$. 
 The Belle II detector is designed to study the properties of $B$ and $D$ mesons with respect to new physics. Belle II started taking physics data in early 2019. 
-The detector consists of a vast variety of sub-detectors each fulfilling a complementary purpose like determination of the charge, trajectory (track) reconstruction, momentum measurements, particle identification etc. For example, the purpose amongst others of the innermost sub-detectors is to reconstruct tracks created by charged particles passing through them. Of course, these sub-detectors are not able to reconstruct every charged particle as such. Therefore, one has to estimate how well they perform. This can be done by using Bhabha events. 
+The detector consists of a vast variety of sub-detectors each fulfilling a complementary purpose like determination of the charge, trajectory reconstruction (tracking), momentum measurements, particle identification etc. For example, the purpose amongst others of the innermost sub-detectors is to reconstruct tracks created by charged particles passing through them. Of course, these sub-detectors are not able to reconstruct every charged particle as such. Therefore, one has to estimate how well they perform. This can be done by using Bhabha events. 
 In a Bhabha event, an electron interacts with its antiparticle, a positron, by scattering or annihilation. The outgoing particles are then an electron and a positron again. Using the kinematics of this process and informations solely coming from the electromagnetic calorimeter (ECL), a sub-detector surrounding the inner sub-detectors, it is possible to select only Bhabha events. Therefore, one knows that there has to be an outgoing electron and positron in these events. Then, it is counted how often a charged particle is reconstructed as such. Finally, this number is divided by the total number of particles in all the Bhabha events. The result is a so-called tracking efficiency.
 \newline
 
-This thesis will present tracking efficiency for different phases of the Belle II detector. The tracking efficiencies will be shown for several (transverse) momenta ranges and as a function of the polar angle $\theta$ and the azimuth angle $\phi$.
+
+In this thesis, the selection used to select only Bhabha events with ECL informations will be described. The selection will be motivated by Monte Carlo-Truth informations. These informations are the true properties of the particles generated in Monte Carlo (MC). Then, it will be shown that this selection works even without the Truth informations and can therefore, be applied on real data as well. Finally, the tracking efficiencies for different phases of the Belle II detector will be calculated and presented. The tracking efficiencies will be shown for several (transverse) momenta ranges and as a function of the polar angle $\theta$ and of the azimuth angle $\phi$. It will also differentiated between an electron tracking efficiency and a positron tracking efficiency.
 \newline
+
+
+%This thesis will present tracking efficiency for different phases of the Belle II detector. The tracking efficiencies will be shown for several (transverse) momenta ranges and as a function of the polar angle $\theta$ and the azimuth angle $\phi$.
+
 
 Chapter \ref{cha:SM} will present a short introduction to the standard model of particle physics. Also, Bhabha scattering will be explained briefly followed by Bhabha kinematics at Belle II. 
 
 In chapter \ref{sec:SetupKEK} the experimental setup at SuperKEKB will be described. First, the accelerator SuperKEKB will be introduced, then the Belle II detector with all of its sub-detectors starting with the innermost.
 
 Since, the ECL will be used as a tool to select Bhabha events, one has to be sure that it send out a trigger signal in each event which is taken into account. Therefore, the trigger and data acquisition system will be described briefly in chapter \ref{sec:TDAS}.  
-
-
 
 A very briefly introduction to the analysis framework at Belle II, BASF2, will be given in chapter \ref{sec:Tools}.
 
@@ -2394,6 +2397,14 @@ Figure \ref{plt:compPhiemEC} shows the phase2 data and phase3 data positron trac
 \chapter{Conclusion}
 \label{cha:Conclusion}
 
+In this work the tracking efficiency of the innermost detectors of Belle II was presented. 
+Using Monte Carlo-Truth information, these are the informations of the generated MC particle and therefore the truth properties of these particles, I tried to shown that it is possible to select outgoing electron/positron events, also known as Bhabha events, with informations solely coming from the electromagnetic calorimeter (ECL), a sub-detector of Belle II. 
+This selection is rather basic because it is mostly based on just the kinematics of these Bhabha events. Then, using this selection, I managed to reconstruct these Bhabha events even without the MC-Truth information. Therefore, it was possible to apply this selection on real data and tracking efficiencies could be calculated. This was done for phase2 MC, phase2 data, phase3 MC and phase3 data.
+The calculated tracking efficiencies for phase2 MC and phase2 data were compared in detail and differences were highlighted. The same was done with the tracking efficiencies of phase3 MC and phase3 data. 
+
+For the phase2 tracking efficiency, we saw that most of the time, the tracking efficiency of phase2 MC is higher than the tracking efficiency of phase2 data. Unfortunately, the phase2 MC has noticeably larger error bars due to the lower statistics.
+
+The tracking efficiencies, especially in the end-caps, of phase2 MC and phase2 data have remarkable differences in structure and in the height. The biggest differences occur at $\phi \approx 0$. For these angles even the structure of the tracking efficiencies vary often times. Also, both tracking efficiencies fall drastically down to 0 at the end of both end-caps.
 
 
 
