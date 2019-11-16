@@ -230,11 +230,11 @@ D-55128 Mainz\\
 \newpage
 
 
+
+\epigraph{Before there was earth or sea or the sky that covers everything, Nature appeared the same throughout the whole world: what we call chaos: a raw confused mass, nothing but inert matter, badly combined discordant atoms of things, confused in the one place.}{Ovid - Matamorphoses}
+
+
 \epigraph{As the proverb says, a picture is worth a thousand words...}
-
-
-
-
 
 
 
@@ -301,7 +301,7 @@ Finally, this selection will be used to calculate the tracking efficiency of pha
 
 Since the same selection is used on to calculate the tracking efficiency phase2 and phase3 one can compare them. This will be done in chapter \ref{cha:Comp}.
 
-Last but not least, a short conclusion will be given in chapter \ref{cha:Conclusion}.
+Last but not least, a short summary and conclusion will be given in chapter \ref{cha:Conclusion}.
 \newline 
 
 In this thesis, natural units are used. This means that $c = \hbar = 1$.
@@ -1668,6 +1668,10 @@ The selected ranges can be found in table \ref{tab:RTPMDThetaTable}.
 
 
 \lettrine{I}{n} this chapter the tracking efficiency studies on phase2 will be presented. The selection described in chapter \ref{chap:Phase2Eff} will be applied in this chapter. Phase2 data in blue and phase2 Monte Carlo in red will be shown together, in order to make comparison between these two easier. The individual tracking efficiencies can be found in the appendix chapter \ref{A:2}. Also, only tracking efficiencies with $\Delta \epsilon < 0.4$ are plotted to make the plots more easy to read. 
+\newline
+ 
+We will see that the tracking efficiencies for phase2 MC will be higher than the tracking efficiencies for phase2 data. This is expected because if you want to generate Monte Carlo files, you have to simulate the detector as a whole and it is impossible to consider every aspect of the structure of the detector like cabling, screws and even impurities of the material which we have in reality. These additional materials can interact with the outgoing particles, and these particles could scatter an additional or be absorbed by the material, for example. In addition, there is no dead time of the detector in MC. Each event is simulated individually. This is another error source for real data. Also, in MC, the detector is working with optimal conditions. Only one event is happening at a time, there are no fluctuations in the power supplies etc.
+For real data, all of these issues result in a lower tracking efficiency. Therefore, phase MC should have a higher tracking efficiency compared to phase2 data. Otherwise, it will be noted. This is also true for phase3.
  
 
 \section{Momentum Efficiencies}
@@ -1678,7 +1682,8 @@ The selected ranges can be found in table \ref{tab:RTPMDThetaTable}.
 
 
 In figure \ref{plt:xPMPhiemFC} you can see the calculated electron tracking efficiency for different momenta. As expected, the tracking efficiency for phase2 data is almost all of the time worse than the efficiency for phase2 MC for all momenta. For momenta between $4\,\textrm{GeV}$ and $5\,\textrm{GeV}$, phase2 MC and phase2 data have a similar efficiency. In both cases, the lowest efficiency occurs at $\phi \approx 0$. According to figures \ref{plt:RTPMemD_MC} and \ref{plt:RTPMemD_Data}, we expect that most electrons have a momentum between $5\,\textrm{GeV}$ and $8\,\textrm{GeV}$. For momenta between $5\,\textrm{GeV}$ and $6\,\textrm{GeV}$ phase2 data and phase2 MC have some differences in the calculated tracking efficiency. Phase2 MC has an efficiency between 0.80 and 0.95 with an exception of an efficiency drop at $\phi \approx 0$. This drop also appears on phase2 data, but for $\phi > \textrm{abs}(1.5)$ the efficiency on phase2 data is much worse than phase2 MC. Here the efficiency falls partially below 0.7 for phase2 data.
- The biggest difference occurs for momenta between $6\,\textrm{GeV}$ and $7\,\textrm{GeV}$. For phase2 MC, the tracking efficiency ranges between 0.90 and almost 1.00. But the efficiency oscillates heavily between 0.7 and 0.95 for phase2 data. In both cases the highest efficiency occurs at $\phi \approx 0$. For momenta between $7\,\textrm{GeV}$ and $8\,\textrm{GeV}$, phase2 MC has a tracking efficiency of above 0.98 for all $\phi$ angles. Except for $\phi \approx 0$. Here the efficiency is still high but the errors are bigger. For phase2 data, the efficiency is also very high for $\phi >\textrm{abs}(1)$. But for $\phi < \textrm{abs}(1)$ the efficiency falls down by over $10\,\%$.
+The biggest difference occurs for momenta between $6\,\textrm{GeV}$ and $7\,\textrm{GeV}$. For phase2 MC, the tracking efficiency ranges between 0.90 and almost 1.00. But the efficiency oscillates heavily between 0.7 and 0.95 for phase2 data. In both cases the highest efficiency occurs at $\phi \approx 0$. 
+For momenta between $7\,\textrm{GeV}$ and $8\,\textrm{GeV}$, phase2 MC has a tracking efficiency of above 0.98 for all $\phi$ angles. Except for $\phi \approx 0$. Here the efficiency is still high but the errors are bigger. For phase2 data, the efficiency is also very high for $\phi >\textrm{abs}(1)$. But for $\phi < \textrm{abs}(1)$ the efficiency falls down by over $10\,\%$.
 
 
 
@@ -2394,17 +2399,20 @@ Figure \ref{plt:compPhiemEC} shows the phase2 data and phase3 data positron trac
 
 
 %_______________________________________________________________________________
-\chapter{Conclusion}
+\chapter{Summary And Conclusion}
 \label{cha:Conclusion}
 
 In this work the tracking efficiency of the innermost detectors of Belle II was presented. 
-Using Monte Carlo-Truth information, these are the informations of the generated MC particle and therefore the truth properties of these particles, I tried to shown that it is possible to select outgoing electron/positron events, also known as Bhabha events, with informations solely coming from the electromagnetic calorimeter (ECL), a sub-detector of Belle II. 
+Using Monte Carlo-Truth information, these are the informations of the generated MC particle and therefore the true properties of these particles, I tried to shown that it is possible to select outgoing electron/positron events, also known as Bhabha events, with informations solely coming from the electromagnetic calorimeter (ECL), a sub-detector of Belle II. 
 This selection is rather basic because it is mostly based on just the kinematics of these Bhabha events. Then, using this selection, I managed to reconstruct these Bhabha events even without the MC-Truth information. Therefore, it was possible to apply this selection on real data and tracking efficiencies could be calculated. This was done for phase2 MC, phase2 data, phase3 MC and phase3 data.
 The calculated tracking efficiencies for phase2 MC and phase2 data were compared in detail and differences were highlighted. The same was done with the tracking efficiencies of phase3 MC and phase3 data. 
 
-For the phase2 tracking efficiency, we saw that most of the time, the tracking efficiency of phase2 MC is higher than the tracking efficiency of phase2 data. Unfortunately, the phase2 MC has noticeably larger error bars due to the lower statistics.
+For the phase2 tracking efficiency, we saw that most of the time, the tracking efficiency of phase2 MC is higher than the tracking efficiency of phase2 data. But this was expected, because on MC, there are no dead times, the detector is always performing at its best and some structures of the detector, like cabling or screws, which may interfere with the outgoing particles, are maybe not implemented in the simulation which ultimately leads to a higher efficiency. Unfortunately, the phase2 MC has noticeably larger error bars due to the lower statistics.
 
 The tracking efficiencies, especially in the end-caps, of phase2 MC and phase2 data have remarkable differences in structure and in the height. The biggest differences occur at $\phi \approx 0$. For these angles even the structure of the tracking efficiencies vary often times. Also, both tracking efficiencies fall drastically down to 0 at the end of both end-caps.
+
+Overall, there was no improvement from phase2 to phase3 in the barrel. But, the tracking efficiency in both end-caps got way better for electrons and positrons.
+
 
 
 
