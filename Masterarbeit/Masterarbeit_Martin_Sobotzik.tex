@@ -35,7 +35,7 @@
 \usepackage{nicefrac}
 \usepackage[backend=bibtex,style=numeric,sorting=none]{biblatex}
 \usepackage{lmodern}
-\usepackage{epigraph}
+\usepackage{epigraph,varwidth}
 \usepackage[T1]{fontenc}
 \usepackage{yfonts,color}
 \usepackage{titlesec}
@@ -53,6 +53,10 @@
 \floatstyle{plaintop}
 \restylefloat{table}
 \maxdeadcycles=1000
+
+
+\renewcommand{\epigraphsize}{\small}
+\setlength{\epigraphwidth}{0.55\textwidth}
 
 \lstset{
 	numbers=left,               % Ort der Zeilennummern
@@ -231,7 +235,24 @@ D-55128 Mainz\\
 
 
 
-\epigraph{Before there was earth or sea or the sky that covers everything, Nature appeared the same throughout the whole world: what we call chaos: a raw confused mass, nothing but inert matter, badly combined discordant atoms of things, confused in the one place.}{Ovid - Matamorphoses}
+\epigraph{Before the sea,                     
+	              
+	land, and heavens, which cover everything,
+	
+	the entire world of nature looked the same.
+	
+	They called that Chaos, a crude, confused mass,                              
+	
+	nothing but lifeless stuff and scattered seeds
+	
+	of matter not yet properly combined,
+	
+	all piled up in the same place together}{Ovid ($\sim 8\,\textrm{AD}$) -\textit{Metamorphoses}-
+	
+Book I: -\textit{The Primal Chaos}- Verse: 5-9
+
+Translated by: Ian Johnston (2012)
+}
 
 
 \epigraph{As the proverb says, a picture is worth a thousand words...}
@@ -271,7 +292,7 @@ D-55128 Mainz\\
 
 \lettrine{T}{he} standard model of particle physics (SM) is an extraordinary successful theory which describes three out of four fundamental forces in nature. The predictions of this theory are extremely accurate within the reach of precision and energy currently available at modern experiments. 
 Nevertheless, the standard model is far from complete because it is unable to answer fundamental questions like the origin of the matter/antimatter asymmetry, the presence of dark matter/energy and many other unanswered questions. Theories which try to answer these question have been developed suggesting physics beyond the standard model ultimately leading to new physics. Nonetheless, these theories lack experimental evidence.
-
+\newline
 
 The Belle II experiment is located at the electron-positron collider SuperKEKB at KEK in Tsukuba, Japan. SuperKEKB is a next-generation $B$ factory with a design luminosity of $8\cdot 10^{35}\,\textrm{cm}^{-1}\textrm{s}^{-1}$. It is planed that SuperKEKB will ultimately have a data sample corresponding to a recorded integrated luminosity of $\sim 50\,\textrm{ab}^{-1}$. 
 The Belle II detector is designed to study the properties of $B$ and $D$ mesons with respect to new physics. Belle II started taking physics data in early 2019. 
@@ -299,7 +320,7 @@ In chapter \ref{chap:Phase2Eff} the selection used to only take Bhabha events in
 
 Finally, this selection will be used to calculate the tracking efficiency of phase2 in chapter \ref{chp:TrackingEfficiencyPhase2} and phase3 in chapter \ref{chp:TrackingEfficiencyPhase3}.
 
-Since the same selection is used on to calculate the tracking efficiency phase2 and phase3 one can compare them. This will be done in chapter \ref{cha:Comp}.
+Since the same selection is used to calculate the tracking efficiency of phase2 and phase3 one can compare them. This will be done in chapter \ref{cha:Comp}.
 
 Last but not least, a short summary and conclusion will be given in chapter \ref{cha:Conclusion}.
 \newline 
@@ -327,10 +348,9 @@ In this thesis, natural units are used. This means that $c = \hbar = 1$.
 The standard model is based on the idea that matter is made of particles with no internal structure. These particles can interact with each other by exchanging other particles which are associated to the fundamental forces. The standard model includes the \textit{quantum electrodynamic} (QED), the \textit{electroweak theory} (EWT) and the \textit{quantum chromodynamic} (QCD) as well as the \textit{Higgs mechanism}.
 \newline
 
-The QED describes all phenomenons caused by photons ($\gamma$) and charged point-like particles like electron and positrons. In the 1920s Paul Dirac laid the foundation for the QED while computing the coefficient of spontaneous emission of an atom. The description of the weak force (\textit{quantum flavordynamics}, QFD) and the QED got merged by Sheldon Glashow in the early 1960s. The exchange particles of the weak force are the $Z$ and $W^{\pm}$ \textit{bosons}. A few years later, Steven Weinberg and Abdus Salam independently proposed a theory that included the \textit{Higgs mechanism} whereby the \textit{electroweak theory} (EQT) emerged. The Higgs mechanism is the reason why the \textit{gauge bosons} have mass.
+The QED describes all phenomenons caused by photons ($\gamma$) and charged point-like particles like electrons and positrons. In the 1920s Paul Dirac laid the foundation for the QED while computing the coefficient of spontaneous emission of an atom. The description of the weak force (\textit{quantum flavordynamics}, QFD) and the QED got merged by Sheldon Glashow in the early 1960s. The exchange particles of the weak force are the $Z$ and $W^{\pm}$ \textit{bosons}. A few years later, Steven Weinberg and Abdus Salam independently proposed a theory that included the \textit{Higgs mechanism} whereby the \textit{electroweak theory} (EQT) emerged. The Higgs mechanism is the reason why the \textit{gauge bosons} have mass.
 
-Finally, the standard model reached its modern form after combining the EWT and the theory of the strong interaction (\textit{quantum chromodynamic}, QCD). This was done by Abraham Pais and Sam Treiman in 1975. The exchange particles for the strong force are the \textit{gluons} ($g$). They <<\textit{glue}>> \textit{quarks} (fundamental particles) together, forming \textit{hadrons} like \textit{mesons} (even number of quarks) and \textit{baryons} (odd number of quarks). \cite{RiseStandard}
-\newline  
+Finally, the standard model reached its modern form after combining the EWT and the theory of the strong interaction (\textit{quantum chromodynamic}, QCD). This was done by Abraham Pais and Sam Treiman in 1975. The exchange particles for the strong force are the \textit{gluons} ($g$). They <<\textit{glue}>> \textit{quarks} (fundamental particles) together, forming \textit{hadrons} like \textit{mesons} (containing two quarks) and \textit{baryons} (containing three quarks). \cite{RiseStandard}
 
 \begin{figure}[h!]
 	\centering
@@ -354,7 +374,7 @@ All visible matter in the universe is made out of fermions from the first family
 
 \section{Physics Beyond The Standard Model}
 
-Despite the success of the standard model as an effective theory, it fails answering a lot of open questions. As already mentioned, the standard model only includes three out of four fundamental forces. It does not include gravity, therefore, the standard model is not valid at energy scales approaching the Planck energy $E_P \approx 1.22\cdot 10^{19}\,\textrm{GeV} $.\cite{sivaram2007special} It is also unable to explain dark matter, dark energy and the matter/antimatter asymmetry in the universe which is directly linked to charged-parity violation.\cite{HAMBYE2012193}
+Despite the success of the standard model as an effective theory, it fails answering a lot of open questions. As already mentioned, the standard model only includes three out of four fundamental forces. It does not include gravity, it is not valid at energy scales approaching the Planck energy $E_P \approx 10^{19}\,\textrm{GeV} $.\cite{sivaram2007special} It is also unable to explain dark matter, dark energy and the matter/antimatter asymmetry in the universe which is directly linked to charged-parity violation.\cite{HAMBYE2012193}
 
 \section{Bhabha Scattering}
 \label{sec:Bhabha}
@@ -514,7 +534,7 @@ child[grow=down, level distance=0pt] {
 \subsection{Differential Cross Section Of Bhabha Processes}
 \label{sec:cross-section}
 
-The cross section describes the probability that two particle will interact with each other when they collide. If this collision creates secondary radiation, then the intensity distribution over the spatial direction $\Omega$ is described by the differential cross section $\nicefrac{\textrm{d}\sigma}{\textrm{d}\Omega}$.
+A cross section describes the probability that two particle will interact with each other when they collide. If this collision creates secondary radiation, then the intensity distribution over the spatial direction $\Omega$ is described by the differential cross section $\nicefrac{\textrm{d}\sigma}{\textrm{d}\Omega}$.
 
 The differential cross section for the electron\footnote{The electrons are moving along the x-axis. The positrons are moving in the opposite direction} in a Bhabha process is given by equation \ref{eq:bhabhaCross}. 
 
@@ -539,13 +559,13 @@ The differential cross section for the electron\footnote{The electrons are movin
 		\centering
 		\includegraphics[width=\textwidth]{Bilder/dsdO1}
 	\end{minipage}
-	\caption[Differential Cross Section For Electrons And Positrons In Bhabha Events]{Differential cross-section for Bhabha events. Left: The Cross-section for electrons is shown and on the left for positrons.
+	\caption[Differential Cross Section For Electrons And Positrons In Bhabha Events]{Differential cross section for Bhabha events. Left: The Cross section for electrons is shown and on the left for positrons.
 	
 These plots were created with python3.}
 	\label{fig:CrossSectionElPos}
 	\end{figure}
 
-In figure \ref{fig:CrossSectionElPos} on the left, the differential cross section for electrons is plotted. Since, most incoming particles are only very slightly deflected, the cross section is very high for small angels and gets smaller with increasing angle. Equation \ref{eq:bhabhaCross} is also true for positrons but since they are moving in the opposite direction,therefore, $\theta$ has to be replaced by $\pi - \theta$ in equation \ref{eq:bhabhaCross}. This result is plotted in figure \ref{fig:CrossSectionElPos} on the right.
+In figure \ref{fig:CrossSectionElPos} on the left, the differential cross section for electrons is plotted. Since, most incoming particles are only very slightly deflected, the cross section is very high for small angels and gets smaller with increasing angle. Equation \ref{eq:bhabhaCross} is also true for positrons but they are moving in the opposite direction, therefore, $\theta$ has to be replaced by $\pi - \theta$ in equation \ref{eq:bhabhaCross}. The result is plotted in figure \ref{fig:CrossSectionElPos} on the right.
 
 
 
@@ -553,7 +573,7 @@ In figure \ref{fig:CrossSectionElPos} on the left, the differential cross sectio
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=10cm]{Bilder/dsdOb}
-	\caption[Differential Cross Section For Bhabha Events]{This figure shows to differential cross section for Bhabha events. 
+	\caption[Differential Cross Section For Bhabha Events]{This figure shows the differential cross section for Bhabha events. 
 		
 		This plot was created with python3.}
 	\label{fig:CrossSectionBoth}
@@ -570,12 +590,12 @@ At Belle II the electron and the positron beams have different energies. Also, t
 \begin{figure}[h!]
 	\centering
 \includegraphics[width=\textwidth]{Bilder/CThetaP}
-	\caption[$\theta$-Momentum-Distribution In The CMS And LAB Frame]{Bhabha scattering in different frames. In the CMS the particle has the same Belle II energy in every $\theta$-direction. Left: The $\theta$-Energy-distribution in the CMS frame is shown. Right: The $\theta$-Energy-distribution in the lab frame is shown.}
+	\caption[$\theta$-Momentum-Distribution In The CMS And LAB Frame]{Bhabha scattering in different frames. In the CMS the particle has the same energy in every $\theta$-direction. Left: The $\theta$-Energy-distribution in the CMS frame is shown. Right: The $\theta$-Energy-distribution in the lab frame is shown.}
 	\label{fig:Belle IIMomentum}
 	
 \end{figure}
 
-Figure \ref{fig:Belle IIMomentum} on the left, you can see  the momentum of the Bhabha particles as a function of the $\theta$ angle in the center-of-mass frame. Since the incoming electron and the positron have the same mass and they are hitting each other with the same energy, the outgoing particles always have the same momentum independent of the $\theta$ angle in the center of mass frame. In the right plot, you can see the momentum distribution after the boost in the lab system. For small $\theta$ angles a higher momentum of the outgoing particles is expected compared to high $\theta$ angles. The fanning of the distribution is cased by the fact that the beams are hitting each other under an angle at Belle II. Also, due to the fanning, we expect a range of energies at a fixed $\theta$ angle.
+Figure \ref{fig:Belle IIMomentum} on the left, you can see  the momentum of the Bhabha particles as a function of the $\theta$ angle in the center-of-mass frame. Since the incoming electron and the positron have the same mass and they are hitting each other with the same energy, the outgoing particles always have the same momentum independent of the $\theta$ angle in the center of mass frame. In the right plot, you can see the momentum distribution after the boost in the lab system. For small $\theta$ angles a higher momentum of the outgoing particles is expected compared to high $\theta$ angles. The fanning of the distribution is caused by the fact that the beams are hitting each other under an angle at Belle II. Also, due to the fanning, we expect a range of energies at a fixed $\theta$ angle.
 
 
 
@@ -587,7 +607,7 @@ Figure \ref{fig:Belle IIMomentum} on the left, you can see  the momentum of the 
 \end{figure}
 
 
-Figure \ref{fig:Belle IItMomentum} shows the transverse momentum as a function of $\theta$ for the outgoing Bhabha particles at Belle II. The left plot shows the distribution in the center-of-mass frame, while the right plots shows it for the lab frame. In both frames, we expect the highest transverse momentum at an $\theta$ angle of about $\nicefrac{\pi}{2}$.
+Figure \ref{fig:Belle IItMomentum} shows the transverse momentum as a function of $\theta$ for the outgoing Bhabha particles at Belle II. The left plot shows the distribution in the center-of-mass frame, while the right plots shows it for the lab frame. In both frames, we expect the highest transverse momentum at a $\theta$ angle of about $\nicefrac{\pi}{2}$.
 
 
 
@@ -614,7 +634,7 @@ In figure \ref{fig:EvsE} the energy of the outgoing Bhabha particles in the lab 
 \label{sec:SetupKEK}
 
 \lettrine{S}{uperKEKB} is a two-ring, asymmetric\footnote{asymmetric means that there is an energy difference between the two colliding beams}, electron positron accelerator, which is located at KEK (\textit{High Energy Accelerator Research Organization}) in Tsukuba, Japan. 
-The electron beam has an energy of $7\,\textnormal{GeV}$ and the positron beam has an energy of $4\,\textnormal{GeV}$. These beams collide with a center-of-momentum energy of about $10.58\,\textnormal{GeV}$, which is close to the mass of the $\Upsilon(4\textnormal{S})$ resonance. Therefore SuperKEKB is a so-called \textit{B-factory}. The decay products are then detected by the Belle II detector to study the properties of these B mesons with high precision. In early 2018 Belle II started taking data. One goal of Belle II is to study CP-Violation with respect to new physics.\cite{B2B}
+The electron beam has an energy of $7\,\textnormal{GeV}$ and the positron beam has an energy of $4\,\textnormal{GeV}$. These beams collide with a center-of-momentum energy of about $10.58\,\textnormal{GeV}$, which is close to the mass of the $\Upsilon(4\textnormal{S})$ resonance. Therefore SuperKEKB is a so-called \textit{B-factory}. The decay products are then detected by the Belle II detector to study the properties of these B mesons with high precision. In early 2018, Belle II started taking data. One goal of Belle II is to study CP-Violation with respect to new physics.\cite{B2B}
 
 \section{KEKB And SuperKEKB}
 \label{sec:KEK}
@@ -637,9 +657,9 @@ SuperKEKB is an upgrade of the KEKB accelerator. KEKB was also an asymmetric ele
 
 
 
-In figure \ref{fig:SuperKEKB} you can see the schematic layout of the SuperKEKB accelerator. The electrons are start at the Low emittance gun. They are then accelerated in the \textit{J}-shaped linear particle accelerator (linac). Due to lack of space, the linac has to have this special form.\cite{KEKBJArc} After the curve and a second acceleration stage the electrons hit the positron production target, where the positrons are created. After this target, there are more acceleration stages, before the two beam are then injected into their independent storage rings. The electrons are stored in the high-energy ring (HER) and the positrons are stored in the low-energy ring (LER). Each of these rings has a circumference of about $3\,\textrm{km}$. Both beams collide at the interaction region (IR). The products of the collisions are then detected by the Belle II detector, an upgraded version of the Belle detector.\cite{B2B} (See section \ref{sec:Belle II})
+In figure \ref{fig:SuperKEKB} you can see the schematic layout of the SuperKEKB accelerator. The electrons start at the Low emittance gun. They are then accelerated in the \textit{J}-shaped linear particle accelerator (linac). Due to lack of space, the linac has to have this special form.\cite{KEKBJArc} After the curve and a second acceleration stage the electrons hit the positron production target, where the positrons are created. After this target, there are more acceleration stages, before the two beam are then injected into their independent storage rings. The electrons are stored in the high-energy ring (HER) and the positrons are stored in the low-energy ring (LER). Each of these rings has a circumference of about $3\,\textrm{km}$. Both beams collide at the interaction region (IR). The products of the collisions are then detected by the Belle II detector, an upgraded version of the Belle detector.\cite{B2B} (See section \ref{sec:Belle II})
 
-SuperKEKB uses a smaller asymmetry in the beam energies compared to KEKB. This allows the usage for higher beam currents and better focusing magnets. This can then result into a higher luminosity. The goal is to achieve a 40 times higher luminosity with SuperKEKB compared to KEKB.
+SuperKEKB uses a smaller asymmetry in the beam energies compared to KEKB. This allows the usage for higher beam currents and better focusing magnets. Ultimately, this will result into a higher luminosity. The goal is to achieve a 40 times higher luminosity with SuperKEKB compared to KEKB.
 An integrated luminosity of $50\,\textrm{ab}^{-1}$ will be achieved by 2025.\cite{B2B}
 
 The instantaneous luminosity $\mathcal{L}$ specifies the performance of the collider. Knowing $\mathcal{L} $ and the cross section $\sigma$ one can calculate the events per second for a process by the following formula.
@@ -669,7 +689,7 @@ SuperKEKB increased the luminosity by a factor of two compared to KEKB by increa
 		\centering
 		\includegraphics[width=\textwidth]{Bilder/SuperKEKBBeam}
 	\end{minipage}
-		\caption[Sketch Of The Beam Crossing For KEKB And SuperKEKB]{Sketch of the beam crossing at KEKB (left) and SuperKEKB (right). At KEKB the size of the interaction region was about $10\,\textrm{mm}$. At SuperKEKB it is about $0.5\,\textrm{mm}$.\cite{Beamsize} This figure was edited in order to make the axis more readable.}
+		\caption[Sketch Of The Beam Crossing For KEKB And SuperKEKB]{Sketch of the beam crossing at KEKB (left) and SuperKEKB (right). At KEKB the size of the interaction region in $z$-direction was about $10\,\textrm{mm}$. At SuperKEKB it is about $0.5\,\textrm{mm}$.\cite{Beamsize} This figure was edited in order to make the axis more readable.}
 	\label{fig:beamsize}
 
 \end{figure}
@@ -687,7 +707,7 @@ Also, the size of the interaction region at SuperKEKB is just one twentieth of w
 \section{The Belle II Detector}
 \label{sec:Belle II}
 
-The Belle II detector is an upgraded version of the Belle detector which was a solid-angle magnetic spectrometer located at the interaction region of KEK. In figure \ref{fig:Belle2} a sketch of the Belle II detector is shown. The detector contains of a variety of sub-detectors, each fulfilling a specific purpose.
+The Belle II detector is an upgraded version of the Belle detector which was a solid-angle magnetic spectrometer located at the interaction region of KEK. In figure \ref{fig:Belle2} a sketch of the Belle II detector is shown. The detector contains a variety of sub-detectors, each fulfilling a specific purpose.
  
 \begin{figure}[h!]
 	\centering
@@ -726,7 +746,7 @@ A sketch of the coordinate system is shown in figure \ref{fig:CoordinateSysytem}
 \section{Vertex detector}
 \label{sec:vertexDet}
 
-The vertex detectors (VXD) are able to make precise measurements of the tracks of particles close to the interaction region. This allows the reconstruction of decay-vertices of long-lived particles. For this it is very important to determine the distance and the spatial resolution of the first measured hit, and the effect of multiple scattering.
+The vertex detectors (VXD) are able to make precise measurements of the tracks of particles close to the interaction region. This allows the reconstruction of decay-vertices of long-lived particles. For this, it is very important to determine the distance and the spatial resolution of the first measured hit, and the effect of multiple scattering.
 
 
 \begin{figure}[h!]
@@ -768,7 +788,7 @@ DePFET is a semiconductor detector concept invented in 1987 by J. Kemmer and G. 
 \label{fig:DePFET}
 \end{figure}
 
-A cross section of the device is shown in figure \ref{fig:DePFET}. The structure of a DePFET cell consists of fully depleted silicon. In this silicon substrate, depleted by a high negative voltage, a $p-$channel MOSFET (metal oxide semiconductor field effect transistor) of a JFET (junction field effect transistor) is integrated. The field effect transistors act as a first pre-intensification. When radiation or a particle hists the detector, electron-hole pairs are created. These pairs get separated by the potential field of the sidewards depletion. The positive charged holes drift to the negatively charged back contact. The negative charged electrons are collected in the potential minimum. The so-called internal gate. Above the internal gate a field emission transistor is located. The signal charge is amplified right above the position where it was generated. This avoids the leakage of lateral charge transfers. One of the most important main features of the DePFET is that the internal gate has a very small capacitance. This makes it possible to measure events affected by low noise even at room temperature.\cite{B2TR}
+A cross section of the device is shown in figure \ref{fig:DePFET}. The structure of a DePFET cell consists of fully depleted silicon. In this silicon substrate, depleted by a high negative voltage, a $p-$channel MOSFET (metal oxide semiconductor field effect transistor) of a JFET (junction field effect transistor) is integrated. The field effect transistors act as a first pre-intensification. When radiation or a particle hits the detector, electron-hole pairs are created. These pairs get separated by the potential field of the sidewards depletion. The positive charged holes drift to the negatively charged back contact. The negative charged electrons are collected in the potential minimum. The so-called internal gate. Above the internal gate a field emission transistor is located. The signal charge is amplified right above the position where it was generated. This avoids the leakage of lateral charge transfers. One of the most important main features of the DePFET is that the internal gate has a very small capacitance. This makes it possible to measure events affected by low noise even at room temperature.\cite{B2TR}
 
 \subsection{Silicon Vertex Detector}
 \label{sec:Silicon}
@@ -802,7 +822,7 @@ The CDC surrounds the SVD. It consists of 14336 wires arranged in 56 layers and 
 
 When a charged particle passes through the CDC it losses energy due to ionization of the gas. This produces electron-ion pairs, which are then separated by the electric field provided by 42240 aluminum field wires, with a diameter of $125\,\mu\textrm{m}$. The signal is then read out by the sense wires. These have a radius of $30\,\mu\textrm{m}$ and are made out of gold-plated tungsten.\cite{B2TR} 
 
-As indicated in figure \ref{fig:CDC} there are different superlayers in the CDC. The Dense Axial and Axial sense wires allow the reconstruction of the track in the $r-\phi$ plane. The stereo sense wires gives information about the $z$ direction. These stereo wires are tilted in respect to the $z$ direction. Six layers of sense wires are combined to a superlayer. The CDC consists of five axial superlayers (A), and four stereo superlayer. The four stereo superlayer subdivide into two stereo superlayer (U) with a positive stereo angle and two stereo superlayers (V) with a negative stereo angle. Starting with the innermost superlayer, every second superlayer is an axial superlayer. The stereo superlayers are between them, alternating between U and V. In total there are nine superlayers. The innermost superlayer is called \textit{small-cell chamber} has a total of eight superlayers. (compared to the other superlayers with just six layers) This was done to lower the influence of the background, which is higher in the innermost superlayer due to the vicinity to the interaction region.
+As indicated in figure \ref{fig:CDC} there are different superlayers in the CDC. The Dense Axial and Axial sense wires allow the reconstruction of the track in the $r-\phi$ plane. The stereo sense wires gives information about the $z$-direction. These stereo wires are tilted in respect to the $z$-direction. Six layers of sense wires are combined to a superlayer. The CDC consists of five axial superlayers (A), and four stereo superlayer. The four stereo superlayer subdivide into two stereo superlayer (U) with a positive stereo angle and two stereo superlayers (V) with a negative stereo angle. Starting with the innermost superlayer, every second superlayer is an axial superlayer. The stereo superlayers are between them, alternating between U and V. In total there are nine superlayers. The innermost superlayer is called \textit{small-cell chamber} and has a total of eight superlayers. (compared to the other superlayers with just six layers) This was done to lower the influence of the background, which is higher in the innermost superlayer due to the vicinity to the interaction region.
 The CDC has a spatial resolution of about $100\,\mu\textrm{m}$.\cite{B2TR}
 
 \section{TOP And ARICH}
@@ -847,17 +867,17 @@ The ARICH detector is located in the forward end-cap region. It is designed to d
 	\includegraphics[width=\textwidth]{Bilder/ARICH2}
 \end{minipage}
 
-	\caption[ARICH]{Left: Illustration of the working principle of the ARICH detector. The yellow Cerenkov ring on the photon detector is produced by a $\pi$, the green ring by a $K$. Right: The radiator is shown in more detail. The radiator consists of two aerogel layers with different reflective index. \cite{TORASSA} }
+	\caption[ARICH]{Left: Illustration of the working principle of the ARICH detector. The yellow Cerenkov ring on the photon detector is produced by a $\pi$ meson, the green ring by a $K$ meson. Right: The radiator is shown in more detail. The radiator consists of two aerogel layers with different reflective index. \cite{TORASSA} }
 \label{fig:ARICH}
 \end{figure}
 
-In figure \ref{fig:ARICH} the working principle of the ARICH detector is shown. A charged particle passes through two layers of an aerogel radiator with different reflective indexes and emits Cerenkov photons under a Cerenkov angle $\theta_C$. Behind the radiator is an extension volume for the Cerenkov rings to form. At a distance of $20\,\textrm{cm}$ behind the radiator is the photon detector.\cite{B2TR} Once the Cerenkov ring is reconstructed, the radius of the ring can be determined and, knowing the distance and the radius, the Cerenkov angle can be calculated.
+In figure \ref{fig:ARICH} the working principle of the ARICH detector is shown. A charged particle passes through two layers of an aerogel radiator with different reflective indexes and emits Cerenkov photons under a Cerenkov angle $\theta_C$. Behind the radiator, an extension volume, for the Cerenkov rings to form, is located. At a distance of $20\,\textrm{cm}$ behind the radiator is the photon detector.\cite{B2TR} Once the Cerenkov ring is reconstructed, the radius of the ring can be determined and, knowing the distance and the radius, the Cerenkov angle can be calculated.
 
 \section{Electromagnetic Calorimeter}
 \label{sec:ECL}
 
-One of the main tasks of the ECL is the detection of photons with a high efficiency. It also determents the energy and the angular coordinates of these photons with high precision. It is also used for electron identification and the generation of a proper signal for the trigger. The ECL consists of a $3\,\textrm{m}$ long barrel section with an inner radius of $1.25\,\textrm{m}$. The circular end-caps are located at a distance of $z=1.96\,\textrm{m}$ in the forward direction and $z=-1.02\,\textrm{m}$ in the backward direction from the interaction point. The ECL covers a polar angle region of $12.4^{\circ} < \theta < 155.1^{\circ}$. Due to construction, there are two $ \sim 1^{\circ}$ wide gaps between the barrel and the end-caps. The barrel section of the calorimeter consists of 6624 CsI(Tl)\footnote{Thallium activated Cesium Iodide} crystals with 29 distinct shapes. Each of these crystals is a truncated pyramid with an average size of about $6\times6 \, \textrm{cm}^2$ in cross section and $30\,\textrm{cm}$ in length. The length of these crystals corresponds to around 16.1 radiation lengths $X_0$. The end-caps consist of 2122 CsI crystals of 69 shapes. At the end of each crystal, photo-multiplier are mounted to detect the excitation of the scintillators. The detected number of photons corresponds directly to the energy released by absorbed particles.
-The energy resolution of the calorimeter can be approximated as:\cite{B2TR} \cite{Belle_ECL_2015}
+One of the main tasks of the ECL is the detection of photons with a high efficiency, it determines the energy and the angular coordinates of these photons with high precision, it is also used for electron identification and the generation of a proper signal for the trigger. The ECL consists of a $3\,\textrm{m}$ long barrel section with an inner radius of $1.25\,\textrm{m}$. The circular end-caps are located at a distance of $z=1.96\,\textrm{m}$ in the forward direction and $z=-1.02\,\textrm{m}$ in the backward direction from the interaction point. The ECL covers a polar angle region of $12.4^{\circ} < \theta < 155.1^{\circ}$. Due to construction, there are two $ \sim 1^{\circ}$ wide gaps between the barrel and the end-caps. The barrel section of the calorimeter consists of 6624 CsI(Tl)\footnote{Thallium activated Cesium Iodide} crystals with 29 distinct shapes. Each of these crystals is a truncated pyramid with an average size of about $6\times6 \, \textrm{cm}^2$ in cross section and $30\,\textrm{cm}$ in length. The length of these crystals corresponds to around 16.1 radiation lengths $X_0$. The end-caps consist of 2122 CsI crystals of 69 shapes. At the end of each crystal, photo-multiplier are mounted to detect the excitation of the scintillators. The detected number of photons corresponds directly to the energy released by absorbed particles.
+The energy resolution of the calorimeter can be approximated by:\cite{B2TR} \cite{Belle_ECL_2015}
 
 \begin{equation}
 \frac{\sigma_E}{E} = \sqrt{\bigg(\frac{0.066\%}{E}\bigg)^2 + \bigg(\frac{0.81\%}{\sqrt[4]{E}}\bigg)^2 + (1.34\%)^2}
@@ -933,7 +953,7 @@ The trigger system has to fulfill the following requirements:\cite{B2TR}
 \end{enumerate}
 
 
-At SuperKEKB bunch crossing occurs almost continuously, since the radio-frequency (RF) is about $508\,\textrm{Hz}$ and every second or third period produces an event.\cite{B2TR} The total cross section and trigger rates at a luminosity of  $	\mathcal{L} = 8\cdot 10^{35} \, \textrm{cm}^{-2} \textrm{s}^{-1}$ for various physics processes is shown in table \ref{tab:Lumi}.
+At SuperKEKB bunch crossing occurs almost continuously, since the radio-frequency (RF) is about $508\,\textrm{MHz}$ and every second or third period produces an event.\cite{B2TR} The total cross section and trigger rates at a luminosity of  $	\mathcal{L} = 8\cdot 10^{35} \, \textrm{cm}^{-2} \textrm{s}^{-1}$ for various physics processes is shown in table \ref{tab:Lumi}.
 
 
 
@@ -968,7 +988,7 @@ $\Upsilon(\textrm{4S} \rightarrow B\bar{B}$) & 1.2&960 \\
 \end{minipage}
 \end{table}
 
-The luminosity is measured by using Bhabha and $\gamma \gamma$ events. These events are also used to calibrate the detector response. Due to the high luminosity, these events are very dominant. That is the reason why there is a prescaling factor of 100  on these events. This means that on  predetermined fraction of these events are accepted after satisfying the trigger requirements.
+The luminosity is measured by using Bhabha and $\gamma \gamma$ events. These events are also used to calibrate the detector response. Due to their high cross section, these events are very dominant. That is the reason why there is a prescaling factor of 100  on these events. This means that on  predetermined fraction of these events are accepted after satisfying the trigger requirements.
 After a beam collision, the GDL decides within about $5\,\mu \textrm{s}$ if the event should be accepted and if it should be written out. Since the GDL is the first module to make a decision, and since it is dead time free, it is also called Level-1 trigger.\cite{B2TR}
 
 \section{Data Acquisition System}
@@ -1014,7 +1034,7 @@ For the off-line reconstruction to work it has to take into account that the Bel
 \section{Phase2}
 \label{sec:Phase2}
 
-Phase2 data were taken in the time between March 2018 and July 2018. During this time, only a small azimuthal fraction of the vertex detector was installed. A sketch of the installed VXD can be found in the appendix figure \ref{fig:phase2vxd}. The main focus of this phase was to study the background of the newly installed Belle II detectors, in order to be certain that the operation of the vertex detector is compatible with the much higher luminosity expected for physics data taking. Also, hardware controls were tested in this phase.
+Phase2 data were taken in the time between March 2018 and July 2018. During this time, only a small azimuthal fraction of the vertex detector was installed at $\phi \approx 0$. A sketch of the installed VXD can be found in the appendix figure \ref{fig:phase2vxd}. The main focus of this phase was to study the background of the newly installed Belle II detectors, in order to be certain that the operation of the vertex detector is compatible with the much higher luminosity expected for physics data taking. Also, hardware controls were tested in this phase.
 
 
 \section{Definition Of Tracking Efficiency}
@@ -1548,7 +1568,7 @@ In figure \ref{fig:nCandAS}, you can see the number of candidates per event afte
 \section{Dividing The ECL In Areas Of Interest}
 \label{sec:DivECL}
 
-As described in section \ref{sec:ECL}, the ECL is divided in three areas. The barrel, the forward end-cap and the backward end-cap. Therefore, we will take a look at the efficiency of these areas separately. The first area will only contain the forward end-cap. This means, only particles with an predicted $\theta$ angle of $0^\circ <\theta<32^\circ$ will be taken into account. The second area of interest is the barrel. Here the predicted $\theta$ angle of the investigated particle has to be $32^\circ < \theta < 130^\circ$. The last area of interest is the backward end-cap with an cluster $\theta$ angle of $130^\circ <\theta < 180^\circ$.  
+As described in section \ref{sec:ECL}, the ECL is divided in three areas, the barrel, the forward end-cap and the backward end-cap. Therefore, we will take a look at the efficiency of these areas separately. The first area will only contain the forward end-cap. This means, only particles with an predicted $\theta$ angle of $0^\circ <\theta<32^\circ$ will be taken into account. The second area of interest is the barrel. Here, the predicted $\theta$ angle of the investigated particle has to be $32^\circ < \theta < 130^\circ$. The last area of interest is the backward end-cap with an cluster $\theta$ angle of $130^\circ <\theta < 180^\circ$.  
 
 In section \ref{sec:Kinematics}, we saw that the the azimuth angle and the momentum of the particles are correlated in the lab frame. Therefore, we need to look at momentum intervals. Otherwise, it would be impossible to interpret the calculated efficiencies. For example, a low efficiency in $\phi$ could be the results of an inefficient forward end-cap or created by momentum dependencies.
 
@@ -1572,7 +1592,7 @@ In figure \ref{plt:RTPMemD_MC} you can see the \textit{denominator} histograms f
 \end{figure}
 
 
- Figure \ref{plt:RTPMemD_Data} shows the same plots but for phase2 data. Small differences for momenta between $4\,\textrm{GeV}$ and more at an $\phi$ angle of about $0^\circ$ are caused by the geometry of the vertex detector. As already mentioned in section \ref{sec:Phase2}, only a small azimuthal fraction at $\phi =0$ was installed but not simulated properly on Monte Carlo. 
+ Figure \ref{plt:RTPMemD_Data} shows the same plots but for phase2 data. Small differences for momenta between $4\,\textrm{GeV}$ and more at an $\phi$ angle of about $0^\circ$ are probably caused by the geometry of the vertex detector. As already mentioned in section \ref{sec:Phase2}, only a small azimuthal fraction at $\phi \approx 0$ was installed.
  The corresponding phase2 data plots for positrons are shown in figure \ref{plt:RTPMepD_Data}.  
 
 In these four figures, one can also see that it makes sense to look only at some momenta for different areas of interest. The different momenta regions are listed in table \ref{tab:RTPMDTable}.
@@ -2404,18 +2424,23 @@ Figure \ref{plt:compPhiemEC} shows the phase2 data and phase3 data positron trac
 
 In this work the tracking efficiency of the innermost detectors of Belle II was presented. 
 Using Monte Carlo-Truth information, these are the informations of the generated MC particle and therefore the true properties of these particles, I tried to shown that it is possible to select outgoing electron/positron events, also known as Bhabha events, with informations solely coming from the electromagnetic calorimeter (ECL), a sub-detector of Belle II. 
-This selection is rather basic because it is mostly based on just the kinematics of these Bhabha events. Then, using this selection, I managed to reconstruct these Bhabha events even without the MC-Truth information. Therefore, it was possible to apply this selection on real data and tracking efficiencies could be calculated. This was done for phase2 MC, phase2 data, phase3 MC and phase3 data.
+This selection is rather basic because it is mostly based on just the kinematics of these Bhabha events. Then, using this selection, I managed to reconstruct these Bhabha events even without the MC-Truth information. Therefore, it was possible to apply this selection on real data and tracking efficiencies could be calculated. 
+This was done for phase2 MC, phase2 data, phase3 MC and phase3 data.
 The calculated tracking efficiencies for phase2 MC and phase2 data were compared in detail and differences were highlighted. The same was done with the tracking efficiencies of phase3 MC and phase3 data. 
+\newline 
 
-For the phase2 tracking efficiency, we saw that most of the time, the tracking efficiencies of phase2 MC are higher than the tracking efficiencies of phase2 data. But this was expected, because on MC, there are no dead times of the detector, the detector is always performing at its best and some structures of the detector, like cabling or screws, which may interfere with the outgoing particles, are maybe not implemented in the simulation which ultimately leads to a higher efficiency. Unfortunately, the phase2 MC has noticeably larger error bars due to the lower statistics.
+Phase2 was a test run to study the background at Belle II. For this phase only a small fraction of the vertex detectors (VXD) were installed.
+
+For the phase2 tracking efficiency, we saw that most of the time, the tracking efficiencies of phase2 MC are higher than the tracking efficiencies of phase2 data. But this was expected, because on MC, there are no dead times of the detector, the detector is always performing at its best and some structures of the detector, like cabling or screws, which may interfere with the outgoing particles, are maybe not implemented in the simulation, ultimately leading to a higher efficiency. This is also true for phase3. Unfortunately, the phase2 and phase3 MC has noticeably larger error bars compared to phase2 and phase3 data due to the lower statistics.
 \newline
 
-The tracking efficiencies, especially in the end-caps, of phase2 MC and phase2 data have remarkable differences in structure and in the height. The biggest differences occur at $\phi \approx 0$. For these angles even the structure of the tracking efficiencies vary often times. Also, both tracking efficiencies fall drastically down to 0 at the end of both end-caps.
+The tracking efficiencies, especially in the end-caps, of phase2 MC and phase2 data have remarkable differences in structure and in the height. The biggest differences occur at $\phi \approx 0$. For these angles even the structure of the tracking efficiencies vary often times. Also, both tracking efficiencies fall drastically down to 0 at the end of both end-caps. In the barrel, phase2 MC and phase2 data are closer together, most of the time.
 \newline
 
-For phase3, the vertex detector (VXD) was installed in Belle II. This includes the silicon vertex detector (SVD) and the pixel detector (PXD). 
-Overall, there was no improvement from phase2 to phase3 in the barrel. But, the tracking efficiencies in both end-caps got way better for electrons and positrons and for all momenta.
+For phase3, the first physics run for Belle II, more parts of the VXD were installed. This includes the silicon vertex detector (SVD) and most of the pixel detector (PXD). 
 
+Overall, the tracking efficiencies in both end-caps got way better for electrons and positrons and for all momenta. One has to mention, that there are drops in the phase3 data tracking efficiency for some $\phi$ values.
+In the barrel, unfortunately, no noticeable improved of the tracking efficiency could be observed.
 
 
 
@@ -2484,7 +2509,7 @@ Overall, there was no improvement from phase2 to phase3 in the barrel. But, the 
 
 
 
-
+\clearpage
 
 
 
