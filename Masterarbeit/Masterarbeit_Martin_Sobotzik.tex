@@ -168,7 +168,7 @@
 \begin{titlepage}
   \vspace*{6mm}
   \begin{center}
-     {\afont Systematic Studies on Reconstruction Efficiency at Belle II}
+     {\afont Systematic Studies on Track Reconstruction Efficiency at Belle II}
      \\[3.5cm]
      {\large von}
      \\[3.5cm]
@@ -276,13 +276,14 @@ In this thesis, the selection used to select only Bhabha events with ECL informa
 %This thesis will present tracking efficiency for different phases of the Belle II detector. The tracking efficiencies will be shown for several (transverse) momenta ranges and as a function of the polar angle $\theta$ and the azimuth angle $\phi$.
 
 
-Chapter \ref{cha:SM} will present a short introduction to the standard model of particle physics. Additionally, Bhabha scattering will be explained briefly followed by Bhabha kinematics at Belle II. 
+Chapter \ref{cha:SM} will present a short introduction to the standard model of particle physics. Additionally, Bhabha scattering will be explained briefly. 
 
 In chapter \ref{sec:SetupKEK} the experimental setup at SuperKEKB will be described. First, the accelerator SuperKEKB will be introduced, then the Belle II detector with all of its sub-detectors starting with the innermost.
 
-Since the ECL will be used as a tool to select Bhabha events, one has to be sure that it sends out a trigger signal in each event which is taken into account. Therefore, the trigger and data acquisition system will be described briefly in chapter \ref{sec:TDAS}.  
+Since the ECL will be used as a tool to select Bhabha events, one has to be sure that it sends out a trigger signal in each event which is taken into account. Therefore, the trigger and data acquisition system will be described briefly, with the analysis framework Basf2 together, in chapter \ref{sec:TDAS}.  
 
-A very brief introduction to the analysis framework at Belle II, Basf2, will be given in chapter \ref{sec:Tools}.
+
+The Bhabha kinematics at Belle II will be discussed in chapter \ref{cha:Kinematics}.
 
 In chapter \ref{chap:Phase2Eff} the selection used to only take Bhabha events into account with informations solely coming from the ECL will be presented in detail. 
 
@@ -307,16 +308,16 @@ In this thesis, natural units are used. This means that $c = \hbar = 1$.
  Unfortunately, the standard model fails to explain a variety of different observations and since gravitation is not included in the standard model, it is easy to see that the standard model is not complete.
  
  
- Finally, this chapter will briefly describe the electron-positron scattering process, also known as Bhabha scattering, which plays an important role in this thesis.
+ Finally, this chapter will briefly describe the electron-positron scattering process, also known as Bhabha scattering. This process will be used to perform the tracking efficiency later on.
  
  
 \section{The Standard Model}
 \label{sec:SM}
 
-The standard model is based on the idea that matter is made of particles with no internal structure. These particles can interact with each other by exchanging other particles which are associated to the fundamental forces. The standard model includes the \textit{quantum electrodynamic} (QED), the \textit{electroweak theory} (EWT) and the \textit{quantum chromodynamic} (QCD) as well as the \textit{Higgs mechanism}.
+The standard model is based on the idea that matter is made of particles with no internal structure. These particles can interact with each other by exchanging other particles which are associated to the fundamental forces. The standard model includes \textit{quantum electrodynamic} (QED), \textit{electroweak theory} (EWT) and the \textit{quantum chromodynamic} (QCD) as well as the \textit{Higgs mechanism}.
 \newline
 
-The QED describes all phenomena caused by photons ($\gamma$) and charged point-like particles like electrons and positrons. In the 1920s Paul Dirac laid the foundation for the QED while computing the coefficient of spontaneous emission of an atom. The description of the weak force (\textit{quantum flavordynamics}, QFD) and the QED got merged by Sheldon Glashow in the early 1960s. The exchange particles of the weak force are the $Z$ and $W^{\pm}$ \textit{bosons}. A few years later, Steven Weinberg and Abdus Salam independently proposed a theory that included the \textit{Higgs mechanism} whereby the \textit{electroweak theory} (EQT) emerged. The Higgs mechanism is the reason why the \textit{gauge bosons} have mass.
+QED describes all electromagnetic phenomena which are caused by the interaction of photons ($\gamma$) and charged point-like particles like electrons and positrons. In the 1920s, Paul Dirac laid the foundation for the QED while computing the coefficient of spontaneous emission of an atom. The description of the weak force (\textit{quantum flavordynamics}, QFD) and the QED got merged by Sheldon Glashow in the early 1960s. The exchange particles of the weak force are the $Z$ and $W^{\pm}$ \textit{bosons}. A few years later, Steven Weinberg and Abdus Salam independently proposed a theory that included the \textit{Higgs mechanism} whereby the \textit{electroweak theory} (EQT) emerged. The Higgs mechanism is the reason why the \textit{gauge bosons} mediating the weak interaction have mass.
 
 Finally, the standard model reached its modern form after combining the EWT and the theory of the strong interaction (\textit{quantum chromodynamics}, QCD). This was done by Abraham Pais and Sam Treiman in 1975. The exchange particles for the strong force are the \textit{gluons} ($g$). They <<\textit{glue}>> \textit{quarks} (fundamental particles) together, forming \textit{hadrons} like \textit{mesons} (containing two quarks) and \textit{baryons} (containing three quarks). \cite{RiseStandard}
 
@@ -329,27 +330,41 @@ Finally, the standard model reached its modern form after combining the EWT and 
 
 
 
-Figure \ref{fig:SM} shows the fundamental particles of the standard model. It includes three families of quarks and leptons so-called \textit{fermions}, four \textit{gauge bosons} and the Higgs \textit{boson}. Fermions and bosons differ by the spin. Spin is a degree of freedom, which had to be introduced to conserve the angular momentum in the Dirac equation. The matter forming fermions have a half-integral spin (in units of the reduced Planck constant $\hbar$) and the bosons (the exchange particles have spin 1 and the Higgs particle has spin 0) have an integer spin. The fermion family can be subdivided into two families. The \text{quark} and the lepton family. 
+Figure \ref{fig:SM} shows the fundamental particles of the standard model. It includes three families of quarks and leptons so-called \textit{fermions}, four \textit{gauge bosons} and the Higgs \textit{boson}. Fermions and bosons differ in their spin. Spin is a degree of freedom, which had to be introduced to conserve the angular momentum in the Dirac equation. The matter forming fermions have a half-integral spin (in units of the reduced Planck constant $\hbar$) and the bosons (the exchange particles have spin 1 and the Higgs particle has spin 0) have an integer spin. The fermion family can be subdivided into two families, the \text{quark} and the lepton family. 
 
-The quark family consist of up- (u), down- (d), strange- (s), charm- (c), bottom- (b) and top- (t) quark. Quarks have fractional electric charge values. u-, c- and t-quark have an electric charge of $\nicefrac{2}{3} \,e$ and d-, s- and b-quark have an electric charge of $-\nicefrac{1}{3} \,e$. As indicated in figure \ref{fig:SM} by the beige background, quarks can interact with all four gauge bosons.
+The quark family consists of up- (u), down- (d), strange- (s), charm- (c), bottom- (b) and top- (t) quark. Quarks have fractional electric charge values. u-, c- and t-quark have an electric charge of $\nicefrac{2}{3} \,e$, and d-, s- and b-quark have an electric charge of $-\nicefrac{1}{3} \,e$. As indicated in figure \ref{fig:SM} by the beige background, quarks can interact with all four gauge bosons.
 The lepton family is made of the electron ($e$), the muon ($\mu$) and the tau ($\tau$) and their corresponding neutrinos $\nu_e,\nu_{\mu} \textrm{ and } \nu_{\tau}$. All leptons can interact via the weak exchange particles ($W^{\pm}$ and $Z$ bosons), and since the electrons, muons and taus are charged, they can also interact with photons.
 
-All fermions also have so-called \textit{antiparticles}. Antiparticles have the same mass as their corresponding particle but they have opposite charge. For example, the antiparticle of the electron is the positron. Both have the same mass and the same spin but the electron has an electric charge of $-1\,e$ and the positron has an electric charge of $+1\,e$. When a particle collides with its antiparticle \textit{annihilation} can occur. In an annihilation process the incoming particles are destroyed to produce other particles. The final particles carry the same energy and momentum as the initial particles.\\
+All fermions also have so-called \textit{antiparticles}. Antiparticles have the same mass as their corresponding particle but they have opposite charge. For example, the antiparticle of the electron is the positron. Both have the same mass and the same spin but the electron has an electric charge of $-1\,e$ and the positron has an electric charge of $+1\,e$. When a particle collides with its antiparticle \textit{annihilation} can occur. In an annihilation process the incoming particles are destroyed to produce other particles. In this process, overall energy and momentum are conserved.
+\newline
 
 
-All visible matter in the universe is made out of fermions from the first family. For example, atoms consist of protons and neutrons, each of which is a combination of up and down quarks. In the electron shell of an atom the eponymous electrons are located. Pauli proposed the neutrino in the 1930 to explain the energy spectrum of electrons in $\beta$-decays. Since neutrinos are only weakly interacting particles, they were not observed until 1956.\cite{REINES19941} With increasing energy, the second and third family have been discovered gradually, first from cosmic ray experiments in the 1930s up to the discovery of the Higgs boson at the Large Hadron Collider (LHC) at Cern in 2012. Parallel to the experimental discoveries, the theory also evolved, partially explaining the results and in part motivating new experiments through predictions.
+All visible matter in the universe is made out of fermions from the first family. For example, atoms consist of protons and neutrons, each of which is a combination of up and down quarks. In the electron shell of an atom the eponymous electrons are located. Pauli proposed the neutrino in the 1930 to explain the energy spectrum of electrons in $\beta$-decays. Since neutrinos are only weakly interacting particles, they were not observed until 1956.\cite{REINES19941} With increasing energy, more and more particles of the standard model have been discovered gradually, first from cosmic ray experiments in the 1930s up to the discovery of the Higgs boson at the Large Hadron Collider (LHC) at CERN in 2012. Parallel to the experimental discoveries, the theory also evolved, partially explaining the results and in part motivating new experiments through predictions.
 
 
 \section{Physics Beyond The Standard Model}
 
-Despite the success of the standard model, it fails answering a lot of open questions. As already mentioned, the standard model only includes three of four fundamental forces. It does not include gravity, and it is not valid at energy scales approaching the Planck energy $E_P \approx 10^{19}\,\textrm{GeV} $.\cite{sivaram2007special} It is also unable to explain dark matter, dark energy and the matter/antimatter asymmetry in the universe which is directly linked to charged-parity violation.\cite{HAMBYE2012193}
+Despite the success of the standard model, it fails to answer a lot of open questions. As already mentioned, the standard model only includes three of four fundamental forces. It does not include gravity, and it is not valid at energy scales approaching the Planck energy $E_P \approx 10^{19}\,\textrm{GeV} $.\cite{sivaram2007special} It is also unable to answer questions like:
+
+\begin{itemize}
+	
+\item Dark matter: the mass of all visible matter in spinning galaxies are not high enough to counteract the centripetal force, therefore additional massive particles which does not interact electromagnetically have to be introduced. They are called dark matter.\cite{DarkMAtter}
+
+
+\item Dark energy: Observation of supernovae in distant galaxies showed that the expansion of the universe is accelerating. The theory of dark energy was created to explain this observation. Dark energy is an unknown form of energy and it is thought that it permeates the universe.\cite{Janka}
+
+
+\item  Matter-Antimatter asymmetry: The standard model requires a conservation of the number of baryons, and the big bang should have created equal amounts of matter and antimatter. But today, the universe almost exclusively contains matter. This is directly linked to charged-parity violation.\cite{HAMBYE2012193}
+
+
+\end{itemize}
 
 Therefore, physicist all around the world, work with great effort on experiments and theories to describe all the phenomena we can observe in the universe, leading to new physics.
 
 \section{Bhabha Scattering}
 \label{sec:Bhabha}
 
-In this section we want to briefly discuss Bhabha scattering. We will start with the physics of Bhabha scattering and then discuss the Bhabha kinematics at Belle II.
+In this section we want to briefly discuss Bhabha scattering. We will start with the physics of Bhabha scattering.
  
 \subsection{Bhabha Process}
  \label{sec:BhabhaProcess}
@@ -491,7 +506,7 @@ child[grow=down, level distance=0pt] {
 
 \end{minipage}
 
-\caption[Bhabha Feynman Diagrams]{The two Bhabha process Feynman diagrams. The left diagram describes the annihilation and pair production process, whereas the right diagram describes a classic electromagnetic scattering process.}
+\caption[Bhabha Feynman Diagrams]{The two Bhabha process leading -order Feynman diagrams. The left diagram describes the annihilation and pair production process, whereas the right diagram describes a classic electromagnetic scattering process.}
 \label{fig:feynman}
 
 
@@ -501,7 +516,7 @@ child[grow=down, level distance=0pt] {
 \subsection{Differential Cross Section Of Bhabha Processes}
 \label{sec:cross-section}
 
-A cross section describes the probability that two particle will interact with each other when they collide. If this collision creates secondary radiation, then the intensity distribution over the spatial direction $\Omega$ is described by the differential cross section $\nicefrac{\textrm{d}\sigma}{\textrm{d}\Omega}$.
+A cross section describes the probability that two particle will interact with each other when they collide. Then the intensity distribution of the outgoing particles over the spatial direction $\Omega$ is described by the differential cross section $\nicefrac{\textrm{d}\sigma}{\textrm{d}\Omega}$.
 
 The differential cross section for the electron\footnote{The electrons are moving along the x-axis. The positrons are moving in the opposite direction} in a Bhabha process is given by equation \ref{eq:bhabhaCross}. 
 
@@ -526,13 +541,11 @@ The differential cross section for the electron\footnote{The electrons are movin
 		\centering
 		\includegraphics[width=\textwidth]{Bilder/dsdO1}
 	\end{minipage}
-	\caption[Differential Cross Section For Electrons And Positrons In Bhabha Events]{Differential cross section for Bhabha events. Left: The Cross section for electrons is shown and on the left for positrons.
-	
-These plots were created with python3.}
+	\caption[Differential Cross Section For Electrons And Positrons In Bhabha Events]{Angular distributions for $\textrm{e}^-$ (left) and $\textrm{e}^+$ (right) from Bhabha events.}
 	\label{fig:CrossSectionElPos}
 	\end{figure}
 
-In figure \ref{fig:CrossSectionElPos} on the left, the differential cross section for electrons is plotted. Since most incoming particles are only very slightly deflected, the cross section is very high for small angels and gets smaller with increasing angle. Equation \ref{eq:bhabhaCross} is also true for positrons but they are moving in the opposite direction, $\theta$ has to be replaced by $\pi - \theta$ in equation \ref{eq:bhabhaCross}. The result is plotted in figure \ref{fig:CrossSectionElPos} on the right.
+In figure \ref{fig:CrossSectionElPos} on the left, the differential cross section for electrons is plotted. Since most incoming particles are only very slightly deflected, the cross section is very high for small scattering angles and gets smaller with increasing angle. Equation \ref{eq:bhabhaCross} is also true for positrons but they are moving in the opposite direction, $\theta$ has to be replaced by $\pi - \theta$ in equation \ref{eq:bhabhaCross}. The result is plotted in figure \ref{fig:CrossSectionElPos} on the right.
 
 
 
@@ -540,52 +553,13 @@ In figure \ref{fig:CrossSectionElPos} on the left, the differential cross sectio
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=10cm]{Bilder/dsdOb}
-	\caption[Differential Cross Section For Bhabha Events]{This figure shows the differential cross section for Bhabha events. 
-		
-		This plot was created with python3.}
+	\caption[Differential Cross Section For Bhabha Events]{This figure shows the differential cross section for Bhabha events.}
 	\label{fig:CrossSectionBoth}
 \end{figure}
 
 To get to differential cross section for Bhabha events, one has to add the differential cross section of electrons and positrons. This is shown in figure \ref{fig:CrossSectionBoth}. As you can see, most of the outgoing particles will have a very small or very large $\theta$ angle.
 
 
-\subsection{Bhabha Kinematics At Belle II}
-\label{sec:Kinematics}
-
-At Belle II the electron and the positron beams have different energies. Additionally, they are colliding with each other under an angle. Therefore, it is interesting to look at the Bhabha kinematics in the lab system of Belle II.
-
-\begin{figure}[h!]
-	\centering
-\includegraphics[width=\textwidth]{Bilder/CThetaP}
-	\caption[$\theta$-Momentum-Distribution In The CMS And LAB Frame]{Bhabha scattering in different frames. In the CMS frame the particle has the same energy in every $\theta$-direction. Left: The $\theta$-Energy-distribution in the CMS frame is shown. Right: The $\theta$-Energy-distribution in the lab frame.}
-	\label{fig:Belle IIMomentum}
-	
-\end{figure}
-
-In figure \ref{fig:Belle IIMomentum} on the left, you can see  the momentum of the Bhabha particles as a function of the $\theta$ angle in the center-of-mass frame. Since the incoming electron and the positron have the same mass and they are colliding with the same energy, the outgoing particles always have the same momentum independent of the $\theta$ angle in the center of mass frame. In the right plot you can see the momentum distribution after the boost in the lab system. For small $\theta$ angles a higher momentum of the outgoing particles is expected compared to high $\theta$ angles. The fanning of the distribution is caused by the fact that the beams are colliding with each other under an angle at Belle II. Also, due to the fanning, we expect a range of energies at a fixed $\theta$ angle.
-
-
-
-\begin{figure}[h!]
-	\centering
-\includegraphics[width=\textwidth]{Bilder/CptTheta}
-	\caption[$\theta$-Transverse Momentum-Distribution In The CMS And LAB Frame]{The transverse momentum of the outgoing Bhabha particles in different frames. Left: transverse momentum in the center-of-mass frame. The highest transverse momentum is expected at an $\theta$ angle of $\nicefrac{\pi}{2}$.  Right: The transverse momentum in the lab frame. The highest transverse momentum is shifted a bit to smaller values of $\theta$.}
-	\label{fig:Belle IItMomentum}
-\end{figure}
-
-
-Figure \ref{fig:Belle IItMomentum} shows the transverse momentum as a function of $\theta$ for the outgoing Bhabha particles at Belle II. The left plot shows the distribution in the center-of-mass frame, while the right plots shows it for the lab frame. In both frames we expect the highest transverse momentum at a $\theta$ angle of about $\nicefrac{\pi}{2}$.
-
-
-
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=10cm]{Bilder/ee}
-	\caption[Energies Of The Outgoing Particle In The LAB Frame]{The energy of the two outgoing Bhabha particles in the lab frame at Belle II.}
-	\label{fig:EvsE}
-\end{figure}
-
-In figure \ref{fig:EvsE} the energy of the outgoing Bhabha particles in the lab frame at Belle II are plotted against each other. As you can see, if for example the electron has an energy of $7\,\textrm{GeV}$ than the positron will have an energy of just about $4\,\textrm{GeV}$ and vice versa.
 
 
 
@@ -594,7 +568,7 @@ In figure \ref{fig:EvsE} the energy of the outgoing Bhabha particles in the lab 
 \label{sec:SetupKEK}
 
 \lettrine{S}{uperKEKB} is a two-ring, asymmetric\footnote{asymmetric means that there is an energy difference between the two colliding beams}, electron positron accelerator, which is located at KEK (\textit{High Energy Accelerator Research Organization}) in Tsukuba, Japan. 
-The electron beam has an energy of $7\,\textnormal{GeV}$ and the positron beam has an energy of $4\,\textnormal{GeV}$. These beams collide with a center-of-momentum energy of about $10.58\,\textnormal{GeV}$, which is close to the mass of the $\Upsilon(4\textnormal{S})$ resonance. Therefore, SuperKEKB is a so-called \textit{B-factory}. The decay products are then detected by the Belle II detector to study the properties of these B mesons with high precision. In early 2018, Belle II started taking data. One goal of Belle II is to study CP-Violation with respect to new physics.\cite{B2B}
+The electron beam has an energy of $7\,\textnormal{GeV}$ and the positron beam has an energy of $4\,\textnormal{GeV}$. These beams collide with a center-of-mass energy of about $10.58\,\textnormal{GeV}$, which is close to the mass of the $\Upsilon(4\textnormal{S})$ resonance. $\Upsilon(4\,\textrm{S})$ contains a $b$ quark and its antiparticle, making SuperKEKB a so-called \textit{B-factory}. The decay products are then detected by the Belle II detector to study the properties of these B mesons with high precision. In early 2018, Belle II started taking data. One goal of Belle II is to study CP-Violation.\cite{B2B}
 
 \section{KEKB And SuperKEKB}
 \label{sec:KEK}
@@ -616,14 +590,14 @@ SuperKEKB is an upgrade of the KEKB accelerator. KEKB was also an asymmetric ele
 In figure \ref{fig:SuperKEKB} you can see the schematic layout of the SuperKEKB accelerator. The electrons start at the low emittance gun. Then they are accelerated in the \textit{J}-shaped linear particle accelerator (linac). Due to lack of space, the linac has to have this special form.\cite{KEKBJArc} After the curve and a second acceleration stage the electrons hit the positron production target, where the positrons are created. After this target there are more acceleration stages, before the two beams are then injected into their independent storage rings. The electrons are stored in the high-energy ring (HER) and the positrons are stored in the low-energy ring (LER). Each of these rings has a circumference of about $3\,\textrm{km}$. Both beams collide at the interaction region (IR). The products of the collisions are then detected by the Belle II detector, an upgraded version of the Belle detector.\cite{B2B} (See section \ref{sec:Belle II})
 
 SuperKEKB uses a smaller asymmetry in the beam energies compared to KEKB. This allows the usage for higher beam currents and better focusing magnets. Ultimately, this will result in a higher luminosity. The goal is to achieve a 40 times higher luminosity with SuperKEKB compared to KEKB.
-An integrated luminosity of $50\,\textrm{ab}^{-1}$ will be achieved by 2025.\cite{B2B}
+An integrated luminosity of $50\,\textrm{ab}^{-1}$ is planned to be achieved by 2025.\cite{B2B}
 
 The instantaneous luminosity $\mathcal{L}$ specifies the performance of the collider. Knowing $\mathcal{L} $ and the cross section $\sigma$ one can calculate the events per second for a process by the following formula.
 \begin{equation}
 \frac{\textrm{d}N}{\textrm{d}t} = \mathcal{L} \cdot \sigma
 \end{equation} 
 
-To increase the event rate one has to increase the instantaneous luminosity since $\sigma$ is given by the processes. The instantaneous luminosity can be calculated by the following equation:
+To increase the event rate one has to increase the instantaneous luminosity since $\sigma$ is given by the processes. The instantaneous luminosity of a collider can be calculated by the following equation:
 \begin{equation}
 	\mathcal{L} = \frac{N_{e^-}N_{e^+}f_c}{4\pi \sigma_x \sigma_y} \cdot S
 	\label{eq:Lumi}
@@ -724,9 +698,9 @@ The PXD is based on Depleted P-channel Field-Effect Transistor (DePFET) technolo
 	\label{fig:pxd}
 \end{figure}
 
-As you can see in figure \ref{fig:pxd}, the PXD consists of two layers of sensors. The inner layer is made out of eight planar sensors (ladder), each has a width of $15\,\textrm{mm}$ and an effective length of $90\,\textrm{mm}$. This layer has a radius of $14\,\textrm{mm}$. The second layer consists of 12 planar sensors. These sensors also have a width of $15\,\textrm{mm}$ but a length of $123\,\textrm{mm}$. The radius for the second layer is $22\,\textrm{mm}$. The PXD provides a spatial resolution of about $1.2\,\mu\textrm{m}$.\cite{B2TR}
+As can be seen in figure \ref{fig:pxd}, the PXD consists of two layers of sensors. The inner layer is made out of eight planar sensors (ladder), each has a width of $15\,\textrm{mm}$ and an effective length of $90\,\textrm{mm}$. This layer has a radius of $14\,\textrm{mm}$. The second layer consists of 12 planar sensors. These sensors also have a width of $15\,\textrm{mm}$ but a length of $123\,\textrm{mm}$. The radius for the second layer is $22\,\textrm{mm}$. The PXD provides a spatial resolution of about $1.2\,\mu\textrm{m}$.\cite{B2TR}
 
-Due to the vicinity of the PXD to the interaction region, the quantum-electrodynamics background is very high, so the sensors must withstand high radiation. The DePFET technology fulfills this condition. \cite{B2TR} \cite{MARINAS201159}
+Due to the vicinity of the PXD to the interaction region, the QED background is very high, so the sensors must withstand high radiation. The DePFET technology fulfills this condition. \cite{B2TR} \cite{MARINAS201159}
 \newline 
 
 DePFET is a semiconductor detector concept invented in 1987 by J. Kemmer and G. Lutz of the MPI for Physics. This concepts combines detection and amplification in one single device. \cite{B2TR}
@@ -773,7 +747,7 @@ The CDC surrounds the SVD. It consists of 14336 wires arranged in 56 layers and 
 
 When a charged particle passes through the CDC it losses energy due to ionization of the gas. This produces electron-ion pairs, which are then separated by the electric field provided by 42240 aluminum field wires with a diameter of $125\,\mu\textrm{m}$. The signal is then read out by the sense wires. These have a radius of $30\,\mu\textrm{m}$ and are made out of gold-plated tungsten.\cite{B2TR} 
 
-As indicated in figure \ref{fig:CDC}, there are different superlayers in the CDC. The Dense Axial and Axial sense wires allow the reconstruction of the track in the $r$-$\phi$ plane. The stereo sense wires give information about the $z$-direction. These stereo wires are tilted with respect to the $z$-direction. Six layers of sense wires are combined to a superlayer. The CDC consists of five axial superlayers (A) and four stereo superlayers. The four stereo superlayer are subdivided into two stereo superlayers (U) with a positive stereo angle and two stereo superlayers (V) with a negative stereo angle. Starting with the innermost superlayer, every second superlayer is an axial superlayer. The stereo superlayers are between them, alternating between U and V. In total there are nine superlayers. The innermost superlayer, called \textit{small-cell chamber}, is realized with a denser packing of wires and has a total of eight layers (compared to the other superlayers with just six layers). This was done to lower the influence of the background, which is higher in the innermost superlayer due to the vicinity to the interaction region.
+As indicated in figure \ref{fig:CDC}, there are different superlayers in the CDC. The Dense Axial and Axial sense wires allow the reconstruction of the track in the $r$-$\phi$ plane. The stereo sense wires give information about the $z$-direction. These stereo wires are tilted with respect to the $z$-direction. Six layers of sense wires are combined to a superlayer. The CDC consists of five axial superlayers (A) and four stereo superlayers. The four stereo superlayer are subdivided into two stereo superlayers (U) with a positive stereo angle and two stereo superlayers (V) with a negative stereo angle. Starting with the innermost superlayer, every second superlayer is an axial superlayer. The stereo superlayers are between them, alternating between U and V. The stereo angles of the innermost stereo superlayer ranges between $45.4\,\textrm{mrad}$ and $45.8\,\textrm{mrad}$, the second between $-55.3\,\textrm{mrad}$ and $-64.3\,\textrm{mrad}$, the third between $63.1\,\textrm{mrad}$ and $70.0\,\textrm{mrad}$ and the fourth between $-68.5\,\textrm{mrad}$ and $-74.0\,\textrm{mrad}$. In total there are nine superlayers. The innermost superlayer, called \textit{small-cell chamber}, is realized with a denser packing of wires and has a total of eight layers (compared to the other superlayers with just six layers). This was done to lower the influence of the background, which is higher in the innermost superlayer due to the vicinity to the interaction region.
 The CDC has a spatial resolution of about $100\,\mu\textrm{m}$.\cite{B2TR}
 
 \section{TOP And ARICH}
@@ -802,7 +776,7 @@ The Cerenkov angle is given by \cite{cerenkovAngle}:
 
 Figure \ref{fig:TOP} shows an illustration of the functionality of a TOP bar. The charged particle emits Cerenkov light when it passes the quartz crystal. These photons then travel inside the crystal due to reflection until they are detected by a photon detector. Measuring the time difference between the emitted photons it is possible to calculate the position of the track of the charged particle. Then the outgoing photons are focused by mirrors and are finally detected by PMTs. Cerenkov photons with different $\theta_C$ will be detected by different PMTs. Therefore, the TOP reconstruct the Cerenkov ring image using the information of time, $x$ and $y$.\cite{B2TR} 
 
-The TOP counter consists of 32 quartz bars. They have a length of $1250\,\textrm{mm}$, a width of $45\,\textrm{mm}$ and a depth of $20\,\textrm{mm}$. There are two quartz bars per module. The TOP counter has a $K/\pi$ separation of over $99\,\%$.\cite{B2TR}
+The TOP counter consists of 32 quartz bars. They have a length of $1250\,\textrm{mm}$, a width of $45\,\textrm{mm}$ and a depth of $20\,\textrm{mm}$. There are two quartz bars per module. The TOP counter has a $K/\pi$ separation of over $96\,\%$ at a momentum of $4\,\textrm{GeV}$.\cite{B2TR}
 
 The ARICH detector is located in the forward end-cap region. It is designed to distinguish between kaons and pions over most of their momentum spectrum. It is also able to identify particles with a momentum below $1\,\textrm{GeV}$.
 
@@ -869,7 +843,7 @@ To distinguish between muons and hadrons, the KLM takes advantage of the high pe
 
 
 
-\chapter{Trigger And Data Acquisition System}
+\chapter{Trigger, Data Acquisition System And Basf2}
 \label{sec:TDAS}
 
 
@@ -959,13 +933,67 @@ The first part of the Belle2Link is the common readout platform (COPPER). This p
 Once the PXD receives the trigger signal, the readout starts. These data are stored on on-line selector nodes for up to $5\,\textrm{s}$. Meanwhile, the HLT performs the event reconstruction. Based on information coming from the SVD and CDC, the charged tracks, reconstructed in the HTL, are transferred back to the PXD and regions of interest (ROI) are formed. Only pixels of the PXD within the ROI are kept and considered in the second event builder. Complementary to the HLT, the data concentrator also searches for ROIs. The HLT is optimized for high momentum and the data concentrator is optimized for low momentum particles. Both systems require hits in all SVD layers. \cite{B2TR}
 
 
-\chapter{Basf2}
+\section{Basf2}
 \label{sec:Tools}
 
-\lettrine{T}{he} software framework used at Belle II is called Basf2 (Belle AnalysiS Framework). It is designed to prosecute off-line and analysis tasks. The majority of the code is written in C++, but python scripts are used for framework execution. The user specifies a sequence of modules in the python steering file which then process events. It also provides access to external libraries like ROOT which allows processing, statistical analysis, visualization and storage of common data and Geant4 for simulating the full detector.\cite{Moll_2011}
+\lettrine{T}{he} software framework used at Belle II is called Basf2 (Belle AnalysiS Framework). It is designed to perform off-line and analysis tasks. The majority of the code is written in C++, but python scripts are used for framework execution. The user specifies a sequence of modules in the python steering file which then process events. It also provides access to external libraries like ROOT which allows processing, statistical analysis, visualization and storage of common data and Geant4 for simulating the full detector.\cite{Moll_2011}
 
 
 For the off-line reconstruction to work it has to take into account that the Belle II detector consists of a set of sub-detectors. Each sub-detector has a different geometry, dimension and is made out of different materials buried in a magnetic field. It also exploits the informations on the interactions of the particles with the matter. This information is then used to reconstruct the particle trajectories and the signal they generate in the detectors. This is done using algorithm that model particle propagation.
+
+
+
+
+
+
+\chapter{Bhabha Kinematics At Belle II}
+\label{cha:Kinematics}
+
+\lettrine{A}{t} Belle II the electron and the positron beams have different energies. Additionally, they are colliding with each other under an angle. Therefore, it is interesting to look at the Bhabha kinematics in the lab system of Belle II.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\textwidth]{Bilder/CThetaP}
+	\caption[$\theta$-Momentum-Distribution In The CMS And LAB Frame]{Bhabha scattering in different frames. In the CMS frame the particle has the same energy in every $\theta$-direction. Left: The $\theta$-Energy-distribution in the CMS frame is shown. Right: The $\theta$-Energy-distribution in the lab frame.}
+	\label{fig:Belle IIMomentum}
+	
+\end{figure}
+
+Figure \ref{fig:Belle IIMomentum} shows the momentum of the Bhabha particles as a function of the $\theta$ angle in the center-of-mass frame. Since the incoming electron and the positron have the same mass and they are colliding with the same energy, the outgoing particles always have the same momentum independent of the scattering angle in the center of mass frame. In the right plot the momentum distribution after the boost in the lab system is shown. For small $\theta$ angles a higher momentum of the outgoing particles is expected compared to high $\theta$ angles. The fanning of the distribution is caused by the fact that the beams are colliding with each other under an angle at Belle II. Also, due to the fanning, we expect a range of energies at a fixed $\theta$ angle.
+
+
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\textwidth]{Bilder/CptTheta}
+	\caption[$\theta$-Transverse Momentum-Distribution In The CMS And LAB Frame]{The transverse momentum of the outgoing Bhabha particles in different frames. Left: transverse momentum in the center-of-mass frame. The highest transverse momentum is expected at an $\theta$ angle of $\nicefrac{\pi}{2}$.  Right: The transverse momentum in the lab frame. The highest transverse momentum is shifted a bit to smaller values of $\theta$.}
+	\label{fig:Belle IItMomentum}
+\end{figure}
+
+
+Figure \ref{fig:Belle IItMomentum} shows the transverse momentum as a function of $\theta$ for the outgoing Bhabha particles at Belle II. The left plot shows the distribution in the center-of-mass frame, while the right plots shows it for the lab frame. In both frames we expect the highest transverse momentum at a $\theta$ angle of about $\nicefrac{\pi}{2}$.
+
+
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=10cm]{Bilder/ee}
+	\caption[Energies Of The Outgoing Particle In The LAB Frame]{The energy of the two outgoing Bhabha particles in the lab frame at Belle II.}
+	\label{fig:EvsE}
+\end{figure}
+
+In figure \ref{fig:EvsE} the energy of the outgoing Bhabha particles in the lab frame at Belle II are plotted against each other. As you can see, if for example the electron has an energy of $7\,\textrm{GeV}$ than the positron will have an energy of just about $4\,\textrm{GeV}$ and vice versa.
+
+
+
+
+
+
+
+
+
+
+
 
 \chapter{Preparation  For Calculating The Tracking Efficiency Of Phase2}
 \label{chap:Phase2Eff}

@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.0 $
+% $ biblatex bbl format version 2.8 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -16,7 +16,7 @@
   {}
 \endgroup
 
-\datalist[entry]{none/global//global/global}
+\sortlist[entry]{none/global/}
   \entry{RiseStandard}{book}{}
     \name{author}{1}{}{%
       {{hash=LHMRMDLB}{%
@@ -25,7 +25,7 @@
          suffix={Laurie\bibnamedelima Brown},
          suffixi={L\bibinitperiod\bibinitdelim B\bibinitperiod},
          given={Michael Riordan Max\bibnamedelima Dresden},
-         giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim
+         giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod
   M\bibinitperiod\bibinitdelim D\bibinitperiod},
       }}%
     }
@@ -106,6 +106,36 @@
     \endverb
     \field{journaltitle}{arXiv preprint arXiv:0707.0058}
     \field{year}{2007}
+  \endentry
+
+  \entry{DarkMAtter}{online}{}
+    \field{labeltitlesource}{title}
+    \field{addendum}{visited on 24.11.2019}
+    \field{title}{Dark Matter}
+    \verb{url}
+    \verb https://home.cern/science/physics/dark-matter
+    \endverb
+  \endentry
+
+  \entry{Janka}{book}{}
+    \name{author}{1}{}{%
+      {{hash=JHT}{%
+         family={Janka},
+         familyi={J\bibinitperiod},
+         given={Hans-Thomas},
+         giveni={H\bibinitperiod-T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{JHT1}
+    \strng{fullhash}{JHT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{isbn}{978-3-8274-2072-5}
+    \field{title}{Supernovae und kosmische Gammablitze}
+    \field{year}{2011}
   \endentry
 
   \entry{HAMBYE2012193}{article}{}
@@ -1056,5 +1086,5 @@
     \field{month}{03}
     \field{year}{2001}
   \endentry
-\enddatalist
+\endsortlist
 \endinput
