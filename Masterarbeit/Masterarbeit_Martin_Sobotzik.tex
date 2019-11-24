@@ -557,7 +557,7 @@ In figure \ref{fig:CrossSectionElPos} on the left, the differential cross sectio
 	\label{fig:CrossSectionBoth}
 \end{figure}
 
-To get to differential cross section for Bhabha events, one has to add the differential cross section of electrons and positrons. This is shown in figure \ref{fig:CrossSectionBoth}. As you can see, most of the outgoing particles will have a very small or very large $\theta$ angle.
+To get to differential cross section for Bhabha events, one has to add the differential cross section of electrons and positrons. This is shown in figure \ref{fig:CrossSectionBoth}. As can be seen in this figure, most of the outgoing particles will have a very small or very large $\theta$ angle.
 
 
 
@@ -587,7 +587,7 @@ SuperKEKB is an upgrade of the KEKB accelerator. KEKB was also an asymmetric ele
 \end{figure}
 
 
-In figure \ref{fig:SuperKEKB} you can see the schematic layout of the SuperKEKB accelerator. The electrons start at the low emittance gun. Then they are accelerated in the \textit{J}-shaped linear particle accelerator (linac). Due to lack of space, the linac has to have this special form.\cite{KEKBJArc} After the curve and a second acceleration stage the electrons hit the positron production target, where the positrons are created. After this target there are more acceleration stages, before the two beams are then injected into their independent storage rings. The electrons are stored in the high-energy ring (HER) and the positrons are stored in the low-energy ring (LER). Each of these rings has a circumference of about $3\,\textrm{km}$. Both beams collide at the interaction region (IR). The products of the collisions are then detected by the Belle II detector, an upgraded version of the Belle detector.\cite{B2B} (See section \ref{sec:Belle II})
+In figure \ref{fig:SuperKEKB} the schematic layout of the SuperKEKB accelerator is shown. The electrons start at the low emittance gun. Then they are accelerated in the \textit{J}-shaped linear particle accelerator (linac). Due to lack of space, the linac has to have this special form.\cite{KEKBJArc} After the curve and a second acceleration stage the electrons hit the positron production target, where the positrons are created. After this target there are more acceleration stages, before the two beams are then injected into their independent storage rings. The electrons are stored in the high-energy ring (HER) and the positrons are stored in the low-energy ring (LER). Each of these rings has a circumference of about $3\,\textrm{km}$. Both beams collide at the interaction region (IR). The products of the collisions are then detected by the Belle II detector, an upgraded version of the Belle detector.\cite{B2B} (See section \ref{sec:Belle II})
 
 SuperKEKB uses a smaller asymmetry in the beam energies compared to KEKB. This allows the usage for higher beam currents and better focusing magnets. Ultimately, this will result in a higher luminosity. The goal is to achieve a 40 times higher luminosity with SuperKEKB compared to KEKB.
 An integrated luminosity of $50\,\textrm{ab}^{-1}$ is planned to be achieved by 2025.\cite{B2B}
@@ -982,7 +982,7 @@ Figure \ref{fig:Belle IItMomentum} shows the transverse momentum as a function o
 	\label{fig:EvsE}
 \end{figure}
 
-In figure \ref{fig:EvsE} the energy of the outgoing Bhabha particles in the lab frame at Belle II are plotted against each other. As you can see, if for example the electron has an energy of $7\,\textrm{GeV}$ than the positron will have an energy of just about $4\,\textrm{GeV}$ and vice versa.
+In figure \ref{fig:EvsE} the energy of the outgoing Bhabha particles in the lab frame at Belle II are plotted against each other. If for example the electron has an energy of $7\,\textrm{GeV}$ than the positron will have an energy of just about $4\,\textrm{GeV}$ and vice versa.
 
 
 
@@ -1089,7 +1089,7 @@ n_{\textrm{cand}} = \frac{n_{\textrm{p}}(n_{\textrm{p}} -1)}{2}
 
 $n_{\textrm{p}}$ is the number of reconstructed particles per event. Equation \ref{eq:Triangular} is also known as the equation to calculate \textit{triangular numbers}. For example, if five ECL particles are reconstructed in a single event then ten virtual photon candidates are reconstructed according to equation \ref{eq:Triangular}. Since we only expect one virtual Bhabha photon per event, we have to select the best candidate in each event. This will be done in section \ref{sec:SelectingBhabhaMC}.
 
-Since the entries in the \texttt{vpho:ECLObject} list are sorted by energy, the first daughter of the reconstructed virtual Bhabha photon always has a higher energy compared to the second daughter. The first daughter will be referred to as \textit{HclE} (High cluster Energy) and the second daughter as \textit{LclE} (Low cluster Energy). You can see that the HclE daughter has always a higher energy than the LclE daughter in figure \ref{fig:clEDiff}. Here the clusterE(LclE) is subtracted from the clusterE(HclE) and only positive values remain. Therefore, HclE is the daughter with the higher cluster energy.
+Since the entries in the \texttt{vpho:ECLObject} list are sorted by energy, the first daughter of the reconstructed virtual Bhabha photon always has a higher energy compared to the second daughter. The first daughter will be referred to as \textit{HclE} (High cluster Energy) and the second daughter as \textit{LclE} (Low cluster Energy). As illustrated in this figure, the HclE daughter has always a higher energy than the LclE daughter in figure \ref{fig:clEDiff}. Here the clusterE(LclE) is subtracted from the clusterE(HclE) and only positive values remain. Therefore, HclE is the daughter with the higher cluster energy.
 
 Finally, in the last line of code, all variables of the candidates like mass, momentum, cluster energy of each daughter, does the daughter have a track and so on are written out in a tree called \texttt{vpho\_bhabha} in a file with the name \texttt{outputname}. This name depends on whether the steering file is running on data or MC.
 
@@ -1097,26 +1097,15 @@ Finally, in the last line of code, all variables of the candidates like mass, mo
 \section{Best Candidate Selection On Phase2 Monte Carlo}
 \label{sec:SelectingBhabhaMC}
 
-We use Monte Carlo simulation due to the fact that on MC we know everything about the generated and reconstructed particles. Thus, on MC we can only select Bhabha events which pass the tracking detectors and with this knowledge we can introduce cuts in such a way that we only reconstruct these Bhabha events. To calculate an efficiency it is extremely important to select solely Bhabha events. At first, we are also running on only one $\textrm{e}^+ \textrm{e}^- \rightarrow \textrm{e}^+ \textrm{e}^-$ MC file which is located on GridKa at:
-\newline
-
-/belle/MC/release-01-00-02/DB00000294/MC10/prod00004668/s00/e1002/4S/
-r00000/3600520000/mdst/sub00/mdst\_000050\_prod00004668\_task10010000050.root
-\newline
-
-The generated file is located on KEKCC at:
-\newline 
-
- /home/belle2/msobotzi/bhabha/bhabha\_vpho\_mc.root
-\newline
+We use Monte Carlo simulation due to the fact that on MC we know everything about the generated and reconstructed particles. Thus, on MC we can only select Bhabha events which pass the tracking detectors and with this knowledge we can introduce cuts in such a way that we only reconstruct these Bhabha events. To calculate an efficiency it is extremely important to select solely Bhabha events. At first, we are also running on only one $\textrm{e}^+ \textrm{e}^- \rightarrow \textrm{e}^+ \textrm{e}^-$ MC file.
 
 
 \subsection{CDC-Cut}
 
-Due to the fact that charged particles are reconstructed using information coming from the inner tracking detectors, we are only interested in events which pass these detectors. Thus, we apply a $\theta$-cut on the generated daughters (generated daughters means the true generated Monte Carlo daughters). This cut has to be introduced since the ECL has a wider $\theta$ detection range compared to the tracking detectors. Therefore, some outgoing charged particles are detected by the ECL but they did not pass the tracking detectors. Events containing these particles would always be labelled as inefficient events. And because the CDC is the only completely installed tracking detector in phase2, its polar coverage of detection was chosen.
+Due to the fact that charged particles are reconstructed using information coming from the inner tracking detectors, we are only interested in events which pass these detectors. Thus, we apply a selection on the polar angle on the generated daughters (generated daughters means the true generated Monte Carlo daughters). This cut has to be introduced since the ECL has a wider $\theta$ detection range compared to the tracking detectors. Therefore, some outgoing charged particles are detected by the ECL but they did not pass the tracking detectors. Events containing these particles would always be labelled as inefficient events. And because the CDC is the only completely installed tracking detector in phase2, its polar coverage of detection was chosen.
 
 \begin{equation}
-	0.296706 < \theta_{HclE,LclE} < 2.617990
+	17.0^\circ < \theta_{HclE,LclE} < 150.0^\circ
 \end{equation}
 
 All of the events which survive this cut are written into a list (\textit{mcEvtCDC}). We know that the Monte Carlo file contains 140000 generated Bhabha events. After this cut only 24286 Bhabha events remain.
@@ -1150,7 +1139,7 @@ Consequently, we need some cuts to select the best candidate in each event and t
 
 \subsection{Mass-Cut}
 
-The first cut to reduce the number of reconstructed candidates per event is a mass cut (The cut is called \texttt{M}). As we saw in figure \ref{fig:nCandAll}, a lot of candidates are reconstructed with an low invariant mass and we know from section \ref{sec:BhabhaProcess} that the mass of the reconstructed candidate should be the invariant mass of the collider. For Belle II this is around $10.58\,\textrm{GeV}$. The lower-mass cut of $8\,\textrm{GeV}$ is rather loose. 
+The first cut to reduce the number of reconstructed candidates per event is a mass cut (The cut is called \texttt{M}). As we saw in figure \ref{fig:nCandAll}, a lot of candidates are reconstructed with an low invariant mass and we know from section \ref{sec:BhabhaProcess} that the mass of the reconstructed candidate should be the $\textrm{e}^+\textrm{e}^-$ invariant mass. For Belle II this is around $10.58\,\textrm{GeV}$. The lower-mass cut of $8\,\textrm{GeV}$ is rather loose. 
 
 
 
@@ -1169,7 +1158,7 @@ The first cut to reduce the number of reconstructed candidates per event is a ma
 	\label{fig:nCandM}
 \end{figure}
 
-As you can see in figure \ref{fig:nCandM} on the right, all reconstructed candidates with an invariant mass below $8\,\textrm{GeV}$ are neglected. Therefore, the number of candidates per event is reduced drastically. We can see this in the left plot. Unfortunately, sometimes we still have two candidates per event and consequently, we have to introduce some more additional cuts.
+As can be seen in figure \ref{fig:nCandM} on the right, all reconstructed candidates with an invariant mass below $8\,\textrm{GeV}$ are neglected. Therefore, the number of candidates per event is reduced drastically. We can see this in the left plot. Unfortunately, sometimes we still have two candidates per event and consequently, we have to introduce some more additional cuts.
 
 
 
@@ -1199,10 +1188,11 @@ To reduce the number of candidates per event to one, some additional cuts are ne
 	\label{tab:clusterSplitting}
 \end{table}
 
-As you can see, the Monte Carlo generated energy (mcE) for both HclE and LclE is the same and the reconstructed energy (E) of the HclE and the LclE particle sum up roughly to their respectively mcE. You can also see that the generated particle is always an electron or positron and that the \textit{additionally} reconstructed particle is always a photon.
+This table shows that the generated energy (mcE) for both HclE and LclE is the same and the reconstructed energy (E) of the HclE and the LclE particle sum up roughly to their respectively mcE. 
+You can also see that the generated particle is always an electron or positron and that the \textit{additionally} reconstructed particle is always a photon.
 
 
-In figure \ref{fig:clusterSplittingAngle} you can see the angular distribution of this effect. For this plot there were no cuts on the reconstruction. It was just checked if exactly two reconstructed particles have the same generated Monte Carlo particle associated. Then the clusterPhi- and clusterTheta-values of these particles were filled into their histograms. On the left you can see that both reconstructed particle have the same clusterTheta angle. On the right you can see that they have a slightly different clusterPhi angle. Therefore, the \textit{original} cluster  is separated into two clusters with the same $\theta$-angle and a different $\Phi$-angle. One cluster is associated with a track produced by the generated particle and for the other cluster no track is left, therefore, it is labeled as a photon. This effect will be referred to as \textit{cluster splitting}.
+In figure \ref{fig:clusterSplittingAngle} the angular distribution of this effect can be seen. For this plot there were no cuts on the reconstruction. It was just checked if exactly two reconstructed particles have the same generated Monte Carlo particle associated. Then the clusterPhi- and clusterTheta-values of these particles were filled into their histograms. The left plot shows that both reconstructed particles have the same clusterTheta angle. The right plot shows that they have a slightly different clusterPhi angle. Therefore, the \textit{original} cluster  is separated into two clusters with the same $\theta$-angle and a different $\phi$-angle. One cluster is associated with a track produced by the generated particle and for the other cluster no track is left, therefore, it is labeled as a photon. This effect will be referred to as \textit{cluster splitting}.
 
 
 \begin{figure}[h!]
@@ -1212,7 +1202,8 @@ In figure \ref{fig:clusterSplittingAngle} you can see the angular distribution o
 	\label{fig:clusterSplittingE}
 \end{figure}
 
-In figure \ref{fig:clusterSplittingE} you can see the energy of the particles in a cluster splitting process. Since we only want to select Bhabha events, we want to neglect these kinds of events. In section \ref{sec:Kinematics} we saw that the particles have an energy of at least $4\,\textrm{GeV}$. Therefore, we are able to apply a cut on the cluster energy. We are now requiring a cluster energy of at least $3.5\,\textrm{GeV}$ (The cut is called \texttt{MclE}). This cut also contains also the mass cut \texttt{M}. With this cut almost all events with cluster splitting should be neglected.
+
+The energy of the particles in a cluster splitting process can be seen in figure \ref{fig:clusterSplittingE}. Since we only want to select Bhabha events, we want to neglect these kinds of events. In section \ref{cha:Kinematics} we saw that the particles have an energy of at least $4\,\textrm{GeV}$. Therefore, we are able to apply a cut on the cluster energy. We are now requiring a cluster energy of at least $3.5\,\textrm{GeV}$ (The cut is called \texttt{MclE}). This cut also contains also the mass cut \texttt{M}. With this cut almost all events with cluster splitting should be neglected.
 
 Next, we require that we have exactly two clusters per event, each with an energy of at least $3.5\,\textrm{GeV}$, since we only expect two high energetic particles in the ECL. Additionally, due to the kinematics at Belle II, we can require that one of the outgoing particles has to have a cluster energy of at least $4.5\,\textrm{GeV}$. This is required due to the trigger we will add in section \ref{sec:ECLTrigger}. (The cut is called \texttt{MclE2H}). It contains both previously introduced cuts.
 
@@ -1241,7 +1232,7 @@ As an additional safety net, a cut on the number of reconstructed tracks per eve
 \label{tab:ESum}
 \end{table}
 
-As you can see in table \ref{tab:ESum}, sometimes the invariant mass of the reconstructed candidates is way bigger than $10.58\,\textrm{GeV}$. To neglect these candidates an upper cut on the reconstructed invariant mass is introduced. Now the reconstructed invariant mass also has to be smaller than $12\,\textrm{GeV}$.
+Table \ref{tab:ESum} shows that sometimes the invariant mass of the reconstructed candidates is way bigger than $10.58\,\textrm{GeV}$. To neglect these candidates an upper cut on the reconstructed invariant mass is introduced. Now the reconstructed invariant mass also has to be smaller than $12\,\textrm{GeV}$.
 
 Additionally, sometimes the total energy in the ECL is way higher than expected. To exclude these events an upper cut on the total energy per event in the ECL is added (The cut is called \texttt{MclE2HnTSumE}). The total energy in the ECL must not exceed $15\,\textrm{GeV}$. Again, this cut includes all previously mentioned cuts.
 
@@ -1254,7 +1245,7 @@ Additionally, sometimes the total energy in the ECL is way higher than expected.
 	\label{fig:nCand}
 \end{figure}
 
-After applying all mentioned cuts, the number of candidates per event is shown in figure \ref{fig:nCand}. As you can see, now we only select one candidate per event. Therefore, we select 14545 events and candidates.
+After applying all mentioned cuts, the number of candidates per event is shown in figure \ref{fig:nCand}. It shows that now we only select one candidate per event. Therefore, we select 14545 events and candidates.
 
 There is no cut on the reconstructed position of the interaction point since this would require a backtracking of the particles.
 
@@ -1298,13 +1289,12 @@ cut A. The relative efficiency with no cut is defined to be 1.
 \label{tab:cutEff}
 \end{table}
 
-Table \ref{tab:cutEff} shows the relative and total efficiency of the cuts.
-As you can see, after all cuts a total of about $62\%$ of the generated Bhabha events are reconstructed. 
+Table \ref{tab:cutEff} shows the relative and total efficiency of the cuts. After applying all of the cuts, a total of about $62\%$ of the generated Bhabha events are reconstructed. 
 
 \subsection{No MC-Truth Information}
 \label{sec:NoMCT}
 
-In the previous sections we saw that we are able to select only one candidate in a Bhabha event under the condition that we know that both daughters are passing the CDC. Unfortunately, we do not have this information on phase2 data. Therefore, we also check how many candidates we reconstruct if we do not have MC-Truth information. We will analyze the same MC-file as before to compare the number of reconstructed events. 
+In the previous sections we saw that we are able to select only one candidate in a Bhabha event under the condition that we know that both daughters are passing the CDC. However, we do not have this information on phase2 data. Therefore, we also check how many candidates we reconstruct if we do not have MC-Truth information. We will analyze the same MC-file as before to compare the number of reconstructed events. 
 
 
 \begin{figure}[h!]
@@ -1321,18 +1311,7 @@ Since we only reconstruct a few more events and still only one candidate per eve
 \section{Best Candidate Selection on Phase2 Data}
 \label{sec:SelectingBhabhaData}
 
-Until now we only ran on phase2 MC, but ultimately we want to calculate the tracking efficiency on phase2 data. Therefore, we have to test the selection also on phase2 data. The same steering file as described in section \ref{sec:RecBasf2} is used and run over the following files located on KEKCC at:
-\newline
-
-/ghi/fs01/belle2/bdata//Data/release-03-00-03/DB00000528/proc00000008/e0003/
-4S/r02608/all/mdst/sub00/*.root
-\newline
-
-The generated file is located on KEKCC at:
-\newline
-
-/home/belle2/msobotzi/bhabha/bhabha\_vpho\_data\_608.root
-\newline
+Until now we only ran on phase2 MC, but ultimately we want to calculate the tracking efficiency on phase2 data. Therefore, we have to test the selection also on phase2 data. The same steering file as described in section \ref{sec:RecBasf2} is used and run over on phase2 data file. 
 
 \begin{figure}[h!]
 	\centering
@@ -1341,7 +1320,7 @@ The generated file is located on KEKCC at:
 	\label{fig:nCandData}
 \end{figure}
 
-Figure \ref{fig:nCandData} shows the number of reconstructed candidates on phase2 data after the \texttt{MclE2HnTSumE} cut. You can see that we reconstruct only one candidate per event even on phase2 data.
+Figure \ref{fig:nCandData} shows the number of reconstructed candidates on phase2 data after the \texttt{MclE2HnTSumE} cut. As illustrated n this figure, we reconstruct only one candidate per event even on phase2 data.
 
 
 
@@ -1353,13 +1332,13 @@ Now, that we are satisfied with the selection of events and candidates we need t
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=10cm]{Bilder/b2b_2}
-	\caption[Sketch Of The b2bClusterPhi Variable]{Simplified representation of the b2bClusterPhi variable. The track of charged particles are bent in the detector. This sketch was created with Inkscape. The colors have no deeper meaning.}
+	\caption[Sketch Of The b2bClusterPhi Variable]{Simplified representation of the b2bClusterPhi variable in the transverse plane of the detector. The track of charged particles are bent in the detector. The colors have no deeper meaning.}
 	\label{fig:Sketchb2b}
 \end{figure}
 
-A simplified sketch of the b2bClusterPhi variable is shown in figure \ref{fig:Sketchb2b}. This sketch shows the ECL in beam direction, so the magnetic field in the ECL is pointing into the paper. At the interaction point an electron (in this example the red line) and a positron (in this example the blue line) are created. Since both particles are charged their trajectories are bended by the magnetic field. The electron hits the ECL and creates a cluster with at the $\phi$-angle clusterPhi. As described in section \ref{sec:Kinematics} the center-of-momentum frame at Belle II has a non zero $x$-$y$ fraction. Therefore, the b2bClusterPhi variable is not just $\textrm{clusterPhi} - \pi$ (as in the sketch). To calculate the b2bClusterPhi variable we have to boost the particle in the center-of-momentum frame then calculate $\textrm{clusterPhi} - \pi$ and finally we have to boost it back in the lab frame. With this variable we can predict the clusterPhi angle of the other particle. 
+A simplified sketch of the b2bClusterPhi variable is shown in figure \ref{fig:Sketchb2b}. This sketch shows the ECL in beam direction, so the magnetic field in the ECL is pointing into the paper. At the interaction point an electron (in this example the red line) and a positron (in this example the blue line) are created. Since both particles are charged their trajectories are bended by the magnetic field. The electron hits the ECL and creates a cluster with at the azimuth angle $\phi$ clusterPhi. As described in section \ref{cha:Kinematics} the center-of-mass frame at Belle II has a non zero $x$-$y$ fraction. Therefore, the b2bClusterPhi variable is not just $\textrm{clusterPhi} - \pi$ (as in the sketch). To calculate the b2bClusterPhi variable we have to boost the particle in the center-of-momentum frame then calculate $\textrm{clusterPhi} - \pi$ and finally we have to boost it back in the lab frame. With this variable we can predict the clusterPhi angle of the other particle. 
 
-In the sketch you see that there is a difference between the predicted and the true clusterPhi angle due to the magnetic field. This also means that in an $\textrm{ee} \rightarrow \gamma \gamma$ event, the predicted and the true clusterPhi angle are the same because the trajectory of photons are not bend in the magnetic field. Therefore, we are able to differ between $\textrm{ee} \rightarrow \textrm{ee}$ and $\textrm{ee} \rightarrow \gamma \gamma$ events.
+This sketch shows that there is a difference between the predicted and the true clusterPhi angle due to the magnetic field. This also means that in an $\textrm{ee} \rightarrow \gamma \gamma$ event, the predicted and the true clusterPhi angle are the same because the trajectory of photons are not bend in the magnetic field. Therefore, we are able to differ between $\textrm{ee} \rightarrow \textrm{ee}$ and $\textrm{ee} \rightarrow \gamma \gamma$ events.
 
 
 
@@ -1383,7 +1362,7 @@ In the sketch you see that there is a difference between the predicted and the t
 	\includegraphics[width=\textwidth]{Plots/master/sb2b_Data.pdf}
 	
 
-	\caption[b2bClusterPhi - clusterPhi For Beamtime-Data]{Left: Predicted clusterPhi(HclE) - Reconstructed clusterPhi(LclE). Right: Predicted clusterPhi(LclE) - Reconstructed clusterPhi(HclE). Only particles within the gray area are taken into account. Both plots are created with phase2 data. The two top sketches represent what is calculated.}
+	\caption[b2bClusterPhi - clusterPhi For Beamtime-Data]{Left: Predicted clusterPhi(HclE) - Reconstructed clusterPhi(LclE). Right: Predicted clusterPhi(LclE) - Reconstructed clusterPhi(HclE). Only particles within the gray area are taken into account. The two top sketches represent what is calculated. The middle peak in both plots are created by $\textrm{e}^+\textrm{e}^- \rightarrow \gamma \gamma$ }
 	\label{fig:b2bData}
 	%Single Data file 608 Efficiency.C makro
 
@@ -1395,7 +1374,7 @@ In figure \ref{fig:b2bData} the difference between the predicted and the reconst
 Therefore, the last cut we will add is a cut on the b2bClusterPhi angle. We will only consider events with:
 \newline
 
- $0.05 \leq \textrm{abs(b2bClusterPhi(HclE) - clusterPhi(LclE)} \leq 0.2 $ and  $0.05 \leq \textrm{abs(b2bClusterPhi(LclE) - clusterPhi(HclE))} \leq 0.2$
+ $0.05 \leq \textrm{abs(b2bClusterPhi(HclE) - clusterPhi(LclE))} \leq 0.2 $ and  $0.05 \leq \textrm{abs(b2bClusterPhi(LclE) - clusterPhi(HclE))} \leq 0.2$
 \newline
 
 
@@ -1443,13 +1422,13 @@ The \texttt{bhabha} trigger returns a 1, only if all three conditions are fulfil
 	\includegraphics[width=\textwidth]{Cuts/Data/DataTrigger}
 	\caption[\texttt{bhabha} Trigger Signal After Selection]{\texttt{bhabha} trigger signal for a single phase2 data file after the selection. 
 		
-		Trigger Signal = 0 means that there was no trigger signal in the event. Trigger Signal = 1 means that there was a trigger signal in the event. (Trigger Signal = -1 means that there are no trigger informations in the file.) As you can see, in most of the selected events there is a trigger signal coming from the ECL.}
+		Trigger Signal = 0 means that there was no trigger signal in the event. Trigger Signal = 1 means that there was a trigger signal in the event. (Trigger Signal = -1 means that there are no trigger informations in the file.) In most of the selected events there is a trigger signal coming from the ECL.}
 	\label{fig:BhabhaTrigger}
 \end{figure}
 
-In figure \ref{fig:BhabhaTrigger} you can see the \texttt{bhabha} trigger signal for a single phase2 data file after the selection. Most of the time, there was an ECL trigger signal and in only about $8\,\%$ of the events there was no trigger signal coming from the ECL. These events have to be cut away.
+As shown in figure \ref{fig:BhabhaTrigger}, the \texttt{bhabha} trigger signal for a single phase2 data file after the selection. Most of the time, there was an ECL trigger signal and in only about $8\,\%$ of the events there was no trigger signal coming from the ECL. These events have to be cut away.
 
-This is not done for phase2 Monte Carlo, since the trigger does not work reliably on MC and we only look at events we want to consider because only Bhabha events are generated. Therefore, a trigger cut is only done for phase2 data (and phase3 data in chapter \ref{chp:TrackingEfficiencyPhase3}). This is also the reason why the cuts on the cluster energy were chosen as they are. Otherwise, a comparison of phase2 MC and phase2 data would be impossible.
+This is not done for phase2 Monte Carlo, since the trigger simulation does not work reliably and we only look at events we want to consider because only Bhabha events are generated. Therefore, a trigger cut is only done for phase2 data (and phase3 data in chapter \ref{chp:TrackingEfficiencyPhase3}). This is also the reason why the cuts on the cluster energy were chosen as they are. Otherwise, a comparison of phase2 MC and phase2 data would be impossible.
 
 \section{More Events}
 \label{sec:Phase2MoreEvents}
@@ -1466,19 +1445,7 @@ In equation \ref{eq:EffError}, $\epsilon$ is the calculated efficiency and $n$ i
 
 
 
-To reduce the error on the calculated efficiency, $n$ has to be as big as possible. Therefore, more phase2 data and phase2 MC files are needed. For Monte Carlo we will consider all files located at GridKa: 
-\newline
-
-/belle/MC/release-01-00-02/DB00000294/MC10/prod00004668/s00/e1002/4S/
-r00000/3600520000/mdst/sub00
-\newline
-
-Additionally, we will take all available phase2 data files into account. They are located on KEKCC at:
-\newline
-
-/ghi/fs01/belle2/bdata/Data/release-03-00-03/DB00000528/proc00000008/e0003/ 4S/r0*/all/mdst/sub00/*.root
-\newline
-
+To reduce the error on the calculated efficiency, $n$ has to be as big as possible. Therefore, we will consider all available  phase2 data and phase2 MC files. 
 
 
 \begin{figure}[h!]
@@ -1488,15 +1455,15 @@ Additionally, we will take all available phase2 data files into account. They ar
 \end{figure}
 
 
-In figure \ref{fig:nCandAS}, you can see the number of candidates per event after the selection using all files. You can see that we reconstruct only one virtual photon per event on both phase2 data and phase2 MC.
+Figure \ref{fig:nCandAS} shows the number of candidates per event after the selection using all files. As illustrated in this figure, we reconstruct only one virtual photon per event on both phase2 data and phase2 MC.
 
 
 \section{Dividing The ECL In Areas Of Interest}
 \label{sec:DivECL}
 
-As described in section \ref{sec:ECL}, the ECL is divided in three areas, the barrel, the forward end-cap and the backward end-cap. Therefore, we will take a look at the efficiency of these areas separately. The first area will only contain the forward end-cap. This means, only particles with an predicted $\theta$ angle of $0^\circ <\theta<32^\circ$ will be taken into account. The second area of interest is the barrel. Here the predicted $\theta$ angle of the investigated particle has to be $32^\circ < \theta < 130^\circ$. The last area of interest is the backward end-cap with an cluster $\theta$ angle of $130^\circ <\theta < 180^\circ$.  
+As described in section \ref{sec:ECL}, the ECL is divided in three areas, the barrel, the forward end-cap and the backward end-cap. Therefore, we will take a look at the efficiency of these areas separately. The first area will only contain the forward end-cap. This means, only particles with an predicted polar angle $\theta$ of $0^\circ <\theta<32^\circ$ will be taken into account. The second area of interest is the barrel. Here the predicted angle $\theta$ of the investigated particle has to be $32^\circ < \theta < 130^\circ$. The last area of interest is the backward end-cap with an cluster angle $\theta$ of $130^\circ <\theta < 180^\circ$.  
 
-In section \ref{sec:Kinematics}, we saw that the the azimuth angle and the momentum of the particles are correlated in the lab frame. Therefore, we need to look at momentum intervals. 
+In section \ref{cha:Kinematics}, we saw that the the azimuth angle and the momentum of the particles are correlated in the lab frame. Therefore, we need to look at momentum intervals. 
 
 \begin{figure}[h!]
 	\includegraphics[width=\textwidth]{Plots/master/RTPMemD_MC.pdf}
@@ -1504,7 +1471,7 @@ In section \ref{sec:Kinematics}, we saw that the the azimuth angle and the momen
 	\label{plt:RTPMemD_MC}
 \end{figure}
 
-In figure \ref{plt:RTPMemD_MC} you can see the \textit{denominator} histograms for the electron. In these plots, the predicted $\theta$ and $\phi$ angles for different momenta for phase2 MC are shown. Additionally, the three areas of interest are indicated in these plots by a pink line. Phase2 MC was used to determine the momenta ranges because the statistics are lower on phase2 MC compared to phase2 data. 
+Figure \ref{plt:RTPMemD_MC} shows the \textit{denominator} histograms for the electron. In these plots, the predicted polar angle $\theta$ and azimuthal angle $\phi$ for different momenta for phase2 MC electrons are shown. Additionally, the three areas of interest are indicated in these plots by a pink line. Phase2 MC was used to determine the momenta ranges because the statistics are lower on phase2 MC compared to phase2 data. 
 
 \begin{figure}[h!]
 	\includegraphics[width=\textwidth]{Plots/master/RTPMepD_MC.pdf}
@@ -1601,7 +1568,7 @@ For real data, all of these issues result in a lower tracking efficiency. Theref
 \subsection{Forward End-Cap}
 \label{sec:MFC}
 
-In figure \ref{plt:xPMPhiemFC} you can see the calculated electron tracking efficiency for different momenta. As expected, the tracking efficiency for phase2 data is almost all of the time worse than the efficiency for phase2 MC for all momenta. For momenta between $4\,\textrm{GeV}$ and $5\,\textrm{GeV}$ phase2 MC and phase2 data have a similar efficiency. In both cases, the lowest efficiency occurs at $\phi \approx 0$. According to figures \ref{plt:RTPMemD_MC} and \ref{plt:RTPMemD_Data}, we expect that most electrons have a momentum between $5\,\textrm{GeV}$ and $8\,\textrm{GeV}$. For momenta between $5\,\textrm{GeV}$ and $6\,\textrm{GeV}$ phase2 data and phase2 MC have some differences in the calculated tracking efficiency. Phase2 MC has an efficiency between 0.80 and 0.95 with an exception of an efficiency drop at $\phi \approx 0$. This drop also appears on phase2 data, but for $\phi > \textrm{abs}(1.5)$ the efficiency on phase2 data is much worse than phase2 MC. Here the efficiency drops partially below 0.7 for phase2 data.
+Figure \ref{plt:xPMPhiemFC} shows the calculated electron tracking efficiency for different momenta. As expected, the tracking efficiency for phase2 data is almost all of the time worse than the efficiency for phase2 MC for all momenta. For momenta between $4\,\textrm{GeV}$ and $5\,\textrm{GeV}$ phase2 MC and phase2 data have a similar efficiency. In both cases, the lowest efficiency occurs at $\phi \approx 0$. According to figures \ref{plt:RTPMemD_MC} and \ref{plt:RTPMemD_Data}, we expect that most electrons have a momentum between $5\,\textrm{GeV}$ and $8\,\textrm{GeV}$. For momenta between $5\,\textrm{GeV}$ and $6\,\textrm{GeV}$ phase2 data and phase2 MC have some differences in the calculated tracking efficiency. Phase2 MC has an efficiency between 0.80 and 0.95 with an exception of an efficiency drop at $\phi \approx 0$. This drop also appears on phase2 data, but for $\phi > \textrm{abs}(1.5)$ the efficiency on phase2 data is much worse than phase2 MC. Here the efficiency drops partially below 0.7 for phase2 data.
 The biggest difference occurs for momenta between $6\,\textrm{GeV}$ and $7\,\textrm{GeV}$. For phase2 MC, the tracking efficiency ranges between 0.90 and almost 1. But the efficiency oscillates heavily between 0.7 and 0.95 for phase2 data. In both cases the highest efficiency occurs at $\phi \approx 0$. 
 For momenta between $7\,\textrm{GeV}$ and $8\,\textrm{GeV}$ phase2 MC has a tracking efficiency of above 0.98 for all $\phi$ angles except for $\phi \approx 0$. Here the efficiency is still high but the errors are larger. For phase2 data, the efficiency is also very high for $\phi >\textrm{abs}(1)$. But for $\phi < \textrm{abs}(1)$ the efficiency falls down by over $10\,\%$.
 
@@ -2198,6 +2165,33 @@ These drops appear to be randomly distributed. The reason for these drops has to
 \chapter{Additional Preparation Plots}
 
 
+The single MC file used for phase2 MC is located on Grid at:
+\newline 
+
+/belle/MC/release-01-00-02/DB00000294/MC10/prod00004668/s00/e1002/4S/
+r00000/3600520000/mdst/sub00/mdst\_000050\_prod00004668\_task10010000050.root
+\newline
+
+The generated file is located on KEKCC at:
+\newline
+
+/home/belle2/msobotzi/bhabha/bhabha\_vpho\_mc.root
+\newline
+
+The single phase2 data file is located on KEKCC at:
+\newline
+
+/ghi/fs01/belle2/bdata//Data/release-03-00-03/DB00000528/proc00000008/e0003/
+4S/r02608/all/mdst/sub00/*.root
+\newline
+
+The generated file is located on KEKCC at:
+\newline
+
+/home/belle2/msobotzi/bhabha/bhabha\_vpho\_data\_608.root
+\newline
+
+
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=10cm]{AnhangPlots/clEDiff.pdf}
@@ -2330,6 +2324,22 @@ These drops appear to be randomly distributed. The reason for these drops has to
 
 \chapter{Additional Phase2 Plots}
 \label{A:2}
+
+The phase2 MC files are located on GridKa at: 
+\newline
+
+/belle/MC/release-01-00-02/DB00000294/MC10/prod00004668/s00/e1002/4S/
+r00000/3600520000/mdst/sub00
+\newline
+
+The phase2 data files are located on KEKCC at:
+\newline
+
+/ghi/fs01/belle2/bdata/Data/release-03-00-03/DB00000528/proc00000008/e0003/ 4S/r0*/all/mdst/sub00/*.root
+\newline
+
+
+
 
 
 \begin{figure}[h!]
