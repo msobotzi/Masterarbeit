@@ -1,197 +1,196 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\defcounter {refsection}{0}\relax 
-\select@language {english}
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 2.1}{\ignorespaces Standard Model}}{4}{figure.caption.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 2.2}{\ignorespaces Bhabha Feynman Diagrams}}{7}{figure.caption.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 2.3}{\ignorespaces Differential Cross Section For Bhabha Events}}{7}{figure.caption.4}
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.1}{\ignorespaces SuperKEKB Collider}}{10}{figure.caption.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.2}{\ignorespaces Sketch Of The Beam Crossing For KEKB And SuperKEKB}}{11}{figure.caption.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.3}{\ignorespaces Belle II Detector}}{12}{figure.caption.7}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.4}{\ignorespaces Coordinate System Of Belle II}}{13}{figure.caption.8}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.5}{\ignorespaces Vertex Detector}}{14}{figure.caption.9}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.6}{\ignorespaces Pixel Detector}}{15}{figure.caption.10}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.7}{\ignorespaces DePFET}}{15}{figure.caption.11}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.8}{\ignorespaces Silicon Vertex Detector}}{17}{figure.caption.12}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.9}{\ignorespaces Central Drift Chamber}}{17}{figure.caption.13}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.10}{\ignorespaces TOP Principle}}{19}{figure.caption.14}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.11}{\ignorespaces ARICH}}{19}{figure.caption.15}
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces Schematic Overview Of The Trigger System}}{24}{figure.caption.16}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.2}{\ignorespaces Working Principle of the DAQ}}{25}{figure.caption.17}
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 5.1}{\ignorespaces $\theta $-Momentum-Distribution In The CMS And LAB Frame}}{27}{figure.caption.18}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 5.2}{\ignorespaces $\theta $-Transverse Momentum-Distribution In The CMS And LAB Frame}}{28}{figure.caption.19}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 5.3}{\ignorespaces Energies Of The Outgoing Particle In The LAB Frame}}{28}{figure.caption.20}
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.1}{\ignorespaces Number Of Candidates And Invariant Mass (No Cuts)}}{33}{figure.caption.21}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.2}{\ignorespaces Number Of Candidates And Invariant Mass ($\textrm {M} >8\tmspace +\thinmuskip {.1667em}\textrm {GeV}$)}}{33}{figure.caption.22}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.3}{\ignorespaces Cluster Splitting Angle Distribution}}{34}{figure.caption.23}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.4}{\ignorespaces Cluster Splitting Energy Distribution}}{35}{figure.caption.24}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.5}{\ignorespaces Number Of Candidates Per Event (After All Cuts)}}{36}{figure.caption.25}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.6}{\ignorespaces Number Of Candidates Per Event With No MC-Truth Info (All Cuts)}}{38}{figure.caption.26}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.7}{\ignorespaces Number Of Candidates Per Event for Phase2 Data (All Cuts)}}{39}{figure.caption.27}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.8}{\ignorespaces Sketch Of The b2bClusterPhi Variable}}{39}{figure.caption.28}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.9}{\ignorespaces b2bClusterPhi - clusterPhi For Beamtime-Data}}{40}{figure.caption.29}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.10}{\ignorespaces b2bClusterPhi - clusterPhi For MC}}{41}{figure.caption.30}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.11}{\ignorespaces \texttt {bhabha} Trigger Signal After Selection}}{43}{figure.caption.31}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.12}{\ignorespaces Total Number Of Events After The Selection}}{43}{figure.caption.32}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.13}{\ignorespaces Denominator $\theta $-$\phi $ Electron Momentum MC}}{46}{figure.caption.33}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.14}{\ignorespaces Denominator $\theta $-$\phi $ Positron Momentum MC}}{47}{figure.caption.34}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.15}{\ignorespaces Denominator $\theta $-$\phi $ Electron Transverse Momentum MC}}{48}{figure.caption.35}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.16}{\ignorespaces Denominator $\theta $-$\phi $ Positron Transverse Momentum MC}}{49}{figure.caption.36}
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 7.1}{\ignorespaces $\theta $-$\phi $ Efficiency Plots Phase2}}{52}{figure.caption.37}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 7.2}{\ignorespaces Momentum $\phi $ Electron Forward End-Cap Efficiency Phase2}}{54}{figure.caption.38}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 7.3}{\ignorespaces Momentum $\phi $ Electron Barrel Efficiency Phase2}}{56}{figure.caption.39}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 7.4}{\ignorespaces Momentum $\phi $ Positron Barrel Efficiency Phase2}}{57}{figure.caption.40}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 7.5}{\ignorespaces Momentum $\phi $ Positron Backward End-Cap Efficiency Phase2}}{59}{figure.caption.41}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 7.6}{\ignorespaces Momentum $\theta $ Electron Efficiency Phase2}}{62}{figure.caption.42}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 7.7}{\ignorespaces Momentum $\theta $ Positron Efficiency Phase2}}{63}{figure.caption.43}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 7.8}{\ignorespaces Transverse Momentum $\phi $ Electron Forward End-Cap Efficiency Phase2}}{65}{figure.caption.44}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 7.9}{\ignorespaces Transverse Momentum $\phi $ Electron Barrel Efficiency Phase2}}{67}{figure.caption.45}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 7.10}{\ignorespaces Transverse Momentum $\phi $ Positron Barrel Efficiency Phase2}}{68}{figure.caption.46}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 7.11}{\ignorespaces Transverse Momentum $\phi $ Positron Backward End-Cap Efficiency Phase2}}{70}{figure.caption.47}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 7.12}{\ignorespaces Transverse Momentum $\theta $ Electron Efficiency Phase2}}{73}{figure.caption.48}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 7.13}{\ignorespaces Transverse Momentum $\theta $ Positron Efficiency Phase2}}{74}{figure.caption.49}
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 8.1}{\ignorespaces Total Number Of Events After The Selection Phase3}}{76}{figure.caption.50}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 8.2}{\ignorespaces $\theta $-$\phi $ Efficiency Plots Phase3}}{77}{figure.caption.51}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 8.3}{\ignorespaces Momentum $\phi $ Electron Forward End-Cap Efficiency Phase3}}{78}{figure.caption.52}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 8.4}{\ignorespaces Momentum $\phi $ Electron Barrel Efficiency Phase3}}{80}{figure.caption.53}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 8.5}{\ignorespaces Momentum $\phi $ Positron Barrel Efficiency Phase3}}{81}{figure.caption.54}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 8.6}{\ignorespaces Momentum $\phi $ Positron Backward End-Cap Efficiency Phase3}}{83}{figure.caption.55}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 8.7}{\ignorespaces Momentum $\theta $ Electron Efficiency Phase3}}{86}{figure.caption.56}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 8.8}{\ignorespaces Momentum $\theta $ Positron Efficiency Phase3}}{87}{figure.caption.57}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 8.9}{\ignorespaces Transverse Momentum $\phi $ Electron Forward End-Cap Efficiency Phase3}}{89}{figure.caption.58}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 8.10}{\ignorespaces Transverse Momentum $\phi $ Electron Barrel Efficiency Phase3}}{91}{figure.caption.59}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 8.11}{\ignorespaces Transverse Momentum $\phi $ Positron Barrel Efficiency Phase3}}{92}{figure.caption.60}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 8.12}{\ignorespaces Transverse Momentum $\phi $ Positron Backward End-Cap Efficiency Phase3}}{94}{figure.caption.61}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 8.13}{\ignorespaces Transverse Momentum $\theta $ Electron Efficiency Phase3}}{97}{figure.caption.62}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 8.14}{\ignorespaces Transverse Momentum $\theta $ Positron Efficiency Phase3}}{98}{figure.caption.63}
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 9.1}{\ignorespaces Momentum $\theta $ Electron Efficiency}}{100}{figure.caption.64}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 9.2}{\ignorespaces Momentum $\theta $ Positron Efficiency}}{101}{figure.caption.65}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 9.3}{\ignorespaces Momentum $\phi $ Electron Efficiency Forward End-Cap Phase2 And Phase3 Data}}{103}{figure.caption.66}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 9.4}{\ignorespaces Momentum $\phi $ Positron Efficiency Backward End-Cap Phase2 And Phase3 Data}}{104}{figure.caption.67}
+\babel@toc {english}{}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.1}{\ignorespaces clusterE(HclE) - clusterE(LclE)}}{108}{figure.caption.68}
+\contentsline {figure}{\numberline {\relax 2.1}{\ignorespaces Standard Model}}{4}{figure.caption.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.2}{\ignorespaces b2bClusterPhi - clusterPhi For Data (Whole Range)}}{108}{figure.caption.69}
+\contentsline {figure}{\numberline {\relax 2.2}{\ignorespaces Bhabha Feynman Diagrams}}{7}{figure.caption.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.3}{\ignorespaces b2bClusterPhi - clusterPhi For MC (Whole Range)}}{109}{figure.caption.70}
+\contentsline {figure}{\numberline {\relax 2.3}{\ignorespaces Differential Cross Section For Bhabha Events}}{7}{figure.caption.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.4}{\ignorespaces Denominator $\theta $-$\phi $ Electron Momentum Phase2 Data}}{110}{figure.caption.71}
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.5}{\ignorespaces Enumerator $\theta $-$\phi $ Electron Momentum Phase2 MC}}{111}{figure.caption.72}
+\contentsline {figure}{\numberline {\relax 3.1}{\ignorespaces SuperKEKB Collider}}{10}{figure.caption.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.6}{\ignorespaces Enumerator $\theta $-$\phi $ Electron Momentum Phase2 Data}}{112}{figure.caption.73}
+\contentsline {figure}{\numberline {\relax 3.2}{\ignorespaces Sketch Of The Beam Crossing For KEKB And SuperKEKB}}{11}{figure.caption.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.7}{\ignorespaces Denominator $\theta $-$\phi $ Positron Momentum Phase2 Data}}{113}{figure.caption.74}
+\contentsline {figure}{\numberline {\relax 3.3}{\ignorespaces Belle II Detector}}{12}{figure.caption.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.8}{\ignorespaces Enumerator $\theta $-$\phi $ Positron Momentum Phase2 MC}}{114}{figure.caption.75}
+\contentsline {figure}{\numberline {\relax 3.4}{\ignorespaces Coordinate System Of Belle II}}{13}{figure.caption.8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.9}{\ignorespaces Enumerator $\theta $-$\phi $ Positron Momentum Phase2 Data}}{115}{figure.caption.76}
+\contentsline {figure}{\numberline {\relax 3.5}{\ignorespaces Vertex Detector}}{14}{figure.caption.9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.10}{\ignorespaces Denominator $\theta $-$\phi $ Electron Transverse Momentum Phase2 Data}}{116}{figure.caption.77}
+\contentsline {figure}{\numberline {\relax 3.6}{\ignorespaces Pixel Detector}}{15}{figure.caption.10}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.11}{\ignorespaces Enumerator $\theta $-$\phi $ Electron Transverse Momentum Phase2 MC}}{117}{figure.caption.78}
+\contentsline {figure}{\numberline {\relax 3.7}{\ignorespaces DePFET}}{15}{figure.caption.11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.12}{\ignorespaces Enumerator $\theta $-$\phi $ Electron Transverse Momentum Phase2 Data}}{118}{figure.caption.79}
+\contentsline {figure}{\numberline {\relax 3.8}{\ignorespaces Silicon Vertex Detector}}{17}{figure.caption.12}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.13}{\ignorespaces Denominator $\theta $-$\phi $ Positron Transverse Momentum Phase2 Data}}{119}{figure.caption.80}
+\contentsline {figure}{\numberline {\relax 3.9}{\ignorespaces Central Drift Chamber}}{17}{figure.caption.13}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.14}{\ignorespaces Enumerator $\theta $-$\phi $ Positron Transverse Momentum Phase2 MC}}{120}{figure.caption.81}
+\contentsline {figure}{\numberline {\relax 3.10}{\ignorespaces TOP Principle}}{19}{figure.caption.14}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.15}{\ignorespaces Enumerator $\theta $-$\phi $ Positron Transverse Momentum Phase2 Data}}{121}{figure.caption.82}
+\contentsline {figure}{\numberline {\relax 3.11}{\ignorespaces ARICH}}{19}{figure.caption.15}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.16}{\ignorespaces The Status Of the VXD In Phase2}}{122}{figure.caption.83}
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.17}{\ignorespaces b2bClusterPhi - clusterPhi For Phase3 MC}}{123}{figure.caption.84}
+\contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces Schematic Overview Of The Trigger System}}{24}{figure.caption.16}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.18}{\ignorespaces b2bClusterPhi - clusterPhi For Phase3 Data}}{124}{figure.caption.85}
+\contentsline {figure}{\numberline {\relax 4.2}{\ignorespaces Working Principle of the DAQ}}{25}{figure.caption.17}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.19}{\ignorespaces The Status Of The PXD In Phase3}}{125}{figure.caption.86}
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 5.1}{\ignorespaces $\theta $-Momentum-Distribution In The CMS And LAB Frame}}{27}{figure.caption.18}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 5.2}{\ignorespaces $\theta $-Transverse Momentum-Distribution In The CMS And LAB Frame}}{28}{figure.caption.19}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 5.3}{\ignorespaces Energies Of The Outgoing Particle In The LAB Frame}}{28}{figure.caption.20}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 6.1}{\ignorespaces Number Of Candidates And Invariant Mass (No Cuts)}}{33}{figure.caption.21}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 6.2}{\ignorespaces Number Of Candidates And Invariant Mass ($\textrm {M} >8\tmspace +\thinmuskip {.1667em}\textrm {GeV}$)}}{33}{figure.caption.22}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 6.3}{\ignorespaces Cluster Splitting Angle Distribution}}{34}{figure.caption.23}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 6.4}{\ignorespaces Cluster Splitting Energy Distribution}}{35}{figure.caption.24}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 6.5}{\ignorespaces Number Of Candidates Per Event (After All Cuts)}}{36}{figure.caption.25}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 6.6}{\ignorespaces Number Of Candidates Per Event With No MC-Truth Info (All Cuts)}}{38}{figure.caption.26}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 6.7}{\ignorespaces Number Of Candidates Per Event for Phase2 Data (All Cuts)}}{39}{figure.caption.27}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 6.8}{\ignorespaces Sketch Of The b2bClusterPhi Variable}}{39}{figure.caption.28}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 6.9}{\ignorespaces b2bClusterPhi - clusterPhi For Beamtime-Data}}{40}{figure.caption.29}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 6.10}{\ignorespaces b2bClusterPhi - clusterPhi For MC}}{41}{figure.caption.30}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 6.11}{\ignorespaces \texttt {bhabha} Trigger Signal After Selection}}{43}{figure.caption.31}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 6.12}{\ignorespaces Total Number Of Events After The Selection}}{43}{figure.caption.32}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 6.13}{\ignorespaces Denominator $\theta $-$\phi $ Electron Momentum MC}}{46}{figure.caption.33}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 6.14}{\ignorespaces Denominator $\theta $-$\phi $ Positron Momentum MC}}{47}{figure.caption.34}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 6.15}{\ignorespaces Denominator $\theta $-$\phi $ Electron Transverse Momentum MC}}{48}{figure.caption.35}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 6.16}{\ignorespaces Denominator $\theta $-$\phi $ Positron Transverse Momentum MC}}{49}{figure.caption.36}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 7.1}{\ignorespaces $\theta $-$\phi $ Efficiency Plots Phase2}}{52}{figure.caption.37}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 7.2}{\ignorespaces Momentum $\phi $ Electron Forward End-Cap Efficiency Phase2}}{54}{figure.caption.38}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 7.3}{\ignorespaces Momentum $\phi $ Electron Barrel Efficiency Phase2}}{56}{figure.caption.39}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 7.4}{\ignorespaces Momentum $\phi $ Positron Barrel Efficiency Phase2}}{57}{figure.caption.40}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 7.5}{\ignorespaces Momentum $\phi $ Positron Backward End-Cap Efficiency Phase2}}{59}{figure.caption.41}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 7.6}{\ignorespaces Momentum $\theta $ Electron Efficiency Phase2}}{62}{figure.caption.42}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 7.7}{\ignorespaces Momentum $\theta $ Positron Efficiency Phase2}}{63}{figure.caption.43}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 7.8}{\ignorespaces Transverse Momentum $\phi $ Electron Forward End-Cap Efficiency Phase2}}{65}{figure.caption.44}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 7.9}{\ignorespaces Transverse Momentum $\phi $ Electron Barrel Efficiency Phase2}}{67}{figure.caption.45}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 7.10}{\ignorespaces Transverse Momentum $\phi $ Positron Barrel Efficiency Phase2}}{68}{figure.caption.46}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 7.11}{\ignorespaces Transverse Momentum $\phi $ Positron Backward End-Cap Efficiency Phase2}}{70}{figure.caption.47}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 7.12}{\ignorespaces Transverse Momentum $\theta $ Electron Efficiency Phase2}}{73}{figure.caption.48}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 7.13}{\ignorespaces Transverse Momentum $\theta $ Positron Efficiency Phase2}}{74}{figure.caption.49}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 8.1}{\ignorespaces Total Number Of Events After The Selection Phase3}}{76}{figure.caption.50}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 8.2}{\ignorespaces $\theta $-$\phi $ Efficiency Plots Phase3}}{77}{figure.caption.51}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 8.3}{\ignorespaces Momentum $\phi $ Electron Forward End-Cap Efficiency Phase3}}{78}{figure.caption.52}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 8.4}{\ignorespaces Momentum $\phi $ Electron Barrel Efficiency Phase3}}{80}{figure.caption.53}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 8.5}{\ignorespaces Momentum $\phi $ Positron Barrel Efficiency Phase3}}{81}{figure.caption.54}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 8.6}{\ignorespaces Momentum $\phi $ Positron Backward End-Cap Efficiency Phase3}}{83}{figure.caption.55}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 8.7}{\ignorespaces Momentum $\theta $ Electron Efficiency Phase3}}{86}{figure.caption.56}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 8.8}{\ignorespaces Momentum $\theta $ Positron Efficiency Phase3}}{87}{figure.caption.57}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 8.9}{\ignorespaces Transverse Momentum $\phi $ Electron Forward End-Cap Efficiency Phase3}}{89}{figure.caption.58}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 8.10}{\ignorespaces Transverse Momentum $\phi $ Electron Barrel Efficiency Phase3}}{91}{figure.caption.59}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 8.11}{\ignorespaces Transverse Momentum $\phi $ Positron Barrel Efficiency Phase3}}{92}{figure.caption.60}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 8.12}{\ignorespaces Transverse Momentum $\phi $ Positron Backward End-Cap Efficiency Phase3}}{94}{figure.caption.61}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 8.13}{\ignorespaces Transverse Momentum $\theta $ Electron Efficiency Phase3}}{97}{figure.caption.62}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 8.14}{\ignorespaces Transverse Momentum $\theta $ Positron Efficiency Phase3}}{98}{figure.caption.63}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 9.1}{\ignorespaces Momentum $\theta $ Electron Efficiency}}{100}{figure.caption.64}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 9.2}{\ignorespaces Momentum $\theta $ Positron Efficiency}}{101}{figure.caption.65}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 9.3}{\ignorespaces Momentum $\phi $ Electron Efficiency Forward End-Cap Phase2 And Phase3 Data}}{103}{figure.caption.66}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 9.4}{\ignorespaces Momentum $\phi $ Positron Efficiency Backward End-Cap Phase2 And Phase3 Data}}{104}{figure.caption.67}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.1}{\ignorespaces clusterE(HclE) - clusterE(LclE)}}{108}{figure.caption.68}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.2}{\ignorespaces b2bClusterPhi - clusterPhi For Data (Whole Range)}}{108}{figure.caption.69}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.3}{\ignorespaces b2bClusterPhi - clusterPhi For MC (Whole Range)}}{109}{figure.caption.70}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.4}{\ignorespaces Denominator $\theta $-$\phi $ Electron Momentum Phase2 Data}}{110}{figure.caption.71}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.5}{\ignorespaces Enumerator $\theta $-$\phi $ Electron Momentum Phase2 MC}}{111}{figure.caption.72}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.6}{\ignorespaces Enumerator $\theta $-$\phi $ Electron Momentum Phase2 Data}}{112}{figure.caption.73}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.7}{\ignorespaces Denominator $\theta $-$\phi $ Positron Momentum Phase2 Data}}{113}{figure.caption.74}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.8}{\ignorespaces Enumerator $\theta $-$\phi $ Positron Momentum Phase2 MC}}{114}{figure.caption.75}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.9}{\ignorespaces Enumerator $\theta $-$\phi $ Positron Momentum Phase2 Data}}{115}{figure.caption.76}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.10}{\ignorespaces Denominator $\theta $-$\phi $ Electron Transverse Momentum Phase2 Data}}{116}{figure.caption.77}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.11}{\ignorespaces Enumerator $\theta $-$\phi $ Electron Transverse Momentum Phase2 MC}}{117}{figure.caption.78}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.12}{\ignorespaces Enumerator $\theta $-$\phi $ Electron Transverse Momentum Phase2 Data}}{118}{figure.caption.79}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.13}{\ignorespaces Denominator $\theta $-$\phi $ Positron Transverse Momentum Phase2 Data}}{119}{figure.caption.80}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.14}{\ignorespaces Enumerator $\theta $-$\phi $ Positron Transverse Momentum Phase2 MC}}{120}{figure.caption.81}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.15}{\ignorespaces Enumerator $\theta $-$\phi $ Positron Transverse Momentum Phase2 Data}}{121}{figure.caption.82}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.16}{\ignorespaces The Status Of the VXD In Phase2}}{122}{figure.caption.83}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.17}{\ignorespaces b2bClusterPhi - clusterPhi For Phase3 MC}}{123}{figure.caption.84}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.18}{\ignorespaces b2bClusterPhi - clusterPhi For Phase3 Data}}{124}{figure.caption.85}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.19}{\ignorespaces The Status Of The PXD In Phase3}}{125}{figure.caption.86}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
