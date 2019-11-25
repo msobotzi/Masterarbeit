@@ -13,7 +13,7 @@
 \BOOKMARK [2][-]{subsection.3.4.1}{Pixel Vertex Detector}{section.3.4}% 13
 \BOOKMARK [2][-]{subsection.3.4.2}{Silicon Vertex Detector}{section.3.4}% 14
 \BOOKMARK [1][-]{section.3.5}{Central Drift Chamber}{chapter.3}% 15
-\BOOKMARK [1][-]{section.3.6}{TOP And ARICH}{chapter.3}% 16
+\BOOKMARK [1][-]{section.3.6}{Time-Of-Propagation And Aerogel Ring-Imaging Cherenkov Detector}{chapter.3}% 16
 \BOOKMARK [1][-]{section.3.7}{Electromagnetic Calorimeter}{chapter.3}% 17
 \BOOKMARK [1][-]{section.3.8}{KL0 And Muon Detector }{chapter.3}% 18
 \BOOKMARK [0][-]{chapter.4}{Trigger, Data Acquisition System And Basf2}{}% 19
@@ -37,39 +37,39 @@
 \BOOKMARK [1][-]{section.6.8}{More Events}{chapter.6}% 37
 \BOOKMARK [1][-]{section.6.9}{Dividing The ECL In Areas Of Interest}{chapter.6}% 38
 \BOOKMARK [0][-]{chapter.7}{Phase2 Tracking Efficiency}{}% 39
-\BOOKMARK [1][-]{section.7.1}{Momentum Efficiencies}{chapter.7}% 40
-\BOOKMARK [2][-]{subsection.7.1.1}{Forward End-Cap}{section.7.1}% 41
-\BOOKMARK [2][-]{subsection.7.1.2}{Barrel}{section.7.1}% 42
-\BOOKMARK [2][-]{subsection.7.1.3}{Backward End-Cap}{section.7.1}% 43
-\BOOKMARK [2][-]{subsection.7.1.4}{-Efficiencies}{section.7.1}% 44
-\BOOKMARK [1][-]{section.7.2}{Transverse Momentum Efficiencies}{chapter.7}% 45
-\BOOKMARK [2][-]{subsection.7.2.1}{Forward End-Cap}{section.7.2}% 46
-\BOOKMARK [2][-]{subsection.7.2.2}{Barrel}{section.7.2}% 47
-\BOOKMARK [2][-]{subsection.7.2.3}{Backward End-Cap}{section.7.2}% 48
-\BOOKMARK [2][-]{subsection.7.2.4}{-Efficiencies}{section.7.2}% 49
-\BOOKMARK [1][-]{section.7.3}{- Efficiencies}{chapter.7}% 50
+\BOOKMARK [1][-]{section.7.1}{- Efficiencies}{chapter.7}% 40
+\BOOKMARK [1][-]{section.7.2}{ In Bins Of Track Momentum}{chapter.7}% 41
+\BOOKMARK [2][-]{subsection.7.2.1}{Forward End-Cap}{section.7.2}% 42
+\BOOKMARK [2][-]{subsection.7.2.2}{Barrel}{section.7.2}% 43
+\BOOKMARK [2][-]{subsection.7.2.3}{Backward End-Cap}{section.7.2}% 44
+\BOOKMARK [2][-]{subsection.7.2.4}{-Efficiencies}{section.7.2}% 45
+\BOOKMARK [1][-]{section.7.3}{ In Bins Of Track Transverse Momentum}{chapter.7}% 46
+\BOOKMARK [2][-]{subsection.7.3.1}{Forward End-Cap}{section.7.3}% 47
+\BOOKMARK [2][-]{subsection.7.3.2}{Barrel}{section.7.3}% 48
+\BOOKMARK [2][-]{subsection.7.3.3}{Backward End-Cap}{section.7.3}% 49
+\BOOKMARK [2][-]{subsection.7.3.4}{-Efficiencies}{section.7.3}% 50
 \BOOKMARK [0][-]{chapter.8}{Phase3 Tracking Efficiency}{}% 51
 \BOOKMARK [1][-]{section.8.1}{Phase3}{chapter.8}% 52
-\BOOKMARK [1][-]{section.8.2}{Location}{chapter.8}% 53
-\BOOKMARK [1][-]{section.8.3}{Tracking Efficiency}{chapter.8}% 54
-\BOOKMARK [2][-]{subsection.8.3.1}{Momentum Efficiencies}{section.8.3}% 55
-\BOOKMARK [3][-]{subsubsection.8.3.1.1}{Forward End-Cap}{subsection.8.3.1}% 56
-\BOOKMARK [3][-]{subsubsection.8.3.1.2}{Barrel}{subsection.8.3.1}% 57
-\BOOKMARK [3][-]{subsubsection.8.3.1.3}{Backward End-Cap}{subsection.8.3.1}% 58
-\BOOKMARK [3][-]{subsubsection.8.3.1.4}{-Efficiencies}{subsection.8.3.1}% 59
-\BOOKMARK [2][-]{subsection.8.3.2}{Transverse Momentum Efficiencies}{section.8.3}% 60
-\BOOKMARK [3][-]{subsubsection.8.3.2.1}{Forward End-Cap}{subsection.8.3.2}% 61
-\BOOKMARK [3][-]{subsubsection.8.3.2.2}{Barrel}{subsection.8.3.2}% 62
-\BOOKMARK [3][-]{subsubsection.8.3.2.3}{Backward End-Cap}{subsection.8.3.2}% 63
-\BOOKMARK [3][-]{subsubsection.8.3.2.4}{-Efficiencies}{subsection.8.3.2}% 64
-\BOOKMARK [2][-]{subsection.8.3.3}{- Efficiencies}{section.8.3}% 65
-\BOOKMARK [0][-]{chapter.9}{Comparing Phase2 With Phase3}{}% 66
-\BOOKMARK [1][-]{section.9.1}{-Efficiencies}{chapter.9}% 67
-\BOOKMARK [1][-]{section.9.2}{-Efficiencies}{chapter.9}% 68
-\BOOKMARK [0][-]{chapter.10}{Summary And Conclusion}{}% 69
-\BOOKMARK [0][-]{appendix.A}{Additional Preparation Plots}{}% 70
-\BOOKMARK [0][-]{appendix.B}{Additional Phase2 Plots}{}% 71
-\BOOKMARK [0][-]{appendix.C}{Additional Phase3 Plots}{}% 72
-\BOOKMARK [0][-]{chapter*.136}{List of Figures}{}% 73
-\BOOKMARK [0][-]{chapter*.137}{List of Tables}{}% 74
-\BOOKMARK [0][-]{chapter*.138}{Bibliography}{}% 75
+\BOOKMARK [1][-]{section.8.2}{Tracking Efficiency}{chapter.8}% 53
+\BOOKMARK [2][-]{subsection.8.2.1}{- Efficiencies}{section.8.2}% 54
+\BOOKMARK [2][-]{subsection.8.2.2}{ In Bins Of Track Momentum}{section.8.2}% 55
+\BOOKMARK [3][-]{subsubsection.8.2.2.1}{Forward End-Cap}{subsection.8.2.2}% 56
+\BOOKMARK [3][-]{subsubsection.8.2.2.2}{Barrel}{subsection.8.2.2}% 57
+\BOOKMARK [3][-]{subsubsection.8.2.2.3}{Backward End-Cap}{subsection.8.2.2}% 58
+\BOOKMARK [3][-]{subsubsection.8.2.2.4}{-Efficiencies}{subsection.8.2.2}% 59
+\BOOKMARK [2][-]{subsection.8.2.3}{ In Bins Of Track Transverse Momentum}{section.8.2}% 60
+\BOOKMARK [3][-]{subsubsection.8.2.3.1}{Forward End-Cap}{subsection.8.2.3}% 61
+\BOOKMARK [3][-]{subsubsection.8.2.3.2}{Barrel}{subsection.8.2.3}% 62
+\BOOKMARK [3][-]{subsubsection.8.2.3.3}{Backward End-Cap}{subsection.8.2.3}% 63
+\BOOKMARK [3][-]{subsubsection.8.2.3.4}{-Efficiencies}{subsection.8.2.3}% 64
+\BOOKMARK [0][-]{chapter.9}{Comparing Phase2 With Phase3}{}% 65
+\BOOKMARK [1][-]{section.9.1}{-Efficiencies}{chapter.9}% 66
+\BOOKMARK [1][-]{section.9.2}{-Efficiencies}{chapter.9}% 67
+\BOOKMARK [0][-]{chapter.10}{Summary And Conclusion}{}% 68
+\BOOKMARK [0][-]{appendix.A}{Appendix}{}% 69
+\BOOKMARK [1][-]{section.A.1}{Additional Preparation Plots}{appendix.A}% 70
+\BOOKMARK [1][-]{section.A.2}{Phase2}{appendix.A}% 71
+\BOOKMARK [1][-]{section.A.3}{Phase3}{appendix.A}% 72
+\BOOKMARK [0][-]{chapter*.87}{List of Figures}{}% 73
+\BOOKMARK [0][-]{chapter*.88}{List of Tables}{}% 74
+\BOOKMARK [0][-]{chapter*.89}{Bibliography}{}% 75

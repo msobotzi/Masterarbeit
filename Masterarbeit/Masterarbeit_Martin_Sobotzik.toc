@@ -32,7 +32,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.5}Central Drift Chamber}{16}{section.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.6}TOP And ARICH}{18}{section.3.6}
+\contentsline {section}{\numberline {3.6}Time-Of-Propagation And Aerogel Ring-Imaging Cherenkov Detector}{18}{section.3.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.7}Electromagnetic Calorimeter}{20}{section.3.7}
 \defcounter {refsection}{0}\relax 
@@ -64,73 +64,71 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.4.3}Additional Cuts}{34}{subsection.6.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4.4}Cut Efficiency}{36}{subsection.6.4.4}
+\contentsline {subsection}{\numberline {6.4.4}Cut Efficiency}{37}{subsection.6.4.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.4.5}No MC-Truth Information}{37}{subsection.6.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.5}Best Candidate Selection on Phase2 Data}{37}{section.6.5}
+\contentsline {section}{\numberline {6.5}Best Candidate Selection on Phase2 Data}{38}{section.6.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.6}Selecting Bhabha Events}{39}{section.6.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.7}ECL-Trigger}{41}{section.6.7}
+\contentsline {section}{\numberline {6.7}ECL-Trigger}{42}{section.6.7}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.8}More Events}{42}{section.6.8}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.9}Dividing The ECL In Areas Of Interest}{43}{section.6.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Phase2 Tracking Efficiency}{49}{chapter.7}
+\contentsline {chapter}{\numberline {7}Phase2 Tracking Efficiency}{51}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Momentum Efficiencies}{49}{section.7.1}
+\contentsline {section}{\numberline {7.1}$\theta $-$\phi $ Efficiencies}{51}{section.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.1}Forward End-Cap}{49}{subsection.7.1.1}
+\contentsline {section}{\numberline {7.2}$\epsilon $ In Bins Of Track Momentum}{53}{section.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.2}Barrel}{51}{subsection.7.1.2}
+\contentsline {subsection}{\numberline {7.2.1}Forward End-Cap}{53}{subsection.7.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.3}Backward End-Cap}{54}{subsection.7.1.3}
+\contentsline {subsection}{\numberline {7.2.2}Barrel}{55}{subsection.7.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.4}$\theta $-Efficiencies}{56}{subsection.7.1.4}
+\contentsline {subsection}{\numberline {7.2.3}Backward End-Cap}{58}{subsection.7.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Transverse Momentum Efficiencies}{60}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.4}$\theta $-Efficiencies}{60}{subsection.7.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.1}Forward End-Cap}{60}{subsection.7.2.1}
+\contentsline {section}{\numberline {7.3}$\epsilon $ In Bins Of Track Transverse Momentum}{64}{section.7.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.2}Barrel}{62}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.3.1}Forward End-Cap}{64}{subsection.7.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.3}Backward End-Cap}{65}{subsection.7.2.3}
+\contentsline {subsection}{\numberline {7.3.2}Barrel}{66}{subsection.7.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.4}$\theta $-Efficiencies}{67}{subsection.7.2.4}
+\contentsline {subsection}{\numberline {7.3.3}Backward End-Cap}{69}{subsection.7.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.3}$\theta $-$\phi $ Efficiencies}{71}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.4}$\theta $-Efficiencies}{71}{subsection.7.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Phase3 Tracking Efficiency}{73}{chapter.8}
+\contentsline {chapter}{\numberline {8}Phase3 Tracking Efficiency}{75}{chapter.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}Phase3}{73}{section.8.1}
+\contentsline {section}{\numberline {8.1}Phase3}{75}{section.8.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}Location}{73}{section.8.2}
+\contentsline {section}{\numberline {8.2}Tracking Efficiency}{75}{section.8.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.3}Tracking Efficiency}{75}{section.8.3}
+\contentsline {subsection}{\numberline {8.2.1}$\theta $-$\phi $ Efficiencies}{75}{subsection.8.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.3.1}Momentum Efficiencies}{75}{subsection.8.3.1}
+\contentsline {subsection}{\numberline {8.2.2}$\epsilon $ In Bins Of Track Momentum}{76}{subsection.8.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {8.3.1.1}Forward End-Cap}{75}{subsubsection.8.3.1.1}
+\contentsline {subsubsection}{\numberline {8.2.2.1}Forward End-Cap}{76}{subsubsection.8.2.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {8.3.1.2}Barrel}{77}{subsubsection.8.3.1.2}
+\contentsline {subsubsection}{\numberline {8.2.2.2}Barrel}{79}{subsubsection.8.2.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {8.3.1.3}Backward End-Cap}{80}{subsubsection.8.3.1.3}
+\contentsline {subsubsection}{\numberline {8.2.2.3}Backward End-Cap}{82}{subsubsection.8.2.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {8.3.1.4}$\theta $-Efficiencies}{82}{subsubsection.8.3.1.4}
+\contentsline {subsubsection}{\numberline {8.2.2.4}$\theta $-Efficiencies}{84}{subsubsection.8.2.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.3.2}Transverse Momentum Efficiencies}{86}{subsection.8.3.2}
+\contentsline {subsection}{\numberline {8.2.3}$\epsilon $ In Bins Of Track Transverse Momentum}{88}{subsection.8.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {8.3.2.1}Forward End-Cap}{86}{subsubsection.8.3.2.1}
+\contentsline {subsubsection}{\numberline {8.2.3.1}Forward End-Cap}{88}{subsubsection.8.2.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {8.3.2.2}Barrel}{88}{subsubsection.8.3.2.2}
+\contentsline {subsubsection}{\numberline {8.2.3.2}Barrel}{90}{subsubsection.8.2.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {8.3.2.3}Backward End-Cap}{91}{subsubsection.8.3.2.3}
+\contentsline {subsubsection}{\numberline {8.2.3.3}Backward End-Cap}{93}{subsubsection.8.2.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {8.3.2.4}$\theta $-Efficiencies}{93}{subsubsection.8.3.2.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.3.3}$\theta $-$\phi $ Efficiencies}{97}{subsection.8.3.3}
+\contentsline {subsubsection}{\numberline {8.2.3.4}$\theta $-Efficiencies}{95}{subsubsection.8.2.3.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {9}Comparing Phase2 With Phase3}{99}{chapter.9}
 \defcounter {refsection}{0}\relax 
@@ -140,14 +138,16 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {10}Summary And Conclusion}{105}{chapter.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Additional Preparation Plots}{107}{appendix.A}
+\contentsline {chapter}{\numberline {A}Appendix}{107}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Additional Phase2 Plots}{123}{appendix.B}
+\contentsline {section}{\numberline {A.1}Additional Preparation Plots}{107}{section.A.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}Additional Phase3 Plots}{149}{appendix.C}
+\contentsline {section}{\numberline {A.2}Phase2}{122}{section.A.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Figures}{177}{chapter*.136}
+\contentsline {section}{\numberline {A.3}Phase3}{123}{section.A.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Tables}{181}{chapter*.137}
+\contentsline {chapter}{\nonumberline List of Figures}{127}{chapter*.87}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{183}{chapter*.138}
+\contentsline {chapter}{\nonumberline List of Tables}{131}{chapter*.88}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Bibliography}{133}{chapter*.89}

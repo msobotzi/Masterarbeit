@@ -370,7 +370,7 @@ In this section we want to briefly discuss Bhabha scattering. We will start with
  \label{sec:BhabhaProcess}
  Bhabha scattering is a quantum electromechanical process between an electron and a positron. It is named after the Indian  physicist H. Bhabha who first derived the electron-positron scattering cross section in 1935.\cite{Bhabha}
  
-Bhabha scattering contains two different processes. Both have in common that there is an electron and positron in the initial and final state. Figure \ref{fig:feynman} shows the Feynman diagrams for both Bhabha processes. 
+In a Bhabha process there is an electron and positron in the initial and final state. Figure \ref{fig:feynman} shows the two leading-order Feynman diagrams of the Bhabha process. 
 A Feynman diagram is a visual representation of an interaction described by quantum field theory. These diagrams are strictly translatable into mathematical expressions.
 The time passes from the left to the right side. In the left process the initial electron and positron annihilate to form a virtual photon $\gamma^\ast$. This virtual photon then decays into an electron and a positron. The right Feynman diagram describes a classic electrodynamic scattering process. Here the incoming electron and positron are scattering by the interaction with a virtual photon. In contrast to the right diagram, the left diagram can only be explained by quantum field theory, due to the creation and destruction of particles.
  
@@ -506,7 +506,7 @@ child[grow=down, level distance=0pt] {
 
 \end{minipage}
 
-\caption[Bhabha Feynman Diagrams]{The two Bhabha process leading -order Feynman diagrams. The left diagram describes the annihilation and pair production process, whereas the right diagram describes a classic electromagnetic scattering process.}
+\caption[Bhabha Feynman Diagrams]{The two leading -order Feynman diagrams of the Bhabha process. The left diagram describes the annihilation and pair production process, whereas the right diagram describes a classic electromagnetic scattering process.}
 \label{fig:feynman}
 
 
@@ -529,35 +529,23 @@ The differential cross section for the electron\footnote{The electrons are movin
 \end{equation}
 
 
-
 \begin{figure}[h!]
 	\centering
-	\begin{minipage}[b]{0.47\linewidth}
-		\centering
-		\includegraphics[width=\textwidth]{Bilder/dsdO}
-	\end{minipage}
-	\hspace{0.5cm}
-	\begin{minipage}[b]{0.47\linewidth}
-		\centering
-		\includegraphics[width=\textwidth]{Bilder/dsdO1}
-	\end{minipage}
-	\caption[Differential Cross Section For Electrons And Positrons In Bhabha Events]{Angular distributions for $\textrm{e}^-$ (left) and $\textrm{e}^+$ (right) from Bhabha events.}
-	\label{fig:CrossSectionElPos}
-	\end{figure}
-
-In figure \ref{fig:CrossSectionElPos} on the left, the differential cross section for electrons is plotted. Since most incoming particles are only very slightly deflected, the cross section is very high for small scattering angles and gets smaller with increasing angle. Equation \ref{eq:bhabhaCross} is also true for positrons but they are moving in the opposite direction, $\theta$ has to be replaced by $\pi - \theta$ in equation \ref{eq:bhabhaCross}. The result is plotted in figure \ref{fig:CrossSectionElPos} on the right.
-
-
-
-
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=10cm]{Bilder/dsdOb}
+	\includegraphics[width=12cm]{Bilder/finalCross}
 	\caption[Differential Cross Section For Bhabha Events]{This figure shows the differential cross section for Bhabha events.}
 	\label{fig:CrossSectionBoth}
 \end{figure}
 
-To get to differential cross section for Bhabha events, one has to add the differential cross section of electrons and positrons. This is shown in figure \ref{fig:CrossSectionBoth}. As can be seen in this figure, most of the outgoing particles will have a very small or very large $\theta$ angle.
+
+
+In figure \ref{fig:CrossSectionBoth} the differential cross section for electrons is plotted in blue. Since most incoming particles are only very slightly deflected, the cross section is very high for small scattering angles and gets smaller with increasing angle. Equation \ref{eq:bhabhaCross} is also true for positrons but they are moving in the opposite direction, $\theta$ has to be replaced by $\pi - \theta$ in equation \ref{eq:bhabhaCross}. The result is plotted in the same figure \ref{fig:CrossSectionBoth} but in orange.
+
+
+
+
+
+
+To get to differential cross section for Bhabha events, one has to add the differential cross section of electrons and positrons. This is also shown in figure \ref{fig:CrossSectionBoth}. The differential cross section of the Bhabha process is shown in green. As can be seen in this figure, most of the outgoing particles will have a very small or very large $\theta$ angle.
 
 
 
@@ -568,7 +556,7 @@ To get to differential cross section for Bhabha events, one has to add the diffe
 \label{sec:SetupKEK}
 
 \lettrine{S}{uperKEKB} is a two-ring, asymmetric\footnote{asymmetric means that there is an energy difference between the two colliding beams}, electron positron accelerator, which is located at KEK (\textit{High Energy Accelerator Research Organization}) in Tsukuba, Japan. 
-The electron beam has an energy of $7\,\textnormal{GeV}$ and the positron beam has an energy of $4\,\textnormal{GeV}$. These beams collide with a center-of-mass energy of about $10.58\,\textnormal{GeV}$, which is close to the mass of the $\Upsilon(4\textnormal{S})$ resonance. $\Upsilon(4\,\textrm{S})$ contains a $b$ quark and its antiparticle, making SuperKEKB a so-called \textit{B-factory}. The decay products are then detected by the Belle II detector to study the properties of these B mesons with high precision. In early 2018, Belle II started taking data. One goal of Belle II is to study CP-Violation.\cite{B2B}
+The electron beam has an energy of $7\,\textnormal{GeV}$ and the positron beam has an energy of $4\,\textnormal{GeV}$. These beams collide with a center-of-mass energy of about $10.58\,\textnormal{GeV}$, which is close to the mass of the $\Upsilon(4\textnormal{S})$ resonance. $\Upsilon(4\,\textrm{S})$ decays, almost exclusively, in two $B$-mesons, making SuperKEKB a so-called \textit{B-factory}. The decay products are then detected by the Belle II detector to study the properties of these B mesons with high precision. In early 2018, Belle II started taking data. One goal of Belle II is to study CP-Violation.\cite{B2B}
 
 \section{KEKB And SuperKEKB}
 \label{sec:KEK}
@@ -648,7 +636,7 @@ The Belle II detector is an upgraded version of the Belle detector which was a s
 
 The CDC also already existed in the Belle detector and has been upgraded for Belle II. The CDC scans the trajectories of charged particles. From these trajectories the charge, momentum and energy loss can be determined from ionization. 
 
-These three innermost tracking detectors are surrounded by a barrel. The time-of-propagation (TOP) detector, which also got an upgrade for Belle II, surrounds the inner detectors parallel to the beam-pipes. The TOP detector, as the name suggests, measures the flight-time of charged particles. Knowing the flight-time and the momentum of the charged particles, it is possible to conclude their mass and to identify them. The forward end-cap of the barrel is closed with an Aerogel Ring-Imaging Cerenkov detector (ARICH) which also identifies charged particles.
+These three innermost tracking detectors are surrounded by a barrel. The time-of-propagation (TOP) detector, which also got an upgrade for Belle II, surrounds the inner detectors parallel to the beam-pipes. The TOP detector, as the name suggests, measures the flight-time of charged particles. Knowing the flight-time and the momentum of the charged particles, it is possible to conclude their mass and to identify them. The forward end-cap of the barrel is closed with an Aerogel Ring-Imaging Cherenkov detector (ARICH) which also identifies charged particles.
 
 The next outer detector is the electromagnetic calorimeter (ECL). It surrounds all the previously mentioned detectors, and was already installed in Belle. The ECL is able to measure the energy of electromagnetically interacting particles, especially photons and electrons.
 
@@ -750,18 +738,18 @@ When a charged particle passes through the CDC it losses energy due to ionizatio
 As indicated in figure \ref{fig:CDC}, there are different superlayers in the CDC. The Dense Axial and Axial sense wires allow the reconstruction of the track in the $r$-$\phi$ plane. The stereo sense wires give information about the $z$-direction. These stereo wires are tilted with respect to the $z$-direction. Six layers of sense wires are combined to a superlayer. The CDC consists of five axial superlayers (A) and four stereo superlayers. The four stereo superlayer are subdivided into two stereo superlayers (U) with a positive stereo angle and two stereo superlayers (V) with a negative stereo angle. Starting with the innermost superlayer, every second superlayer is an axial superlayer. The stereo superlayers are between them, alternating between U and V. The stereo angles of the innermost stereo superlayer ranges between $45.4\,\textrm{mrad}$ and $45.8\,\textrm{mrad}$, the second between $-55.3\,\textrm{mrad}$ and $-64.3\,\textrm{mrad}$, the third between $63.1\,\textrm{mrad}$ and $70.0\,\textrm{mrad}$ and the fourth between $-68.5\,\textrm{mrad}$ and $-74.0\,\textrm{mrad}$. In total there are nine superlayers. The innermost superlayer, called \textit{small-cell chamber}, is realized with a denser packing of wires and has a total of eight layers (compared to the other superlayers with just six layers). This was done to lower the influence of the background, which is higher in the innermost superlayer due to the vicinity to the interaction region.
 The CDC has a spatial resolution of about $100\,\mu\textrm{m}$.\cite{B2TR}
 
-\section{TOP And ARICH}
+\section{Time-Of-Propagation And Aerogel Ring-Imaging Cherenkov Detector}
 \label{sec:ARTO}
 
-There are two additional detectors for particle identification, the TOP and the ARICH. The TOP counter is located in the barrel part and it uses a combination of time-of-flight and Cerenkov angle measurements.
-When a charged particle with the velocity $\beta$ is faster than the speed of light $c_n$ in a medium with a reflective index $n$ then this particle emits Cerenkov radiation under the angle $\theta_{C} $.\cite{cerenkovAngle}
+There are two additional detectors for particle identification, the TOP and the ARICH. The TOP counter is located in the barrel part and it uses a combination of time-of-flight and Cherenkov angle measurements.
+When a charged particle with the velocity $\beta$ is faster than the speed of light $c_n$ in a medium with a reflective index $n$ then this particle emits Cherenkov radiation under the angle $\theta_{C} $.\cite{cerenkovAngle}
 
 
 \begin{equation}
 c_n = \frac{c_0}{n} \leq \beta	
 \end{equation}
 
-The Cerenkov angle is given by \cite{cerenkovAngle}:
+The Cherenkov angle is given by \cite{cerenkovAngle}:
 
 \begin{equation}
 \textrm{cos}(\theta_C)=\frac{1}{n\beta}
@@ -774,7 +762,7 @@ The Cerenkov angle is given by \cite{cerenkovAngle}:
 	\label{fig:TOP}
 \end{figure}
 
-Figure \ref{fig:TOP} shows an illustration of the functionality of a TOP bar. The charged particle emits Cerenkov light when it passes the quartz crystal. These photons then travel inside the crystal due to reflection until they are detected by a photon detector. Measuring the time difference between the emitted photons it is possible to calculate the position of the track of the charged particle. Then the outgoing photons are focused by mirrors and are finally detected by PMTs. Cerenkov photons with different $\theta_C$ will be detected by different PMTs. Therefore, the TOP reconstruct the Cerenkov ring image using the information of time, $x$ and $y$.\cite{B2TR} 
+Figure \ref{fig:TOP} shows an illustration of the functionality of a TOP bar. The charged particle emits Cherenkov light when it passes the quartz crystal. These photons then travel inside the crystal due to reflection until they are detected by a photon detector. Measuring the time difference between the emitted photons it is possible to calculate the position of the track of the charged particle. Then the outgoing photons are focused by mirrors and are finally detected by PMTs. Cherenkov photons with different $\theta_C$ will be detected by different PMTs. Therefore, the TOP reconstruct the Cherenkov ring image using the information of time, $x$ and $y$.\cite{B2TR} 
 
 The TOP counter consists of 32 quartz bars. They have a length of $1250\,\textrm{mm}$, a width of $45\,\textrm{mm}$ and a depth of $20\,\textrm{mm}$. There are two quartz bars per module. The TOP counter has a $K/\pi$ separation of over $96\,\%$ at a momentum of $4\,\textrm{GeV}$.\cite{B2TR}
 
@@ -792,11 +780,11 @@ The ARICH detector is located in the forward end-cap region. It is designed to d
 	\includegraphics[width=\textwidth]{Bilder/ARICH2}
 \end{minipage}
 
-	\caption[ARICH]{Left: Illustration of the working principle of the ARICH detector. The yellow Cerenkov ring on the photon detector is produced by a pion, the green ring by a kaon. Right: The radiator is shown in more detail. The radiator consists of two aerogel layers with different reflective index. \cite{TORASSA} }
+	\caption[ARICH]{Left: Illustration of the working principle of the ARICH detector. The yellow Cherenkov ring on the photon detector is produced by a pion, the green ring by a kaon. Right: The radiator is shown in more detail. The radiator consists of two aerogel layers with different reflective index. \cite{TORASSA} }
 \label{fig:ARICH}
 \end{figure}
 
-In figure \ref{fig:ARICH} the working principle of the ARICH detector is shown. A charged particle passes through two layers of an aerogel radiator with different refractive indexes and emits Cerenkov photons under a Cerenkov angle $\theta_C$. Behind the radiator, an extension volume, for the Cerenkov rings to form, is located. At a distance of $20\,\textrm{cm}$ behind the radiator is the photon detector.\cite{B2TR} Once the Cerenkov ring is reconstructed, the radius of the ring can be determined and, knowing the distance and the radius, the Cerenkov angle can be calculated.
+In figure \ref{fig:ARICH} the working principle of the ARICH detector is shown. A charged particle passes through two layers of an aerogel radiator with different refractive indexes and emits Cherenkov photons under a Cherenkov angle $\theta_C$. Behind the radiator, an extension volume, for the Cherenkov rings to form, is located. At a distance of $20\,\textrm{cm}$ behind the radiator is the photon detector.\cite{B2TR} Once the Cherenkov ring is reconstructed, the radius of the ring can be determined and, knowing the distance and the radius, the Cherenkov angle can be calculated.
 
 \section{Electromagnetic Calorimeter}
 \label{sec:ECL}
@@ -959,14 +947,14 @@ For the off-line reconstruction to work it has to take into account that the Bel
 	
 \end{figure}
 
-Figure \ref{fig:Belle IIMomentum} shows the momentum of the Bhabha particles as a function of the $\theta$ angle in the center-of-mass frame. Since the incoming electron and the positron have the same mass and they are colliding with the same energy, the outgoing particles always have the same momentum independent of the scattering angle in the center of mass frame. In the right plot the momentum distribution after the boost in the lab system is shown. For small $\theta$ angles a higher momentum of the outgoing particles is expected compared to high $\theta$ angles. The fanning of the distribution is caused by the fact that the beams are colliding with each other under an angle at Belle II. Also, due to the fanning, we expect a range of energies at a fixed $\theta$ angle.
+Figure \ref{fig:Belle IIMomentum} shows the momentum of the Bhabha particles as a function of the polar angle $\theta$ in the center-of-mass frame. Since the incoming electron and the positron have the same mass and they are colliding with the same energy, the outgoing particles always have the same momentum independent of the scattering angle in the center of mass frame. In the right plot the momentum distribution after the boost in the lab system is shown. For small $\theta$ a higher momentum of the outgoing particles is expected compared to high $\theta$. The fanning of the distribution is caused by the fact that the beams are colliding with each other under an angle at Belle II. Also, due to the fanning, we expect a range of energies at fixed $\theta$.
 
 
 
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\textwidth]{Bilder/CptTheta}
-	\caption[$\theta$-Transverse Momentum-Distribution In The CMS And LAB Frame]{The transverse momentum of the outgoing Bhabha particles in different frames. Left: transverse momentum in the center-of-mass frame. The highest transverse momentum is expected at an $\theta$ angle of $\nicefrac{\pi}{2}$.  Right: The transverse momentum in the lab frame. The highest transverse momentum is shifted a bit to smaller values of $\theta$.}
+	\caption[$\theta$-Transverse Momentum-Distribution In The CMS And LAB Frame]{The transverse momentum of the outgoing Bhabha particles in different frames. Left: transverse momentum in the center-of-mass frame. The highest transverse momentum is expected at $\theta \approx \nicefrac{\pi}{2}$.  Right: The transverse momentum in the lab frame. The highest transverse momentum is shifted a bit to smaller values of $\theta$.}
 	\label{fig:Belle IItMomentum}
 \end{figure}
 
@@ -1192,6 +1180,20 @@ This table shows that the generated energy (mcE) for both HclE and LclE is the s
 You can also see that the generated particle is always an electron or positron and that the \textit{additionally} reconstructed particle is always a photon.
 
 
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\textwidth]{AnhangPlots/ttpp.pdf}
+	\caption[Cluster Splitting Angle Distribution]{Left: The polar angle $\theta$ of the clusters after the \textit{cluster splitting}. Almost all the time, both clusters have the same $\theta$ angle.  Right: The $\phi$ angle of the clusters after the \textit{cluster splitting}. The $\phi$ angle of both clusters are always slightly different. Therefore, \textit{cluster splitting} always occurs along the polar angle.}
+	\label{fig:clusterSplittingAngle}
+\end{figure}
+
+
+
+
+
+
+
+
 In figure \ref{fig:clusterSplittingAngle} the angular distribution of this effect can be seen. For this plot there were no cuts on the reconstruction. It was just checked if exactly two reconstructed particles have the same generated Monte Carlo particle associated. Then the clusterPhi- and clusterTheta-values of these particles were filled into their histograms. The left plot shows that both reconstructed particles have the same clusterTheta angle. The right plot shows that they have a slightly different clusterPhi angle. Therefore, the \textit{original} cluster  is separated into two clusters with the same $\theta$-angle and a different $\phi$-angle. One cluster is associated with a track produced by the generated particle and for the other cluster no track is left, therefore, it is labeled as a photon. This effect will be referred to as \textit{cluster splitting}.
 
 
@@ -1336,9 +1338,9 @@ Now, that we are satisfied with the selection of events and candidates we need t
 	\label{fig:Sketchb2b}
 \end{figure}
 
-A simplified sketch of the b2bClusterPhi variable is shown in figure \ref{fig:Sketchb2b}. This sketch shows the ECL in beam direction, so the magnetic field in the ECL is pointing into the paper. At the interaction point an electron (in this example the red line) and a positron (in this example the blue line) are created. Since both particles are charged their trajectories are bended by the magnetic field. The electron hits the ECL and creates a cluster with at the azimuth angle $\phi$ clusterPhi. As described in section \ref{cha:Kinematics} the center-of-mass frame at Belle II has a non zero $x$-$y$ fraction. Therefore, the b2bClusterPhi variable is not just $\textrm{clusterPhi} - \pi$ (as in the sketch). To calculate the b2bClusterPhi variable we have to boost the particle in the center-of-momentum frame then calculate $\textrm{clusterPhi} - \pi$ and finally we have to boost it back in the lab frame. With this variable we can predict the clusterPhi angle of the other particle. 
+A simplified sketch of the b2bClusterPhi ($\phi_{\textrm{pred}}$) variable is shown in figure \ref{fig:Sketchb2b}. This sketch shows the ECL in beam direction, so the magnetic field in the ECL is pointing into the paper. At the interaction point an electron (in this example the red line) and a positron (in this example the blue line) are created. Since both particles are charged their trajectories are bended by the magnetic field. The electron hits the ECL and creates a cluster with at the azimuth angle $\phi_{\textrm{Cluster}}$. As described in section \ref{cha:Kinematics} the center-of-mass frame at Belle II has a non zero $x$-$y$ fraction. Therefore, the  $\phi_{\textrm{pred}}$ variable is not just $ \phi_{\textrm{Cluster}} - \pi$ (as in the sketch). To calculate $\phi_{\textrm{pred}}$ we have to boost the particle in the center-of-momentum frame then calculate $ \phi_{\textrm{CMS}}- \pi$ and finally we have to boost it back in the lab frame. With this variable we can calculate the angle $\phi_{\textrm{pred}}$ of the other particle. 
 
-This sketch shows that there is a difference between the predicted and the true clusterPhi angle due to the magnetic field. This also means that in an $\textrm{ee} \rightarrow \gamma \gamma$ event, the predicted and the true clusterPhi angle are the same because the trajectory of photons are not bend in the magnetic field. Therefore, we are able to differ between $\textrm{ee} \rightarrow \textrm{ee}$ and $\textrm{ee} \rightarrow \gamma \gamma$ events.
+This sketch shows that there is a difference between the predicted angle $\phi_{\textrm{pred}}$ and the angle $ \phi_{\textrm{Cluster}}$ due to the magnetic field. This also means that in an $\textrm{ee} \rightarrow \gamma \gamma$ event, the predicted and the angle $ \phi_{\textrm{Cluster}}$ are the same because the trajectory of photons are not bend in the magnetic field. Therefore, we are able to differ between $\textrm{ee} \rightarrow \textrm{ee}$ and $\textrm{ee} \rightarrow \gamma \gamma$ events.
 
 
 
@@ -1362,7 +1364,7 @@ This sketch shows that there is a difference between the predicted and the true 
 	\includegraphics[width=\textwidth]{Plots/master/sb2b_Data.pdf}
 	
 
-	\caption[b2bClusterPhi - clusterPhi For Beamtime-Data]{Left: Predicted clusterPhi(HclE) - Reconstructed clusterPhi(LclE). Right: Predicted clusterPhi(LclE) - Reconstructed clusterPhi(HclE). Only particles within the gray area are taken into account. The two top sketches represent what is calculated. The middle peak in both plots are created by $\textrm{e}^+\textrm{e}^- \rightarrow \gamma \gamma$ }
+	\caption[b2bClusterPhi - clusterPhi For Beamtime-Data]{Left: $\Delta \phi _{\textrm{b2bpred} - \textrm{reco}}^{\textrm{HclE}-\textrm{LclE}}$. Right:  $\Delta \phi _{\textrm{b2bpred} - \textrm{reco}}^{\textrm{LclE}-\textrm{HclE}}$. Only particles within the gray area are taken into account. The two top sketches represent what is calculated. The middle peak in both plots are created by $\textrm{e}^+\textrm{e}^- \rightarrow \gamma \gamma$ events.}
 	\label{fig:b2bData}
 	%Single Data file 608 Efficiency.C makro
 
@@ -1370,22 +1372,35 @@ This sketch shows that there is a difference between the predicted and the true 
 \end{figure}
 
 
-In figure \ref{fig:b2bData} the difference between the predicted and the reconstructed clusterPhi angle for phase2 data is shown. In the left plot the reconstructed clusterPhi angle of the LclE particle is subtracted by the b2bClusterPhi angle of the HclE particle. In the right plot it is vice versa. In both plots we have three peaks. The middle peaks are $\textrm{ee} \rightarrow \gamma \gamma$ events since the predicted and the reconstructed clusterPhi angle is the same. Thus, these are events we want to cut away. The left peak is caused by electrons (most of the HclE particles are electrons, therefore, the left peak on the right plot is significantly higher\footnote{As described in section \ref{sec:RecBasf2}, the HclE daughter is the daughter with the higher cluster energy}), the right peak by positrons. This means that if e.g. we only cut on the left peak we are only selecting electron particles even if they are wrongly reconstructed as photons, using ECL information only. 
-Therefore, the last cut we will add is a cut on the b2bClusterPhi angle. We will only consider events with:
-\newline
-
- $0.05 \leq \textrm{abs(b2bClusterPhi(HclE) - clusterPhi(LclE))} \leq 0.2 $ and  $0.05 \leq \textrm{abs(b2bClusterPhi(LclE) - clusterPhi(HclE))} \leq 0.2$
+In figure \ref{fig:b2bData} the difference between the predicted and the reconstructed $\phi_{\textrm{Cluster}}$ angle for phase2 data is shown. In the left plot the reconstructed $\phi_{\textrm{Cluster}}$ angle of the LclE particle is subtracted by the  $\phi_{\textrm{pred}}$  angle of the HclE particle. In the right plot it is vice versa. In both plots we have three peaks. The middle peaks are $\textrm{ee} \rightarrow \gamma \gamma$ events since the predicted and the reconstructed $\phi_{\textrm{Cluster}}$ angle is the same. Thus, these are events we want to cut away. The left peak is caused by electrons (most of the HclE particles are electrons, therefore, the left peak on the right plot is significantly higher\footnote{As described in section \ref{sec:RecBasf2}, the HclE daughter is the daughter with the higher cluster energy}), the right peak by positrons. This means that if e.g. we only cut on the left peak we are only selecting electron particles even if they are wrongly reconstructed as photons, using ECL information only. 
+Therefore, the last cut we will add is a cut on $\Delta \phi _{\textrm{b2bpred} - \textrm{reco}}$ . We will only consider events with:
 \newline
 
 
-A special case occurs for $\Phi \approx \pi$ or $\Phi \approx -\pi$. It can happen that the reconstructed clusterPhi angle is around $\pi$ but the b2bClusterPhi angle is calculated to be around $-\pi$, then the difference between the predicted and reconstructed clusterPhi angle is around $2\pi$. This can be seen in figure \ref{fig:b2bData_Whole}
 
-Finally, the b2bClusterPhi variable cut can be summarized in the following three conditions. Each event has to fulfill one of them to be taken into account.
+%$\Delta \phi _{\textrm{b2bpred} - \textrm{reco}}^{\textrm{HclE}-\textrm{LclE}}$
+
+
+
+
+
+
+
+
+
+
+ $0.05 \leq |\Delta \phi _{\textrm{b2bpred} - \textrm{reco}}^{\textrm{HclE}-\textrm{LclE}}| \leq 0.2 $ and  $0.05 \leq |\Delta \phi _{\textrm{b2bpred} - \textrm{reco}}^{\textrm{LclE}-\textrm{HclE}}| \leq 0.2$
+\newline
+
+
+A special case occurs for $\phi \approx \pi$ or $\phi \approx -\pi$. It can happen that the reconstructed angle $\phi_{\textrm{Cluster}}$ is around $\pi$ but the angle $\phi_{\textrm{pred}}$ is calculated to be around $-\pi$, then the difference between the predicted $\phi_{\textrm{pred}}$ and reconstructed angle $\phi_{\textrm{Cluster}}$ is around $2\pi$. This can be seen in figure \ref{fig:b2bData_Whole}
+
+Finally, $\Delta \phi _{\textrm{b2bpred} - \textrm{reco}}$ the cut can be summarized in the following three conditions. Each event has to fulfill one of them to be taken into account.
 
 \begin{enumerate}[label=(\alph*)]
-	\item $0.05 \leq \textrm{abs(b2bClusterPhi(HclE) - clusterPhi(LclE)} \leq 0.2$ and $ 0.05 \leq \textrm{abs(b2bClusterPhi(LclE) - clusterPhi(HclE))} \leq 0.2$
-	\item $2\pi - 0.2 \leq \textrm{abs(b2bClusterPhi(HclE) - clusterPhi(LclE)} \leq 2\pi - 0.05$ and $ 0.05 \leq \textrm{abs(b2bClusterPhi(LclE) - clusterPhi(HclE))} \leq 0.2$
-	\item $0.05 \leq \textrm{abs(b2bClusterPhi(HclE) - clusterPhi(LclE)} \leq 0.2 $ and $2\pi - 0.2 \leq \textrm{abs(b2bClusterPhi(LclE) - clusterPhi(HclE))} \leq 2\pi - 0.05$
+	\item $0.05 \leq |\Delta \phi _{\textrm{b2bpred} - \textrm{reco}}^{\textrm{HclE}-\textrm{LclE}}| \leq 0.2$ and $ 0.05 \leq |\Delta \phi _{\textrm{b2bpred} - \textrm{reco}}^{\textrm{LclE}-\textrm{HclE}}| \leq 0.2$
+	\item $2\pi - 0.2 \leq |\Delta \phi _{\textrm{b2bpred} - \textrm{reco}}^{\textrm{HclE}-\textrm{LclE}}|\leq 2\pi - 0.05$ and $ 0.05 \leq |\Delta \phi _{\textrm{b2bpred} - \textrm{reco}}^{\textrm{LclE}-\textrm{HclE}}| \leq 0.2$
+	\item $0.05 \leq|\Delta \phi _{\textrm{b2bpred} - \textrm{reco}}^{\textrm{HclE}-\textrm{LclE}}| \leq 0.2 $ and $2\pi - 0.2 \leq |\Delta \phi _{\textrm{b2bpred} - \textrm{reco}}^{\textrm{LclE}-\textrm{HclE}}| \leq 2\pi - 0.05$
 \end{enumerate}
 
 These cuts are visualized by the gray area in figure \ref{fig:b2bData}. Only particles within these areas are taken into account.
@@ -1396,13 +1411,13 @@ These cuts are visualized by the gray area in figure \ref{fig:b2bData}. Only par
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\textwidth]{Plots/master/sb2b_MC.pdf}
-	\caption[b2bClusterPhi - clusterPhi For MC]{Left: Predicted clusterPhi(HclE) - Reconstructed clusterPhi(LclE). Right: Predicted clusterPhi(LclE) - Reconstructed clusterPhi(HclE). Only particles within the gray area are taken into account. Both plots are created with phase2 MC. There is no middle peak because only $\textrm{ee} \rightarrow \textrm{ee}$ events were generated.}
+	\caption[b2bClusterPhi - clusterPhi For MC]{Left: $\Delta \phi _{\textrm{b2bpred} - \textrm{reco}}^{\textrm{HclE}-\textrm{LclE}}$. Right:  $\Delta \phi _{\textrm{b2bpred} - \textrm{reco}}^{\textrm{LclE}-\textrm{HclE}}$. Only particles within the gray area are taken into account. Both plots are created with phase2 MC. There is no middle peak because only $\textrm{ee} \rightarrow \textrm{ee}$ events were generated.}
 	\label{fig:b2bMC}
 \end{figure}
 
 
 
-Figure \ref{fig:b2bMC} shows the same plots as figure \ref{fig:b2bData} but with phase2 MC. Note that there is no middle peak because only $\textrm{ee} \rightarrow \textrm{ee}$ events were generated. In figure \ref{fig:b2bMC_Whole} the b2bClusterPhi plot with full range is shown for MC.
+Figure \ref{fig:b2bMC} shows the same plots as figure \ref{fig:b2bData} but with phase2 MC. Note that there is no middle peak because only $\textrm{ee} \rightarrow \textrm{ee}$ events were generated. In figure \ref{fig:b2bMC_Whole} the same plot but with full range is shown for MC.
 
 \section{ECL-Trigger}
 \label{sec:ECLTrigger}
@@ -1555,14 +1570,40 @@ The selected ranges can be found in table \ref{tab:RTPMDThetaTable}.
 
 
 
-\lettrine{I}{n} this chapter the tracking efficiency studies on phase2 will be presented. The selection described in chapter \ref{chap:Phase2Eff} will be applied. Phase2 data will be shown in blue together with phase2 Monte Carlo in red, in order to make comparison of these two easier. The individual tracking efficiencies can be found in the appendix chapter \ref{A:2}. Also, only tracking efficiencies with $\Delta \epsilon < 0.4$ are plotted to make the plots more easy to read. 
+\lettrine{I}{n} this chapter the tracking efficiency studies on phase2 will be presented. The selection described in chapter \ref{chap:Phase2Eff} will be applied. Phase2 data will be shown in blue together with phase2 Monte Carlo in red, in order to make comparison of these two easier.  Only tracking efficiencies with $\Delta \epsilon < 0.4$ are plotted to make the plots more easy to read. 
 \newline
  
 We will see that the tracking efficiencies for phase2 MC will be higher than the tracking efficiencies for phase2 data. This is expected because if you want to generate Monte Carlo files, you have to simulate the detector as a whole and it is impossible to consider every single aspect of the structure of the detector like cabling, screws and even impurities of the material which we have in reality. These additional materials can interact with the outgoing particles, and these particles could scatter an additional time or could be absorbed by the material, for example. In addition, there is no dead time of the detector in MC. Each event is simulated individually. This is another error source for real data. Additionally, on MC the detector is working under optimal conditions. Only one event is happening at a time, there are no fluctuations in the power supplies etc.
 For real data, all of these issues result in a lower tracking efficiency. Therefore, phase MC should have a higher tracking efficiency compared to phase2 data. Otherwise, it will be noted. This is also true for phase3.
  
 
-\section{Momentum Efficiencies}
+\section{$\theta$-$\phi$ Efficiencies}
+\label{sec:tpEff}
+
+In figure \ref{plt:xCEff} you can see the $\theta$-$\phi$ efficiencies for phase2 MC on the left and phase2 data on the right. The efficiencies for electrons are shown in the first line and positrons in the second line. These plots combine all momenta of the particles. For electrons there is a difference between phase2 MC and phase2 data in the forward end-cap. For phase2 MC there is almost no drop of the efficiency in the forward end-cap in contrast to phase2 data. 
+
+For positrons the differences occur in the backward end-cap. The transition between high and low tracking efficiency is way more sharp on phase2 MC compared to phase2 data. Additionally, at around $\phi \approx 0$ and $\theta \approx 2.4$ there is something like a \textit{horn} structure in phase2 data. We will discuss this structure  in section \ref{sec:MEC} for positrons with momenta between $3\,\textrm{GeV}$ and $5\,\textrm{GeV}$.
+
+For electrons and positrons, there are two vertical efficiency drops at $\theta \approx 2.05$ and 2.15. Both have an azimuthal angle of $-0.8 \lesssim \phi \lesssim 0.8$.  These two drops are far more dominant in the electron tracking efficiency compared to the positron tracking efficiency.
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master/xCEffTP_MCData.pdf}
+	\caption[$\theta$-$\phi$ Efficiency Plots Phase2]{$\theta$-$\phi$ efficiencies for phase2. Left: Phase2 MC. Right: Phase2 data. First line: electron efficiencies. Second line: positron efficiencies. The 2D plots with the corresponding error can be found in the appendix \ref{plt:xCEff_Error}. The pink line indicates the different sectors of the ECL.}
+	\label{plt:xCEff}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+
+\section{$\epsilon$ In Bins Of Track Momentum}
 
 
 \subsection{Forward End-Cap}
@@ -1671,7 +1712,7 @@ The last positron momenta range is between $6\,\textrm{GeV}$ and $7\,\textrm{GeV
 
 \clearpage
 
-\section{Transverse Momentum Efficiencies}
+\section{$\epsilon$ In Bins Of Track Transverse Momentum}
 
 \subsection{Forward End-Cap}
 
@@ -1767,21 +1808,18 @@ For transverse momenta between $5\,\textrm{GeV}$ and $6\,\textrm{GeV}$ almost al
 
 \newpage
 
-\section{$\theta$-$\phi$ Efficiencies}
-\label{sec:tpEff}
 
-In figure \ref{plt:xCEff} you can see the $\theta$-$\phi$ efficiencies for phase2 MC on the left and phase2 data on the right. The efficiencies for electrons are shown in the first line and positrons in the second line. These plots combine all momenta of the particles. For electrons there is a difference between phase2 MC and phase2 data in the forward end-cap. For phase2 MC there is almost no drop of the efficiency in the forward end-cap in contrast to phase2 data. 
 
-For positrons the differences occur in the backward end-cap. The transition between high and low tracking efficiency is way more sharp on phase2 MC compared to phase2 data. Additionally, at around $\phi \approx 0$ and $\theta \approx 2.4$ there is something like a \textit{horn} structure in phase2 data. We already saw this structure  in section \ref{sec:MEC} for positrons with momenta between $3\,\textrm{GeV}$ and $5\,\textrm{GeV}$.
 
-For electrons and positrons, there are two vertical efficiency drops at $\theta \approx 2.05$ and 2.15. Both have an azimuthal angle of $-0.8 \lesssim \phi \lesssim 0.8$.  These two drops are far more dominant in the electron tracking efficiency compared to the positron tracking efficiency.
 
-\begin{figure}[!htbp]
-	\centering
-	\includegraphics[width=\textwidth]{Plots/master/xCEffTP_MCData.pdf}
-	\caption[$\theta$-$\phi$ Efficiency Plots Phase2]{$\theta$-$\phi$ efficiencies for phase2. Left: Phase2 MC. Right: Phase2 data. First line: electron efficiencies. Second line: positron efficiencies. The 2D plots with the corresponding error can be found in the appendix \ref{plt:xCEff_Error}. The pink line indicates the different sectors of the ECL.}
-	\label{plt:xCEff}
-\end{figure}
+
+
+
+
+
+
+
+
 
 \chapter{Phase3 Tracking Efficiency}
 \label{chp:TrackingEfficiencyPhase3}
@@ -1793,47 +1831,52 @@ For electrons and positrons, there are two vertical efficiency drops at $\theta 
 
 Phase3 started successfully on March 11th, 2019. In contrast to phase2 the whole SVD and all ladders of the innermost in addition to two ladders of the outermost layer of the PXD were installed during phase3. A sketch of the PXD arrangement is shown in the appendix figure \ref{fig:phase3pxd}. Phase3 is the first physics run of the Belle II project, in which the Belle II experiment takes data with a mostly fully equipped detector.\cite{phase3}
 
-\section{Location}
 
-To have as much events as possible, all phase3 data files are taken into account. They contain all Experiment 7 located on KEKCC at:
-\newline
 
-/group/belle2/dataprod/Data/release-03-02-02/DB00000654/proc9/e0007/4S/
-r0*/all/mdst/sub00/*.root
-\newline 
 
-and Experiment 8 located on KEKCC at (as of October 2019):
-\newline
 
-/group/belle2/dataprod/Data/release-03-02-02/DB00000654/proc9/e0008/4S/
-r0*/all/mdst/sub00/*.root
-\newline
+\section{Tracking Efficiency}
 
-For Monte Carlo we will consider all files located on GridKa at:
-\newline 
-
-/belle/MC/release-01-00-02/DB00000294/MC10/prod00004664/s00/e0000/4S/
-r00000/3600520000/mdst/sub00
-\newline
-
+In this section the calculated tracking efficiencies for phase3 will be presented. To have as many events as possible, all phase3 data and phase3 MC files are taken into account. 
 The selection described in chapter \ref{chap:Phase2Eff} will be used to select Bhabha events.
-
 
 \begin{figure}[h!]
 	\includegraphics[width=\textwidth]{Plots/master3/CCandP3.pdf}
-	\caption[Total Number Of Events After The Selection Phase3]{The number of candidates per event after the selection is shown. Left: Phase3 data. Right: Phase3 MC. A total of 852093 candidates are selected for phase3 MC and $5.344275\cdot10^7$ candidates are selected for phase3 data.}
+	\caption[Total Number Of Events After The Selection Phase3]{The number of candidates per event after the selection is shown. Left: Phase3 data. Right: Phase3 MC. A total of 852093 candidates are selected for phase3 MC and $5.3\cdot10^7$ candidates are selected for phase3 data.}
 	\label{fig:nCandAS3}
 \end{figure}
 
 In figure \ref{fig:nCandAS3} you can see the number of selected virtual photon candidates per event. You can see that in both phase3 MC and phase3 data only one candidate is selected per event.
 
-\clearpage
 
-\section{Tracking Efficiency}
 
-In this section the calculated tracking efficiencies for phase3 will be presented.  Phase3 data will be shown in brown together with phase3 MC in green. The individual tracking efficiencies can be found in the appendix chapter \ref{A:3}. Just like chapter \ref{chp:TrackingEfficiencyPhase2}, only efficiencies with $\Delta \epsilon < 0.4$ are plotted.
 
-\subsection{Momentum Efficiencies}
+Phase3 data will be shown in blue together with phase3 MC in red. Only efficiencies with $\Delta \epsilon < 0.4$ are plotted.
+
+
+\subsection{$\theta$-$\phi$ Efficiencies}
+\label{sec:tpEff3}
+
+In figure \ref{plt:xCEff3} you can see the $\theta$-$\phi$ tracking efficiencies.\footnote{I highly recommend to look at these plots from a digital device because the differences are very small and difficult to spot on paper}
+Similar to section \ref{sec:tpEff}, the phase3 MC efficiency is shown on the left and phase3 data on the right. The electron efficiencies are presented in the first line and the positron in the second line. Again, these plots combine all momenta. For the phase3 data electron tracking efficiency you can see horizontal efficiency drops in the forward end-cap and in the barrel at $\phi \approx -1.8, -1.0, -0.2, 0.6, 0.1 \textrm{ and }3.0$. 
+The drops in the end-caps were already discussed in the previous sections but we learned that there are horizontal electron tracking efficiency drops even in the barrel. 
+
+You can also see that there are horizontal efficiency losses for the positron phase3 data tracking efficiency. But they only appear in the backward end-cap at $\phi \approx -3.0, -1.7, -0.5, 1.4 \textrm{ and } 2.6$. On phase3 MC there are no horizontal efficiency drops in the backward end-cap. These horizontal efficiency drops can also be seen in the electron phase3 data tracking efficiency plots but unfortunately the statistics on phase3 MC is too low to see efficiencies in the backward end-cap at all.
+
+Similar to the phase2 data electron tracking efficiency, there are two vertical efficiency drops on the phase3 data tracking efficiency at $\theta \approx 2.05$ and 2.15 with an azimuthal angle of $-0.8 \lesssim \phi \lesssim 0.8$.
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master3/xCEffTP_MCDataP3.pdf}
+	\caption[$\theta$-$\phi$ Efficiency Plots Phase3]{$\theta$-$\phi$ efficiencies for phase3. Left: Phase3 MC. Right: Phase3 data. First line: electron efficiencies. Second line: positron efficiencies. The 2D plots with the corresponding error can be found in the appendix \ref{plt:xCEff_Error3}. The pink line indicates the different sectors of the ECL.}
+	\label{plt:xCEff3}
+\end{figure}
+
+
+
+
+\subsection{$\epsilon$ In Bins Of Track Momentum}
 
 \subsubsection{Forward End-Cap}
 
@@ -1934,7 +1977,7 @@ For momenta between $6\,\textrm{GeV}$ and $7\,\textrm{GeV}$ the tracking efficie
 \end{figure}
 
 \newpage
-\subsection{Transverse Momentum Efficiencies}
+\subsection{$\epsilon$ In Bins Of Track Transverse Momentum}
 
 \subsubsection{Forward End-Cap}
 
@@ -2041,24 +2084,7 @@ For transverse momenta between $5\,\textrm{GeV}$ and $6\,\textrm{GeV}$ most of t
 
 \clearpage
 
-\subsection{$\theta$-$\phi$ Efficiencies}
-\label{sec:tpEff3}
 
-In figure \ref{plt:xCEff3} you can see the $\theta$-$\phi$ tracking efficiencies.\footnote{I highly recommend to look at these plots from a digital device because the differences are very small and difficult to spot on paper}
-Similar to section \ref{sec:tpEff}, the phase3 MC efficiency is shown on the left and phase3 data on the right. The electron efficiencies are presented in the first line and the positron in the second line. Again, these plots combine all momenta. For the phase3 data electron tracking efficiency you can see horizontal efficiency drops in the forward end-cap and in the barrel at $\phi \approx -1.8, -1.0, -0.2, 0.6, 0.1 \textrm{ and }3.0$. 
-The drops in the end-caps were already discussed in the previous sections but we learned that there are horizontal electron tracking efficiency drops even in the barrel. 
-
-You can also see that there are horizontal efficiency losses for the positron phase3 data tracking efficiency. But they only appear in the backward end-cap at $\phi \approx -3.0, -1.7, -0.5, 1.4 \textrm{ and } 2.6$. On phase3 MC there are no horizontal efficiency drops in the backward end-cap. These horizontal efficiency drops can also be seen in the electron phase3 data tracking efficiency plots but unfortunately the statistics on phase3 MC is too low to see efficiencies in the backward end-cap at all.
-
-Similar to the phase2 data electron tracking efficiency, there are two vertical efficiency drops on the phase3 data tracking efficiency at $\theta \approx 2.05$ and 2.15 with an azimuthal angle of $-0.8 \lesssim \phi \lesssim 0.8$.
-
-
-\begin{figure}[!htbp]
-	\centering
-	\includegraphics[width=\textwidth]{Plots/master3/xCEffTP_MCDataP3.pdf}
-	\caption[$\theta$-$\phi$ Efficiency Plots Phase3]{$\theta$-$\phi$ efficiencies for phase3. Left: Phase3 MC. Right: Phase3 data. First line: electron efficiencies. Second line: positron efficiencies. The 2D plots with the corresponding error can be found in the appendix \ref{plt:xCEff_Error3}. The pink line indicates the different sectors of the ECL.}
-	\label{plt:xCEff3}
-\end{figure}
 
 
 \chapter{Comparing Phase2 With Phase3}
@@ -2160,9 +2186,10 @@ These drops appear to be randomly distributed. The reason for these drops has to
 \begin{appendix}
 	
 
+\chapter{Appendix}
 	
 	
-\chapter{Additional Preparation Plots}
+\section{Additional Preparation Plots}
 
 
 The single MC file used for phase2 MC is located on Grid at:
@@ -2201,19 +2228,14 @@ The generated file is located on KEKCC at:
 
 
 
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=\textwidth]{AnhangPlots/ttpp.pdf}
-	\caption[Cluster Splitting Angle Distribution]{Left: The $\theta$ angle of the clusters after the \textit{cluster splitting}. Almost all the time, both clusters have the same $\theta$ angle.  Right: The $\phi$ angle of the clusters after the \textit{cluster splitting}. The $\phi$ angle of both clusters are always slightly different. Therefore, \textit{cluster splitting} always occurs along the polar angle.}
-	\label{fig:clusterSplittingAngle}
-\end{figure}
+
 
 
 
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\textwidth]{Plots/master/sb2b_Data_0.pdf}
-	\caption[b2bClusterPhi - clusterPhi For Data (Whole Range)]{Left: Predicted clusterPhi(HclE) - Reconstructed clusterPhi(LclE). Right: Predicted clusterPhi(LclE) - Reconstructed clusterPhi(HclE). Only particles within the gray area are taken into account. Both plots are created with phase2 data. Note the logarithmic scale.}
+	\caption[b2bClusterPhi - clusterPhi For Data (Whole Range)]{Left: $\Delta \phi _{\textrm{b2bpred} - \textrm{reco}}^{\textrm{HclE}-\textrm{LclE}}$. Right:  $\Delta \phi _{\textrm{b2bpred} - \textrm{reco}}^{\textrm{LclE}-\textrm{HclE}}$. Only particles within the gray area are taken into account. Both plots are created with phase2 data. Note the logarithmic scale.}
 	\label{fig:b2bData_Whole}
 \end{figure}
 
@@ -2225,7 +2247,7 @@ The generated file is located on KEKCC at:
 \begin{figure}[!htbp]
 	\centering
 	\includegraphics[width=\textwidth]{Plots/master/sb2b_MC_0.pdf}
-	\caption[b2bClusterPhi - clusterPhi For MC (Whole Range)]{Left: Predicted clusterPhi(HclE) - Reconstructed clusterPhi(LclE). Right: Predicted clusterPhi(LclE) - Reconstructed clusterPhi(HclE). Only particles within the gray area are taken into account. Both plots are created with phase2 MC data. Note the logarithmic scale.}
+	\caption[b2bClusterPhi - clusterPhi For MC (Whole Range)]{Left: $\Delta \phi _{\textrm{b2bpred} - \textrm{reco}}^{\textrm{HclE}-\textrm{LclE}}$. Right:  $\Delta \phi _{\textrm{b2bpred} - \textrm{reco}}^{\textrm{LclE}-\textrm{HclE}}$. Only particles within the gray area are taken into account. Both plots are created with phase2 MC data. Note the logarithmic scale.}
 	\label{fig:b2bMC_Whole}
 \end{figure}
 \newpage
@@ -2321,8 +2343,8 @@ The generated file is located on KEKCC at:
 \end{figure}
 
 
-
-\chapter{Additional Phase2 Plots}
+\clearpage
+\section{Phase2}
 \label{A:2}
 
 The phase2 MC files are located on GridKa at: 
@@ -2353,6 +2375,89 @@ The phase2 data files are located on KEKCC at:
 
 
 
+
+\clearpage
+\section{Phase3}
+
+
+To have as much events as possible, all phase3 data files are taken into account. They contain all Experiment 7 located on KEKCC at:
+\newline
+
+/group/belle2/dataprod/Data/release-03-02-02/DB00000654/proc9/e0007/4S/
+r0*/all/mdst/sub00/*.root
+\newline 
+
+and Experiment 8 located on KEKCC at (as of October 2019):
+\newline
+
+/group/belle2/dataprod/Data/release-03-02-02/DB00000654/proc9/e0008/4S/
+r0*/all/mdst/sub00/*.root
+\newline
+
+For Monte Carlo we will consider all files located on GridKa at:
+\newline 
+
+/belle/MC/release-01-00-02/DB00000294/MC10/prod00004664/s00/e0000/4S/
+r00000/3600520000/mdst/sub00
+\newline
+
+
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master3/hb2b_MCP3.pdf}
+	\caption[b2bClusterPhi - clusterPhi For Phase3 MC]{Left: $\Delta \phi _{\textrm{b2bpred} - \textrm{reco}}^{\textrm{HclE}-\textrm{LclE}}$. Right:  $\Delta \phi _{\textrm{b2bpred} - \textrm{reco}}^{\textrm{LclE}-\textrm{HclE}}$. Only particles within the gray area are taken into account. Both plots are created with phase3 MC. There is no middle peak because only $\textrm{ee} \rightarrow \textrm{ee}$ events were generated.}
+	\label{fig:b2bMC3}
+\end{figure}
+
+
+
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\textwidth]{Plots/master3/hb2b_DataP3.pdf}
+	\caption[b2bClusterPhi - clusterPhi For Phase3 Data]{Left: $\Delta \phi _{\textrm{b2bpred} - \textrm{reco}}^{\textrm{HclE}-\textrm{LclE}}$. Right:  $\Delta \phi _{\textrm{b2bpred} - \textrm{reco}}^{\textrm{LclE}-\textrm{HclE}}$. Only particles within the gray area are taken into account. Both plots are created with phase3 data. The middle peak in both plots are created by $\textrm{e}^+\textrm{e}^- \rightarrow \gamma \gamma$ events.}
+	\label{fig:b2bData3}
+\end{figure}
+
+
+
+
+
+
+
+
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\textwidth]{Bilder/phase3pxd.pdf}
+	\caption[The Status Of The PXD In Phase3]{The status of the PXD during phase3. You can see that the innermost layer is completely installed and only 2 out 12 from the outer layer are installed. This sketch was modified to make it easier to look at.\cite{phase3pxd}}
+	\label{fig:phase3pxd}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\begin{comment}
+	
 
 
 
@@ -2612,19 +2717,11 @@ The phase2 data files are located on KEKCC at:
 	\caption[$\theta$-$\phi$ Efficiency Error Plots Phase2]{$\theta$-$\phi$ efficiency errors for phase2. Left: Phase2 MC. Right: Phase2 data. First line: electron efficiency errors. Second line: positron efficiency errors.}
 	\label{plt:xCEff_Error}
 \end{figure}
+content...
+\end{comment}
 
 
-
-\chapter{Additional Phase3 Plots}
-\label{A:3}
-
-
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=\textwidth]{Bilder/phase3pxd.pdf}
-	\caption[The Status Of The PXD In Phase3]{The status of the PXD during phase3. You can see that the innermost layer is completely installed and only 2 out 12 from the outer layer are installed. This sketch was modified to make it easier to look at.\cite{phase3pxd}}
-	\label{fig:phase3pxd}
-\end{figure}
+\begin{comment}
 
 
 \begin{figure}[!htbp]
@@ -2860,6 +2957,10 @@ The phase2 data files are located on KEKCC at:
 	\caption[$\theta$-$\phi$ Efficiency Error Plots Phase3]{$\theta$-$\phi$ efficiency errors for phase3. Left: Phase3 MC. Right: Phase3 data. First line: electron efficiency errors. Second line: positron efficiency errors.}
 	\label{plt:xCEff_Error3}
 \end{figure}
+
+
+content...
+\end{comment}
 
 
 \listoffigures
