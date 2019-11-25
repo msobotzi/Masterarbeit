@@ -454,32 +454,27 @@
     \field{year}{2018}
   \endentry
 
-  \entry{TrackReconstruction}{thesis}{}
+  \entry{wiki:xxx}{misc}{}
     \name{author}{1}{}{%
-      {{hash=PS}{%
-         family={Pohl},
-         familyi={P\bibinitperiod},
-         given={Sara},
-         giveni={S\bibinitperiod},
+      {{hash=CW}{%
+         family={Commons},
+         familyi={C\bibinitperiod},
+         given={Wikimedia},
+         giveni={W\bibinitperiod},
       }}%
     }
-    \strng{namehash}{PS1}
-    \strng{fullhash}{PS1}
+    \strng{namehash}{CW1}
+    \strng{fullhash}{CW1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{title}{Track Reconstruction at the First Level Trigger of the Belle
-  II Experiment}
+    \field{note}{visited on 25.11.2019}
+    \field{title}{File:Spherical polar coordinates.png --- Wikimedia Commons{,}
+  the free media repository}
     \verb{url}
-    \verb https://edoc.ub.uni-muenchen.de/22085/
+    \verb \url{https://commons.wikimedia.org/w/index.php?title=File:Spherical_p
+    \verb olar_coordinates.png&oldid=155599525}
     \endverb
-    \list{institution}{1}{%
-      {Ludwig-Maximilians-Universität München}%
-    }
-    \field{type}{PhD Thesis}
-    \field{month}{12}
-    \field{year}{2017}
-    \warn{\item Invalid format of field 'date' \item Invalid format of field
-  'date'}
+    \field{year}{2015}
   \endentry
 
   \entry{DevelopVertex}{thesis}{}
@@ -1085,6 +1080,34 @@
     \endverb
     \field{month}{03}
     \field{year}{2001}
+  \endentry
+
+  \entry{TrackReconstruction}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=PS}{%
+         family={Pohl},
+         familyi={P\bibinitperiod},
+         given={Sara},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PS1}
+    \strng{fullhash}{PS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Track Reconstruction at the First Level Trigger of the Belle
+  II Experiment}
+    \verb{url}
+    \verb https://edoc.ub.uni-muenchen.de/22085/
+    \endverb
+    \list{institution}{1}{%
+      {Ludwig-Maximilians-Universität München}%
+    }
+    \field{type}{PhD Thesis}
+    \field{month}{12}
+    \field{year}{2017}
+    \warn{\item Invalid format of field 'date' \item Invalid format of field
+  'date'}
   \endentry
 \endsortlist
 \endinput

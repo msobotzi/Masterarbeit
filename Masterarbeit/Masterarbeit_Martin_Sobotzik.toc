@@ -76,7 +76,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.8}More Events}{42}{section.6.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.9}Dividing The ECL In Areas Of Interest}{43}{section.6.9}
+\contentsline {section}{\numberline {6.9}Dividing The ECL In Areas Of Interest}{44}{section.6.9}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {7}Phase2 Tracking Efficiency}{51}{chapter.7}
 \defcounter {refsection}{0}\relax 
