@@ -8,9 +8,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {\relax 2.1}{\ignorespaces Standard Model}}{4}{figure.caption.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 2.2}{\ignorespaces Bhabha Feynman Diagrams}}{7}{figure.caption.3}
+\contentsline {figure}{\numberline {\relax 2.2}{\ignorespaces Bhabha Feynman Diagrams}}{6}{figure.caption.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 2.3}{\ignorespaces Differential Cross Section For Bhabha Events}}{7}{figure.caption.4}
+\contentsline {figure}{\numberline {\relax 2.3}{\ignorespaces Differential Cross Section For The Bhabha Process}}{7}{figure.caption.4}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
@@ -48,7 +48,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {\relax 5.2}{\ignorespaces Transverse Momentum As Function Of $\theta $ In The CMS And LAB Frame}}{28}{figure.caption.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 5.3}{\ignorespaces Energies Of The Outgoing Particle In The LAB Frame}}{28}{figure.caption.20}
+\contentsline {figure}{\numberline {\relax 5.3}{\ignorespaces Energies Of The Outgoing Particles In The LAB Frame}}{28}{figure.caption.20}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
@@ -60,21 +60,21 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {\relax 6.4}{\ignorespaces Cluster Splitting Energy Distribution}}{37}{figure.caption.24}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.5}{\ignorespaces Number Of Candidates Per Event (After All Cuts)}}{39}{figure.caption.25}
+\contentsline {figure}{\numberline {\relax 6.5}{\ignorespaces Number Of Candidates Per Event (All Cuts)}}{39}{figure.caption.25}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {\relax 6.6}{\ignorespaces Number Of Candidates Per Event With No MC-Truth Info (All Cuts)}}{40}{figure.caption.26}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {\relax 6.7}{\ignorespaces Number Of Candidates Per Event for Phase2 Data (All Cuts)}}{41}{figure.caption.27}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.8}{\ignorespaces Sketch Of The b2bClusterPhi Variable}}{41}{figure.caption.28}
+\contentsline {figure}{\numberline {\relax 6.8}{\ignorespaces Sketch Of The b2bClusterPhi Variable}}{42}{figure.caption.28}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.9}{\ignorespaces b2bClusterPhi - clusterPhi For Beamtime-Data}}{42}{figure.caption.29}
+\contentsline {figure}{\numberline {\relax 6.9}{\ignorespaces b2bClusterPhi - clusterPhi For Phase2 Data}}{43}{figure.caption.29}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.10}{\ignorespaces b2bClusterPhi - clusterPhi For MC}}{43}{figure.caption.30}
+\contentsline {figure}{\numberline {\relax 6.10}{\ignorespaces b2bClusterPhi - clusterPhi For Phase2 MC}}{44}{figure.caption.30}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {\relax 6.11}{\ignorespaces \texttt {bhabha} Trigger Signal After Selection}}{45}{figure.caption.31}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.12}{\ignorespaces Total Number Of Events After The Selection}}{45}{figure.caption.32}
+\contentsline {figure}{\numberline {\relax 6.12}{\ignorespaces Total Number Of Events After The Selection}}{46}{figure.caption.32}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {\relax 6.13}{\ignorespaces Denominator $\theta $-$\phi $ Electron Momentum MC}}{48}{figure.caption.33}
 \defcounter {refsection}{0}\relax 
@@ -158,9 +158,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {\relax A.1}{\ignorespaces clusterE(HclE) - clusterE(LclE)}}{110}{figure.caption.68}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.2}{\ignorespaces b2bClusterPhi - clusterPhi For Data (Whole Range)}}{110}{figure.caption.69}
+\contentsline {figure}{\numberline {\relax A.2}{\ignorespaces b2bClusterPhi - clusterPhi For Phase2 Data (Whole Range)}}{110}{figure.caption.69}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.3}{\ignorespaces b2bClusterPhi - clusterPhi For MC (Whole Range)}}{111}{figure.caption.70}
+\contentsline {figure}{\numberline {\relax A.3}{\ignorespaces b2bClusterPhi - clusterPhi For Phase2 MC (Whole Range)}}{111}{figure.caption.70}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {\relax A.4}{\ignorespaces Denominator $\theta $-$\phi $ Electron Momentum Phase2 Data}}{112}{figure.caption.71}
 \defcounter {refsection}{0}\relax 
@@ -190,20 +190,20 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {\relax A.17}{\ignorespaces $\theta $-$\phi $ Efficiency Error Plots Phase2}}{125}{figure.caption.84}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.18}{\ignorespaces b2bClusterPhi - clusterPhi For Phase2 MC}}{126}{figure.caption.85}
+\contentsline {figure}{\numberline {\relax A.18}{\ignorespaces b2bClusterPhi - clusterPhi For Phase2 Data}}{126}{figure.caption.85}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.19}{\ignorespaces b2bClusterPhi - clusterPhi For Phase2 Data}}{126}{figure.caption.86}
+\contentsline {figure}{\numberline {\relax A.19}{\ignorespaces b2bClusterPhi - clusterPhi For Phase2 MC}}{126}{figure.caption.86}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {\relax A.20}{\ignorespaces The Status Of The PXD In Phase3}}{128}{figure.caption.87}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {\relax A.21}{\ignorespaces $\theta $-$\phi $ Efficiency Error Plots Phase3}}{129}{figure.caption.88}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.22}{\ignorespaces b2bClusterPhi - clusterPhi For Phase3 MC}}{130}{figure.caption.89}
+\contentsline {figure}{\numberline {\relax A.22}{\ignorespaces b2bClusterPhi - clusterPhi For Phase3 Data}}{130}{figure.caption.89}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.23}{\ignorespaces b2bClusterPhi - clusterPhi For Phase3 Data}}{130}{figure.caption.90}
+\contentsline {figure}{\numberline {\relax A.23}{\ignorespaces b2bClusterPhi - clusterPhi For Phase3 MC}}{130}{figure.caption.90}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.24}{\ignorespaces Normalized b2bClusterPhi - clusterPhi For Phase3 Data And Phase3 Data}}{131}{figure.caption.91}
+\contentsline {figure}{\numberline {\relax A.24}{\ignorespaces Normalized b2bClusterPhi - clusterPhi For Phase2 Data And Phase3 Data}}{131}{figure.caption.91}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.25}{\ignorespaces Normalized b2bClusterPhi - clusterPhi For Phase3 MC And Phase3 MC}}{131}{figure.caption.92}
+\contentsline {figure}{\numberline {\relax A.25}{\ignorespaces Normalized b2bClusterPhi - clusterPhi For Phase2 MC And Phase3 MC}}{131}{figure.caption.92}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }

@@ -14,7 +14,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.1}Bhabha Process}{6}{subsection.2.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}Differential Cross Section Of Bhabha Process}{6}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.2}Differential Cross Section Of Bhabha Process}{7}{subsection.2.3.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Experimental Setup At SuperKEKB}{9}{chapter.3}
 \defcounter {refsection}{0}\relax 
@@ -68,13 +68,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.4.5}No MC-Truth Information}{40}{subsection.6.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.5}Best Candidate Selection on Phase2 Data}{40}{section.6.5}
+\contentsline {section}{\numberline {6.5}Best Candidate Selection on Phase2 Data}{41}{section.6.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.6}Selecting Bhabha Events}{41}{section.6.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.7}ECL-Trigger}{44}{section.6.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.8}More Events}{44}{section.6.8}
+\contentsline {section}{\numberline {6.8}More Events}{45}{section.6.8}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.9}Dividing The ECL In Areas Of Interest}{46}{section.6.9}
 \defcounter {refsection}{0}\relax 
@@ -152,7 +152,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {A.3.1}Location Of Phase3 Files}{127}{subsection.A.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.3.2}Additional Figures}{127}{subsection.A.3.2}
+\contentsline {subsection}{\numberline {A.3.2}Additional Figures}{128}{subsection.A.3.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\nonumberline List of Figures}{133}{chapter*.93}
 \defcounter {refsection}{0}\relax 
