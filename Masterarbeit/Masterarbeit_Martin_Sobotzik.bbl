@@ -614,22 +614,52 @@
   \endentry
 
   \entry{bergauer2010silicon}{article}{}
-    \name{author}{1}{}{%
+    \name{author}{5}{}{%
+      {{hash=FM}{%
+         family={Friedl},
+         familyi={F\bibinitperiod},
+         given={Markus},
+         giveni={M\bibinitperiod},
+      }}%
       {{hash=BT}{%
          family={Bergauer},
          familyi={B\bibinitperiod},
          given={Thomas},
          giveni={T\bibinitperiod},
       }}%
+      {{hash=GI}{%
+         family={Gfall},
+         familyi={G\bibinitperiod},
+         given={Immanuel},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=IC}{%
+         family={Irmler},
+         familyi={I\bibinitperiod},
+         given={Christian},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=VM}{%
+         family={Valentan},
+         familyi={V\bibinitperiod},
+         given={Manfred},
+         giveni={M\bibinitperiod},
+      }}%
     }
-    \strng{namehash}{BT1}
-    \strng{fullhash}{BT1}
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{FM+1}
+    \strng{fullhash}{FMBTGIICVM1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{pages}{044}
+    \field{number}{1}
+    \field{pages}{103\bibrangedash 106}
     \field{title}{The silicon vertex detector of the Belle II experiment}
-    \field{journaltitle}{PoS}
-    \field{year}{2010}
+    \field{volume}{628}
+    \field{journaltitle}{Nuclear Instruments and Methods in Physics Research
+  Section A: Accelerators, Spectrometers, Detectors and Associated Equipment}
+    \field{year}{2011}
   \endentry
 
   \entry{CDCHauth}{online}{}
@@ -645,6 +675,7 @@
     \strng{fullhash}{HT2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{note}{Belle2-Talk}
     \field{title}{Pattern Recognition at Belle II}
     \list{institution}{1}{%
       {Karlsruher Institut f\"ur Technologie}%

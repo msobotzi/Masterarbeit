@@ -19,7 +19,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated field_info (elt_size=4) to 10282 items from 5000.
 Database file #1: Masterarbeit_Martin_Sobotzik-blx.bib
 Database file #2: Masterarbeit_Martin_Sobotzik.bib
-I was expecting a `,' or a `}'---line 164 of file Masterarbeit_Martin_Sobotzik.bib
+I was expecting a `,' or a `}'---line 167 of file Masterarbeit_Martin_Sobotzik.bib
  :  
  :  isbn=978-3-540-57280-0,
 (Error may have been on previous line)
@@ -119,43 +119,43 @@ Too many commas in name 1 of "Lillian Hoddeson, Laurie Brown, Michael Riordan, M
 while executing---line 2746 of file biblatex.bst
 You've used 41 entries,
             6256 wiz_defined-function locations,
-            1447 strings with 22934 characters,
-and the built_in function-call counts, 160668 in all, are:
-= -- 9268
-> -- 4284
-< -- 1068
-+ -- 3796
-- -- 1890
-* -- 9523
-:= -- 13791
+            1449 strings with 23041 characters,
+and the built_in function-call counts, 165284 in all, are:
+= -- 9709
+> -- 4325
+< -- 1076
++ -- 3984
+- -- 1910
+* -- 9906
+:= -- 14419
 add.period$ -- 0
 call.type$ -- 41
-change.case$ -- 564
+change.case$ -- 573
 chr.to.int$ -- 216
 cite$ -- 80
-duplicate$ -- 17933
-empty$ -- 16489
-format.name$ -- 1689
-if$ -- 33718
+duplicate$ -- 18452
+empty$ -- 16819
+format.name$ -- 1734
+if$ -- 34545
 int.to.chr$ -- 0
-int.to.str$ -- 94
+int.to.str$ -- 95
 missing$ -- 0
-newline$ -- 986
-num.names$ -- 1681
-pop$ -- 13218
+newline$ -- 1016
+num.names$ -- 1692
+pop$ -- 13262
 preamble$ -- 1
-purify$ -- 687
+purify$ -- 704
 quote$ -- 0
-skip$ -- 6426
+skip$ -- 6460
 stack$ -- 0
-substring$ -- 13448
-swap$ -- 4943
-text.length$ -- 788
+substring$ -- 14284
+swap$ -- 5031
+text.length$ -- 792
 text.prefix$ -- 1
 top$ -- 1
 type$ -- 1373
 warning$ -- 0
-while$ -- 1725
+while$ -- 1807
 width$ -- 0
-write$ -- 946
+write$ -- 976
 (There were 46 error messages)
