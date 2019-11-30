@@ -273,7 +273,7 @@ There are several methods to calculate a tracking efficiency. One method is to s
 %This can be done by using Bhabha events. In a Bhabha event an electron interacts with its antiparticle, a positron, by scattering or annihilation. The outgoing particles are an electron and a positron again. Using the kinematics of this process and informations solely coming from the electromagnetic calorimeter (ECL), a sub-detector surrounding the inner sub-detectors, it is possible to select these Bhabha events. Therefore, one knows that there has to be an outgoing electron and positron in these events. Then it is counted how often a charged particle is reconstructed as such. Finally, this number is divided by the total number of particles in all the Bhabha events passing the tracking detectors. The result is a so-called tracking efficiency.
 
 
-In this thesis, this method will be applied to Bhabha events ($\textrm{e}^+ \textrm{e}^- \rightarrow \textrm{e}^+\textrm{e}^-$) to measure the track reconstruction efficiency. The selection will be motivated by Monte Carlo-Truth informations. These informations are the true properties of the particles generated in Monte Carlo (MC). Then it will be shown that this selection works even without the Truth information and therefore, can be applied to real data as well. Finally, the tracking efficiencies for different phases of the Belle II detector will be calculated and presented. The tracking efficiencies will be shown for several (transverse) momenta ranges and as function of the polar angle $\theta$ and of the azimuth angle $\phi$. We will also differentiate between an electron tracking efficiency and a positron tracking efficiency.
+In this thesis, this method will be applied to Bhabha events ($\textrm{e}^+ \textrm{e}^- \rightarrow \textrm{e}^+\textrm{e}^-$) to measure the track reconstruction efficiency. The selection will be motivated by Monte Carlo-Truth informations. These informations are the true properties of the particles generated in Monte Carlo (MC). Then it will be shown that this selection works even without the Truth information and therefore, can be applied to real data as well. Finally, the tracking efficiencies for different phases of the Belle II detector will be calculated and presented. The tracking efficiencies will be shown for several (transverse) momenta ranges and as function of the polar angle $\theta$ and of the azimuthal angle $\phi$. We will also differentiate between an electron tracking efficiency and a positron tracking efficiency.
 \newline
 
 
@@ -1090,7 +1090,7 @@ variablesToNtuple('vpho:bhabha', variables, treename = 'vpho_bhabha', filename =
 \bigskip
 
 
-In the first line of code all particles which hit the ECL and have no associated track are filled into a photon list called \texttt{gamma:all}. The clusters created by those particles must have a cluster energy in the ECL (clusterE) of at least $0.01\,\textrm{GeV}$. In the second line a list called \texttt{e+:all} is created. All particles with an associated track are filled in this list independently of their charge. Therefore, this list contains e.g. electrons, positrons and even muons. So, a cut on the cluster energy makes more sense compared to a cut on the energy of the particles.
+In the first line of code all particles which hit the ECL and have no associated track are filled into a photon list called \texttt{gamma:all}. The clusters created by those particles must have a cluster energy in the ECL (clusterE) of at least $0.01\,\textrm{GeV}$. In the second line a list called \texttt{e+:all} is created. All particles with an associated track are filled in this list independently of their charge. Thus, this list contains e.g. electrons, positrons and even muons. So, a cut on the cluster energy makes more sense compared to a cut on the energy of the particles.
 
 
 Due to the fact that we want to calculate a tracking efficiency, we need to somehow combine the \texttt{e+:all} and the \texttt{gamma:all} lists. As mentioned earlier, we need to be able to reconstruct the virtual photon from particles reconstructed as electrons/positrons and photons.
@@ -1160,7 +1160,7 @@ Consequently, we need some cuts to select the best candidate in each event and t
 
 \subsection{Mass-Cut}
 
-The first cut to reduce the number of reconstructed candidates per event is a mass cut (The cut is called \texttt{M}). As we saw in figure \ref{fig:nCandAll}, a lot of candidates are reconstructed with a low invariant mass and we know from section \ref{sec:SetupKEK} that the invariant mass of the $\textrm{e}^+\textrm{e}^- \rightarrow \textrm{e}^+\textrm{e}^-$ should be around $10.58\,\textrm{GeV}$. The lower-mass cut of $8\,\textrm{GeV}$ is rather loose. 
+The first cut to reduce the number of reconstructed candidates per event is a mass cut (The cut is called \texttt{M}). As we saw in figure \ref{fig:nCandAll}, a lot of candidates are reconstructed with a low invariant mass and we know from section \ref{sec:SetupKEK} that the invariant mass of the $\textrm{e}^+\textrm{e}^- \rightarrow \textrm{e}^+\textrm{e}^-$ events should be around $10.58\,\textrm{GeV}$. The lower-mass cut of $8\,\textrm{GeV}$ is rather loose. 
 
 
 
@@ -1179,7 +1179,7 @@ The first cut to reduce the number of reconstructed candidates per event is a ma
 	\label{fig:nCandM}
 \end{figure}
 
-As can be seen in figure \ref{fig:nCandM} on the right, all reconstructed candidates with an invariant mass below $8\,\textrm{GeV}$ are neglected. Therefore, the number of candidates per event is reduced drastically. We can see this in the left plot. Unfortunately, sometimes we still have two candidates per event and consequently, we have to introduce some more additional cuts.
+As can be seen in figure \ref{fig:nCandM} on the right, all reconstructed candidates with an invariant mass below $8\,\textrm{GeV}$ are neglected. Therefore, the number of candidates per event is reduced drastically. This is illustrated in the left plot. Unfortunately, sometimes we still have two candidates per event and consequently, we have to introduce some more additional cuts.
 
 
 
@@ -1216,7 +1216,7 @@ This table also shows that the generated particle is always an electron or posit
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\textwidth]{AnhangPlots/ttpp.pdf}
-	\caption[Cluster Splitting Angle Distribution]{Left: The polar angle $\theta_{\textrm{Cluster}}$ of the clusters after the \textit{cluster splitting}. Almost all the time, both clusters have the same polar angle $\theta_{\textrm{Cluster}}$.  Right: The azimuth angle $\phi_{\textrm{Cluster}}$ of the clusters after the \textit{cluster splitting}. The angle $\phi_{\textrm{Cluster}}$ of both clusters are always slightly different. Therefore, \textit{cluster splitting} always occurs along the polar angle.}
+	\caption[Cluster Splitting Angle Distribution]{Left: The polar angle $\theta_{\textrm{Cluster}}$ of the clusters after the \textit{cluster splitting}. Almost all the time, both clusters have the same polar angle $\theta_{\textrm{Cluster}}$.  Right: The azimuthal angle $\phi_{\textrm{Cluster}}$ of the clusters after the \textit{cluster splitting}. The angle $\phi_{\textrm{Cluster}}$ of both clusters are always slightly different. Therefore, \textit{cluster splitting} always occurs along the polar angle.}
 	\label{fig:clusterSplittingAngle}
 \end{figure}
 
@@ -1227,7 +1227,7 @@ This table also shows that the generated particle is always an electron or posit
 
 
 
-In figure \ref{fig:clusterSplittingAngle} the angular distribution of this effect can be seen. For this plot there were no cuts on the reconstruction. It was just checked if exactly two reconstructed particles have the same generated Monte Carlo particle associated. Then the clusterPhi ($\phi_{\textrm{cluster}}$) and clusterTheta ($\theta_{\textrm{cluster}}$) values of these particles were filled into their histograms. The left plot shows that both reconstructed particles have the same $\theta_{\textrm{cluster}}$ angle. The right plot shows that they have a slightly different $\phi_{\textrm{cluster}}$ angle. Therefore, the \textit{original} cluster  is separated into two clusters with the same angle $\theta_{\textrm{Cluster}}$ and a different angle $\phi_{\textrm{cluster}}$. One cluster is associated with a track produced by the generated particle and for the other cluster no track is left, therefore, it is labeled as a photon. This effect will be referred to as \textit{cluster splitting}.
+In figure \ref{fig:clusterSplittingAngle} the angular distributions of this effect can be seen. For these plots no cuts on the reconstruction were applied. It was just checked if exactly two reconstructed particles have the same generated Monte Carlo particle associated. Then the clusterPhi ($\phi_{\textrm{cluster}}$) and clusterTheta ($\theta_{\textrm{cluster}}$) values of these particles were filled into their histograms. The left plot shows that both reconstructed particles have the same $\theta_{\textrm{cluster}}$ angle. The right plot shows that they have a slightly different $\phi_{\textrm{cluster}}$ angle. Therefore, the \textit{original} cluster  is separated into two clusters with the same angle $\theta_{\textrm{Cluster}}$ and a different angle $\phi_{\textrm{cluster}}$. One cluster is associated with a track produced by the generated particle and for the other cluster no track is left, therefore, it is labeled as a photon. This effect will be referred to as \textit{cluster splitting}.
 
 
 \begin{figure}[h!]
@@ -1240,9 +1240,9 @@ In figure \ref{fig:clusterSplittingAngle} the angular distribution of this effec
 
 The energy of the particles in a cluster splitting process can be seen in figure \ref{fig:clusterSplittingE}. Since we only want to select Bhabha events, we want to neglect these kinds of events. In section \ref{cha:Kinematics} we saw that the particles have an energy of at least $4\,\textrm{GeV}$. Therefore, we are able to apply a cut on the cluster energy. We are now requiring a cluster energy of at least $3.5\,\textrm{GeV}$ (The cut is called \texttt{MclE}). This cut also contains the mass cut \texttt{M}. With this cut almost all events with cluster splitting should be neglected.
 
-Next, we require that we have exactly two clusters per event, each with an energy of at least $3.5\,\textrm{GeV}$, since we only expect two high energetic particles in the ECL. Additionally, due to the kinematics at Belle II, we can require that one of the outgoing particles has to have a cluster energy of at least $4.5\,\textrm{GeV}$. This is required due to the trigger we will add in section \ref{sec:ECLTrigger}. (The cut is called \texttt{MclE2H}). It contains both previously introduced cuts.
+Next, we require that we have exactly two clusters per event, each with an energy of at least $3.5\,\textrm{GeV}$, since we only expect two high energetic particles in the ECL. Additionally, due to the kinematics at Belle II, we can require that one of the outgoing particles has to have a cluster energy of at least $4.5\,\textrm{GeV}$.  (The cut is called \texttt{MclE2H} and contains both previously introduced cuts). This is required due to the trigger cut we will add in section \ref{sec:ECLTrigger}.
 
-As an additional safety net, a cut on the number of reconstructed tracks per event is applied. On data it can happen that there are way more than two tracks reconstructed per event. To select only \textit{clean} events we apply a cut on the number of reconstructed charged particles per event (The cut is called \texttt{MclE2HnT}). This number should not be greater than six. It contains all of the previously introduced cuts.
+As an additional safety net, a cut on the number of reconstructed tracks per event is applied. On data it can happen that there are way more than two tracks reconstructed in an event. To select only \textit{clean} events we apply a cut on the number of reconstructed charged particles per event (The cut is called \texttt{MclE2HnT}). This number should not be greater than six. It contains all of the previously introduced cuts.
 
 
 \begin{table}[h!]
@@ -1263,7 +1263,7 @@ As an additional safety net, a cut on the number of reconstructed tracks per eve
 	\end{tabular}
 \caption[Energy Sum In The ECL Examples]{Some examples for events with too much energy in the ECL. 
 	
-	Note: Here the energy of the particles is shown not clusterE.}
+	Note: Here the energy of the particles is shown not clusterE. The energies and mass are in GeV.}
 \label{tab:ESum}
 \end{table}
 
@@ -1280,7 +1280,7 @@ Additionally, sometimes the total energy in the ECL is way higher than expected.
 	\label{fig:nCand}
 \end{figure}
 
-After applying all mentioned cuts, the number of candidates per event is shown in figure \ref{fig:nCand}. It shows that now we only select one virtual photon candidate per event. Therefore, we select 14545 events and candidates.
+After applying all mentioned cuts, the number of candidates per event is shown in figure \ref{fig:nCand}. It shows that now we only select one virtual photon candidate per event. Therefore, we select 14545 events and reconstructed candidates.
 \newline
 
 There is no cut on the reconstructed position of the interaction point since this would require a backtracking of the particles. To backtrack a charged particle, information from the tracking detectors are used and this can not be done since we want to use ECL information only.
@@ -1337,11 +1337,11 @@ In the previous sections we saw that we are able to select only one candidate in
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=10cm]{Cuts/nCandNoMCInfo.pdf}
-	\caption[Number Of Candidates Per Event With No MC-Truth Info (All Cuts)]{Number of candidates per events with no MC-Truth information and all cuts. Same MC file as before. We also select just one candidate per event. The total number of selected events is 14581.}
+	\caption[Number Of Candidates Per Event With No MC-Truth Info (All Cuts)]{Number of candidates per events with no MC-Truth information and all cuts. Same MC file as before. We also select just one reconstructed candidate per event. The total number of selected events is 14581.}
 	\label{fig:nCandNoMCInfo}
 \end{figure}
 
-In figure \ref{fig:nCandNoMCInfo} we see that we reconstruct a total number of 14581 events. Therefore, we reconstruct only 36 events more with no MC-Truth information. Additionally, we are still able to select only one candidate per event. 
+In figure \ref{fig:nCandNoMCInfo} we see that we reconstruct a total number of 14581 events. Therefore, we reconstruct only 36 events more with no MC-Truth information. Additionally, we are still able to select only one reconstructed candidate per event. 
 
 Since we only reconstruct a few more events and still only one candidate per event, we can be very confident that we only select almost exclusively Bhabha events.
 
@@ -1364,7 +1364,7 @@ Figure \ref{fig:nCandData} shows the number of reconstructed candidates on phase
 \section{Selecting Bhabha Events}
 \label{sec:SelectingElectronPositron}
 
-Now, that we are satisfied with the selection of events and candidates we need to be sure that we only select $\textrm{e}^+ \textrm{e}^- \rightarrow \textrm{e}^+ \textrm{e}^-$ events and not for example $\textrm{e}^+ \textrm{e}^- \rightarrow \gamma \gamma$. This is important on phase2 data since there are no $\textrm{e}^+ \textrm{e}^- \rightarrow \gamma \gamma$ events on Monte Carlo. To do this we can use the so-called b2b-variable (back-to-back).
+Now, that we are satisfied with the selection of events and candidates we need to be sure that we only select $\textrm{e}^+ \textrm{e}^- \rightarrow \textrm{e}^+ \textrm{e}^-$ events and not for example $\textrm{e}^+ \textrm{e}^- \rightarrow \gamma \gamma$ events. This is important on phase2 data since there are no $\textrm{e}^+ \textrm{e}^- \rightarrow \gamma \gamma$ events on Monte Carlo. To do this we can use the so-called b2b-variable (back-to-back).
 
 \begin{figure}[h!]
 	\centering
@@ -1373,9 +1373,10 @@ Now, that we are satisfied with the selection of events and candidates we need t
 	\label{fig:Sketchb2b}
 \end{figure}
 
-A simplified sketch of the b2bClusterPhi ($\phi_{\textrm{pred,b2b}}$) variable is shown in figure \ref{fig:Sketchb2b}. This sketch shows the ECL in beam direction, so the magnetic field in the ECL is pointing into the paper. At the interaction point an electron (in this example the red line) and a positron (in this example the blue line) are created. Since both particles are charged their trajectories are bended by the magnetic field. The electron hits the ECL and creates a cluster with an azimuthal cluster angle $\phi_{\textrm{Cluster}}$. As described in section \ref{cha:Kinematics} the center-of-mass frame at Belle II has a non zero $x$-$y$ fraction. Therefore, the  $\phi_{\textrm{pred,b2b}}$ variable is not just $ \phi_{\textrm{Cluster}} - \pi$ (as in the sketch). To calculate $\phi_{\textrm{pred,b2b}}$ we have to boost the particle in the center-of-mass frame then calculate $ \phi_{\textrm{CMS}}- \pi$ and finally we have to boost it back in the lab frame. With this variable we can predict the azimuthal angle of the other particle. 
+A simplified sketch on how to calculate the b2bClusterPhi ($\phi_{\textrm{pred,b2bcl}}^{\textrm{LclE}}$) variable for the LclE particle is shown in figure \ref{fig:Sketchb2b}. This sketch shows the ECL in beam direction, so the magnetic field in the ECL is pointing into the paper. At the interaction point an electron (in this example the red line) and a positron (in this example the blue line) are created. Since both particles are charged their trajectories are bended by the magnetic field. The electron hits the ECL and creates a cluster with an azimuthal cluster angle $\phi_{\textrm{Cluster}}^{\textrm{HcL}}$. As described in section \ref{cha:Kinematics} the center-of-mass frame at Belle II has a non zero $x$-$y$ fraction. 
+Therefore, the variable $\phi_{\textrm{pred,b2bcl}}^{\textrm{LclE}}$ is not just $ \phi_{\textrm{Cluster}}^{\textrm{HclE}} - \pi$ (as in the sketch). To calculate $\phi_{\textrm{pred,b2bcl}}^{\textrm{LclE}}$ we have to boost the particle in the center-of-mass frame then calculate $ \phi_{\textrm{CMS}}^{\textrm{HclE}}- \pi$ and finally we have to boost it back in the lab frame. With this variable we can predict the azimuthal angle of the cluster of the other particle. 
 
-This sketch shows that there is a difference between the predicted angle $\phi_{\textrm{pred,b2b}}$ (calculated with informations from the electron) and the reconstructed angle $ \phi_{\textrm{Cluster}}$ of the positron due to the magnetic field. This also means that in an $\textrm{e}^+ \textrm{e}^- \rightarrow \gamma \gamma$ event, the predicted and the reconstructed angle are the same because the trajectory of photons are not bend in the magnetic field. Therefore, we are able to differ between $\textrm{e}^+ \textrm{e}^- \rightarrow \textrm{e}^+ \textrm{e}^-$ and $\textrm{e}^+ \textrm{e}^- \rightarrow \gamma \gamma$ events.
+This sketch shows that there is a difference between the predicted cluster angle $\phi_{\textrm{pred,b2bcl}}^{\textrm{LclE}}$ (calculated with informations from the electron) and the reconstructed cluster angle $ \phi_{\textrm{Cluster}}^{\textrm{LclE}}$ of the positron due to the magnetic field. This also means that in an $\textrm{e}^+ \textrm{e}^- \rightarrow \gamma \gamma$ event, the predicted and the reconstructed cluster angles are the same because the trajectory of photons are not bend in the magnetic field. Therefore, we are able to differ between $\textrm{e}^+ \textrm{e}^- \rightarrow \textrm{e}^+ \textrm{e}^-$ and $\textrm{e}^+ \textrm{e}^- \rightarrow \gamma \gamma$ events.
 
 
 
@@ -1399,14 +1400,14 @@ This sketch shows that there is a difference between the predicted angle $\phi_{
 	\includegraphics[width=\textwidth]{Plots/master/sb2b_Data.pdf}
 	
 
-	\caption[b2bClusterPhi - clusterPhi For Phase2 Data]{Left: $\Delta \phi _{\textrm{pred} - \textrm{reco}}^{\textrm{HclE}-\textrm{LclE}}$. Right:  $\Delta \phi _{\textrm{pred} - \textrm{reco}}^{\textrm{LclE}-\textrm{HclE}}$. Only particles within the gray area are taken into account. The two top sketches represent what is calculated. The middle peak in both plots are created by $\textrm{e}^+\textrm{e}^- \rightarrow \gamma \gamma$ events.}
+	\caption[b2bClusterPhi - clusterPhi For Phase2 Data]{Left: $\Delta \phi _{\textrm{pred} - \textrm{reco}}^{\textrm{LclE}}$. Right:  $\Delta \phi _{\textrm{pred} - \textrm{reco}}^{\textrm{HclE}}$. Only particles within the gray area are taken into account. The two top sketches represent what is calculated. The middle peak in both plots are created by $\textrm{e}^+\textrm{e}^- \rightarrow \gamma \gamma$ events.}
 	\label{fig:b2bData}
 
 \end{minipage}
 \end{figure}
 
 
-In figure \ref{fig:b2bData} the difference between the predicted and the reconstructed angle ($\Delta \phi_{\textrm{pred - reco}}$) for phase2 data is shown. In the left plot the reconstructed $\phi_{\textrm{Cluster}}$ angle of the LclE particle is subtracted from the angle  $\phi_{\textrm{pred,b2b}}$ calculated with informations from the HclE particle (the resulting angle is called $\Delta \phi_{\textrm{pred - reco}}^{\textrm{HclE - LclE}}$). In the right plot it is vice versa. There are three peaks in both plots. The middle peak is created by $\textrm{e}^+ \textrm{e}^- \rightarrow \gamma \gamma$ events since the predicted and the reconstructed angle are the same. Thus, these are events we want to cut away. The left peak is caused by electrons (most of the HclE particles are electrons, therefore, the left peak on the right plot is significantly higher\footnote{As described in section \ref{sec:RecBasf2}, the HclE daughter is the daughter with the higher cluster energy}), the right peak by positrons. This means that if e.g. we only cut on the left peak we are only selecting electron particles even if they are wrongly reconstructed as photons, using ECL information only. 
+In figure \ref{fig:b2bData} the difference between the predicted and the reconstructed angle cluster ($\Delta \phi_{\textrm{pred - reco}}$) for phase2 data is shown. In the left plot the reconstructed angle $\phi_{\textrm{Cluster}}^{\textrm{LclE}}$ angle of the LclE particle is subtracted from the angle  $\phi_{\textrm{pred,b2bcl}}^{\textrm{LclE}}$ calculated with informations from the HclE particle (the resulting angle difference is called $\Delta \phi_{\textrm{pred - reco}}^{\textrm{LclE}}$). In the right plot it is vice versa. There are three peaks in both plots. The middle peak is created by $\textrm{e}^+ \textrm{e}^- \rightarrow \gamma \gamma$ events since the predicted and the reconstructed cluster angles are the same. Thus, these are events we want to cut away. The left peak is caused by electrons (most of the HclE particles are electrons, therefore, the left peak on the right plot is significantly higher\footnote{As described in section \ref{sec:RecBasf2}, the HclE daughter is the daughter with the higher cluster energy}), the right peak by positrons. This means that if e.g. we only cut on the left peak we are only selecting electron particles even if they are wrongly reconstructed as photons, using ECL information only. 
 Therefore, the last cut we will add is a cut on $\Delta \phi _{\textrm{pred} - \textrm{reco}}$. We will only consider events with:
 \newline
 
@@ -1423,18 +1424,20 @@ Therefore, the last cut we will add is a cut on $\Delta \phi _{\textrm{pred} - \
 
 
 
- $0.05 \leq |\Delta \phi _{\textrm{pred} - \textrm{reco}}^{\textrm{HclE}-\textrm{LclE}}| \leq 0.2 $ and  $0.05 \leq |\Delta \phi _{\textrm{pred} - \textrm{reco}}^{\textrm{LclE}-\textrm{HclE}}| \leq 0.2$
+ $0.05 \leq |\Delta \phi _{\textrm{pred} - \textrm{reco}}^{\textrm{LclE}}| \leq 0.2 $ and  $0.05 \leq |\Delta \phi _{\textrm{pred} - \textrm{reco}}^{\textrm{HclE}}| \leq 0.2$
 \newline
 
 
-A special case occurs for $\phi \approx \pi$ or $\phi \approx -\pi$. It can happen that the reconstructed angle $\phi_{\textrm{Cluster}}$ is around $\pi$ but the angle $\phi_{\textrm{pred,b2b}}$ is calculated to be around $-\pi$, then the difference between the predicted $\phi_{\textrm{pred,b2b}}$ and reconstructed angle $\phi_{\textrm{Cluster}}$ is around $2\pi$. This can be seen in figure \ref{fig:b2bData_Whole}
+A special case occurs for $\phi \approx \pi$ or $\phi \approx -\pi$. It can happen that the angle $\phi_{\textrm{Cluster}}$ is around $\pi$ but the angle $\phi_{\textrm{pred,b2b}}$ is calculated to be around $-\pi$, then the difference between the predicted cluster angle  $\phi_{\textrm{pred,b2bcl}}$ and reconstructed cluster angle $\phi_{\textrm{Cluster}}$ is around $2\pi$. This can be seen in figure \ref{fig:b2bData_Whole}
 
 Finally, the $\Delta \phi _{\textrm{pred} - \textrm{reco}}$ cut can be summarized in the following three conditions. Each event has to fulfill one of them to be taken into account.
 
 \begin{enumerate}[label=(\alph*)]
-	\item $0.05 \leq |\Delta \phi _{\textrm{pred} - \textrm{reco}}^{\textrm{HclE}-\textrm{LclE}}| \leq 0.2$ and $ 0.05 \leq |\Delta \phi _{\textrm{pred} - \textrm{reco}}^{\textrm{LclE}-\textrm{HclE}}| \leq 0.2$
-	\item $2\pi - 0.2 \leq |\Delta \phi _{\textrm{pred} - \textrm{reco}}^{\textrm{HclE}-\textrm{LclE}}|\leq 2\pi - 0.05$ and $ 0.05 \leq |\Delta \phi _{\textrm{pred} - \textrm{reco}}^{\textrm{LclE}-\textrm{HclE}}| \leq 0.2$
-	\item $0.05 \leq|\Delta \phi _{\textrm{pred} - \textrm{reco}}^{\textrm{HclE}-\textrm{LclE}}| \leq 0.2 $ and $2\pi - 0.2 \leq |\Delta \phi _{\textrm{pred} - \textrm{reco}}^{\textrm{LclE}-\textrm{HclE}}| \leq 2\pi - 0.05$
+	\item $0.05 \leq |\Delta \phi _{\textrm{pred} - \textrm{reco}}^{\textrm{LclE}}| \leq 0.2$ and $ 0.05 \leq |\Delta \phi _{\textrm{pred} - \textrm{reco}}^{\textrm{HclE}}| \leq 0.2$
+	
+	\item $2\pi - 0.2 \leq |\Delta \phi _{\textrm{pred} - \textrm{reco}}^{\textrm{LclE}}|\leq 2\pi - 0.05$ and $ 0.05 \leq |\Delta \phi _{\textrm{pred} - \textrm{reco}}^{\textrm{HclE}}| \leq 0.2$
+	
+	\item $0.05 \leq|\Delta \phi _{\textrm{pred} - \textrm{reco}}^{\textrm{LclE}}| \leq 0.2 $ and $2\pi - 0.2 \leq |\Delta \phi _{\textrm{pred} - \textrm{reco}}^{\textrm{HclE}}| \leq 2\pi - 0.05$
 \end{enumerate}
 
 These cuts are visualized by the gray area in figure \ref{fig:b2bData}. Only particles within these areas are taken into account.
@@ -1445,13 +1448,46 @@ These cuts are visualized by the gray area in figure \ref{fig:b2bData}. Only par
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\textwidth]{Plots/master/sb2b_MC.pdf}
-	\caption[b2bClusterPhi - clusterPhi For Phase2 MC]{Left: $\Delta \phi _{\textrm{pred} - \textrm{reco}}^{\textrm{HclE}-\textrm{LclE}}$. Right:  $\Delta \phi _{\textrm{pred} - \textrm{reco}}^{\textrm{LclE}-\textrm{HclE}}$. Only particles within the gray area are taken into account. Both plots are created with phase2 MC. There is no middle peak because only $\textrm{ee} \rightarrow \textrm{ee}$ events were generated.}
+	\caption[b2bClusterPhi - clusterPhi For Phase2 MC]{Left: $\Delta \phi _{\textrm{pred} - \textrm{reco}}^{\textrm{LclE}}$. Right:  $\Delta \phi _{\textrm{pred} - \textrm{reco}}^{\textrm{HclE}}$. Only particles within the gray area are taken into account. Both plots are created with phase2 MC. There is no middle peak because only $\textrm{ee} \rightarrow \textrm{ee}$ events were generated.}
 	\label{fig:b2bMC}
 \end{figure}
 
 
 
 Figure \ref{fig:b2bMC} shows the same plots as figure \ref{fig:b2bData} but with phase2 MC. Note that there is no middle peak because only $\textrm{e}^+ \textrm{e}^- \rightarrow \textrm{e}^+ \textrm{e}^-$ events were generated. In figure \ref{fig:b2bMC_Whole} the same plot but with full range is shown for phase2 MC.
+\newline
+
+Later we will present the efficiencies as function of $\phi_{\textrm{pred,b2b}}$ and $\theta_{\textrm{pred,b2b}}$.
+$\phi_{\textrm{pred,b2b}}$ is the true predicted azimuthal angle of the \textit{probe} particle. It is calculated similar to the angle $\phi_{\textrm{pred,b2bcl}}$ but the charges of the particles are taken into account (The same is true for the angle $\theta_{\textrm{pred,b2b}}$.). This means that e.g. $\phi_{\textrm{pred,b2b}}^{\textrm{LclE}}$ is equal to the polar angle of the LclE particle in the case that LclE is reconstructed as a charged particle.
+
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{AnhangPlots/b2b_MC.pdf}
+	\caption[b2bPhi - Phi For Phase2 MC]{Left: $\Delta \phi _{\textrm{True(pred)} - \textrm{reco}}^{\textrm{LclE}}$. Right:  $\Delta \phi _{\textrm{True(pred)} - \textrm{reco}}^{\textrm{HclE}}$. Both plots are created with phase2 MC. The side peaks are created by inefficiencies.}
+	\label{fig:cb2bMC}
+\end{figure}
+
+
+In figure \ref{fig:cb2bMC} in the left plot, $\phi_{\textrm{cluster}}^{\textrm{LclE}}$ is subtracted from $\phi_{\textrm{pred,b2b}}^{\textrm{LclE}}$ (the angle difference is called $\Delta \phi_{\textrm{True(pred)-reco}}^{\textrm{LclE}}$). The small side peak is created by inefficiencies. As mentioned, the charges of the particles are taken into account while predicting the true angles. Thus, if there is an inefficiency then the angles differ a bit. The right plot shows the difference between $\phi_{\textrm{pred,b2b}}^{\textrm{HclE}}$ and $\phi_{\textrm{cluster}}^{\textrm{HclE}}$.
+
+
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{AnhangPlots/b2b_Data.pdf}
+	\caption[b2bPhi - Phi For Phase2 Data]{Left: $\Delta \phi _{\textrm{True(pred)} - \textrm{reco}}^{\textrm{LclE}}$. Right:  $\Delta \phi _{\textrm{True(pred)} - \textrm{reco}}^{\textrm{HclE}}$. Both plots are created with phase2 data. The peaks at $|\Delta \phi _{\textrm{True(pred)} - \textrm{reco}}| \approx 0.8$ are created by inefficiencies.
+	The peaks at $|\Delta \phi _{\textrm{True(pred)} - \textrm{reco}}| \approx 1.6$ are created when the \textit{tag} particle is reconstructed as the wrong charged particle.
+}
+	\label{fig:cb2bData}
+\end{figure}
+
+Figure \ref{fig:cb2bData} shows the same plots as figure \ref{fig:cb2bMC} but with phase2 data. The peaks at $|\Delta \phi _{\textrm{True(pred)} - \textrm{reco}}| \approx 1.6$ are created when the \textit{tag} particle is reconstructed as the wrong charged particle. For example, the \textit{tag} particle is an electron but it was reconstructed as a positron then  $\phi_{\textrm{pred,b2b}}$ is calculated under the assumption that the \textit{probe} particle is an electron.
+
+
+
 
 \section{ECL-Trigger}
 \label{sec:ECLTrigger}
@@ -1494,12 +1530,12 @@ In equation \ref{eq:EffError}, $\epsilon$ is the calculated efficiency and $n$ i
 
 
 
-To reduce the error on the calculated efficiency, $n$ has to be as big as possible. Therefore, we will consider all available  phase2 data and phase2 MC files. Originally, $10^7$ $ \textrm{e}^+\textrm{e}^- \rightarrow  \textrm{e}^+\textrm{e}^-  $ events were generated on Monte Carlo.
+To reduce the error on the calculated efficiency, $n$ has to be as big as possible. Therefore, we will consider all available  phase2 data and phase2 MC files. 
 
 
 \begin{figure}[h!]
 	\includegraphics[width=\textwidth]{Plots/master/CCand.pdf}
-	\caption[Total Number Of Events After The Selection]{The number of candidates per event after the selection is shown. Left: Phase2 Data. Right: Phase2 MC. A total of 9323903 candidates are selected for phase2 data and 973181 candidates are selected for phase2 MC.}
+	\caption[Total Number Of Events After The Selection]{The number of candidates per event after the selection is shown. Left: Phase2 Data. Right: Phase2 MC. A total of 9323903 candidates are selected for phase2 data and 973181 candidates are selected for phase2 MC. Originally, $10^7$ $ \textrm{e}^+\textrm{e}^- \rightarrow  \textrm{e}^+\textrm{e}^-$ events were generated on Monte Carlo.}
 	\label{fig:nCandAS}
 \end{figure}
 
@@ -1510,7 +1546,8 @@ Figure \ref{fig:nCandAS} shows the number of candidates per event after the sele
 \section{Dividing The ECL In Areas Of Interest}
 \label{sec:DivECL}
 
-As described in section \ref{sec:ECL}, the ECL is divided in three areas, the barrel, the forward end-cap and the backward end-cap. Therefore, we will take a look at the efficiency of these areas separately. The first area will only contain the forward end-cap. This means that only particles with a predicted polar angle of $0^\circ <\theta_{\textrm{pred,b2b}}<32^\circ$ will be taken into account. The second area of interest is the barrel. Here the predicted polar angle $\theta_{\textrm{pred,b2b}}$ of the investigated particle has to be $32^\circ < \theta_{\textrm{pred,b2b}} < 130^\circ$. The last area of interest is the backward end-cap with a predicted polar angle of $130^\circ <\theta_{\textrm{pred,b2b}} < 180^\circ$.
+As described in section \ref{sec:ECL}, the ECL is divided in three areas, the barrel, the forward end-cap and the backward end-cap. Therefore, we will take a look at the efficiency of these areas separately. The first area will only contain the forward end-cap. This means that only particles with a predicted polar angle of $0^\circ <\theta_{\textrm{pred,b2b}}<32^\circ$ will be taken into account. 
+The second area of interest is the barrel. Here the predicted polar angle $\theta_{\textrm{pred,b2b}}$ of the investigated particle has to be $32^\circ < \theta_{\textrm{pred,b2b}} < 130^\circ$. The last area of interest is the backward end-cap with a predicted polar angle of $130^\circ <\theta_{\textrm{pred,b2b}} < 180^\circ$.
 \newline  
 
 In section \ref{cha:Kinematics}, we saw that the the polar angle and the momentum of the particles are correlated in the lab frame. Therefore, we need to look at momentum intervals. 
@@ -1521,7 +1558,7 @@ In section \ref{cha:Kinematics}, we saw that the the polar angle and the momentu
 	\label{plt:RTPMemD_MC}
 \end{figure}
 
-Figure \ref{plt:RTPMemD_MC} shows the \textit{denominator} histograms for the electron. In these plots, the predicted polar angle $\theta_{\textrm{pred,b2b}}$ and predicted azimuthal angle $\phi_{\textrm{pred,b2b}}$ for different momenta for phase2 MC electrons are shown. Additionally, the three areas of interest are indicated in these plots by a pink line. Phase2 MC was used to determine the momenta ranges because the statistics are lower on phase2 MC compared to phase2 data. 
+Figure \ref{plt:RTPMemD_MC} shows the \textit{denominator} histograms for the electron. In these plots, the predicted polar angle $\theta_{\textrm{pred,b2b}}$ and predicted azimuthal angle $\phi_{\textrm{pred,b2b}}$ for different momenta for phase2 MC electrons are shown. Additionally, the three areas of interest are indicated in these plots by a pink line. 
 
 \begin{figure}[h!]
 	\includegraphics[width=\textwidth]{Plots/master/RTPMepD_MC.pdf}
@@ -1536,7 +1573,7 @@ Figure \ref{plt:RTPMemD_MC} shows the \textit{denominator} histograms for the el
  The corresponding phase2 data plots for positrons are shown in figure \ref{plt:RTPMepD_Data}.  
  \newline
 
-In these four figures, one can also see that it makes sense to look only at some momenta for different areas of interest. The different momenta regions are listed in table \ref{tab:RTPMDTable}.
+In these four figures, one can also see that it makes sense to look only at some momenta for different areas of interest. The different momenta regions are listed in table \ref{tab:RTPMDTable}. Phase2 MC was used to determine the momenta ranges because the statistics are lower on phase2 MC compared to phase2 data. 
 
 
 \begin{table}[h!]
@@ -1921,7 +1958,7 @@ Similar to section \ref{sec:tpEff}, the phase3 MC efficiency is shown on the lef
 
 As can be seen in this figure, there are horizontal efficiency losses for the positron phase3 data tracking efficiency. But they only appear in the backward end-cap at $\phi_{\textrm{pred,b2b}} \approx -3.0, -1.7, -0.5, 1.4 \textrm{ and } 2.6$. On phase3 MC there are no horizontal efficiency drops in the backward end-cap. These horizontal efficiency drops can also be seen in the electron phase3 data tracking efficiency plots but unfortunately the statistics on phase3 MC is too low to see efficiencies in the backward end-cap at all.
 
-Similar to the phase2 data electron tracking efficiency, there are two vertical efficiency drops on the phase3 data tracking efficiency at $\theta_{\textrm{pred,b2b}} \approx 2.05$ and 2.15 with a predicted azimuth angle of $-0.8 \lesssim \phi_{\textrm{pred,b2b}} \lesssim 0.8$.
+Similar to the phase2 data electron tracking efficiency, there are two vertical efficiency drops on the phase3 data tracking efficiency at $\theta_{\textrm{pred,b2b}} \approx 2.05$ and 2.15 with a predicted azimuthal angle of $-0.8 \lesssim \phi_{\textrm{pred,b2b}} \lesssim 0.8$.
 
 
 \begin{figure}[!htbp]
@@ -2293,7 +2330,7 @@ The generated file is located on KEKCC at:
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\textwidth]{Plots/master/sb2b_Data_0.pdf}
-	\caption[b2bClusterPhi - clusterPhi For Phase2 Data (Whole Range)]{Left: $\Delta \phi _{\textrm{pred} - \textrm{reco}}^{\textrm{HclE}-\textrm{LclE}}$. Right:  $\Delta \phi _{\textrm{pred} - \textrm{reco}}^{\textrm{LclE}-\textrm{HclE}}$. Only particles within the gray area are taken into account. Both plots are created with phase2 data. Note the logarithmic scale.}
+	\caption[b2bClusterPhi - clusterPhi For Phase2 Data (Whole Range)]{Left: $\Delta \phi _{\textrm{pred} - \textrm{reco}}^{\textrm{LclE}}$. Right:  $\Delta \phi _{\textrm{pred} - \textrm{reco}}^{\textrm{HclE}}$. Only particles within the gray area are taken into account. Both plots are created with phase2 data. Note the logarithmic scale.}
 	\label{fig:b2bData_Whole}
 \end{figure}
 
@@ -2305,14 +2342,33 @@ The generated file is located on KEKCC at:
 \begin{figure}[!htbp]
 	\centering
 	\includegraphics[width=\textwidth]{Plots/master/sb2b_MC_0.pdf}
-	\caption[b2bClusterPhi - clusterPhi For Phase2 MC (Whole Range)]{Left: $\Delta \phi _{\textrm{pred} - \textrm{reco}}^{\textrm{HclE}-\textrm{LclE}}$. Right:  $\Delta \phi _{\textrm{pred} - \textrm{reco}}^{\textrm{LclE}-\textrm{HclE}}$. Only particles within the gray area are taken into account. Both plots are created with phase2 MC data. Note the logarithmic scale.}
+	\caption[b2bClusterPhi - clusterPhi For Phase2 MC (Whole Range)]{Left: $\Delta \phi _{\textrm{pred} - \textrm{reco}}^{\textrm{LclE}}$. Right:  $\Delta \phi _{\textrm{pred} - \textrm{reco}}^{\textrm{HclE}}$. Only particles within the gray area are taken into account. Both plots are created with phase2 MC data. Note the logarithmic scale.}
 	\label{fig:b2bMC_Whole}
 \end{figure}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 \newpage
 
 
 
 \clearpage
+
+
+
+
+
 
 
 
@@ -2447,7 +2503,7 @@ The phase2 data files are located on KEKCC at:
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\textwidth]{Plots/master/hb2b_Data.pdf}
-	\caption[b2bClusterPhi - clusterPhi For Phase2 Data]{Left: $\Delta \phi _{\textrm{b2bpred} - \textrm{reco}}^{\textrm{HclE}-\textrm{LclE}}$. Right:  $\Delta \phi _{\textrm{b2bpred} - \textrm{reco}}^{\textrm{LclE}-\textrm{HclE}}$. Only particles within the gray area are taken into account. Both plots are created with phase2 data. The middle peak in both plots are created by $\textrm{e}^+\textrm{e}^- \rightarrow \gamma \gamma$ events.}
+	\caption[b2bClusterPhi - clusterPhi For Phase2 Data]{Left: $\Delta \phi _{\textrm{b2bpred} - \textrm{reco}}^{\textrm{LclE}}$. Right:  $\Delta \phi _{\textrm{b2bpred} - \textrm{reco}}^{\textrm{HclE}}$. Only particles within the gray area are taken into account. Both plots are created with phase2 data. The middle peak in both plots are created by $\textrm{e}^+\textrm{e}^- \rightarrow \gamma \gamma$ events.}
 	\label{fig:b2bData2}
 \end{figure}
 
@@ -2456,7 +2512,7 @@ The phase2 data files are located on KEKCC at:
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\textwidth]{Plots/master/hb2b_MC.pdf}
-	\caption[b2bClusterPhi - clusterPhi For Phase2 MC]{Left: $\Delta \phi _{\textrm{pred} - \textrm{reco}}^{\textrm{HclE}-\textrm{LclE}}$. Right:  $\Delta \phi _{\textrm{pred} - \textrm{reco}}^{\textrm{LclE}-\textrm{HclE}}$. Only particles within the gray area are taken into account. Both plots are created with phase2 MC. There is no middle peak because only $\textrm{ee} \rightarrow \textrm{ee}$ events were generated.}
+	\caption[b2bClusterPhi - clusterPhi For Phase2 MC]{Left: $\Delta \phi _{\textrm{pred} - \textrm{reco}}^{\textrm{LclE}}$. Right:  $\Delta \phi _{\textrm{pred} - \textrm{reco}}^{\textrm{HclE}}$. Only particles within the gray area are taken into account. Both plots are created with phase2 MC. There is no middle peak because only $\textrm{ee} \rightarrow \textrm{ee}$ events were generated.}
 	\label{fig:b2bMC2}
 \end{figure}
 
@@ -2539,7 +2595,7 @@ r00000/3600520000/mdst/sub00
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\textwidth]{Plots/master3/hb2b_DataP3.pdf}
-	\caption[b2bClusterPhi - clusterPhi For Phase3 Data]{Left: $\Delta \phi _{\textrm{pred} - \textrm{reco}}^{\textrm{HclE}-\textrm{LclE}}$. Right:  $\Delta \phi _{\textrm{pred} - \textrm{reco}}^{\textrm{LclE}-\textrm{HclE}}$. Only particles within the gray area are taken into account. Both plots are created with phase3 data. The middle peak in both plots are created by $\textrm{e}^+\textrm{e}^- \rightarrow \gamma \gamma$ events.}
+	\caption[b2bClusterPhi - clusterPhi For Phase3 Data]{Left: $\Delta \phi _{\textrm{pred} - \textrm{reco}}^{\textrm{LclE}}$. Right:  $\Delta \phi _{\textrm{pred} - \textrm{reco}}^{\textrm{HclE}}$. Only particles within the gray area are taken into account. Both plots are created with phase3 data. The middle peak in both plots are created by $\textrm{e}^+\textrm{e}^- \rightarrow \gamma \gamma$ events.}
 	\label{fig:b2bData3}
 \end{figure}
 
@@ -2549,7 +2605,7 @@ r00000/3600520000/mdst/sub00
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\textwidth]{Plots/master3/hb2b_MCP3.pdf}
-	\caption[b2bClusterPhi - clusterPhi For Phase3 MC]{Left: $\Delta \phi _{\textrm{pred} - \textrm{reco}}^{\textrm{HclE}-\textrm{LclE}}$. Right:  $\Delta \phi _{\textrm{pred} - \textrm{reco}}^{\textrm{LclE}-\textrm{HclE}}$. Only particles within the gray area are taken into account. Both plots are created with phase3 MC. There is no middle peak because only $\textrm{ee} \rightarrow \textrm{ee}$ events were generated.}
+	\caption[b2bClusterPhi - clusterPhi For Phase3 MC]{Left: $\Delta \phi _{\textrm{pred} - \textrm{reco}}^{\textrm{LclE}}$. Right:  $\Delta \phi _{\textrm{pred} - \textrm{reco}}^{\textrm{HclE}}$. Only particles within the gray area are taken into account. Both plots are created with phase3 MC. There is no middle peak because only $\textrm{ee} \rightarrow \textrm{ee}$ events were generated.}
 	\label{fig:b2bMC3}
 \end{figure}
 
@@ -2565,7 +2621,7 @@ r00000/3600520000/mdst/sub00
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\textwidth]{Plots/comp/cb2b.pdf}
-	\caption[Normalized b2bClusterPhi - clusterPhi For Phase2 And Phase3 Data]{Left: $\Delta \phi _{\textrm{pred} - \textrm{reco}}^{\textrm{HclE}-\textrm{LclE}}$. Right:  $\Delta \phi _{\textrm{pred} - \textrm{reco}}^{\textrm{LclE}-\textrm{HclE}}$. Phase3 data (blue) is shown together with phase2 data (brown). The plots are normalized.}
+	\caption[Normalized b2bClusterPhi - clusterPhi For Phase2 And Phase3 Data]{Left: $\Delta \phi _{\textrm{pred} - \textrm{reco}}^{\textrm{LclE}}$. Right:  $\Delta \phi _{\textrm{pred} - \textrm{reco}}^{\textrm{HclE}}$. Phase3 data (blue) is shown together with phase2 data (brown). The plots are normalized.}
 	\label{fig:Cb2bData}
 \end{figure}
 
@@ -2576,7 +2632,7 @@ r00000/3600520000/mdst/sub00
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\textwidth]{Plots/comp/cb2bMC.pdf}
-	\caption[Normalized b2bClusterPhi - clusterPhi For Phase2 And Phase3 MC]{Left: $\Delta \phi _{\textrm{pred} - \textrm{reco}}^{\textrm{HclE}-\textrm{LclE}}$. Right:  $\Delta \phi _{\textrm{pred} - \textrm{reco}}^{\textrm{LclE}-\textrm{HclE}}$. Phase3 MC (red) is shown together with phase2 MC (green). The plots are normalized.}
+	\caption[Normalized b2bClusterPhi - clusterPhi For Phase2 And Phase3 MC]{Left: $\Delta \phi _{\textrm{pred} - \textrm{reco}}^{\textrm{LclE}}$. Right:  $\Delta \phi _{\textrm{pred} - \textrm{reco}}^{\textrm{HclE}}$. Phase3 MC (red) is shown together with phase2 MC (green). The plots are normalized.}
 	\label{fig:Cb2bMC}
 \end{figure}
 

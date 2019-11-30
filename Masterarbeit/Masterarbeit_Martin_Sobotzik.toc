@@ -64,19 +64,19 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.4.3}Additional Cuts}{35}{subsection.6.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4.4}Cut Efficiency}{38}{subsection.6.4.4}
+\contentsline {subsection}{\numberline {6.4.4}Cut Efficiency}{39}{subsection.6.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4.5}No MC-Truth Information}{39}{subsection.6.4.5}
+\contentsline {subsection}{\numberline {6.4.5}No MC-Truth Information}{40}{subsection.6.4.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.5}Best Candidate Selection on Phase2 Data}{41}{section.6.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.6}Selecting Bhabha Events}{41}{section.6.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.7}ECL-Trigger}{44}{section.6.7}
+\contentsline {section}{\numberline {6.7}ECL-Trigger}{45}{section.6.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.8}More Events}{45}{section.6.8}
+\contentsline {section}{\numberline {6.8}More Events}{46}{section.6.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.9}Dividing The ECL In Areas Of Interest}{46}{section.6.9}
+\contentsline {section}{\numberline {6.9}Dividing The ECL In Areas Of Interest}{47}{section.6.9}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {7}Phase2 Tracking Efficiency}{53}{chapter.7}
 \defcounter {refsection}{0}\relax 
@@ -154,8 +154,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {A.3.2}Additional Figures}{132}{subsection.A.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Figures}{137}{chapter*.93}
+\contentsline {chapter}{\nonumberline List of Figures}{137}{chapter*.95}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Tables}{141}{chapter*.94}
+\contentsline {chapter}{\nonumberline List of Tables}{141}{chapter*.96}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{143}{chapter*.95}
+\contentsline {chapter}{\nonumberline Bibliography}{143}{chapter*.97}
