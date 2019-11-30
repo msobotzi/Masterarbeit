@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.21)  30 NOV 2019 16:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.21)  30 NOV 2019 19:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2685,7 +2685,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1694.
 
-<Plots/master/xPMPhiemFC.pdf, id=2128, 569.12625pt x 556.0775pt>
+<Plots/master/xPMPhiemFC.pdf, id=2127, 569.12625pt x 556.0775pt>
 File: Plots/master/xPMPhiemFC.pdf Graphic file (type pdf)
 
 <use Plots/master/xPMPhiemFC.pdf>
@@ -2880,6 +2880,18 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1953.
+
+
+Underfull \hbox (badness 3068) in paragraph at lines 1959--1960
+[]\T1/lmr/m/n/10.95 For the phase3 data elec-tron track-ing ef-fi-ciency hor-i-
+zon-tal ef-fi-ciency drops
+ []
+
+
+Underfull \hbox (badness 4144) in paragraph at lines 1959--1960
+\T1/lmr/m/n/10.95 can be seen in the for-ward end-cap and in the bar-rel at $\O
+ML/lmm/m/it/10.95 ^^^[] \OMS/lmsy/m/n/10.95 ^^Y
+ []
 
 <Plots/master3/xCEffTP_MCDataP3.pdf, id=2842, 569.12625pt x 556.0775pt>
 File: Plots/master3/xCEffTP_MCDataP3.pdf Graphic file (type pdf)
@@ -3660,7 +3672,7 @@ b></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/typ
 e1/public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
 ts/symbols/msbm10.pfb>
-Output written on Masterarbeit_Martin_Sobotzik.pdf (158 pages, 23669089 bytes).
+Output written on Masterarbeit_Martin_Sobotzik.pdf (158 pages, 23668743 bytes).
 
 PDF statistics:
  5330 PDF objects out of 6186 (max. 8388607)
