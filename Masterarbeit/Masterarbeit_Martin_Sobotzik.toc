@@ -74,88 +74,88 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.7}ECL-Trigger}{45}{section.6.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.8}More Events}{46}{section.6.8}
+\contentsline {section}{\numberline {6.8}More Events}{47}{section.6.8}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.9}Dividing The ECL In Areas Of Interest}{47}{section.6.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Phase2 Tracking Efficiency}{53}{chapter.7}
+\contentsline {chapter}{\numberline {7}Phase2 Tracking Efficiency}{55}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Tracking Efficiencies As Function Of $\theta _{\textrm {pred,b2b}}$-$\phi _{\textrm {pred,b2b}}$ }{54}{section.7.1}
+\contentsline {section}{\numberline {7.1}Tracking Efficiencies As Function Of $\theta _{\textrm {pred,b2b}}$-$\phi _{\textrm {pred,b2b}}$ }{56}{section.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}$\epsilon $ In Bins Of Track Momentum}{56}{section.7.2}
+\contentsline {section}{\numberline {7.2}$\epsilon $ In Bins Of Track Momentum}{58}{section.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.1}Forward End-Cap}{56}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.1}Forward End-Cap}{58}{subsection.7.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.2}Barrel}{58}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.2}Barrel}{60}{subsection.7.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.3}Backward End-Cap}{61}{subsection.7.2.3}
+\contentsline {subsection}{\numberline {7.2.3}Backward End-Cap}{63}{subsection.7.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.4}Tracking Efficiencies As Function Of $\theta _{\textrm {pred,b2b}}$}{63}{subsection.7.2.4}
+\contentsline {subsection}{\numberline {7.2.4}Tracking Efficiencies As Function Of $\theta _{\textrm {pred,b2b}}$}{65}{subsection.7.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.3}$\epsilon $ In Bins Of Track Transverse Momentum}{67}{section.7.3}
+\contentsline {section}{\numberline {7.3}$\epsilon $ In Bins Of Track Transverse Momentum}{69}{section.7.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3.1}Forward End-Cap}{67}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.1}Forward End-Cap}{69}{subsection.7.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3.2}Barrel}{69}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.2}Barrel}{71}{subsection.7.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3.3}Backward End-Cap}{72}{subsection.7.3.3}
+\contentsline {subsection}{\numberline {7.3.3}Backward End-Cap}{74}{subsection.7.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3.4}Tracking Efficiencies As Function Of $\theta _{\textrm {pred,b2b}}$}{74}{subsection.7.3.4}
+\contentsline {subsection}{\numberline {7.3.4}Tracking Efficiencies As Function Of $\theta _{\textrm {pred,b2b}}$}{76}{subsection.7.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Phase3 Tracking Efficiency}{79}{chapter.8}
+\contentsline {chapter}{\numberline {8}Phase3 Tracking Efficiency}{81}{chapter.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}Phase3}{79}{section.8.1}
+\contentsline {section}{\numberline {8.1}Phase3}{81}{section.8.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}Tracking Efficiencies}{79}{section.8.2}
+\contentsline {section}{\numberline {8.2}Tracking Efficiencies}{81}{section.8.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.2.1}Tracking Efficiencies As Function Of $\theta _{\textrm {pred,b2b}}$-$\phi _{\textrm {pred,b2b}}$}{81}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.1}Tracking Efficiencies As Function Of $\theta _{\textrm {pred,b2b}}$-$\phi _{\textrm {pred,b2b}}$}{83}{subsection.8.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.2.2}$\epsilon $ In Bins Of Track Momentum}{83}{subsection.8.2.2}
+\contentsline {subsection}{\numberline {8.2.2}$\epsilon $ In Bins Of Track Momentum}{85}{subsection.8.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {8.2.2.1}Forward End-Cap}{83}{subsubsection.8.2.2.1}
+\contentsline {subsubsection}{\numberline {8.2.2.1}Forward End-Cap}{85}{subsubsection.8.2.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {8.2.2.2}Barrel}{85}{subsubsection.8.2.2.2}
+\contentsline {subsubsection}{\numberline {8.2.2.2}Barrel}{87}{subsubsection.8.2.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {8.2.2.3}Backward End-Cap}{88}{subsubsection.8.2.2.3}
+\contentsline {subsubsection}{\numberline {8.2.2.3}Backward End-Cap}{90}{subsubsection.8.2.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {8.2.2.4}Tracking Efficiencies As Function Of $\theta _{\textrm {pred,b2b}}$}{90}{subsubsection.8.2.2.4}
+\contentsline {subsubsection}{\numberline {8.2.2.4}Tracking Efficiencies As Function Of $\theta _{\textrm {pred,b2b}}$}{92}{subsubsection.8.2.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.2.3}$\epsilon $ In Bins Of Track Transverse Momentum}{94}{subsection.8.2.3}
+\contentsline {subsection}{\numberline {8.2.3}$\epsilon $ In Bins Of Track Transverse Momentum}{96}{subsection.8.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {8.2.3.1}Forward End-Cap}{94}{subsubsection.8.2.3.1}
+\contentsline {subsubsection}{\numberline {8.2.3.1}Forward End-Cap}{96}{subsubsection.8.2.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {8.2.3.2}Barrel}{96}{subsubsection.8.2.3.2}
+\contentsline {subsubsection}{\numberline {8.2.3.2}Barrel}{98}{subsubsection.8.2.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {8.2.3.3}Backward End-Cap}{99}{subsubsection.8.2.3.3}
+\contentsline {subsubsection}{\numberline {8.2.3.3}Backward End-Cap}{101}{subsubsection.8.2.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {8.2.3.4}Tracking Efficiencies As Function Of $\theta _{\textrm {pred,b2b}}$}{101}{subsubsection.8.2.3.4}
+\contentsline {subsubsection}{\numberline {8.2.3.4}Tracking Efficiencies As Function Of $\theta _{\textrm {pred,b2b}}$}{103}{subsubsection.8.2.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Comparing The Tracking Efficiencies Of Phase2 With Phase3}{105}{chapter.9}
+\contentsline {chapter}{\numberline {9}Comparing The Tracking Efficiencies Of Phase2 With Phase3}{107}{chapter.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.1}Tracking Efficiencies As Function Of $\theta _{\textrm {pred,b2b}}$}{105}{section.9.1}
+\contentsline {section}{\numberline {9.1}Tracking Efficiencies As Function Of $\theta _{\textrm {pred,b2b}}$}{107}{section.9.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.2}Tracking Efficiencies As Function Of $\phi _{\textrm {pred,b2b}}$}{108}{section.9.2}
+\contentsline {section}{\numberline {9.2}Tracking Efficiencies As Function Of $\phi _{\textrm {pred,b2b}}$}{110}{section.9.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {10}Summary And Conclusion}{111}{chapter.10}
+\contentsline {chapter}{\numberline {10}Summary And Conclusion}{113}{chapter.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Appendix}{113}{appendix.A}
+\contentsline {chapter}{\numberline {A}Appendix}{115}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Additional Preparation Plots}{113}{section.A.1}
+\contentsline {section}{\numberline {A.1}Additional Preparation Plots}{115}{section.A.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Phase2}{128}{section.A.2}
+\contentsline {section}{\numberline {A.2}Phase2}{130}{section.A.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.1}Location Of Phase2 Files}{128}{subsection.A.2.1}
+\contentsline {subsection}{\numberline {A.2.1}Location Of Phase2 Files}{130}{subsection.A.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.2}Additional Figures}{128}{subsection.A.2.2}
+\contentsline {subsection}{\numberline {A.2.2}Additional Figures}{130}{subsection.A.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Phase3}{131}{section.A.3}
+\contentsline {section}{\numberline {A.3}Phase3}{133}{section.A.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.3.1}Location Of Phase3 Files}{131}{subsection.A.3.1}
+\contentsline {subsection}{\numberline {A.3.1}Location Of Phase3 Files}{133}{subsection.A.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.3.2}Additional Figures}{132}{subsection.A.3.2}
+\contentsline {subsection}{\numberline {A.3.2}Additional Figures}{134}{subsection.A.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Figures}{137}{chapter*.95}
+\contentsline {chapter}{\nonumberline List of Figures}{139}{chapter*.97}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Tables}{141}{chapter*.96}
+\contentsline {chapter}{\nonumberline List of Tables}{143}{chapter*.98}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{143}{chapter*.97}
+\contentsline {chapter}{\nonumberline Bibliography}{145}{chapter*.99}

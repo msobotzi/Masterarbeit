@@ -295,7 +295,7 @@ Finally, this selection will be used to calculate the tracking efficiency of pha
 
 Since the same selection is used to calculate the tracking efficiencies of phase2 and phase3 one can compare them. This will be done in chapter \ref{cha:Comp}.
 
-A short summary and conclusion will be given in chapter \ref{cha:Conclusion}.
+A brief summary and conclusion will be given in chapter \ref{cha:Conclusion}.
 \newline 
 
 In this thesis, natural units are used. This means that $c = \hbar = 1$.
@@ -305,7 +305,7 @@ In this thesis, natural units are used. This means that $c = \hbar = 1$.
 \chapter{Theoretical Foundations}
 \label{cha:SM}
 
-\lettrine{T}{he} first part of this chapter will give  a short introduction to the standard model of particle physics. The standard model of particle physics (SM) is a theory that describes three of the four fundamental known forces in the universe: the electromagnetic, the weak and the strong force. 
+\lettrine{T}{he} first part of this chapter will give a brief introduction to the standard model of particle physics. The standard model of particle physics (SM) is a theory that describes three of the four fundamental known forces in the universe: the electromagnetic, the weak and the strong force. 
 
  At the current level of experimental precision and the energies reached so far, it is the best theory describing these forces.
  
@@ -348,22 +348,25 @@ All visible matter in the universe is made out of fermions from the first family
 
 \section{Physics Beyond The Standard Model}
 
-Despite the success of the standard model, it fails to answer a lot of open questions. As already mentioned, the standard model only includes three of the four fundamental forces, it does not include gravity, and it is not valid at energy scales approaching the Planck energy $E_P \approx 10^{19}\,\textrm{GeV} $.\cite{sivaram2007special} Additionally, it is also unable to answer questions like:
+Despite the success of the standard model, it fails to answer many open questions. As already mentioned, the standard model only includes three of the four fundamental forces; it does not include gravity, and it is not valid at energy scales approaching the Planck energy, $E_P \approx 10^{19}\,\textrm{GeV} $.\cite{sivaram2007special} Additionally, it also does not describe observations like:
 
 \begin{itemize}
 	
-\item Dark matter: the mass of all visible matter in spinning galaxies is not high enough to counteract the centripetal force, therefore additional massive particles which do not interact electromagnetically have to be introduced. They are called dark matter. The universe consists of $\sim 27\,\%$ dark matter.\cite{DarkMAtter}
+\item Dark matter: the mass of all visible matter in spinning galaxies is not large enough to counteract the centripetal force, therefore additional massive particles which do not interact electromagnetically have to be introduced. They are called dark matter. The universe consists of $\sim 27\,\%$ dark matter.\cite{DarkMAtter}
 
 
 \item Dark energy: Observations of supernovae in distant galaxies showed that the expansion of the universe is accelerating. The theory of dark energy was created to explain this observation. Dark energy is an unknown form of energy and it is thought that it permeates the universe. The universe consists of $\sim 68\,\%$ dark energy.\cite{Janka}
 
 
-\item  Matter-Antimatter asymmetry: The standard model requires a conservation of the number of baryons, and the big bang should have created equal amounts of matter and antimatter. However, today the universe almost exclusively contains matter. This is directly linked to charged-parity violation.\cite{HAMBYE2012193}
+\item  Matter-Antimatter asymmetry: The standard model requires conservation of the number of baryons, and the big bang should have created equal amounts of matter and antimatter. However, today the universe almost exclusively contains matter. This is directly linked to charge-parity violation.\cite{HAMBYE2012193}
 
 
 \end{itemize}
 
-Therefore, physicist all around the world, work with great effort on experiments and theories to describe all the phenomena we can observe in the universe, leading to new physics.
+These observations motivate searches for physics beyond the standard model, so-called \textit{new physics}. New physics could manifest itself by the presence of new particles or forces that are not described by the standard model.
+
+
+
 
 \section{Bhabha Scattering}
 \label{sec:Bhabha}
@@ -511,7 +514,7 @@ child[grow=down, level distance=0pt] {
 
 \end{minipage}
 
-\caption[Bhabha Feynman Diagrams]{The two leading -order Feynman diagrams of the Bhabha process. The left diagram describes the annihilation and pair production process, whereas the right diagram describes a classic electromagnetic scattering process.}
+\caption[Bhabha Feynman Diagrams]{The two leading-order Feynman diagrams of the Bhabha process. The left diagram describes the annihilation and pair production process, whereas the right diagram describes a classic electromagnetic scattering process.}
 \label{fig:feynman}
 
 
@@ -1280,7 +1283,7 @@ Additionally, sometimes the total energy in the ECL is way higher than expected.
 	\label{fig:nCand}
 \end{figure}
 
-After applying all mentioned cuts, the number of candidates per event is shown in figure \ref{fig:nCand}. It shows that now we only select one virtual photon candidate per event. Therefore, we select 14545 events and reconstructed candidates.
+After applying all mentioned cuts, the number of reconstructed candidates per event is shown in figure \ref{fig:nCand}. It shows that now we only select one virtual photon candidate per event. Therefore, we select 14545 events and reconstructed candidates.
 \newline
 
 There is no cut on the reconstructed position of the interaction point since this would require a backtracking of the particles. To backtrack a charged particle, information from the tracking detectors are used and this can not be done since we want to use ECL information only.
@@ -1470,7 +1473,11 @@ $\phi_{\textrm{pred,b2b}}$ is the true predicted azimuthal angle of the \textit{
 \end{figure}
 
 
-In figure \ref{fig:cb2bMC} in the left plot, $\phi_{\textrm{cluster}}^{\textrm{LclE}}$ is subtracted from $\phi_{\textrm{pred,b2b}}^{\textrm{LclE}}$ (the angle difference is called $\Delta \phi_{\textrm{True(pred)-reco}}^{\textrm{LclE}}$). The small side peak is created by inefficiencies. As mentioned, the charges of the particles are taken into account while predicting the true angles. Thus, if there is an inefficiency then the angles differ a bit. The right plot shows the difference between $\phi_{\textrm{pred,b2b}}^{\textrm{HclE}}$ and $\phi_{\textrm{cluster}}^{\textrm{HclE}}$.
+In figure \ref{fig:cb2bMC} in the left plot, $\phi_{\textrm{cluster}}^{\textrm{LclE}}$ is subtracted from $\phi_{\textrm{pred,b2b}}^{\textrm{LclE}}$ (the angle difference is called $\Delta \phi_{\textrm{True(pred)-reco}}^{\textrm{LclE}}$). The small side peak is created by inefficiencies. As mentioned, the charges of the particles are taken into account while predicting the true angles. 
+The azimuthal angle of an uncharged particles corresponds to the reconstructed azimuthal cluster angle.
+On the other hand, the azimuthal angle of a charged particle corresponds to the azimuthal angle of the particle before it was bend by the magnetic field.
+Thus, if there is an inefficiency then the \textit{probe} particle is reconstructed as an uncharged particle and then the predicted and the reconstructed angles differ a bit because the azimuthal angle of the reconstructed cluster is used instead of the azimuthal angle the particle had before it was bend by the magnetic field. 
+The right plot shows the difference between $\phi_{\textrm{pred,b2b}}^{\textrm{HclE}}$ and $\phi_{\textrm{cluster}}^{\textrm{HclE}}$.
 
 
 
@@ -1478,13 +1485,16 @@ In figure \ref{fig:cb2bMC} in the left plot, $\phi_{\textrm{cluster}}^{\textrm{L
 \begin{figure}[!htbp]
 	\centering
 	\includegraphics[width=\textwidth]{AnhangPlots/b2b_Data.pdf}
-	\caption[b2bPhi - Phi For Phase2 Data]{Left: $\Delta \phi _{\textrm{True(pred)} - \textrm{reco}}^{\textrm{LclE}}$. Right:  $\Delta \phi _{\textrm{True(pred)} - \textrm{reco}}^{\textrm{HclE}}$. Both plots are created with phase2 data. The peaks at $|\Delta \phi _{\textrm{True(pred)} - \textrm{reco}}| \approx 0.8$ are created by inefficiencies.
-	The peaks at $|\Delta \phi _{\textrm{True(pred)} - \textrm{reco}}| \approx 1.6$ are created when the \textit{tag} particle is reconstructed as the wrong charged particle.
+	\caption[b2bPhi - Phi For Phase2 Data]{Left: $\Delta \phi _{\textrm{True(pred)} - \textrm{reco}}^{\textrm{LclE}}$. Right:  $\Delta \phi _{\textrm{True(pred)} - \textrm{reco}}^{\textrm{HclE}}$. Both plots are created with phase2 data. The peaks at $|\Delta \phi _{\textrm{True(pred)} - \textrm{reco}}| \approx 0.08$ are created by inefficiencies.
+	The peaks at $|\Delta \phi _{\textrm{True(pred)} - \textrm{reco}}| \approx 0.16$ are created when the \textit{tag} particle is reconstructed as the wrong charged particle.
 }
 	\label{fig:cb2bData}
 \end{figure}
 
-Figure \ref{fig:cb2bData} shows the same plots as figure \ref{fig:cb2bMC} but with phase2 data. The peaks at $|\Delta \phi _{\textrm{True(pred)} - \textrm{reco}}| \approx 1.6$ are created when the \textit{tag} particle is reconstructed as the wrong charged particle. For example, the \textit{tag} particle is an electron but it is reconstructed as a positron then  $\phi_{\textrm{pred,b2b}}$ is calculated under the assumption that the \textit{probe} particle is an electron.
+Figure \ref{fig:cb2bData} shows the same plots as figure \ref{fig:cb2bMC} but with phase2 data. Similar to figure \ref{fig:cb2bMC}, the peaks at $|\Delta \phi _{\textrm{True(pred)} - \textrm{reco}}| \approx 0.08$ are created by inefficiencies.
+The peaks at $|\Delta \phi _{\textrm{True(pred)} - \textrm{reco}}| \approx 0.16$ are created when the \textit{tag} particle is reconstructed as the wrong charged particle. For example, the \textit{tag} particle is an electron but it is reconstructed as a positron then  $\phi_{\textrm{pred,b2b}}$ is calculated under the assumption that the \textit{probe} particle is an electron.
+
+The $\Delta \theta _{\textrm{True(pred)} - \textrm{reco}}$ plots can be found in the appendix in figure \ref{fig:cb2bTMC} (phase2 MC) and \ref{fig:cb2bTData} (phase2 data).
 
 
 
@@ -1657,11 +1667,14 @@ The selected ranges can be found in table \ref{tab:RTPMDThetaTable}.
 
 
 
-\lettrine{I}{n} this chapter the tracking efficiency studies on phase2 will be presented. The selection described in chapter \ref{chap:Phase2Eff} will be applied. Phase2 data will be shown in brown together with phase2 Monte Carlo in green, in order to make the comparison of these two easier. Additionally, only tracking efficiencies with $\Delta \epsilon < 0.4$ are plotted to make the plots more easy to read. 
+\lettrine{I}{n} this chapter the tracking efficiency studies on phase2 will be presented. The selection described in chapter \ref{chap:Phase2Eff} will be applied. Phase2 data will be shown in brown together with phase2 Monte Carlo in green, in order to make the comparison of these two easier. Additionally, only tracking efficiencies with an error of $\Delta \epsilon < 0.4$ are plotted to make the plots more easy to read. 
 \newline
  
-We will see that the tracking efficiencies for phase2 MC will be higher than the tracking efficiencies for phase2 data. This is expected because if you want to generate Monte Carlo files, you have to simulate the detector as a whole and it is impossible to consider every single aspect of the structure of the detector like cabling, screws and even impurities of the material which we have in reality. These additional materials can interact with the outgoing particles, and these particles could scatter an additional time or could be absorbed by the material producing bremsstrahlung, for example. In addition, there is no dead time of the detector in MC. Each event is simulated individually. This is another error source for real data. Additionally, on MC the detector is working under optimal conditions. Only one event is happening at a time, there are no fluctuations in the power supplies etc.
-For real data, all of these issues result in a lower tracking efficiency. Therefore, phase MC should have a higher tracking efficiency compared to phase2 data. Otherwise, it will be noted. This is also true for phase3.
+We will see that the tracking efficiencies for phase2 MC will be higher than the tracking efficiencies for phase2 data. This is expected because on Monte Carlo the detector is simulated as a whole and it is impossible to consider every single aspect of the structure of the detector like cabling, screws and even impurities of the material which we have in reality. 
+These additional materials can interact with the outgoing particles, and these particles could scatter an additional time or could be absorbed by the material producing bremsstrahlung, for example. In addition, there is no dead time of the detector in MC. Each event is simulated individually. This is another error source for real data. Additionally, on MC the detector is working under optimal conditions. Only one event is happening at a time, there are no fluctuations in the power supplies etc.
+For real data, all of these issues result in a lower tracking efficiency. Therefore, phase2 MC should have a higher tracking efficiency compared to phase2 data. Otherwise, it will be noted.
+In addition, the noise, produced by the electronics and beam, may not be simulated realistically and a misalignment of detector parts in the simulation may affect the reconstruction algorithm.
+This is also true for phase3.
  
 \clearpage
 
@@ -1747,7 +1760,7 @@ For momenta between $6\,\textrm{GeV}$ and $7\,\textrm{GeV}$ the phase2 MC tracki
 Figure \ref{plt:xPMPhiepEC} shows the calculated positron tracking efficiency for different momenta in the backward end-cap as function of $\phi_{\textrm{pred,b2b}}$. 
 Due to the kinematics at Belle II, almost no electrons are detected in the backward end-cap. 
 For momenta between $2\,\textrm{GeV}$ and $3\,\textrm{GeV}$ the calculated tracking efficiency is between 0.95 and 1 for phase2 data and between $\sim 0.85$ and 1 for phase2 MC. An exception occurs at $\phi_{\textrm{pred,b2b}} \approx 0$, here the error bars for phase2 MC are noticeably large. 
-For momenta between $3\,\textrm{GeV}$ and $4\,\textrm{GeV}$ the tracking efficiency covers a very large range. For phase2 MC the efficiency is between $\sim 0.4$ and $\sim 0.95$ and for phase2 data between $\sim 0.2$ and $ \sim 0.85$. For $\phi_{\textrm{pred,b2b}} < -1$, the efficiency is slightly higher for phase2 data compared to phase2 MC. 
+For momenta between $3\,\textrm{GeV}$ and $4\,\textrm{GeV}$ the tracking efficiency covers a very large range. For phase2 MC the efficiency is between $\sim 0.4$ and $\sim 0.95$ and for phase2 data between $\sim 0.2$ and $ \sim 0.85$. For $\phi_{\textrm{pred,b2b}} \lesssim -1$, the efficiency is slightly higher for phase2 data compared to phase2 MC. 
 A strange structure occurs at $\phi_{\textrm{pred,b2b}} \approx 0$ for phase2 data. Starting at  $\phi_{\textrm{pred,b2b}} \approx -1.7$ the efficiency goes up from $\sim 0.4$ to $\sim 0.65$ at $\phi_{\textrm{pred,b2b}} \approx -0.8$, then it goes back down to $\sim 0.4$ before it reaches a maximum of $\sim 0.8$ at $\phi_{\textrm{pred,b2b}} \lesssim 0$.
 At $\phi_{\textrm{pred,b2b}} =0$ the efficiency is down to $\sim 0.6$. At $\phi_{\textrm{pred,b2b}} \gtrsim 0$, the efficiency is back to a maximum of $\sim 0.85$ before it drops to $\sim 0.4$.
 After that the efficiency stays constant until it starts to drop down again at $\phi_{\textrm{pred,b2b}} \approx 1.5$. It reaches its minimum at $\phi_{\textrm{pred,b2b}} \approx 2$.
@@ -1769,7 +1782,7 @@ For momenta between $5\,\textrm{GeV}$ and $6\,\textrm{GeV}$ the efficiency is ab
 
 \subsection{Tracking Efficiencies As Function Of $\theta_{\textrm{pred,b2b}}$}
 
-This section will present the calculated tracking efficiencies as function of the predicted polar angle $\theta_{\textrm{pred,b2b}}$. The pink lines in each of the following plots will indicate the different areas of the ECL.
+This section will present the calculated tracking efficiencies as function of $\theta_{\textrm{pred,b2b}}$. The pink lines in each of the following plots will indicate the different areas of the ECL.
 
 Figure \ref{plt:xPMThetaem} shows the calculated electron tracking efficiency for different momenta as function of the polar angle. For momenta between $3\,\textrm{GeV}$ and $4\,\textrm{GeV}$ the calculated tracking efficiency starts high for small angles of $\theta_{\textrm{pred,b2b}}$. For phase2 MC and phase2 data the highest efficiency is in the forward end-cap with over 0.9. But it drops very quickly with increasing $\theta_{\textrm{pred,b2b}}$. At the transition between the forward end-cap and the barrel the efficiency has a local minimum of only  about 0.2 for phase2 data and almost 0 for phase2 MC.
 For $0.5 \lesssim \theta_{\textrm{pred,b2b}} \lesssim 0.7$ the efficiency goes back up to $\sim 0.6$ very quickly. After this, the efficiency increases slowly to around 0.85 for phase2 data and 0.9 for phase2 MC at $\theta_{\textrm{pred,b2b}} \approx 2.2$. At this angle the barrel ends and the backward end-cap begins. 
@@ -1873,14 +1886,14 @@ For transverse momenta between $3\,\textrm{GeV}$ and $4\,\textrm{GeV}$ the calcu
 \subsection{Tracking Efficiencies As Function Of $\theta_{\textrm{pred,b2b}}$}
 
 
-Figure \ref{plt:xPtMThetaem} shows the calculated electron tracking efficiencies for different transverse momenta as function of the $\theta_{\textrm{pred,b2b}}$. For transverse momenta between $1\,\textrm{GeV}$ and $2\,\textrm{GeV}$ almost all electrons are detected in the forward end-cap.  The tracking efficiency for phase2 data is very low with only about 0.3 at $\theta_{\textrm{pred,b2b}} \approx 0.25$. Then it jumps up to $\sim 0.75$ at $\theta_{\textrm{pred,b2b}} \approx 0.3$. After this it increases further until it reaches its maximum of about 0.9 at $\theta_{\textrm{pred,b2b}} \approx 0.5$. The tracking efficiency for phase2 MC starts high with 0.9 at $\theta_{\textrm{pred,b2b}} \approx 0.25$ but it first falls down to $\sim 0.7$ at $\theta_{\textrm{pred,b2b}} \approx 0.3$. After this it immediately jumps back up to $\sim 0.9$. Then it falls back to $\sim 0.8$ at $\theta_{\textrm{pred,b2b}} \approx 0.4$ and after this it rises back up to over 0.9 at $\theta_{\textrm{pred,b2b}} \approx 0.5$.
+Figure \ref{plt:xPtMThetaem} shows the calculated electron tracking efficiencies for different transverse momenta as function of $\theta_{\textrm{pred,b2b}}$. For transverse momenta between $1\,\textrm{GeV}$ and $2\,\textrm{GeV}$ almost all electrons are detected in the forward end-cap.  The tracking efficiency for phase2 data is very low with only about 0.3 at $\theta_{\textrm{pred,b2b}} \approx 0.25$. Then it jumps up to $\sim 0.75$ at $\theta_{\textrm{pred,b2b}} \approx 0.3$. After this it increases further until it reaches its maximum of about 0.9 at $\theta_{\textrm{pred,b2b}} \approx 0.5$. The tracking efficiency for phase2 MC starts high with 0.9 at $\theta_{\textrm{pred,b2b}} \approx 0.25$ but it first falls down to $\sim 0.7$ at $\theta_{\textrm{pred,b2b}} \approx 0.3$. After this it immediately jumps back up to $\sim 0.9$. Then it falls back to $\sim 0.8$ at $\theta_{\textrm{pred,b2b}} \approx 0.4$ and after this it rises back up to over 0.9 at $\theta_{\textrm{pred,b2b}} \approx 0.5$.
 For transverse momenta between $2\,\textrm{GeV}$ and $3\,\textrm{GeV}$ the tracking efficiency of phase2 data starts with $\sim 0.7$ at $\theta_{\textrm{pred,b2b}} \approx 0.25$. It reaches its local minimum of $\sim 0.4$ at $\theta_{\textrm{pred,b2b}} \approx 0.3$. After this the efficiency increases and has a maximum of over 0.9 at $\theta_{\textrm{pred,b2b}} \approx 0.5$. The efficiency drops for increasing values of $\theta_{\textrm{pred,b2b}}$. First, rapidly in the forward end-cap then slowly in the barrel. It reaches a local minimum of $\sim 0.6$ at $\theta_{\textrm{pred,b2b}} \approx 1.0$. The tracking efficiency of phase2 MC starts with $\sim  0.85$ and reaches a local maximum of $\sim 0.95$ at $\theta_{\textrm{pred,b2b}} \approx 0.5$. Similar to phase2 data, it falls down after this and reaches a local minimum of $\sim 0.6$ at $\theta_{\textrm{pred,b2b}} \approx 1.0$. In the backward end-cap the tracking efficiency of phase2 MC starts with 0.9 and falls down rapidly to 0 at $\theta_{\textrm{pred,b2b}} \approx 2.6$. The tracking efficiency of phase2 data has a similar structure but it is lower by about 0.4. Therefore, it reaches 0 earlier.
 For transverse momenta between $3\,\textrm{GeV}$ and $4\,\textrm{GeV}$ the tracking efficiency for both phase2 MC and phase2 data start with almost 1 in the forward end-cap. They are close to each other and they decrease a little with increasing $\theta_{\textrm{pred,b2b}}$. Starting at $\theta_{\textrm{pred,b2b}} \approx 0.7$, both tracking efficiencies fall down rapidly and they both reach a local minimum of $\sim 0.7$ at $\theta_{\textrm{pred,b2b}} \approx 1.0$. After this the phase2 data tracking efficiency slowly gets back up reaching a local maximum at $\theta_{\textrm{pred,b2b}} \approx 2.0$. After this maximum the efficiency of phase2 data falls down and has a dip at the transition between the barrel and the backward end-cap. Phase2 MC on the other hand stays the same in the middle region of the barrel. But it also has a local maximum starting at $\theta_{\textrm{pred,b2b}} \approx 2.0$. The tracking efficiency starts to fall down at $\theta_{\textrm{pred,b2b}} \approx 2.3$.
 For transverse momenta between $4\,\textrm{GeV}$ and $5\,\textrm{GeV}$ most electrons only hit the barrel and the forward end-cap. the tracking efficiency of phase2 data in the forward end-cap is always above 0.9. The efficiency for phase2 MC is worse for some values of $\theta_{\textrm{pred,b2b}}$ due to the large errors. In the barrel both tracking efficiencies stay above 0.95 with the exception of a wide local minimum of 0.9 at $\theta_{\textrm{pred,b2b}} \approx 1.3$. Additionally, the tracking efficiency for phase2 data is almost always a little worse than the tracking efficiency of phase2 MC.
 For transverse momenta between $5\,\textrm{GeV}$ and $6\,\textrm{GeV}$ almost all electrons are detected in the barrel. Except for some angles of $\theta_{\textrm{pred,b2b}}$, the tracking efficiency for phase2 MC and phase2 data stays above 0.96. The tracking efficiency of phase2 data is always a little lower than the phase2 MC tracking efficiency. 
 
 
-Figure \ref{plt:xPtMThetaep} shows the calculated positron tracking efficiency for different transverse momenta as function of the predicted polar angle $\theta_{\textrm{pred,b2b}}$. For transverse momenta between $1\,\textrm{GeV}$ and $2\,\textrm{GeV}$ most of the positrons are detected in the backward end-cap. The tracking efficiency of phase2 data is about 0.85 before it falls down at the end of the backward end-cap. The tracking efficiency for phase2 MC has a similar structure but it is also a little higher.
+Figure \ref{plt:xPtMThetaep} shows the calculated positron tracking efficiency for different transverse momenta as function of $\theta_{\textrm{pred,b2b}}$. For transverse momenta between $1\,\textrm{GeV}$ and $2\,\textrm{GeV}$ most of the positrons are detected in the backward end-cap. The tracking efficiency of phase2 data is about 0.85 before it falls down at the end of the backward end-cap. The tracking efficiency for phase2 MC has a similar structure but it is also a little higher.
 For transverse momenta between $2\,\textrm{GeV}$ and $3\,\textrm{GeV}$ the tracking efficiency for phase2 data starts low  but it increases rapidly until it reaches a local maximum of about 0.85 at $\theta_{\textrm{pred,b2b}} \approx 0.5$. After this the tracking efficiency drops down. It has a local minimum of about 0.6 at $\theta_{\textrm{pred,b2b}} \approx 1.0$. For $\theta_{\textrm{pred,b2b}} \approx 2.0$ the tracking efficiency is over 0.9 but it falls down for increasing $\theta_{\textrm{pred,b2b}}$ and it has a significant dip at the barrel and backward end-cap transition. Then it goes back up until it finally drops down to 0 at the end of the backward end-cap. The phase2 MC tracking efficiency has a similar structure. But the calculated tracking efficiency of phase2 MC is higher compared to phase2 data for almost all values of $\theta_{\textrm{pred,b2b}}$. Additionally, the dip of the tracking efficiency at the transition between barrel and backward end-cap is not as dominant in phase2 MC.
 For transverse momenta between $3\,\textrm{GeV}$ and $4\,\textrm{GeV}$ the tracking efficiency for phase2 data starts with $\sim 0.9$ at $\theta_{\textrm{pred,b2b}} \approx 0.5$ and rises to a local maximum of $\sim 0.95$ at the forward end-cap and barrel transition. After this the tracking efficiency drops and reaches a local minimum at $\theta_{\textrm{pred,b2b}} \approx 1.0$. Then it slowly increases until it reaches an efficiency of over 0.95 at $\theta_{\textrm{pred,b2b}} \approx 2.1$. The efficiency stays at this value until the transition between the barrel and the backward end-cap. Here it falls down a little and the efficiency reaches a local minimum of $\sim 0.88$ in the backward end-cap at $\theta_{\textrm{pred,b2b}} \approx 2.4$. Finally, the efficiency goes back up to over 0.99. The tracking efficiency for phase2 MC follows a similar path. With the exception that it starts in the forward end-cap at a higher value of over 0.95. Additionally, there is no local minimum for phase2 MC in the backward end-cap. But it appears to fall down at the end of the backward end-cap.
 For transverse momenta between $4\,\textrm{GeV}$  and $5\,\textrm{GeV}$ the tracking efficiency for phase2 MC and phase2 data are close to each other. In the barrel both are constantly above 0.92 with a wide minimum at $\theta_{\textrm{pred,b2b}} \approx 1.0$. At $\theta_{\textrm{pred,b2b}} \approx 2.0$, the tracking efficiency even reaches above 0.98 for both phase2 data and phase2 MC. In the backward end-cap the tracking efficiency of phase2 MC appears to fall down earlier than the phase2 data tracking efficiency.
@@ -1919,7 +1932,7 @@ For transverse momenta between $5\,\textrm{GeV}$ and $6\,\textrm{GeV}$ almost al
 \chapter{Phase3 Tracking Efficiency}
 \label{chp:TrackingEfficiencyPhase3}
 
-\lettrine{T}{his} chapter will start with a short description of phase3. Then the selection will be applied to phase3 data and phase3 MC. Finally, the calculated tracking efficiency of electrons and positrons will be presented.
+\lettrine{T}{his} chapter will start with a brief description of phase3. Then the selection will be applied to phase3 data and phase3 MC. Finally, the calculated tracking efficiency of electrons and positrons will be presented.
 
 \section{Phase3}
 \label{sec:P3}
@@ -1956,9 +1969,9 @@ Phase3 data will be shown in blue together with phase3 MC in red. Only efficienc
 Figure \ref{plt:xCEff3} shows the calculated tracking efficiencies of phase3 as function of $\theta_{\textrm{pred,b2b}}$-$\phi_{\textrm{pred,b2b}}$.
 Similar to section \ref{sec:tpEff}, the phase3 MC efficiency is shown on the left and phase3 data on the right. The electron efficiencies are presented in the first row and the positron in the second row. Again, these plots combine all momenta. 
 
-For the phase3 data electron tracking efficiency horizontal efficiency drops can be seen in the forward end-cap and in the barrel at $\phi_{\textrm{pred,b2b}} \approx -1.8, -1.0, -0.2, 0.6, 0.1 \textrm{ and }3.0$.
+For the phase3 data electron tracking efficiency horizontal efficiency drops can be seen in the forward end-cap and in the barrel at $\phi_{\textrm{pred,b2b}} \approx$ $-1.8$, $-1.0$, $-0.2$, $0.6$, $0.1$ and $3.0$.
 
-As can be seen in this figure, there are also horizontal efficiency losses for the positron phase3 data tracking efficiency. But they only appear in the backward end-cap at $\phi_{\textrm{pred,b2b}} \approx -3.0, -1.7, -0.5, 1.4 \textrm{ and } 2.6$. On phase3 MC there are no horizontal efficiency drops in the backward end-cap. These horizontal efficiency drops in the backward end-cap can also be seen in the electron phase3 data tracking efficiency plots but unfortunately the statistics on phase3 MC is too low to see efficiencies in the backward end-cap at all.
+As can be seen in this figure, there are also horizontal efficiency losses for the positron phase3 data tracking efficiency. But they only appear in the backward end-cap at $\phi_{\textrm{pred,b2b}} \approx$ $-3.0$, $-1.7$, $-0.5$, $1.4$ and $2.6$. On phase3 MC there are no horizontal efficiency drops in the backward end-cap. These horizontal efficiency drops in the backward end-cap can also be seen in the electron phase3 data tracking efficiency plots but unfortunately the statistics on phase3 MC is too low to see efficiencies in the backward end-cap at all.
 
 
 \begin{figure}[!htbp]
@@ -1979,7 +1992,7 @@ Figure \ref{plt:xPMPhiemFC3} shows the calculated electron tracking efficiency f
 For momenta between $4\,\textrm{GeV}$ and $5\,\textrm{GeV}$ the tracking efficiency for phase3 data starts at $\sim 0.85$ and drops until it reaches a minimum of $\sim 0.7$ at $\phi_{\textrm{pred,b2b}} \approx 0$. After this it goes back up to $\sim 0.85$. An unusual structure occurs for the phase3 data tracking efficiency. It seems like the tracking efficiency drops by $\sim 0.1$ every other value of $\phi_{\textrm{pred,b2b}}$. The result are two \textit{ribbons} of efficiency in this region. The tracking efficiency of phase3 MC may has a similar structure but due to the lower statistics the error bars are way bigger.
 For momenta between $5\,\textrm{GeV}$ and $6\,\textrm{GeV}$ the structure of the tracking efficiencies are similar to the ones of the previous momentum range. But this time, the tracking efficiency starts at $\sim 0.9$ for phase3 data and an efficiency of about $\sim 0.82$ is reached in the minimum at $\phi_{\textrm{pred,b2b}} \approx 0$. Additionally, for this momentum range, there are no \textit{ribbons} of efficiency in the minimum.
 For momenta between $6\,\textrm{GeV}$ and $7\,\textrm{GeV}$ the tracking efficiency for phase3 MC stays above 0.95 for almost all values of $\phi_{\textrm{pred,b2b}}$. The tracking efficiency for phase3 data ranges between $\sim 0.89$ and $\sim 0.98$. Some efficiencies appear to be scattered randomly in this range.
-For momenta between $7\,\textrm{GeV}$ and $8\,\textrm{GeV}$ the tracking efficiency for phase3 data is almost 1 for $|\phi_{\textrm{pred,b2b}}| > 1.5$. For $|\phi_{\textrm{pred,b2b}}| < 1.5$, the tracking efficiency varies between 0.99 and 1. The phase3 MC tracking efficiency ranges from 0.97 to 1 for most values of $\phi_{\textrm{pred,b2b}}$. The error bars are significantly larger for $|\phi_{\textrm{pred,b2b}}| > 1.5$.
+For momenta between $7\,\textrm{GeV}$ and $8\,\textrm{GeV}$ the tracking efficiency for phase3 data is almost 1 for $|\phi_{\textrm{pred,b2b}}| \gtrsim 1.5$. For $|\phi_{\textrm{pred,b2b}}| \lesssim 1.5$, the tracking efficiency varies between 0.99 and 1. The phase3 MC tracking efficiency ranges from 0.97 to 1 for most values of $\phi_{\textrm{pred,b2b}}$. The error bars are significantly larger for $|\phi_{\textrm{pred,b2b}}| \gtrsim 1.5$.
 The best electron tracking efficiency for phase3 in the forward end-cap is obtained for electrons with a momentum between $7\,\textrm{GeV}$ and $8\,\textrm{GeV}$.
 
 \begin{figure}[!htbp]
@@ -2042,7 +2055,7 @@ For momenta between $5\,\textrm{GeV}$ and $6\,\textrm{GeV}$ the tracking efficie
 \subsubsection{Tracking Efficiencies As Function Of $\theta_{\textrm{pred,b2b}}$}
 
 
-Figure \ref{plt:xPMThetaem3} shows the calculated electron tracking efficiency for different momenta as function of the predicted polar angle $\theta_{\textrm{pred,b2b}}$.
+Figure \ref{plt:xPMThetaem3} shows the calculated electron tracking efficiency for different momenta as function of $\theta_{\textrm{pred,b2b}}$.
 For momenta between $3\,\textrm{GeV}$ and $4\,\textrm{GeV}$ the tracking efficiency for phase3 MC starts in the forward end-cap with over 0.95 for most values of $\theta_{\textrm{pred,b2b}}$. At the forward end-cap and barrel transition the efficiency drops down to 0 and goes back up to $\sim 0.6$ at $\theta_{\textrm{pred,b2b}} \approx 0.7$. After this the tracking efficiency slowly increases to between $\sim 0.80$ and $\sim 0.95$ at $\theta_{\textrm{pred,b2b}} \approx 0.4$. Then the efficiency drops drastically down to 0. The tracking efficiency of phase3 data starts even higher with almost 1 in the forward end-cap. Similar to the tracking efficiency of phase3 MC, the phase3 data efficiency drops at the forward end-cap and barrel transition. After this the efficiency follows the phase3 MC efficiency until $\theta_{\textrm{pred,b2b}} \approx 2.2$. At the barrel and backward end-cap transition the phase3 data tracking efficiency drops down to around 0.55. In the backward end-cap the efficiency goes back up to $\sim 0.7$ before it finally drops down to 0.
 For momenta between $4\,\textrm{GeV}$ and $5\,\textrm{GeV}$ both the phase3 MC and phase3 tracking efficiency starts at around 0.95 and declines with increasing $\theta_{\textrm{pred,b2b}}$. A local minimum of $\epsilon \approx 0.6$ appears at the forward end-cap transition. After the transition the tracking efficiency jumps back to around 0.75 and then increases slowly until $\theta_{\textrm{pred,b2b}} \approx 1.5$. Here the tracking efficiency stops for phase3 MC and it stays at the same height for the rest of the barrel. The tracking efficiency for phase3 MC finally drops down to 0 in the backward end-cap. In contrast, the phase3 data tracking efficiency already starts to fall down slowly at $\theta_{\textrm{pred,b2b}} \approx 1.5$. At the barrel and backward end-cap transition, the phase3 data tracking efficiency drops down to $\sim 0.8$. After this it goes back up to $\sim 0.85$ and it processed to decline until it reaches 0 at the end of the backward end-cap.
 For momenta between $5\,\textrm{GeV}$ and $6\,\textrm{GeV}$ the tracking efficiency for both phase3 MC and phase3 data starts at around 0.95. They then decrease very fast until the transition between forward end-cap and barrel with a tracking efficiency of about 0.85. At this transition a peak in the tracking efficiency occurs. The tracking efficiency jumps up to about 0.95 and falls back down to $\sim 0.9$ after the transition. Then the efficiency goes up and reaches a plateau at $\theta_{\textrm{pred,b2b}} \approx 1.3$ with an tracking efficiency of over 0.97.
@@ -2078,7 +2091,7 @@ For momenta between $6\,\textrm{GeV}$ and $7\,\textrm{GeV}$ the tracking efficie
 
 
 Figure \ref{plt:xPtMPhiemFC3} shows the calculated tracking efficiency for electrons in the forward end-cap for different transverse momenta as function of $\phi_{\textrm{pred,b2b}}$. 
-For transverse momenta between $1\,\textrm{GeV}$ and $2\,\textrm{GeV}$ the tracking efficiency for phase3 data and phase3 MC is above $\sim 0.85$ for $|\phi_{\textrm{pred,b2b}}| \gtrsim 1.5$. For decreasing $|\phi_{\textrm{pred,b2b}}|$ the efficiency also decreases resulting in a minimum at $\phi_{\textrm{pred,b2b}} \approx 0$. Similar to the first momentum plot of figure \ref{plt:xPMPhiemFC}\footnote{This figure shows the phase3 electron tracking efficiencies for different momenta in the forward end-cap}, there is a \textit{ribbon} structure in the phase3 data tracking efficiency at $\phi_{\textrm{pred,b2b}} \approx 0$.
+For transverse momenta between $1\,\textrm{GeV}$ and $2\,\textrm{GeV}$ the tracking efficiency for phase3 data and phase3 MC is above $\sim 0.85$ for $|\phi_{\textrm{pred,b2b}}| \gtrsim 1.5$. For decreasing $|\phi_{\textrm{pred,b2b}}|$ the efficiency also decreases resulting in a minimum at $\phi_{\textrm{pred,b2b}} \approx 0$. Similar to the first momentum plot of figure \ref{plt:xPMPhiemFC3}\footnote{This figure shows the phase3 electron tracking efficiencies for different momenta in the forward end-cap}, there is a \textit{ribbon} structure in the phase3 data tracking efficiency at $\phi_{\textrm{pred,b2b}} \approx 0$.
 For transverse momenta between $2\,\textrm{GeV}$ and $3\,\textrm{GeV}$ the phase3 MC tracking efficiency is above 0.9 for all values of $\phi_{\textrm{pred,b2b}}$. It has a minimum at $\phi_{\textrm{pred,b2b}} \approx 0$ and the highest efficiencies are reached at $\phi_{\textrm{pred,b2b}} \approx \pi$. The tracking efficiency for phase3 data is between $\sim 0.88$ and $\sim 0.98$. Again, some efficiencies appear to be scattered more or less randomly at this range. 
 For transverse momenta between $3\,\textrm{GeV}$ and $4\,\textrm{GeV}$ the tracking efficiency for phase3 MC is above 0.96 for all values of $\phi_{\textrm{pred,b2b}}$. For phase3 data the tracking efficiency even is above 0.98 for almost all values of $\phi_{\textrm{pred,b2b}}$. There are some exceptions, which again appear to be scattered.
 
@@ -2129,7 +2142,7 @@ For transverse momenta between $5\,\textrm{GeV}$ and $6\,\textrm{GeV}$ the track
 Figure \ref{plt:xPtMPhiepEC3} shows the calculated positron tracking efficiency in the backward end-cap for different momenta as function of $\phi_{\textrm{pred,b2b}}$.
 For transverse momenta between $1\,\textrm{GeV}$ and $2\,\textrm{GeV}$ the calculated phase3 MC tracking efficiency is above 0.92 for $|\phi_{\textrm{pred,b2b}}| \gtrsim 1$. For $|\phi_{\textrm{pred,b2b}}| \lesssim 1$ the error bars are noticeably larger and the efficiency is between $\sim 0.75$ and 1. For phase3 data a noteworthy structure occurs. For phase3 data the highest tracking efficiency appears at $|\phi_{\textrm{pred,b2b}}| \lesssim 0.5$. Here the efficiency is between $\sim 0.96$ and $\sim 0.99$. For $|\phi_{\textrm{pred,b2b}}| \gtrsim 0.5$ the highest efficiency is $\sim 0.97$ and the tracking efficiencies seem to be scattered between $\sim 0.75$ and $\sim 0.96$.
 For transverse momenta between $2\,\textrm{GeV}$ and $3\,\textrm{GeV}$ the calculated tracking efficiency is between $\sim 0.95$ and $\sim 0.99$ for phase3 MC and between $\sim 0.72$ and $\sim 0.98$ for phase3 data. Again, the tracking efficiency for phase3 data appears to be scattered randomly.
-For transverse momenta between $3\,\textrm{GeV}$ and $4\,\textrm{GeV}$ the tracking efficiency for phase3 MC ranges between $\sim 0.96$ and 1. The tracking efficiency for phase3 data is above 0.99 most of the time. There are some rather smaller dips at $\phi_{\textrm{pred,b2b}} \approx -\pi, -1.8, -1.2, -0.8, 1.2 \textrm{ and } 2.1$.
+For transverse momenta between $3\,\textrm{GeV}$ and $4\,\textrm{GeV}$ the tracking efficiency for phase3 MC ranges between $\sim 0.96$ and 1. The tracking efficiency for phase3 data is above 0.99 most of the time. There are some rather smaller dips at $\phi_{\textrm{pred,b2b}} \approx$ $-\pi$, $-1.8$, $-1.2$, $-0.8$, $1.2$ and  $2.1$.
 
 
 
@@ -2231,7 +2244,7 @@ Figure \ref{plt:compPhiemEC} shows the phase2 data and phase3 data positron trac
 The phase3 data tracking efficiency is higher for all $\phi_{\textrm{pred,b2b}}$ and for all momenta.
 There are basically no similarities in structure of phase2 data compared to phase3 data for momenta between $3\,\textrm{GeV}$ and $5\,\textrm{GeV}$. The tracking efficiency of phase2 data ranges between $\sim 0.2$ and 0.95. It oscillates between $\sim 0.2$ and 0.6 and has two peaks at around $\phi_{\textrm{pred,b2b}} \approx 0$.
 The phase3 data tracking efficiency is much higher and more flat compared to the tracking efficiency of phase2 data. The phase3 data tracking efficiency appears to drop for some $\phi_{\textrm{pred,b2b}}$ values.
-For momenta between $2\,\textrm{GeV}$ and $3\,\textrm{GeV}$, and $5\,\textrm{GeV}$ and $6\,\textrm{GeV}$ both the tracking efficiency for phase2 and phase3 data is over 0.95 for almost all values of $\phi_{\textrm{pred,b2b}}$.
+For momenta between $2\,\textrm{GeV}$ and $3\,\textrm{GeV}$, and $5\,\textrm{GeV}$ and $6\,\textrm{GeV}$ both the tracking efficiencies for phase2 and phase3 data are over 0.95 for almost all values of $\phi_{\textrm{pred,b2b}}$.
 
 
 \begin{figure}[!htbp]
@@ -2254,9 +2267,10 @@ For momenta between $2\,\textrm{GeV}$ and $3\,\textrm{GeV}$, and $5\,\textrm{GeV
 \chapter{Summary And Conclusion}
 \label{cha:Conclusion}
 
-\lettrine{I}{n} this work the tracking efficiency of the innermost detectors of Belle II was presented. 
-Using Monte Carlo-Truth information, these are the informations of the generated MC particle and therefore the true properties of these particles, I tried to show that it is possible to select outgoing electron/positron events, i.e. Bhabha events, with informations solely coming from the electromagnetic calorimeter (ECL), a sub-detector of Belle II. 
-This selection is rather rudimentary because it is mostly based on the kinematics of the Bhabha process. Then using this selection, I managed to reconstruct these Bhabha events even without the MC-Truth information. Therefore, it was possible to apply this selection to real data and tracking efficiencies could be calculated. 
+\lettrine{I}{n} this work the tracking efficiency of the tracking and reconstruction detectors of Belle II was presented. 
+Using Monte Carlo-Truth information, which is the information of the generated MC particle and therefore the true properties of these particles, 
+I showed that it is possible to select outgoing electron/positron events, i.e. Bhabha events, with informations solely coming from the electromagnetic calorimeter (ECL). 
+This selection is rather rudimentary because it is mostly based on the kinematics of the Bhabha process. Using this selection, I managed to reconstruct these Bhabha events even without the MC-Truth information. Therefore, it was possible to apply this selection to real data and tracking efficiencies could be calculated. 
 This was done for phase2 MC, phase2 data, phase3 MC and phase3 data.
 The calculated tracking efficiencies for phase2 MC and phase2 data were compared in detail and differences were highlighted. The same was done with the tracking efficiencies of phase3 MC and phase3 data. 
 \newline 
@@ -2271,10 +2285,25 @@ The tracking efficiencies, especially in the end-caps, of phase2 MC and phase2 d
 
 For phase3, the first physics run for Belle II, more parts of the VXD were installed. This includes the complete silicon vertex detector (SVD) and most of the pixel detector (PXD). 
 
-Overall, the tracking efficiencies in both end-caps got way better for electrons and positrons for all momenta compared to phase2, especially in both end-caps. One has to mention that, for phase3 data, there are drops in the tracking efficiency for some values of $\phi_{\textrm{pred,b2b}}$ in the endcaps.
+Overall, the tracking efficiencies in both end-caps improved for electrons and positrons for all momenta compared to phase2, especially in the end of both end-caps. 
+
+The best electron tracking efficiencies with $\epsilon \gtrsim 0.99$ for phase3 data and $\epsilon \gtrsim 0.98$ for phase3 MC appear in the forward end-cap for momenta above $7\,\textrm{GeV}$.
+In the barrel a similar efficiency is reached for momenta above $6\,\textrm{GeV}$. 
+In contrast, the electron tracking efficiency of phase2 data is only above $\sim 0.9$ in the forward end-cap and above $\sim 0.95$ in the barrel for the same momenta ranges.
+Phase2 MC has a similar electron tracking efficiency compared to phase3 MC for the same momenta ranges.
+
+For positrons the best tracking efficiencies appear in the backward end-cap for momenta between $2\,\textrm{GeV}$ and $3\,\textrm{GeV}$, and between $5\,\textrm{GeV}$ and $6\,\textrm{GeV}$ for phase3 data. For both momenta ranges the efficiencies are above 0.99. The highest positron tracking efficiency in the barrel for phase3 data appears for momenta between $4\,\textrm{GeV}$ and $5\,\textrm{GeV}$ with $\epsilon \gtrsim 0.98$. 
+For phase3 MC the highest positron tracking efficiency with $\epsilon \gtrsim 0.98$ appears in the barrel and in the backward end-cap for momenta between $4\,\textrm{GeV}$ and $5\,\textrm{GeV}$. 
+For the same momenta ranges as mentioned for phase3 data, the phase2 data tracking efficiency is above $\sim 0.98$  in the backward end-cap and above $\sim 0.96$ in the barrel for almost all values of $\phi_{\textrm{pred,b2b}}$. For phase2 MC the tracking efficiency is similar compared to the phase3 MC tracking efficiency for the same momenta ranges.
+
+
+One has to mention that, for phase3 data, there are drops in the tracking efficiency for some values of $\phi_{\textrm{pred,b2b}}$ in the endcaps.
 In the barrel these horizontal efficiency drops are also visible for the electron tracking efficiency.
 These drops appear to be distributed randomly. The reason for these drops has to be determined in further studies. Additionally, there was an improvement in the phase3 MC simulation in the sense that the tracking efficiencies of phase3 MC and phase3 data are closer to each other compared to phase2 MC and phase2 data.
+For phase3 it is difficult to highlight differences between the tracking efficiencies of phase3 data and phase3 MC because they are very close to each other and phase3 MC has very large error bars due to its lower statistic.
+\newline
 
+The studies performed and the programs developed in this thesis will allow a quick assessment of tracking efficiency for future data taking.
  
  
 %_______________________________________________________________________________
@@ -2347,9 +2376,20 @@ The generated file is located on KEKCC at:
 \end{figure}
 
 
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{AnhangPlots/b2bT_MC.pdf}
+	\caption[b2bTheta - Theta For Phase2 MC]{Left: $\Delta \theta _{\textrm{True(pred)} - \textrm{reco}}^{\textrm{LclE}}$. Right:  $\Delta \theta _{\textrm{True(pred)} - \textrm{reco}}^{\textrm{HclE}}$. Both plots are created with phase2 MC.}
+	\label{fig:cb2bTMC}
+\end{figure}
 
 
-
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=\textwidth]{AnhangPlots/b2bT_Data.pdf}
+	\caption[b2bTheta - Theta For Phase2 Data]{Left: $\Delta \theta _{\textrm{True(pred)} - \textrm{reco}}^{\textrm{LclE}}$. Right:  $\Delta \theta _{\textrm{True(pred)} - \textrm{reco}}^{\textrm{HclE}}$. Both plots are created with phase2 data.}
+	\label{fig:cb2bTData}
+\end{figure}
 
 
 
