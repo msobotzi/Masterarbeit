@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.21)  13 DEC 2019 12:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.21)  17 DEC 2019 12:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -101,8 +101,8 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen126
 \Gm@dimlist=\toks15
 )
-(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+(/usr/share/texlive/texmf-dist/tex/latex/extsizes/size8.clo
+File: size8.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
@@ -979,10 +979,10 @@ Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 )
 
 Package hyperref Warning: Option `pdftex' has already been used,
-(hyperref)                setting the option has no effect on input line 40.
+(hyperref)                setting the option has no effect on input line 41.
 
-Package hyperref Info: Option `colorlinks' set `true' on input line 40.
-Package hyperref Info: Option `breaklinks' set `true' on input line 40.
+Package hyperref Info: Option `colorlinks' set `true' on input line 41.
+Package hyperref Info: Option `breaklinks' set `true' on input line 41.
 
 Package hyperref Warning: Option `pagecolor' is not available anymore.
 
@@ -994,20 +994,20 @@ echnical note
 ) (./BhabhaEfficiency_MartinSobotzik.aux)
 \openout1 = `BhabhaEfficiency_MartinSobotzik.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1028,12 +1028,12 @@ LaTeX Font Info:    ... okay on input line 46.
 * \topmargin=-72.26999pt
 * \headheight=14.22636pt
 * \headsep=0.0pt
-* \topskip=10.0pt
+* \topskip=9.0pt
 * \footskip=14.22636pt
-* \marginparwidth=3.0pt
-* \marginparsep=11.0pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=7.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -1075,7 +1075,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box61
-Package hyperref Info: Link coloring ON on input line 46.
+Package hyperref Info: Link coloring ON on input line 47.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1085,66 +1085,66 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count189
 )
-LaTeX Info: Redefining \ref on input line 46.
-LaTeX Info: Redefining \pageref on input line 46.
-LaTeX Info: Redefining \nameref on input line 46.
+LaTeX Info: Redefining \ref on input line 47.
+LaTeX Info: Redefining \pageref on input line 47.
+LaTeX Info: Redefining \nameref on input line 47.
 
 (./BhabhaEfficiency_MartinSobotzik.out) (./BhabhaEfficiency_MartinSobotzik.out)
 \@outlinefile=\write5
 \openout5 = `BhabhaEfficiency_MartinSobotzik.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 46.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 47.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 46.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 47.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 46.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 46.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 47.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 47.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 46.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 47.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 46.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 46.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 47.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 47.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 46.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 47.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 46.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 46.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 47.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 47.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 46.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 47.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 46.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 46.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 47.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 47.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 46.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 47.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 46.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 47.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 46.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 47.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 46.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 47.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 46.
+(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 47.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 46.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 47.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 46.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 47.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 46.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 47.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 46.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 46.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 47.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 47.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
 (Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 4
-6.
+7.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 
-46.
+47.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 46.
+ut line 47.
 
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/translator/dicts/translator-bas
 ic-dictionary/translator-basic-dictionary-English.dict
@@ -1170,7 +1170,7 @@ Dictionary: translator-numbers-dictionary, Language: English
 orem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 46.
+LaTeX Info: Redefining \includegraphics on input line 47.
 
 Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.14} (current compat level: 1.9).
@@ -1178,123 +1178,144 @@ enefit from \pgfplotsset{compat=1.14} (current compat level: 1.9).
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 (./BhabhaEfficiency_MartinSobotzik.nav)
-Overfull \vbox (13.79993pt too high) detected at line 48
+Overfull \vbox (10.92494pt too high) detected at line 48
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 76.
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 72.
 
-LaTeX Font Info:    No file OMScmss.fd. on input line 76.
+LaTeX Font Info:    No file OMScmss.fd. on input line 72.
 
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 76.
+(Font)              for symbol `textbullet' on input line 72.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 76.
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
+(Font)              size <5> substituted on input line 72.
+
+[2
+
+]
+LaTeX Font Info:    Try loading font information for U+msa on input line 84.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 76.
+LaTeX Font Info:    Try loading font information for U+msb on input line 84.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 76.
+line 84.
 
 (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
+[3
 
-LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 76.
+] <VBilder/Lumen.png, id=33, 856.19875pt x 420.57124pt>
+File: VBilder/Lumen.png Graphic file (type png)
 
-[2
+<use VBilder/Lumen.png>
+Package pdftex.def Info: VBilder/Lumen.png used on input line 112.
+(pdftex.def)             Requested size: 213.39566pt x 104.82167pt.
 
-] <Plots/nCandMC.pdf, id=33, 569.12625pt x 429.605pt>
+Overfull \hbox (14.22638pt too wide) in paragraph at lines 112--112
+ [] 
+ []
+
+[4
+
+ <./VBilder/Lumen.png>] [5
+
+] [6
+
+]
+<Plots/nCandMC.pdf, id=58, 569.12625pt x 429.605pt>
 File: Plots/nCandMC.pdf Graphic file (type pdf)
-
-<use Plots/nCandMC.pdf>
-Package pdftex.def Info: Plots/nCandMC.pdf used on input line 141.
+ <use Plots/nCandMC.pdf>
+Package pdftex.def Info: Plots/nCandMC.pdf used on input line 210.
 (pdftex.def)             Requested size: 128.0374pt x 96.65039pt.
- <Plots/nCandData.pdf, id=34, 569.12625pt x 429.605pt>
+
+<Plots/nCandData.pdf, id=59, 569.12625pt x 429.605pt>
 File: Plots/nCandData.pdf Graphic file (type pdf)
 
 <use Plots/nCandData.pdf>
-Package pdftex.def Info: Plots/nCandData.pdf used on input line 141.
+Package pdftex.def Info: Plots/nCandData.pdf used on input line 210.
 (pdftex.def)             Requested size: 128.0374pt x 96.65039pt.
- [3
+ [7
 
  <./Plots/nCandMC.pdf, page is rotated 90 degrees> <./Plots/nCandData.pdf, page
  is rotated 90 degrees>]
-<Plots/b2b_2.pdf, id=129, 453.35774pt x 251.47615pt>
+<Plots/b2b_2.pdf, id=153, 453.35774pt x 251.47615pt>
 File: Plots/b2b_2.pdf Graphic file (type pdf)
  <use Plots/b2b_2.pdf>
-Package pdftex.def Info: Plots/b2b_2.pdf used on input line 151.
+Package pdftex.def Info: Plots/b2b_2.pdf used on input line 220.
 (pdftex.def)             Requested size: 307.28987pt x 170.45662pt.
 
-[4
+[8
 
  <./Plots/b2b_2.pdf>]
 File: Plots/b2b_2.pdf Graphic file (type pdf)
  <use Plots/b2b_2.pdf>
-Package pdftex.def Info: Plots/b2b_2.pdf used on input line 187.
+Package pdftex.def Info: Plots/b2b_2.pdf used on input line 256.
 (pdftex.def)             Requested size: 128.0374pt x 71.02295pt.
 
-<Plots/b2b_3.pdf, id=137, 453.35774pt x 251.47615pt>
+<Plots/b2b_3.pdf, id=161, 453.35774pt x 251.47615pt>
 File: Plots/b2b_3.pdf Graphic file (type pdf)
  <use Plots/b2b_3.pdf>
-Package pdftex.def Info: Plots/b2b_3.pdf used on input line 187.
+Package pdftex.def Info: Plots/b2b_3.pdf used on input line 256.
 (pdftex.def)             Requested size: 128.0374pt x 71.02295pt.
 
-<Plots/Eff/b2b_Data.pdf, id=138, 569.12625pt x 148.555pt>
+<Plots/Eff/b2b_Data.pdf, id=162, 569.12625pt x 148.555pt>
 File: Plots/Eff/b2b_Data.pdf Graphic file (type pdf)
 
 <use Plots/Eff/b2b_Data.pdf>
-Package pdftex.def Info: Plots/Eff/b2b_Data.pdf used on input line 187.
+Package pdftex.def Info: Plots/Eff/b2b_Data.pdf used on input line 256.
 (pdftex.def)             Requested size: 307.28987pt x 80.21396pt.
- [5
+ [9
 
  <./Plots/b2b_3.pdf> <./Plots/Eff/b2b_Data.pdf, page is rotated 90 degrees>]
 File: Plots/b2b_2.pdf Graphic file (type pdf)
  <use Plots/b2b_2.pdf>
-Package pdftex.def Info: Plots/b2b_2.pdf used on input line 221.
+Package pdftex.def Info: Plots/b2b_2.pdf used on input line 290.
 (pdftex.def)             Requested size: 128.0374pt x 71.02295pt.
 File: Plots/b2b_3.pdf Graphic file (type pdf)
  <use Plots/b2b_3.pdf>
-Package pdftex.def Info: Plots/b2b_3.pdf used on input line 221.
+Package pdftex.def Info: Plots/b2b_3.pdf used on input line 290.
 (pdftex.def)             Requested size: 128.0374pt x 71.02295pt.
 
-<Plots/Eff/b2b_MC.pdf, id=188, 569.12625pt x 148.555pt>
+<Plots/Eff/b2b_MC.pdf, id=212, 569.12625pt x 148.555pt>
 File: Plots/Eff/b2b_MC.pdf Graphic file (type pdf)
 
 <use Plots/Eff/b2b_MC.pdf>
-Package pdftex.def Info: Plots/Eff/b2b_MC.pdf used on input line 221.
+Package pdftex.def Info: Plots/Eff/b2b_MC.pdf used on input line 290.
 (pdftex.def)             Requested size: 307.28987pt x 80.21396pt.
- [6
+ [10
 
- <./Plots/Eff/b2b_MC.pdf, page is rotated 90 degrees>] [7
+ <./Plots/Eff/b2b_MC.pdf, page is rotated 90 degrees>] [11
 
-] <Plots/Eff/TPMCData.pdf, id=244, 569.12625pt x 309.155pt>
+] <Plots/Eff/TPMCData.pdf, id=267, 569.12625pt x 309.155pt>
 File: Plots/Eff/TPMCData.pdf Graphic file (type pdf)
 
 <use Plots/Eff/TPMCData.pdf>
-Package pdftex.def Info: Plots/Eff/TPMCData.pdf used on input line 276.
+Package pdftex.def Info: Plots/Eff/TPMCData.pdf used on input line 345.
 (pdftex.def)             Requested size: 307.28987pt x 166.93176pt.
- [8
+ [12
 
  <./Plots/Eff/TPMCData.pdf, page is rotated 90 degrees>] <Plots/Eff/MCDataEff.p
-df, id=293, 569.12625pt x 309.155pt>
+df, id=316, 569.12625pt x 309.155pt>
 File: Plots/Eff/MCDataEff.pdf Graphic file (type pdf)
 
 <use Plots/Eff/MCDataEff.pdf>
-Package pdftex.def Info: Plots/Eff/MCDataEff.pdf used on input line 310.
+Package pdftex.def Info: Plots/Eff/MCDataEff.pdf used on input line 379.
 (pdftex.def)             Requested size: 307.28987pt x 166.93176pt.
- [9
+ [13
 
  <./Plots/Eff/MCDataEff.pdf, page is rotated 90 degrees>]
 \tf@nav=\write6
@@ -1306,11 +1327,11 @@ Package pdftex.def Info: Plots/Eff/MCDataEff.pdf used on input line 310.
 \tf@snm=\write8
 \openout8 = `BhabhaEfficiency_MartinSobotzik.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 315.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 315.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 384.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 384.
  (./BhabhaEfficiency_MartinSobotzik.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 315.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 315.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 384.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 384.
 Package rerunfilecheck Info: File `BhabhaEfficiency_MartinSobotzik.out' has not
  changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
@@ -1324,28 +1345,28 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 31666 strings out of 494852
- 762988 string characters out of 6177656
- 957288 words of memory out of 5000000
- 34298 multiletter control sequences out of 15000+600000
- 13432 words of font info for 49 fonts, out of 8000000 for 9000
+ 31696 strings out of 494852
+ 763370 string characters out of 6177656
+ 956272 words of memory out of 5000000
+ 34315 multiletter control sequences out of 15000+600000
+ 14683 words of font info for 53 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  71i,13n,98p,1841b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy8.pfb>
-Output written on BhabhaEfficiency_MartinSobotzik.pdf (9 pages, 918477 bytes).
+ist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy8.pfb>
+Output written on BhabhaEfficiency_MartinSobotzik.pdf (13 pages, 1123437 bytes)
+.
 PDF statistics:
- 384 PDF objects out of 1000 (max. 8388607)
- 197 compressed objects within 2 object streams
- 19 named destinations out of 1000 (max. 500000)
- 83 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 407 PDF objects out of 1000 (max. 8388607)
+ 214 compressed objects within 3 object streams
+ 27 named destinations out of 1000 (max. 500000)
+ 88 words of extra memory for PDF output out of 10000 (max. 10000000)
 

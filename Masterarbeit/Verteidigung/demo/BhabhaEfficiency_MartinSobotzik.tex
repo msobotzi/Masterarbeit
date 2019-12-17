@@ -1,8 +1,8 @@
-\documentclass[10pt]{beamer}
+\documentclass[8pt]{beamer}
 
 \usetheme{metropolis}
 \usepackage{appendixnumberbeamer}
-
+\usepackage{xcolor}
 \usepackage{booktabs}
 \usepackage[scale=2]{ccicons}
 \usepackage{graphicx}
@@ -16,6 +16,7 @@
 \usepackage{appendixnumberbeamer}
 \usepackage{makeidx}
 \usepackage{verbatim}
+\usepackage{tikz}
 \definecolor{winered}{rgb}{0.5,0,0}
 \newcommand{\themename}{\textbf{\textsc{metropolis}}\xspace}
 
@@ -29,10 +30,10 @@
 
 
 
-\title{Bhabha Tracking Efficiencies}
+\title{Systematic Studies On Track Reconstruction Efficiency At Belle II}
 %\subtitle{A modern beamer theme}
-\date{09.08.2019}
-\author{Martin Sobotzik}
+\date{00.01.2020}
+\author{Martin Sobotzik (msobotzi@students.uni-mainz.de)}
 \institute{Johannes Gutenberg-Universit\"at Mainz}
 % \titlegraphic{\hfill\includegraphics[height=1.5cm]{logo.pdf}}
 
@@ -44,12 +45,80 @@
 %allcolors={winered} %Gives errors when turned on
 
 \begin{document}
-
 \maketitle
 %
 \setbeamertemplate{frame footer}{}
 
 %\section{Reproducing Plots}
+
+
+
+\begin{frame}{Outline}
+
+
+
+
+	\begin{itemize}
+		\item Overview on the Belle II experiment
+		\item Bhabha kinematics at Belle II
+		\item Preparation for calculating the tracking efficiency
+		\item Phase2 tracking efficiency
+		\item Phase3 tracking efficiency
+		\item Comparing phase2 with phase3
+		\item Conclusion
+		
+		
+	\end{itemize}
+\end{frame}
+
+
+
+\begin{frame}{Motivation}
+	\begin{itemize}
+		\item At an electron-positron accelerator most outgoing particles are again electrons and positrons (these events are called Bhabha events).
+		\item These events can be used to estimate the performance of the tracking detectors.
+		\item If the \textit{tag} particle in a Bhabha event has a track than the \textit{probe} particle also should have a track associated 
+		
+		$\rightarrow$ a tracking efficiency can be calculated
+	\end{itemize}
+\end{frame}
+
+
+
+\begin{frame}{Belle II Schedule And Luminosity Goals}
+	
+	\begin{textblock*}{5cm}(-0cm,-3cm)
+		\begin{center}	
+			\begin{itemize}
+				\item Phase1: accelerator commissioning and background estimation (completed in 2016)
+				\item Phase2: collision runs and background studies with partially installed detector (completed in 2018)
+				\item Phase3: data taking with the whole detector (started in April 2019)
+			\end{itemize}
+		\end{center}
+		
+	\end{textblock*}
+	
+	\begin{textblock*}{7cm}(4.8cm,-3cm)
+	\begin{figure}
+		\includegraphics[width=7.5cm]{VBilder/Lumen}
+	\end{figure}
+		
+	
+	\end{textblock*}
+	
+	
+	
+	
+\end{frame}
+
+
+\begin{frame}{The SuperKEKB $\textrm{e}^+\textrm{e}^-$ collider}
+	content...
+\end{frame}
+
+
+
+
 
 
 \begin{frame}{Motivation}
