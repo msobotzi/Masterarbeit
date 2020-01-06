@@ -1,1 +1,3 @@
 \beamer@sectionintoc {1}{Overview Of The Belle II Experiment}{4}{0}{1}
+\beamer@sectionintoc {2}{Bhabha Kinematics At Belle II}{13}{0}{2}
+\beamer@sectionintoc {3}{Preparation For Calculating The Tracking Efficiency}{15}{0}{3}
