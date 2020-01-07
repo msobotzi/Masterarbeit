@@ -262,7 +262,7 @@
 			\item The electric field is provided by 42240 field wires
 			\item Charged particles ionize the gas. 
 			
-			The signal is then read out by the sens wires  
+			The signal is then read out by the sense wires  
 			\item Acceptance: $17.0^{\circ} < \theta < 150.0^{\circ}$ 
 		\end{itemize}
 
@@ -314,38 +314,39 @@
 		\includegraphics[width=\textwidth]{VBilder/theta_lab}
 	\end{textblock*}
 
-	\begin{textblock*}{5.5cm}(0cm,0.cm)
+	\begin{textblock*}{5.5cm}(0cm,0.0cm)
 	
-	\includegraphics[width=\textwidth]{VBilder/theta_cms}
+	\includegraphics[width=\textwidth]{VBilder/ee}
 \end{textblock*}
 
 
-	\begin{textblock*}{5cm}(0cm,-3.cm)
+	\begin{textblock*}{5cm}(6cm,-3.cm)
 		\begin{itemize}
 			\item The beams have asymmetric energies
 			\item The beams are hitting each other under an angle of $1.26^{\circ}$
 		\end{itemize}
 	\end{textblock*}
 
-\begin{textblock*}{5.5cm}(6cm,-3.7cm)
+\begin{textblock*}{5.5cm}(-0.5cm,-3.7cm)
 	
-	\includegraphics[width=\textwidth]{VBilder/ee}
+	\includegraphics[width=\textwidth]{VBilder/finalCross}
 \end{textblock*}
 
 
 
 
+%\begin{textblock*}{2cm}(4.7cm,1.8cm)
 
-\begin{textblock*}{2cm}(4.7cm,1.8cm)
-
-	\begin{tikzpicture}
-		\draw[-{Triangle[width=18pt,length=8pt]}, line width=10pt](0,0) -- (1, 0);
-	\end{tikzpicture}
-	\centering
-	Boost
-\end{textblock*}
+%	\begin{tikzpicture}
+%		\draw[-{Triangle[width=18pt,length=8pt]}, line width=10pt](0,0) -- (1, 0);
+%	\end{tikzpicture}
+%	\centering
+%	Boost
+%\end{textblock*}
 	
 	
+
+
 \end{frame}
 
 
@@ -553,39 +554,49 @@
 \end{frame}
 
 
+\begin{frame}{More Events}
+	
+\end{frame}
+
 
 \begin{frame}{Dividing The ECL In Areas Of Interest}
-	\begin{textblock*}{5cm}(-0.3cm,-3cm)
-		As function of azimuthal angle $\phi$
+	
+	\begin{textblock*}{5cm}(-0.3cm,-3.7cm)
+		As function of azimuthal angle $\phi_{\textrm{pred,b2b}}$
+	\end{textblock*}
+	\pause[1]
+	\begin{textblock*}{5cm}(-0.3cm,-3.4cm)
 	\begin{table}[h!]
 		\centering
-		\begin{tabular}{lcc}
-			&$\textrm{e}^-$&\\
+		\begin{tabular}{lc}
+			&p($\textrm{e}^-$)\\
 			\hline
-			Forward End-Cap &$4\,\textrm{GeV} - 8\,\textrm{GeV}$&\\
-			Barrel &$4\,\textrm{GeV} - 7\,\textrm{GeV}$&\\
-			Backward End-Cap & /&\\	
+			Forward End-Cap & \pause[2]$4\,\textrm{GeV} - 8\,\textrm{GeV}$\\
+			\pause[1] Barrel &\pause[2] $4\,\textrm{GeV} - 7\,\textrm{GeV}$\\
+			\pause[1]Backward End-Cap &\pause[2] /\\	
 		\end{tabular}
 
 	\end{table}
 	
 	
 \end{textblock*}
-	
+	\pause[1]
 	
 	\begin{textblock*}{6.5cm}(5cm,-4cm)
-		\includegraphics[width=\textwidth]{VBilder/RTPMemD_MC}
+		\includegraphics[width=\textwidth]<1>{VBilder/em_1}
+		\includegraphics[width=\textwidth]<2>{VBilder/em_2}
+		\includegraphics[width=\textwidth]<3,4>{VBilder/RTPMemD_MC}
 	\end{textblock*}
 	
-	\pause[2]
+	\pause[5]
 	
-	\begin{textblock*}{5cm}(-0.3cm,-0.5cm)
+	\begin{textblock*}{5cm}(-0.3cm,-1.6cm)
 		
 		
 		\begin{table}[h!]
 			\centering
 			\begin{tabular}{lc}
-				&$\textrm{e}^+$\\
+				&p($\textrm{e}^+$)\\
 				\hline
 				Forward End-Cap &/\\
 				Barrel &$3\,\textrm{GeV} - 7\,\textrm{GeV}$\\
@@ -602,195 +613,28 @@
 	\end{textblock*}
 	
 	
-	\pause[1]
+	\pause[4]
 	
-	\begin{textblock*}{5cm}(-0.3cm,2cm)
-	As function of polar angle $\theta$
+	\begin{textblock*}{5cm}(-0.3cm,1.5cm)
+	As function of polar angle $\theta_{\textrm{pred,b2b}}$
+\end{textblock*}
+\begin{textblock*}{5cm}(-0.3cm,1.5cm)
 	\begin{table}[h!]
 		\centering
 		\begin{tabular}{lc}
-			&Momentum\\
+			&p\\
 			\hline
 			$\textrm{e}^-$& $4\,\textrm{GeV} - 9\,\textrm{GeV}$\\	
-			\pause[2]
+			\pause[5]
 			$\textrm{e}^+$& $2\,\textrm{GeV} - 7\,\textrm{GeV}$\\	
 		\end{tabular}
 		
 	\end{table}
 \end{textblock*}
-\end{frame}
 
 
 
 
-
-
-
-
-
-
-
-\begin{frame}{Motivation}
-
-\begin{itemize}	
-	\item I am performing an analysis to estimate the tracking efficiency on phase 2 data
-	\item The process I am considering is Bhabha events $\textrm{e}^+ \textrm{+e}^- \rightarrow \textrm{e}^+ \textrm{+e}^- $ 
-	\item The definition of efficiency I am going to use is:
-
-\end{itemize}
-	\begin{equation*}
-		\epsilon = \frac{\textrm{Number of Bhabha events with exactly 2 tracks}}{\textrm{Number of Bhabha events with 1 or more tracks}}
-	\end{equation*}
-	
-	\begin{itemize}
-		\item After selecting Bhabha events where at least one of the tracks was detected, one can look how many times the second one is found
-		\item  This idea comes from some plots presented by Sam Cunliffe in previous  \href{https://confluence.desy.de/display/BI/ECL+Meetings?preview=/84320165/109161400/SCunliffe181123-ECL.pdf}{tracking and ECL} meetings.
-	\end{itemize}
-
-
-
-
-
-\end{frame}
-	
-	
-\begin{frame}{Best Candidate Selection}
-	
-	\begin{textblock*}{\textwidth}(0cm,-4cm)
-		\begin{center}	
-			$\textrm{vpho} \rightarrow \textrm{ECL-Object(HclE)} + \textrm{ECL-Object(LclE)}$	
-		\end{center}
-
-	\end{textblock*}
-	
-	\begin{textblock*}{\textwidth}(0cm,-3.05cm)
-		\scriptsize{		HcLE: particle with the higher cluster Energy; 	
-		LclE: particle with the lower cluster Energy
-}		
-	\end{textblock*}
-
-	
-	
-	
-	\begin{textblock*}{1.2\textwidth}(-0.7cm,-2.8cm)
-		
-
-	
-	
-	\begin{itemize}
-		
-		\item $0.296706 < \theta_{\textrm{ECL Object}} < 2.61799 \rightarrow$ It has to hit the ECL
-		\item Exactly two clusters with at least $3.5\,\textrm{GeV}$ per event and one cluster has to have at least $4.5\,\textrm{GeV}$
-		\item $8\,\textrm{GeV} < \textrm{M}_{\textrm{vpho}} < 12\,\textrm{GeV}$
-		\item $\textrm{nTracks} < 7$ 
-		\item $\textrm{Total Energy in the ECL} < 15\,\textrm{GeV}$
-						
-		\end{itemize}
-
-	\end{textblock*}
-
-
-\begin{textblock*}{0.5\textwidth}(0cm,1cm)
-	\includegraphics[width=4.5cm]{Plots/nCandMC}
-\end{textblock*}
-
-
-	
-\begin{textblock*}{0.5\textwidth}(6cm,1cm)
-	\includegraphics[width=4.5cm]{Plots/nCandData}
-\end{textblock*}
-	
-	
-\begin{textblock*}{0.5\textwidth}(1cm,1cm)
-	\footnotesize
-	\textcolor{red}{1 MC $\textrm{ee} \rightarrow \textrm{ee}$ File}
-\end{textblock*}	
-	
-\begin{textblock*}{0.5\textwidth}(6.35cm,0.5cm)
-	\footnotesize
-	\textcolor{blue}{Phase 2 data}
-	
-	\textcolor{blue}{r02608/all/mdst/sub00/*.root}
-\end{textblock*}	
-
-	
-	
-	
-\end{frame}
-
-
-\begin{frame}{Bhabha Event Selection}
-
-	\begin{figure}
-		\centering
-		\includegraphics<1>[width=\textwidth]{Plots/b2b_2}
-	\end{figure}
-	
-\end{frame}
-	
-	
-\begin{frame}{Bhabha Event Selection (Phase 2 data)}
-	
-	\begin{textblock*}{0.5\textwidth}(0cm,-3cm)
-		\centering
-		\includegraphics[width=4.5cm]{Plots/b2b_2}
-	\end{textblock*}
-	
-	\begin{textblock*}{0.5\textwidth}(6cm,-3cm)
-		\centering
-		\includegraphics[width=4.5cm]{Plots/b2b_3}
-	\end{textblock*}
-	
-	
-	\begin{textblock*}{1\textwidth}(0cm,0.5cm)
-		\centering
-		\includegraphics[width=\textwidth]{Plots/Eff/b2b_Data.pdf}
-	\end{textblock*}
-	
-	
-	
-	
-
-		\begin{textblock*}{0.3\textwidth}(4.cm,0cm)
-		\textcolor{blue}{Phase 2 data}		
-		\textcolor{blue}{r02608}
-	\end{textblock*}
-	
-
-	
-	
-	
-	
-	
-\end{frame}
-	
-\begin{frame}{Bhabha Event Selection (MC)}	
-	
-		\begin{textblock*}{0.5\textwidth}(0cm,-3cm)
-		\centering
-		\includegraphics[width=4.5cm]{Plots/b2b_2}
-	\end{textblock*}
-	
-	\begin{textblock*}{0.5\textwidth}(6cm,-3cm)
-		\centering
-		\includegraphics[width=4.5cm]{Plots/b2b_3}
-	\end{textblock*}
-	
-
-		\begin{textblock*}{1\textwidth}(0cm,0.5cm)
-		\centering
-		\includegraphics[width=\textwidth]{Plots/Eff/b2b_MC.pdf}
-	\end{textblock*}
-
-
-
-
-
-
-
-	\begin{textblock*}{0.3\textwidth}(4.4cm,0cm)
-		\textcolor{red}{MC: $\textrm{ee} \rightarrow \textrm{ee}$}
-	\end{textblock*}
 
 
 
@@ -800,92 +644,439 @@
 
 
 
-\begin{frame}{More Events}
-	\textcolor{red}{MC}:
-	\begin{itemize}
+\section{Phase2 Tracking Efficiencies}
+
+
+\begin{frame}{Phase2 Tracking Efficiencies As Function Of $\theta_{\textrm{pred,b2b}}-\phi_{\textrm{pred,b2b}}$}
 	
-		\item /belle/MC/release-02-00-01/DB00000411/MC11/prod00006731/
-		s00/e1002/4S/r00000/3600520000/mdst/sub00
-		\item $ 5272146$ candidates selected
-	\end{itemize}
-	\textcolor{blue}{Phase 2 data}:
-	\begin{itemize}
-		\item /ghi/fs01/belle2/bdata//Data/release-03-00-03/
-		DB00000528/proc00000008/e0003/4S/r02*/all/mdst/sub00/*.root
-		\item proc8
-		\item $3669759$ candidates selected 
-	\end{itemize}
-
-\end{frame}
-
-
-
-
-
-
-
-
-
-\begin{frame}{Compare MC And Phase 2 data Efficiency}
-	\begin{figure}
-		\centering
-		\includegraphics[width=\textwidth]{Plots/Eff/TPMCData}
-	\end{figure}
-
-	\begin{textblock*}{0.3\textwidth}(-0.5cm,-5cm)
-	$\textrm{e}^-$
-\end{textblock*}
-\begin{textblock*}{0.3\textwidth}(-0.5cm,-2cm)
-	$\textrm{e}^+$
-\end{textblock*}
-
-
-\begin{textblock*}{0.3\textwidth}(1.65cm,-6.7cm)
-	\textcolor{blue}{Phase 2 data}
-\end{textblock*}
-
-
-\begin{textblock*}{0.3\textwidth}(7.87cm,-6.7cm)
-	\textcolor{red}{MC}
-\end{textblock*}
-
-
-
-\end{frame}
-
-\begin{frame}{Theta And Phi Projection}
-	\begin{figure}
-		\centering
-		\includegraphics[width=\textwidth]{Plots/Eff/MCDataEff}
-	\end{figure}
-
-	\begin{textblock*}{0.3\textwidth}(-0.5cm,-5cm)
+	
+	
+	\begin{textblock*}{9cm}(1cm,-4cm)
+		\includegraphics[width=\textwidth]{VPlots/P2/xCEffTP_MCData}
+	\end{textblock*}
+	
+	\begin{textblock*}{2cm}(0cm,-2cm)
 		$\textrm{e}^-$
 	\end{textblock*}
-	\begin{textblock*}{0.3\textwidth}(-0.5cm,-2cm)
+	
+		\begin{textblock*}{2cm}(0cm,2.3cm)
+		$\textrm{e}^+$
+	\end{textblock*}
+
+	
+\begin{textblock*}{2cm}(2.8cm,-3.9cm)
+	MC
+\end{textblock*}
+
+\begin{textblock*}{2cm}(7.2cm,-3.9cm)
+	Data
+\end{textblock*}
+
+\end{frame}
+
+
+
+\begin{frame}{Phase2 Tracking Efficiencies As Function Of $\phi_{\textrm{pred,b2b}}$; Forward End-Cap}
+	
+	
+	\begin{textblock*}{6.5cm}(-0.9cm,-3cm)
+		\includegraphics[width=\textwidth]{VPlots/P2/xPMPhiemFC}
+	\end{textblock*}
+	
+	\begin{textblock*}{2cm}(2.3cm,-3.5cm)
+		$\textrm{e}^-$
+	\end{textblock*}
+	
+	\begin{textblock*}{2cm}(8.7cm,-3.5cm)
 		$\textrm{e}^+$
 	\end{textblock*}
 
 
-	\begin{textblock*}{0.3\textwidth}(2.5cm,-6.7cm)
-		$\Phi$
+\begin{textblock*}{11cm}(5.5cm,-4.3cm)
+	
+	\begin{center}
+		\line(0,1){256}
+	\end{center}
+	
+\end{textblock*}
+
+
+\begin{textblock*}{6.5cm}(6cm,-2.5cm)
+	
+\setlength{\unitlength}{5cm}
+\begin{picture}(1,1)
+\put(0,0){\line(1,1){1}}
+
+\end{picture}
+
+\end{textblock*}
+
+
+
+\begin{textblock*}{4cm}(-0.5cm,-3.7cm)
+	\textcolor{OliveGreen}{Phase2 MC10}
+	
+	\textcolor{brown}{Phase2 Data}
+\end{textblock*}
+
+
+
+
+
+
+
+
+\end{frame}
+
+\begin{frame}{Phase2 Tracking Efficiencies As Function Of $\phi_{\textrm{pred,b2b}}$; Barrel}
+	
+	
+	\begin{textblock*}{6.5cm}(-0.9cm,-3cm)
+		\includegraphics[width=\textwidth]{VPlots/P2/xPMPhiemBarrel}
+	\end{textblock*}
+	
+		\begin{textblock*}{6.5cm}(5.5cm,-3cm)
+		\includegraphics[width=\textwidth]{VPlots/P2/xPMPhiepBarrel}
+	\end{textblock*}
+	
+	
+	\begin{textblock*}{2cm}(2.3cm,-3.5cm)
+		$\textrm{e}^-$
+	\end{textblock*}
+	
+	\begin{textblock*}{2cm}(8.7cm,-3.5cm)
+		$\textrm{e}^+$
 	\end{textblock*}
 
 
-	\begin{textblock*}{0.3\textwidth}(7.87cm,-6.7cm)
-	$\Theta$
+
+\begin{textblock*}{11cm}(5.5cm,-4.3cm)
+
+	\begin{center}
+		\line(0,1){256}
+	\end{center}
+
 \end{textblock*}
 
 
-\begin{textblock*}{0.5\textwidth}(1cm,-5cm)
-	\textcolor{blue}{Phase 2 data}
+
+\begin{textblock*}{4cm}(-0.5cm,-3.7cm)
+	\textcolor{OliveGreen}{Phase2 MC10}
 	
-	\textcolor{red}{MC}
-	
-	
+	\textcolor{brown}{Phase2 Data}
 \end{textblock*}
+
+
+
+
+\end{frame}
+
+
+
+\begin{frame}{Phase2 Tracking Efficiencies As Function Of $\phi_{\textrm{pred,b2b}}$; Backward End-Cap}
+	
+	
+	\begin{textblock*}{6.5cm}(5.5cm,-3cm)
+		\includegraphics[width=\textwidth]{VPlots/P2/xPMPhiepEC}
+	\end{textblock*}
+	
+	\begin{textblock*}{2cm}(2.3cm,-3.5cm)
+		$\textrm{e}^-$
+	\end{textblock*}
+	
+	\begin{textblock*}{2cm}(8.7cm,-3.5cm)
+		$\textrm{e}^+$
+	\end{textblock*}
+	
+	
+	\begin{textblock*}{11cm}(5.5cm,-4.3cm)
+		
+		\begin{center}
+			\line(0,1){256}
+		\end{center}
+		
+	\end{textblock*}
+	
+	
+	\begin{textblock*}{6.5cm}(-0.2cm,-2.5cm)
+		
+		\setlength{\unitlength}{5cm}
+		\begin{picture}(1,1)
+		\put(0,0){\line(1,1){1}}
+		
+		\end{picture}
+		
+	\end{textblock*}
+	
+	\begin{textblock*}{4cm}(-0.5cm,-3.7cm)
+		\textcolor{OliveGreen}{Phase2 MC10}
+		
+		\textcolor{brown}{Phase2 Data}
+	\end{textblock*}
 	
 \end{frame}
+
+
+\begin{frame}{Phase2 Tracking Efficiencies As Function Of $\theta_{\textrm{pred,b2b}}$}
+	
+	
+	\begin{textblock*}{6.5cm}(-0.9cm,-3cm)
+		\includegraphics[width=\textwidth]{VPlots/P2/xPMThetaem}
+	\end{textblock*}
+	
+	\begin{textblock*}{6.5cm}(5.5cm,-3cm)
+		\includegraphics[width=\textwidth]{VPlots/P2/xPMThetaep}
+	\end{textblock*}
+	
+	
+	\begin{textblock*}{2cm}(2.3cm,-3.5cm)
+		$\textrm{e}^-$
+	\end{textblock*}
+	
+	\begin{textblock*}{2cm}(8.7cm,-3.5cm)
+		$\textrm{e}^+$
+	\end{textblock*}
+	
+	
+	
+	\begin{textblock*}{11cm}(5.5cm,-4.3cm)
+		
+		\begin{center}
+			\line(0,1){256}
+		\end{center}
+		
+	\end{textblock*}
+	
+	\begin{textblock*}{4cm}(-0.5cm,-3.7cm)
+		\textcolor{OliveGreen}{Phase2 MC10}
+		
+		\textcolor{brown}{Phase2 Data}
+	\end{textblock*}
+	
+	
+	
+	
+\end{frame}
+
+
+\section{Phase3 Tracking Efficiencies}
+
+\begin{frame}{Phase3 Tracking Efficiencies As Function Of $\theta_{\textrm{pred,b2b}}-\phi_{\textrm{pred,b2b}}$}
+	
+	
+	
+	\begin{textblock*}{9cm}(1cm,-4cm)
+		\includegraphics[width=\textwidth]{VPlots/P3/xCEffTP_MCDataP3}
+	\end{textblock*}
+	
+	\begin{textblock*}{2cm}(0cm,-2cm)
+		$\textrm{e}^-$
+	\end{textblock*}
+	
+	\begin{textblock*}{2cm}(0cm,2.3cm)
+		$\textrm{e}^+$
+	\end{textblock*}
+	
+	
+	\begin{textblock*}{2cm}(2.8cm,-3.9cm)
+		MC
+	\end{textblock*}
+	
+	\begin{textblock*}{2cm}(7.2cm,-3.9cm)
+		Data
+	\end{textblock*}
+	
+\end{frame}
+
+
+
+\begin{frame}{Phase3 Tracking Efficiencies As Function Of $\phi_{\textrm{pred,b2b}}$; Forward End-Cap}
+	
+	
+	\begin{textblock*}{6.5cm}(-0.9cm,-3cm)
+		\includegraphics[width=\textwidth]{VPlots/P3/xPMPhiemFCP3}
+	\end{textblock*}
+	
+	\begin{textblock*}{2cm}(2.3cm,-3.5cm)
+		$\textrm{e}^-$
+	\end{textblock*}
+	
+	\begin{textblock*}{2cm}(8.7cm,-3.5cm)
+		$\textrm{e}^+$
+	\end{textblock*}
+	
+	
+	\begin{textblock*}{11cm}(5.5cm,-4.3cm)
+		
+		\begin{center}
+			\line(0,1){256}
+		\end{center}
+		
+	\end{textblock*}
+	
+	
+	\begin{textblock*}{6.5cm}(6cm,-2.5cm)
+		
+		\setlength{\unitlength}{5cm}
+		\begin{picture}(1,1)
+		\put(0,0){\line(1,1){1}}
+		
+		\end{picture}
+		
+	\end{textblock*}
+	
+	
+	
+	\begin{textblock*}{4cm}(-0.5cm,-3.7cm)
+		\textcolor{red}{Phase3 MC10}
+		
+		\textcolor{blue}{Phase3 Data}
+	\end{textblock*}
+	
+	
+	
+	
+	
+	
+	
+	
+\end{frame}
+
+\begin{frame}{Phase3 Tracking Efficiencies As Function Of $\phi_{\textrm{pred,b2b}}$; Barrel}
+	
+	
+	\begin{textblock*}{6.5cm}(-0.9cm,-3cm)
+		\includegraphics[width=\textwidth]{VPlots/P3/xPMPhiemBarrelP3}
+	\end{textblock*}
+	
+	\begin{textblock*}{6.5cm}(5.5cm,-3cm)
+		\includegraphics[width=\textwidth]{VPlots/P3/xPMPhiepBarrelP3}
+	\end{textblock*}
+	
+	
+	\begin{textblock*}{2cm}(2.3cm,-3.5cm)
+		$\textrm{e}^-$
+	\end{textblock*}
+	
+	\begin{textblock*}{2cm}(8.7cm,-3.5cm)
+		$\textrm{e}^+$
+	\end{textblock*}
+	
+	
+	
+	\begin{textblock*}{11cm}(5.5cm,-4.3cm)
+		
+		\begin{center}
+			\line(0,1){256}
+		\end{center}
+		
+	\end{textblock*}
+	
+	
+	
+	\begin{textblock*}{4cm}(-0.5cm,-3.7cm)
+		\textcolor{red}{Phase3 MC10}
+		
+		\textcolor{blue}{Phase3 Data}
+	\end{textblock*}
+	
+	
+	
+	
+\end{frame}
+
+
+
+\begin{frame}{Phase3 Tracking Efficiencies As Function Of $\phi_{\textrm{pred,b2b}}$; Backward End-Cap}
+	
+	
+	\begin{textblock*}{6.5cm}(5.5cm,-3cm)
+		\includegraphics[width=\textwidth]{VPlots/P3/xPMPhiepECP3}
+	\end{textblock*}
+	
+	\begin{textblock*}{2cm}(2.3cm,-3.5cm)
+		$\textrm{e}^-$
+	\end{textblock*}
+	
+	\begin{textblock*}{2cm}(8.7cm,-3.5cm)
+		$\textrm{e}^+$
+	\end{textblock*}
+	
+	
+	\begin{textblock*}{11cm}(5.5cm,-4.3cm)
+		
+		\begin{center}
+			\line(0,1){256}
+		\end{center}
+		
+	\end{textblock*}
+	
+	
+	\begin{textblock*}{6.5cm}(-0.2cm,-2.5cm)
+		
+		\setlength{\unitlength}{5cm}
+		\begin{picture}(1,1)
+		\put(0,0){\line(1,1){1}}
+		
+		\end{picture}
+		
+	\end{textblock*}
+	
+	\begin{textblock*}{4cm}(-0.5cm,-3.7cm)
+		\textcolor{red}{Phase3 MC10}
+		
+		\textcolor{blue}{Phase3 Data}
+	\end{textblock*}
+	
+\end{frame}
+
+
+\begin{frame}{Phase3 Tracking Efficiencies As Function Of $\theta_{\textrm{pred,b2b}}$}
+	
+	
+	\begin{textblock*}{6.5cm}(-0.9cm,-3cm)
+		\includegraphics[width=\textwidth]{VPlots/P3/xPMThetaemP3}
+	\end{textblock*}
+	
+	\begin{textblock*}{6.5cm}(5.5cm,-3cm)
+		\includegraphics[width=\textwidth]{VPlots/P3/xPMThetaepP3}
+	\end{textblock*}
+	
+	
+	\begin{textblock*}{2cm}(2.3cm,-3.5cm)
+		$\textrm{e}^-$
+	\end{textblock*}
+	
+	\begin{textblock*}{2cm}(8.7cm,-3.5cm)
+		$\textrm{e}^+$
+	\end{textblock*}
+	
+	
+	
+	\begin{textblock*}{11cm}(5.5cm,-4.3cm)
+		
+		\begin{center}
+			\line(0,1){256}
+		\end{center}
+		
+	\end{textblock*}
+	
+	\begin{textblock*}{4cm}(-0.5cm,-3.7cm)
+		\textcolor{red}{Phase3 MC10}
+		
+		\textcolor{blue}{Phase3 Data}
+	\end{textblock*}
+	
+	
+	
+	
+\end{frame}
+
+
+
+
+%--------------------------------------------
+
 
 
 
