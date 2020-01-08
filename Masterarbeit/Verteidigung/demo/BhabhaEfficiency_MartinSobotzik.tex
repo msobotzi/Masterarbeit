@@ -17,8 +17,12 @@
 \usepackage{makeidx}
 \usepackage{verbatim}
 \usepackage{tikz}
-\usepackage{xcolor}
+\usepackage{lipsum}
 
+\usepackage[most]{tcolorbox}
+
+\tcbuselibrary{skins}
+\usepackage{xcolor}
 \usepackage{listings}
 \usepackage{tikz}
 \usetikzlibrary{arrows.meta}
@@ -44,8 +48,9 @@
 }
 
 \definecolor{OliveGreen}{rgb}{0,0.5,0}
-
-
+\tcbuselibrary{xparse}
+\DeclareTColorBox{mybox}{ s }{colframe=winered!75!black,
+	IfBooleanTF={#1}{colback=yellow!50!red}{colback=winered!5!white}}
 
 \title{Systematic Studies On Track Reconstruction Efficiency At Belle II}
 %\subtitle{A modern beamer theme}
@@ -57,6 +62,9 @@
 \definecolor{darkblue}{rgb}{0,0,.5}
 \hypersetup{pdftex=true, colorlinks=true, breaklinks=true, linkcolor=darkblue, menucolor=darkblue, pagecolor=darkblue, urlcolor=darkblue}
 
+\newenvironment{Newbox}[1]
+{\tcolorbox[noparskip,colback=red!5!white,colframe=green!45!black,arc=1mm,title=#1,halign title = center]}
+{\endtcolorbox}
 
 %citecolor={winered} %Gives errors when turned on
 %allcolors={winered} %Gives errors when turned on
@@ -68,7 +76,9 @@
 
 %\section{Reproducing Plots}
 
-
+\newcommand{\boundellipse}[3]% center, xdim, ydim
+{(#1) ellipse (#2 and #3)
+}
 
 \begin{frame}{Outline}
 
@@ -311,19 +321,19 @@
 	
 	\begin{textblock*}{5.5cm}(6cm,0.cm)
 		
-		\includegraphics[width=\textwidth]{VBilder/theta_lab}
+		\includegraphics[width=\textwidth]<2>{VBilder/theta_lab}
 	\end{textblock*}
 
 	\begin{textblock*}{5.5cm}(0cm,0.0cm)
 	
-	\includegraphics[width=\textwidth]{VBilder/ee}
+	\includegraphics[width=\textwidth]<2>{VBilder/ee}
 \end{textblock*}
 
 
 	\begin{textblock*}{5cm}(6cm,-3.cm)
 		\begin{itemize}
-			\item The beams have asymmetric energies
-			\item The beams are hitting each other under an angle of $1.26^{\circ}$
+			\item<2> The beams have asymmetric energies
+			\item<2> The beams are hitting each other under an angle of $1.26^{\circ}$
 		\end{itemize}
 	\end{textblock*}
 
@@ -356,21 +366,11 @@
 \section{Preparation For Calculating The Tracking Efficiency}
 
 
-\begin{frame}{Reconstruction Bhabha Events With Basf2}
+\begin{frame}{Reconstruction Bhabha Events}
 
-\lstset{language=Python}
-\lstset{label={lst:code_direct}}
-\lstset{basicstyle=\scriptsize}
-
-\begin{textblock*}{\textwidth}(-0cm,-3.7cm)
-
-\lstinputlisting[language=Python]{mesh.py}
-
-
-\end{textblock*}
 
 \begin{textblock*}{11cm}(0cm,0cm)
-			
+		\only<2>{	
 \begin{figure}[h!]
 	\centering
 	\begin{minipage}[b]{0.45\linewidth}
@@ -384,10 +384,10 @@
 	\end{minipage}
 	
 \end{figure}
-
+}
 
 \end{textblock*}
-
+\only<2>{
 \begin{textblock*}{11cm}(0cm,0.3cm)
 	\centering
 	Single phase2 MC10 Bhabha file
@@ -400,6 +400,43 @@
 \begin{textblock*}{4cm}(7.8cm,1.3cm)
 	417899 Candidates
 \end{textblock*}
+}
+
+
+
+
+
+
+
+
+\begin{textblock*}{11cm}(0cm,-3.5cm)
+	\begin{center}
+		
+		Goal: Reconstruct Bhabha events using only ECL information
+		
+		vpho $\rightarrow$ ECL-Object(HclE) + ECL-Object(LclE)
+
+
+	\end{center}
+
+
+
+	\begin{itemize}
+		\item[]
+		\item The particle have to pass the tracking detectors
+		\centering
+		\item[] $\rightarrow$ $17.0^{\circ} < \theta_{\textrm{ECL-Object}} < 150.0^{\circ}$
+	\end{itemize}	
+\end{textblock*}
+
+
+\begin{textblock*}{11cm}(0cm,-2.4cm)
+	\begin{center}
+		\footnotesize{HclE: particle with higher cluster Energy; LclE: particle with lower cluster Energy}
+	\end{center}
+\end{textblock*}
+
+
 
 
 
@@ -407,25 +444,26 @@
 
 
 \begin{frame}{Introducing Cuts}
-	\begin{textblock*}{11cm}(0cm,-3.7cm)
+	\begin{textblock*}{11cm}(0cm,-1.7cm)
 	\begin{itemize}
-		\item $8\,\textrm{GeV} < \textrm{M} < 12\,\textrm{GeV}$
-		\item Exactly 2 clusters with at least $3.5\,\textrm{GeV}$ per event and one cluster has to have at least $4.5\,\textrm{GeV}$
-		\item Number of reconstructed tracks per event $< 7$
-		\item Total energy in the ECL $< 15\,\textrm{GeV}$
+		\item<3-> $8\,\textrm{GeV} < \textrm{M}_{\textrm{vpho}} < 12\,\textrm{GeV}$
+		\item<3-> 2 clusters with at least $3.5\,\textrm{GeV}$ per event; One cluster has to have at least $4.5\,\textrm{GeV}$
+		\item<3-> Number of reconstructed tracks per event $< 7$
+		\item<3-> Total energy in the ECL $< 15\,\textrm{GeV}$
 	\end{itemize}
 
 \end{textblock*}
 
-\begin{textblock*}{11cm}(0cm,0cm)
+\begin{textblock*}{11cm}(0cm,0.5cm)
 \begin{figure}[h!]
 	\centering
+	\pause[4]
 	\begin{minipage}[b]{0.45\linewidth}
 		\centering
 		\includegraphics[width=\textwidth]{VBilder/nCandNoMCInfo.pdf}
 	\end{minipage}
 	\hspace{0.5cm}
-	\pause[2]
+	\pause[5]
 	\begin{minipage}[b]{0.45\linewidth}
 		\centering
 		\includegraphics[width=\textwidth]{VBilder/nCandData.pdf}
@@ -434,44 +472,102 @@
 \end{figure}
 
 \end{textblock*}
-\pause[1]
+\pause[4]
 
-\begin{textblock*}{5cm}(0.1cm,0.3cm)
+\begin{textblock*}{5cm}(0.1cm,0.8cm)
 	\centering
 	Single phase2 MC10 Bhabha file
 \end{textblock*}
 
 
-\begin{textblock*}{4cm}(2.8cm,1.3cm)
+\begin{textblock*}{4cm}(2.8cm,1.8cm)
 	14581 Events
 \end{textblock*}
-\pause[2]
+\pause[5]
 
-\begin{textblock*}{4cm}(8.5cm,1.3cm)
+\begin{textblock*}{4cm}(8.5cm,1.8cm)
 	41853 Events
 \end{textblock*}
 
 
-\begin{textblock*}{4cm}(7.cm,0.3cm)
+\begin{textblock*}{4cm}(7.cm,0.8cm)
 	Single phase2 data file
 \end{textblock*}
 
 
-\pause[3]
+\pause[6]
 
-\begin{textblock*}{5cm}(3.2cm,-0.5cm)
-\begin{tikzpicture}[node distance=3cm]
 
-% nodes
-\node (A) at (3, 0) {};
-\node (B) at (1, 2) {Also contains $\textrm{ee}\rightarrow\gamma \gamma$ events};
-\draw[<-, to path={-| (\tikztotarget)}]
-(A) edge (B);
 
-\end{tikzpicture}
+\pause[1]
 
+
+
+
+		
+
+
+	
+\begin{textblock*}{11cm}(0cm,-3.7cm)
+				Goal: Reconstruct Bhabha events using only ECL information
+
+	\end{textblock*}
+\begin{textblock*}{11cm}(0cm,-3.7cm)	
+	\begin{center}
+		
+		vpho-Bhabha $\rightarrow$ ECL-Object(HclE) + ECL-Object(LclE)		
+	\end{center}
+\end{textblock*}
+\pause[2]
+	\begin{textblock*}{11cm}(0cm,-3cm)
+	
+	\begin{itemize}
+		\item[]
+		\item The particles have to pass the tracking detectors
+		\item[] $\rightarrow$ $17.0^{\circ} < \theta_{\textrm{ECL-Object}} < 150.0^{\circ}$
+
+	\end{itemize}	
+\end{textblock*}
+
+
+\pause[1]
+\begin{textblock*}{11cm}(0cm,-3.3cm)
+	\begin{center}
+		\footnotesize{HclE: particle with higher cluster Energy; LclE: particle with lower cluster Energy}
+	\end{center}
+\end{textblock*}
+
+\pause[6]
+\begin{textblock*}{5cm}(3.2cm,0cm)
+	\begin{tikzpicture}[node distance=3cm]
+	
+	% nodes
+	\node (A) at (3, 0) {};
+	\node (B) at (1, 2) {\textcolor{white}{Also contains $\textrm{ee}\rightarrow\gamma \gamma$ events}};
+	\draw[<-, to path={-| (\tikztotarget)}]
+	(A) edge (B);
+	
+	\end{tikzpicture}
+	
 
 \end{textblock*}
+
+\pause[6]
+
+
+
+
+\begin{textblock*}{5cm}(3.2cm,-0.4cm)
+	
+\begin{mybox}
+Also contains $\textrm{ee}\rightarrow\gamma \gamma$ events	
+\end{mybox}
+
+\end{textblock*}
+
+
+
+
 \end{frame}
 
 
@@ -554,9 +650,7 @@
 \end{frame}
 
 
-\begin{frame}{More Events}
-	
-\end{frame}
+
 
 
 \begin{frame}{Dividing The ECL In Areas Of Interest}
@@ -672,6 +766,71 @@
 	Data
 \end{textblock*}
 
+
+
+
+\begin{textblock*}{9cm}(1.8cm,-4cm)
+	\begin{tikzpicture}
+	\only<2>{
+	\draw[line width=0.5mm,winered] \boundellipse{2cm,0cm}{0.2cm}{2cm};
+	}
+	\end{tikzpicture}
+\end{textblock*}
+
+\begin{textblock*}{9cm}(6.3cm,-4cm)
+	\begin{tikzpicture}
+	\only<2>{	
+	\draw[line width=0.5mm,winered] \boundellipse{2cm,0cm}{0.2cm}{2cm};
+}
+	\end{tikzpicture}
+\end{textblock*}
+
+
+\begin{textblock*}{8cm}(1.5cm,1cm)
+\only<2>{
+	
+\begin{mybox}
+	The tracking efficiency drops noticeably for phase2 data in contrast to phase2 MC
+\end{mybox}
+
+}
+
+\end{textblock*}
+
+
+\begin{textblock*}{9cm}(3.6cm,0.5cm)
+	\begin{tikzpicture}
+	\only<3>{
+		\draw[line width=0.5mm,winered] \boundellipse{2cm,0cm}{0.2cm}{2cm};
+	}
+	\end{tikzpicture}
+\end{textblock*}
+
+\begin{textblock*}{9cm}(8.1cm,0.5cm)
+	\begin{tikzpicture}
+	\only<3>{	
+		\draw[line width=0.5mm,winered] \boundellipse{2cm,0cm}{0.2cm}{2cm};
+	}
+	\end{tikzpicture}
+\end{textblock*}
+
+
+\begin{textblock*}{8cm}(1.5cm,-2cm)
+	\only<3>{
+		
+		\begin{mybox}
+			The tracking efficiency drops more sharp on phase2 MC.
+			
+			Also there is something like a \textit{horn} structure on phase2 data
+		\end{mybox}
+		
+	}
+
+\end{textblock*}
+
+
+
+
 \end{frame}
 
 
@@ -720,7 +879,38 @@
 \end{textblock*}
 
 
+\pause[2]
 
+\begin{textblock*}{6cm}(5.6cm,-3.5cm)
+	\begin{mybox}
+		Electron Tracking Efficiency:
+		\begin{itemize}
+			
+		\item Phase2 MC has almost always a higher tracking efficiency compared to phase2 data
+		\item For most momenta the biggest difference between phase2 MC and phase2 data occurs for $|\phi_{\textrm{pred,b2b}}| \gtrsim 2$
+		
+		\item<3,4> There is no similarity in the structure for momenta between $6\,\textrm{GeV}$ and $7\,\textrm{GeV}$
+		\item<4> Highest tracking efficiency occurs for momenta between $7\,\textrm{GeV}$ and $8\,\textrm{GeV}$. But there is also an efficiency drop at $\phi_{\textrm{pred,b2b}} \gtrsim 0$
+	\end{itemize}
+	\end{mybox}
+\end{textblock*}
+\pause[3]
+\begin{textblock*}{5cm}(-1.2cm,-0.cm)
+	\begin{tikzpicture}
+	\only<3>{
+	\draw[line width=0.5mm,winered] \boundellipse{2cm,0cm}{2.cm}{2.cm};
+	}
+	\end{tikzpicture}
+\end{textblock*}
+
+\pause[4]
+\begin{textblock*}{5cm}(3.3cm,.3cm)
+	\begin{tikzpicture}
+	\only[4]{
+		\draw[line width=0.5mm,winered] \boundellipse{2cm,0cm}{.8cm}{.5cm};
+	}
+	\end{tikzpicture}
+\end{textblock*}
 
 
 
@@ -765,6 +955,67 @@
 	
 	\textcolor{brown}{Phase2 Data}
 \end{textblock*}
+
+
+
+
+\begin{textblock*}{5cm}(0.65cm,0.4cm)
+	\begin{tikzpicture}
+	\only<2,3>
+	{
+	\draw[line width=0.5mm,winered] \boundellipse{2cm,0cm}{0.3cm}{.3cm};
+	}
+	\end{tikzpicture}
+\end{textblock*}
+
+\begin{textblock*}{5cm}(0.65cm,-3cm)
+	\begin{tikzpicture}
+	\only<2>
+	{
+	\draw[line width=0.5mm,winered] \boundellipse{2cm,0cm}{0.3cm}{1.5cm};
+	}
+	\end{tikzpicture}
+\end{textblock*}
+
+\begin{textblock*}{5cm}(3.9cm,-3cm)
+	\begin{tikzpicture}
+	\only<2>{
+	\draw[line width=0.5mm,winered] \boundellipse{2cm,0cm}{0.3cm}{1.cm};
+	}
+	\end{tikzpicture}
+\end{textblock*}
+
+
+\begin{textblock*}{6cm}(5.6cm,-3.5cm)
+	\only<2,3>{
+	\begin{mybox}
+		Electron Tracking Efficiency:
+		\begin{itemize}
+			
+			\item<2-> There is a slope at $\phi_{\textrm{pred,b2b}} \gtrsim 0$ for phase2 MC and phase2 data
+			\item<2-> The highest tracking efficiency occurs for momenta between $6\,\textrm{GeV}$ and $7\,\textrm{GeV}$
+			\item<3> This kind of drop we also saw in the forward end-cap for momenta between  $7\,\textrm{GeV}$ and $8\,\textrm{GeV}$
+ 		\end{itemize}
+	\end{mybox}
+}
+\end{textblock*}
+\pause
+
+
+\begin{textblock*}{6cm}(-0.7cm,-3.5cm)
+	\only<4->{
+		\begin{mybox}
+			Positron Tracking Efficiency:
+			\begin{itemize}
+
+				\item The highest tracking efficiency occurs for momenta between $4\,\textrm{GeV}$ and $5\,\textrm{GeV}$
+				\item The lowest tracking efficiency occurs for momenta between $3\,\textrm{GeV}$ and $4\,\textrm{GeV}$
+			\end{itemize}
+		\end{mybox}
+	}
+\end{textblock*}
+
+
 
 
 
@@ -814,6 +1065,52 @@
 		\textcolor{brown}{Phase2 Data}
 	\end{textblock*}
 	
+	\pause 
+	
+	
+	\begin{textblock*}{6cm}(-0.7cm,-3.5cm)
+		\only<2->{
+			\begin{mybox}
+				Positron Tracking Efficiency:
+				\begin{itemize}
+					
+					\item The highest tracking efficiency occurs for momenta between $2\,\textrm{GeV}$ and $3\,\textrm{GeV}$ and $5\,\textrm{GeV}$ and $6\,\textrm{GeV}$
+					\item<3-> Weird \textit{horn} structure we saw earlier
+					\item<3-> Phase2 MC tracking efficiency peaks at $\phi_{\textrm{pred,b2b}} \approx 0$
+					\item<4> For momenta between $4\,\textrm{GeV}$ and $5\,\textrm{GeV}$ phase2 data appears to have a higher tracking efficiency compared to phase2 MC at $\phi_{\textrm{pred,b2b}} \approx -1$
+					
+				\end{itemize}
+			\end{mybox}
+		}
+	\end{textblock*}
+	
+	\begin{textblock*}{5cm}(9.9cm,-3cm)
+		\begin{tikzpicture}
+		\only<3>{
+			\draw[line width=0.5mm,winered] \boundellipse{2cm,0cm}{0.6cm}{1.5cm};
+		}
+		\end{tikzpicture}
+	\end{textblock*}
+	
+	\begin{textblock*}{5cm}(6.6cm,.2cm)
+		\begin{tikzpicture}
+		\only<3>{
+			\draw[line width=0.5mm,winered] \boundellipse{2cm,0cm}{0.6cm}{1.5cm};
+		}
+		\end{tikzpicture}
+	\end{textblock*}
+	
+		\begin{textblock*}{5cm}(6.3cm,.9cm)
+		\begin{tikzpicture}
+		\only<4>{
+			\draw[line width=0.5mm,winered] \boundellipse{2cm,0cm}{0.4cm}{.4cm};
+		}
+		\end{tikzpicture}
+	\end{textblock*}
+	
+	
+	
+	
 \end{frame}
 
 
@@ -853,12 +1150,200 @@
 		\textcolor{brown}{Phase2 Data}
 	\end{textblock*}
 	
+	\pause
+	
+	
+	\only<2,3,4,5>{
+	\begin{textblock*}{6cm}(5.6cm,-3.5cm)
+		\begin{mybox}
+			Electron Tracking Efficiency:
+			\begin{itemize}
+				\item<2,3,4,5> For momenta between $3\,\textrm{GeV}$ and $5\,\textrm{GeV}$ the tracking efficiency in the backward end-cap is worse for phase2 data compared to phase2 MC
+				\item<3,4,5> For momenta between $4\,\textrm{GeV}$ and $6\,\textrm{GeV}$ the tracking efficiency in the forward end-cap is worse for phase2 data compared to phase2 MC
+				\item<4,5> Drop in efficiency at transition between barrel and end-caps
+				\item<5> A efficiency drop appears to propagate for momenta between $5\,\textrm{GeV}$ and $7\,\textrm{GeV}$ for phase2 data
+			\end{itemize}
+		\end{mybox}
+	\end{textblock*}
+	}
+	\begin{textblock*}{5cm}(1.2cm,-2.8cm)
+		\begin{tikzpicture}
+		\only<2>{
+			\draw[line width=0.5mm,winered] \boundellipse{2cm,0cm}{0.3cm}{1.cm};
+		}
+		\end{tikzpicture}
+	\end{textblock*}
+	
+	
+	\begin{textblock*}{5cm}(4.4cm,-2.8cm)
+	\begin{tikzpicture}
+	\only<2>{
+		\draw[line width=0.5mm,winered] \boundellipse{2cm,0cm}{0.3cm}{1.cm};
+	}
+	\end{tikzpicture}
+\end{textblock*}
+	
+	
+	\begin{textblock*}{5cm}(2.8cm,-2.8cm)
+	\begin{tikzpicture}
+	\only<3>{
+		\draw[line width=0.5mm,winered] \boundellipse{2cm,0cm}{0.3cm}{1.cm};
+	}
+	\end{tikzpicture}
+\end{textblock*}	
+	
+
+	\begin{textblock*}{5cm}(2.8cm,-0.4cm)
+	\begin{tikzpicture}
+	\only<3>{
+		\draw[line width=0.5mm,winered] \boundellipse{2cm,0cm}{0.3cm}{1.cm};
+	}
+	\end{tikzpicture}
+\end{textblock*}	
+
+	\begin{textblock*}{5cm}(-0.4cm,-0.4cm)
+	\begin{tikzpicture}
+	\only<3>{
+		\draw[line width=0.5mm,winered] \boundellipse{2cm,0cm}{0.3cm}{1.cm};
+	}
+	\end{tikzpicture}
+\end{textblock*}
+
+
+	\begin{textblock*}{5cm}(-0.2cm,-2.8cm)
+	\begin{tikzpicture}
+	\only<4>{
+		\draw[line width=0.5mm,winered] \boundellipse{2cm,0cm}{0.3cm}{1.cm};
+	}
+	\end{tikzpicture}
+\end{textblock*}
+
+	\begin{textblock*}{5cm}(1.cm,-2.8cm)
+	\begin{tikzpicture}
+	\only<4>{
+		\draw[line width=0.5mm,winered] \boundellipse{2cm,0cm}{0.3cm}{1.cm};
+	}
+	\end{tikzpicture}
+\end{textblock*}
+
+	\begin{textblock*}{5cm}(3cm,-2.8cm)
+	\begin{tikzpicture}
+	\only<4>{
+		\draw[line width=0.5mm,winered] \boundellipse{2cm,0cm}{0.3cm}{1.cm};
+	}
+	\end{tikzpicture}
+\end{textblock*}
+	
+	
+		\begin{textblock*}{5cm}(4.2cm,-2.8cm)
+		\begin{tikzpicture}
+		\only<4>{
+			\draw[line width=0.5mm,winered] \boundellipse{2cm,0cm}{0.3cm}{1.cm};
+		}
+		\end{tikzpicture}
+	\end{textblock*}
+	
+	
+		\begin{textblock*}{5cm}(-0.2cm,-0.4cm)
+		\begin{tikzpicture}
+		\only<4>{
+			\draw[line width=0.5mm,winered] \boundellipse{2cm,0cm}{0.3cm}{1.cm};
+		}
+		\end{tikzpicture}
+	\end{textblock*}
+	
+	
+		\begin{textblock*}{5cm}(.7cm,-0.4cm)
+	\begin{tikzpicture}
+	\only<5>{
+		\draw[line width=0.5mm,winered] \boundellipse{2cm,0cm}{0.3cm}{.3cm};
+	}
+	\end{tikzpicture}
+\end{textblock*}
+	
+	
+\begin{textblock*}{5cm}(3.4cm,-0.4cm)
+	\begin{tikzpicture}
+	\only<5>{
+		\draw[line width=0.5mm,winered] \boundellipse{2cm,0cm}{0.3cm}{.3cm};
+	}
+	\end{tikzpicture}
+\end{textblock*}
+
+	\begin{textblock*}{5cm}(-0.4cm,2cm)
+		\begin{tikzpicture}
+		\only<5>{
+			\draw[line width=0.5mm,winered] \boundellipse{2cm,0cm}{0.3cm}{.3cm};
+		}
+		\end{tikzpicture}
+	\end{textblock*}
+	
+\only<6->{
+	
+	\begin{textblock*}{6cm}(-0.7cm,-3.5cm)
+		\begin{mybox}
+			Positron Tracking Efficiency:
+			\begin{itemize}
+				\item<7->	For momenta between $3\,\textrm{GeV}$ and $5\,\textrm{GeV}$ the phase2 data tracking efficiency is lower compared to phase2 MC in the backward end-cap		
+				\item<8-> For momenta between $5\,\textrm{GeV}$ and $7\,\textrm{GeV}$ it is vice versa 
+			\end{itemize}
+		\end{mybox}
+	\end{textblock*}
+	
+	
+}
+	
+	
+			\begin{textblock*}{5cm}(7.6cm,-0.4cm)
+		\begin{tikzpicture}
+		\only<7>{
+			\draw[line width=0.5mm,winered] \boundellipse{2cm,0cm}{0.3cm}{1.cm};
+		}
+		\end{tikzpicture}
+	\end{textblock*}
+		
+	\begin{textblock*}{5cm}(10.8cm,-2.8cm)
+		\begin{tikzpicture}
+		\only<7>{
+			\draw[line width=0.5mm,winered] \boundellipse{2cm,0cm}{0.3cm}{1.cm};
+		}
+		\end{tikzpicture}
+	\end{textblock*}
+	
+	
+	
+		
+	\begin{textblock*}{5cm}(7.6cm,2cm)
+		\begin{tikzpicture}
+		\only<8>{
+			\draw[line width=0.5mm,winered] \boundellipse{2cm,0cm}{0.3cm}{1.cm};
+		}
+		\end{tikzpicture}
+	\end{textblock*}
+	
+	\begin{textblock*}{5cm}(10.8cm,-0.4cm)
+		\begin{tikzpicture}
+		\only<8>{
+			\draw[line width=0.5mm,winered] \boundellipse{2cm,0cm}{0.3cm}{1.cm};
+		}
+		\end{tikzpicture}
+	\end{textblock*}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
 \end{frame}
 
-
+%-----------------------------------------------------
 \section{Phase3 Tracking Efficiencies}
 
 \begin{frame}{Phase3 Tracking Efficiencies As Function Of $\theta_{\textrm{pred,b2b}}-\phi_{\textrm{pred,b2b}}$}
@@ -1072,10 +1557,465 @@
 	
 \end{frame}
 
+\section{Comparing The Tracking Efficiency Of Phase2 Data with Phase3 Data}
 
 
+
+
+
+\section{Conclusion}
+
+\begin{frame}{Conclusion}
+	
+	
+\end{frame}
 
 %--------------------------------------------
+
+
+\appendix
+\section{Appendix}
+\begin{frame}{Code}
+
+
+\lstset{language=Python}
+\lstset{label={lst:code_direct}}
+\lstset{basicstyle=\normalsize}
+
+\begin{textblock*}{\textwidth}(-0cm,-3.7cm)
+	
+	\lstinputlisting[language=Python]{mesh.py}
+	
+	
+\end{textblock*}
+
+
+\end{frame}
+
+\begin{frame}{More Events}
+	
+	\begin{textblock*}{10cm}(0cm,-3.7cm)
+		
+		Phase2 data:
+		\begin{itemize}
+			\item /ghi/fs01/belle2/bdata//Data/release-03-00-03/
+			DB00000528/proc00000008/e0003/4S/r0*/all/mdst/sub00/*.root
+			\item proc9
+		\end{itemize}
+		Phase2 MC:
+		
+		\begin{itemize}
+			\item /belle/MC/release-01-00-02/DB00000294/MC10/ prod00004668/s00/e1002/4S/r00000/3600520000/mdst/sub00
+		\end{itemize}
+		
+		
+		Phase3 data:
+		\begin{itemize}
+			\item Exp7: /group/belle2/dataprod/Data/release-03-02-02/DB00000654/proc9/e0007/4S/r0*/all/mdst/sub00/*.root
+			\item Exp8: /group/belle2/dataprod/Data/release-03-02-02/DB00000654/proc9/e0008/4S/r0*/all/mdst/sub00/*.root
+			
+			\item proc9
+		\end{itemize}
+		
+		Phase3 MC:
+		
+		\begin{itemize}
+			\item /belle/MC/release-01-00-02/DB00000294/MC10/ prod00004664/s00/e0000/4S/r00000/3600520000/mdst/sub00
+		\end{itemize}
+		
+		
+		
+		
+		
+		
+	\end{textblock*}
+	
+	
+	
+	
+	
+	
+\end{frame}
+
+
+\begin{frame}{Phase2 pt Tracking Efficiencies As Function Of $\phi_{\textrm{pred,b2b}}$; Forward End-Cap}
+	
+	
+	\begin{textblock*}{6.5cm}(-0.9cm,-3cm)
+		\includegraphics[width=\textwidth]{VPlots/P2/xPtMPhiemFC}
+	\end{textblock*}
+	
+	\begin{textblock*}{2cm}(2.3cm,-3.5cm)
+		$\textrm{e}^-$
+	\end{textblock*}
+	
+	\begin{textblock*}{2cm}(8.7cm,-3.5cm)
+		$\textrm{e}^+$
+	\end{textblock*}
+	
+	
+	\begin{textblock*}{11cm}(5.5cm,-4.3cm)
+		
+		\begin{center}
+			\line(0,1){256}
+		\end{center}
+		
+	\end{textblock*}
+	
+	
+	\begin{textblock*}{6.5cm}(6cm,-2.5cm)
+		
+		\setlength{\unitlength}{5cm}
+		\begin{picture}(1,1)
+		\put(0,0){\line(1,1){1}}
+		
+		\end{picture}
+		
+	\end{textblock*}
+	
+	
+	
+	\begin{textblock*}{4cm}(-0.5cm,-3.7cm)
+		\textcolor{OliveGreen}{Phase2 MC10}
+		
+		\textcolor{brown}{Phase2 Data}
+	\end{textblock*}
+	
+	
+	
+	
+	
+	
+	
+	
+\end{frame}
+
+\begin{frame}{Phase2 pt Tracking Efficiencies As Function Of $\phi_{\textrm{pred,b2b}}$; Barrel}
+	
+	
+	\begin{textblock*}{6.5cm}(-0.9cm,-3cm)
+		\includegraphics[width=\textwidth]{VPlots/P2/xPtMPhiemBarrel}
+	\end{textblock*}
+	
+	\begin{textblock*}{6.5cm}(5.5cm,-3cm)
+		\includegraphics[width=\textwidth]{VPlots/P2/xPtMPhiepBarrel}
+	\end{textblock*}
+	
+	
+	\begin{textblock*}{2cm}(2.3cm,-3.5cm)
+		$\textrm{e}^-$
+	\end{textblock*}
+	
+	\begin{textblock*}{2cm}(8.7cm,-3.5cm)
+		$\textrm{e}^+$
+	\end{textblock*}
+	
+	
+	
+	\begin{textblock*}{11cm}(5.5cm,-4.3cm)
+		
+		\begin{center}
+			\line(0,1){256}
+		\end{center}
+		
+	\end{textblock*}
+	
+	
+	
+	\begin{textblock*}{4cm}(-0.5cm,-3.7cm)
+		\textcolor{OliveGreen}{Phase2 MC10}
+		
+		\textcolor{brown}{Phase2 Data}
+	\end{textblock*}
+	
+	
+	
+	
+\end{frame}
+
+
+
+\begin{frame}{Phase2 pt Tracking Efficiencies As Function Of $\phi_{\textrm{pred,b2b}}$; Backward End-Cap}
+	
+	
+	\begin{textblock*}{6.5cm}(5.5cm,-3cm)
+		\includegraphics[width=\textwidth]{VPlots/P2/xPtMPhiepEC}
+	\end{textblock*}
+	
+	\begin{textblock*}{2cm}(2.3cm,-3.5cm)
+		$\textrm{e}^-$
+	\end{textblock*}
+	
+	\begin{textblock*}{2cm}(8.7cm,-3.5cm)
+		$\textrm{e}^+$
+	\end{textblock*}
+	
+	
+	\begin{textblock*}{11cm}(5.5cm,-4.3cm)
+		
+		\begin{center}
+			\line(0,1){256}
+		\end{center}
+		
+	\end{textblock*}
+	
+	
+	\begin{textblock*}{6.5cm}(-0.2cm,-2.5cm)
+		
+		\setlength{\unitlength}{5cm}
+		\begin{picture}(1,1)
+		\put(0,0){\line(1,1){1}}
+		
+		\end{picture}
+		
+	\end{textblock*}
+	
+	\begin{textblock*}{4cm}(-0.5cm,-3.7cm)
+		\textcolor{OliveGreen}{Phase2 MC10}
+		
+		\textcolor{brown}{Phase2 Data}
+	\end{textblock*}
+	
+\end{frame}
+
+
+\begin{frame}{Phase2 pt Tracking Efficiencies As Function Of $\theta_{\textrm{pred,b2b}}$}
+	
+	
+	\begin{textblock*}{6.5cm}(-0.9cm,-3cm)
+		\includegraphics[width=\textwidth]{VPlots/P2/xPtMThetaem}
+	\end{textblock*}
+	
+	\begin{textblock*}{6.5cm}(5.5cm,-3cm)
+		\includegraphics[width=\textwidth]{VPlots/P2/xPtMThetaep}
+	\end{textblock*}
+	
+	
+	\begin{textblock*}{2cm}(2.3cm,-3.5cm)
+		$\textrm{e}^-$
+	\end{textblock*}
+	
+	\begin{textblock*}{2cm}(8.7cm,-3.5cm)
+		$\textrm{e}^+$
+	\end{textblock*}
+	
+	
+	
+	\begin{textblock*}{11cm}(5.5cm,-4.3cm)
+		
+		\begin{center}
+			\line(0,1){256}
+		\end{center}
+		
+	\end{textblock*}
+	
+	\begin{textblock*}{4cm}(-0.5cm,-3.7cm)
+		\textcolor{OliveGreen}{Phase2 MC10}
+		
+		\textcolor{brown}{Phase2 Data}
+	\end{textblock*}
+	
+	
+	
+	
+	
+\end{frame}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\begin{frame}{Phase3 pt Tracking Efficiencies As Function Of $\phi_{\textrm{pred,b2b}}$; Forward End-Cap}
+	
+	
+	\begin{textblock*}{6.5cm}(-0.9cm,-3cm)
+		\includegraphics[width=\textwidth]{VPlots/P3/xPtMPhiemFCP3}
+	\end{textblock*}
+	
+	\begin{textblock*}{2cm}(2.3cm,-3.5cm)
+		$\textrm{e}^-$
+	\end{textblock*}
+	
+	\begin{textblock*}{2cm}(8.7cm,-3.5cm)
+		$\textrm{e}^+$
+	\end{textblock*}
+	
+	
+	\begin{textblock*}{11cm}(5.5cm,-4.3cm)
+		
+		\begin{center}
+			\line(0,1){256}
+		\end{center}
+		
+	\end{textblock*}
+	
+	
+	\begin{textblock*}{6.5cm}(6cm,-2.5cm)
+		
+		\setlength{\unitlength}{5cm}
+		\begin{picture}(1,1)
+		\put(0,0){\line(1,1){1}}
+		
+		\end{picture}
+		
+	\end{textblock*}
+	
+	
+	
+	\begin{textblock*}{4cm}(-0.5cm,-3.7cm)
+		\textcolor{red}{Phase3 MC10}
+		
+		\textcolor{blue}{Phase3 Data}
+	\end{textblock*}
+	
+	
+	
+	
+	
+	
+	
+	
+\end{frame}
+
+\begin{frame}{Phase3 pt Tracking Efficiencies As Function Of $\phi_{\textrm{pred,b2b}}$; Barrel}
+	
+	
+	\begin{textblock*}{6.5cm}(-0.9cm,-3cm)
+		\includegraphics[width=\textwidth]{VPlots/P3/xPtMPhiemBarrelP3}
+	\end{textblock*}
+	
+	\begin{textblock*}{6.5cm}(5.5cm,-3cm)
+		\includegraphics[width=\textwidth]{VPlots/P3/xPtMPhiepBarrelP3}
+	\end{textblock*}
+	
+	
+	\begin{textblock*}{2cm}(2.3cm,-3.5cm)
+		$\textrm{e}^-$
+	\end{textblock*}
+	
+	\begin{textblock*}{2cm}(8.7cm,-3.5cm)
+		$\textrm{e}^+$
+	\end{textblock*}
+	
+	
+	
+	\begin{textblock*}{11cm}(5.5cm,-4.3cm)
+		
+		\begin{center}
+			\line(0,1){256}
+		\end{center}
+		
+	\end{textblock*}
+	
+	
+	
+	\begin{textblock*}{4cm}(-0.5cm,-3.7cm)
+		\textcolor{red}{Phase3 MC10}
+		
+		\textcolor{blue}{Phase3 Data}
+	\end{textblock*}
+	
+	
+	
+	
+\end{frame}
+
+
+
+\begin{frame}{Phase3 pt Tracking Efficiencies As Function Of $\phi_{\textrm{pred,b2b}}$; Backward End-Cap}
+	
+	
+	\begin{textblock*}{6.5cm}(5.5cm,-3cm)
+		\includegraphics[width=\textwidth]{VPlots/P3/xPtMPhiepECP3}
+	\end{textblock*}
+	
+	\begin{textblock*}{2cm}(2.3cm,-3.5cm)
+		$\textrm{e}^-$
+	\end{textblock*}
+	
+	\begin{textblock*}{2cm}(8.7cm,-3.5cm)
+		$\textrm{e}^+$
+	\end{textblock*}
+	
+	
+	\begin{textblock*}{11cm}(5.5cm,-4.3cm)
+		
+		\begin{center}
+			\line(0,1){256}
+		\end{center}
+		
+	\end{textblock*}
+	
+	
+	\begin{textblock*}{6.5cm}(-0.2cm,-2.5cm)
+		
+		\setlength{\unitlength}{5cm}
+		\begin{picture}(1,1)
+		\put(0,0){\line(1,1){1}}
+		
+		\end{picture}
+		
+	\end{textblock*}
+	
+	\begin{textblock*}{4cm}(-0.5cm,-3.7cm)
+		\textcolor{red}{Phase3 MC10}
+		
+		\textcolor{blue}{Phase3 Data}
+	\end{textblock*}
+	
+\end{frame}
+
+
+\begin{frame}{Phase3 pt Tracking Efficiencies As Function Of $\theta_{\textrm{pred,b2b}}$}
+	
+	
+	\begin{textblock*}{6.5cm}(-0.9cm,-3cm)
+		\includegraphics[width=\textwidth]{VPlots/P3/xPtMThetaemP3}
+	\end{textblock*}
+	
+	\begin{textblock*}{6.5cm}(5.5cm,-3cm)
+		\includegraphics[width=\textwidth]{VPlots/P3/xPtMThetaepP3}
+	\end{textblock*}
+	
+	
+	\begin{textblock*}{2cm}(2.3cm,-3.5cm)
+		$\textrm{e}^-$
+	\end{textblock*}
+	
+	\begin{textblock*}{2cm}(8.7cm,-3.5cm)
+		$\textrm{e}^+$
+	\end{textblock*}
+	
+	
+	
+	\begin{textblock*}{11cm}(5.5cm,-4.3cm)
+		
+		\begin{center}
+			\line(0,1){256}
+		\end{center}
+		
+	\end{textblock*}
+	
+	\begin{textblock*}{4cm}(-0.5cm,-3.7cm)
+		\textcolor{red}{Phase3 MC10}
+		
+		\textcolor{blue}{Phase3 Data}
+	\end{textblock*}
+	
+
+
+
+
+\end{frame}
 
 
 
