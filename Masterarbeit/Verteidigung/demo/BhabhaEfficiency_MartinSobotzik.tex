@@ -18,7 +18,8 @@
 \usepackage{verbatim}
 \usepackage{tikz}
 \usepackage{lipsum}
-
+\usepackage{transparent}
+\usepackage{graphicx}
 \usepackage[most]{tcolorbox}
 
 \tcbuselibrary{skins}
@@ -40,6 +41,16 @@
 	postbreak=\mbox{\textcolor{red}{$\hookrightarrow$}\space},
 	showstringspaces=false
 }
+
+
+
+
+
+
+
+
+
+
 
 
 \defbeamertemplate*{background canvas}{bg}
@@ -1960,7 +1971,8 @@ Also contains $\textrm{ee}\rightarrow\gamma \gamma$ events
 
 
 
-	\begin{textblock*}{6.5cm}(-0.9cm,-3cm)
+\begin{textblock*}{6.5cm}(-0.9cm,-3cm)
+		
 	\includegraphics[width=\textwidth]{VPlots/Comp/cMThetaem_Data}
 \end{textblock*}
 
@@ -1987,13 +1999,69 @@ Also contains $\textrm{ee}\rightarrow\gamma \gamma$ events
 	
 \end{textblock*}
 
-
+\only<1,2,4>{
 \begin{textblock*}{4cm}(-0.5cm,-3.7cm)
 	\textcolor{brown}{Phase2 Data}
 	
 	\textcolor{blue}{Phase3 Data}
 \end{textblock*}
+}
 
+\only<3>{
+	\begin{textblock*}{4cm}(6cm,-3.7cm)
+		\textcolor{brown}{Phase2 Data}
+		
+		\textcolor{blue}{Phase3 Data}
+	\end{textblock*}
+}
+
+
+
+
+
+
+		\only<2>{
+	\begin{textblock*}{6cm}(5.6cm,-3.5cm)
+		\begin{mybox}
+			Electron Tracking Efficiency:
+			\begin{itemize}
+				\item Drastic improvement in the end-caps
+				\item Tracking efficiency in the barrel stayed more or less the same
+				
+			\end{itemize}
+		\end{mybox}
+	\end{textblock*}
+}
+
+
+
+
+		\begin{textblock*}{6cm}(-0.7cm,-3.5cm)
+	
+	\only<3>{
+		\begin{mybox}
+			Positron Tracking Efficiency:
+			\begin{itemize}
+				
+				\item Drastic improvement in the end-caps
+				\item Tracking efficiency in the barrel stayed more or less the same
+				
+			\end{itemize}
+		\end{mybox}
+	}
+\end{textblock*}
+
+
+\begin{textblock*}{8cm}(1.5cm,0.5cm)
+	\only<4>{
+		
+		\begin{mybox}
+			We will only compare the tracking efficiencies for electron in the forward end-cap and the tracking efficiencies for positrons in the backward end-cap
+		\end{mybox}
+		
+	}
+	
+\end{textblock*}
 
 
 
@@ -2002,7 +2070,7 @@ Also contains $\textrm{ee}\rightarrow\gamma \gamma$ events
 \end{frame}
 
 
-\begin{frame}{Phase3 Tracking Efficiencies As Function Of $\phi_{\textrm{pred,b2b}}$; Forward End-Cap}
+\begin{frame}{Tracking Efficiencies As Function Of $\phi_{\textrm{pred,b2b}}$; Forward End-Cap}
 	
 	
 	\begin{textblock*}{6.5cm}(-0.9cm,-3cm)
@@ -2013,9 +2081,9 @@ Also contains $\textrm{ee}\rightarrow\gamma \gamma$ events
 		$\textrm{e}^-$
 	\end{textblock*}
 	
-	\begin{textblock*}{2cm}(8.7cm,-3.5cm)
-		$\textrm{e}^+$
-	\end{textblock*}
+%	\begin{textblock*}{2cm}(8.7cm,-3.5cm)
+%		$\textrm{e}^+$
+%	\end{textblock*}
 	
 	
 	\begin{textblock*}{11cm}(5.5cm,-4.3cm)
@@ -2031,7 +2099,7 @@ Also contains $\textrm{ee}\rightarrow\gamma \gamma$ events
 		
 		\setlength{\unitlength}{5cm}
 		\begin{picture}(1,1)
-		\put(0,0){\line(1,1){1}}
+%		\put(0,0){\line(1,1){1}}
 		
 		\end{picture}
 		
@@ -2046,11 +2114,33 @@ Also contains $\textrm{ee}\rightarrow\gamma \gamma$ events
 	\end{textblock*}
 	
 	
+	\begin{textblock*}{6cm}(5.6cm,-3.5cm)
+		\begin{mybox}
+			Electron Tracking Efficiency:
+			\begin{itemize}
+				\item The tracking efficiency improved over almost all $\phi_{\textrm{pred,b2b}}$ (exception occurs for $\phi_{\textrm{pred,b2b}} \approx 1$ for momenta between $4\,\textrm{GeV}$ and $5\,\textrm{GeV}$)
+				\item<3,4> The lower \textit{ribbon} of phase3 data seems to follow the phase2 data structure
+			\end{itemize}
+		\end{mybox}
+	\end{textblock*}
 	
+		
+	\begin{textblock*}{5cm}(0.7cm,-2.1cm)
+		\begin{tikzpicture}
+		\only<2>{
+			\draw[line width=0.5mm,winered] \boundellipse{2cm,0cm}{0.4cm}{0.3cm};
+		}
+		\end{tikzpicture}
+	\end{textblock*}	
 	
-	
-	
-	
+		\begin{textblock*}{5cm}(0cm,-2.0cm)
+		\begin{tikzpicture}
+		\only<3>{
+			\draw[line width=0.5mm,winered] \boundellipse{2cm,0cm}{.8cm}{.6cm};
+		}
+		\end{tikzpicture}
+	\end{textblock*}
+	\pause[4]
 	
 \end{frame}
 
@@ -2062,7 +2152,7 @@ Also contains $\textrm{ee}\rightarrow\gamma \gamma$ events
 	\end{textblock*}
 	
 	\begin{textblock*}{2cm}(2.3cm,-3.5cm)
-		$\textrm{e}^-$
+%		$\textrm{e}^-$
 	\end{textblock*}
 	
 	\begin{textblock*}{2cm}(8.7cm,-3.5cm)
@@ -2083,17 +2173,41 @@ Also contains $\textrm{ee}\rightarrow\gamma \gamma$ events
 		
 		\setlength{\unitlength}{5cm}
 		\begin{picture}(1,1)
-		\put(0,0){\line(1,1){1}}
+%		\put(0,0){\line(1,1){1}}
 		
 		\end{picture}
 		
 	\end{textblock*}
 	
-	\begin{textblock*}{4cm}(-0.5cm,-3.7cm)
+	\begin{textblock*}{4cm}(6cm,-3.7cm)
 		\textcolor{brown}{Phase2 Data}
 		
 		\textcolor{blue}{Phase3 Data}
 	\end{textblock*}
+	
+	
+	
+	\begin{textblock*}{6cm}(-0.7cm,-3.5cm)
+		
+		
+			\begin{mybox}
+				Positron Tracking Efficiency:
+				\begin{itemize}					
+					\item 
+				\end{itemize}
+			\end{mybox}
+		
+	\end{textblock*}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 \end{frame}
 
@@ -2102,6 +2216,11 @@ Also contains $\textrm{ee}\rightarrow\gamma \gamma$ events
 \section{Conclusion}
 
 \begin{frame}{Conclusion}
+	
+	
+	
+	
+	
 	
 	
 \end{frame}
