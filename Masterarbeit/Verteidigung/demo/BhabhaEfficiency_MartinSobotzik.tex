@@ -46,7 +46,7 @@
 
 
 
-
+\font\myfont=cmr12 at 15pt
 
 
 
@@ -63,7 +63,7 @@
 \DeclareTColorBox{mybox}{ s }{colframe=winered!75!black,
 	IfBooleanTF={#1}{colback=yellow!50!red}{colback=winered!5!white}}
 
-\title{Systematic Studies On Track Reconstruction Efficiency At Belle II}
+\title{{\myfont Systematic Studies On Track Reconstruction Efficiency At Belle II}}
 %\subtitle{A modern beamer theme}
 \date{22.01.2020}
 \author{Martin Sobotzik (msobotzi@students.uni-mainz.de)}
@@ -97,11 +97,11 @@
 
 
 	\begin{itemize}
-		\item Overview on the Belle II experiment
-		\item Bhabha kinematics at Belle II
-		\item Preparation for calculating the tracking efficiency
-		\item Phase3 tracking efficiency
-		\item Comparing the phase2 with phase3 tracking efficiency
+		\item Overview of the Belle II experiment
+		\item Kinematics at Belle II
+		\item Method for calculating the tracking efficiency
+		\item Tracking efficiency
+		\item Comparing the tracking efficiency of different phases
 		\item Conclusion
 		
 		
@@ -111,13 +111,30 @@
 
 
 \begin{frame}{Motivation}
+	\begin{textblock*}{11cm}(0cm,-3cm)
+		
 	\begin{itemize}
-		\item At an electron-positron accelerator most outgoing particles are again electrons and positrons (these events are called Bhabha events)
+		\item At an electron-positron collider most events are $\textrm{e}^+ \textrm{e}- \rightarrow\textrm{e}^+ \textrm{e}- $ (these events are called Bhabha events)
 		\item These events can be used to estimate the performance of the tracking detectors
-		\item If the \textit{tag} particle in a Bhabha event has a track than the \textit{probe} particle also should have a track associated 
+		\item If the \textit{tag} particle in a Bhabha event is associated with a track than the \textit{probe} particle also should have a track associated 
 		
 		$\rightarrow$ a tracking efficiency can be calculated
+		\item Knowing the tracking efficiency is highly important for analysis 
 	\end{itemize}
+\end{textblock*}
+
+
+
+
+\begin{textblock*}{3cm}(1.5cm,1cm)
+	\includegraphics[width=\textwidth]{VBilder/bhabhaS}
+\end{textblock*}
+
+\begin{textblock*}{3cm}(6.5cm,1cm)
+	\includegraphics[width=\textwidth]{VBilder/bhabhaT}
+\end{textblock*}
+
+
 \end{frame}
 
 
@@ -133,18 +150,20 @@
 \begin{textblock*}{4.5cm}(-0cm,-3.7cm)
 	\begin{center}	
 		\begin{itemize}
-			\item Asymmetric $B$-factory
-			\item Center-of-mass close to $\Upsilon(4\textrm{S})$ $\sim 10.58\,\textrm{GeV}$
-			\item Upgrade of the KEKB collider:
+			\item Located at Tsukuba, Japan
+
+			\item<2-> Asymmetric collider
+			\item<2-> Center-of-mass equal to $\Upsilon(4\textrm{S})$ $\sim 10.58\,\textrm{GeV} \rightarrow$ $B$-factory
+			\item<2-> Upgrade of the KEKB collider:
 			\begin{itemize}
-				\item Larger beam currents
-				\item Reduced beam size
+				\item<2-> Larger beam currents
+				\item<2-> Reduced beam size at interaction region
 			\end{itemize}
 		
 		
-		\item<3-> $\rightarrow$ Luminosity increase x40
-		\item<4-> Designed peak luminosity of $8\cdot 10^{35}\,\textrm{cm}^{-2}\textrm{s}^{-1}$
-		\item<4-> Planned data sample corresponding to a recorded integrated luminosity of $\sim 50\,\textrm{ab}^{-1}$
+		\item<4-> $\rightarrow$ Luminosity increase x40
+		\item<5-> Design peak luminosity of $8\cdot 10^{35}\,\textrm{cm}^{-2}\textrm{s}^{-1}$
+		\item<5-> Desired data sample corresponding to a recorded integrated luminosity of $\sim 50\,\textrm{ab}^{-1}$ (50x the integrated luminosity of Belle)
 		
 		
 		\end{itemize}
@@ -155,8 +174,9 @@
 
 \begin{textblock*}{7cm}(4.8cm,-3cm)
 	\begin{figure}
-		\includegraphics<1,2,3>[width=6.5cm]{VBilder/SuperKEKB}
-		\includegraphics<4>[width=6.5cm]{VBilder/Lumen}
+				\includegraphics<1>[width=6.5cm]{VBilder/campus}
+		\includegraphics<4,2,3>[width=6.5cm]{VBilder/SuperKEKB}
+		\includegraphics<5>[width=6.5cm]{VBilder/Lumen}
 	\end{figure}
 	
 	
@@ -164,7 +184,7 @@
 
 
 
-\only<4>{
+\only<5>{
 	\begin{textblock*}{6cm}(5cm,0.5cm)
 	\begin{center}	
 		\begin{itemize}
@@ -192,7 +212,7 @@
 
 \begin{textblock*}{7cm}(-0.8cm,-0.2cm)
 	\begin{figure}
-		\includegraphics<2>[width=7cm]{VBilder/Beamsize.pdf}
+		\includegraphics<3>[width=7cm]{VBilder/Beamsize.pdf}
 	\end{figure}
 	
 	
@@ -214,41 +234,73 @@
 	
 \end{frame}
 
-\begin{frame}{Vertex Detectors}
+\begin{frame}{Vertex Detectors (VXD)}
 	
 	
-		\begin{textblock*}{10cm}(3cm,-2.3cm)
+		\begin{textblock*}{6cm}(2.5cm,-1.1cm)
 		\begin{figure}
-			\includegraphics[width=6.5cm]{VBilder/PXD_SVD}
+			\includegraphics[width=6.5cm]<1>{VBilder/PXD_SVD}
 		\end{figure}
 		
 		
 	\end{textblock*}
 	
 	
+	
+	
+	
+	\begin{textblock*}{5cm}(0.cm,1cm)
+		\includegraphics[width=\textwidth]<2>{VBilder/VXD_phaseII}
+	\end{textblock*}
+	
+	
+		\begin{textblock*}{4cm}(6.5cm,0cm)
+		\includegraphics[width=\textwidth]<2>{VBilder/phase3pxd}
+	\end{textblock*}
+	
+	
+	
+	
+	
+	
 	\begin{textblock*}{10cm}(-0cm,-3.7cm)
-		Vertex Detectors (VXD):		
+	
 			\begin{itemize}
 				\item Consist of Pixel Detector (PXD) and Silicon Vertex Detector (SVD)
-				\item Both detectors consist of multiple ladders of strip detectors
+				\item Both detectors consist of multiple ladders in multiple layers (2 PXD with radii of $14$ and $22\,\textrm{mm}$ and 4 SVD with radii of 38, 80, 115 and $140\,\textrm{mm}$)
 				\item Charged particles create electron-hole pairs, which are separated by an electric field
-				
-				The signal is then read out
 				\item[] $\rightarrow$ particle position can be determined
 			\end{itemize}
 		\end{textblock*}
-	\begin{textblock*}{5cm}(-0cm,-.6cm)
+	\begin{textblock*}{5cm}(-0cm,-.8cm)
 		\begin{itemize}
 	
-				\item During phase2, only a fraction of the VXD detectors were installed
-				\item During phase3, the complete SVD and roughly half of the PXD are installed
-				\item Acceptance: $17.0^{\circ} < \theta < 150.0^{\circ}$ 
+				\item<2> During phase2, only a fraction of the VXD detectors were installed
+				
 			\end{itemize}
+			\end{textblock*}
+		\begin{textblock*}{5cm}(5.5cm,-.8cm)
+\begin{itemize}
+	
+
+				\item<2> During phase3, the complete SVD and half of the PXD are installed
+
+			\end{itemize}
+			\end{textblock*}
+\begin{textblock*}{11cm}(0cm,3.3cm)
+	\begin{center}
 		
+	\begin{itemize}
+	
+	\centering
+				\item<2> Acceptance: $17.0^{\circ} < \theta < 150.0^{\circ}$ 
+	\end{itemize}
+
+\end{center}
+\end{textblock*}
 
 
 
-	\end{textblock*}
 	
 	
 
@@ -258,7 +310,7 @@
 \end{frame}
 
 
-\begin{frame}{Central Drift Chamber}
+\begin{frame}{Central Drift Chamber (CDC)}
 
 	\begin{textblock*}{4cm}(7cm,-2.5cm)
 		\begin{figure}
@@ -280,20 +332,22 @@
 
 	\begin{textblock*}{10cm}(0cm,-3.7cm)
 	
-		Central Drift Chamber:
+		
 		\begin{itemize}
 			\item Consists of 14336 sense wires arranged in 5 axial and 4 stereo superlayers (each superlayer consists of 6 layers; with an exception to the innermost superlayer)
+		\end{itemize}
+		\end{textblock*}
+		\begin{textblock*}{6.5cm}(0cm,-2.35cm)
+		
+		\begin{itemize}
+			\item The CDC is immersed in a $50\,\%$ helium and $50\,\%$ ethane gas mixture
 			\item Charged particles ionize the gas
 			
 			The signal is then read out by the sense wires  
 			
-		\end{itemize}
-	\end{textblock*}
+
 	
 	
-	\begin{textblock*}{6.5cm}(0cm,-1.2cm)
-			
-		\begin{itemize}	
 			\item[] $\rightarrow$ Determination of momenta and tracks of charged particles
 			\item Acceptance: $17.0^{\circ} < \theta < 150.0^{\circ}$ 
 		\end{itemize}
@@ -301,25 +355,38 @@
 	\end{textblock*}
 
 
-\begin{textblock*}{10cm}(0cm,1cm)
-	\includegraphics[width=\textwidth]{VBilder/cdc}
+\begin{textblock*}{8cm}(1.5cm,1.5cm)
+	\includegraphics[width=\textwidth]<1>{VBilder/cdc}
 \end{textblock*}
+
+
+\begin{textblock*}{11cm}(.cm,-3.3cm)
+	\includegraphics[width=\textwidth]<2>{VBilder/cdcR}
+\end{textblock*}
+
+
+
+
+
+
+
+
 
 
 \end{frame}
 
 
-\begin{frame}{Electromagnetic Calorimeter}
+\begin{frame}{Electromagnetic Calorimeter (ECL)}
 	\begin{textblock*}{6cm}(5.5cm,-3.cm)
 		\includegraphics[width=\textwidth]{VBilder/ecl2}
 	\end{textblock*}
 
 \begin{textblock*}{5.2cm}(0cm,-3.7cm)
-	Electromagnetic Calorimeter:
+
 	\begin{itemize}
 		\item Consists of 8936 CsI(Tl) crystals
-		\item Electromagnetically interacting particles are  creating electromagnetic cascades when they pass through the crystals
-		\item[] $\rightarrow$ clusters are created
+		\item Electromagnetically interacting particles are  creating electromagnetic shower when they pass through the crystals
+		\item[] These shower spread through multiple crystals
 		\item[] $\rightarrow$ The position and the energy of the particles can be determined
 		\item Separation in \textcolor{blue}{barrel}, \textcolor{OliveGreen}{forward end-cap} and \textcolor{red}{backward end-cap}
 		\item There are two $\sim 1^{\circ}$ wide gaps at transition between the sections 
@@ -409,64 +476,30 @@
 
 
 
-
 \begin{frame}{Introducing Cuts}
+	
+	\begin{textblock*}{3cm}(8cm,-3.8cm)
+		\includegraphics[width=\textwidth]{VBilder/bha2}
+	\end{textblock*}
+	
+	
 	\begin{textblock*}{11cm}(0cm,-1.7cm)
 	\begin{itemize}
 		\item<3-> $8\,\textrm{GeV} < \textrm{M}_{\textrm{vpho}} < 12\,\textrm{GeV}$
 		\item<3-> 2 clusters with at least $3.5\,\textrm{GeV}$ per event; One cluster has to have at least $4.5\,\textrm{GeV}$
 		\item<3-> Number of reconstructed tracks per event $< 7$
 		\item<3-> Total energy in the ECL $< 15\,\textrm{GeV}$
+		\item<3-> ECL-Trigger signal is required on data (the trigger simulation does not work reliably on MC)
+		\item<4-> Only 1 reconstructed virtual photon candidate survives these cuts in both MC and data 
+		\item<5-> Data also contains $\textrm{e}^+ \textrm{e}^- \rightarrow \gamma \gamma$
 	\end{itemize}
 
 \end{textblock*}
 
-\begin{textblock*}{11cm}(0cm,0.5cm)
-\begin{figure}[h!]
-	\centering
-	\pause[4]
-	\begin{minipage}[b]{0.45\linewidth}
-		\centering
-		\includegraphics[width=\textwidth]{VBilder/nCandNoMCInfo.pdf}
-	\end{minipage}
-	\hspace{0.5cm}
-	\pause[5]
-	\begin{minipage}[b]{0.45\linewidth}
-		\centering
-		\includegraphics[width=\textwidth]{VBilder/nCandData.pdf}
-	\end{minipage}
-	
-\end{figure}
-
-\end{textblock*}
-\pause[4]
-
-\begin{textblock*}{5cm}(0.1cm,0.8cm)
-	\centering
-	Single phase2 MC10 Bhabha file
-\end{textblock*}
-
-
-\begin{textblock*}{4cm}(2.8cm,1.8cm)
-	14581 Events
-\end{textblock*}
-\pause[5]
-
-\begin{textblock*}{4cm}(8.5cm,1.8cm)
-	41853 Events
-\end{textblock*}
-
-
-\begin{textblock*}{4cm}(7.cm,0.8cm)
-	Single phase2 data file
-\end{textblock*}
-
-
-\pause[6]
 
 
 
-\pause[1]
+
 
 
 
@@ -476,10 +509,10 @@
 
 	
 \begin{textblock*}{11cm}(0cm,-3.7cm)
-				Goal: Reconstruct Bhabha events using only ECL information
+				Strategy: Reconstruct Bhabha events using only ECL information
 
 	\end{textblock*}
-\begin{textblock*}{11cm}(0cm,-3.7cm)	
+\begin{textblock*}{8cm}(0cm,-3.7cm)	
 	\begin{center}
 		
 		vpho $\rightarrow$ ECL-Object(HclE) + ECL-Object(LclE)		
@@ -498,39 +531,20 @@
 
 
 \pause[1]
-\begin{textblock*}{11cm}(0cm,-3.3cm)
+\begin{textblock*}{8cm}(0cm,-3.3cm)
 	\begin{center}
 		\footnotesize{HclE: particle with higher cluster Energy; LclE: particle with lower cluster Energy}
 	\end{center}
 \end{textblock*}
 
-\pause[6]
-\begin{textblock*}{5cm}(3.2cm,0cm)
-	\begin{tikzpicture}[node distance=3cm]
-	
-	% nodes
-	\node (A) at (3, 0) {};
-	\node (B) at (1, 2) {\textcolor{white}{Also contains $\textrm{ee}\rightarrow\gamma \gamma$ events}};
-	\draw[<-, to path={-| (\tikztotarget)}]
-	(A) edge (B);
-	
-	\end{tikzpicture}
-	
-
-\end{textblock*}
-
-\pause[6]
 
 
 
 
-\begin{textblock*}{5cm}(3.2cm,-0.4cm)
-	
-\begin{mybox}
-Also contains $\textrm{ee}\rightarrow\gamma \gamma$ events	
-\end{mybox}
 
-\end{textblock*}
+
+
+
 
 
 
@@ -550,29 +564,54 @@ Also contains $\textrm{ee}\rightarrow\gamma \gamma$ events
 
 \begin{frame}{Bhabha Event Selection}
 	
-	\begin{textblock*}{0.5\textwidth}(0cm,-3cm)
+	\begin{textblock*}{0.5\textwidth}(0cm,-3.8cm)
 		\centering
 		\includegraphics[width=4.5cm]{VBilder/b2b_2}
 	\end{textblock*}
 	
-	\begin{textblock*}{0.5\textwidth}(5.5cm,-3cm)
+	\begin{textblock*}{0.5\textwidth}(5.5cm,-3.8cm)
 		\centering
 		\includegraphics[width=4.5cm]{VBilder/b2b_3}
 	\end{textblock*}
 	
 	
-	\begin{textblock*}{1\textwidth}(0cm,0.cm)
+	\begin{textblock*}{1\textwidth}(0cm,-0.2cm)
 		\centering
-		\includegraphics[width=\textwidth]{VBilder/sb2b_Data.pdf}
+		\includegraphics[width=\textwidth]<1>{VBilder/hb2b_MCP3.pdf}
 	\end{textblock*}
 	
 	
-\pause	
 	
-		\begin{textblock*}{1\textwidth}(0cm,0.cm)
+
+	
+	
+	
+
+	
+		\begin{textblock*}{1\textwidth}(0cm,-0.2cm)
 		\centering
-		\includegraphics[width=\textwidth]{VBilder/sb2b_MC.pdf}
+		\includegraphics[width=\textwidth]<2>{VBilder/hb2b_DataP3.pdf}
 	\end{textblock*}
+	
+	
+		\begin{textblock*}{6cm}(3cm,-0.9cm)
+		
+		$\Delta \phi_{\textrm{pred} - \textrm{reco}} = \phi_{\textrm{pred,b2bcl}} - \phi_{\textrm{Cluster}}$ 
+	\end{textblock*}
+		\begin{textblock*}{11cm}(1cm,-0.5cm)
+		Only events with $ 0.05 < |\Delta \phi_{\textrm{pred} - \textrm{reco}}| < 0.2$ are taken into account
+	\end{textblock*}
+	
+	
+	\begin{textblock*}{8cm}(1cm,3.8cm)
+		\textcolor{red}{Phase3 MC}: 852093 events survive
+		
+		\pause[2]
+		
+		\textcolor{blue}{Phase3 Data}: $5.3\cdot 10^7$ events survive (after trigger cut)
+	\end{textblock*}
+	
+	
 	
 	
 
@@ -580,49 +619,13 @@ Also contains $\textrm{ee}\rightarrow\gamma \gamma$ events
 \end{frame}
 
 
-\begin{frame}{Trigger}
-	
-	\begin{textblock*}{6.5cm}(5.5cm,-0.cm)
-		\includegraphics[width=\textwidth]{VBilder/DataTrigger}
-	\end{textblock*}
-	
-	
-	
-	
-	
-	\begin{textblock*}{11cm}(0cm,-2.9cm)
-		
-		We need to be sure that a trigger signal is coming from the ECL 
-		
-		Otherwise there could be a bias
-		
-		$\rightarrow$ The \texttt{bhabha} trigger bit is used
-		
-		This trigger requires several conditions:
-		\begin{itemize}
-			\item Trigger signal coming from the ECL
-			\item Both reconstructed particles have to have a cluster energy of at least $2.5\,\textrm{GeV}$ each and one has to have at least $4\,\textrm{GeV}$
-			\item $160^{\circ} < \sum \theta_{cms} < 200^{\circ}$
-			\item $140^{\circ} < \Delta \phi_{cms} < 220^{\circ}$
-		
-		\end{itemize}
-	
-\end{textblock*}
-	
-	
-	
-	
-	\begin{textblock*}{5.5cm}(0cm,1.9cm)
-	
-	The trigger cut will not be applied to MC since the trigger simulation does not work reliably on MC 
-	\end{textblock*}
-\end{frame}
 
 
 
 
 
-\begin{frame}{Dividing The ECL In Areas Of Interest}
+
+\begin{frame}{Selection Of Momentum With Enough Statistics}
 	
 	\begin{textblock*}{5cm}(-0.3cm,-3.7cm)
 		As function of azimuthal angle $\phi_{\textrm{pred,b2b}}$
@@ -634,7 +637,7 @@ Also contains $\textrm{ee}\rightarrow\gamma \gamma$ events
 		\begin{tabular}{lc}
 			&p($\textrm{e}^-$)\\
 			\hline
-			Forward End-Cap & \pause[2]$4\,\textrm{GeV} - 8\,\textrm{GeV}$\\
+			Forward End-Cap &\pause[2] $4\,\textrm{GeV} - 8\,\textrm{GeV}$\\
 			\pause[1]Barrel &\pause[2] $4\,\textrm{GeV} - 7\,\textrm{GeV}$\\
 			\pause[1]Backward End-Cap &\pause[2] /\\	
 		\end{tabular}
@@ -687,8 +690,7 @@ Also contains $\textrm{ee}\rightarrow\gamma \gamma$ events
 		\begin{tabular}{lc}
 			&p\\
 			\hline
-			$\textrm{e}^-$& $4\,\textrm{GeV} - 9\,\textrm{GeV}$\\	
-			\pause[5]
+			$\textrm{e}^-$& $4\,\textrm{GeV} - 9\,\textrm{GeV}$\pause[5]\\	
 			$\textrm{e}^+$& $2\,\textrm{GeV} - 7\,\textrm{GeV}$\\	
 		\end{tabular}
 		
@@ -1458,7 +1460,13 @@ Also contains $\textrm{ee}\rightarrow\gamma \gamma$ events
 	\end{tikzpicture}
 \end{textblock*}
 
-
+\begin{textblock*}{5cm}(-0.4cm,1.9cm)
+	\begin{tikzpicture}
+	\only<3>{
+		\draw[line width=0.5mm,winered] \boundellipse{2cm,0cm}{0.3cm}{.3cm};
+	}
+	\end{tikzpicture}
+\end{textblock*}
 
 		\begin{textblock*}{6cm}(-0.7cm,-3.5cm)
 	
@@ -1738,7 +1746,7 @@ Also contains $\textrm{ee}\rightarrow\gamma \gamma$ events
 		\item It is possible to select Bhabha events using only information coming from the ECL
 		\item The phase3 MC tracking efficiency is very close to the phase3 data tracking efficiency
 		
-		\item On phase3 data \textit{random} efficiency drops appear for some momenta in the end-caps 
+		\item On phase3 data \textit{unexpected} low efficiency structures appear  for some momenta in the end-caps 
 		\item Drastic improvement in the tracking efficiency in the end-caps for phase3 compared to phase2
 	\end{itemize}
 	
@@ -1815,6 +1823,19 @@ Also contains $\textrm{ee}\rightarrow\gamma \gamma$ events
 \end{frame}
 
 
+
+\begin{frame}
+	\includegraphics[width=\textwidth]{VPlots/CCand}
+	
+	\includegraphics[width=\textwidth]{VPlots/CCandP3}
+\end{frame}
+
+
+
+
+
+
+
 \begin{frame}
 	\includegraphics[width=\textwidth]{VBilder/cb2b}
 
@@ -1834,7 +1855,43 @@ Also contains $\textrm{ee}\rightarrow\gamma \gamma$ events
 	\includegraphics[width=\textwidth]{VBilder/b2b_MCP3}
 \end{frame}
 
-
+\begin{frame}{Trigger}
+	
+	\begin{textblock*}{6.5cm}(5.5cm,-0.cm)
+		\includegraphics[width=\textwidth]{VBilder/DataTrigger}
+	\end{textblock*}
+	
+	
+	
+	
+	
+	\begin{textblock*}{11cm}(0cm,-2.9cm)
+		
+		We need to be sure that a trigger signal is coming from the ECL 
+		
+		Otherwise there could be a bias
+		
+		$\rightarrow$ The \texttt{bhabha} trigger bit is used
+		
+		This trigger requires several conditions:
+		\begin{itemize}
+			\item Trigger signal coming from the ECL
+			\item Both reconstructed particles have to have a cluster energy of at least $2.5\,\textrm{GeV}$ each and one has to have at least $4\,\textrm{GeV}$
+			\item $160^{\circ} < \sum \theta_{cms} < 200^{\circ}$
+			\item $140^{\circ} < \Delta \phi_{cms} < 220^{\circ}$
+			
+		\end{itemize}
+		
+	\end{textblock*}
+	
+	
+	
+	
+	\begin{textblock*}{5.5cm}(0cm,1.9cm)
+		
+		The trigger cut will not be applied to MC since the trigger simulation does not work reliably on MC 
+	\end{textblock*}
+\end{frame}
 
 
 
