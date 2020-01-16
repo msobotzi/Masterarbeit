@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.21)  15 JAN 2020 19:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.21)  16 JAN 2020 16:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1258,7 +1258,7 @@ Package hyperref Warning: Option `pagecolor' is not available anymore.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\myfont' on input line 83.
+(hyperref)                removing `\myfont' on input line 98.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/beamertheme-metropolis/pgfplotsthemeto
@@ -1268,20 +1268,20 @@ echnical note
 ) (./BhabhaEfficiency_MartinSobotzik.aux)
 \openout1 = `BhabhaEfficiency_MartinSobotzik.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1349,7 +1349,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box91
-Package hyperref Info: Link coloring ON on input line 83.
+Package hyperref Info: Link coloring ON on input line 98.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1359,66 +1359,66 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count299
 )
-LaTeX Info: Redefining \ref on input line 83.
-LaTeX Info: Redefining \pageref on input line 83.
-LaTeX Info: Redefining \nameref on input line 83.
+LaTeX Info: Redefining \ref on input line 98.
+LaTeX Info: Redefining \pageref on input line 98.
+LaTeX Info: Redefining \nameref on input line 98.
 
 (./BhabhaEfficiency_MartinSobotzik.out) (./BhabhaEfficiency_MartinSobotzik.out)
 \@outlinefile=\write7
 \openout7 = `BhabhaEfficiency_MartinSobotzik.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 83.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 98.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 83.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 98.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 83.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 83.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 98.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 83.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 83.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 83.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 98.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 83.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 83.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 83.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 98.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 83.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 83.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 83.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 98.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 83.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 83.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 98.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 83.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 98.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 83.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 83.
+(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 83.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 83.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 83.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 83.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 83.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 98.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 98.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 8
-3.
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 9
+8.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 
-83.
+98.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 83.
+ut line 98.
 
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/translator/dicts/translator-bas
 ic-dictionary/translator-basic-dictionary-English.dict
@@ -1444,7 +1444,7 @@ Dictionary: translator-numbers-dictionary, Language: English
 orem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 83.
+LaTeX Info: Redefining \includegraphics on input line 98.
 
 Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.14} (current compat level: 1.9).
@@ -1458,55 +1458,65 @@ Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks59
 \inpenc@posthook=\toks60
 )
-(./BhabhaEfficiency_MartinSobotzik.nav)
-Overfull \vbox (10.92494pt too high) detected at line 84
+(./BhabhaEfficiency_MartinSobotzik.nav) <logo.png, id=89, 642.4pt x 521.95pt>
+File: logo.png Graphic file (type png)
+
+<use logo.png>
+Package pdftex.def Info: logo.png used on input line 105.
+(pdftex.def)             Requested size: 56.9055pt x 46.23279pt.
+
+Overfull \vbox (17.00024pt too high) detected at line 105
  []
+
+
+Overfull \vbox (32.53947pt too high) detected at line 105
+ []
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
+(Font)              size <5> substituted on input line 105.
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 109
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logo.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 139
 .
-LaTeX Font Info:    No file OMScmss.fd. on input line 109.
+LaTeX Font Info:    No file OMScmss.fd. on input line 139.
 
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 109.
-
-
-LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 109.
+(Font)              for symbol `textbullet' on input line 139.
 
 [2
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 138.
+LaTeX Font Info:    Try loading font information for U+msa on input line 168.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 138.
+LaTeX Font Info:    Try loading font information for U+msb on input line 168.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 138.
+line 168.
 
 (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-<VBilder/bhabhaS.png, id=104, 1027.84pt x 1027.84pt>
+<VBilder/bhabhaS.png, id=106, 1027.84pt x 1027.84pt>
 File: VBilder/bhabhaS.png Graphic file (type png)
  <use VBilder/bhabhaS.png>
-Package pdftex.def Info: VBilder/bhabhaS.png used on input line 138.
+Package pdftex.def Info: VBilder/bhabhaS.png used on input line 168.
 (pdftex.def)             Requested size: 85.35826pt x 85.3499pt.
 
-<VBilder/bhabhaT.png, id=106, 1027.84pt x 1027.84pt>
+<VBilder/bhabhaT.png, id=108, 1027.84pt x 1027.84pt>
 File: VBilder/bhabhaT.png Graphic file (type png)
  <use VBilder/bhabhaT.png>
-Package pdftex.def Info: VBilder/bhabhaT.png used on input line 138.
+Package pdftex.def Info: VBilder/bhabhaT.png used on input line 168.
 (pdftex.def)             Requested size: 85.35826pt x 85.3499pt.
 
 [3
@@ -1514,20 +1524,20 @@ Package pdftex.def Info: VBilder/bhabhaT.png used on input line 138.
  <./VBilder/bhabhaS.png> <./VBilder/bhabhaT.png>] [4
 
 ]
-<VBilder/campus.png, id=122, 734.745pt x 633.36626pt>
+<VBilder/campus.png, id=124, 734.745pt x 633.36626pt>
 File: VBilder/campus.png Graphic file (type png)
  <use VBilder/campus.png>
-Package pdftex.def Info: VBilder/campus.png used on input line 224.
+Package pdftex.def Info: VBilder/campus.png used on input line 254.
 (pdftex.def)             Requested size: 184.9429pt x 159.42358pt.
 
 [5
 
  <./VBilder/campus.png>]
-<VBilder/SuperKEKB.png, id=134, 630.355pt x 659.46375pt>
+<VBilder/SuperKEKB.png, id=136, 630.355pt x 659.46375pt>
 File: VBilder/SuperKEKB.png Graphic file (type png)
 
 <use VBilder/SuperKEKB.png>
-Package pdftex.def Info: VBilder/SuperKEKB.png used on input line 224.
+Package pdftex.def Info: VBilder/SuperKEKB.png used on input line 254.
 (pdftex.def)             Requested size: 184.9429pt x 193.48354pt.
  [6
 
@@ -1535,14 +1545,14 @@ Package pdftex.def Info: VBilder/SuperKEKB.png used on input line 224.
 File: VBilder/SuperKEKB.png Graphic file (type png)
 
 <use VBilder/SuperKEKB.png>
-Package pdftex.def Info: VBilder/SuperKEKB.png used on input line 224.
+Package pdftex.def Info: VBilder/SuperKEKB.png used on input line 254.
 (pdftex.def)             Requested size: 184.9429pt x 193.48354pt.
 
-<VBilder/Beamsize.pdf, id=141, 613.54219pt x 162.6075pt>
+<VBilder/Beamsize.pdf, id=143, 613.54219pt x 162.6075pt>
 File: VBilder/Beamsize.pdf Graphic file (type pdf)
 
 <use VBilder/Beamsize.pdf>
-Package pdftex.def Info: VBilder/Beamsize.pdf used on input line 224.
+Package pdftex.def Info: VBilder/Beamsize.pdf used on input line 254.
 (pdftex.def)             Requested size: 199.16928pt x 52.78477pt.
  [7
 
@@ -1550,206 +1560,219 @@ Package pdftex.def Info: VBilder/Beamsize.pdf used on input line 224.
 File: VBilder/SuperKEKB.png Graphic file (type png)
 
 <use VBilder/SuperKEKB.png>
-Package pdftex.def Info: VBilder/SuperKEKB.png used on input line 224.
+Package pdftex.def Info: VBilder/SuperKEKB.png used on input line 254.
 (pdftex.def)             Requested size: 184.9429pt x 193.48354pt.
  [8
 
 ]
-<VBilder/Lumen.png, id=157, 856.19875pt x 420.57124pt>
+<VBilder/Lumen.png, id=159, 856.19875pt x 420.57124pt>
 File: VBilder/Lumen.png Graphic file (type png)
  <use VBilder/Lumen.png>
-Package pdftex.def Info: VBilder/Lumen.png used on input line 224.
+Package pdftex.def Info: VBilder/Lumen.png used on input line 254.
 (pdftex.def)             Requested size: 184.9429pt x 90.8446pt.
 
 [9
 
  <./VBilder/Lumen.png>]
-<VBilder/Belle2.pdf, id=164, 538.26094pt x 304.88907pt>
+<VBilder/Belle2.pdf, id=166, 538.26094pt x 304.88907pt>
 File: VBilder/Belle2.pdf Graphic file (type pdf)
 
 <use VBilder/Belle2.pdf>
-Package pdftex.def Info: VBilder/Belle2.pdf used on input line 235.
+Package pdftex.def Info: VBilder/Belle2.pdf used on input line 266.
 (pdftex.def)             Requested size: 307.28987pt x 174.0584pt.
  [10
 
  <./VBilder/Belle2.pdf>]
-<VBilder/PXD_SVD.png, id=174, 361.35pt x 240.9pt>
-File: VBilder/PXD_SVD.png Graphic file (type png)
- <use VBilder/PXD_SVD.png>
-Package pdftex.def Info: VBilder/PXD_SVD.png used on input line 310.
-(pdftex.def)             Requested size: 184.9429pt x 123.29478pt.
+<VBilder/belleR.jpg, id=176, 951.48618pt x 713.61462pt>
+File: VBilder/belleR.jpg Graphic file (type jpg)
 
-Overfull \hbox (14.22638pt too wide) in paragraph at lines 310--310
- [] 
+<use VBilder/belleR.jpg>
+Package pdftex.def Info: VBilder/belleR.jpg used on input line 266.
+(pdftex.def)             Requested size: 307.28987pt x 230.46289pt.
+
+Overfull \vbox (11.64468pt too high) detected at line 266
  []
 
 [11
 
+ <./VBilder/belleR.jpg>] <VBilder/PXD_SVD.png, id=182, 361.35pt x 240.9pt>
+File: VBilder/PXD_SVD.png Graphic file (type png)
+
+<use VBilder/PXD_SVD.png>
+Package pdftex.def Info: VBilder/PXD_SVD.png used on input line 341.
+(pdftex.def)             Requested size: 184.9429pt x 123.29478pt.
+
+Overfull \hbox (14.22638pt too wide) in paragraph at lines 341--341
+ [] 
+ []
+
+[12
+
  <./VBilder/PXD_SVD.png>]
-<VBilder/VXD_phaseII.png, id=180, 1683.28876pt x 878.28125pt>
+<VBilder/VXD_phaseII.png, id=188, 1683.28876pt x 878.28125pt>
 File: VBilder/VXD_phaseII.png Graphic file (type png)
 
 <use VBilder/VXD_phaseII.png>
-Package pdftex.def Info: VBilder/VXD_phaseII.png used on input line 310.
+Package pdftex.def Info: VBilder/VXD_phaseII.png used on input line 341.
 (pdftex.def)             Requested size: 142.26378pt x 74.21736pt.
 
-<VBilder/phase3pxd.pdf, id=181, 1016.29688pt x 1056.94875pt>
+<VBilder/phase3pxd.pdf, id=189, 1016.29688pt x 1056.94875pt>
 File: VBilder/phase3pxd.pdf Graphic file (type pdf)
 
 <use VBilder/phase3pxd.pdf>
-Package pdftex.def Info: VBilder/phase3pxd.pdf used on input line 310.
+Package pdftex.def Info: VBilder/phase3pxd.pdf used on input line 341.
 (pdftex.def)             Requested size: 113.81102pt x 118.36131pt.
- [12
+ [13
 
  <./VBilder/VXD_phaseII.png> <./VBilder/phase3pxd.pdf>] <VBilder/axial.png, id=
-191, 521.95pt x 104.39pt>
+200, 521.95pt x 104.39pt>
 File: VBilder/axial.png Graphic file (type png)
 
 <use VBilder/axial.png>
-Package pdftex.def Info: VBilder/axial.png used on input line 376.
+Package pdftex.def Info: VBilder/axial.png used on input line 407.
 (pdftex.def)             Requested size: 113.81102pt x 22.76198pt.
- <VBilder/stereo.png, id=192, 521.95pt x 146.5475pt>
+ <VBilder/stereo.png, id=201, 521.95pt x 146.5475pt>
 File: VBilder/stereo.png Graphic file (type png)
 
 <use VBilder/stereo.png>
-Package pdftex.def Info: VBilder/stereo.png used on input line 376.
+Package pdftex.def Info: VBilder/stereo.png used on input line 407.
 (pdftex.def)             Requested size: 113.81102pt x 31.95432pt.
- <VBilder/cdc.png, id=193, 610.28pt x 205.76875pt>
-File: VBilder/cdc.png Graphic file (type png)
+ <VBilder/cdc2.pdf, id=202, 457.71pt x 154.32657pt>
+File: VBilder/cdc2.pdf Graphic file (type pdf)
 
-<use VBilder/cdc.png>
-Package pdftex.def Info: VBilder/cdc.png used on input line 376.
-(pdftex.def)             Requested size: 227.62204pt x 76.74863pt.
- [13
+<use VBilder/cdc2.pdf>
+Package pdftex.def Info: VBilder/cdc2.pdf used on input line 407.
+(pdftex.def)             Requested size: 227.62204pt x 76.74628pt.
+ [14
 
- <./VBilder/axial.png> <./VBilder/stereo.png> <./VBilder/cdc.png>]
+ <./VBilder/axial.png> <./VBilder/stereo.png> <./VBilder/cdc2.pdf>]
 File: VBilder/axial.png Graphic file (type png)
  <use VBilder/axial.png>
-Package pdftex.def Info: VBilder/axial.png used on input line 376.
+Package pdftex.def Info: VBilder/axial.png used on input line 407.
 (pdftex.def)             Requested size: 113.81102pt x 22.76198pt.
 File: VBilder/stereo.png Graphic file (type png)
  <use VBilder/stereo.png>
-Package pdftex.def Info: VBilder/stereo.png used on input line 376.
+Package pdftex.def Info: VBilder/stereo.png used on input line 407.
 (pdftex.def)             Requested size: 113.81102pt x 31.95432pt.
 
-<VBilder/cdcR.jpg, id=203, 180.675pt x 117.8001pt>
+<VBilder/cdcR.jpg, id=214, 180.675pt x 117.8001pt>
 File: VBilder/cdcR.jpg Graphic file (type jpg)
  <use VBilder/cdcR.jpg>
-Package pdftex.def Info: VBilder/cdcR.jpg used on input line 376.
+Package pdftex.def Info: VBilder/cdcR.jpg used on input line 407.
 (pdftex.def)             Requested size: 312.9803pt x 204.08252pt.
-
-[14
-
- <./VBilder/cdcR.jpg>]
-<VBilder/ecl2.pdf, id=210, 240.94818pt x 208.28214pt>
-File: VBilder/ecl2.pdf Graphic file (type pdf)
- <use VBilder/ecl2.pdf>
-Package pdftex.def Info: VBilder/ecl2.pdf used on input line 398.
-(pdftex.def)             Requested size: 170.71652pt x 147.57623pt.
 
 [15
 
- <./VBilder/ecl2.pdf>] [16
+ <./VBilder/cdcR.jpg>]
+<VBilder/ecl2.pdf, id=220, 240.94818pt x 208.28214pt>
+File: VBilder/ecl2.pdf Graphic file (type pdf)
+ <use VBilder/ecl2.pdf>
+Package pdftex.def Info: VBilder/ecl2.pdf used on input line 429.
+(pdftex.def)             Requested size: 170.71652pt x 147.57623pt.
+
+[16
+
+ <./VBilder/ecl2.pdf>] [17
 
 ]
-<VBilder/finalCross.png, id=388, 429.605pt x 281.05pt>
+<VBilder/finalCross.png, id=398, 429.605pt x 281.05pt>
 File: VBilder/finalCross.png Graphic file (type png)
 
 <use VBilder/finalCross.png>
-Package pdftex.def Info: VBilder/finalCross.png used on input line 468.
-(pdftex.def)             Requested size: 156.49014pt x 102.37868pt.
- [17
-
- <./VBilder/finalCross.png>]
-<VBilder/theta_lab.pdf, id=395, 569.12625pt x 404.51125pt>
-File: VBilder/theta_lab.pdf Graphic file (type pdf)
-
-<use VBilder/theta_lab.pdf>
-Package pdftex.def Info: VBilder/theta_lab.pdf used on input line 468.
-(pdftex.def)             Requested size: 156.49014pt x 111.2255pt.
-
-<VBilder/ee.pdf, id=396, 569.12625pt x 404.51125pt>
-File: VBilder/ee.pdf Graphic file (type pdf)
- <use VBilder/ee.pdf>
-Package pdftex.def Info: VBilder/ee.pdf used on input line 468.
-(pdftex.def)             Requested size: 156.49014pt x 111.2255pt.
-File: VBilder/finalCross.png Graphic file (type png)
-
-<use VBilder/finalCross.png>
-Package pdftex.def Info: VBilder/finalCross.png used on input line 468.
+Package pdftex.def Info: VBilder/finalCross.png used on input line 499.
 (pdftex.def)             Requested size: 156.49014pt x 102.37868pt.
  [18
 
+ <./VBilder/finalCross.png>]
+<VBilder/theta_lab.pdf, id=405, 569.12625pt x 404.51125pt>
+File: VBilder/theta_lab.pdf Graphic file (type pdf)
+
+<use VBilder/theta_lab.pdf>
+Package pdftex.def Info: VBilder/theta_lab.pdf used on input line 499.
+(pdftex.def)             Requested size: 156.49014pt x 111.2255pt.
+
+<VBilder/ee.pdf, id=406, 569.12625pt x 404.51125pt>
+File: VBilder/ee.pdf Graphic file (type pdf)
+ <use VBilder/ee.pdf>
+Package pdftex.def Info: VBilder/ee.pdf used on input line 499.
+(pdftex.def)             Requested size: 156.49014pt x 111.2255pt.
+File: VBilder/finalCross.png Graphic file (type png)
+
+<use VBilder/finalCross.png>
+Package pdftex.def Info: VBilder/finalCross.png used on input line 499.
+(pdftex.def)             Requested size: 156.49014pt x 102.37868pt.
+ [19
+
  <./VBilder/theta_lab.pdf, page is rotated 90 degrees> <./VBilder/ee.pdf, page 
-is rotated 90 degrees>] [19
+is rotated 90 degrees>] [20
 
 ]
-<VBilder/bha2.pdf, id=496, 770.87994pt x 770.87994pt>
+<VBilder/bha2.pdf, id=506, 770.87994pt x 770.87994pt>
 File: VBilder/bha2.pdf Graphic file (type pdf)
  <use VBilder/bha2.pdf>
-Package pdftex.def Info: VBilder/bha2.pdf used on input line 552.
+Package pdftex.def Info: VBilder/bha2.pdf used on input line 586.
 (pdftex.def)             Requested size: 85.35826pt x 85.3499pt.
 
-[20
+[21
 
  <./VBilder/bha2.pdf>]
 File: VBilder/bha2.pdf Graphic file (type pdf)
  <use VBilder/bha2.pdf>
-Package pdftex.def Info: VBilder/bha2.pdf used on input line 552.
+Package pdftex.def Info: VBilder/bha2.pdf used on input line 586.
 (pdftex.def)             Requested size: 85.35826pt x 85.3499pt.
- [21
+ [22
 
 ]
 File: VBilder/bha2.pdf Graphic file (type pdf)
  <use VBilder/bha2.pdf>
-Package pdftex.def Info: VBilder/bha2.pdf used on input line 552.
+Package pdftex.def Info: VBilder/bha2.pdf used on input line 586.
 (pdftex.def)             Requested size: 85.35826pt x 85.3499pt.
 
-[22
+[23
 
 ]
 File: VBilder/bha2.pdf Graphic file (type pdf)
  <use VBilder/bha2.pdf>
-Package pdftex.def Info: VBilder/bha2.pdf used on input line 552.
-(pdftex.def)             Requested size: 85.35826pt x 85.3499pt.
- [23
-
-]
-File: VBilder/bha2.pdf Graphic file (type pdf)
- <use VBilder/bha2.pdf>
-Package pdftex.def Info: VBilder/bha2.pdf used on input line 552.
+Package pdftex.def Info: VBilder/bha2.pdf used on input line 586.
 (pdftex.def)             Requested size: 85.35826pt x 85.3499pt.
  [24
 
 ]
-<Plots/b2b_2.pdf, id=529, 453.35774pt x 251.47615pt>
+File: VBilder/bha2.pdf Graphic file (type pdf)
+ <use VBilder/bha2.pdf>
+Package pdftex.def Info: VBilder/bha2.pdf used on input line 586.
+(pdftex.def)             Requested size: 85.35826pt x 85.3499pt.
+ [25
+
+]
+<Plots/b2b_2.pdf, id=542, 453.35774pt x 251.47615pt>
 File: Plots/b2b_2.pdf Graphic file (type pdf)
  <use Plots/b2b_2.pdf>
-Package pdftex.def Info: Plots/b2b_2.pdf used on input line 563.
+Package pdftex.def Info: Plots/b2b_2.pdf used on input line 597.
 (pdftex.def)             Requested size: 307.28987pt x 170.45662pt.
 
-[25
+[26
 
  <./Plots/b2b_2.pdf>]
-<VBilder/b2b_2.pdf, id=538, 453.35774pt x 251.47615pt>
+<VBilder/b2b_2.pdf, id=550, 453.35774pt x 251.47615pt>
 File: VBilder/b2b_2.pdf Graphic file (type pdf)
  <use VBilder/b2b_2.pdf>
-Package pdftex.def Info: VBilder/b2b_2.pdf used on input line 619.
+Package pdftex.def Info: VBilder/b2b_2.pdf used on input line 658.
 (pdftex.def)             Requested size: 128.0374pt x 71.02295pt.
 
-<VBilder/b2b_3.pdf, id=539, 453.35774pt x 251.47615pt>
+<VBilder/b2b_3.pdf, id=551, 453.35774pt x 251.47615pt>
 File: VBilder/b2b_3.pdf Graphic file (type pdf)
  <use VBilder/b2b_3.pdf>
-Package pdftex.def Info: VBilder/b2b_3.pdf used on input line 619.
+Package pdftex.def Info: VBilder/b2b_3.pdf used on input line 658.
 (pdftex.def)             Requested size: 128.0374pt x 71.02295pt.
 
-<VBilder/hb2b_MCP3.pdf, id=540, 569.12625pt x 208.78pt>
+<VBilder/hb2b_MCP3.pdf, id=552, 569.12625pt x 208.78pt>
 File: VBilder/hb2b_MCP3.pdf Graphic file (type pdf)
 
 <use VBilder/hb2b_MCP3.pdf>
-Package pdftex.def Info: VBilder/hb2b_MCP3.pdf used on input line 619.
+Package pdftex.def Info: VBilder/hb2b_MCP3.pdf used on input line 658.
 (pdftex.def)             Requested size: 307.28987pt x 112.73312pt.
- [26
+ [27
 
  <./VBilder/b2b_2.pdf> <./VBilder/b2b_3.pdf
 
@@ -1759,524 +1782,430 @@ ltiple pdfs with page group included in a single page
 File: VBilder/b2b_2.pdf Graphic file (type pdf)
 
 <use VBilder/b2b_2.pdf>
-Package pdftex.def Info: VBilder/b2b_2.pdf used on input line 619.
+Package pdftex.def Info: VBilder/b2b_2.pdf used on input line 658.
 (pdftex.def)             Requested size: 128.0374pt x 71.02295pt.
 File: VBilder/b2b_3.pdf Graphic file (type pdf)
  <use VBilder/b2b_3.pdf>
-Package pdftex.def Info: VBilder/b2b_3.pdf used on input line 619.
+Package pdftex.def Info: VBilder/b2b_3.pdf used on input line 658.
 (pdftex.def)             Requested size: 128.0374pt x 71.02295pt.
 
-<VBilder/hb2b_DataP3.pdf, id=593, 569.12625pt x 208.78pt>
+<VBilder/hb2b_DataP3.pdf, id=605, 569.12625pt x 208.78pt>
 File: VBilder/hb2b_DataP3.pdf Graphic file (type pdf)
 
 <use VBilder/hb2b_DataP3.pdf>
-Package pdftex.def Info: VBilder/hb2b_DataP3.pdf used on input line 619.
+Package pdftex.def Info: VBilder/hb2b_DataP3.pdf used on input line 658.
 (pdftex.def)             Requested size: 307.28987pt x 112.73312pt.
- [27
+ [28
 
  <./VBilder/hb2b_DataP3.pdf, page is rotated 90 degrees>]
-Overfull \hbox (7.7519pt too wide) in paragraph at lines 708--708
+Overfull \hbox (7.7519pt too wide) in paragraph at lines 759--759
  [] 
  []
 
-<VBilder/em_1.pdf, id=642, 564.1366pt x 740.17323pt>
-File: VBilder/em_1.pdf Graphic file (type pdf)
- <use VBilder/em_1.pdf>
-Package pdftex.def Info: VBilder/em_1.pdf used on input line 708.
-(pdftex.def)             Requested size: 184.9429pt x 242.65414pt.
+<VPlots/empty.pdf, id=654, 569.12625pt x 341.275pt>
+File: VPlots/empty.pdf Graphic file (type pdf)
+ <use VPlots/empty.pdf>
+Package pdftex.def Info: VPlots/empty.pdf used on input line 759.
+(pdftex.def)             Requested size: 184.9429pt x 110.90263pt.
 
-Overfull \hbox (4.91853pt too wide) in paragraph at lines 708--708
- [] 
- []
-
-[28
-
- <./VBilder/em_1.pdf>]
-Overfull \hbox (7.7519pt too wide) in paragraph at lines 708--708
- [] 
- []
-
-<VBilder/em_2.pdf, id=1894, 564.1366pt x 740.17323pt>
-File: VBilder/em_2.pdf Graphic file (type pdf)
- <use VBilder/em_2.pdf>
-Package pdftex.def Info: VBilder/em_2.pdf used on input line 708.
-(pdftex.def)             Requested size: 184.9429pt x 242.65414pt.
-
-Overfull \hbox (4.91853pt too wide) in paragraph at lines 708--708
+Overfull \hbox (4.91853pt too wide) in paragraph at lines 759--759
  [] 
  []
 
 [29
 
- <./VBilder/em_2.pdf>]
-Overfull \hbox (7.7519pt too wide) in paragraph at lines 708--708
+ <./VPlots/empty.pdf, page is rotated 90 degrees>]
+Overfull \hbox (7.7519pt too wide) in paragraph at lines 759--759
  [] 
  []
 
-<VBilder/RTPMemD_MC.pdf, id=3146, 564.1075pt x 739.76375pt>
-File: VBilder/RTPMemD_MC.pdf Graphic file (type pdf)
+<VBilder/em_1.pdf, id=703, 564.1366pt x 740.17323pt>
+File: VBilder/em_1.pdf Graphic file (type pdf)
+ <use VBilder/em_1.pdf>
+Package pdftex.def Info: VBilder/em_1.pdf used on input line 759.
+(pdftex.def)             Requested size: 184.9429pt x 242.65414pt.
 
-<use VBilder/RTPMemD_MC.pdf>
-Package pdftex.def Info: VBilder/RTPMemD_MC.pdf used on input line 708.
-(pdftex.def)             Requested size: 184.9429pt x 242.53119pt.
-
-Overfull \hbox (4.91853pt too wide) in paragraph at lines 708--708
+Overfull \hbox (4.91853pt too wide) in paragraph at lines 759--759
  [] 
  []
 
 [30
 
- <./VBilder/RTPMemD_MC.pdf>]
-Overfull \hbox (7.7519pt too wide) in paragraph at lines 708--708
+ <./VBilder/em_1.pdf>]
+Overfull \hbox (7.7519pt too wide) in paragraph at lines 759--759
  [] 
  []
 
-File: VBilder/RTPMemD_MC.pdf Graphic file (type pdf)
-<use VBilder/RTPMemD_MC.pdf>
-Package pdftex.def Info: VBilder/RTPMemD_MC.pdf used on input line 708.
-(pdftex.def)             Requested size: 184.9429pt x 242.53119pt.
+<VBilder/em_2.pdf, id=1955, 564.1366pt x 740.17323pt>
+File: VBilder/em_2.pdf Graphic file (type pdf)
+ <use VBilder/em_2.pdf>
+Package pdftex.def Info: VBilder/em_2.pdf used on input line 759.
+(pdftex.def)             Requested size: 184.9429pt x 242.65414pt.
 
-Overfull \hbox (4.91853pt too wide) in paragraph at lines 708--708
+Overfull \hbox (4.91853pt too wide) in paragraph at lines 759--759
  [] 
  []
 
 [31
 
+ <./VBilder/em_2.pdf>]
+Overfull \hbox (7.7519pt too wide) in paragraph at lines 759--759
+ [] 
+ []
+
+<VBilder/RTPMemD_MC.pdf, id=3209, 564.1075pt x 739.76375pt>
+File: VBilder/RTPMemD_MC.pdf Graphic file (type pdf)
+
+<use VBilder/RTPMemD_MC.pdf>
+Package pdftex.def Info: VBilder/RTPMemD_MC.pdf used on input line 759.
+(pdftex.def)             Requested size: 184.9429pt x 242.53119pt.
+
+Overfull \hbox (4.91853pt too wide) in paragraph at lines 759--759
+ [] 
+ []
+
+[32
+
+ <./VBilder/RTPMemD_MC.pdf>]
+Overfull \hbox (7.7519pt too wide) in paragraph at lines 759--759
+ [] 
+ []
+
+File: VBilder/RTPMemD_MC.pdf Graphic file (type pdf)
+<use VBilder/RTPMemD_MC.pdf>
+Package pdftex.def Info: VBilder/RTPMemD_MC.pdf used on input line 759.
+(pdftex.def)             Requested size: 184.9429pt x 242.53119pt.
+
+Overfull \hbox (4.91853pt too wide) in paragraph at lines 759--759
+ [] 
+ []
+
+[33
+
 ]
-Overfull \hbox (7.7519pt too wide) in paragraph at lines 708--708
+Overfull \hbox (7.7519pt too wide) in paragraph at lines 759--759
  [] 
  []
 
 
-Overfull \hbox (4.91853pt too wide) in paragraph at lines 708--708
+Overfull \hbox (4.91853pt too wide) in paragraph at lines 759--759
  [] 
  []
 
-<VBilder/RTPMepD_MC.pdf, id=3202, 564.1075pt x 739.76375pt>
+<VBilder/RTPMepD_MC.pdf, id=3263, 564.1075pt x 739.76375pt>
 File: VBilder/RTPMepD_MC.pdf Graphic file (type pdf)
 
 <use VBilder/RTPMepD_MC.pdf>
-Package pdftex.def Info: VBilder/RTPMepD_MC.pdf used on input line 708.
+Package pdftex.def Info: VBilder/RTPMepD_MC.pdf used on input line 759.
 (pdftex.def)             Requested size: 184.9429pt x 242.53119pt.
- [32
-
- <./VBilder/RTPMepD_MC.pdf>] [33
-
-]
-<VPlots/P3/xCEffTP_MCDataP3.pdf, id=3257, 569.12625pt x 556.0775pt>
-File: VPlots/P3/xCEffTP_MCDataP3.pdf Graphic file (type pdf)
-
-<use VPlots/P3/xCEffTP_MCDataP3.pdf>
-Package pdftex.def Info: VPlots/P3/xCEffTP_MCDataP3.pdf used on input line 772.
-
-(pdftex.def)             Requested size: 256.0748pt x 250.21559pt.
  [34
 
- <./VPlots/P3/xCEffTP_MCDataP3.pdf, page is rotated 90 degrees>]
-File: VPlots/P3/xCEffTP_MCDataP3.pdf Graphic file (type pdf)
- <use VPlots/P3/xCEffTP_MCDataP3.pdf>
-Package pdftex.def Info: VPlots/P3/xCEffTP_MCDataP3.pdf used on input line 772.
-
-(pdftex.def)             Requested size: 256.0748pt x 250.21559pt.
- [35
+ <./VBilder/RTPMepD_MC.pdf>] [35
 
 ]
+<VPlots/P3/xCEffTP_MCDataP3.pdf, id=3318, 569.12625pt x 556.0775pt>
 File: VPlots/P3/xCEffTP_MCDataP3.pdf Graphic file (type pdf)
 
 <use VPlots/P3/xCEffTP_MCDataP3.pdf>
-Package pdftex.def Info: VPlots/P3/xCEffTP_MCDataP3.pdf used on input line 772.
+Package pdftex.def Info: VPlots/P3/xCEffTP_MCDataP3.pdf used on input line 849.
 
 (pdftex.def)             Requested size: 256.0748pt x 250.21559pt.
  [36
 
-]
-<VPlots/P3/xPMThetaemP3.pdf, id=3319, 569.12625pt x 641.39626pt>
+ <./VPlots/P3/xCEffTP_MCDataP3.pdf, page is rotated 90 degrees>]
+<VPlots/P3/xCEffTP_MCDataP3em.pdf, id=3371, 569.45647pt x 556.76408pt>
+File: VPlots/P3/xCEffTP_MCDataP3em.pdf Graphic file (type pdf)
+
+<use VPlots/P3/xCEffTP_MCDataP3em.pdf>
+Package pdftex.def Info: VPlots/P3/xCEffTP_MCDataP3em.pdf used on input line 84
+9.
+(pdftex.def)             Requested size: 256.0748pt x 250.3716pt.
+ [37
+
+ <./VPlots/P3/xCEffTP_MCDataP3em.pdf>] <VPlots/P3/xCEffTP_DataemP3.pdf, id=3828
+, 569.12625pt x 556.0775pt>
+File: VPlots/P3/xCEffTP_DataemP3.pdf Graphic file (type pdf)
+
+<use VPlots/P3/xCEffTP_DataemP3.pdf>
+Package pdftex.def Info: VPlots/P3/xCEffTP_DataemP3.pdf used on input line 849.
+
+(pdftex.def)             Requested size: 199.16928pt x 194.60458pt.
+ [38
+
+ <./VPlots/P3/xCEffTP_DataemP3.pdf, page is rotated 90 degrees>]
+<VPlots/P3/xCEffTP_MCDataP3ep.pdf, id=3877, 569.45647pt x 556.76408pt>
+File: VPlots/P3/xCEffTP_MCDataP3ep.pdf Graphic file (type pdf)
+
+<use VPlots/P3/xCEffTP_MCDataP3ep.pdf>
+Package pdftex.def Info: VPlots/P3/xCEffTP_MCDataP3ep.pdf used on input line 84
+9.
+(pdftex.def)             Requested size: 256.0748pt x 250.3716pt.
+ [39
+
+ <./VPlots/P3/xCEffTP_MCDataP3ep.pdf>] <VPlots/P3/xCEffTP_DataepP3.pdf, id=4332
+, 569.12625pt x 556.0775pt>
+File: VPlots/P3/xCEffTP_DataepP3.pdf Graphic file (type pdf)
+
+<use VPlots/P3/xCEffTP_DataepP3.pdf>
+Package pdftex.def Info: VPlots/P3/xCEffTP_DataepP3.pdf used on input line 849.
+
+(pdftex.def)             Requested size: 199.16928pt x 194.60458pt.
+ [40
+
+ <./VPlots/P3/xCEffTP_DataepP3.pdf, page is rotated 90 degrees>]
+<VPlots/P3/xPMThetaemP3.pdf, id=4381, 569.12625pt x 641.39626pt>
 File: VPlots/P3/xPMThetaemP3.pdf Graphic file (type pdf)
 
 <use VPlots/P3/xPMThetaemP3.pdf>
-Package pdftex.def Info: VPlots/P3/xPMThetaemP3.pdf used on input line 1041.
+Package pdftex.def Info: VPlots/P3/xPMThetaemP3.pdf used on input line 1118.
 (pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
 
-<VPlots/P3/xPMThetaepP3.pdf, id=3320, 569.12625pt x 641.39626pt>
+<VPlots/P3/xPMThetaepP3.pdf, id=4382, 569.12625pt x 641.39626pt>
 File: VPlots/P3/xPMThetaepP3.pdf Graphic file (type pdf)
 
 <use VPlots/P3/xPMThetaepP3.pdf>
-Package pdftex.def Info: VPlots/P3/xPMThetaepP3.pdf used on input line 1041.
+Package pdftex.def Info: VPlots/P3/xPMThetaepP3.pdf used on input line 1118.
 (pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
- [37
+ [41
 
  <./VPlots/P3/xPMThetaemP3.pdf> <./VPlots/P3/xPMThetaepP3.pdf>]
 File: VPlots/P3/xPMThetaemP3.pdf Graphic file (type pdf)
  <use VPlots/P3/xPMThetaemP3.pdf>
-Package pdftex.def Info: VPlots/P3/xPMThetaemP3.pdf used on input line 1041.
-(pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
-File: VPlots/P3/xPMThetaepP3.pdf Graphic file (type pdf)
-
-<use VPlots/P3/xPMThetaepP3.pdf>
-Package pdftex.def Info: VPlots/P3/xPMThetaepP3.pdf used on input line 1041.
-(pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
- [38
-
-]
-File: VPlots/P3/xPMThetaemP3.pdf Graphic file (type pdf)
- <use VPlots/P3/xPMThetaemP3.pdf>
-Package pdftex.def Info: VPlots/P3/xPMThetaemP3.pdf used on input line 1041.
-(pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
-File: VPlots/P3/xPMThetaepP3.pdf Graphic file (type pdf)
-
-<use VPlots/P3/xPMThetaepP3.pdf>
-Package pdftex.def Info: VPlots/P3/xPMThetaepP3.pdf used on input line 1041.
-(pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
- [39
-
-]
-File: VPlots/P3/xPMThetaemP3.pdf Graphic file (type pdf)
- <use VPlots/P3/xPMThetaemP3.pdf>
-Package pdftex.def Info: VPlots/P3/xPMThetaemP3.pdf used on input line 1041.
-(pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
-File: VPlots/P3/xPMThetaepP3.pdf Graphic file (type pdf)
-
-<use VPlots/P3/xPMThetaepP3.pdf>
-Package pdftex.def Info: VPlots/P3/xPMThetaepP3.pdf used on input line 1041.
-(pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
- [40
-
-]
-File: VPlots/P3/xPMThetaemP3.pdf Graphic file (type pdf)
- <use VPlots/P3/xPMThetaemP3.pdf>
-Package pdftex.def Info: VPlots/P3/xPMThetaemP3.pdf used on input line 1041.
-(pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
-File: VPlots/P3/xPMThetaepP3.pdf Graphic file (type pdf)
-
-<use VPlots/P3/xPMThetaepP3.pdf>
-Package pdftex.def Info: VPlots/P3/xPMThetaepP3.pdf used on input line 1041.
-(pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
- [41
-
-]
-File: VPlots/P3/xPMThetaemP3.pdf Graphic file (type pdf)
- <use VPlots/P3/xPMThetaemP3.pdf>
-Package pdftex.def Info: VPlots/P3/xPMThetaemP3.pdf used on input line 1041.
-(pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
-File: VPlots/P3/xPMThetaepP3.pdf Graphic file (type pdf)
-
-<use VPlots/P3/xPMThetaepP3.pdf>
-Package pdftex.def Info: VPlots/P3/xPMThetaepP3.pdf used on input line 1041.
+Package pdftex.def Info: VPlots/P3/xPMThetaemP3.pdf used on input line 1118.
 (pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
  [42
 
 ]
 File: VPlots/P3/xPMThetaemP3.pdf Graphic file (type pdf)
- <use VPlots/P3/xPMThetaemP3.pdf>
-Package pdftex.def Info: VPlots/P3/xPMThetaemP3.pdf used on input line 1041.
-(pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
-File: VPlots/P3/xPMThetaepP3.pdf Graphic file (type pdf)
 
-<use VPlots/P3/xPMThetaepP3.pdf>
-Package pdftex.def Info: VPlots/P3/xPMThetaepP3.pdf used on input line 1041.
+<use VPlots/P3/xPMThetaemP3.pdf>
+Package pdftex.def Info: VPlots/P3/xPMThetaemP3.pdf used on input line 1118.
 (pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
  [43
 
 ]
 File: VPlots/P3/xPMThetaemP3.pdf Graphic file (type pdf)
  <use VPlots/P3/xPMThetaemP3.pdf>
-Package pdftex.def Info: VPlots/P3/xPMThetaemP3.pdf used on input line 1041.
-(pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
-File: VPlots/P3/xPMThetaepP3.pdf Graphic file (type pdf)
-
-<use VPlots/P3/xPMThetaepP3.pdf>
-Package pdftex.def Info: VPlots/P3/xPMThetaepP3.pdf used on input line 1041.
+Package pdftex.def Info: VPlots/P3/xPMThetaemP3.pdf used on input line 1118.
 (pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
  [44
 
 ]
 File: VPlots/P3/xPMThetaemP3.pdf Graphic file (type pdf)
- <use VPlots/P3/xPMThetaemP3.pdf>
-Package pdftex.def Info: VPlots/P3/xPMThetaemP3.pdf used on input line 1041.
-(pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
-File: VPlots/P3/xPMThetaepP3.pdf Graphic file (type pdf)
 
-<use VPlots/P3/xPMThetaepP3.pdf>
-Package pdftex.def Info: VPlots/P3/xPMThetaepP3.pdf used on input line 1041.
+<use VPlots/P3/xPMThetaemP3.pdf>
+Package pdftex.def Info: VPlots/P3/xPMThetaemP3.pdf used on input line 1118.
 (pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
  [45
 
 ]
 File: VPlots/P3/xPMThetaemP3.pdf Graphic file (type pdf)
  <use VPlots/P3/xPMThetaemP3.pdf>
-Package pdftex.def Info: VPlots/P3/xPMThetaemP3.pdf used on input line 1041.
-(pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
-File: VPlots/P3/xPMThetaepP3.pdf Graphic file (type pdf)
-
-<use VPlots/P3/xPMThetaepP3.pdf>
-Package pdftex.def Info: VPlots/P3/xPMThetaepP3.pdf used on input line 1041.
+Package pdftex.def Info: VPlots/P3/xPMThetaemP3.pdf used on input line 1118.
 (pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
  [46
 
 ]
-File: VPlots/P3/xPMThetaemP3.pdf Graphic file (type pdf)
- <use VPlots/P3/xPMThetaemP3.pdf>
-Package pdftex.def Info: VPlots/P3/xPMThetaemP3.pdf used on input line 1041.
-(pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
 File: VPlots/P3/xPMThetaepP3.pdf Graphic file (type pdf)
 
 <use VPlots/P3/xPMThetaepP3.pdf>
-Package pdftex.def Info: VPlots/P3/xPMThetaepP3.pdf used on input line 1041.
+Package pdftex.def Info: VPlots/P3/xPMThetaepP3.pdf used on input line 1118.
 (pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
  [47
 
 ]
-<VPlots/P3/xPMPhiemFCP3.pdf, id=3465, 569.12625pt x 556.0775pt>
+File: VPlots/P3/xPMThetaepP3.pdf Graphic file (type pdf)
+ <use VPlots/P3/xPMThetaepP3.pdf>
+Package pdftex.def Info: VPlots/P3/xPMThetaepP3.pdf used on input line 1118.
+(pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
+ [48
+
+]
+File: VPlots/P3/xPMThetaepP3.pdf Graphic file (type pdf)
+
+<use VPlots/P3/xPMThetaepP3.pdf>
+Package pdftex.def Info: VPlots/P3/xPMThetaepP3.pdf used on input line 1118.
+(pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
+ [49
+
+]
+File: VPlots/P3/xPMThetaepP3.pdf Graphic file (type pdf)
+ <use VPlots/P3/xPMThetaepP3.pdf>
+Package pdftex.def Info: VPlots/P3/xPMThetaepP3.pdf used on input line 1118.
+(pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
+ [50
+
+]
+File: VPlots/P3/xPMThetaepP3.pdf Graphic file (type pdf)
+
+<use VPlots/P3/xPMThetaepP3.pdf>
+Package pdftex.def Info: VPlots/P3/xPMThetaepP3.pdf used on input line 1118.
+(pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
+ [51
+
+]
+<VPlots/P3/xPMPhiemFCP3.pdf, id=4527, 569.12625pt x 556.0775pt>
 File: VPlots/P3/xPMPhiemFCP3.pdf Graphic file (type pdf)
 
 <use VPlots/P3/xPMPhiemFCP3.pdf>
-Package pdftex.def Info: VPlots/P3/xPMPhiemFCP3.pdf used on input line 1137.
+Package pdftex.def Info: VPlots/P3/xPMPhiemFCP3.pdf used on input line 1234.
 (pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
- [48
+ [52
 
  <./VPlots/P3/xPMPhiemFCP3.pdf, page is rotated 90 degrees>]
 File: VPlots/P3/xPMPhiemFCP3.pdf Graphic file (type pdf)
  <use VPlots/P3/xPMPhiemFCP3.pdf>
-Package pdftex.def Info: VPlots/P3/xPMPhiemFCP3.pdf used on input line 1137.
-(pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
- [49
-
-]
-File: VPlots/P3/xPMPhiemFCP3.pdf Graphic file (type pdf)
-
-<use VPlots/P3/xPMPhiemFCP3.pdf>
-Package pdftex.def Info: VPlots/P3/xPMPhiemFCP3.pdf used on input line 1137.
-(pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
- [50
-
-]
-File: VPlots/P3/xPMPhiemFCP3.pdf Graphic file (type pdf)
- <use VPlots/P3/xPMPhiemFCP3.pdf>
-Package pdftex.def Info: VPlots/P3/xPMPhiemFCP3.pdf used on input line 1137.
-(pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
- [51
-
-]
-File: VPlots/P3/xPMPhiemFCP3.pdf Graphic file (type pdf)
-
-<use VPlots/P3/xPMPhiemFCP3.pdf>
-Package pdftex.def Info: VPlots/P3/xPMPhiemFCP3.pdf used on input line 1137.
-(pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
- [52
-
-]
-File: VPlots/P3/xPMPhiemFCP3.pdf Graphic file (type pdf)
- <use VPlots/P3/xPMPhiemFCP3.pdf>
-Package pdftex.def Info: VPlots/P3/xPMPhiemFCP3.pdf used on input line 1137.
+Package pdftex.def Info: VPlots/P3/xPMPhiemFCP3.pdf used on input line 1234.
 (pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
  [53
 
 ]
-<VPlots/P3/xPMPhiemBarrelP3.pdf, id=3542, 569.12625pt x 556.0775pt>
+File: VPlots/P3/xPMPhiemFCP3.pdf Graphic file (type pdf)
+
+<use VPlots/P3/xPMPhiemFCP3.pdf>
+Package pdftex.def Info: VPlots/P3/xPMPhiemFCP3.pdf used on input line 1234.
+(pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
+ [54
+
+]
+File: VPlots/P3/xPMPhiemFCP3.pdf Graphic file (type pdf)
+ <use VPlots/P3/xPMPhiemFCP3.pdf>
+Package pdftex.def Info: VPlots/P3/xPMPhiemFCP3.pdf used on input line 1234.
+(pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
+ [55
+
+]
+File: VPlots/P3/xPMPhiemFCP3.pdf Graphic file (type pdf)
+
+<use VPlots/P3/xPMPhiemFCP3.pdf>
+Package pdftex.def Info: VPlots/P3/xPMPhiemFCP3.pdf used on input line 1234.
+(pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
+ [56
+
+]
+File: VPlots/P3/xPMPhiemFCP3.pdf Graphic file (type pdf)
+ <use VPlots/P3/xPMPhiemFCP3.pdf>
+Package pdftex.def Info: VPlots/P3/xPMPhiemFCP3.pdf used on input line 1234.
+(pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
+ [57
+
+]
+<VPlots/P3/xPMPhiemBarrelP3.pdf, id=4603, 569.12625pt x 556.0775pt>
 File: VPlots/P3/xPMPhiemBarrelP3.pdf Graphic file (type pdf)
 
 <use VPlots/P3/xPMPhiemBarrelP3.pdf>
-Package pdftex.def Info: VPlots/P3/xPMPhiemBarrelP3.pdf used on input line 1231
+Package pdftex.def Info: VPlots/P3/xPMPhiemBarrelP3.pdf used on input line 1328
 .
 (pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
 
-<VPlots/P3/xPMPhiepBarrelP3.pdf, id=3543, 569.12625pt x 556.0775pt>
+<VPlots/P3/xPMPhiepBarrelP3.pdf, id=4604, 569.12625pt x 556.0775pt>
 File: VPlots/P3/xPMPhiepBarrelP3.pdf Graphic file (type pdf)
 
 <use VPlots/P3/xPMPhiepBarrelP3.pdf>
-Package pdftex.def Info: VPlots/P3/xPMPhiepBarrelP3.pdf used on input line 1231
+Package pdftex.def Info: VPlots/P3/xPMPhiepBarrelP3.pdf used on input line 1328
 .
 (pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
- [54
+ [58
 
  <./VPlots/P3/xPMPhiemBarrelP3.pdf, page is rotated 90 degrees> <./VPlots/P3/xP
 MPhiepBarrelP3.pdf, page is rotated 90 degrees>]
 File: VPlots/P3/xPMPhiemBarrelP3.pdf Graphic file (type pdf)
  <use VPlots/P3/xPMPhiemBarrelP3.pdf>
-Package pdftex.def Info: VPlots/P3/xPMPhiemBarrelP3.pdf used on input line 1231
+Package pdftex.def Info: VPlots/P3/xPMPhiemBarrelP3.pdf used on input line 1328
 .
-(pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
-File: VPlots/P3/xPMPhiepBarrelP3.pdf Graphic file (type pdf)
-
-<use VPlots/P3/xPMPhiepBarrelP3.pdf>
-Package pdftex.def Info: VPlots/P3/xPMPhiepBarrelP3.pdf used on input line 1231
-.
-(pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
- [55
-
-]
-File: VPlots/P3/xPMPhiemBarrelP3.pdf Graphic file (type pdf)
- <use VPlots/P3/xPMPhiemBarrelP3.pdf>
-Package pdftex.def Info: VPlots/P3/xPMPhiemBarrelP3.pdf used on input line 1231
-.
-(pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
-File: VPlots/P3/xPMPhiepBarrelP3.pdf Graphic file (type pdf)
-
-<use VPlots/P3/xPMPhiepBarrelP3.pdf>
-Package pdftex.def Info: VPlots/P3/xPMPhiepBarrelP3.pdf used on input line 1231
-.
-(pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
- [56
-
-]
-File: VPlots/P3/xPMPhiemBarrelP3.pdf Graphic file (type pdf)
- <use VPlots/P3/xPMPhiemBarrelP3.pdf>
-Package pdftex.def Info: VPlots/P3/xPMPhiemBarrelP3.pdf used on input line 1231
-.
-(pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
-File: VPlots/P3/xPMPhiepBarrelP3.pdf Graphic file (type pdf)
-
-<use VPlots/P3/xPMPhiepBarrelP3.pdf>
-Package pdftex.def Info: VPlots/P3/xPMPhiepBarrelP3.pdf used on input line 1231
-.
-(pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
- [57
-
-]
-File: VPlots/P3/xPMPhiemBarrelP3.pdf Graphic file (type pdf)
- <use VPlots/P3/xPMPhiemBarrelP3.pdf>
-Package pdftex.def Info: VPlots/P3/xPMPhiemBarrelP3.pdf used on input line 1231
-.
-(pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
-File: VPlots/P3/xPMPhiepBarrelP3.pdf Graphic file (type pdf)
-
-<use VPlots/P3/xPMPhiepBarrelP3.pdf>
-Package pdftex.def Info: VPlots/P3/xPMPhiepBarrelP3.pdf used on input line 1231
-.
-(pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
- [58
-
-]
-<VPlots/P3/xPMPhiepECP3.pdf, id=3656, 569.12625pt x 556.0775pt>
-File: VPlots/P3/xPMPhiepECP3.pdf Graphic file (type pdf)
-
-<use VPlots/P3/xPMPhiepECP3.pdf>
-Package pdftex.def Info: VPlots/P3/xPMPhiepECP3.pdf used on input line 1329.
 (pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
  [59
 
- <./VPlots/P3/xPMPhiepECP3.pdf, page is rotated 90 degrees>]
-File: VPlots/P3/xPMPhiepECP3.pdf Graphic file (type pdf)
- <use VPlots/P3/xPMPhiepECP3.pdf>
-Package pdftex.def Info: VPlots/P3/xPMPhiepECP3.pdf used on input line 1329.
+]
+File: VPlots/P3/xPMPhiemBarrelP3.pdf Graphic file (type pdf)
+
+<use VPlots/P3/xPMPhiemBarrelP3.pdf>
+Package pdftex.def Info: VPlots/P3/xPMPhiemBarrelP3.pdf used on input line 1328
+.
 (pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
  [60
 
 ]
-File: VPlots/P3/xPMPhiepECP3.pdf Graphic file (type pdf)
-
-<use VPlots/P3/xPMPhiepECP3.pdf>
-Package pdftex.def Info: VPlots/P3/xPMPhiepECP3.pdf used on input line 1329.
+File: VPlots/P3/xPMPhiepBarrelP3.pdf Graphic file (type pdf)
+ <use VPlots/P3/xPMPhiepBarrelP3.pdf>
+Package pdftex.def Info: VPlots/P3/xPMPhiepBarrelP3.pdf used on input line 1328
+.
 (pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
- [61
+
+[61
 
 ]
-File: VPlots/P3/xPMPhiepECP3.pdf Graphic file (type pdf)
- <use VPlots/P3/xPMPhiepECP3.pdf>
-Package pdftex.def Info: VPlots/P3/xPMPhiepECP3.pdf used on input line 1329.
+File: VPlots/P3/xPMPhiepBarrelP3.pdf Graphic file (type pdf)
+ <use VPlots/P3/xPMPhiepBarrelP3.pdf>
+Package pdftex.def Info: VPlots/P3/xPMPhiepBarrelP3.pdf used on input line 1328
+.
 (pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
  [62
 
 ]
-[63
+<VPlots/P3/xPMPhiepECP3.pdf, id=4718, 569.12625pt x 556.0775pt>
+File: VPlots/P3/xPMPhiepECP3.pdf Graphic file (type pdf)
 
-] <VPlots/Comp/cMThetaem_Data.pdf, id=3728, 569.12625pt x 641.39626pt>
-File: VPlots/Comp/cMThetaem_Data.pdf Graphic file (type pdf)
+<use VPlots/P3/xPMPhiepECP3.pdf>
+Package pdftex.def Info: VPlots/P3/xPMPhiepECP3.pdf used on input line 1449.
+(pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
+ [63
 
-<use VPlots/Comp/cMThetaem_Data.pdf>
-Package pdftex.def Info: VPlots/Comp/cMThetaem_Data.pdf used on input line 1542
-.
-(pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
-
-<VPlots/Comp/cMThetaep_Data.pdf, id=3729, 569.12625pt x 641.39626pt>
-File: VPlots/Comp/cMThetaep_Data.pdf Graphic file (type pdf)
-
-<use VPlots/Comp/cMThetaep_Data.pdf>
-Package pdftex.def Info: VPlots/Comp/cMThetaep_Data.pdf used on input line 1542
-.
-(pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
+ <./VPlots/P3/xPMPhiepECP3.pdf, page is rotated 90 degrees>]
+File: VPlots/P3/xPMPhiepECP3.pdf Graphic file (type pdf)
+ <use VPlots/P3/xPMPhiepECP3.pdf>
+Package pdftex.def Info: VPlots/P3/xPMPhiepECP3.pdf used on input line 1449.
+(pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
  [64
 
- <./VPlots/Comp/cMThetaem_Data.pdf> <./VPlots/Comp/cMThetaep_Data.pdf>]
-File: VPlots/Comp/cMThetaem_Data.pdf Graphic file (type pdf)
- <use VPlots/Comp/cMThetaem_Data.pdf>
-Package pdftex.def Info: VPlots/Comp/cMThetaem_Data.pdf used on input line 1542
-.
-(pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
-File: VPlots/Comp/cMThetaep_Data.pdf Graphic file (type pdf)
+]
+File: VPlots/P3/xPMPhiepECP3.pdf Graphic file (type pdf)
 
-<use VPlots/Comp/cMThetaep_Data.pdf>
-Package pdftex.def Info: VPlots/Comp/cMThetaep_Data.pdf used on input line 1542
-.
-(pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
+<use VPlots/P3/xPMPhiepECP3.pdf>
+Package pdftex.def Info: VPlots/P3/xPMPhiepECP3.pdf used on input line 1449.
+(pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
  [65
 
 ]
-File: VPlots/Comp/cMThetaem_Data.pdf Graphic file (type pdf)
- <use VPlots/Comp/cMThetaem_Data.pdf>
-Package pdftex.def Info: VPlots/Comp/cMThetaem_Data.pdf used on input line 1542
-.
-(pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
-File: VPlots/Comp/cMThetaep_Data.pdf Graphic file (type pdf)
-
-<use VPlots/Comp/cMThetaep_Data.pdf>
-Package pdftex.def Info: VPlots/Comp/cMThetaep_Data.pdf used on input line 1542
-.
-(pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
+File: VPlots/P3/xPMPhiepECP3.pdf Graphic file (type pdf)
+ <use VPlots/P3/xPMPhiepECP3.pdf>
+Package pdftex.def Info: VPlots/P3/xPMPhiepECP3.pdf used on input line 1449.
+(pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
  [66
 
 ]
+[67
+
+] <VPlots/Comp/cMThetaem_Data.pdf, id=4790, 569.12625pt x 641.39626pt>
 File: VPlots/Comp/cMThetaem_Data.pdf Graphic file (type pdf)
- <use VPlots/Comp/cMThetaem_Data.pdf>
-Package pdftex.def Info: VPlots/Comp/cMThetaem_Data.pdf used on input line 1542
+
+<use VPlots/Comp/cMThetaem_Data.pdf>
+Package pdftex.def Info: VPlots/Comp/cMThetaem_Data.pdf used on input line 1662
 .
 (pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
+
+<VPlots/Comp/cMThetaep_Data.pdf, id=4791, 569.12625pt x 641.39626pt>
 File: VPlots/Comp/cMThetaep_Data.pdf Graphic file (type pdf)
 
 <use VPlots/Comp/cMThetaep_Data.pdf>
-Package pdftex.def Info: VPlots/Comp/cMThetaep_Data.pdf used on input line 1542
-.
-(pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
- [67
-
-]
-File: VPlots/Comp/cMThetaem_Data.pdf Graphic file (type pdf)
- <use VPlots/Comp/cMThetaem_Data.pdf>
-Package pdftex.def Info: VPlots/Comp/cMThetaem_Data.pdf used on input line 1542
-.
-(pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
-File: VPlots/Comp/cMThetaep_Data.pdf Graphic file (type pdf)
-
-<use VPlots/Comp/cMThetaep_Data.pdf>
-Package pdftex.def Info: VPlots/Comp/cMThetaep_Data.pdf used on input line 1542
+Package pdftex.def Info: VPlots/Comp/cMThetaep_Data.pdf used on input line 1662
 .
 (pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
  [68
 
-]
+ <./VPlots/Comp/cMThetaem_Data.pdf> <./VPlots/Comp/cMThetaep_Data.pdf>]
 File: VPlots/Comp/cMThetaem_Data.pdf Graphic file (type pdf)
  <use VPlots/Comp/cMThetaem_Data.pdf>
-Package pdftex.def Info: VPlots/Comp/cMThetaem_Data.pdf used on input line 1542
-.
-(pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
-File: VPlots/Comp/cMThetaep_Data.pdf Graphic file (type pdf)
-
-<use VPlots/Comp/cMThetaep_Data.pdf>
-Package pdftex.def Info: VPlots/Comp/cMThetaep_Data.pdf used on input line 1542
+Package pdftex.def Info: VPlots/Comp/cMThetaem_Data.pdf used on input line 1662
 .
 (pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
  [69
 
 ]
 File: VPlots/Comp/cMThetaem_Data.pdf Graphic file (type pdf)
- <use VPlots/Comp/cMThetaem_Data.pdf>
-Package pdftex.def Info: VPlots/Comp/cMThetaem_Data.pdf used on input line 1542
-.
-(pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
-File: VPlots/Comp/cMThetaep_Data.pdf Graphic file (type pdf)
 
-<use VPlots/Comp/cMThetaep_Data.pdf>
-Package pdftex.def Info: VPlots/Comp/cMThetaep_Data.pdf used on input line 1542
+<use VPlots/Comp/cMThetaem_Data.pdf>
+Package pdftex.def Info: VPlots/Comp/cMThetaem_Data.pdf used on input line 1662
 .
 (pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
  [70
@@ -2284,98 +2213,132 @@ Package pdftex.def Info: VPlots/Comp/cMThetaep_Data.pdf used on input line 1542
 ]
 File: VPlots/Comp/cMThetaem_Data.pdf Graphic file (type pdf)
  <use VPlots/Comp/cMThetaem_Data.pdf>
-Package pdftex.def Info: VPlots/Comp/cMThetaem_Data.pdf used on input line 1542
+Package pdftex.def Info: VPlots/Comp/cMThetaem_Data.pdf used on input line 1662
 .
 (pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
+
+[71
+
+]
+File: VPlots/Comp/cMThetaep_Data.pdf Graphic file (type pdf)
+ <use VPlots/Comp/cMThetaep_Data.pdf>
+Package pdftex.def Info: VPlots/Comp/cMThetaep_Data.pdf used on input line 1662
+.
+(pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
+ [72
+
+]
 File: VPlots/Comp/cMThetaep_Data.pdf Graphic file (type pdf)
 
 <use VPlots/Comp/cMThetaep_Data.pdf>
-Package pdftex.def Info: VPlots/Comp/cMThetaep_Data.pdf used on input line 1542
+Package pdftex.def Info: VPlots/Comp/cMThetaep_Data.pdf used on input line 1662
 .
 (pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
- [71
-
-]
-<VPlots/Comp/cMPhiemFC_Data.pdf, id=3858, 569.12625pt x 556.0775pt>
-File: VPlots/Comp/cMPhiemFC_Data.pdf Graphic file (type pdf)
-
-<use VPlots/Comp/cMPhiemFC_Data.pdf>
-Package pdftex.def Info: VPlots/Comp/cMPhiemFC_Data.pdf used on input line 1646
-.
-(pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
- [72
-
- <./VPlots/Comp/cMPhiemFC_Data.pdf, page is rotated 90 degrees>]
-File: VPlots/Comp/cMPhiemFC_Data.pdf Graphic file (type pdf)
- <use VPlots/Comp/cMPhiemFC_Data.pdf>
-Package pdftex.def Info: VPlots/Comp/cMPhiemFC_Data.pdf used on input line 1646
-.
-(pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
  [73
 
 ]
-File: VPlots/Comp/cMPhiemFC_Data.pdf Graphic file (type pdf)
-
-<use VPlots/Comp/cMPhiemFC_Data.pdf>
-Package pdftex.def Info: VPlots/Comp/cMPhiemFC_Data.pdf used on input line 1646
+File: VPlots/Comp/cMThetaep_Data.pdf Graphic file (type pdf)
+ <use VPlots/Comp/cMThetaep_Data.pdf>
+Package pdftex.def Info: VPlots/Comp/cMThetaep_Data.pdf used on input line 1662
 .
-(pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
- [74
+(pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
+
+[74
 
 ]
-File: VPlots/Comp/cMPhiemFC_Data.pdf Graphic file (type pdf)
- <use VPlots/Comp/cMPhiemFC_Data.pdf>
-Package pdftex.def Info: VPlots/Comp/cMPhiemFC_Data.pdf used on input line 1646
+File: VPlots/Comp/cMThetaem_Data.pdf Graphic file (type pdf)
+ <use VPlots/Comp/cMThetaem_Data.pdf>
+Package pdftex.def Info: VPlots/Comp/cMThetaem_Data.pdf used on input line 1662
 .
-(pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
+(pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
+File: VPlots/Comp/cMThetaep_Data.pdf Graphic file (type pdf)
+ <use VPlots/Comp/cMThetaep_Data.pdf>
+Package pdftex.def Info: VPlots/Comp/cMThetaep_Data.pdf used on input line 1662
+.
+(pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
 
 [75
 
-]
+] <VPlots/Comp/cMPhiemFC_Data.pdf, id=4920, 569.12625pt x 556.0775pt>
 File: VPlots/Comp/cMPhiemFC_Data.pdf Graphic file (type pdf)
- <use VPlots/Comp/cMPhiemFC_Data.pdf>
-Package pdftex.def Info: VPlots/Comp/cMPhiemFC_Data.pdf used on input line 1646
+
+<use VPlots/Comp/cMPhiemFC_Data.pdf>
+Package pdftex.def Info: VPlots/Comp/cMPhiemFC_Data.pdf used on input line 1766
 .
 (pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
  [76
 
-]
-<VPlots/Comp/cMPhiepEC_Data.pdf, id=3929, 569.12625pt x 556.0775pt>
-File: VPlots/Comp/cMPhiepEC_Data.pdf Graphic file (type pdf)
-
-<use VPlots/Comp/cMPhiepEC_Data.pdf>
-Package pdftex.def Info: VPlots/Comp/cMPhiepEC_Data.pdf used on input line 1736
+ <./VPlots/Comp/cMPhiemFC_Data.pdf, page is rotated 90 degrees>]
+File: VPlots/Comp/cMPhiemFC_Data.pdf Graphic file (type pdf)
+ <use VPlots/Comp/cMPhiemFC_Data.pdf>
+Package pdftex.def Info: VPlots/Comp/cMPhiemFC_Data.pdf used on input line 1766
 .
 (pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
  [77
 
- <./VPlots/Comp/cMPhiepEC_Data.pdf, page is rotated 90 degrees>]
-File: VPlots/Comp/cMPhiepEC_Data.pdf Graphic file (type pdf)
- <use VPlots/Comp/cMPhiepEC_Data.pdf>
-Package pdftex.def Info: VPlots/Comp/cMPhiepEC_Data.pdf used on input line 1736
+]
+File: VPlots/Comp/cMPhiemFC_Data.pdf Graphic file (type pdf)
+
+<use VPlots/Comp/cMPhiemFC_Data.pdf>
+Package pdftex.def Info: VPlots/Comp/cMPhiemFC_Data.pdf used on input line 1766
 .
 (pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
  [78
 
 ]
+File: VPlots/Comp/cMPhiemFC_Data.pdf Graphic file (type pdf)
+ <use VPlots/Comp/cMPhiemFC_Data.pdf>
+Package pdftex.def Info: VPlots/Comp/cMPhiemFC_Data.pdf used on input line 1766
+.
+(pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
+
+[79
+
+]
+File: VPlots/Comp/cMPhiemFC_Data.pdf Graphic file (type pdf)
+ <use VPlots/Comp/cMPhiemFC_Data.pdf>
+Package pdftex.def Info: VPlots/Comp/cMPhiemFC_Data.pdf used on input line 1766
+.
+(pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
+ [80
+
+]
+<VPlots/Comp/cMPhiepEC_Data.pdf, id=4990, 569.12625pt x 556.0775pt>
 File: VPlots/Comp/cMPhiepEC_Data.pdf Graphic file (type pdf)
 
 <use VPlots/Comp/cMPhiepEC_Data.pdf>
-Package pdftex.def Info: VPlots/Comp/cMPhiepEC_Data.pdf used on input line 1736
+Package pdftex.def Info: VPlots/Comp/cMPhiepEC_Data.pdf used on input line 1856
 .
 (pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
- [79
+ [81
 
-] [80
+ <./VPlots/Comp/cMPhiepEC_Data.pdf, page is rotated 90 degrees>]
+File: VPlots/Comp/cMPhiepEC_Data.pdf Graphic file (type pdf)
+ <use VPlots/Comp/cMPhiepEC_Data.pdf>
+Package pdftex.def Info: VPlots/Comp/cMPhiepEC_Data.pdf used on input line 1856
+.
+(pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
+ [82
 
-] [81
+]
+File: VPlots/Comp/cMPhiepEC_Data.pdf Graphic file (type pdf)
+
+<use VPlots/Comp/cMPhiepEC_Data.pdf>
+Package pdftex.def Info: VPlots/Comp/cMPhiepEC_Data.pdf used on input line 1856
+.
+(pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
+ [83
+
+] [84
+
+] [85
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\translate ' on input line 1761.
+(hyperref)                removing `\translate ' on input line 1881.
 
-[82
+[86
 
 ] (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
@@ -2387,329 +2350,281 @@ LaTeX Font Warning: Font shape `OML/cmss/m/n' undefined
 (Font)              using `OML/cmm/m/it' instead
 (Font)              for symbol `textgreater' on input line 1.
 
-) [83
+) [87
 
-] [84
+] [88
 
-] <VPlots/CCand.pdf, id=4017, 569.12625pt x 207.77625pt>
+] <VPlots/CCand.pdf, id=5079, 569.12625pt x 207.77625pt>
 File: VPlots/CCand.pdf Graphic file (type pdf)
 
 <use VPlots/CCand.pdf>
-Package pdftex.def Info: VPlots/CCand.pdf used on input line 1831.
+Package pdftex.def Info: VPlots/CCand.pdf used on input line 1951.
 (pdftex.def)             Requested size: 307.28987pt x 112.19115pt.
 
-<VPlots/CCandP3.pdf, id=4018, 569.12625pt x 207.77625pt>
+<VPlots/CCandP3.pdf, id=5080, 569.12625pt x 207.77625pt>
 File: VPlots/CCandP3.pdf Graphic file (type pdf)
 
 <use VPlots/CCandP3.pdf>
-Package pdftex.def Info: VPlots/CCandP3.pdf used on input line 1831.
+Package pdftex.def Info: VPlots/CCandP3.pdf used on input line 1951.
 (pdftex.def)             Requested size: 307.28987pt x 112.19115pt.
- [85
+ [89
 
  <./VPlots/CCand.pdf, page is rotated 90 degrees> <./VPlots/CCandP3.pdf, page i
 s rotated 90 degrees>]
-<VBilder/cb2b.pdf, id=4111, 569.12625pt x 207.77625pt>
+<VBilder/cb2b.pdf, id=5172, 569.12625pt x 207.77625pt>
 File: VBilder/cb2b.pdf Graphic file (type pdf)
  <use VBilder/cb2b.pdf>
-Package pdftex.def Info: VBilder/cb2b.pdf used on input line 1843.
+Package pdftex.def Info: VBilder/cb2b.pdf used on input line 1963.
 (pdftex.def)             Requested size: 307.28987pt x 112.19115pt.
 
-<VBilder/cb2bMC.pdf, id=4112, 569.12625pt x 207.77625pt>
+<VBilder/cb2bMC.pdf, id=5173, 569.12625pt x 207.77625pt>
 File: VBilder/cb2bMC.pdf Graphic file (type pdf)
 
 <use VBilder/cb2bMC.pdf>
-Package pdftex.def Info: VBilder/cb2bMC.pdf used on input line 1843.
+Package pdftex.def Info: VBilder/cb2bMC.pdf used on input line 1963.
 (pdftex.def)             Requested size: 307.28987pt x 112.19115pt.
- [86
+ [90
 
  <./VBilder/cb2b.pdf, page is rotated 90 degrees> <./VBilder/cb2bMC.pdf, page i
 s rotated 90 degrees>]
-<VBilder/b2b_Data.pdf, id=4205, 569.12625pt x 208.78pt>
+<VBilder/b2b_Data.pdf, id=5266, 569.12625pt x 208.78pt>
 File: VBilder/b2b_Data.pdf Graphic file (type pdf)
 
 <use VBilder/b2b_Data.pdf>
-Package pdftex.def Info: VBilder/b2b_Data.pdf used on input line 1850.
+Package pdftex.def Info: VBilder/b2b_Data.pdf used on input line 1970.
 (pdftex.def)             Requested size: 307.28987pt x 112.73312pt.
 
-<VBilder/b2b_MC.pdf, id=4206, 569.12625pt x 208.78pt>
+<VBilder/b2b_MC.pdf, id=5267, 569.12625pt x 208.78pt>
 File: VBilder/b2b_MC.pdf Graphic file (type pdf)
  <use VBilder/b2b_MC.pdf>
-Package pdftex.def Info: VBilder/b2b_MC.pdf used on input line 1850.
+Package pdftex.def Info: VBilder/b2b_MC.pdf used on input line 1970.
 (pdftex.def)             Requested size: 307.28987pt x 112.73312pt.
 
-[87
+[91
 
  <./VBilder/b2b_Data.pdf, page is rotated 90 degrees> <./VBilder/b2b_MC.pdf, pa
 ge is rotated 90 degrees>]
-<VBilder/b2b_DataP3.pdf, id=4298, 569.12625pt x 208.78pt>
+<VBilder/b2b_DataP3.pdf, id=5360, 569.12625pt x 208.78pt>
 File: VBilder/b2b_DataP3.pdf Graphic file (type pdf)
 
 <use VBilder/b2b_DataP3.pdf>
-Package pdftex.def Info: VBilder/b2b_DataP3.pdf used on input line 1856.
+Package pdftex.def Info: VBilder/b2b_DataP3.pdf used on input line 1976.
 (pdftex.def)             Requested size: 307.28987pt x 112.73312pt.
 
-<VBilder/b2b_MCP3.pdf, id=4299, 569.12625pt x 208.78pt>
+<VBilder/b2b_MCP3.pdf, id=5361, 569.12625pt x 208.78pt>
 File: VBilder/b2b_MCP3.pdf Graphic file (type pdf)
 
 <use VBilder/b2b_MCP3.pdf>
-Package pdftex.def Info: VBilder/b2b_MCP3.pdf used on input line 1856.
+Package pdftex.def Info: VBilder/b2b_MCP3.pdf used on input line 1976.
 (pdftex.def)             Requested size: 307.28987pt x 112.73312pt.
- [88
+ [92
 
  <./VBilder/b2b_DataP3.pdf, page is rotated 90 degrees> <./VBilder/b2b_MCP3.pdf
 , page is rotated 90 degrees>]
-<VBilder/DataTrigger.pdf, id=4392, 569.12625pt x 322.20375pt>
+<VBilder/DataTrigger.pdf, id=5453, 569.12625pt x 322.20375pt>
 File: VBilder/DataTrigger.pdf Graphic file (type pdf)
 
 <use VBilder/DataTrigger.pdf>
-Package pdftex.def Info: VBilder/DataTrigger.pdf used on input line 1894.
+Package pdftex.def Info: VBilder/DataTrigger.pdf used on input line 2014.
 (pdftex.def)             Requested size: 184.9429pt x 104.70514pt.
- [89
+ [93
 
- <./VBilder/DataTrigger.pdf, page is rotated 90 degrees>] [90
+ <./VBilder/DataTrigger.pdf, page is rotated 90 degrees>] [94
 
 ]
-<VPlots/P2/xCEffTP_MCData.pdf, id=4449, 569.12625pt x 556.0775pt>
+<VPlots/P2/xCEffTP_MCData.pdf, id=5511, 569.12625pt x 556.0775pt>
 File: VPlots/P2/xCEffTP_MCData.pdf Graphic file (type pdf)
 
 <use VPlots/P2/xCEffTP_MCData.pdf>
-Package pdftex.def Info: VPlots/P2/xCEffTP_MCData.pdf used on input line 1992.
+Package pdftex.def Info: VPlots/P2/xCEffTP_MCData.pdf used on input line 2112.
 (pdftex.def)             Requested size: 256.0748pt x 250.21559pt.
- [91
+ [95
 
  <./VPlots/P2/xCEffTP_MCData.pdf, page is rotated 90 degrees>]
 File: VPlots/P2/xCEffTP_MCData.pdf Graphic file (type pdf)
  <use VPlots/P2/xCEffTP_MCData.pdf>
-Package pdftex.def Info: VPlots/P2/xCEffTP_MCData.pdf used on input line 1992.
+Package pdftex.def Info: VPlots/P2/xCEffTP_MCData.pdf used on input line 2112.
 (pdftex.def)             Requested size: 256.0748pt x 250.21559pt.
- [92
+ [96
 
 ]
 File: VPlots/P2/xCEffTP_MCData.pdf Graphic file (type pdf)
 
 <use VPlots/P2/xCEffTP_MCData.pdf>
-Package pdftex.def Info: VPlots/P2/xCEffTP_MCData.pdf used on input line 1992.
+Package pdftex.def Info: VPlots/P2/xCEffTP_MCData.pdf used on input line 2112.
 (pdftex.def)             Requested size: 256.0748pt x 250.21559pt.
- [93
+ [97
 
 ]
-<VPlots/P2/xPMPhiemFC.pdf, id=4509, 569.12625pt x 556.0775pt>
+<VPlots/P2/xPMPhiemFC.pdf, id=5571, 569.12625pt x 556.0775pt>
 File: VPlots/P2/xPMPhiemFC.pdf Graphic file (type pdf)
 
 <use VPlots/P2/xPMPhiemFC.pdf>
-Package pdftex.def Info: VPlots/P2/xPMPhiemFC.pdf used on input line 2076.
+Package pdftex.def Info: VPlots/P2/xPMPhiemFC.pdf used on input line 2196.
 (pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
- [94
+ [98
 
  <./VPlots/P2/xPMPhiemFC.pdf, page is rotated 90 degrees>]
 File: VPlots/P2/xPMPhiemFC.pdf Graphic file (type pdf)
  <use VPlots/P2/xPMPhiemFC.pdf>
-Package pdftex.def Info: VPlots/P2/xPMPhiemFC.pdf used on input line 2076.
+Package pdftex.def Info: VPlots/P2/xPMPhiemFC.pdf used on input line 2196.
 (pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
- [95
+ [99
 
 ]
 File: VPlots/P2/xPMPhiemFC.pdf Graphic file (type pdf)
 
 <use VPlots/P2/xPMPhiemFC.pdf>
-Package pdftex.def Info: VPlots/P2/xPMPhiemFC.pdf used on input line 2076.
+Package pdftex.def Info: VPlots/P2/xPMPhiemFC.pdf used on input line 2196.
 (pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
- [96
+ [100
 
 ]
 File: VPlots/P2/xPMPhiemFC.pdf Graphic file (type pdf)
  <use VPlots/P2/xPMPhiemFC.pdf>
-Package pdftex.def Info: VPlots/P2/xPMPhiemFC.pdf used on input line 2076.
+Package pdftex.def Info: VPlots/P2/xPMPhiemFC.pdf used on input line 2196.
 (pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
- [97
+ [101
 
 ]
 File: VPlots/P2/xPMPhiemFC.pdf Graphic file (type pdf)
 
 <use VPlots/P2/xPMPhiemFC.pdf>
-Package pdftex.def Info: VPlots/P2/xPMPhiemFC.pdf used on input line 2076.
+Package pdftex.def Info: VPlots/P2/xPMPhiemFC.pdf used on input line 2196.
 (pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
- [98
+ [102
 
 ]
-<VPlots/P2/xPMPhiemBarrel.pdf, id=4581, 569.12625pt x 556.0775pt>
+<VPlots/P2/xPMPhiemBarrel.pdf, id=5641, 569.12625pt x 556.0775pt>
 File: VPlots/P2/xPMPhiemBarrel.pdf Graphic file (type pdf)
 
 <use VPlots/P2/xPMPhiemBarrel.pdf>
-Package pdftex.def Info: VPlots/P2/xPMPhiemBarrel.pdf used on input line 2182.
+Package pdftex.def Info: VPlots/P2/xPMPhiemBarrel.pdf used on input line 2302.
 (pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
 
-<VPlots/P2/xPMPhiepBarrel.pdf, id=4582, 569.12625pt x 556.0775pt>
+<VPlots/P2/xPMPhiepBarrel.pdf, id=5642, 569.12625pt x 556.0775pt>
 File: VPlots/P2/xPMPhiepBarrel.pdf Graphic file (type pdf)
 
 <use VPlots/P2/xPMPhiepBarrel.pdf>
-Package pdftex.def Info: VPlots/P2/xPMPhiepBarrel.pdf used on input line 2182.
+Package pdftex.def Info: VPlots/P2/xPMPhiepBarrel.pdf used on input line 2302.
 (pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
- [99
+ [103
 
  <./VPlots/P2/xPMPhiemBarrel.pdf, page is rotated 90 degrees> <./VPlots/P2/xPMP
 hiepBarrel.pdf, page is rotated 90 degrees>]
 File: VPlots/P2/xPMPhiemBarrel.pdf Graphic file (type pdf)
  <use VPlots/P2/xPMPhiemBarrel.pdf>
-Package pdftex.def Info: VPlots/P2/xPMPhiemBarrel.pdf used on input line 2182.
+Package pdftex.def Info: VPlots/P2/xPMPhiemBarrel.pdf used on input line 2302.
 (pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
 File: VPlots/P2/xPMPhiepBarrel.pdf Graphic file (type pdf)
  <use VPlots/P2/xPMPhiepBarrel.pdf>
-Package pdftex.def Info: VPlots/P2/xPMPhiepBarrel.pdf used on input line 2182.
+Package pdftex.def Info: VPlots/P2/xPMPhiepBarrel.pdf used on input line 2302.
 (pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
 
-[100
+[104
 
 ]
 File: VPlots/P2/xPMPhiemBarrel.pdf Graphic file (type pdf)
  <use VPlots/P2/xPMPhiemBarrel.pdf>
-Package pdftex.def Info: VPlots/P2/xPMPhiemBarrel.pdf used on input line 2182.
+Package pdftex.def Info: VPlots/P2/xPMPhiemBarrel.pdf used on input line 2302.
 (pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
 File: VPlots/P2/xPMPhiepBarrel.pdf Graphic file (type pdf)
  <use VPlots/P2/xPMPhiepBarrel.pdf>
-Package pdftex.def Info: VPlots/P2/xPMPhiepBarrel.pdf used on input line 2182.
+Package pdftex.def Info: VPlots/P2/xPMPhiepBarrel.pdf used on input line 2302.
 (pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
 
-[101
+[105
 
 ]
 File: VPlots/P2/xPMPhiemBarrel.pdf Graphic file (type pdf)
  <use VPlots/P2/xPMPhiemBarrel.pdf>
-Package pdftex.def Info: VPlots/P2/xPMPhiemBarrel.pdf used on input line 2182.
+Package pdftex.def Info: VPlots/P2/xPMPhiemBarrel.pdf used on input line 2302.
 (pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
 File: VPlots/P2/xPMPhiepBarrel.pdf Graphic file (type pdf)
  <use VPlots/P2/xPMPhiepBarrel.pdf>
-Package pdftex.def Info: VPlots/P2/xPMPhiepBarrel.pdf used on input line 2182.
+Package pdftex.def Info: VPlots/P2/xPMPhiepBarrel.pdf used on input line 2302.
 (pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
 
-[102
+[106
 
 ]
 File: VPlots/P2/xPMPhiemBarrel.pdf Graphic file (type pdf)
  <use VPlots/P2/xPMPhiemBarrel.pdf>
-Package pdftex.def Info: VPlots/P2/xPMPhiemBarrel.pdf used on input line 2182.
+Package pdftex.def Info: VPlots/P2/xPMPhiemBarrel.pdf used on input line 2302.
 (pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
 File: VPlots/P2/xPMPhiepBarrel.pdf Graphic file (type pdf)
  <use VPlots/P2/xPMPhiepBarrel.pdf>
-Package pdftex.def Info: VPlots/P2/xPMPhiepBarrel.pdf used on input line 2182.
+Package pdftex.def Info: VPlots/P2/xPMPhiepBarrel.pdf used on input line 2302.
 (pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
 
-[103
+[107
 
-] <VPlots/P2/xPMPhiepEC.pdf, id=4695, 569.12625pt x 556.0775pt>
+] <VPlots/P2/xPMPhiepEC.pdf, id=5756, 569.12625pt x 556.0775pt>
 File: VPlots/P2/xPMPhiepEC.pdf Graphic file (type pdf)
 
 <use VPlots/P2/xPMPhiepEC.pdf>
-Package pdftex.def Info: VPlots/P2/xPMPhiepEC.pdf used on input line 2286.
+Package pdftex.def Info: VPlots/P2/xPMPhiepEC.pdf used on input line 2406.
 (pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
- [104
+ [108
 
  <./VPlots/P2/xPMPhiepEC.pdf, page is rotated 90 degrees>]
 File: VPlots/P2/xPMPhiepEC.pdf Graphic file (type pdf)
  <use VPlots/P2/xPMPhiepEC.pdf>
-Package pdftex.def Info: VPlots/P2/xPMPhiepEC.pdf used on input line 2286.
+Package pdftex.def Info: VPlots/P2/xPMPhiepEC.pdf used on input line 2406.
 (pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
- [105
+ [109
 
 ]
 File: VPlots/P2/xPMPhiepEC.pdf Graphic file (type pdf)
 
 <use VPlots/P2/xPMPhiepEC.pdf>
-Package pdftex.def Info: VPlots/P2/xPMPhiepEC.pdf used on input line 2286.
+Package pdftex.def Info: VPlots/P2/xPMPhiepEC.pdf used on input line 2406.
 (pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
- [106
+ [110
 
 ]
 File: VPlots/P2/xPMPhiepEC.pdf Graphic file (type pdf)
  <use VPlots/P2/xPMPhiepEC.pdf>
-Package pdftex.def Info: VPlots/P2/xPMPhiepEC.pdf used on input line 2286.
+Package pdftex.def Info: VPlots/P2/xPMPhiepEC.pdf used on input line 2406.
 (pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
- [107
+ [111
 
 ]
-<VPlots/P2/xPMThetaem.pdf, id=4760, 569.12625pt x 641.39626pt>
+<VPlots/P2/xPMThetaem.pdf, id=5821, 569.12625pt x 641.39626pt>
 File: VPlots/P2/xPMThetaem.pdf Graphic file (type pdf)
 
 <use VPlots/P2/xPMThetaem.pdf>
-Package pdftex.def Info: VPlots/P2/xPMThetaem.pdf used on input line 2627.
+Package pdftex.def Info: VPlots/P2/xPMThetaem.pdf used on input line 2747.
 (pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
 
-<VPlots/P2/xPMThetaep.pdf, id=4761, 569.12625pt x 641.39626pt>
+<VPlots/P2/xPMThetaep.pdf, id=5822, 569.12625pt x 641.39626pt>
 File: VPlots/P2/xPMThetaep.pdf Graphic file (type pdf)
 
 <use VPlots/P2/xPMThetaep.pdf>
-Package pdftex.def Info: VPlots/P2/xPMThetaep.pdf used on input line 2627.
+Package pdftex.def Info: VPlots/P2/xPMThetaep.pdf used on input line 2747.
 (pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
- [108
+ [112
 
  <./VPlots/P2/xPMThetaem.pdf> <./VPlots/P2/xPMThetaep.pdf>]
 File: VPlots/P2/xPMThetaem.pdf Graphic file (type pdf)
  <use VPlots/P2/xPMThetaem.pdf>
-Package pdftex.def Info: VPlots/P2/xPMThetaem.pdf used on input line 2627.
+Package pdftex.def Info: VPlots/P2/xPMThetaem.pdf used on input line 2747.
 (pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
 File: VPlots/P2/xPMThetaep.pdf Graphic file (type pdf)
  <use VPlots/P2/xPMThetaep.pdf>
-Package pdftex.def Info: VPlots/P2/xPMThetaep.pdf used on input line 2627.
+Package pdftex.def Info: VPlots/P2/xPMThetaep.pdf used on input line 2747.
 (pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
 
-[109
+[113
 
 ]
 File: VPlots/P2/xPMThetaem.pdf Graphic file (type pdf)
  <use VPlots/P2/xPMThetaem.pdf>
-Package pdftex.def Info: VPlots/P2/xPMThetaem.pdf used on input line 2627.
+Package pdftex.def Info: VPlots/P2/xPMThetaem.pdf used on input line 2747.
 (pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
 File: VPlots/P2/xPMThetaep.pdf Graphic file (type pdf)
  <use VPlots/P2/xPMThetaep.pdf>
-Package pdftex.def Info: VPlots/P2/xPMThetaep.pdf used on input line 2627.
-(pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
- [110
-
-]
-File: VPlots/P2/xPMThetaem.pdf Graphic file (type pdf)
-
-<use VPlots/P2/xPMThetaem.pdf>
-Package pdftex.def Info: VPlots/P2/xPMThetaem.pdf used on input line 2627.
-(pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
-File: VPlots/P2/xPMThetaep.pdf Graphic file (type pdf)
- <use VPlots/P2/xPMThetaep.pdf>
-Package pdftex.def Info: VPlots/P2/xPMThetaep.pdf used on input line 2627.
-(pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
- [111
-
-]
-File: VPlots/P2/xPMThetaem.pdf Graphic file (type pdf)
-
-<use VPlots/P2/xPMThetaem.pdf>
-Package pdftex.def Info: VPlots/P2/xPMThetaem.pdf used on input line 2627.
-(pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
-File: VPlots/P2/xPMThetaep.pdf Graphic file (type pdf)
- <use VPlots/P2/xPMThetaep.pdf>
-Package pdftex.def Info: VPlots/P2/xPMThetaep.pdf used on input line 2627.
-(pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
- [112
-
-]
-File: VPlots/P2/xPMThetaem.pdf Graphic file (type pdf)
-
-<use VPlots/P2/xPMThetaem.pdf>
-Package pdftex.def Info: VPlots/P2/xPMThetaem.pdf used on input line 2627.
-(pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
-File: VPlots/P2/xPMThetaep.pdf Graphic file (type pdf)
- <use VPlots/P2/xPMThetaep.pdf>
-Package pdftex.def Info: VPlots/P2/xPMThetaep.pdf used on input line 2627.
-(pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
- [113
-
-]
-File: VPlots/P2/xPMThetaem.pdf Graphic file (type pdf)
-
-<use VPlots/P2/xPMThetaem.pdf>
-Package pdftex.def Info: VPlots/P2/xPMThetaem.pdf used on input line 2627.
-(pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
-File: VPlots/P2/xPMThetaep.pdf Graphic file (type pdf)
- <use VPlots/P2/xPMThetaep.pdf>
-Package pdftex.def Info: VPlots/P2/xPMThetaep.pdf used on input line 2627.
+Package pdftex.def Info: VPlots/P2/xPMThetaep.pdf used on input line 2747.
 (pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
  [114
 
@@ -2717,11 +2632,11 @@ Package pdftex.def Info: VPlots/P2/xPMThetaep.pdf used on input line 2627.
 File: VPlots/P2/xPMThetaem.pdf Graphic file (type pdf)
 
 <use VPlots/P2/xPMThetaem.pdf>
-Package pdftex.def Info: VPlots/P2/xPMThetaem.pdf used on input line 2627.
+Package pdftex.def Info: VPlots/P2/xPMThetaem.pdf used on input line 2747.
 (pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
 File: VPlots/P2/xPMThetaep.pdf Graphic file (type pdf)
  <use VPlots/P2/xPMThetaep.pdf>
-Package pdftex.def Info: VPlots/P2/xPMThetaep.pdf used on input line 2627.
+Package pdftex.def Info: VPlots/P2/xPMThetaep.pdf used on input line 2747.
 (pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
  [115
 
@@ -2729,11 +2644,11 @@ Package pdftex.def Info: VPlots/P2/xPMThetaep.pdf used on input line 2627.
 File: VPlots/P2/xPMThetaem.pdf Graphic file (type pdf)
 
 <use VPlots/P2/xPMThetaem.pdf>
-Package pdftex.def Info: VPlots/P2/xPMThetaem.pdf used on input line 2627.
+Package pdftex.def Info: VPlots/P2/xPMThetaem.pdf used on input line 2747.
 (pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
 File: VPlots/P2/xPMThetaep.pdf Graphic file (type pdf)
  <use VPlots/P2/xPMThetaep.pdf>
-Package pdftex.def Info: VPlots/P2/xPMThetaep.pdf used on input line 2627.
+Package pdftex.def Info: VPlots/P2/xPMThetaep.pdf used on input line 2747.
 (pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
  [116
 
@@ -2741,11 +2656,11 @@ Package pdftex.def Info: VPlots/P2/xPMThetaep.pdf used on input line 2627.
 File: VPlots/P2/xPMThetaem.pdf Graphic file (type pdf)
 
 <use VPlots/P2/xPMThetaem.pdf>
-Package pdftex.def Info: VPlots/P2/xPMThetaem.pdf used on input line 2627.
+Package pdftex.def Info: VPlots/P2/xPMThetaem.pdf used on input line 2747.
 (pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
 File: VPlots/P2/xPMThetaep.pdf Graphic file (type pdf)
  <use VPlots/P2/xPMThetaep.pdf>
-Package pdftex.def Info: VPlots/P2/xPMThetaep.pdf used on input line 2627.
+Package pdftex.def Info: VPlots/P2/xPMThetaep.pdf used on input line 2747.
 (pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
  [117
 
@@ -2753,11 +2668,11 @@ Package pdftex.def Info: VPlots/P2/xPMThetaep.pdf used on input line 2627.
 File: VPlots/P2/xPMThetaem.pdf Graphic file (type pdf)
 
 <use VPlots/P2/xPMThetaem.pdf>
-Package pdftex.def Info: VPlots/P2/xPMThetaem.pdf used on input line 2627.
+Package pdftex.def Info: VPlots/P2/xPMThetaem.pdf used on input line 2747.
 (pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
 File: VPlots/P2/xPMThetaep.pdf Graphic file (type pdf)
  <use VPlots/P2/xPMThetaep.pdf>
-Package pdftex.def Info: VPlots/P2/xPMThetaep.pdf used on input line 2627.
+Package pdftex.def Info: VPlots/P2/xPMThetaep.pdf used on input line 2747.
 (pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
  [118
 
@@ -2765,11 +2680,11 @@ Package pdftex.def Info: VPlots/P2/xPMThetaep.pdf used on input line 2627.
 File: VPlots/P2/xPMThetaem.pdf Graphic file (type pdf)
 
 <use VPlots/P2/xPMThetaem.pdf>
-Package pdftex.def Info: VPlots/P2/xPMThetaem.pdf used on input line 2627.
+Package pdftex.def Info: VPlots/P2/xPMThetaem.pdf used on input line 2747.
 (pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
 File: VPlots/P2/xPMThetaep.pdf Graphic file (type pdf)
  <use VPlots/P2/xPMThetaep.pdf>
-Package pdftex.def Info: VPlots/P2/xPMThetaep.pdf used on input line 2627.
+Package pdftex.def Info: VPlots/P2/xPMThetaep.pdf used on input line 2747.
 (pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
  [119
 
@@ -2777,121 +2692,169 @@ Package pdftex.def Info: VPlots/P2/xPMThetaep.pdf used on input line 2627.
 File: VPlots/P2/xPMThetaem.pdf Graphic file (type pdf)
 
 <use VPlots/P2/xPMThetaem.pdf>
-Package pdftex.def Info: VPlots/P2/xPMThetaem.pdf used on input line 2627.
+Package pdftex.def Info: VPlots/P2/xPMThetaem.pdf used on input line 2747.
 (pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
 File: VPlots/P2/xPMThetaep.pdf Graphic file (type pdf)
  <use VPlots/P2/xPMThetaep.pdf>
-Package pdftex.def Info: VPlots/P2/xPMThetaep.pdf used on input line 2627.
+Package pdftex.def Info: VPlots/P2/xPMThetaep.pdf used on input line 2747.
 (pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
  [120
 
-] [121
+]
+File: VPlots/P2/xPMThetaem.pdf Graphic file (type pdf)
+
+<use VPlots/P2/xPMThetaem.pdf>
+Package pdftex.def Info: VPlots/P2/xPMThetaem.pdf used on input line 2747.
+(pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
+File: VPlots/P2/xPMThetaep.pdf Graphic file (type pdf)
+ <use VPlots/P2/xPMThetaep.pdf>
+Package pdftex.def Info: VPlots/P2/xPMThetaep.pdf used on input line 2747.
+(pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
+ [121
 
 ]
-<VPlots/P2/xPtMPhiemFC.pdf, id=4922, 569.12625pt x 556.0775pt>
+File: VPlots/P2/xPMThetaem.pdf Graphic file (type pdf)
+
+<use VPlots/P2/xPMThetaem.pdf>
+Package pdftex.def Info: VPlots/P2/xPMThetaem.pdf used on input line 2747.
+(pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
+File: VPlots/P2/xPMThetaep.pdf Graphic file (type pdf)
+ <use VPlots/P2/xPMThetaep.pdf>
+Package pdftex.def Info: VPlots/P2/xPMThetaep.pdf used on input line 2747.
+(pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
+ [122
+
+]
+File: VPlots/P2/xPMThetaem.pdf Graphic file (type pdf)
+
+<use VPlots/P2/xPMThetaem.pdf>
+Package pdftex.def Info: VPlots/P2/xPMThetaem.pdf used on input line 2747.
+(pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
+File: VPlots/P2/xPMThetaep.pdf Graphic file (type pdf)
+ <use VPlots/P2/xPMThetaep.pdf>
+Package pdftex.def Info: VPlots/P2/xPMThetaep.pdf used on input line 2747.
+(pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
+ [123
+
+]
+File: VPlots/P2/xPMThetaem.pdf Graphic file (type pdf)
+
+<use VPlots/P2/xPMThetaem.pdf>
+Package pdftex.def Info: VPlots/P2/xPMThetaem.pdf used on input line 2747.
+(pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
+File: VPlots/P2/xPMThetaep.pdf Graphic file (type pdf)
+ <use VPlots/P2/xPMThetaep.pdf>
+Package pdftex.def Info: VPlots/P2/xPMThetaep.pdf used on input line 2747.
+(pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
+ [124
+
+] [125
+
+]
+<VPlots/P2/xPtMPhiemFC.pdf, id=5983, 569.12625pt x 556.0775pt>
 File: VPlots/P2/xPtMPhiemFC.pdf Graphic file (type pdf)
 
 <use VPlots/P2/xPtMPhiemFC.pdf>
-Package pdftex.def Info: VPlots/P2/xPtMPhiemFC.pdf used on input line 2692.
-(pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
- [122
-
- <./VPlots/P2/xPtMPhiemFC.pdf, page is rotated 90 degrees>]
-<VPlots/P2/xPtMPhiemBarrel.pdf, id=4972, 569.12625pt x 556.0775pt>
-File: VPlots/P2/xPtMPhiemBarrel.pdf Graphic file (type pdf)
-
-<use VPlots/P2/xPtMPhiemBarrel.pdf>
-Package pdftex.def Info: VPlots/P2/xPtMPhiemBarrel.pdf used on input line 2735.
-
-(pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
-
-<VPlots/P2/xPtMPhiepBarrel.pdf, id=4973, 569.12625pt x 556.0775pt>
-File: VPlots/P2/xPtMPhiepBarrel.pdf Graphic file (type pdf)
-
-<use VPlots/P2/xPtMPhiepBarrel.pdf>
-Package pdftex.def Info: VPlots/P2/xPtMPhiepBarrel.pdf used on input line 2735.
-
-(pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
- [123
-
- <./VPlots/P2/xPtMPhiemBarrel.pdf, page is rotated 90 degrees> <./VPlots/P2/xPt
-MPhiepBarrel.pdf, page is rotated 90 degrees>] <VPlots/P2/xPtMPhiepEC.pdf, id=5
-065, 569.12625pt x 556.0775pt>
-File: VPlots/P2/xPtMPhiepEC.pdf Graphic file (type pdf)
-
-<use VPlots/P2/xPtMPhiepEC.pdf>
-Package pdftex.def Info: VPlots/P2/xPtMPhiepEC.pdf used on input line 2780.
-(pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
- [124
-
- <./VPlots/P2/xPtMPhiepEC.pdf, page is rotated 90 degrees>]
-<VPlots/P2/xPtMThetaem.pdf, id=5114, 569.12625pt x 641.39626pt>
-File: VPlots/P2/xPtMThetaem.pdf Graphic file (type pdf)
-
-<use VPlots/P2/xPtMThetaem.pdf>
-Package pdftex.def Info: VPlots/P2/xPtMThetaem.pdf used on input line 2823.
-(pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
-
-<VPlots/P2/xPtMThetaep.pdf, id=5115, 569.12625pt x 641.39626pt>
-File: VPlots/P2/xPtMThetaep.pdf Graphic file (type pdf)
-
-<use VPlots/P2/xPtMThetaep.pdf>
-Package pdftex.def Info: VPlots/P2/xPtMThetaep.pdf used on input line 2823.
-(pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
- [125
-
- <./VPlots/P2/xPtMThetaem.pdf> <./VPlots/P2/xPtMThetaep.pdf>]
-<VPlots/P3/xPtMPhiemFCP3.pdf, id=5208, 569.12625pt x 556.0775pt>
-File: VPlots/P3/xPtMPhiemFCP3.pdf Graphic file (type pdf)
-
-<use VPlots/P3/xPtMPhiemFCP3.pdf>
-Package pdftex.def Info: VPlots/P3/xPtMPhiemFCP3.pdf used on input line 2888.
+Package pdftex.def Info: VPlots/P2/xPtMPhiemFC.pdf used on input line 2812.
 (pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
  [126
 
- <./VPlots/P3/xPtMPhiemFCP3.pdf, page is rotated 90 degrees>]
-<VPlots/P3/xPtMPhiemBarrelP3.pdf, id=5257, 569.12625pt x 556.0775pt>
-File: VPlots/P3/xPtMPhiemBarrelP3.pdf Graphic file (type pdf)
+ <./VPlots/P2/xPtMPhiemFC.pdf, page is rotated 90 degrees>]
+<VPlots/P2/xPtMPhiemBarrel.pdf, id=6032, 569.12625pt x 556.0775pt>
+File: VPlots/P2/xPtMPhiemBarrel.pdf Graphic file (type pdf)
 
-<use VPlots/P3/xPtMPhiemBarrelP3.pdf>
-Package pdftex.def Info: VPlots/P3/xPtMPhiemBarrelP3.pdf used on input line 293
-1.
+<use VPlots/P2/xPtMPhiemBarrel.pdf>
+Package pdftex.def Info: VPlots/P2/xPtMPhiemBarrel.pdf used on input line 2855.
+
 (pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
 
-<VPlots/P3/xPtMPhiepBarrelP3.pdf, id=5258, 569.12625pt x 556.0775pt>
-File: VPlots/P3/xPtMPhiepBarrelP3.pdf Graphic file (type pdf)
+<VPlots/P2/xPtMPhiepBarrel.pdf, id=6033, 569.12625pt x 556.0775pt>
+File: VPlots/P2/xPtMPhiepBarrel.pdf Graphic file (type pdf)
 
-<use VPlots/P3/xPtMPhiepBarrelP3.pdf>
-Package pdftex.def Info: VPlots/P3/xPtMPhiepBarrelP3.pdf used on input line 293
-1.
+<use VPlots/P2/xPtMPhiepBarrel.pdf>
+Package pdftex.def Info: VPlots/P2/xPtMPhiepBarrel.pdf used on input line 2855.
+
 (pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
  [127
 
- <./VPlots/P3/xPtMPhiemBarrelP3.pdf, page is rotated 90 degrees> <./VPlots/P3/x
-PtMPhiepBarrelP3.pdf, page is rotated 90 degrees>] <VPlots/P3/xPtMPhiepECP3.pdf
-, id=5351, 569.12625pt x 556.0775pt>
-File: VPlots/P3/xPtMPhiepECP3.pdf Graphic file (type pdf)
+ <./VPlots/P2/xPtMPhiemBarrel.pdf, page is rotated 90 degrees> <./VPlots/P2/xPt
+MPhiepBarrel.pdf, page is rotated 90 degrees>] <VPlots/P2/xPtMPhiepEC.pdf, id=6
+127, 569.12625pt x 556.0775pt>
+File: VPlots/P2/xPtMPhiepEC.pdf Graphic file (type pdf)
 
-<use VPlots/P3/xPtMPhiepECP3.pdf>
-Package pdftex.def Info: VPlots/P3/xPtMPhiepECP3.pdf used on input line 2976.
+<use VPlots/P2/xPtMPhiepEC.pdf>
+Package pdftex.def Info: VPlots/P2/xPtMPhiepEC.pdf used on input line 2900.
 (pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
  [128
 
+ <./VPlots/P2/xPtMPhiepEC.pdf, page is rotated 90 degrees>]
+<VPlots/P2/xPtMThetaem.pdf, id=6176, 569.12625pt x 641.39626pt>
+File: VPlots/P2/xPtMThetaem.pdf Graphic file (type pdf)
+
+<use VPlots/P2/xPtMThetaem.pdf>
+Package pdftex.def Info: VPlots/P2/xPtMThetaem.pdf used on input line 2943.
+(pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
+
+<VPlots/P2/xPtMThetaep.pdf, id=6177, 569.12625pt x 641.39626pt>
+File: VPlots/P2/xPtMThetaep.pdf Graphic file (type pdf)
+
+<use VPlots/P2/xPtMThetaep.pdf>
+Package pdftex.def Info: VPlots/P2/xPtMThetaep.pdf used on input line 2943.
+(pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
+ [129
+
+ <./VPlots/P2/xPtMThetaem.pdf> <./VPlots/P2/xPtMThetaep.pdf>]
+<VPlots/P3/xPtMPhiemFCP3.pdf, id=6269, 569.12625pt x 556.0775pt>
+File: VPlots/P3/xPtMPhiemFCP3.pdf Graphic file (type pdf)
+
+<use VPlots/P3/xPtMPhiemFCP3.pdf>
+Package pdftex.def Info: VPlots/P3/xPtMPhiemFCP3.pdf used on input line 3008.
+(pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
+ [130
+
+ <./VPlots/P3/xPtMPhiemFCP3.pdf, page is rotated 90 degrees>]
+<VPlots/P3/xPtMPhiemBarrelP3.pdf, id=6319, 569.12625pt x 556.0775pt>
+File: VPlots/P3/xPtMPhiemBarrelP3.pdf Graphic file (type pdf)
+
+<use VPlots/P3/xPtMPhiemBarrelP3.pdf>
+Package pdftex.def Info: VPlots/P3/xPtMPhiemBarrelP3.pdf used on input line 305
+1.
+(pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
+
+<VPlots/P3/xPtMPhiepBarrelP3.pdf, id=6320, 569.12625pt x 556.0775pt>
+File: VPlots/P3/xPtMPhiepBarrelP3.pdf Graphic file (type pdf)
+
+<use VPlots/P3/xPtMPhiepBarrelP3.pdf>
+Package pdftex.def Info: VPlots/P3/xPtMPhiepBarrelP3.pdf used on input line 305
+1.
+(pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
+ [131
+
+ <./VPlots/P3/xPtMPhiemBarrelP3.pdf, page is rotated 90 degrees> <./VPlots/P3/x
+PtMPhiepBarrelP3.pdf, page is rotated 90 degrees>] <VPlots/P3/xPtMPhiepECP3.pdf
+, id=6412, 569.12625pt x 556.0775pt>
+File: VPlots/P3/xPtMPhiepECP3.pdf Graphic file (type pdf)
+
+<use VPlots/P3/xPtMPhiepECP3.pdf>
+Package pdftex.def Info: VPlots/P3/xPtMPhiepECP3.pdf used on input line 3096.
+(pdftex.def)             Requested size: 184.9429pt x 180.70607pt.
+ [132
+
  <./VPlots/P3/xPtMPhiepECP3.pdf, page is rotated 90 degrees>]
-<VPlots/P3/xPtMThetaemP3.pdf, id=5401, 569.12625pt x 641.39626pt>
+<VPlots/P3/xPtMThetaemP3.pdf, id=6461, 569.12625pt x 641.39626pt>
 File: VPlots/P3/xPtMThetaemP3.pdf Graphic file (type pdf)
 
 <use VPlots/P3/xPtMThetaemP3.pdf>
-Package pdftex.def Info: VPlots/P3/xPtMThetaemP3.pdf used on input line 3019.
+Package pdftex.def Info: VPlots/P3/xPtMThetaemP3.pdf used on input line 3139.
 (pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
 
-<VPlots/P3/xPtMThetaepP3.pdf, id=5402, 569.12625pt x 641.39626pt>
+<VPlots/P3/xPtMThetaepP3.pdf, id=6462, 569.12625pt x 641.39626pt>
 File: VPlots/P3/xPtMThetaepP3.pdf Graphic file (type pdf)
 
 <use VPlots/P3/xPtMThetaepP3.pdf>
-Package pdftex.def Info: VPlots/P3/xPtMThetaepP3.pdf used on input line 3019.
+Package pdftex.def Info: VPlots/P3/xPtMThetaepP3.pdf used on input line 3139.
 (pdftex.def)             Requested size: 184.9429pt x 208.43173pt.
- [129
+ [133
 
  <./VPlots/P3/xPtMThetaemP3.pdf> <./VPlots/P3/xPtMThetaepP3.pdf>]
 \tf@nav=\write8
@@ -2903,11 +2866,11 @@ Package pdftex.def Info: VPlots/P3/xPtMThetaepP3.pdf used on input line 3019.
 \tf@snm=\write10
 \openout10 = `BhabhaEfficiency_MartinSobotzik.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3025.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 3025.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3145.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 3145.
  (./BhabhaEfficiency_MartinSobotzik.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3025.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3025.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3145.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3145.
 
 Package rerunfilecheck Info: File `BhabhaEfficiency_MartinSobotzik.out' has not
  changed.
@@ -2922,10 +2885,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 45691 strings out of 494852
- 1071037 string characters out of 6177656
- 1531932 words of memory out of 5000000
- 47876 multiletter control sequences out of 15000+600000
+ 45752 strings out of 494852
+ 1072480 string characters out of 6177656
+ 1532371 words of memory out of 5000000
+ 47924 multiletter control sequences out of 15000+600000
  15149 words of font info for 55 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  71i,13n,103p,10490b,1570s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2933,24 +2896,27 @@ Here is how much of TeX's memory you used:
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
-10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on BhabhaEfficiency_MartinSobotzik.pdf (129 pages, 11748996 byte
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/latxfont/line10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/symbols/msam10.pfb>
+Output written on BhabhaEfficiency_MartinSobotzik.pdf (133 pages, 21214574 byte
 s).
 PDF statistics:
- 5616 PDF objects out of 6186 (max. 8388607)
- 3303 compressed objects within 34 object streams
- 270 named destinations out of 1000 (max. 500000)
- 602 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6688 PDF objects out of 7423 (max. 8388607)
+ 3984 compressed objects within 40 object streams
+ 278 named destinations out of 1000 (max. 500000)
+ 637 words of extra memory for PDF output out of 10000 (max. 10000000)
 
