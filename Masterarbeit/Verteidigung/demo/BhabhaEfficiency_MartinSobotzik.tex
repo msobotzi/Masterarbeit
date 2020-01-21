@@ -131,7 +131,7 @@
 		\item Kinematics at Belle II
 		\item Method for calculating the tracking efficiency
 		\item Tracking efficiency
-		\item Comparing the tracking efficiency of different phases
+		\item Comparing the tracking efficiency of different phases of the data taking
 		\item Conclusion
 		
 		
@@ -144,9 +144,9 @@
 	\begin{textblock*}{11cm}(0cm,-3cm)
 		
 	\begin{itemize}
-		\item At an electron-positron collider most events are $\textrm{e}^+ \textrm{e}- \rightarrow\textrm{e}^+ \textrm{e}- $ (these events are called Bhabha events)
-		\item These events can be used to estimate the performance of the tracking detectors
-		\item If the \textit{tag} particle in a Bhabha event is associated with a track than the \textit{probe} particle also should have a track associated 
+		\item At an electron-positron collider most events are $\textrm{e}^+ \textrm{e}^- \rightarrow\textrm{e}^+ \textrm{e}^- $ (these events are called Bhabha events)
+		\item These events have 2 charged particles in the final state, and can therefore be used to estimate the performance of the detectors
+		\item If one particle (tag particle) in a Bhabha event is associated with a track than the other particle (probe particle)  should have a track associated, too 
 		
 		$\rightarrow$ a tracking efficiency can be calculated
 		\item Knowing the tracking efficiency is highly important for analysis 
@@ -192,8 +192,8 @@
 		
 		
 		\item<4-> $\rightarrow$ Luminosity increase x40
-		\item<5-> Design peak luminosity of $8\cdot 10^{35}\,\textrm{cm}^{-2}\textrm{s}^{-1}$
-		\item<5-> Desired data sample corresponding to a recorded integrated luminosity of $\sim 50\,\textrm{ab}^{-1}$ (50x the integrated luminosity of Belle)
+		\item<4-> Design peak luminosity of $8\cdot 10^{35}\,\textrm{cm}^{-2}\textrm{s}^{-1}$
+		\item<4-> Desired data sample corresponding to a recorded integrated luminosity of $\sim 50\,\textrm{ab}^{-1}$ (50x the integrated luminosity of Belle)
 		
 		
 		\end{itemize}
@@ -258,7 +258,6 @@
 
 \begin{figure}
 	\includegraphics[width=\textwidth]<1>{VBilder/Belle2.pdf}
-	\includegraphics[width=\textwidth]<2>{VBilder/belleR}
 \end{figure}
 
 
@@ -268,7 +267,7 @@
 \begin{frame}{Vertex Detectors (VXD)}
 	
 	
-		\begin{textblock*}{6cm}(2.5cm,-1.1cm)
+		\begin{textblock*}{6cm}(2.5cm,-.7cm)
 		\begin{figure}
 			\includegraphics[width=6.5cm]<1>{VBilder/PXD_SVD}
 		\end{figure}
@@ -280,12 +279,12 @@
 	
 	
 	
-	\begin{textblock*}{5cm}(0.cm,1cm)
+	\begin{textblock*}{5cm}(0.cm,1.2cm)
 		\includegraphics[width=\textwidth]<2>{VBilder/VXD_phaseII}
 	\end{textblock*}
 	
 	
-		\begin{textblock*}{4cm}(6.5cm,0cm)
+		\begin{textblock*}{4cm}(6.5cm,0.2cm)
 		\includegraphics[width=\textwidth]<2>{VBilder/phase3pxd}
 	\end{textblock*}
 	
@@ -298,19 +297,19 @@
 	
 			\begin{itemize}
 				\item Consist of Pixel Detector (PXD) and Silicon Vertex Detector (SVD)
-				\item Both detectors consist of multiple ladders in multiple layers (2 PXD with radii of $14$ and $22\,\textrm{mm}$ and 4 SVD with radii of 38, 80, 115 and $140\,\textrm{mm}$)
+				\item Both detectors consist of multiple ladders organized in multiple layers (2 layer of PXD with radii of $14$ and $22\,\textrm{mm}$, and 4 layers of SVD with radii of 39, 80, 104 and $135\,\textrm{mm}$)
 				\item Charged particles create electron-hole pairs, which are separated by an electric field
 				\item[] $\rightarrow$ particle position can be determined
 			\end{itemize}
 		\end{textblock*}
-	\begin{textblock*}{5cm}(-0cm,-.8cm)
+	\begin{textblock*}{5cm}(-0cm,-.6cm)
 		\begin{itemize}
 	
 				\item<2> During phase2, only a fraction of the VXD detectors were installed
 				
 			\end{itemize}
 			\end{textblock*}
-		\begin{textblock*}{5cm}(5.5cm,-.8cm)
+		\begin{textblock*}{5cm}(5.5cm,-.6cm)
 \begin{itemize}
 	
 
@@ -318,7 +317,7 @@
 
 			\end{itemize}
 			\end{textblock*}
-\begin{textblock*}{11cm}(-0.2cm,3.4cm)
+\begin{textblock*}{11cm}(-0.2cm,3.6cm)
 	\begin{center}
 		
 	\begin{itemize}
@@ -502,7 +501,7 @@
 
 
 
-\section{Preparation For Calculating The Tracking Efficiency}
+\section{Method For Calculating The Tracking Efficiency}
 
 
 
@@ -557,7 +556,7 @@
 	
 	\begin{itemize}
 		\item[]
-		\item The particles have to pass the tracking detectors
+		\item The particles have to be inside the tracking detectors acceptance
 		\item[] $\rightarrow$ $17.0^{\circ} < \theta_{\textrm{ECL-Object}} < 150.0^{\circ}$
 
 	\end{itemize}	
@@ -611,7 +610,7 @@
 	
 	\begin{textblock*}{1\textwidth}(0cm,-0.2cm)
 		\centering
-		\includegraphics[width=\textwidth]<1>{VBilder/hb2b_MCP3.pdf}
+		\includegraphics[width=\textwidth]<2>{VBilder/hb2b_MCP3.pdf}
 	\end{textblock*}
 	
 	
@@ -624,7 +623,7 @@
 	
 		\begin{textblock*}{1\textwidth}(0cm,-0.2cm)
 		\centering
-		\includegraphics[width=\textwidth]<2>{VBilder/hb2b_DataP3.pdf}
+		\includegraphics[width=\textwidth]<1>{VBilder/hb2b_DataP3.pdf}
 	\end{textblock*}
 	
 	
@@ -638,13 +637,16 @@
 	
 	
 	\begin{textblock*}{8cm}(1cm,3.8cm)
-		\textcolor{red}{Phase3 MC}: 852093 events survive
-		
+		\textcolor{blue}{Phase3 Data}: $5.3\cdot 10^7$ events survive (after trigger cut)
 		\pause[2]
 		
-		\textcolor{blue}{Phase3 Data}: $5.3\cdot 10^7$ events survive (after trigger cut)
+		\textcolor{red}{Phase3 MC}: $8.5\cdot 10^5$ events survive
+		
+
+		
+
 	\end{textblock*}
-	
+	\pause[1]
 	\begin{textblock*}{3.5cm}(8cm,0cm)
 		\begin{mybox}
 			There is no trigger cut in these plots
@@ -696,7 +698,7 @@
 	
 	
 	\begin{textblock*}{6.5cm}(5cm,-4cm)
-		\includegraphics[width=\textwidth]<1>{VPlots/empty}
+		\includegraphics[width=\textwidth]<1>{VPlots/empty.pdf}
 	\end{textblock*}
 	
 	
@@ -769,18 +771,18 @@
 	
 	
 	\begin{textblock*}{9cm}(1cm,-4cm)
-		\includegraphics[width=\textwidth]<1>{VPlots/P3/xCEffTP_MCDataP3}
+		\includegraphics[width=\textwidth]<1,2,5>{VPlots/P3/xCEffTP_MCDataP3}
 		
-		\includegraphics[width=\textwidth]<2>{VPlots/P3/xCEffTP_MCDataP3em}
-		\includegraphics[width=\textwidth]<4>{VPlots/P3/xCEffTP_MCDataP3ep}
+		%\includegraphics[width=\textwidth]<2>{VPlots/P3/xCEffTP_MCDataP3em}
+		%\includegraphics[width=\textwidth]<5>{VPlots/P3/xCEffTP_MCDataP3ep}
 	\end{textblock*}
 	
 	\begin{textblock*}{2cm}(0cm,-2cm)
-		\only<1,2>{$\textrm{e}^-$}
+		\only<1,2,5>{$\textrm{e}^-$}
 	\end{textblock*}
 	
 	\begin{textblock*}{2cm}(0cm,2.3cm)
-		\only<1,4>{$\textrm{e}^+$}
+		\only<1,2,5>{$\textrm{e}^+$}
 	\end{textblock*}
 	
 	
@@ -793,23 +795,46 @@
 	\end{textblock*}
 	
 	
+		\begin{textblock*}{11cm}(1.cm,-3.65cm)
+		\begin{tikzpicture}
+		\only<2>{
+			\draw[line width=0.5mm,winered] (0cm,0cm) rectangle (8.7,4);
+		}
+		\end{tikzpicture}
+	\end{textblock*}
+	
+	
+	
+			\begin{textblock*}{11cm}(1.cm,0.65cm)
+		\begin{tikzpicture}
+		\only<5>{
+			\draw[line width=0.5mm,winered] (0cm,0cm) rectangle (8.7,4);
+		}
+		\end{tikzpicture}
+	\end{textblock*}
+	
+	
+	
+	
 	
 	
 	\begin{textblock*}{7cm}(2cm,-4.cm)
 		\includegraphics[width=\textwidth]<3>{VPlots/P3/xCEffTP_DataemP3}
+		\includegraphics[width=\textwidth]<4>{VPlots/P3/xCEffTP_MCemP3}
 	\end{textblock*}
 	
 	
 		
 	\begin{textblock*}{7cm}(2cm,-4.cm)
-		\includegraphics[width=\textwidth]<5>{VPlots/P3/xCEffTP_DataepP3}
+		\includegraphics[width=\textwidth]<6>{VPlots/P3/xCEffTP_DataepP3}
+		\includegraphics[width=\textwidth]<7>{VPlots/P3/xCEffTP_MCepP3}
 	\end{textblock*}
 	
 	
 	
 	
 	\begin{textblock*}{8cm}(1.5cm,2.8cm)
-		\only<3>{
+		\only<3,4>{
 			
 			\begin{mybox}
 				For phase3 data there are electron tracking efficiency drops in the forward end-cap and in the barrel
@@ -823,7 +848,7 @@
 	
 	
 		\begin{textblock*}{8cm}(1.5cm,2.8cm)
-		\only<5>{
+		\only<6,7>{
 			
 			\begin{mybox}
 				The same kind of drops are also visible in the positron tracking efficiency in the backward end-cap 				
@@ -841,6 +866,28 @@
 			{\small $\Delta \epsilon < 0.4$}
 		\end{mybox}
 	\end{textblock*}
+	
+	
+	
+	\only<3,6>{
+	
+	\begin{textblock*}{4cm}(-0.5cm,-3cm)
+		\textcolor{blue}{Phase3 Data}
+	\end{textblock*}
+}
+	\only<4,7>{
+	
+	\begin{textblock*}{4cm}(-0.5cm,-3cm)
+		\textcolor{red}{Phase3 MC}
+	\end{textblock*}
+
+
+}
+	
+	
+	
+	
+	
 	
 	
 	
@@ -1710,48 +1757,35 @@
 		\begin{mybox}
 			Electron Tracking Efficiency:
 			\begin{itemize}
-				\item The tracking efficiency improved over almost all $\phi_{\textrm{pred,b2b}}$ (exception occurs for $\phi_{\textrm{pred,b2b}} \approx 1$ for momenta between $4\,\textrm{GeV}$ and $5\,\textrm{GeV}$)
+				\item The tracking efficiency improved for all $\phi_{\textrm{pred,b2b}}$
 				
-				\item<3-> The tracking efficiency improved drastically for momenta between $6\,\textrm{GeV}$ and $7\,\textrm{GeV}$
-				\item<4-> No efficiency drops for momenta between $7\,\textrm{GeV}$ and $8\,\textrm{GeV}$ in the phase3 data tracking efficiency
+				\item<2-> The tracking efficiency improved drastically for momenta between $6\,\textrm{GeV}$ and $7\,\textrm{GeV}$
+				\item<3-> No efficiency drops for momenta between $7\,\textrm{GeV}$ and $8\,\textrm{GeV}$ in the phase3 data tracking efficiency
 			\end{itemize}
 		\end{mybox}
 	\end{textblock*}
 	
 		
-	\begin{textblock*}{5cm}(0.7cm,-2.1cm)
-		\begin{tikzpicture}
-		\only<2>{
-			\draw[line width=0.5mm,winered] \boundellipse{2cm,0cm}{0.4cm}{0.3cm};
-		}
-		\end{tikzpicture}
-	\end{textblock*}	
+
 	
 	
 	
 	
 		\begin{textblock*}{5cm}(-0.7cm,.10cm)
 		\begin{tikzpicture}
-		\only<3>{
+		\only<2>{
 			\draw[line width=0.5mm,winered] \boundellipse{2cm,0cm}{1.5cm}{1.5cm};
 		}
 		\end{tikzpicture}
 	\end{textblock*}
 	
 	
-\begin{textblock*}{5cm}(-0.7cm,.10cm)
-	\begin{tikzpicture}
-	\only<3>{
-		\draw[line width=0.5mm,winered] \boundellipse{2cm,0cm}{1.5cm}{1.5cm};
-	}
-	\end{tikzpicture}
-\end{textblock*}	
 	
 	
 		
 	\begin{textblock*}{5cm}(3.1cm,.30cm)
 		\begin{tikzpicture}
-		\only<4>{
+		\only<3>{
 			\draw[line width=0.5mm,winered] \boundellipse{3cm,0cm}{1.cm}{.6cm};
 		}
 		\end{tikzpicture}
@@ -1761,7 +1795,7 @@
 	
 	
 
-	\pause[5]
+	\pause[4]
 	
 \end{frame}
 
